@@ -1,0 +1,20 @@
+{
+  "uiSpec": {
+    "minds1.0": {
+      "core": {
+        "subject": {
+          "label": "Subject",
+          "fields": [
+            {
+              "label": "Name",
+              "type": "InputText",
+              "key": "http://schema.org/name",
+              "uiDirective": {
+                "labelTooltip": ""
+              }
+            }
+          ]
+        }
+      }
+    }
+}
