@@ -96,61 +96,63 @@
                     "type": "Nested",
                     "label": "Minimum",
                     "fields": [
-                    {
-                      "key": "https://schema.hbp.eu/uniminds/ageNumerical",
-                      "type": "InputText",
-                      "label": "Numerical Age",
-                      "uiDirective": {
-                        "inputType": "number"
+                      {
+                        "key": "https://schema.hbp.eu/uniminds/ageNumerical",
+                        "type": "InputText",
+                        "label": "Numerical Age",
+                        "uiDirective": {
+                          "inputType": "number"
+                        },
                       },
-                    },
-                    {
-                      "key": "https://schema.hbp.eu/uniminds/ageUnit",
-                      "type": "Select",
-                      "closeDropdownAfterInteraction": true,
-                      "label": "Age Unit",
-                      "options": [
-                        "years",
-                        "months",
-                        "weeks",
-                        "days",
-                        "hours",
-                        "minutes",
-                        "seconds"
-                      ],
-                      "allowCustomValues": false
-                    },
+                      {
+                        "key": "https://schema.hbp.eu/uniminds/ageUnit",
+                        "type": "Select",
+                        "closeDropdownAfterInteraction": true,
+                        "label": "Age Unit",
+                        "options": [
+                          "years",
+                          "months",
+                          "weeks",
+                          "days",
+                          "hours",
+                          "minutes",
+                          "seconds"
+                        ],
+                        "allowCustomValues": false
+                      }
+                    ]
                   },
                   {
                     "key": "https://schema.hbp.eu/uniminds/ageRangeMax",
                     "type": "Nested",
                     "label": "Maximum",
                     "fields": [
-                    {
-                      "key": "https://schema.hbp.eu/uniminds/ageNumerical",
-                      "type": "InputText",
-                      "label": "Numerical Age",
-                      "uiDirective": {
-                        "inputType": "number"
+                      {
+                        "key": "https://schema.hbp.eu/uniminds/ageNumerical",
+                        "type": "InputText",
+                        "label": "Numerical Age",
+                        "uiDirective": {
+                          "inputType": "number"
+                        },
                       },
-                    },
-                    {
-                      "key": "https://schema.hbp.eu/uniminds/ageUnit",
-                      "type": "Select",
-                      "closeDropdownAfterInteraction": true,
-                      "label": "Age Unit",
-                      "options": [
-                        "years",
-                        "months",
-                        "weeks",
-                        "days",
-                        "hours",
-                        "minutes",
-                        "seconds"
-                      ],
-                      "allowCustomValues": false
-                    },
-                  },
+                      {
+                        "key": "https://schema.hbp.eu/uniminds/ageUnit",
+                        "type": "Select",
+                        "closeDropdownAfterInteraction": true,
+                        "label": "Age Unit",
+                        "options": [
+                          "years",
+                          "months",
+                          "weeks",
+                          "days",
+                          "hours",
+                          "minutes",
+                          "seconds"
+                        ],
+                        "allowCustomValues": false
+                      }
+                    ]
+                  }
                 ]
               },
               {
