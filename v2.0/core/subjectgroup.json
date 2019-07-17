@@ -37,6 +37,22 @@
                 }
               },
               {
+                "key": "https://schema.hbp.eu/uniminds/subjects",
+                "type": "DropdownSelect",
+                "closeDropdownAfterInteraction": true,
+                "label": "Links to these subjects",
+                "instancesPath": "uniminds/core/subject/v1.0.0",
+                "isLink": true,
+                "mappingValue": "id",
+                "mappingLabel": "name",
+                "allowCustomValues": true,
+                "uiDirective": {
+                  "labelTooltip": "List of subjects this metadata block is providing information for.",
+                  "labelTooltipPlacement": "right",
+                  "defaultValue": "Not applicable"
+                }
+              },
+              {
                 "key": "https://schema.hbp.eu/uniminds/species",
                 "type": "DropdownSelect",
                 "label": "Species",
@@ -52,33 +68,6 @@
                 }
               },
               {
-                "key": "https://schema.hbp.eu/uniminds/subjects",
-                "type": "DropdownSelect",
-                "closeDropdownAfterInteraction": true,
-                "label": "Groups following Subjects",
-                "instancesPath": "uniminds/core/subject/v1.0.0",
-                "isLink": true,
-                "mappingValue": "id",
-                "mappingLabel": "name",
-                "allowCustomValues": true,
-                "uiDirective": {
-                  "labelTooltip": "List of subjects this metadata block is providing information for.",
-                  "labelTooltipPlacement": "right",
-                  "defaultValue": "Not applicable"
-                }
-              },
-              {
-                "key": "https://schema.hbp.eu/uniminds/method",
-                "type": "DropdownSelect",
-                "closeDropdownAfterInteraction": true,
-                "label": "Method",
-                "instancesPath": "uniminds/core/method/v1.0.0",
-                "isLink": true,
-                "mappingValue": "id",
-                "mappingLabel": "name",
-                "allowCustomValues": true
-              },
-              {
                 "key": "https://schema.hbp.eu/uniminds/ageCategory",
                 "type": "DropdownSelect",
                 "closeDropdownAfterInteraction": true,
@@ -89,27 +78,80 @@
                 "mappingLabel": "name",
                 "allowCustomValues": false,
                 "uiDirective": {
-                  "labelTooltip": "The age category(ies) of subjects represented in this metadata block.",
+                  "labelTooltip": "The age category(ies) of subject(s) represented in this metadata block.",
                   "labelTooltipPlacement": "right"
                 }
               },
               {
-                "key": "https://schema.hbp.eu/uniminds/ageRangeMin",
-                "type": "InputText",
-                "label": "Age range (min)",
+                "key": "https://schema.hbp.eu/uniminds/ageRange",
+                "type": "Nested",
+                "label": "Age range",
                 "uiDirective": {
-                  "inputType": "number",
-                  "labelTooltip": "Age of the youngest subject in a subject group and unit of measurement should be provided. It determines the lower bound of subject group's age range. Age range is calculated automatically if the exact age off all subjects is provided. Information about either age category or age range is necessary to sufficiently describe a subject group. Providing both is optional."
-                }
-              },
-              {
-                "key": "https://schema.hbp.eu/uniminds/ageRangeMax",
-                "type": "InputText",
-                "label": "Age range (max)",
-                "uiDirective": {
-                  "inputType": "number",
-                  "labelTooltip": "Age of the oldest subject in a subject group and unit of measurement should be provided. It determines the upper bound of subject group's age range. Age range is calculated automatically by the system if the exact age off all subjects is provided. Information about either age category or age range is necessary to sufficiently describe a subject group. Providing both is optional."
-                }
+                  "labelTooltip": "Age range determines the lower and upper bound of subject ages within a subject group.",
+                  "labelTooltipPlacement": "right"
+                },
+                "fields": [
+                  {
+                    "key": "https://schema.hbp.eu/uniminds/ageRangeMin"
+                    "type": "Nested",
+                    "label": "Minimum",
+                    "fields": [
+                    {
+                      "key": "https://schema.hbp.eu/uniminds/ageNumerical",
+                      "type": "InputText",
+                      "label": "Numerical Age",
+                      "uiDirective": {
+                        "inputType": "number"
+                      },
+                    },
+                    {
+                      "key": "https://schema.hbp.eu/uniminds/ageUnit",
+                      "type": "Select",
+                      "closeDropdownAfterInteraction": true,
+                      "label": "Age Unit",
+                      "options": [
+                        "years",
+                        "months",
+                        "weeks",
+                        "days",
+                        "hours",
+                        "minutes",
+                        "seconds"
+                      ],
+                      "allowCustomValues": false
+                    },
+                  },
+                  {
+                    "key": "https://schema.hbp.eu/uniminds/ageRangeMax"
+                    "type": "Nested",
+                    "label": "Maximum",
+                    "fields": [
+                    {
+                      "key": "https://schema.hbp.eu/uniminds/ageNumerical",
+                      "type": "InputText",
+                      "label": "Numerical Age",
+                      "uiDirective": {
+                        "inputType": "number"
+                      },
+                    },
+                    {
+                      "key": "https://schema.hbp.eu/uniminds/ageUnit",
+                      "type": "Select",
+                      "closeDropdownAfterInteraction": true,
+                      "label": "Age Unit",
+                      "options": [
+                        "years",
+                        "months",
+                        "weeks",
+                        "days",
+                        "hours",
+                        "minutes",
+                        "seconds"
+                      ],
+                      "allowCustomValues": false
+                    },
+                  },
+                ]
               },
               {
                 "key": "https://schema.hbp.eu/uniminds/sex",
@@ -122,21 +164,23 @@
                 "mappingLabel": "name",
                 "allowCustomValues": false,
                 "uiDirective": {
-                  "labelTooltip": "Enter biological sex represented in a subject group. If specimen of several sexes are present in a single subject group, add several of the provided options."
+                  "labelTooltip": "Biological sex of subject(s) represented in this metadata block.",
+                  "labelTooltipPlacement": "right"
                 }
               },
               {
                 "key": "https://schema.hbp.eu/uniminds/disability",
                 "type": "DropdownSelect",
                 "closeDropdownAfterInteraction": true,
-                "label": "Disability / Disease",
+                "label": "Disability/Disease",
                 "instancesPath": "uniminds/options/disability/v1.0.0",
                 "isLink": true,
                 "mappingValue": "id",
                 "mappingLabel": "name",
                 "allowCustomValues": true,
                 "uiDirective": {
-                  "labelTooltip": "Provide information about all disabilities and diseases present in a subject group. One can add multiple disabilities and diseases per subject group."
+                  "labelTooltip": "Disability(ies) and disease(s) of subject(s) represented in this metadata block.",
+                  "labelTooltipPlacement": "right"
                 }
               },
               {
@@ -150,9 +194,10 @@
                 "mappingLabel": "name",
                 "allowCustomValues": false,
                 "uiDirective": {
-                  "labelTooltip": "Provide handedness represented in a subject group."
+                  "labelTooltip": "Handedness of subject(s) represented in this metadata block.",
+                  "labelTooltipPlacement": "right"
                 }
-              },
+              },             
               {
                 "key": "https://schema.hbp.eu/uniminds/strain",
                 "type": "DropdownSelect",
@@ -164,7 +209,8 @@
                 "mappingLabel": "name",
                 "allowCustomValues": true,
                 "uiDirective": {
-                  "labelTooltip": "Provide information about the strain that individuals of a subject group belong to. Subjects belonging to different strains need to be grouped in separate subject groups."
+                  "labelTooltip": "Strain(s) of subject(s) represented in this metadata block.",
+                  "labelTooltipPlacement": "right"
                 }
               },
               {
@@ -178,14 +224,34 @@
                 "mappingLabel": "name",
                 "allowCustomValues": true,
                 "uiDirective": {
-                  "labelTooltip": "Enter the genotypes of subjects belonging to the same strain and the same subject group."
+                  "labelTooltip": "Genotype(s) of subject(s) represented in this metadata block.",
+                  "labelTooltipPlacement": "right"
                 }
               },
               {
                 "key": "https://schema.hbp.eu/uniminds/phenotype",
-                "type": "TextArea",
+                "type": "InputText",
                 "label": "Phenotype"
+                "uiDirective": {
+                  "labelTooltip": "Phenotype(s) of subject(s) represented in this metadata block.",
+                  "labelTooltipPlacement": "right"
+                }
               },
+              {
+                "key": "https://schema.hbp.eu/uniminds/method",
+                "type": "DropdownSelect",
+                "closeDropdownAfterInteraction": true,
+                "label": "Method(s)",
+                "instancesPath": "uniminds/core/method/v1.0.0",
+                "isLink": true,
+                "mappingValue": "id",
+                "mappingLabel": "name",
+                "allowCustomValues": true,
+                "uiDirective": {
+                  "labelTooltip": "Method(s) that were applied to object(s) represented in this metadata block.",
+                  "labelTooltipPlacement": "right"
+                }
+              }, 
               {
                 "key": "https://schema.hbp.eu/uniminds/publication",
                 "type": "DropdownSelect",
