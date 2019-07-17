@@ -92,7 +92,7 @@
                 },
                 "fields": [
                   {
-                    "key": "https://schema.hbp.eu/uniminds/ageRangeMin"
+                    "key": "https://schema.hbp.eu/uniminds/ageRangeMin",
                     "type": "Nested",
                     "label": "Minimum",
                     "fields": [
@@ -122,7 +122,7 @@
                     },
                   },
                   {
-                    "key": "https://schema.hbp.eu/uniminds/ageRangeMax"
+                    "key": "https://schema.hbp.eu/uniminds/ageRangeMax",
                     "type": "Nested",
                     "label": "Maximum",
                     "fields": [
@@ -231,7 +231,7 @@
               {
                 "key": "https://schema.hbp.eu/uniminds/phenotype",
                 "type": "InputText",
-                "label": "Phenotype"
+                "label": "Phenotype",
                 "uiDirective": {
                   "labelTooltip": "Phenotype(s) of subject(s) represented in this metadata block.",
                   "labelTooltipPlacement": "right"
