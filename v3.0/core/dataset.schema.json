@@ -12,6 +12,18 @@
       "type": "string",
       "description": "An alternate short name of an item."
     },
+    "title": {
+      "type": "string",
+      "description": "A descriptive name of an item."
+    },
+    "description": {
+      "type": "string",
+      "description": "A description of an item."
+    },
+    "versionNumber": {
+      "type": "string",
+      "description": "A description of an item."
+    },
     "custodian": {
       "$ref": "https://schema.hbp.eu/minds3.0/person.schema.json",
     }
