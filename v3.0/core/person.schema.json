@@ -1,0 +1,30 @@
+{
+  "$id": "https://schema.hbp.eu/minds3.0/person.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Schema describing contact and background information of a person (alive or dead).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "ORCID"
+  ],
+  "properties": {
+    "ORCID": {
+      "type": "string",
+      "pattern": "([0-9]{4}-){3}[0-9]{4}",
+      "description": "Open Research Contributor Identifier"
+    },
+    "familyName": {
+      "type": "string",
+      "description": "Last name of a person.",
+    },
+    "givenName": {
+      "type": "string",
+      "description": "First name of a person."
+    },
+    "email": {
+      "type": "string",
+      "description": "Email address of a person or organization.",
+      "pattern": "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
+    }
+  }
+}
