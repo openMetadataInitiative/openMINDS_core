@@ -5,21 +5,28 @@
   "type": "object",
   "additionalProperties": false,
   "required": [
-    "ORCID"
+    "ORCID",
+    "familyName",
+    "middleName",
+    "email"
   ],
   "properties": {
     "ORCID": {
       "type": "string",
       "pattern": "([0-9]{4}-){3}[0-9]{4}",
-      "description": "Open Research Contributor Identifier"
+      "description": "The Open Research Contributor Identifier (ORCID) is a persistent and unique digital ID for scientific and other academic authors and contributors."
     },
     "familyName": {
       "type": "string",
-      "description": "Last name of a person.",
+      "description": "Last name of a person."
     },
     "givenName": {
       "type": "string",
       "description": "First name of a person."
+    },
+    "middleName": {
+      "type": "string",
+      "description": "Middle name of a person."
     },
     "email": {
       "type": "string",
