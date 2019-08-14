@@ -20,9 +20,13 @@
       "type": "string",
       "description": "A description of an item."
     },
-    "versionNumber": {
+    "version": {
       "type": "string",
-      "description": "A description of an item."
+      "description": "The version identifier of a creative work embodied by a specified resource."
+    },
+    "version specifications": {
+      "type": "string",
+      "description": "A short description of what distinguishes this version from a previously released version."
     },
     "custodian": {
       "$ref": "https://schema.hbp.eu/minds3.0/person.schema.json",
