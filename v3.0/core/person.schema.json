@@ -13,8 +13,9 @@
   "properties": {
     "ORCID": {
       "type": "string",
-      "pattern": "([0-9]{4}-){3}[0-9]{4}",
-      "description": "The Open Research Contributor Identifier (ORCID) is a persistent and unique digital ID for scientific and other academic authors and contributors."
+      "format": "uri",
+      "description": "The Open Research Contributor Identifier (ORCID) is a persistent and unique digital ID for scientific and other academic authors and contributors.",
+      "pattern": "https:\\/\\/orcid\\.org\\/0000-000[0-9]{1}-[0-9]{4}-[0-9]{4}"
     },
     "familyName": {
       "type": "string",
@@ -30,8 +31,8 @@
     },
     "email": {
       "type": "string",
+      "format": "email",
       "description": "Email address of a person or organization.",
-      "pattern": "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
     }
   }
 }
