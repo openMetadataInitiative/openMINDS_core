@@ -34,5 +34,35 @@
       "format": "email",
       "description": "Email address of a person or organization.",
     }
+    "isContributorOf": {
+      "type": "array",
+      "description": "Resources to which person provided contributions.",
+      "items": {
+        "allOf": [
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/model.schema.json"}
+        ]
+      }
+    },
+    "isMainContactOf": {
+      "type": "array",
+      "description": "Resources for which person is the main contact.",
+      "items": {
+        "allOf": [
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/model.schema.json"}
+        ]
+      }
+    },
+    "isCustodianOf": {
+      "type": "array",
+      "description": "Resources of which person is the custodian.",
+      "items": {
+        "allOf": [
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/model.schema.json"}
+        ]
+      }
+    }
   }
 }
