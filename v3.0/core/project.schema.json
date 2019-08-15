@@ -1,0 +1,58 @@
+{
+  "$id": "https://schema.hbp.eu/minds3.0/core/project.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "A body of structured information describing some topic(s) of interest.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "alias"
+  ],
+  "properties": {
+    "alias": {
+      "type": "string",
+      "description": "An alternate short name of an item."
+    },
+    "title": {
+      "type": "string",
+      "description": "A descriptive name of an item."
+    },
+    "description": {
+      "type": "string",
+      "description": "A description of an item."
+    },
+    "hasPart": {
+      "type": "array",
+      "description": "Dataset(s) and/or model(s) that are collaborators in this project."
+      "items": {
+        "allOf": [
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/model.schema.json"}
+        ]
+      }
+    },
+    "coordinator": {
+      "type": "array",
+      "description": "Person(s) entrusted with the coordination of the project.",
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds3.0/core/person.schema.json"
+      }
+    },
+    "isDescribedBy": {
+      "type": "array",
+      "description": "Publication(s) and/or file(s) that document the scope of the project.",
+      "items": {
+        "allOf": [
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/publicationOrSource.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/file.schema.json"}
+        ]
+      }
+    },
+    "relatedProject": {
+      "type": "array",
+      "description": "List of project(s) related to this project.",
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds3.0/core/project.schema.json"
+      }
+    }
+  }
+}
