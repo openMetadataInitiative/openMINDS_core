@@ -22,7 +22,7 @@
     },
     "hasPart": {
       "type": "array",
-      "description": "Dataset(s) and/or model(s) that are collaborators in this project."
+      "description": "Dataset(s) and/or model(s) that are collaborators in this project.",
       "items": {
         "allOf": [
           {"$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json"},
