@@ -35,54 +35,61 @@
     "releaseDate": {
       "type": "string",
       "format": "date",
-      "description": "The release date of a product or product model."
+      "description": "The release date of the resource."
     },
     "releaseStatus": {
       "$ref": "https://schema.hbp.eu/minds3.0/options/releaseStatus.schema.json"
     },
     "DOI": {
+      "description": "The Digital Object Identifier (DOI) is a persistent, interoperable identifier for resources.",
       "$ref": "https://schema.hbp.eu/minds3.0/options/doi.schema.json"
     },
     "custodian": {
       "type": "array",
-      "description": "Person entrusted with guarding and keeping the property or record."
+      "description": "Person collecting, managing, distributing, or otherwise contributing to the development of the resource.",
       "items": {
         "$ref": "https://schema.hbp.eu/minds3.0/core/person.schema.json"
       }
     },
     "mainContact": {
       "type": "array",
-      "description": "Person with expert knowledge on the property or record and therefore can provide relevant information."
+      "description": "Person with expert knowledge about the resource and therefore can provide relevant information.",
       "items": {
         "$ref": "https://schema.hbp.eu/minds3.0/core/person.schema.json"
       }
     },
     "contributor": {
       "type": "array",
+      "description": "Person entrusted with guarding and keeping the resource.",
       "items": {
         "$ref": "https://schema.hbp.eu/minds3.0/core/person.schema.json"
       }
     },
     "ethicsApproval": {
+      "description": "Information about the individual ethics approval or a resource and its compliance with European ethical principles and corresponding regulatory standards.",
       "$ref": "https://schema.hbp.eu/minds3.0/core/ethicsApproval.schema.json",
     },
     "fundingInfo": {
       "type": "array",
+      "description": "Information about financial support (funding) for the resource being registered.",
       "items": {
         "$ref": "https://schema.hbp.eu/minds3.0/core/fundingInfo.schema.json"
       }
     },
     "isNewVersionOf": {
+      "description": "Inicates that this resource is a new edition (modified or updated) of a previously released resource.",
       "$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json",
     },
     "isPartOf": {
       "type": "array",
+      "description": "Lists if resource is part of a larger research project.",
       "items": {
         "$ref": "https://schema.hbp.eu/minds3.0/core/project.schema.json"
       }
     },
-    "studiedSubjectOrTissueSample": {
+    "studiedSubjectAndOrTissueSample": {
       "type": "array",
+      "description": "Lists the studied subject(s) and/or tissue sample(s) of the resource.",
       "items": {
         "allOf": [
           {"$ref": "https://schema.hbp.eu/minds3.0/core/subject.schema.json"},
@@ -92,6 +99,7 @@
     },
     "focusOfStudy": {
       "type": "array",
+      "description": "Lists the foci (study target, temporal subject information) of the study conducted in the resource.",
       "items": {
         "allOf": [
           {"$ref": "https://schema.hbp.eu/minds3.0/core/studyTarget.schema.json"},
@@ -101,18 +109,21 @@
     },
     "isDescribedBy": {
       "type": "array",
+      "description": "Lists the publication(s) that document the content of the resource.",
       "items": {
         "$ref": "https://schema.hbp.eu/minds3.0/core/publicationOrSource.schema.json"
       }
     },
     "isDerivedFrom": {
       "type": "array",
+      "description": "Lists the publication(s) the resource used to produce its content.",
       "items": {
         "$ref": "https://schema.hbp.eu/minds3.0/core/publicationOrSource.schema.json"
       }
     },
-    "usedMethodsOrParadigms": {
+    "usedMethodsAndOrParadigms": {
       "type": "array",
+      "description": "Lists the method(s) and/or paradigm(s) used to produce the content of the resource.",
       "items": {
         "$ref": "https://schema.hbp.eu/minds3.0/core/methodsOrParadigms.schema.json"
       }
