@@ -1,5 +1,5 @@
 {
-  "$id": "https://schema.hbp.eu/minds3.0/dataset.schema.json",
+  "$id": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "description": "A body of structured information describing some topic(s) of interest.",
   "type": "object",
@@ -28,8 +28,94 @@
       "type": "string",
       "description": "A short description of what distinguishes this version from a previously released version."
     },
+    "license": {
+      "type": "string",
+      "description": "A license document that applies to this content, typically indicated by URL."
+    },
+    "releaseDate": {
+      "type": "string",
+      "format": "date",
+      "description": "The release date of a product or product model."
+    },
+    "releaseStatus": {
+      "$ref": "https://schema.hbp.eu/minds3.0/options/releaseStatus.schema.json"
+    },
+    "DOI": {
+      "$ref": "https://schema.hbp.eu/minds3.0/options/doi.schema.json"
+    },
     "custodian": {
-      "$ref": "https://schema.hbp.eu/minds3.0/person.schema.json",
-    }
+      "type": "array",
+      "description": "Person entrusted with guarding and keeping the property or record."
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds3.0/core/person.schema.json"
+      }
+    },
+    "mainContact": {
+      "type": "array",
+      "description": "Person with expert knowledge on the property or record and therefore can provide relevant information."
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds3.0/core/person.schema.json"
+      }
+    },
+    "contributor": {
+      "type": "array",
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds3.0/core/person.schema.json"
+      }
+    },
+    "ethicsApproval": {
+      "$ref": "https://schema.hbp.eu/minds3.0/core/ethicsApproval.schema.json",
+    },
+    "fundingInfo": {
+      "type": "array",
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds3.0/core/fundingInfo.schema.json"
+      }
+    },
+    "isNewVersionOf": {
+      "$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json",
+    },
+    "isPartOf": {
+      "type": "array",
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds3.0/core/project.schema.json"
+      }
+    },
+    "studiedSubjectOrTissueSample": {
+      "type": "array",
+      "items": {
+        "allOf": [
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/subject.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/tissueSample.schema.json"}
+        ]
+      }
+    },
+    "focusOfStudy": {
+      "type": "array",
+      "items": {
+        "allOf": [
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/studyTarget.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/temporalSubjectInfo.schema.json"}
+        ]
+      }
+    },
+    "isDescribedBy": {
+      "type": "array",
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds3.0/core/publicationOrSource.schema.json"
+      }
+    },
+    "isDerivedFrom": {
+      "type": "array",
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds3.0/core/publicationOrSource.schema.json"
+      }
+    },
+    "usedMethodsOrParadigms": {
+      "type": "array",
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds3.0/core/methodsOrParadigms.schema.json"
+      }
+    },
   }
 }
