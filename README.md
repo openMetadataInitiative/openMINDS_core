@@ -1,10 +1,12 @@
 # HBP-MINDS
 MINDS (Minimum Information for Neuroscience Data Sets) is an ontology-based metadata standard for neuroscience. It is developed by the curation team of the Neuroinformatics Platform (NIP) of the Human Brain Project (HBP) as part of the effort to build a unique data sharing framework that provides access to a broad range of heterogeneous neuroscience data. This means that MINDS is applicable for describing and registering data from different modalities including imaging, electrophysiology, informatics, and -omics into a unified database, the HBP Knowledge Graph (KG). As a metadata standard, MINDS is flexible enough to capture experiment-specific aspects, yet strict enough to guarantee comparability across experimental data, which is crucial to facilitate queries across scales and modalities via the KG. 
 
-To this end, MINDS consists of a set of core information blocks that can be used to describe the origin, context, content, and physical location of individual data in a modular fashion. The MINDS schemas are provided in JSON-LD and capture the following:
-  + content of each information block
+To this end, MINDS consists of a set of core information blocks that can be used to describe the origin, context, content, and physical location of individual data in a modular fashion. The MINDS schemas are provided in JSON-Schema and capture the following:
+  + type of each information block
+  + properties of each information blocks
   + relations between information blocks
-  + suggestions for metadata values
+  + validation of value type
+  + link to possible terminologies and ontologies for value suggestions
 
 ## Connecting MINDS to the world
 For ensuring compatibility with other community efforts for sharing neuroscience data, metadata of the MINDS core information blocks are linked to existing neuroscience terminologies or ontologies that were registered as optional information blocks into the KG system. However, new metadata entries are not forced to strictly follow a registered terminology or ontology, because most standardization efforts are not yet completed. In fact, metadata entries used in the HBP KG that do not match a terminology or ontology term, trigger the completion or optimization of existing terminologies or ontologies.
