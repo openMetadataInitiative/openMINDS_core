@@ -32,7 +32,7 @@
     "email": {
       "type": "string",
       "format": "email",
-      "description": "Email address of a person or organization.",
+      "description": "Email address of a person or organization."
     },
     "isContributorOf": {
       "type": "array",

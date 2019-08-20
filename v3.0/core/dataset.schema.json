@@ -67,7 +67,7 @@
     },
     "ethicsApproval": {
       "description": "Information about the individual ethics approval or a resource and its compliance with European ethical principles and corresponding regulatory standards.",
-      "$ref": "https://schema.hbp.eu/minds3.0/core/ethicsApproval.schema.json",
+      "$ref": "https://schema.hbp.eu/minds3.0/core/ethicsApproval.schema.json"
     },
     "fundingInfo": {
       "type": "array",
@@ -78,7 +78,7 @@
     },
     "isNewVersionOf": {
       "description": "Inicates that this resource is a new edition (modified or updated) of a previously released resource.",
-      "$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json",
+      "$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json"
     },
     "isPartOf": {
       "type": "array",
@@ -130,6 +130,6 @@
       "items": {
         "$ref": "https://schema.hbp.eu/minds3.0/core/methodsOrParadigms.schema.json"
       }
-    },
+    }
   }
 }
