@@ -67,7 +67,7 @@
     },
     "ethicsApproval": {
       "description": "Information about the individual ethics approval or a resource and its compliance with European ethical principles and corresponding regulatory standards.",
-      "$ref": "https://schema.hbp.eu/minds3.0/core/ethicsApproval.schema.json",
+      "$ref": "https://schema.hbp.eu/minds3.0/core/ethicsApproval.schema.json"
     },
     "fundingInfo": {
       "type": "array",
