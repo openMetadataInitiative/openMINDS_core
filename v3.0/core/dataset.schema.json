@@ -130,6 +130,6 @@
       "items": {
         "$ref": "https://schema.hbp.eu/minds3.0/core/methodsOrParadigms.schema.json"
       }
-    },
+    }
   }
 }
