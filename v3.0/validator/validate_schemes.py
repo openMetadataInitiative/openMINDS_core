@@ -8,9 +8,8 @@ import json
 def main():
     for filename in Path('..').glob('**/*.schema.json'):
         with open(filename,'r') as f:
-            schema = json.loads(f.read())
             try:
-                Draft7Validator.check_schema(schema)
+                Draft7Validator.check_schema(json.loads(f.read()))
             except:
                 print(str(filename) + " failed validation")
 
