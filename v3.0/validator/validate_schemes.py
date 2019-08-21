@@ -5,7 +5,7 @@ def main():
     for filename in Path('..').glob('**/*.schema.json'):
         print(filename)
         with open(filename,'r') as f:
-            print(f.read())
+            print(Draft7Validator.check_schema(f.read()))
 
 
 if __name__ == "__main__":
