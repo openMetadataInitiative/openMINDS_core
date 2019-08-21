@@ -1,3 +1,4 @@
+from jsonschema import Draft6Validator
 from pathlib import Path
 
 def main():
