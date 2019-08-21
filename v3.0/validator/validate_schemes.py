@@ -1,4 +1,9 @@
 from pathlib import Path
 
-for filename in Path('..').glob('**/*.schema.json'):
-    print(filename)
+def main():
+    for filename in Path('..').glob('**/*.schema.json'):
+        print(filename)
+
+
+if __name__ == "__main__":
+    main()
