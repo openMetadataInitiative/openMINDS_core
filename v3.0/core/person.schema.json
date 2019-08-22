@@ -38,7 +38,7 @@
       "type": "array",
       "description": "Resources to which person provided contributions.",
       "items": {
-        "allOf": [
+        "anyOf": [
           {"$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json"},
           {"$ref": "https://schema.hbp.eu/minds3.0/core/model.schema.json"}
         ]
@@ -48,7 +48,7 @@
       "type": "array",
       "description": "Resources for which person is the main contact.",
       "items": {
-        "allOf": [
+        "anyOf": [
           {"$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json"},
           {"$ref": "https://schema.hbp.eu/minds3.0/core/model.schema.json"}
         ]
@@ -58,7 +58,7 @@
       "type": "array",
       "description": "Resources of which person is the custodian.",
       "items": {
-        "allOf": [
+        "anyOf": [
           {"$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json"},
           {"$ref": "https://schema.hbp.eu/minds3.0/core/model.schema.json"}
         ]
