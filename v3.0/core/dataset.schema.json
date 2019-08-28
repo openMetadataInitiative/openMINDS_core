@@ -119,7 +119,7 @@
     },
     "isDerivedFrom": {
       "type": "array",
-      "description": "Lists the publication(s) the resource used to produce its content.",
+      "description": "Lists the publication(s) used to produce the input to the resource.",
       "items": {
         "$ref": "https://schema.hbp.eu/minds3.0/core/publicationOrSource.schema.json"
       }
