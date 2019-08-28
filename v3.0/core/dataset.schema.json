@@ -46,7 +46,7 @@
     },
     "custodian": {
       "type": "array",
-      "description": "Person collecting, managing, distributing, or otherwise contributing to the development of the resource.",
+      "description": "Person entrusted with guarding and keeping the resource.",
       "items": {
         "$ref": "https://schema.hbp.eu/minds3.0/core/person.schema.json"
       }
@@ -60,7 +60,7 @@
     },
     "contributor": {
       "type": "array",
-      "description": "Person entrusted with guarding and keeping the resource.",
+      "description": "Person collecting, managing, distributing, or otherwise contributing to the development of the resource.",
       "items": {
         "$ref": "https://schema.hbp.eu/minds3.0/core/person.schema.json"
       }
