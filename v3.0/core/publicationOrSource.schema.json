@@ -24,7 +24,7 @@
     },
     "isPublicationOf": {
       "type": "array",
-      "description": "Item(s) that were described by this publication."
+      "description": "Item(s) that were described by this publication.",
       "items": {
         "anyOf": [
           {"$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json"},
@@ -34,7 +34,7 @@
     },
     "isSourceOf": {
       "type": "array",
-      "description": "Item(s) that used this source as an input."
+      "description": "Item(s) that used this source as an input.",
       "items": {
         "anyOf": [
           {"$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json"},
