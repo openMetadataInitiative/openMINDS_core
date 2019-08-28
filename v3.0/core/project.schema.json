@@ -1,7 +1,7 @@
 {
   "$id": "https://schema.hbp.eu/minds3.0/core/project.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "description": "A body of structured information describing some topic(s) of interest.",
+  "description": "An enterprise (potentially individual but typically collaborative), planned to achieve a particular aim.",
   "type": "object",
   "additionalProperties": false,
   "required": [
