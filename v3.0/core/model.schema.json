@@ -97,7 +97,7 @@
     },
     "isNewVersionOf": {
       "description": "Inicates that this resource is a new edition (modified or updated) of a previously released resource.",
-      "$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json"
+      "$ref": "https://schema.hbp.eu/minds3.0/core/model.schema.json"
     },
     "isPartOf": {
       "type": "array",
@@ -128,7 +128,7 @@
     },
     "isDescribedBy": {
       "type": "array",
-      "description": "Publication(s) and/or file(s) that document the scope of the project.",
+      "description": "Publication(s) and/or file(s) that document(s) the resource.",
       "items": {
         "anyOf": [
           {"$ref": "https://schema.hbp.eu/minds3.0/core/publicationOrSource.schema.json"},
@@ -138,7 +138,7 @@
     },
     "isDerivedFrom": {
       "type": "array",
-      "description": "Lists the publication(s) the resource used to produce its content.",
+      "description": "Lists the publication(s) used to produce the input to the resource.",
       "items": {
         "$ref": "https://schema.hbp.eu/minds3.0/core/publicationOrSource.schema.json"
       }
