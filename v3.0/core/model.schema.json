@@ -1,0 +1,154 @@
+{
+  "$id": "https://schema.hbp.eu/minds3.0/core/model.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "A description of the digital representation of a reconstruction or simulation.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "alias"
+  ],
+  "properties": {
+    "alias": {
+      "type": "string",
+      "description": "An alternate short name of an item."
+    },
+    "title": {
+      "type": "string",
+      "description": "A descriptive name of an item."
+    },
+    "description": {
+      "type": "string",
+      "description": "A description of an item."
+    },
+    "modelScope": {
+      "type": "string",
+      "description": "Extend of what type of reconstruction or simulation is digitally represented."
+    },
+    "abstractionLevel": {
+      "type": "string",
+      "description": "Extend of how the reconstruction or simulation is digitally represented."
+    },
+    "modelFormat": {
+      "type": "string",
+      "description": "Language (incl. version) in which the digitally representation of the reconstruction or simulation is written."
+    },
+    "modelFormat": {
+      "type": "string",
+      "description": "Compatibility of the chosen model format with it's previous or subsequent versions."
+    },
+    "species": {
+      "type": "array",
+      "description": "Compatibility of the chosen model format with it's previous or subsequent versions.",
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds3.0/option/species.schema.json"
+      }
+    },
+    "version": {
+      "type": "string",
+      "description": "The version identifier of a creative work embodied by a specified resource."
+    },
+    "versionSpecifications": {
+      "type": "string",
+      "description": "A short description of what distinguishes this version from a previously released version."
+    },
+    "license": {
+      "type": "string",
+      "description": "A license document that applies to this content, typically indicated by URL."
+    },
+    "releaseDate": {
+      "type": "string",
+      "format": "date",
+      "description": "The release date of the resource."
+    },
+    "releaseStatus": {
+      "$ref": "https://schema.hbp.eu/minds3.0/options/releaseStatus.schema.json"
+    },
+    "DOI": {
+      "description": "The Digital Object Identifier (DOI) is a persistent, interoperable identifier for resources.",
+      "$ref": "https://schema.hbp.eu/minds3.0/options/doi.schema.json"
+    },
+    "custodian": {
+      "type": "array",
+      "description": "Person entrusted with guarding and keeping the resource.",
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds3.0/core/person.schema.json"
+      }
+    },
+    "mainContact": {
+      "type": "array",
+      "description": "Person with expert knowledge about the resource and therefore can provide relevant information.",
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds3.0/core/person.schema.json"
+      }
+    },
+    "contributor": {
+      "type": "array",
+      "description": "Person collecting, managing, distributing, or otherwise contributing to the development of the resource.",
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds3.0/core/person.schema.json"
+      }
+    },
+    "fundingInfo": {
+      "type": "array",
+      "description": "Information about financial support (funding) for the resource being registered.",
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds3.0/core/fundingInfo.schema.json"
+      }
+    },
+    "isNewVersionOf": {
+      "description": "Inicates that this resource is a new edition (modified or updated) of a previously released resource.",
+      "$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json"
+    },
+    "isPartOf": {
+      "type": "array",
+      "description": "Lists if resource is part of a larger research project.",
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds3.0/core/project.schema.json"
+      }
+    },
+    "studiedSubjectAndOrTissueSample": {
+      "type": "array",
+      "description": "Lists the studied subject(s) and/or tissue sample(s) of the resource.",
+      "items": {
+        "anyOf": [
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/subject.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/tissueSample.schema.json"}
+        ]
+      }
+    },
+    "focusOfStudy": {
+      "type": "array",
+      "description": "Lists the foci (study target, temporal subject information) of the study conducted in the resource.",
+      "items": {
+        "anyOf": [
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/studyTarget.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/temporalSubjectInfo.schema.json"}
+        ]
+      }
+    },
+    "isDescribedBy": {
+      "type": "array",
+      "description": "Publication(s) and/or file(s) that document the scope of the project.",
+      "items": {
+        "anyOf": [
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/publicationOrSource.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/file.schema.json"}
+        ]
+      }
+    },
+    "isDerivedFrom": {
+      "type": "array",
+      "description": "Lists the publication(s) the resource used to produce its content.",
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds3.0/core/publicationOrSource.schema.json"
+      }
+    },
+    "usedMethodsAndOrParadigms": {
+      "type": "array",
+      "description": "Lists the method(s) and/or paradigm(s) used to produce the content of the resource.",
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds3.0/core/methodsOrParadigms.schema.json"
+      }
+    }
+  }
+}
