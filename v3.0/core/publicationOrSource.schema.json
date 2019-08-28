@@ -21,6 +21,26 @@
     "idType": {
       "type": "string",
       "description": "Type of the provided item's identifier."
+    },
+    "isPublicationOf": {
+      "type": "array",
+      "description": "Item(s) that were described by this publication."
+      "items": {
+        "anyOf": [
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/model.schema.json"}
+        ]
+      }
+    },
+    "isSourceOf": {
+      "type": "array",
+      "description": "Item(s) that used this source as an input."
+      "items": {
+        "anyOf": [
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/model.schema.json"}
+        ]
+      }
     }
   }
 }
