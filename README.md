@@ -24,7 +24,7 @@ Although the term "MINDS" was introduced quite early in the HBP, it's implementa
   + ***Sample***
 
 ### HBP-MINDS version 2.0 
-[in development] MINDS v2.0 increased the modularity of the block architecture in order to utilize fully the power of HBP KG as graph database. MINDS v2.0 consists of the following fifteen core information blocks:
+[tested] MINDS v2.0 increased the modularity of the block architecture in order to utilize fully the power of HBP KG as graph database. In comparison to MINDS v1.0, MINDS v2.0 allows users to describe methods or paradigms for individual subjects, tissue samples or files, and group individual subjects into different subject groups at the same time. MINDS v2.0 consists of the following fifteen core information blocks:
   + ***Project*** 
   + ***Person*** 
   + ***ModelRelease*** 
@@ -42,22 +42,20 @@ Although the term "MINDS" was introduced quite early in the HBP, it's implementa
   + ***StudyTarget*** 
 
 ### HBP-MINDS version 3.0
-[in development] MINDS v3.0 improved the modularity of the block architecture in order to simplify the graph structure in the HBP KG, but optimize the handling of versioning and time-dependent information (e.g., age at time point of measurement). MINDS v3.0 consists of the following fifteen core information blocks:
+[in development] MINDS v3.0 improved the modularity of the block architecture in order to simplify the graph structure in the KG, but optimize the handling of versioning and time-dependent information (e.g., age at time point of measurement). MINDS v3.0 consists of the following thirteen core information blocks:
   + ***Project*** 
   + ***Person*** 
-  + ***ModelRelease*** 
+  + ***Model*** 
   + ***Dataset*** 
-  + ***VersionInfo*** 
   + ***EthicsApproval*** 
   + ***FundingInfo*** 
   + ***Publication/Source*** 
-  + ***HBPcomponent***
-  + ***Subject(Group)***
-  + ***TimeDependentInfo***
-  + ***TissueSample(Set)***
-  + ***File(Bundle)***
+  + ***Subject(s)***
+  + ***TemporalSubjectInfo***
+  + ***TissueSample(s)***
+  + ***File(s)***
   + ***Method/Paradigm*** 
-  + ***StudyTarget*** 
+  + ***StudyTarget***
 
 ## License
 All HBP-MINDS versions are developed under the CC BY 4.0 license. 
