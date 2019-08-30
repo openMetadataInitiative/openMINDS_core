@@ -38,7 +38,7 @@
     },
     "species": {
       "type": "array",
-      "description": "Compatibility of the chosen model format with it's previous or subsequent versions.",
+      "description": "Binomial name of a species.",
       "items": {
         "$ref": "https://schema.hbp.eu/minds3.0/option/species.schema.json"
       }
