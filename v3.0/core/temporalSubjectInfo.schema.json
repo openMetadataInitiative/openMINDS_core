@@ -1,0 +1,24 @@
+{
+  "$id": "https://schema.hbp.eu/minds3.0/subject.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Schema describing a subject or a group of subjects that was used/participated in a study.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "alias",
+    "quantity",
+    "species",
+    "sex",
+    "isPartOf"
+  ],
+  "properties": {
+    "alias": {
+      "type": "string",
+      "description": "An alternate short name of an item."
+    },
+    "ageCategory": {
+      "type": "string",
+      "description": "An alternate short name of an item."
+    },
+  }
+}
