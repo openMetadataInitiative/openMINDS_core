@@ -1,0 +1,97 @@
+{
+  "$id": "https://schema.hbp.eu/minds3.0/tissueSample.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Schema describing a tissue sample or a set of tissue samples (extracted from a subject or artificially generated) that was used/participated in a study.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "alias",
+    "quantity",
+    "species",
+    "sex",
+    "isPartOf"
+  ],
+  "properties": {
+    "alias": {
+      "type": "string",
+      "description": "An alternate short name of an item."
+    },
+    "quantity": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Defines the number of items."
+    },
+    "organOfOrigin": {
+      "type": "array",
+      "description": "Organ from which the tissue sample was extracted or which is represents.",
+      "items": {
+        "anyOf": [
+          {"$ref": "https://schema.hbp.eu/minds3.0/options/organOfOrigin.schema.json"}
+        ]
+      }
+    },
+    "type": {
+      "type": "array",
+      "description": "Type and scope of a tissue sample.",
+      "items": {
+        "anyOf": [
+          {"$ref": "https://schema.hbp.eu/minds3.0/options/tissueSampleType.schema.json"}
+        ]
+      }
+    },
+    "pathology": {
+      "type": "array",
+      "description": "Health status of a tissue sample.",
+      "items": {
+        "anyOf": [
+          {"$ref": "https://schema.hbp.eu/minds3.0/options/pathology.schema.json"}
+        ]
+      }
+    },
+    "isPartOf": {
+      "type": "array",
+      "description": "Dataset(s), model(s), or other tissue sample to which this tissue sample belongs to.",
+      "items": {
+        "anyOf": [
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/model.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/tissueSample.schema.json"}
+        ]
+      }
+    },
+    "wasMeasuredAt": {
+      "type": "array",
+      "description": "Links to temporal subject information at which time point the tissue sample was extracted from the subject.",
+        "anyOf": [
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/temporalSubjectInfo.schema.json"}
+        ]
+      }
+    },
+    "isUsedIn": {
+      "type": "array",
+      "description": "Links to method(s)/paradigm(s) in which the subject(s) was(were) used.",
+      "items": {
+        "anyOf": [
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/methodOrParadigm.schema.json"}
+        ]
+      }
+    },
+    "isDescribedBy": {
+      "type": "array",
+      "description": "Publication(s) and/or file(s) that document the scope of the project.",
+      "items": {
+        "anyOf": [
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/publicationOrSource.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/file.schema.json"}
+        ]
+      }
+    },
+    "isDerivedFrom": {
+      "type": "array",
+      "description": "Lists the publication(s) used to produce the input to the resource.",
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds3.0/core/publicationOrSource.schema.json"
+      }
+    }
+  }
+}
