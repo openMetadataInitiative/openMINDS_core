@@ -112,6 +112,23 @@
           {"$ref": "https://schema.hbp.eu/minds3.0/core/methodOrParadigm.schema.json"}
         ]
       }
+    },
+    "isDescribedBy": {
+      "type": "array",
+      "description": "Publication(s) and/or file(s) that document the scope of the project.",
+      "items": {
+        "anyOf": [
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/publicationOrSource.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/file.schema.json"}
+        ]
+      }
+    },
+    "isDerivedFrom": {
+      "type": "array",
+      "description": "Lists the publication(s) used to produce the input to the resource.",
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds3.0/core/publicationOrSource.schema.json"
+      }
     }
   }
 }
