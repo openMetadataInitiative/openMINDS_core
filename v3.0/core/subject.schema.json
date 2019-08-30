@@ -1,0 +1,39 @@
+{
+  "$id": "https://schema.hbp.eu/minds3.0/subject.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Schema describing a subject or a group of subjects that was used/participated in a study.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "alias"
+  ],
+  "properties": {
+    "alias": {
+      "type": "string",
+      "description": "An alternate short name of an item."
+    },
+    "quantity": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Defines the number of items."
+    },
+    "species": {
+      "type": "array",
+      "description": "Binomial name of a species.",
+      "items": {
+        "anyOf": [
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/species.schema.json"},
+        ]
+      }
+    },
+    "sex": {
+      "type": "array",
+      "description": "Biological sex of a species.",
+      "items": {
+        "anyOf": [
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/sex.schema.json"},
+        ]
+      }
+    }
+  }
+}
