@@ -49,7 +49,15 @@
       "type": "array",
       "description": "Link to an item for which this temporal information is relevant.",
       "items": {
-        "$ref": "https://schema.hbp.eu/minds3.0/core/subject.schema.json"
+        "anyOf": [
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/tissueSample.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/model.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/file.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/methodOrParadigm.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/studyTarget.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/publicationOrSource.schema.json"}
+        ]
       }
     }
   }
