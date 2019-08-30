@@ -22,7 +22,7 @@
       "description": "Binomial name of a species.",
       "items": {
         "anyOf": [
-          {"$ref": "https://schema.hbp.eu/minds3.0/core/species.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/options/species.schema.json"},
         ]
       }
     },
@@ -31,7 +31,43 @@
       "description": "Biological sex of a species.",
       "items": {
         "anyOf": [
-          {"$ref": "https://schema.hbp.eu/minds3.0/core/sex.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/options/sex.schema.json"},
+        ]
+      }
+    },
+    "handedness": {
+      "type": "array",
+      "description": "Tendency to prefer one hand over the other.",
+      "items": {
+        "anyOf": [
+          {"$ref": "https://schema.hbp.eu/minds3.0/options/handedness.schema.json"},
+        ]
+      }
+    },
+    "strain": {
+      "type": "array",
+      "description": "A group of presumed common ancestry with clear-cut physiological but usually not morphological distinctions.",
+      "items": {
+        "anyOf": [
+          {"$ref": "https://schema.hbp.eu/minds3.0/options/strain.schema.json"},
+        ]
+      }
+    },
+    "genotype": {
+      "type": "array",
+      "description": "Genetic constitution of an individual or group.",
+      "items": {
+        "anyOf": [
+          {"$ref": "https://schema.hbp.eu/minds3.0/options/genotype.schema.json"},
+        ]
+      }
+    },
+    "phenotype": {
+      "type": "array",
+      "description": "observable properties of an organism that are produced by the interaction of the genotype and the environment.",
+      "items": {
+        "anyOf": [
+          {"$ref": "https://schema.hbp.eu/minds3.0/options/phenotype.schema.json"},
         ]
       }
     }
