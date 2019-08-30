@@ -5,7 +5,11 @@
   "type": "object",
   "additionalProperties": false,
   "required": [
-    "alias"
+    "alias",
+    "quantity",
+    "species",
+    "sex",
+    "isPartOf"
   ],
   "properties": {
     "alias": {
@@ -22,7 +26,7 @@
       "description": "Binomial name of a species.",
       "items": {
         "anyOf": [
-          {"$ref": "https://schema.hbp.eu/minds3.0/options/species.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/options/species.schema.json"}
         ]
       }
     },
@@ -31,7 +35,7 @@
       "description": "Biological sex of a species.",
       "items": {
         "anyOf": [
-          {"$ref": "https://schema.hbp.eu/minds3.0/options/sex.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/options/sex.schema.json"}
         ]
       }
     },
@@ -40,7 +44,7 @@
       "description": "Tendency to prefer one hand over the other.",
       "items": {
         "anyOf": [
-          {"$ref": "https://schema.hbp.eu/minds3.0/options/handedness.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/options/handedness.schema.json"}
         ]
       }
     },
@@ -49,7 +53,7 @@
       "description": "A group of presumed common ancestry with clear-cut physiological but usually not morphological distinctions.",
       "items": {
         "anyOf": [
-          {"$ref": "https://schema.hbp.eu/minds3.0/options/strain.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/options/strain.schema.json"}
         ]
       }
     },
@@ -58,16 +62,54 @@
       "description": "Genetic constitution of an individual or group.",
       "items": {
         "anyOf": [
-          {"$ref": "https://schema.hbp.eu/minds3.0/options/genotype.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/options/genotype.schema.json"}
         ]
       }
     },
     "phenotype": {
       "type": "array",
-      "description": "observable properties of an organism that are produced by the interaction of the genotype and the environment.",
+      "description": "Observable properties of an organism that are produced by the interaction of the genotype and the environment.",
       "items": {
         "anyOf": [
-          {"$ref": "https://schema.hbp.eu/minds3.0/options/phenotype.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/options/phenotype.schema.json"}
+        ]
+      }
+    },
+    "isPartOf": {
+      "type": "array",
+      "description": "Dataset(s), model(s), or subject group this subject belongs to.",
+      "items": {
+        "anyOf": [
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/model.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/subject.schema.json"},
+        ]
+      }
+    },
+    "wasMeasuredAt": {
+      "type": "array",
+      "description": "Links to temporal subject information specific for each measurement time point.",
+      "items": {
+        "anyOf": [
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/temporalSubjectInfo.schema.json"}
+        ]
+      }
+    },
+    "isDonorOf": {
+      "type": "array",
+      "description": "Links to tissue sample(s) which was(were) extracted from the subject(s).",
+      "items": {
+        "anyOf": [
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/tissueSample.schema.json"}
+        ]
+      }
+    },
+    "isUsedIn": {
+      "type": "array",
+      "description": "Links to method(s)/paradigm(s) in which the subject(s) was(were) used.",
+      "items": {
+        "anyOf": [
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/methodOrParadigm.schema.json"}
         ]
       }
     }
