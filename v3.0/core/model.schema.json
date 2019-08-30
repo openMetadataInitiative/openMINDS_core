@@ -40,7 +40,7 @@
       "type": "array",
       "description": "Binomial name of a species.",
       "items": {
-        "$ref": "https://schema.hbp.eu/minds3.0/option/species.schema.json"
+        "$ref": "https://schema.hbp.eu/minds3.0/options/species.schema.json"
       }
     },
     "version": {
