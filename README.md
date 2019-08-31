@@ -49,12 +49,12 @@ Although the term "MINDS" was introduced quite early in the HBP, it's implementa
   + ***Dataset*** 
   + ***EthicsApproval*** 
   + ***FundingInfo*** 
-  + ***Publication/Source*** 
+  + ***PublicationOrSource*** 
   + ***Subject(s)***
   + ***TemporalSubjectInfo***
   + ***TissueSample(s)***
   + ***File(s)***
-  + ***Method/Paradigm*** 
+  + ***MethodOrParadigm*** 
   + ***StudyTarget***
 
 ## License
