@@ -24,13 +24,13 @@
       "type": "string",
       "description": "The version identifier of a creative work embodied by the item."
     },
-    "version specifications": {
+    "versionSpecifications": {
       "type": "string",
       "description": "Log or record of all notable changes made to the item compared to it's previous version."
     },
     "license": {
-      "type": "string",
-      "description": "A license document that applies to this content, typically indicated by URL."
+      "description": "A license document that applies to this content.",
+      "$ref": "https://schema.hbp.eu/minds3.0/options/ccLicense.schema.json"
     },
     "releaseDate": {
       "type": "string",
