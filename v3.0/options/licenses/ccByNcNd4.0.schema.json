@@ -1,0 +1,31 @@
+{
+  "$id": "https://schema.hbp.eu/minds3.0/options/licenses/ccByNcNd4.0.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Characteristics of the CC BY-NC-ND 4.0 license.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "alias",
+    "fullName",
+    "description",
+    "licenseDeed",
+    "legalCode"
+  ],
+  "properties": {
+    "alias": {
+      "const": "CC BY-NC-ND 4.0"
+    },
+    "fullName": {
+      "const": "Attribution-NonCommercial-NoDerivatives 4.0 International"
+    },
+    "description": {
+      "const": "This license is the most restrictive of our six main licenses, only allowing others to download your works and share them with others as long as they credit you, but they can’t change them in any way or use them commercially."
+    },
+    "licenseDeed": {
+      "const": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+    },
+    "legalCode": {
+      "const": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode"
+    }
+  }
+}
