@@ -10,23 +10,23 @@
   "properties": {
     "alias": {
       "type": "string",
-      "description": "An alternate short name of an item."
+      "description": "An alternate (short) name of the item."
     },
     "title": {
       "type": "string",
-      "description": "A descriptive name of an item."
+      "description": "A descriptive name of the item."
     },
     "description": {
       "type": "string",
-      "description": "A description of an item."
+      "description": "A description of the item."
     },
     "version": {
       "type": "string",
-      "description": "The version identifier of a creative work embodied by a specified resource."
+      "description": "The version identifier of a creative work embodied by the item."
     },
     "version specifications": {
       "type": "string",
-      "description": "A short description of what distinguishes this version from a previously released version."
+      "description": "Log or record of all notable changes made to the item compared to it's previous version."
     },
     "license": {
       "type": "string",
