@@ -5,7 +5,8 @@
   "type": "object",
   "additionalProperties": false,
   "required": [
-    "alias"
+    "alias",
+    "content"
   ],
   "properties": {
     "alias": {
@@ -20,18 +21,22 @@
       "type": "string",
       "description": "Short documenatation on how to read the file or file set."
     },
-    "format": {
+    "fileFormat": {
       "type": "array",
       "description": "Lists the format(s) of the file (set).",
       "items": {
-        "$ref": "https://schema.hbp.eu/minds3.0/core/format.schema.json"
+        "$ref": "https://schema.hbp.eu/minds3.0/options/fileFormat.schema.json"
       }
     },
     "url": {
       "type": "array",
       "description": "Single Uniform Resource Locator (URL) or set of URLs that points to the physical location of a file or a set of files.",
       "items": {
-        "type": "string"
+        "type": "string",
+        "format": [
+          "uri",
+          "iri"
+        ]
       }
     },
     "isPartOf": {
@@ -40,8 +45,15 @@
       "items": {
         "anyOf": [
           {"$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json"},
-          {"$ref": "https://schema.hbp.eu/minds3.0/core/model.schema.json"},
-          {"$ref": "https://schema.hbp.eu/minds3.0/core/project.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/model.schema.json"}
+        ]
+      }
+    },
+    "isCreatedFrom": {
+      "type": "array",
+      "description": "Item to which this file or set of files belongs to.",
+      "items": {
+        "anyOf": [
           {"$ref": "https://schema.hbp.eu/minds3.0/core/publicationOrSource.schema.json"},
           {"$ref": "https://schema.hbp.eu/minds3.0/core/subject.schema.json"},
           {"$ref": "https://schema.hbp.eu/minds3.0/core/temporalSubjectInfo.schema.json"},
@@ -67,12 +79,15 @@
         ]
       }
     },
-    "focusOfStudy": {
+    "isDocumentationOf": {
       "type": "array",
-      "description": "Lists the foci (study targets) that are described/captured in this file (set).",
+      "description": "Lists elements that are described/documented in this file (set).",
       "items": {
         "anyOf": [
           {"$ref": "https://schema.hbp.eu/minds3.0/core/studyTarget.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/model.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/project.schema.json"}
         ]
       }
     }
