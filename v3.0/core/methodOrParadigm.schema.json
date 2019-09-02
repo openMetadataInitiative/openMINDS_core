@@ -5,7 +5,12 @@
   "type": "object",
   "additionalProperties": false,
   "required": [
-    "alias"
+    "alias",
+    "fullName",
+    "description",
+    "modality",
+    "source",
+    "category"
   ],
   "properties": {
     "alias": {
@@ -28,9 +33,16 @@
       "description": "Source of the full name of this method or paradigm.",
       "$ref": "https://schema.hbp.eu/minds3.0/options/methodOrParadigmSource.schema.json"
     },
-    "category": {
+    "studyCategory": {
       "description": "Experiment category the method or paradigm belongs to (in vivo, ex vivo, in silico, etc.).",
-      "$ref": "https://schema.hbp.eu/minds3.0/options/methodOrParadigmSource.schema.json"
+      "items": {
+        "anyOf": [
+          {"$ref": "https://schema.hbp.eu/minds3.0/options/studyCategories/inVivo.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/options/studyCategories/exVivo.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/options/studyCategories/inVitro.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/options/studyCategories/inSilico.schema.json"}
+        ]
+      }
     },
     "produces": {
       "type": "array",
