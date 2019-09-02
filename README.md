@@ -58,4 +58,4 @@ Although the term "MINDS" was introduced quite early in the HBP, it's implementa
   + ***StudyTarget***
 
 ## License
-All HBP-MINDS versions are developed under the CC BY 4.0 license. 
+This work is licensed under a Creative Commons Attribution 4.0 International License. 
