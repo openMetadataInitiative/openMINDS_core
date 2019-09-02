@@ -24,9 +24,9 @@
       "type": "string",
       "description": "An alternate (short) name of the item."
     },
-    "title": {
+    "headline": {
       "type": "string",
-      "description": "A descriptive name of the item."
+      "description": "Headline of describing this item."
     },
     "description": {
       "type": "string",
@@ -97,18 +97,25 @@
     },
     "ethicsApproval": {
       "description": "Characteristics of the existing ethics approval.",
-      "$ref": "https://schema.hbp.eu/minds3.0/core/ethicsApproval.schema.json"
+      "oneOf": [
+        {"const": "to be determined"},
+        {"$ref": "https://schema.hbp.eu/minds3.0/core/ethicsApproval.schema.json"}
+      ]
     },
     "fundingInfo": {
       "type": "array",
       "description": "Information about financial support of this content.",
-      "items": {
-        "$ref": "https://schema.hbp.eu/minds3.0/options/fundingInfo.schema.json"
-      }
+      "oneOf": [
+        {"const": "to be determined"},
+        {"$ref": "https://schema.hbp.eu/minds3.0/core/fundingInfo.schema.json"}
+      ]
     },
     "isNewVersionOf": {
       "description": "Indicates that this content is a new edition (modified or updated) of a previously released content.",
-      "$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json"
+      "oneOf": [
+        {"const": null},
+        {"$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json"}
+      ]
     },
     "isPartOf": {
       "type": "array",
@@ -117,9 +124,9 @@
         "$ref": "https://schema.hbp.eu/minds3.0/core/project.schema.json"
       }
     },
-    "studiedSubjectAndOrTissueSample": {
+    "studyWasPerformedOn": {
       "type": "array",
-      "description": "Lists subjects and/or tissue samples that were studied for this content.",
+      "description": "Lists subjects and/or tissue samples of this study.",
       "items": {
         "anyOf": [
           {"$ref": "https://schema.hbp.eu/minds3.0/core/subject.schema.json"},
@@ -127,9 +134,9 @@
         ]
       }
     },
-    "focusOfStudy": {
+    "studyHasFocusOn": {
       "type": "array",
-      "description": "Lists the foci (study target, temporal subject information) of the study conducted in the resource.",
+      "description": "Lists the foci (study target, temporal subject information) of this study.",
       "items": {
         "anyOf": [
           {"$ref": "https://schema.hbp.eu/minds3.0/core/studyTarget.schema.json"},
@@ -139,7 +146,7 @@
     },
     "isDescribedBy": {
       "type": "array",
-      "description": "Publication(s) and/or file(s) that document the scope of the project.",
+      "description": "Lists publications/sources or files that contain a descriptive documentation of this content.",
       "items": {
         "anyOf": [
           {"$ref": "https://schema.hbp.eu/minds3.0/core/publicationOrSource.schema.json"},
@@ -147,16 +154,16 @@
         ]
       }
     },
-    "isDerivedFrom": {
+    "isBasedOn": {
       "type": "array",
-      "description": "Lists the publication(s) used to produce the input to the resource.",
+      "description": "Lists the publications/sources from which this content is derived or from which it is a modification or adaption.",
       "items": {
         "$ref": "https://schema.hbp.eu/minds3.0/core/publicationOrSource.schema.json"
       }
     },
     "usedMethodsAndOrParadigms": {
       "type": "array",
-      "description": "Lists the method(s) and/or paradigm(s) used to produce the content of the resource.",
+      "description": "Lists the methods and/or paradigms used to produce this content.",
       "items": {
         "$ref": "https://schema.hbp.eu/minds3.0/core/methodsOrParadigms.schema.json"
       }
