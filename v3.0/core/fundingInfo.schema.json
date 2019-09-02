@@ -5,22 +5,25 @@
   "type": "object",
   "additionalProperties": false,
   "required": [
-    "alias"
+    "alias",
+    "funderName",
+    "grantId",
+    "validFor"
   ],
   "properties": {
     "alias": {
       "type": "string",
       "description": "An alternate short name of an item."
     },
-    "funderName": {
+    "funder": {
       "type": "string",
-      "description": "Name of the funding organisation."
+      "description": "Organization that supports linked items through some kind of financial contribution."
     },
     "grantId": {
       "type": "string",
       "description": "Identifier for the received grant."
     },
-    "isValidFor": {
+    "fundedItem": {
       "type": "array",
       "description": "Links to dataset or model that was funded by this grant.",
       "items": {
@@ -29,5 +32,6 @@
           {"$ref": "https://schema.hbp.eu/minds3.0/core/model.schema.json"}
         ]
       }
+    }
   }
 }
