@@ -1,0 +1,33 @@
+{
+  "$id": "https://schema.hbp.eu/minds3.0/options/license.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Characteristics of a license.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "alias",
+    "fullName",
+    "description",
+    "licenseDeed",
+    "legalCode"
+  ],
+  "properties": {
+    "alias": {
+      "type": "string"
+    },
+    "fullName": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "licenseDeed": {
+      "type": "string",
+      "format": "iri"
+    },
+    "legalCode": {
+      "type": "string",
+      "format": "iri"    
+    }
+  }
+}
