@@ -5,7 +5,10 @@
   "type": "object",
   "additionalProperties": false,
   "required": [
-    "alias"
+    "alias",
+    "title",
+    "description",
+    ""
   ],
   "properties": {
     "alias": {
@@ -58,6 +61,7 @@
     "custodian": {
       "type": "array",
       "description": "Person entrusted with guarding and keeping the resource.",
+      "minItems": 1,
       "items": {
         "$ref": "https://schema.hbp.eu/minds3.0/core/person.schema.json"
       }
@@ -65,6 +69,7 @@
     "mainContact": {
       "type": "array",
       "description": "Person with expert knowledge about the resource and therefore can provide relevant information.",
+      "minItems": 1,     
       "items": {
         "$ref": "https://schema.hbp.eu/minds3.0/core/person.schema.json"
       }
