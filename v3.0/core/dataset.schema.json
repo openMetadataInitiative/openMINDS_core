@@ -11,7 +11,13 @@
     "version",
     "versionSpecifications",
     "license",
-    ""
+    "releaseDate",
+    "releaseStatus",
+    "doi",
+    "custodian",
+    "mainContact",
+    "ethicsApproval",
+    "fundingInfo"
   ],
   "properties": {
     "alias": {
@@ -59,7 +65,7 @@
         "released"
         ]
     },
-    "DOI": {
+    "doi": {
       "description": "Persistent and interoperable Digital Object Identifier (DOI) for this content.",
       "oneOf": [
         {"const": "to be determined"},
