@@ -1,0 +1,19 @@
+{
+  "$id": "https://schema.hbp.eu/minds3.0/options/studyCategories/inVivo.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Characteristics of an in vivo study.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "studyCategory",
+    "description"
+  ],
+  "properties": {
+    "studyCategory": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}
