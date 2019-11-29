@@ -6,57 +6,62 @@
   "additionalProperties": false,
   "required": [
     "alias",
-    "title",
-    "description",
-    "version",
-    "versionSpecifications",
-    "license",
-    "releaseDate",
-    "releaseStatus",
+    "abstract",
+    "authors",
+    "changeLog",
+    "conditionsOfAccess",
     "doi",
-    "custodian",
-    "mainContact",
     "ethicsApproval",
     "fundingInfo"
+    "headline",
+    "license",
+    "releaseDate",
+    "version"
   ],
   "properties": {
     "alias": {
       "type": "string",
-      "description": "An alternate (short) name of the item."
+      "description": "User-defined identifier of this dataset."
     },
     "headline": {
       "type": "string",
-      "description": "Headline of describing this item."
+      "description": "Headline that describes this dataset (max. 110 characters)."
     },
-    "description": {
+    "abstract": {
       "type": "string",
-      "description": "A description of the item."
+      "description": "Short description that summarizes this dataset (max. 200 words; no references)."
+    },
+    "dataDescriptorMaintext": {
+      "type": "string",
+      "description": "More extensive description of this dataset including references to relevant publications."
     },
     "version": {
       "type": "string",
-      "description": "The version identifier of a creative work embodied by the item."
+      "description": "Version identifier of this dataset."
     },
-    "versionSpecifications": {
+    "changeLog": {
       "type": "string",
-      "description": "Log or record of all notable changes made to the item compared to it's previous version."
+      "description": "Record of all notable changes made to this dataset compared to it's previous version."
     },
     "license": {
-      "description": "A license document that applies to this content.",
+      "description": "License document that applies to this dataset.",
       "oneOf": [
         {"const": "to be determined"},
         {"$ref": "https://schema.hbp.eu/minds3.0/options/license.schema.json"}
       ]
     },
-    "releaseDate": {
+    "datePublished": {
       "type": "string",
       "format": "date",
-      "description": "The release date (actual or intended) of this content."
+      "description": "Date (actual or intended) of first broadcast/publication of this dataset."
     },
-    "releaseStatus": {
+    "conditionsOfAccess": {
       "type": "string",
+      "description": "Conditions that affect the availability of this dataset.",
       "enum": [
         "embargoed",
-        "released"
+        "open",
+        "restricted"
         ]
     },
     "doi": {
@@ -66,27 +71,13 @@
         {"$ref": "https://schema.hbp.eu/minds3.0/options/doi.schema.json"}
       ]
     },
-    "custodian": {
+    "contributors": {
       "type": "array",
-      "description": "Person entrusted with guarding and keeping this content.",
+      "description": "List of contributors of this dataset.",
       "minItems": 1,
+      "maxItems": 1,
       "items": {
-        "$ref": "https://schema.hbp.eu/minds3.0/core/person.schema.json"
-      }
-    },
-    "mainContact": {
-      "type": "array",
-      "description": "Person with expert knowledge about this content and therefore can provide relevant information.",
-      "minItems": 1,     
-      "items": {
-        "$ref": "https://schema.hbp.eu/minds3.0/core/person.schema.json"
-      }
-    },
-    "contributor": {
-      "type": "array",
-      "description": "Person collecting, managing, distributing, or otherwise contributing to the development of the resource.",
-      "items": {
-        "$ref": "https://schema.hbp.eu/minds3.0/core/person.schema.json"
+        "$ref": "https://schema.hbp.eu/minds3.0/options/contributors.schema.json"
       }
     },
     "ethicsApproval": {
@@ -96,9 +87,9 @@
         {"$ref": "https://schema.hbp.eu/minds3.0/core/ethicsApproval.schema.json"}
       ]
     },
-    "fundingInfo": {
+    "funding": {
       "type": "array",
-      "description": "Information about financial support of this content.",
+      "description": "Financial support of this dataset.",
       "oneOf": [
         {"const": "to be determined"},
         {"$ref": "https://schema.hbp.eu/minds3.0/core/fundingInfo.schema.json"}
