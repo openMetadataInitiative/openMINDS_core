@@ -44,13 +44,7 @@
       "description": "A license document that applies to this content.",
       "oneOf": [
         {"const": "to be determined"},
-        {"$ref": "https://schema.hbp.eu/minds3.0/options/licenses/cc01.0.schema.json"},
-        {"$ref": "https://schema.hbp.eu/minds3.0/options/licenses/ccBy4.0.schema.json"},
-        {"$ref": "https://schema.hbp.eu/minds3.0/options/licenses/ccByNc4.0.schema.json"},
-        {"$ref": "https://schema.hbp.eu/minds3.0/options/licenses/ccByNcNd4.0.schema.json"},
-        {"$ref": "https://schema.hbp.eu/minds3.0/options/licenses/ccByNcSa4.0.schema.json"},
-        {"$ref": "https://schema.hbp.eu/minds3.0/options/licenses/ccByNd4.0.schema.json"},
-        {"$ref": "https://schema.hbp.eu/minds3.0/options/licenses/ccBySa4.0.schema.json"}
+        {"$ref": "https://schema.hbp.eu/minds3.0/options/license.schema.json"}
       ]
     },
     "releaseDate": {
