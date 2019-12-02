@@ -7,9 +7,9 @@
   "required": [
     "alias",
     "abstract",
-    "authors",
     "changeLog",
     "conditionsOfAccess",
+    "contributors",
     "doi",
     "ethicsApproval",
     "fundingInfo"
@@ -33,7 +33,7 @@
     },
     "dataDescriptorMaintext": {
       "type": "string",
-      "description": "More extensive description of this dataset including references to relevant publications."
+      "description": "Extensive description of this dataset including references to relevant publications."
     },
     "version": {
       "type": "string",
@@ -109,7 +109,7 @@
         "$ref": "https://schema.hbp.eu/minds3.0/core/project.schema.json"
       }
     },
-    "studyWasPerformedOn": {
+    "wasPerformedOn": {
       "type": "array",
       "description": "Lists subjects and/or tissue samples of this study.",
       "items": {
@@ -119,7 +119,7 @@
         ]
       }
     },
-    "studyHasFocusOn": {
+    "hasFocusOn": {
       "type": "array",
       "description": "Lists the foci (study target, temporal subject information) of this study.",
       "items": {
