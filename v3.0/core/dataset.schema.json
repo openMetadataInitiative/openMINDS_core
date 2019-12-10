@@ -44,19 +44,19 @@
       "description": "Record of all notable changes made to this dataset compared to it's previous version."
     },
     "license": {
-      "description": "License document that applies to this dataset.",
+      "description": "Link to license document that applies to this dataset.",
       "oneOf": [
         {"$ref": "https://schema.hbp.eu/minds3.0/options/license.schema.json"}
       ]
     },
-    "datePublished": {
+    "releaseDate": {
       "type": "string",
       "format": "date",
       "description": "Date (actual or intended) of first broadcast/publication of this dataset."
     },
     "conditionsOfAccess": {
       "type": "string",
-      "description": "Conditions that affect the availability of this dataset.",
+      "description": "General condition that defines the availability of this dataset.",
       "enum": [
         "embargoed",
         "open",
@@ -64,14 +64,14 @@
         ]
     },
     "doi": {
-      "description": "Persistent and interoperable Digital Object Identifier (DOI) for this content.",
+      "description": "Digital Object Identifier (DOI) assigned to this dataset.",
       "oneOf": [
         {"$ref": "https://schema.hbp.eu/minds3.0/options/doi.schema.json"}
       ]
     },
     "contributors": {
       "type": "array",
-      "description": "List of contributors of this dataset.",
+      "description": "Link to list of persons that were involved in the creation/publication of this dataset.",
       "minItems": 1,
       "maxItems": 1,
       "items": {
@@ -79,20 +79,20 @@
       }
     },
     "ethicsApproval": {
-      "description": "Characteristics of the existing ethics approval.",
+      "description": "Link to ethics approvals that are valid for the procedures applied in this dataset.",
       "oneOf": [
         {"$ref": "https://schema.hbp.eu/minds3.0/core/ethicsApproval.schema.json"}
       ]
     },
     "funding": {
       "type": "array",
-      "description": "Financial support of this dataset.",
+      "description": "Link to funding information of this dataset.",
       "oneOf": [
-        {"$ref": "https://schema.hbp.eu/minds3.0/core/fundingInfo.schema.json"}
+        {"$ref": "https://schema.hbp.eu/minds3.0/core/funding.schema.json"}
       ]
     },
     "isNewVersionOf": {
-      "description": "Indicates that this content is a new edition (modified or updated) of a previously released content.",
+      "description": "Link to previously released version of this dataset.",
       "oneOf": [
         {"$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json"}
       ]
@@ -111,16 +111,6 @@
         "anyOf": [
           {"$ref": "https://schema.hbp.eu/minds3.0/core/subject.schema.json"},
           {"$ref": "https://schema.hbp.eu/minds3.0/core/tissueSample.schema.json"}
-        ]
-      }
-    },
-    "hasFocusOn": {
-      "type": "array",
-      "description": "Lists the foci (study target, temporal subject information) of this study.",
-      "items": {
-        "anyOf": [
-          {"$ref": "https://schema.hbp.eu/minds3.0/core/studyTarget.schema.json"},
-          {"$ref": "https://schema.hbp.eu/minds3.0/core/temporalSubjectInfo.schema.json"}
         ]
       }
     },
