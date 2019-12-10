@@ -31,7 +31,7 @@
       "type": "string",
       "description": "Short description that summarizes this dataset (max. 200 words; no references)."
     },
-    "dataDescriptorMaintext": {
+    "dataDescriptor": {
       "type": "string",
       "description": "Extensive description of this dataset including references to relevant publications."
     },
@@ -46,7 +46,6 @@
     "license": {
       "description": "License document that applies to this dataset.",
       "oneOf": [
-        {"const": "to be determined"},
         {"$ref": "https://schema.hbp.eu/minds3.0/options/license.schema.json"}
       ]
     },
@@ -67,7 +66,6 @@
     "doi": {
       "description": "Persistent and interoperable Digital Object Identifier (DOI) for this content.",
       "oneOf": [
-        {"const": "to be determined"},
         {"$ref": "https://schema.hbp.eu/minds3.0/options/doi.schema.json"}
       ]
     },
@@ -83,7 +81,6 @@
     "ethicsApproval": {
       "description": "Characteristics of the existing ethics approval.",
       "oneOf": [
-        {"const": "to be determined"},
         {"$ref": "https://schema.hbp.eu/minds3.0/core/ethicsApproval.schema.json"}
       ]
     },
@@ -91,14 +88,12 @@
       "type": "array",
       "description": "Financial support of this dataset.",
       "oneOf": [
-        {"const": "to be determined"},
         {"$ref": "https://schema.hbp.eu/minds3.0/core/fundingInfo.schema.json"}
       ]
     },
     "isNewVersionOf": {
       "description": "Indicates that this content is a new edition (modified or updated) of a previously released content.",
       "oneOf": [
-        {"const": null},
         {"$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json"}
       ]
     },
