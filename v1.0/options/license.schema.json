@@ -1,0 +1,24 @@
+{
+  "$id": "https://schema.hbp.eu/minds1.0/options/license.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Characteristics of a license.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "shortName",
+    "url"
+  ],
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "shortName": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "format": "iri"    
+    }
+  }
+}
