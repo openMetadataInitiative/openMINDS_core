@@ -33,11 +33,15 @@
     },
     "modality": {
       "type": "string",
-      "description": ""
+      "description": "List of experiment modalities that were conducted in this dataset."
     },
     "containerURL": {
-      "type": "",
-      "description": ""
+      "type": "string",
+      "description": "Single Uniform Resource Locator (URL) that points to the physical location of this dataset.",
+      "format": [
+        "uri",
+        "iri"
+      ]
     },
     "contributors": {
       "description": "Link to list of persons that were involved in the creation/publication of this dataset.",
@@ -45,88 +49,88 @@
         {"$ref": "https://schema.hbp.eu/minds1.0/core/person.schema.json"}
       ]
     },
-    "dataLink": {
-      "type": "",
-      "description": ""
+    "dataLink": {      
+      "type": "string",
+      "description": "Single Uniform Resource Locator (URL) that points to the physical location of this dataset.",
+      "format": [
+        "uri",
+        "iri"
+      ]
     },
     "embargoStatus": {
       "type": "string",
       "description": "General condition that defines the availability of this dataset.",
       "enum": [
         "embargoed",
-        "open",
-        "restricted"
+        "free",
+        "restricted access",
+        "under review",
+        "unknown"
         ]
     },
     "formats": {
-      "type": "",
-      "description": "",
-      "enum": [
-        ""
+      "description": "Link to file formats used in this dataset.",
+      "oneOf": [
+        {"$ref": "https://schema.hbp.eu/minds1.0/options/formats.schema.json"}
       ]
     },
     "license": {
-      "type": "",
-      "description": "Link to list of persons that were involved in the creation/publication of this dataset."
+      "description": "Link to list of persons that were involved in the creation/publication of this dataset.",
+      "oneOf": [
+        {"$ref": "https://schema.hbp.eu/minds1.0/options/license.schema.json"}
+      ]
     },
     "owners": {
-      "description": "Link to ethics approvals that are valid for the procedures applied in this dataset.",
+      "description": "Link to list of persons that are responsible for this dataset.",
       "oneOf": [
-        {"$ref": "https://schema.hbp.eu/minds3.0/core/ethicsApproval.schema.json"}
+        {"$ref": "https://schema.hbp.eu/minds1.0/core/person.schema.json"}
       ]
     },
     "parcellationAtlas": {
       "type": "array",
-      "description": "Link to funding information of this dataset.",
+      "description": "Link to the parcellation atlas that was used in this dataset.",
       "oneOf": [
-        {"$ref": "https://schema.hbp.eu/minds3.0/core/funding.schema.json"}
+        {"$ref": "https://schema.hbp.eu/minds1.0/options/parcellationAtlas.schema.json"}
       ]
     },
     "parcellationRegion": {
-      "description": "Link to previously released version of this dataset.",
+      "description": "Link to a parcellation region that was used in this dataset.",
       "oneOf": [
-        {"$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json"}
+        {"$ref": "https://schema.hbp.eu/minds1.0/option/parcellationRegion.schema.json"}
       ]
     },
     "publications": {
       "type": "array",
-      "description": "Lists larger research projects in which context this content was created.",
+      "description": "Link to research publications that were conducted on / are related to this dataset.",
       "items": {
-        "$ref": "https://schema.hbp.eu/minds3.0/core/project.schema.json"
+        "$ref": "https://schema.hbp.eu/minds1.0/core/publications.schema.json"
       }
     },
     "referenceSpace": {
       "type": "array",
-      "description": "Lists subjects and/or tissue samples of this study.",
-      "items": {
-        "anyOf": [
-          {"$ref": "https://schema.hbp.eu/minds3.0/core/subject.schema.json"},
-          {"$ref": "https://schema.hbp.eu/minds3.0/core/tissueSample.schema.json"}
-        ]
-      }
+      "description": "Link to brain reference space that was used in this dataset.",
+      "oneOf": [
+        {"$ref": "https://schema.hbp.eu/minds1.0/option/referenceSpace.schema.json"}
+      ]
     },
     "specimenGroups": {
       "type": "array",
-      "description": "Lists publications/sources or files that contain a descriptive documentation of this content.",
-      "items": {
-        "anyOf": [
-          {"$ref": "https://schema.hbp.eu/minds3.0/core/publicationOrSource.schema.json"},
-          {"$ref": "https://schema.hbp.eu/minds3.0/core/file.schema.json"}
-        ]
-      }
+      "description": "Link to specimen groups that list subjects that were used / participated in this dataset.",
+      "oneOf": [
+        {"$ref": "https://schema.hbp.eu/minds1.0/core/specimenGroups.schema.json"}
+      ]
     },
     "file": {
       "type": "array",
-      "description": "Lists the publications/sources from which this content is derived or from which it is a modification or adaption.",
+      "description": "Link to files that belong to this dataset.",
       "items": {
-        "$ref": "https://schema.hbp.eu/minds3.0/core/publicationOrSource.schema.json"
+        "$ref": "https://schema.hbp.eu/minds3.0/options/file.schema.json"
       }
     },
     "versionOf": {
-      "type": "array",
-      "description": "Lists the methods and/or paradigms used to produce this content.",
+      "description": "Link to a previous version of this dataset.",
       "items": {
-        "$ref": "https://schema.hbp.eu/minds3.0/core/methodsOrParadigms.schema.json"
+        "$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json"
       }
     }
   }
