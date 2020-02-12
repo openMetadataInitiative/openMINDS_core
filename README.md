@@ -28,6 +28,7 @@ Within the HBP, the first basic metadata schemas were called Minimal Information
   + ***Specimen Group***
   + ***Subject***
   + ***Sample***
+
 Although MINDS v1.0 was modified and extended over time, the core schemas were used as building blocks of the KG database until now.
 
 ### version 2.0 
