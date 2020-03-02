@@ -14,7 +14,7 @@ In short, openMINDS schemas capture the following:
   
 All openMINDS schemas are defined in JSON-Schema and can be serialized in JSON-LD. The latter can also be directly digested as machine-readable data descriptions into the database of the EBRAINS KG which will increase the findability of the corresponding data.
 
-## Connecting MINDS to the world.
+## Connecting to the world
 For ensuring compatibility with other community efforts for sharing neuroscience data, openMINDS metadata are linked to existing neuroscience terminologies or ontologies that were registered in the EBRAINS KG framework. Keeping in mind, though, that most standardization efforts are not completed or dynamicly evolve, openMINDS metadata entries (values) are not forced to strictly follow a registered terminology or ontology, but can be instead defined by the individual user. In fact, metadata entries that cannot be linked to an available terminology or ontology term within the EBRAINS KG, will trigger the completion or optimization of the correspondingly registered terminologies or ontologies.
 
 ## openMINDS history
