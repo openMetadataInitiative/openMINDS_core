@@ -1,5 +1,5 @@
 # openMINDS
-openMINDS (open Metadata Initiative for Neuroscience Data Structures) is an ontology-based metadata standard for neuroscience. It is developed by the curation team of the Neuroinformatics Platform (NIP) of the Human Brain Project (HBP) as part of the effort to build a unique data sharing framework, called the Knowledge Graph (KG), within the HBP powered European Brain ReseArch InfraStructure, short EBRAINS. 
+openMINDS (open Metadata Initiative for Neuroscience Data Structures) is an ontology-based metadata standard for neuroscience. It is developed by the curation team of the Neuroinformatics Platform (NIP) of the Human Brain Project (HBP) as part of the effort to build a unique data sharing framework, called the Knowledge Graph (KG), within the HBP powered European Brain ReseArch INfraStructure, short EBRAINS. 
 
 openMINDS is applicable for describing and registering data from different modalities including imaging, electrophysiology, informatics, and -omics into unified graph databases, such as the KG database hosted by EBRAINS. As a metadata standard, openMINDS is flexible enough to capture specific aspects of the data, yet strict enough to guarantee comparability across them. 
 
