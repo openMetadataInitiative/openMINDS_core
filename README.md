@@ -25,7 +25,7 @@ Within the HBP, the first basic metadata schemas were called Minimal Information
 [partial release: Okt 2018] The second version, called uniMINDS, was never fully released, but rather functioned as a test environment for fully utilizing the power of the KG graph database. In comparison to MINDS, the modularity of the uniMINDS schemas was increased to enabled individual describtions of subjects, tissue samples and files. Furthermore, uniMINDS included a metadata schema for computational models. Until now, the model schema is the only released part of uniMINDS.
 
 #### v3: openMINDS
-[in development] The third version of the HBP basic metadata schemas was renamed to openMINDS. Based on experiences collected from the v2: uniMINDS environment, openMINDS will comprise renewed schemas that best integrate with ontologies and other metadata schemas developments within and outside of HBP and EBRAINS. Furthermore, openMINDS will be able to handle information of software, and time-dependent measurements performed on subjects or tissue samples. It's release is planned for the early SGA-3 phase of the HBP.
+[in development] The third version of the HBP basic metadata schemas was renamed to openMINDS. Based on experiences collected from the v2: uniMINDS environment, openMINDS will comprise renewed schemas that best integrate with ontologies and other metadata schemas developments within and outside of HBP and EBRAINS. Furthermore, openMINDS will be able to handle information of software, and time-dependent measurements performed on subjects or tissue samples. Its release is planned for the early SGA-3 phase of the HBP.
 
 ## License
 This work is licensed under a Creative Commons Attribution 4.0 International License.
