@@ -16,8 +16,8 @@
     {"@id": "licenses/core/information/v1.0.0/7377a480-6066-4c47-9be8-67c586713ed7"}
   ],
   "activities": [
-    {"@id": "minds/experiment/method/v1.0.0/activity-01.json"},
-    {"@id": "minds/experiment/method/v1.0.0/activity-02.json"}
+    {"@id": "minds/core/activity/v1.0.0/activity-01.json"},
+    {"@id": "minds/core/activity/v1.0.0/activity-02.json"}
   ],
   "specimenGroups": [
     {"@id": "minds/core/specimenGroups/v1.0.0/specimengroup-01.json"}
