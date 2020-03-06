@@ -1,34 +1,41 @@
 
 {
-  "$id": "https://schema.hbp.eu/minds1.0/core/dataset.schema.json",
+  "$id": "https://schema.hbp.eu/minds/core/dataset.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "description": "A body of structured information describing some topic(s) of interest.",
+  "@idPrefix": "minds/core/dataset/v1.0.0/",
   "type": "object",
   "additionalProperties": false,
   "required": [
-    "name"
+    "name",
+    "description",
+    "activities",
+    "contributors",
+    "embargoStatus",
+    "license",
+    "owners"
   ],
   "properties": {
     "name": {
       "type": "string",
-      "description": "Descriptive name of this dataset."
+      "description": "Descriptive name (title) under which this dataset is going to be published."
     },
     "description": {
       "type": "string",
-      "description": "A short description of this dataset."
+      "description": "A short description (abstract) with which this dataset is going to be published."
     },
     "activities": {
       "type": "string",
-      "description": "Link to an activity in which a specific method or paradigm was performed.",
+      "description": "Link to an activity performed for generating this dataset.",
       "oneOf": [
-        {"$ref": "https://schema.hbp.eu/minds1.0/core/activity.schema.json"}
+        {"$ref": "https://schema.hbp.eu/minds/core/activity.schema.json"}
       ]
     },
     "project": {
       "type": "array",
       "description": "Link to larger research project(s) in which context this dataset was created.",
       "items": {
-       "$ref": "https://schema.hbp.eu/minds1.0/core/project.schema.json"
+       "$ref": "https://schema.hbp.eu/minds/core/project.schema.json"
        }
     },
     "modality": {
@@ -46,7 +53,7 @@
     "contributors": {
       "description": "Link to list of persons that were involved in the creation/publication of this dataset.",
       "oneOf": [
-        {"$ref": "https://schema.hbp.eu/minds1.0/core/person.schema.json"}
+        {"$ref": "https://schema.hbp.eu/minds/core/person.schema.json"}
       ]
     },
     "dataLink": {      
@@ -64,73 +71,72 @@
         "embargoed",
         "free",
         "restricted access",
-        "under review",
-        "unknown"
+        "under review"
         ]
     },
     "formats": {
       "description": "Link to file formats used in this dataset.",
       "oneOf": [
-        {"$ref": "https://schema.hbp.eu/minds1.0/options/formats.schema.json"}
+        {"$ref": "https://schema.hbp.eu/minds/options/formats.schema.json"}
       ]
     },
     "license": {
-      "description": "Link to list of persons that were involved in the creation/publication of this dataset.",
+      "description": "Link to license defined for this dataset.",
       "oneOf": [
-        {"$ref": "https://schema.hbp.eu/minds1.0/options/license.schema.json"}
+        {"$ref": "https://schema.hbp.eu/minds/options/license.schema.json"}
       ]
     },
     "owners": {
-      "description": "Link to list of persons that are responsible for this dataset.",
+      "description": "Link to person(s) that is(are) responsible for this dataset.",
       "oneOf": [
-        {"$ref": "https://schema.hbp.eu/minds1.0/core/person.schema.json"}
+        {"$ref": "https://schema.hbp.eu/minds/core/person.schema.json"}
       ]
     },
     "parcellationAtlas": {
       "type": "array",
-      "description": "Link to the parcellation atlas that was used in this dataset.",
+      "description": "Link to parcellation atlas(es) that was(were) used in this dataset.",
       "oneOf": [
-        {"$ref": "https://schema.hbp.eu/minds1.0/options/parcellationAtlas.schema.json"}
+        {"$ref": "https://schema.hbp.eu/minds/options/parcellationAtlas.schema.json"}
       ]
     },
     "parcellationRegion": {
-      "description": "Link to a parcellation region that was used in this dataset.",
+      "description": "Link to a parcellation region(s) that was(were) studied in this dataset.",
       "oneOf": [
-        {"$ref": "https://schema.hbp.eu/minds1.0/option/parcellationRegion.schema.json"}
+        {"$ref": "https://schema.hbp.eu/minds/option/parcellationRegion.schema.json"}
       ]
     },
     "publications": {
       "type": "array",
-      "description": "Link to research publications that were conducted on / are related to this dataset.",
+      "description": "Link to research publication(s) that was(were) conducted on / are related to this dataset.",
       "items": {
-        "$ref": "https://schema.hbp.eu/minds1.0/core/publications.schema.json"
+        "$ref": "https://schema.hbp.eu/minds/core/publications.schema.json"
       }
     },
     "referenceSpace": {
       "type": "array",
-      "description": "Link to brain reference space that was used in this dataset.",
+      "description": "Link to brain reference space(s) that was(were) used in this dataset.",
       "oneOf": [
-        {"$ref": "https://schema.hbp.eu/minds1.0/option/referenceSpace.schema.json"}
+        {"$ref": "https://schema.hbp.eu/minds/option/referenceSpace.schema.json"}
       ]
     },
     "specimenGroups": {
       "type": "array",
-      "description": "Link to specimen groups that list subjects that were used / participated in this dataset.",
+      "description": "Link to specimen group()s that is(are) listing the subjects that were used / participating.",
       "oneOf": [
-        {"$ref": "https://schema.hbp.eu/minds1.0/core/specimenGroups.schema.json"}
+        {"$ref": "https://schema.hbp.eu/minds/core/specimenGroups.schema.json"}
       ]
     },
     "file": {
       "type": "array",
       "description": "Link to files that belong to this dataset.",
       "items": {
-        "$ref": "https://schema.hbp.eu/minds3.0/options/file.schema.json"
+        "$ref": "https://schema.hbp.eu/minds/options/file.schema.json"
       }
     },
     "versionOf": {
       "description": "Link to a previous version of this dataset.",
       "items": {
-        "$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json"
+        "$ref": "https://schema.hbp.eu/minds/core/dataset.schema.json"
       }
     }
   }
