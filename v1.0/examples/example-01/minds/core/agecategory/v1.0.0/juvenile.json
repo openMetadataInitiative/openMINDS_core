@@ -1,0 +1,5 @@
+{
+  "@type": "https://schema.hbp.eu/minds/agecategory.schema.json",
+  "@id": "minds/core/agecategory/v1.0.0/juvenile.json",
+  "name": "juvenile"
+}
