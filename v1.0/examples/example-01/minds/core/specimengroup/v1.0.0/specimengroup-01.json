@@ -1,0 +1,11 @@
+{
+  "@type": "https://schema.hbp.eu/minds/specimengroup.schema.json",
+  "@id": "minds/core/specimengroup/v1.0.0/specimengroup-01.json",
+  "name": "specimengroup-01",
+  "subjects": [
+    {"@id": "minds/experiment/subject/v1.0.0/subject-01.json"},
+    {"@id": "minds/experiment/subject/v1.0.0/subject-02.json"},
+    {"@id": "minds/experiment/subject/v1.0.0/subject-03.json"},
+    {"@id": "minds/experiment/subject/v1.0.0/subject-04.json"}
+  ]
+}
