@@ -13,6 +13,6 @@
     {"@id": "minds/experiment/method/v1.0.0/method-03.json"}
   ],
   "preparation": [
-    {"@id": "minds/core/preparation/v1.0.0/preparation-02.json"}
+    {"@id": "minds/core/preparation/v1.0.0/in-vivo.json"}
   ]
 }
