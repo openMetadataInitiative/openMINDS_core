@@ -1,0 +1,15 @@
+{
+  "@type": "https://schema.hbp.eu/minds/subject.schema.json",
+  "@id": "minds/experiment/subject/v1.0.0/subject-01.json",
+  "name": "subject-01",
+  "age": "42 years"
+  "ageCategory": [
+    {"@id": "minds/core/agecategory/v1.0.0/adult.json"}
+  ],
+  "sex": [
+    {"@id": "minds/core/sex/v1.0.0/male.json"}
+  ],  
+  "species": [
+    {"@id": "minds/core/sex/v1.0.0/homo-sapiens.json"}
+  ]
+}
