@@ -1,0 +1,5 @@
+{
+  "@type": "https://schema.hbp.eu/minds/method.schema.json",
+  "@id": "minds/experiment/method/v1.0.0/method-03.json",
+  "name": "resting state"
+}
