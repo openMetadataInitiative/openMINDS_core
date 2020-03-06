@@ -21,7 +21,7 @@ Here a structural overview of the corresponding example-01 metadata collection:
 > ................**v1.0.0/**  
 > ....................**person-01.json**  
 > ....................**person-02.json**  
-> ....................**person-03.json**
+> ....................**person-03.json**  
 > ............**preparation/**  
 > ................**v1.0.0/**  
 > ....................**in-vivo.json**  
