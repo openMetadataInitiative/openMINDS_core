@@ -10,6 +10,6 @@
     {"@id": "minds/core/sex/v1.0.0/female.json"}
   ],  
   "species": [
-    {"@id": "minds/core/sex/v1.0.0/homo-sapiens.json"}
+    {"@id": "minds/core/species/v1.0.0/homo-sapiens.json"}
   ]
 }
