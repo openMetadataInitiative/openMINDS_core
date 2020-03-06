@@ -2,7 +2,7 @@
   "@type": "https://schema.hbp.eu/minds/subject.schema.json",
   "@id": "minds/experiment/subject/v1.0.0/subject-03.json",
   "name": "subject-03",
-  "age": "31 years"
+  "age": "31 years",
   "ageCategory": [
     {"@id": "minds/core/agecategory/v1.0.0/adult.json"}
   ],
