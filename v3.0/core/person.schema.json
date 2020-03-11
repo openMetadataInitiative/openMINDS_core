@@ -7,7 +7,7 @@
   "required": [
     "ORCID",
     "familyName",
-    "middleName",
+    "givenName",
     "email"
   ],
   "properties": {
