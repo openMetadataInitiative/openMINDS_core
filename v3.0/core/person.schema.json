@@ -44,6 +44,23 @@
         ]
       }
     },
+    "affiliations": {
+      "type": "array",
+      "description": "List of institutions",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "The full name of the affiliation (address); usually the name of an institute or company."
+          },
+          "PID": {
+            "type": "string",
+            "description": "RINGGOLD number"
+          }
+        }
+      }
+    },
     "isMainContactOf": {
       "type": "array",
       "description": "Resources for which person is the main contact.",
