@@ -28,4 +28,4 @@ Within the HBP, the first basic metadata schemas were called Minimal Information
 [in development] The third version of the HBP basic metadata schemas was renamed to openMINDS. Based on experiences collected from the v2: uniMINDS environment, openMINDS will comprise renewed schemas that best integrate with ontologies and other metadata schemas developments within and outside of HBP and EBRAINS. Furthermore, openMINDS will be able to handle information of software, and time-dependent measurements performed on subjects or tissue samples. Its release is planned for the early SGA-3 phase of the HBP.
 
 ## License
-This work is licensed under the MIT License
+This work is licensed under the MIT License.
