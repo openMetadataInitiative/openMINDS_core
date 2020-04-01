@@ -11,7 +11,7 @@ The openMINDS schemas can be used to describe the origin, context, content, and 
 * ... the expected value type of each metadata entry (e.g., reference to another schema, date, etc.), 
 * ... and in some cases even a drop-down list of possible values for a specific metadata entry.
 
-All openMINDS schemas are defined in JSON-Schema and can be serialized in JSON-LD. The latter can also be directly digested as machine-readable data descriptions into the database of the KG. More information about the technical implementation of the openMINDS schemas and their usage can be found in [Implementation & Usage](https://github.com/HumanBrainProject/openMINDS/wiki/Implementation-&-Usage).
+All openMINDS schemas are defined in JSON-Schema and can be serialized in JSON-LD. The latter can also be directly digested as machine-readable data descriptions into the database of the KG. More information about the technical implementation of the openMINDS schemas and their usage can be found in [Implementation](https://github.com/HumanBrainProject/openMINDS/wiki/Implementation) and [Usage](https://github.com/HumanBrainProject/openMINDS/wiki/Usage).
 
 Using openMINDS metadata schemas for describing data will increase their findability and interoperability according to the FAIR guiding principles for scientific data management and stewardship ([Wilkinson et al. 2016](https://doi.org/10.1038/sdata.2016.18)).
 
