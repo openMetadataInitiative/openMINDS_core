@@ -2,11 +2,13 @@
 {
   "$id": "https://schema.hbp.eu/minds/core/dataset.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "description": "A body of structured information describing some topic(s) of interest.",
+  "description": "Structured information describing a collection of human and/or animal data.",
   "@idPrefix": "minds/core/dataset/v1.0.0/",
   "type": "object",
   "additionalProperties": false,
   "required": [
+    "@type",
+    "@id",
     "name",
     "description",
     "activities",
@@ -22,94 +24,101 @@
     },
     "description": {
       "type": "string",
-      "description": "A short description (abstract) with which this dataset is going to be published."
+      "description": "A short description (abstract) with which this dataset is going to be published ."
     },
     "activities": {
-      "type": "string",
-      "description": "Link to an activity performed for generating this dataset.",
-      "oneOf": [
-        {"$ref": "https://schema.hbp.eu/minds/core/activity.schema.json"}
-      ]
+      "type": "array",
+      "description": "Link to all activities that were performed for generating this dataset.",
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds/core/project.schema.json"
+        }
+    },
+    "contributors": {
+      "type": "array",
+      "description": "Link to all persons that were involved in the creation/publication of this dataset.",
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds/core/person.schema.json"
+      }
+    },
+    "embargoStatus": {
+      "type": "object",
+      "description": "Link to the general condition that defines the availability of this dataset.",
+      "$ref": "https://schema.hbp.eu/minds/core/embargostatus.schema.json"
+      }
+    },
+    "license": {
+      "type": "object",
+      "description": "Link to a license that defines the conditions under which this dataset can be (re)used.",
+      "$ref": "https://schema.hbp.eu/minds/options/license.schema.json"
+    },
+    "owners": {
+      "type": "array",
+      "description": "Link to all persons that are responsible for this dataset.",
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds/core/person.schema.json"
+      }
     },
     "project": {
       "type": "array",
-      "description": "Link to larger research project(s) in which context this dataset was created.",
+      "description": "Link to all larger research projects in which context this dataset was created.",
       "items": {
-       "$ref": "https://schema.hbp.eu/minds/core/project.schema.json"
-       }
+        "$ref": "https://schema.hbp.eu/minds/core/project.schema.json"
+      }
     },
     "modality": {
-      "type": "string",
-      "description": "List of experiment modalities that were conducted in this dataset."
+      "type": "array",
+      "description": "Link to all experiment modalities that were conducted in this dataset.",
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds/core/modality.schema.json"
+      }
     },
     "containerURL": {
       "type": "string",
-      "description": "Single Uniform Resource Locator (URL) that points to the physical location of this dataset.",
+      "description": "Single Uniform Resource Locator (URL) that points to the physical location of this dataset on an EBRAINS storage.",
       "format": [
         "uri",
         "iri"
-      ]
-    },
-    "contributors": {
-      "description": "Link to list of persons that were involved in the creation/publication of this dataset.",
-      "oneOf": [
-        {"$ref": "https://schema.hbp.eu/minds/core/person.schema.json"}
       ]
     },
     "dataLink": {      
       "type": "string",
-      "description": "Single Uniform Resource Locator (URL) that points to the physical location of this dataset.",
+      "description": "Single Uniform Resource Locator (URL) that points to the physical location of this dataset on a storage not hosted by EBRAINS.",
       "format": [
         "uri",
         "iri"
       ]
     },
-    "embargoStatus": {
-      "type": "string",
-      "description": "General condition that defines the availability of this dataset.",
-      "enum": [
-        "embargoed",
-        "free",
-        "restricted access",
-        "under review"
-        ]
+    "DOI": {
+      "type": "object",
+      "description": "Link to the Digitial Object Identifier (DOI) that is assigned to this dataset.",
+      "$ref": "https://schema.hbp.eu/datacite/core/doi.schema.json"
     },
     "formats": {
-      "description": "Link to file formats used in this dataset.",
-      "oneOf": [
-        {"$ref": "https://schema.hbp.eu/minds/options/formats.schema.json"}
-      ]
-    },
-    "license": {
-      "description": "Link to license defined for this dataset.",
-      "oneOf": [
-        {"$ref": "https://schema.hbp.eu/minds/options/license.schema.json"}
-      ]
-    },
-    "owners": {
-      "description": "Link to person(s) that is(are) responsible for this dataset.",
-      "oneOf": [
-        {"$ref": "https://schema.hbp.eu/minds/core/person.schema.json"}
-      ]
+      "type": "array",
+      "description": "Link to all file formats used in this dataset.",
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds/core/formats.schema.json"
+      }
     },
     "parcellationAtlas": {
       "type": "array",
-      "description": "Link to parcellation atlas(es) that was(were) used in this dataset.",
-      "oneOf": [
-        {"$ref": "https://schema.hbp.eu/minds/options/parcellationAtlas.schema.json"}
-      ]
+      "description": "Link to all parcellation atlases that were used in this dataset.",
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds/core/parcellationatlas.schema.json"
+      }
     },
     "parcellationRegion": {
-      "description": "Link to a parcellation region(s) that was(were) studied in this dataset.",
-      "oneOf": [
-        {"$ref": "https://schema.hbp.eu/minds/option/parcellationRegion.schema.json"}
-      ]
+      "type": "array",
+      "description": "Link to all parcellation regions that were studied in this dataset.",
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds/core/parcellationregion.schema.json"
+      }
     },
     "publications": {
       "type": "array",
-      "description": "Link to research publication(s) that was(were) conducted on / are related to this dataset.",
+      "description": "Link to all research publications that were conducted on / are related to this dataset.",
       "items": {
-        "$ref": "https://schema.hbp.eu/minds/core/publications.schema.json"
+        "$ref": "https://schema.hbp.eu/minds/core/publication.schema.json"
       }
     },
     "referenceSpace": {
