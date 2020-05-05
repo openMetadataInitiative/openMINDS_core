@@ -63,25 +63,25 @@
     },
     "isUsedIn": {
       "type": "array",
-      "description": "Links to method(s)/paradigm(s) in which this file or set of files was used.",
+      "description": "Links to technique(s) in which this file or set of files was used.",
       "items": {
         "anyOf": [
-          {"$ref": "https://schema.hbp.eu/minds3.0/core/methodAndOrParadigm.schema.json"}
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/technique.schema.json"}
         ]
       }
     },
     "isProducedBy": {
       "type": "array",
-      "description": "Links to method(s)/paradigm(s) which produced this file (set).",
+      "description": "Links to technique(s) which produced this file or set of files.",
       "items": {
         "anyOf": [
-          {"$ref": "https://schema.hbp.eu/minds3.0/core/methodOrParadigm.schema.json"}
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/technique.schema.json"}
         ]
       }
     },
     "isDocumentationOf": {
       "type": "array",
-      "description": "Lists elements that are described/documented in this file (set).",
+      "description": "Lists elements that are described/documented in this file or set of files.",
       "items": {
         "anyOf": [
           {"$ref": "https://schema.hbp.eu/minds3.0/core/studyTarget.schema.json"},
