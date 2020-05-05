@@ -34,7 +34,7 @@
       ]
     },
     "validFor": {
-      "description": "States which dataset was ethically approved.",
+      "description": "States which dataset fall under the same ethics approval.",
       "$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json"
       }
     }
