@@ -51,18 +51,14 @@
       }
     },
     "approval": {
-      "type": "array",
+      "type": "object",
       "description": "Link to the ethics approval permitting the execution of this activity within the corresponding dataset.",
-      "items": {
-        "$ref": "https://schema.hbp.eu/minds/ethics/approval.schema.json"
-      }
+      "$ref": "https://schema.hbp.eu/minds/ethics/approval.schema.json"
     },
     "authority": {
-      "type": "array",
+      "type": "object",
       "description": "Link to the authority that examined the ethical compliance of this activity within the corresponding dataset.",
-      "items": {
-        "$ref": "https://schema.hbp.eu/minds/ethics/authority.schema.json"
-      }
+      "$ref": "https://schema.hbp.eu/minds/ethics/authority.schema.json"
     }
   }
 }
