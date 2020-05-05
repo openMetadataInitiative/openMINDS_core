@@ -132,7 +132,10 @@
       "type": "array",
       "description": "Lists the publications/sources from which this content is derived or from which it is a modification or adaption.",
       "items": {
-        "$ref": "https://schema.hbp.eu/minds3.0/core/publicationOrSource.schema.json"
+        "anyOf": [
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/publicationOrSource.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json"}
+        ]
       }
     },
     "isDerivedFrom": {
