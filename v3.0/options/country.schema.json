@@ -1,1 +1,15 @@
-
+{
+  "$id": "https://schema.hbp.eu/minds3.0/options/country.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "List of country names.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    ""
+  ],
+  "properties": {
+    "": {
+      "": 
+    }
+  }
+}
