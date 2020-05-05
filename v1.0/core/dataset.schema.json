@@ -67,6 +67,34 @@
       "$ref": "https://schema.hbp.eu/minds/core/embargostatus.schema.json"
       }
     },
+    "specimenGroups": {
+      "type": "array",
+      "description": "Link to all specimen groups listing the subjects that were studied in this dataset.",
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds/core/specimengroup.schema.json"
+      }
+    },
+    "publications": {
+      "type": "array",
+      "description": "Link to all research publications that were conducted on / are related to this dataset.",
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds/core/publication.schema.json"
+      }
+    },
+    "file": {
+      "type": "array",
+      "description": "Link to all files that belong to this dataset.",
+      "items": {
+        "$ref": "https://schema.hbp.eu/cscs/core/file.schema.json"
+      }
+    },
+    "formats": {
+      "type": "array",
+      "description": "Link to all file formats used in this dataset.",
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds/core/formats.schema.json"
+      }
+    },
     "project": {
       "type": "array",
       "description": "Link to all larger research projects in which context this dataset was created.",
@@ -102,13 +130,6 @@
       "description": "Link to the Digitial Object Identifier (DOI) that is assigned to this dataset.",
       "$ref": "https://schema.hbp.eu/datacite/core/doi.schema.json"
     },
-    "formats": {
-      "type": "array",
-      "description": "Link to all file formats used in this dataset.",
-      "items": {
-        "$ref": "https://schema.hbp.eu/minds/core/formats.schema.json"
-      }
-    },
     "parcellationAtlas": {
       "type": "array",
       "description": "Link to all parcellation atlases that were used in this dataset.",
@@ -123,32 +144,11 @@
         "$ref": "https://schema.hbp.eu/minds/core/parcellationregion.schema.json"
       }
     },
-    "publications": {
-      "type": "array",
-      "description": "Link to all research publications that were conducted on / are related to this dataset.",
-      "items": {
-        "$ref": "https://schema.hbp.eu/minds/core/publication.schema.json"
-      }
-    },
     "referenceSpace": {
       "type": "array",
       "description": "Link to all brain reference spaces that were used in this dataset.",
       "items": {
         "$ref": "https://schema.hbp.eu/minds/core/referencespace.schema.json"
-      }
-    },
-    "specimenGroups": {
-      "type": "array",
-      "description": "Link to all specimen groups listing the subjects that were studied in this dataset.",
-      "items": {
-        "$ref": "https://schema.hbp.eu/minds/core/specimengroup.schema.json"
-      }
-    },
-    "file": {
-      "type": "array",
-      "description": "Link to all files that belong to this dataset.",
-      "items": {
-        "$ref": "https://schema.hbp.eu/cscs/core/file.schema.json"
       }
     },
     "versionOf": {
