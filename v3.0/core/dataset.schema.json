@@ -21,10 +21,14 @@
   "properties": {
     "alias": {
       "type": "string",
-      "description": "User-defined identifier of this dataset."
+      "minLength": 1,
+      "maxLength": 30,
+      "description": "User-defined identifier of this dataset (max. 30 characters)."
     },
     "headline": {
       "type": "string",
+      "minLength": 1,
+      "maxLength": 110,
       "description": "Headline that describes this dataset (max. 110 characters)."
     },
     "abstract": {
@@ -41,7 +45,7 @@
     },
     "changeLog": {
       "type": "string",
-      "description": "Record of all notable changes made to this dataset compared to it's previous version."
+      "description": "Record of all notable changes made to this dataset compared to its previous version."
     },
     "license": {
       "description": "Link to license document that applies to this dataset.",
