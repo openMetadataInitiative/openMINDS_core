@@ -10,11 +10,15 @@
   "properties": {
     "alias": {
       "type": "string",
-      "description": "An alternate short name of an item."
+      "minLength": 1,
+      "maxLength": 30,
+      "description": "An alternate short name of an item (max. 30 characters)."
     },
     "title": {
       "type": "string",
-      "description": "A descriptive name of an item."
+      "minLength": 1,
+      "maxLength": 110,
+      "description": "A descriptive name of the item (max. 110 characters)."
     },
     "description": {
       "type": "string",
@@ -30,11 +34,11 @@
     },
     "modelFormat": {
       "type": "string",
-      "description": "Language (incl. version) in which the digitally representation of the reconstruction or simulation is written."
+      "description": "Programming language (incl. version) in which the digitally representation of the reconstruction or simulation is written."
     },
-    "modelFormat": {
+    "modelCompatibility": {
       "type": "string",
-      "description": "Compatibility of the chosen model format with it's previous or subsequent versions."
+      "description": "Compatibility of the chosen model format with its previous or subsequent versions."
     },
     "species": {
       "type": "array",
@@ -96,7 +100,7 @@
       }
     },
     "isNewVersionOf": {
-      "description": "Inicates that this resource is a new edition (modified or updated) of a previously released resource.",
+      "description": "Indicates that this resource is a new edition (modified or updated) of a previously released resource.",
       "$ref": "https://schema.hbp.eu/minds3.0/core/model.schema.json"
     },
     "isPartOf": {
@@ -140,14 +144,17 @@
       "type": "array",
       "description": "Lists the publication(s) used to produce the input to the resource.",
       "items": {
-        "$ref": "https://schema.hbp.eu/minds3.0/core/publicationOrSource.schema.json"
+        "anyOf": [
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/publicationOrSource.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json"}
+        ]
       }
     },
-    "usedMethodsAndOrParadigms": {
+    "usedTechnique": {
       "type": "array",
-      "description": "Lists the method(s) and/or paradigm(s) used to produce the content of the resource.",
+      "description": "Lists the technique(s) used to produce the content of the resource.",
       "items": {
-        "$ref": "https://schema.hbp.eu/minds3.0/core/methodsOrParadigms.schema.json"
+        "$ref": "https://schema.hbp.eu/minds3.0/core/technique.schema.json"
       }
     }
   }
