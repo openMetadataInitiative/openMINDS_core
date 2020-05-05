@@ -1,7 +1,7 @@
 {
   "$id": "https://schema.hbp.eu/minds3.0/core/file.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "description": "Information on a single or a set of files approval.",
+  "description": "Information on a single file or a set of files.",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -19,18 +19,18 @@
     },
     "documentation": {
       "type": "string",
-      "description": "Short documenatation on how to read the file or file set."
+      "description": "Short documentation on how to read the file or file set."
     },
     "fileFormat": {
       "type": "array",
-      "description": "Lists the format(s) of the file (set).",
+      "description": "Lists the format(s) of the file or files in a set.",
       "items": {
         "$ref": "https://schema.hbp.eu/minds3.0/options/fileFormat.schema.json"
       }
     },
     "url": {
       "type": "array",
-      "description": "Single Uniform Resource Locator (URL) or set of URLs that points to the physical location of a file or a set of files.",
+      "description": "Single Uniform Resource Locator (URL) or set of URLs that point to the physical location of a file or a set of files.",
       "items": {
         "type": "string",
         "format": [
@@ -63,10 +63,10 @@
     },
     "isUsedIn": {
       "type": "array",
-      "description": "Links to method(s)/paradigm(s) in which this file (set) was used.",
+      "description": "Links to method(s)/paradigm(s) in which this file or set of files was used.",
       "items": {
         "anyOf": [
-          {"$ref": "https://schema.hbp.eu/minds3.0/core/methodOrParadigm.schema.json"}
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/methodAndOrParadigm.schema.json"}
         ]
       }
     },
