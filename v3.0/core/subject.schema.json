@@ -97,7 +97,7 @@
     },
     "isDonorOf": {
       "type": "array",
-      "description": "Links to tissue sample(s) which was(were) extracted from the subject(s).",
+      "description": "Links to tissue sample(s) which was extracted from the subject(s).",
       "items": {
         "anyOf": [
           {"$ref": "https://schema.hbp.eu/minds3.0/core/tissueSample.schema.json"}
@@ -106,10 +106,10 @@
     },
     "isUsedIn": {
       "type": "array",
-      "description": "Links to method(s)/paradigm(s) in which the subject(s) was(were) used.",
+      "description": "Links to technique(s) in which the subject(s) was used.",
       "items": {
         "anyOf": [
-          {"$ref": "https://schema.hbp.eu/minds3.0/core/methodOrParadigm.schema.json"}
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/technique.schema.json"}
         ]
       }
     },
