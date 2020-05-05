@@ -17,7 +17,7 @@
     },
     "funder": {
       "type": "string",
-      "description": "Organization that supports linked items through some kind of financial contribution."
+      "description": "Organization that supports linked item(s) through financial contribution of any type."
     },
     "grantId": {
       "type": "string",
