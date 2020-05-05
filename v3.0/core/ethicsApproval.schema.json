@@ -21,8 +21,9 @@
       "description": "Name of the authority that granted the ethics approval."
     },
     "country": {
-      "type": "string",
-      "description": "Name of a country."
+      "description": "Name of a country.",
+      "oneOf": [
+        {"$ref": "https://schema.hbp.eu/minds3.0/options/country.schema.json"}
     },
     "euCompliant": {
       "type": ["boolean", "string"],
