@@ -11,12 +11,22 @@
     "name",
     "description",
     "activities",
+    "owners",
     "contributors",
-    "embargoStatus",
     "license",
-    "owners"
+    "embargoStatus"
   ],
   "properties": {
+    "@type": {
+      "type": "string",
+      "description": "Metadata node type (schema).",
+      "const": "https://schema.hbp/minds/Dataset"
+    },
+    "@id": {
+      "type": "string",
+      "description": "Metadata node identifier.",
+      "pattern": "minds/core/dataset/v1.0.0/([A-Za-z0-9_-]+).json"
+    },
     "name": {
       "type": "string",
       "description": "Descriptive name (title) under which this dataset is going to be published."
@@ -32,6 +42,13 @@
         "$ref": "https://schema.hbp.eu/minds/core/project.schema.json"
         }
     },
+    "owners": {
+      "type": "array",
+      "description": "Link to all persons that are responsible for this dataset.",
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds/core/person.schema.json"
+      }
+    },
     "contributors": {
       "type": "array",
       "description": "Link to all persons that were involved in the creation/publication of this dataset.",
@@ -39,22 +56,15 @@
         "$ref": "https://schema.hbp.eu/minds/core/person.schema.json"
       }
     },
-    "embargoStatus": {
-      "type": "object",
-      "description": "Link to the general condition that defines the availability of this dataset.",
-      "$ref": "https://schema.hbp.eu/minds/core/embargostatus.schema.json"
-      }
-    },
     "license": {
       "type": "object",
       "description": "Link to a license that defines the conditions under which this dataset can be (re)used.",
       "$ref": "https://schema.hbp.eu/minds/options/license.schema.json"
     },
-    "owners": {
-      "type": "array",
-      "description": "Link to all persons that are responsible for this dataset.",
-      "items": {
-        "$ref": "https://schema.hbp.eu/minds/core/person.schema.json"
+    "embargoStatus": {
+      "type": "object",
+      "description": "Link to the general condition that defines the availability of this dataset.",
+      "$ref": "https://schema.hbp.eu/minds/core/embargostatus.schema.json"
       }
     },
     "project": {
@@ -122,27 +132,28 @@
     },
     "referenceSpace": {
       "type": "array",
-      "description": "Link to brain reference space(s) that was(were) used in this dataset.",
-      "oneOf": [
-        {"$ref": "https://schema.hbp.eu/minds/option/referenceSpace.schema.json"}
-      ]
+      "description": "Link to all brain reference spaces that were used in this dataset.",
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds/core/referencespace.schema.json"
+      }
     },
     "specimenGroups": {
       "type": "array",
-      "description": "Link to specimen group()s that is(are) listing the subjects that were used / participating.",
-      "oneOf": [
-        {"$ref": "https://schema.hbp.eu/minds/core/specimenGroups.schema.json"}
-      ]
+      "description": "Link to all specimen groups listing the subjects that were studied in this dataset.",
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds/core/specimengroup.schema.json"
+      }
     },
     "file": {
       "type": "array",
-      "description": "Link to files that belong to this dataset.",
+      "description": "Link to all files that belong to this dataset.",
       "items": {
-        "$ref": "https://schema.hbp.eu/minds/options/file.schema.json"
+        "$ref": "https://schema.hbp.eu/cscs/core/file.schema.json"
       }
     },
     "versionOf": {
-      "description": "Link to a previous version of this dataset.",
+      "type": "array",
+      "description": "Link to all previous versions of this dataset.",
       "items": {
         "$ref": "https://schema.hbp.eu/minds/core/dataset.schema.json"
       }
