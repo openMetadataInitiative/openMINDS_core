@@ -1,5 +1,5 @@
 # openMINDS
-Welcome **openMINDS**, the open Metadata Initiative for Neuroscience Data Structures powered by the [HBP](https://www.humanbrainproject.eu/en/) (Human Brain Project) and [EBRAINS](https://ebrains.eu/) (European Brain ReseArch INfraStructure).
+Welcome to **openMINDS**, the open Metadata Initiative for Neuroscience Data Structures powered by the [HBP](https://www.humanbrainproject.eu/en/) (Human Brain Project) and [EBRAINS](https://ebrains.eu/) (European Brain ReseArch INfraStructure).
 
 openMINDS is a collection of ontology-based metadata schemas for neuroscience data structures, developed and maintained by the curation team of the HBP Neuroinformatics Platform (NIP). Currently supported data structures are data generated in experimental laboratories (across all neuroscience modalities) as well as the code of computational models and software. 
 
