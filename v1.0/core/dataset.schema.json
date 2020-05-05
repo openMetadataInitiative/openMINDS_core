@@ -40,7 +40,7 @@
       "description": "Link to all activities that were performed for generating this dataset.",
       "items": {
         "$ref": "https://schema.hbp.eu/minds/core/project.schema.json"
-        }
+      }
     },
     "owners": {
       "type": "array",
