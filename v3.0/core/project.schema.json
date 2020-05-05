@@ -11,11 +11,15 @@
   "properties": {
     "alias": {
       "type": "string",
-      "description": "An alternate short name of an item."
+      "minLength": 1,
+      "maxLength": 30,
+      "description": "An alternate short name of an item (max. 30 characters)."
     },
     "title": {
       "type": "string",
-      "description": "A descriptive name of an item."
+      "minLength": 1,
+      "maxLength": 110,
+      "description": "A descriptive name of an item (max. 110 characters)."
     },
     "description": {
       "type": "string",
