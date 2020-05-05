@@ -1,7 +1,7 @@
 {
   "$id": "https://schema.hbp.eu/minds3.0/publicationOrSource.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "description": "Schema for identifying a publication (e.g., research paper) or source (e.g, database).",
+  "description": "Schema for identifying a publication (e.g. research paper) or source (e.g. database).",
   "type": "object",
   "additionalProperties": false,
   "required": [
