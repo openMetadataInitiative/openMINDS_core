@@ -19,15 +19,15 @@
     },
     "familyName": {
       "type": "string",
-      "description": "Last name of a person."
+      "description": "Last name(s) of a person."
     },
-    "givenName": {
+    "firstName": {
       "type": "string",
-      "description": "First name of a person."
+      "description": "First name(s) of a person."
     },
     "middleName": {
       "type": "string",
-      "description": "Middle name of a person."
+      "description": "Middle name(s) of a person."
     },
     "email": {
       "type": "string",
@@ -40,7 +40,8 @@
       "items": {
         "anyOf": [
           {"$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json"},
-          {"$ref": "https://schema.hbp.eu/minds3.0/core/model.schema.json"}
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/model.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/publicationOrSource.schema.json"},
         ]
       }
     },
