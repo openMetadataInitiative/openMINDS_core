@@ -39,7 +39,7 @@
     "age": {
       "type": "string",
       "description": "Chronological age of the subject at the time it was studied.",
-      "pattern": "(\-?\d*\.?\d+)\s+(?:years|months|weeks|days|h|min|s|ms)"
+      "pattern": "(\\-?\\d*\\.?\\d+)\\s+(?:years|months|weeks|days|h|min|s|ms)"
     },
     "sex": {
       "type": "object",
@@ -57,7 +57,7 @@
     "weight": {
       "type": "string",
       "description": "Body weight of the subject at the time it was studied.",
-      "pattern": "(\-?\d*\.?\d+)\s+(?:kg|g|mg)"
+      "pattern": "(\\-?\\d*\\.?\\d+)\\s+(?:kg|g|mg)"
     },
     "samples": {
       "type": "array",
