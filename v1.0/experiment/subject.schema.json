@@ -1,0 +1,70 @@
+{
+  "$id": "https://schema.hbp.eu/minds/experiment/subject.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Structured information describing a subject that was studied.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "@type",
+    "@id",
+    "name",
+    "species",
+    "ageCategory"
+  ],
+  "properties": {
+    "@type": {
+      "type": "string",
+      "description": "Metadata node type (schema).",
+      "const": "https://schema.hbp/minds/Subject"
+    },
+    "@id": {
+      "type": "string",
+      "description": "Metadata node identifier.",
+      "pattern": "minds/experiment/subject/v1.0.0/([A-Za-z0-9_-]+).json"
+    },
+    "name": {
+      "type": "string",
+      "description": "User defined identifier of this subject."
+    },
+    "species": {
+      "type": "object",
+      "description": "Links to the species of this subject.",
+      "$ref": "https://schema.hbp.eu/minds/core/species.schema.json"
+    },
+    "ageCategory": {
+      "type": "object",
+      "description": "Links to the age category of this subject.",
+      "$ref": "https://schema.hbp.eu/minds/core/agecategory.schema.json"
+    },
+    "age": {
+      "type": "string",
+      "description": "Chronological age of the subject at the time it was studied.",
+      "pattern": "(\-?\d*\.?\d+)\s+(?:years|months|weeks|days|h|min|s|ms)"
+    },
+    "sex": {
+      "type": "object",
+      "description": "Links to the biological sex of this subject.",
+      "$ref": "https://schema.hbp.eu/minds/core/sex.schema.json"
+    },
+    "genotype": {
+      "type": "string",
+      "description": "Heritable genetic identity of this subject."
+    },
+    "strain": {
+      "type": "string",
+      "description": "Low-level taxonomy rank used to differentiate between similar organisms within a species."
+    },
+    "weight": {
+      "type": "string",
+      "description": "Body weight of the subject at the time it was studied.",
+      "pattern": "(\-?\d*\.?\d+)\s+(?:kg|g|mg)"
+    },
+    "samples": {
+      "type": "array",
+      "description": "Link to all samples that were extracted from this subject.",
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds/experiment/sample.schema.json"
+      }
+    }
+  }
+}
