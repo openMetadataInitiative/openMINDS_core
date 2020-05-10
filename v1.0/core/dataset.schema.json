@@ -99,7 +99,7 @@
       "type": "array",
       "description": "Link to all larger research projects in which context this dataset was created.",
       "items": {
-        "$ref": "https://schema.hbp.eu/minds/core/project.schema.json"
+        "$ref": "https://schema.hbp.eu/minds/core/placomponent.schema.json"
       }
     },
     "modality": {
