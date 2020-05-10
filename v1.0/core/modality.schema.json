@@ -22,31 +22,7 @@
     },
     "name": {
       "type": "string",
-      "description": "Name of this modality.",
-      "enum": [
-        "expression",
-        "genomics",
-        "cell culture",
-        "histology",
-        "morphology",
-        "cell morphology",
-        "transcriptomics",
-        "electrophysiology",
-        "cell population characterization",
-        "radiology",
-        "microscopy",
-        "physiology",
-        "multimodal",
-        "anatomy",
-        "optical",
-        "cell counting",
-        "connectivity",
-        "spatial transcriptomics",
-        "expression characterization",
-        "epigenomics",
-        "behavioral",
-        "models"
-      ]
+      "description": "Name of this modality."
     }
   }
 }
