@@ -13,11 +13,7 @@
   "properties": {
     "@type": {
       "type": "string",
-      "    "authority": {
-      "type": "object",
-      "description": "Link to the authority that examined the ethical compliance of this activity within the corresponding dataset.",
-      "$ref": "https://schema.hbp.eu/minds/ethics/authority.schema.json"
-    }description": "Metadata node type (schema).",
+      "description": "Metadata node type (schema).",
       "const": "https://schema.hbp/minds/Approval"
     },
     "@id": {
