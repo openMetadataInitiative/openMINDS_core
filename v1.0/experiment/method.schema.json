@@ -1,0 +1,28 @@
+{
+  "$id": "https://schema.hbp.eu/minds/experiment/method.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Structured information describing a method.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "@type",
+    "@id",
+    "name"
+  ],
+  "properties": {
+    "@type": {
+      "type": "string",
+      "description": "Metadata node type (schema).",
+      "const": "https://schema.hbp/minds/Method"
+    },
+    "@id": {
+      "type": "string",
+      "description": "Metadata node identifier.",
+      "pattern": "minds/experiment/method/v1.0.0/([A-Za-z0-9_-]+).json"
+    },
+    "name": {
+      "type": "string",
+      "description": "Name of this method."
+    }
+  }
+}
