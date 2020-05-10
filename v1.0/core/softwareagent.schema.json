@@ -1,0 +1,32 @@
+{
+  "$id": "https://schema.hbp.eu/minds/core/softwareagent.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Structured information describing a software agent.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "@type",
+    "@id",
+    "name"
+  ],
+  "properties": {
+    "@type": {
+      "type": "string",
+      "description": "Metadata node type (schema).",
+      "const": "https://schema.hbp/minds/Softwareagent"
+    },
+    "@id": {
+      "type": "string",
+      "description": "Metadata node identifier.",
+      "pattern": "minds/core/softwareagent/v1.0.0/([A-Za-z0-9_-]+).json"
+    },
+    "name": {
+      "type": "string",
+      "description": "Name of this software agent."
+    },
+    "description": {
+      "type": "string",
+      "description": "Short description of this software agent."
+    }
+  }
+}
