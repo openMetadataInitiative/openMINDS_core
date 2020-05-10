@@ -1,0 +1,56 @@
+{
+  "$id": "https://schema.hbp.eu/minds/experiment/sample.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Structured information describing a tissue sample.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "@type",
+    "@id",
+    "name"
+  ],
+  "properties": {
+    "@type": {
+      "type": "string",
+      "description": "Metadata node type (schema).",
+      "const": "https://schema.hbp/minds/Sample"
+    },
+    "@id": {
+      "type": "string",
+      "description": "Metadata node identifier.",
+      "pattern": "minds/experiment/sample/v1.0.0/([A-Za-z0-9_-]+).json"
+    },
+    "name": {
+      "type": "string",
+      "description": "User-defined identifier of this tissue sample."
+    },
+    "methods": {
+      "type": "array",
+      "description": "Link to all methods that were conducted during this activity.",
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds/experiment/method.schema.json"
+      }
+    },
+    "parcellationAtlas": {
+      "type": "array",
+      "description": "Link to all parcellation atlases that were used in this dataset.",
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds/core/parcellationatlas.schema.json"
+      }
+    },
+    "parcellationRegion": {
+      "type": "array",
+      "description": "Link to all parcellation regions that were studied in this dataset.",
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds/core/parcellationregion.schema.json"
+      }
+    },
+    "file": {
+      "type": "array",
+      "description": "Link to all files that belong to this dataset.",
+      "items": {
+        "$ref": "https://schema.hbp.eu/cscs/core/file.schema.json"
+      }
+    }
+  }
+}
