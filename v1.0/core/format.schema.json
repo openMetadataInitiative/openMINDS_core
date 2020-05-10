@@ -18,7 +18,7 @@
     "@id": {
       "type": "string",
       "description": "Metadata node identifier.",
-      "pattern": "minds/core/agecategory/v1.0.0/([A-Za-z0-9_-]+).json"
+      "pattern": "minds/core/format/v1.0.0/([A-Za-z0-9_-]+).json"
     },
     "name": {
       "type": "string",
