@@ -5,7 +5,7 @@
   "type": "object",
   "definitions": {
     "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json"
-  }
+  },
   "additionalProperties": false,
   "required": [
     "@type",
