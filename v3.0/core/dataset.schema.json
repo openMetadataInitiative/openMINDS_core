@@ -21,11 +21,13 @@
   "properties": {
     "alias": {
       "type": "string",
-      "description": "User-defined identifier of this dataset."
+      "description": "User-defined identifier of this dataset.",
+      "maxLength": 30
     },
     "headline": {
       "type": "string",
-      "description": "Headline that describes this dataset (max. 110 characters)."
+      "description": "Headline that describes this dataset (max. 110 characters).",
+      "maxLength": 110
     },
     "abstract": {
       "type": "string",
