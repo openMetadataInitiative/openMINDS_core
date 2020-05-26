@@ -20,7 +20,7 @@ class CollectionGenerator:
     Attributes
     ----------
     version2use : str
-        Úsed version of openMINDS schemas.
+        Used version of openMINDS schemas.
     store2 : str
         Absolute file path to where the openMINDS metadata collection is going 
         to be stored. 
