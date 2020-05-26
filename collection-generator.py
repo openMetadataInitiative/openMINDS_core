@@ -67,7 +67,6 @@ class CollectionGenerator:
                     
             # open openMINDS json-schema to find out it's properties
             with open(rp2s, 'r') as fp:
-                print(rp2s)
                 jschema = json.load(fp)
             fp.close()
             
@@ -80,6 +79,8 @@ class CollectionGenerator:
             jschema['required'].append('at_id')
             
             # create method from schema using warlock
-            setattr(self.schemas, sn, warlock.model_factory(jschema)) 
-
-        
+            setattr(self.schemas, sn, warlock.model_factory(jschema))
+            
+            # create docstring for each schema-method
+            sm = getattr(self.schemas, sn)
+            sm.__doc__ = """This is the documentation of %s""" % sn
