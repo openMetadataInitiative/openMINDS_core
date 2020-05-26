@@ -22,11 +22,11 @@
     },
     "name": {
       "type": "string",
-      "description": "Name (format: "<family name>, <given name>") of this person."
+      "description": "Name (format: '<family name>, <given name>') of this person."
     },
     "shortName": {
       "type": "string",
-      "description": "Short name (format: "<family name>, <initial(s) of given name>") of this person."
+      "description": "Short name (format: '<family name>, <initial(s) of given name>') of this person."
     }
   }
 }
