@@ -67,19 +67,19 @@ class CollectionGenerator:
                     
             # open openMINDS json-schema to find out it's properties
             with open(rp2s, 'r') as fp:
+                print(rp2s)
                 jschema = json.load(fp)
             fp.close()
             
-            # extract properties from schema
-#            schema_props = list(jschema['properties'].keys())
+            # replace '@type' and '@id' with python compatible dictionary keys
+            jschema['properties']['at_type'] = jschema['properties'].pop('@type')
+            jschema['properties']['at_id'] = jschema['properties'].pop('@id')
+            jschema['required'].remove('@type')
+            jschema['required'].append('at_type')
+            jschema['required'].remove('@id')
+            jschema['required'].append('at_id')
             
-            # replace '@type' and '@id' with valid identifiers in schema_props
-            
-            # create class attributes for properties for the schema
-            for pn, pd in jschema['properties'].items():
-                print(pn, pd)
-                if '@' in pn:
-                    pnattr = 'at_' + pn[1:]
-                print(self.schemas.__dict__[sn], type(self.schemas.__dict__[sn]))
-#                self.schemas.__dict__[sn] = collections.namedtuple(pnattr, pnattr)     
+            # create method from schema using warlock
+            setattr(self.schemas, sn, warlock.model_factory(jschema)) 
+
         
