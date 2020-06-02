@@ -11,24 +11,43 @@ import warlock
 import collections
 
 class CollectionGenerator:
-    """
-    Class for generating an openMINDS conform metadata collection.
-    
-    The CollectionGenerator class dynamically reads the openMINDS schemas of a 
-    given version for generating, validating, and storing corresponding json-LD 
-    metadata files in an openMINDS conform metadata collection. 
-        
-    Attributes
-    ----------
-    version2use : str
-        Used version of openMINDS schemas.
-    store2 : str
-        Absolute file path to where the openMINDS metadata collection is going 
-        to be stored. 
-        
-    Methods
-    -------
-    """
+#    """
+#    Class for generating an openMINDS conform metadata collection.
+#    
+#    The CollectionGenerator class dynamically reads the openMINDS schemas of a 
+#    given version for generating, validating, and storing corresponding json-LD 
+#    metadata files in an openMINDS conform metadata collection. 
+#        
+#    Attributes
+#    ----------
+#    version2use : str
+#        Used version of openMINDS schemas.
+#    store2 : str
+#        Absolute file path to where the openMINDS metadata collection is going 
+#        to be stored. 
+#        
+#    Methods
+#    -------
+#    """
+    _class_docstring_temp = " ". join(
+            ["Class", "for", "generating", "an", "openMINDS", "conform", 
+             "metadata", "collection.", "\n\nThe", "CollectionGenerator",
+             "class", "dynamically", "reads", "the", "openMINDS", "schemas", 
+             "of", "a", "\ngiven", "version", "for", "generating,", 
+             "validating,", "and", "storing", "corresponding", "json-LD",
+             "\nmetadata", "files", "in", "an", "openMINDS", "conform", 
+             "metadata", "collection", "\n\nAttributes", "\n----------",
+             "\nversion2use : str", "\n    Used", "version", "of", "openMINDS",
+             "schemas.", "\nstore2 : str", "\n    Absolute", "file", "path", 
+             "to", "where", "the", "openMINDS", "metadata", "collection", 
+             "is", "going", "\n    to", "be", "stored.", "\n\nMethods",
+             "\n-------"])
+    _method_docstring_temp = " ".join(
+            ["Generates", "a", "dictionary", "that", "is", "conform", "with", 
+             "\nthe", "openMINDS", "({version2use})", "schema", "{sn}.", 
+             "\n\nParameters\n----------", "\n    DYNAMINCALLY-BUILT", 
+             "\n\nReturns\n-------", "\n    Dictionary", "conform", "with", 
+             "the", "openMINDS", "\n    ({version2use})", "schema", "{sn}."])
     
     def __init__(self, version2use, store2):
         """
@@ -59,6 +78,7 @@ class CollectionGenerator:
         self.schemas = collections.namedtuple('schemas', schema_names)
         
         # transpose schema attributes to schema subclasses
+        method_desc = ""
         for sn in schema_names:
             # define relative path to openMINDS schema
             rp2s = '/'.join([rpv, 
@@ -81,53 +101,32 @@ class CollectionGenerator:
             # create method from schema using warlock
             setattr(self.schemas, sn, warlock.model_factory(jschema))
             
-            # create dynamic docstrings for each schema method
-            method_desc = inspect.cleandoc(
-                    """
-                    Generates a dictionary that is conform with the openMINDS 
-                    ({version2use}) schema {sn}.
-                    """)
-            params_str = inspect.cleandoc(
-                    """
-                    Parameters
-                    ----------
-                    """)
-            return_str = inspect.cleandoc(
-                    """
-                    Returns
-                    -------
-                    """)
-            method_return_desc = inspect.cleandoc(
-                    """
-                        Dictionary conform with the openMINDS ({version2use}) 
-                        schema {sn}.
-                    """)
+            # create dynamic docstring for each schema method
+            method_params = ""
             for p, d in jschema['properties'].items():
-                method_params = inspect.cleandoc(
-                        """
-                        {p} : {d['type']}
-                        """)
+                method_params += " ".join(
+                        ["\n   ", p, ":", d['type']])
                 for k, v in d.items():
                     if k == 'type':
-                        pass
+                        continue
                     elif k == 'items':
-                        method_params = inspect.cleandoc(
-                                method_params + 
-                                """ 
-                                    expects - {str(v)}
-                                """)
+                        method_params += " ".join(
+                                ["\n\texpects -", str(v)])
                     else:
-                        method_params = inspect.cleandoc(
-                                method_params + 
-                                """ 
-                                    {k} - {str(v)}
-                                """)
-            docu = inspect.cleandoc(
-                    method_desc +
-                    params_str +
-                    method_params +
-                    return_str +
-                    method_return_desc
-                    )
+                        method_params += " ".join(
+                                ["\n       ", k, "-", str(v)])
+            temp_docstr = self._method_docstring_temp.format(
+                    version2use=version2use, sn=sn)
+            
+            # update method docstring
             sm = getattr(self.schemas, sn)
-            sm.__doc__ = docu
+            sm.__name__ = sn
+            sm.__doc__ = temp_docstr.replace(
+                    "\n    DYNAMINCALLY-BUILT", method_params)
+                
+            # collect method description
+            method_desc += "".join(["\n    ", sn, "(",
+                    ", ".join(sorted(list(jschema['properties'].keys()))), ")"])
+
+        self.__doc__ = self._class_docstring_temp + method_desc
+        inspect.cleandoc(self)
