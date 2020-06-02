@@ -6,6 +6,7 @@ Created on Tue May 19 11:22:51 2020
 @author: zehl
 """
 import json
+import inspect
 import warlock
 import collections
 
@@ -27,7 +28,6 @@ class CollectionGenerator:
         
     Methods
     -------
-    
     """
     
     def __init__(self, version2use, store2):
@@ -58,7 +58,7 @@ class CollectionGenerator:
         # create class attributes for all available schemas
         self.schemas = collections.namedtuple('schemas', schema_names)
         
-        # create class attributes for properties for each schema
+        # transpose schema attributes to schema subclasses
         for sn in schema_names:
             # define relative path to openMINDS schema
             rp2s = '/'.join([rpv, 
@@ -70,7 +70,7 @@ class CollectionGenerator:
                 jschema = json.load(fp)
             fp.close()
             
-            # replace '@type' and '@id' with python compatible dictionary keys
+            # replace '@type' and '@id' with python compatible arguments terms
             jschema['properties']['at_type'] = jschema['properties'].pop('@type')
             jschema['properties']['at_id'] = jschema['properties'].pop('@id')
             jschema['required'].remove('@type')
@@ -81,6 +81,53 @@ class CollectionGenerator:
             # create method from schema using warlock
             setattr(self.schemas, sn, warlock.model_factory(jschema))
             
-            # create docstring for each schema-method
+            # create dynamic docstrings for each schema method
+            method_desc = inspect.cleandoc(
+                    """
+                    Generates a dictionary that is conform with the openMINDS 
+                    ({version2use}) schema {sn}.
+                    """)
+            params_str = inspect.cleandoc(
+                    """
+                    Parameters
+                    ----------
+                    """)
+            return_str = inspect.cleandoc(
+                    """
+                    Returns
+                    -------
+                    """)
+            method_return_desc = inspect.cleandoc(
+                    """
+                        Dictionary conform with the openMINDS ({version2use}) 
+                        schema {sn}.
+                    """)
+            for p, d in jschema['properties'].items():
+                method_params = inspect.cleandoc(
+                        """
+                        {p} : {d['type']}
+                        """)
+                for k, v in d.items():
+                    if k == 'type':
+                        pass
+                    elif k == 'items':
+                        method_params = inspect.cleandoc(
+                                method_params + 
+                                """ 
+                                    expects - {str(v)}
+                                """)
+                    else:
+                        method_params = inspect.cleandoc(
+                                method_params + 
+                                """ 
+                                    {k} - {str(v)}
+                                """)
+            docu = inspect.cleandoc(
+                    method_desc +
+                    params_str +
+                    method_params +
+                    return_str +
+                    method_return_desc
+                    )
             sm = getattr(self.schemas, sn)
-            sm.__doc__ = """This is the documentation of %s""" % sn
+            sm.__doc__ = docu
