@@ -11,37 +11,24 @@ import warlock
 import collections
 
 class CollectionGenerator:
-#    """
-#    Class for generating an openMINDS conform metadata collection.
-#    
-#    The CollectionGenerator class dynamically reads the openMINDS schemas of a 
-#    given version for generating, validating, and storing corresponding json-LD 
-#    metadata files in an openMINDS conform metadata collection. 
-#        
-#    Attributes
-#    ----------
-#    version2use : str
-#        Used version of openMINDS schemas.
-#    store2 : str
-#        Absolute file path to where the openMINDS metadata collection is going 
-#        to be stored. 
-#        
-#    Methods
-#    -------
-#    """
-    _class_docstring_temp = " ". join(
-            ["Class", "for", "generating", "an", "openMINDS", "conform", 
-             "metadata", "collection.", "\n\nThe", "CollectionGenerator",
-             "class", "dynamically", "reads", "the", "openMINDS", "schemas", 
-             "of", "a", "\ngiven", "version", "for", "generating,", 
-             "validating,", "and", "storing", "corresponding", "json-LD",
-             "\nmetadata", "files", "in", "an", "openMINDS", "conform", 
-             "metadata", "collection", "\n\nAttributes", "\n----------",
-             "\nversion2use : str", "\n    Used", "version", "of", "openMINDS",
-             "schemas.", "\nstore2 : str", "\n    Absolute", "file", "path", 
-             "to", "where", "the", "openMINDS", "metadata", "collection", 
-             "is", "going", "\n    to", "be", "stored.", "\n\nMethods",
-             "\n-------"])
+    """
+    Class for generating an openMINDS conform metadata collection.
+    
+    The CollectionGenerator class dynamically reads the openMINDS schemas of a 
+    given version for generating, validating, and storing corresponding json-LD 
+    metadata files in an openMINDS conform metadata collection. 
+        
+    Attributes
+    ----------
+    version2use : str
+        Used version of openMINDS schemas.
+    store2 : str
+        Absolute file path to where the openMINDS metadata collection is going 
+        to be stored. 
+        
+    Methods
+    -------
+    """
     _method_docstring_temp = " ".join(
             ["Generates", "a", "dictionary", "that", "is", "conform", "with", 
              "\nthe", "openMINDS", "({version2use})", "schema", "{sn}.", 
@@ -127,6 +114,6 @@ class CollectionGenerator:
             # collect method description
             method_desc += "".join(["\n    ", sn, "(",
                     ", ".join(sorted(list(jschema['properties'].keys()))), ")"])
-
-        self.__doc__ = self._class_docstring_temp + method_desc
-        inspect.cleandoc(self)
+        
+        # add schema methods summary to class docstring
+        self.__doc__ += method_desc
