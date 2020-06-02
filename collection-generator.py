@@ -6,7 +6,6 @@ Created on Tue May 19 11:22:51 2020
 @author: zehl
 """
 import json
-import inspect
 import warlock
 import collections
 
