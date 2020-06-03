@@ -116,7 +116,3 @@ class CollectionGenerator:
 
         # add schema methods summary to class docstring
         self.__doc__ += method_desc
-
-
-def test_dummyTest():
-    assert(True)
