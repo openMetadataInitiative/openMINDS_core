@@ -103,16 +103,20 @@ class CollectionGenerator:
                                 ["\n       ", k, "-", str(v)])
             temp_docstr = self._method_docstring_temp.format(
                     version2use=version2use, sn=sn)
-            
+
             # update method docstring
             sm = getattr(self.schemas, sn)
             sm.__name__ = sn
             sm.__doc__ = temp_docstr.replace(
                     "\n    DYNAMINCALLY-BUILT", method_params)
-                
+
             # collect method description
             method_desc += "".join(["\n    ", sn, "(",
                     ", ".join(sorted(list(jschema['properties'].keys()))), ")"])
-        
+
         # add schema methods summary to class docstring
         self.__doc__ += method_desc
+
+
+def test_dummyTest():
+    assert(True)
