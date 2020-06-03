@@ -12,8 +12,9 @@ def main():
             try:
                 Draft7Validator.check_schema(json.loads(f.read()))
                 print(str(filename) + ": PASSED")
-            except:
+            except Exception as e:
                 print(str(filename) + " failed validation")
+                print(e)
                 errors = True
 
     if errors:
