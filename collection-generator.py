@@ -27,8 +27,13 @@ class CollectionGenerator:
         
     Methods
     -------
-    
     """
+    _method_docstring_temp = " ".join(
+            ["Generates", "a", "dictionary", "that", "is", "conform", "with", 
+             "\nthe", "openMINDS", "({version2use})", "schema", "{sn}.", 
+             "\n\nParameters\n----------", "\n    DYNAMINCALLY-BUILT", 
+             "\n\nReturns\n-------", "\n    Dictionary", "conform", "with", 
+             "the", "openMINDS", "\n    ({version2use})", "schema", "{sn}."])
     
     def __init__(self, version2use, store2):
         """
@@ -58,7 +63,8 @@ class CollectionGenerator:
         # create class attributes for all available schemas
         self.schemas = collections.namedtuple('schemas', schema_names)
         
-        # create class attributes for properties for each schema
+        # transpose schema attributes to schema subclasses
+        method_desc = ""
         for sn in schema_names:
             # define relative path to openMINDS schema
             rp2s = '/'.join([rpv, 
@@ -67,11 +73,10 @@ class CollectionGenerator:
                     
             # open openMINDS json-schema to find out it's properties
             with open(rp2s, 'r') as fp:
-                print(rp2s)
                 jschema = json.load(fp)
             fp.close()
             
-            # replace '@type' and '@id' with python compatible dictionary keys
+            # replace '@type' and '@id' with python compatible arguments terms
             jschema['properties']['at_type'] = jschema['properties'].pop('@type')
             jschema['properties']['at_id'] = jschema['properties'].pop('@id')
             jschema['required'].remove('@type')
@@ -80,6 +85,34 @@ class CollectionGenerator:
             jschema['required'].append('at_id')
             
             # create method from schema using warlock
-            setattr(self.schemas, sn, warlock.model_factory(jschema)) 
-
+            setattr(self.schemas, sn, warlock.model_factory(jschema))
+            
+            # create dynamic docstring for each schema method
+            method_params = ""
+            for p, d in jschema['properties'].items():
+                method_params += " ".join(
+                        ["\n   ", p, ":", d['type']])
+                for k, v in d.items():
+                    if k == 'type':
+                        continue
+                    elif k == 'items':
+                        method_params += " ".join(
+                                ["\n\texpects -", str(v)])
+                    else:
+                        method_params += " ".join(
+                                ["\n       ", k, "-", str(v)])
+            temp_docstr = self._method_docstring_temp.format(
+                    version2use=version2use, sn=sn)
+            
+            # update method docstring
+            sm = getattr(self.schemas, sn)
+            sm.__name__ = sn
+            sm.__doc__ = temp_docstr.replace(
+                    "\n    DYNAMINCALLY-BUILT", method_params)
+                
+            # collect method description
+            method_desc += "".join(["\n    ", sn, "(",
+                    ", ".join(sorted(list(jschema['properties'].keys()))), ")"])
         
+        # add schema methods summary to class docstring
+        self.__doc__ += method_desc
