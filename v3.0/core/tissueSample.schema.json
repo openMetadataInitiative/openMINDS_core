@@ -62,6 +62,7 @@
     "wasMeasuredAt": {
       "type": "array",
       "description": "Links to temporal subject information at which time point the tissue sample was extracted from the subject.",
+      "items": {
         "anyOf": [
           {"$ref": "https://schema.hbp.eu/minds3.0/core/temporalSubjectInfo.schema.json"}
         ]
