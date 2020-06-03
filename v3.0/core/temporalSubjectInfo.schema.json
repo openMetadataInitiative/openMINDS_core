@@ -36,7 +36,7 @@
     },
     "disabilityOrDisease": {
       "type": "string",
-      "description": "Disability of disease on an indivdual or common in a group.",
+      "description": "Disability of disease on an indivdual or common in a group."
     },
     "infoFor": {
       "type": "array",
