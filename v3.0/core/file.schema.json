@@ -32,11 +32,16 @@
       "type": "array",
       "description": "Single Uniform Resource Locator (URL) or set of URLs that points to the physical location of a file or a set of files.",
       "items": {
-        "type": "string",
-        "format": [
-          "uri",
-          "iri"
-        ]
+        "type": "object",
+        "properties": {
+          "format": {
+            "type": "string",
+            "enum": ["uri", "iri"]
+          },
+          "locator": {
+            "type": "string"
+          }
+        }
       }
     },
     "isPartOf": {
