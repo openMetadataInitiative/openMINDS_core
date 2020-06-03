@@ -82,7 +82,7 @@
         "anyOf": [
           {"$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json"},
           {"$ref": "https://schema.hbp.eu/minds3.0/core/model.schema.json"},
-          {"$ref": "https://schema.hbp.eu/minds3.0/core/subject.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/subject.schema.json"}
         ]
       }
     },
