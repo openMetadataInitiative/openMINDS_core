@@ -1,7 +1,7 @@
 {
-  "$id": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json",
+  "$id": "https://schema.hbp.eu/openminds/v1.0/definitions.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "description": "Definitions file for maintaining all MINDS schema references.",
+  "description": "Definitions file for maintaining all MINDS v1.0 schema references.",
   "type": "object",
   "definitions": {
     "CORE_ACTIVITY": {
@@ -35,6 +35,14 @@
     "CORE_MODALITY": {
       "$id": "#core/modality",
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/core/modality.schema.json"
+    },
+    "CORE_PARCELLATIONATLAS": {
+      "$id": "#core/parcellationatlas",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/core/parcellationatlas.schema.json"
+    },
+    "CORE_PARCELLATIONREGION": {
+      "$id": "#core/parcellationregion",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/core/parcellationregion.schema.json"
     },
     "CORE_PERSON": {
       "$id": "#core/person",
@@ -72,6 +80,14 @@
       "$id": "#core/specimengroup",
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/core/specimengroup.schema.json"
     },
+    "CSCS_FILE": {
+      "$id": "#cscs/file",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/cscs/core/file.schema.json"
+    },
+    "DATACITE_DOI": {
+      "$id": "#datacite/doi",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/datacite/core/doi.schema.json"
+    },  
     "EXPERIMENT_METHOD": {
       "$id": "#experiment/method",
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/experiment/method.schema.json"
@@ -95,6 +111,14 @@
     "ETHICS_AUTHORITY": {
       "$id": "#ethics/authority",
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/ethics/authority.schema.json"
+    },
+    "LICENSE_INFORMATION": {
+      "$id": "#license/information",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/licenses/core/information.schema.json"
+    },
+    "ONTOLOGY_TERM": {
+      "$id": "#ontology/term",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/ontology/term.schema.json"
     },
     "PROV_ROLE": {
       "$id": "#prov/role",

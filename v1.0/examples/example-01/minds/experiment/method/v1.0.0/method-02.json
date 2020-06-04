@@ -1,5 +1,0 @@
-{
-  "@type": "https://schema.hbp.eu/minds/method.schema.json",
-  "@id": "minds/experiment/method/v1.0.0/method-02.json",
-  "name": "functional magnetic resonance imaging (fMRI)"
-}

@@ -1,8 +1,0 @@
-{
-  "@type": "https://schema.hbp.eu/minds/approval.schema.json",
-  "@id": "minds/core/specimengroup/v1.0.0/approval-01.json",
-  "name": "approval-01",
-  "generatedBy": [
-    {"@id": "minds/ethics/authority/v1.0.0/authority-01.json"}
-  ]
-}
