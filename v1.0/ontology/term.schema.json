@@ -1,0 +1,42 @@
+{
+  "$id": "https://schema.hbp.eu/ontology/term.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Structured information describing an ontological term.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "@type",
+    "@id",
+    "label",
+    "id"
+  ],
+  "properties": {
+    "@type": {
+      "type": "string",
+      "description": "Metadata node type (schema).",
+      "pattern": "https://schema.hbp.eu/ontology/([A-Za-z0-9_-]+)"
+    },
+    "@id": {
+      "type": "string",
+      "description": "Metadata node identifier.",
+      "pattern": "ontology/core/([A-Za-z0-9_-]+)/([A-Za-z0-9_-]+).json"
+    },
+    "label": {
+      "type": "string",
+      "description": "Lable of ontological term."
+    },
+    "id": {
+      "type": "string",
+      "description": "Unique identifier of this ontological term."
+    },
+    "definition": {
+      "type": "string",
+      "description": "Definition of this ontological term."
+    },
+    "subclassof": {
+      "type": "object",
+      "description": "Link to parent class of this ontological term.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/ONTOLOGY_TERM"
+    }
+  }
+}

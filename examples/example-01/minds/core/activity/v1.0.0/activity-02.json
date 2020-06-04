@@ -1,0 +1,19 @@
+{
+  "@type": "https://schema.hbp.eu/minds/activity.schema.json",
+  "@id": "minds/core/activity/v1.0.0/activity-02.json",
+  "name": "dataset-01_activity-02",
+  "description": "The activity-02 was conducted for the dataset-01 under the listed conditions and with the listed methods.",
+  "approval": [
+    {"@id": "minds/ethics/approval/v1.0.0/approval-01.json"}
+  ],
+  "authority": [
+    {"@id": "minds/ethics/authority/v1.0.0/authority-01.json"}
+  ],
+  "methods": [
+    {"@id": "minds/experiment/method/v1.0.0/method-02.json"},
+    {"@id": "minds/experiment/method/v1.0.0/method-03.json"}
+  ],
+  "preparation": [
+    {"@id": "minds/core/preparation/v1.0.0/in-vivo.json"}
+  ]
+}

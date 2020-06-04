@@ -1,0 +1,8 @@
+{
+  "@type": "https://schema.hbp.eu/minds/species.schema.json",
+  "@id": "minds/core/species/v1.0.0/homo-sapiens.json",
+  "name": "Homo sapiens",
+  "ontologicalTerm": [
+    {"@id": "ontologies/core/metazoa/v1.0.0/63b90ba0-66be-4969-8a6a-d19ebea01115"}
+  ]
+}

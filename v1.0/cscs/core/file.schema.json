@@ -1,0 +1,38 @@
+{
+  "$id": "https://schema.hbp.eu/cscs/core/file.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Structured information describing a file.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "@type",
+    "@id",
+    "name",
+    "absolute_path",
+  ],
+  "properties": {
+    "@type": {
+      "type": "string",
+      "description": "Metadata node type (schema).",
+      "const": "https://schema.hbp/cscs/File"
+    },
+    "@id": {
+      "type": "string",
+      "description": "Metadata node identifier.",
+      "pattern": "cscs/core/file/v1.0.0/([A-Za-z0-9_-]+).json"
+    },
+    "name": {
+      "type": "string",
+      "description": "Name of this file."
+    },
+    "absolute_path": {
+      "type": "string",
+      "description": "URL to the physical location of this file on the CSCS Long-Term Storage.",
+      "format": "uri"
+    },
+    "byte_size": {
+      "type": "string",
+      "description": "Size of this file (format: <size> <unit>)."
+    }
+  }
+}
