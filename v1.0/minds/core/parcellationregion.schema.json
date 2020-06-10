@@ -37,6 +37,6 @@
       "type": "string",
       "description": "URL to representatio of this parcellation region in an atlas viewer.",
       "format": "uri"
-    },
+    }
   }
 }
