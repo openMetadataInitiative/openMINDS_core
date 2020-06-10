@@ -4,9 +4,6 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "description": "Structured information describing a collection of human and/or animal data.",
   "type": "object",
-  "definitions": {
-    "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json"
-  },
   "additionalProperties": false,
   "required": [
     "@type",
@@ -42,122 +39,116 @@
       "type": "array",
       "description": "Link to all activities that were performed for generating this dataset.",
       "items": {
-        "$ref": "#core/activity"
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CORE_ACTIVITY"
       }
     },
     "owners": {
       "type": "array",
       "description": "Link to all persons that are responsible for this dataset.",
       "items": {
-        "$ref": "#core/person"
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CORE_PERSON"
       }
     },
     "contributors": {
       "type": "array",
       "description": "Link to all persons that were involved in the creation/publication of this dataset.",
       "items": {
-        "$ref": "#core/person"
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CORE_PERSON"
       }
     },
     "license": {
       "type": "object",
       "description": "Link to a license that defines the conditions under which this dataset can be (re)used.",
-      "$ref": "#core/licensetype"
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/LICENSE_INFORMATION"
     },
     "embargoStatus": {
       "type": "object",
       "description": "Link to the general condition that defines the availability of this dataset.",
-      "$ref": "#core/embargostatus"
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CORE_EMBARGOSTATUS"
     },
     "specimenGroups": {
       "type": "array",
       "description": "Link to all specimen groups listing the subjects that were studied in this dataset.",
       "items": {
-        "$ref": "#core/specimengroup"
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CORE_SPECIMENGROUP"
       }
     },
     "publications": {
       "type": "array",
       "description": "Link to all research publications that were conducted on / are related to this dataset.",
       "items": {
-        "$ref": "#core/publication"
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CORE_PUBLICATION"
       }
     },
     "file": {
       "type": "array",
       "description": "Link to all files that belong to this dataset.",
       "items": {
-        "$ref": "https://schema.hbp.eu/cscs/core/file.schema.json"
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CSCS_FILE"
       }
     },
     "formats": {
       "type": "array",
       "description": "Link to all file formats used in this dataset.",
       "items": {
-        "$ref": "#core/format"
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CORE_FORMAT"
       }
     },
     "project": {
       "type": "array",
       "description": "Link to all larger research projects in which context this dataset was created.",
       "items": {
-        "$ref": "#core/placomponent"
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CORE_PLACOMPONENT"
       }
     },
     "modality": {
       "type": "array",
       "description": "Link to all experiment modalities that were conducted in this dataset.",
       "items": {
-        "$ref": "#core/modality"
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CORE_MODALITY"
       }
     },
     "containerURL": {
       "type": "string",
       "description": "Single Uniform Resource Locator (URL) that points to the physical location of this dataset on an EBRAINS storage.",
-      "format": [
-        "uri",
-        "iri"
-      ]
+      "format": "uri"
     },
     "dataLink": {      
       "type": "string",
       "description": "Single Uniform Resource Locator (URL) that points to the physical location of this dataset on a storage not hosted by EBRAINS.",
-      "format": [
-        "uri",
-        "iri"
-      ]
+      "format": "uri"
     },
     "DOI": {
       "type": "object",
       "description": "Link to the Digitial Object Identifier (DOI) that is assigned to this dataset.",
-      "$ref": "https://schema.hbp.eu/datacite/core/doi.schema.json"
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/DATACITE_DOI"
     },
     "parcellationAtlas": {
       "type": "array",
       "description": "Link to all parcellation atlases that were used in this dataset.",
       "items": {
-        "$ref": "https://schema.hbp.eu/minds/core/parcellationatlas.schema.json"
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CORE_PARCELLATIONATLAS"
       }
     },
     "parcellationRegion": {
       "type": "array",
       "description": "Link to all parcellation regions that were studied in this dataset.",
       "items": {
-        "$ref": "https://schema.hbp.eu/minds/core/parcellationregion.schema.json"
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CORE_PARCELLATIONREGION"
       }
     },
     "referenceSpace": {
       "type": "array",
       "description": "Link to all brain reference spaces that were used in this dataset.",
       "items": {
-        "$ref": "#core/referencespace"
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CORE_REFERENCESPACE"
       }
     },
     "versionOf": {
       "type": "array",
       "description": "Link to all previous versions of this dataset.",
       "items": {
-        "$ref": "#core/dataset"
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CORE_DATASET"
       }
     }
   }

@@ -1,11 +1,8 @@
 {
-  "$id": "https://schema.hbp.eu/minds/experiment/method.schema.json",
+  "$id": "https://schema.hbp.eu/minds/core/method.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "description": "Structured information describing a method.",
-  "type": "object",  
-  "definitions": {
-    "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json"
-  },
+  "type": "object",
   "additionalProperties": false,
   "required": [
     "@type",
@@ -21,7 +18,7 @@
     "@id": {
       "type": "string",
       "description": "Metadata node identifier.",
-      "pattern": "minds/experiment/method/v1.0.0/([A-Za-z0-9_-]+).json"
+      "pattern": "minds/core/method/v1.0.0/([A-Za-z0-9_-]+).json"
     },
     "name": {
       "type": "string",
