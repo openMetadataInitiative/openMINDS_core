@@ -34,7 +34,6 @@
       "items": {
         "type": "string",
         "format": [
-          "uri",
           "iri"
         ]
       }
