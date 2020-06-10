@@ -8,7 +8,7 @@
     "@type",
     "@id",
     "name",
-    "absolute_path",
+    "absolute_path"
   ],
   "properties": {
     "@type": {
