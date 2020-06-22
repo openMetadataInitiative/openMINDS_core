@@ -48,7 +48,7 @@
         ]
       }
     },
-    "isPartof": {
+    "isPartOf": {
       "type": "array",
       "description": "Links to method(s)/paradigm(s) which produced this file (set).",
       "items": {

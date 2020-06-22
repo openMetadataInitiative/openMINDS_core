@@ -93,7 +93,7 @@
         {"$ref": "https://schema.hbp.eu/minds3.0/core/funding.schema.json"}
       ]
     },
-    "isNewVersionOf": {
+    "wasRevisionOf": {
       "description": "Link to previously released version of this dataset.",
       "oneOf": [
         {"$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json"}
@@ -126,7 +126,7 @@
         ]
       }
     },
-    "isBasedOn": {
+    "wasDerivedFrom": {
       "type": "array",
       "description": "Lists the publications/sources from which this content is derived or from which it is a modification or adaption.",
       "items": {

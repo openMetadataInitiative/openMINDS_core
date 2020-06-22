@@ -95,7 +95,7 @@
         "$ref": "https://schema.hbp.eu/minds3.0/core/fundingInfo.schema.json"
       }
     },
-    "isNewVersionOf": {
+    "wasRevisionOf": {
       "description": "Inicates that this resource is a new edition (modified or updated) of a previously released resource.",
       "$ref": "https://schema.hbp.eu/minds3.0/core/model.schema.json"
     },
