@@ -133,11 +133,11 @@
         "$ref": "https://schema.hbp.eu/minds3.0/core/publicationOrSource.schema.json"
       }
     },
-    "usedMethodsAndOrParadigms": {
+    "usedTechniques": {
       "type": "array",
       "description": "Lists the methods and/or paradigms used to produce this content.",
       "items": {
-        "$ref": "https://schema.hbp.eu/minds3.0/core/methodsOrParadigms.schema.json"
+        "$ref": "https://schema.hbp.eu/minds3.0/core/technique.schema.json"
       }
     }
   }

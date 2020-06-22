@@ -109,7 +109,7 @@
       "description": "Links to method(s)/paradigm(s) in which the subject(s) was(were) used.",
       "items": {
         "anyOf": [
-          {"$ref": "https://schema.hbp.eu/minds3.0/core/methodOrParadigm.schema.json"}
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/technique.schema.json"}
         ]
       }
     },

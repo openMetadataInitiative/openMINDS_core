@@ -54,7 +54,7 @@
           {"$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json"},
           {"$ref": "https://schema.hbp.eu/minds3.0/core/model.schema.json"},
           {"$ref": "https://schema.hbp.eu/minds3.0/core/file.schema.json"},
-          {"$ref": "https://schema.hbp.eu/minds3.0/core/methodOrParadigm.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/technique.schema.json"},
           {"$ref": "https://schema.hbp.eu/minds3.0/core/studyTarget.schema.json"},
           {"$ref": "https://schema.hbp.eu/minds3.0/core/publicationOrSource.schema.json"}
         ]
