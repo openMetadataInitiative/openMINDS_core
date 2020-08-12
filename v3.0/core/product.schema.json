@@ -1,7 +1,7 @@
 {
   "$id": "https://schema.hbp.eu/minds3.0/core/product.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "description": "Product",
+  "description": "Product description?",
   "type": "object",
   "additionalProperties": false,
   "required": [
