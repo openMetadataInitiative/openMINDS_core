@@ -5,6 +5,8 @@
   "type": "object",
   "additionalProperties": false,
   "required": [
+    "@type",
+    "@id",
     "alias",
     "name",
     "summary",
@@ -13,6 +15,16 @@
     "conceptID"
   ],
   "properties": {
+    "@type": {
+      "type": "string",
+      "description": "Metadata node type (schema).",
+      "const": "https://schema.ebrains/openminds/Product"
+    },
+    "@id": {
+      "type": "string",
+      "description": "Metadata node identifier.",
+      "pattern": "???"
+    },
     "alias": {
       "type": "string",
       "description": "User-defined identifier of this product.",
@@ -37,9 +49,9 @@
       "description": "Link to released version(s) of this product.",
       "items": {
         "oneOf": [
-          {"$ref": "https://schema.hbp.eu/minds3.0/core/datasetVersion.schema.json"},
-          {"$ref": "https://schema.hbp.eu/minds3.0/core/modelVersion.schema.json"},
-          {"$ref": "https://schema.hbp.eu/minds3.0/core/softwareVersion.schema.json"}
+          {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CORE_DATASETVERSION"},
+          {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CORE_MODELVERSION"},
+          {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CORE_SOFTWAREVERSION"}
         ]
       }
     },
@@ -47,13 +59,13 @@
       "type": "array",
       "description": "List of persons that were involved in the creation/publication of this product.",
       "items": {
-        "$ref": "https://schema.hbp.eu/minds3.0/options/contributions.schema.json"
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/OPTIONS_CONTRIBUTIONS"
       }
     },
     "conceptID": {
       "description": "A global identifier for the product.",
       "oneOf": [
-        {"$ref": "https://schema.hbp.eu/minds3.0/core/project.schema.json"}
+        {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/OPTIONS_GLOBALID"}
       ]
     }
   }
