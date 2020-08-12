@@ -1,0 +1,89 @@
+{
+  "$id": "https://schema.hbp.eu/minds3.0/core/product.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Product",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "alias",
+    "name",
+    "summary",
+    "hasVersions",
+    "contributions",
+    "conceptID"
+  ],
+  "properties": {
+    "alias": {
+      "type": "string",
+      "description": "User-defined identifier of this product.",
+      "maxLength": 30
+    },
+    "name": {
+      "type": "string",
+      "description": "Full name that describes this product (max. 110 characters).",
+      "maxLength": 110
+    },
+    "summary": {
+      "type": "string",
+      "description": "Short description that summarizes this product (max. 200 words; no references)."
+    },
+    "homepage": {
+      "type": "string",
+      "format": "iri",
+      "description": "The international resource identifier (IRI) to the homepage of product.",
+      "pattern": "???"
+    },
+    "isNewVersionOf": {
+      "description": "Link to previously released version of this dataset.",
+      "oneOf": [
+        {"$ref": "https://schema.hbp.eu/minds3.0/core/datasetVersion.schema.json"},
+        {"$ref": "https://schema.hbp.eu/minds3.0/core/modelVersion.schema.json"},
+        {"$ref": "https://schema.hbp.eu/minds3.0/core/softwareVersion.schema.json"}
+      ]
+    },
+    "contributions": {
+      "type": "array",
+      "description": "Link to list of persons that were involved in the creation/publication of this dataset.",
+      "minItems": 1,
+      "maxItems": 1,
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds3.0/options/contributors.schema.json"
+      }
+    },
+    "isPartOf": {
+      "type": "array",
+      "description": "Lists larger research projects in which context this content was created.",
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds3.0/core/project.schema.json"
+      }
+    },
+    "wasPerformedOn": {
+      "type": "array",
+      "description": "Lists subjects and/or tissue samples of this study.",
+      "items": {
+        "anyOf": [
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/subject.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/tissueSample.schema.json"}
+        ]
+      }
+    },
+    "isDescribedBy": {
+      "type": "array",
+      "description": "Lists publications/sources or files that contain a descriptive documentation of this content.",
+      "items": {
+        "anyOf": [
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/publicationOrSource.schema.json"},
+          {"$ref": "https://schema.hbp.eu/minds3.0/core/file.schema.json"}
+        ]
+      }
+    },
+    "isBasedOn": {
+      "type": "array",
+      "description": "Lists the publications/sources from which this content is derived or from which it is a modification or adaption.",
+      "items": {
+        "$ref": "https://schema.hbp.eu/minds3.0/core/publicationOrSource.schema.json"
+      }
+    },
+
+  }
+}
