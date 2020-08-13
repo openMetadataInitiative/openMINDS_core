@@ -1,9 +1,30 @@
 {
-  "$id": "https://schema.hbp.eu/openminds/v1.0/definitions.json",
+  "$id": "https://schema.ebrains.eu/openminds/v3.0/definitions.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "description": "Definitions file for maintaining all MINDS v1.0 schema references.",
+  "description": "Definitions file for maintaining all openMINDS v3.0 schema references.",
   "type": "object",
   "definitions": {
+    "PRODUCT_":{
+    },
+    "PRODUCTOPTIONS_":{
+    },
+    "SPECIMEN_":{
+    },
+    "SPECIMENOPTIONS_":{
+    },
+    "EXPERIMENT_":{
+    },
+    "EXPERIMENTOPTIONS_":{
+    },
+    "FILES_":{
+    },
+    "FILEOPTIONS_":{
+    }
+  }
+}
+    
+V1: 
+    
     "CORE_ACTIVITY": {
       "$id": "#core/activity",
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/minds/core/activity.schema.json"
