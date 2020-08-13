@@ -1,7 +1,7 @@
 {
-  "$id": "https://schema.hbp.eu/minds3.0/core/product.schema.json",
+  "$id": "https://schema.ebrains.eu/openminds/product.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "description": "Product description?",
+  "description": "Unchanged and full version of a product which can have several product versions and/or product components attached.",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -23,7 +23,7 @@
     "@id": {
       "type": "string",
       "description": "Metadata node identifier.",
-      "pattern": "???"
+      "pattern": "openminds/products/product/([A-Za-z0-9_-]+).json"
     },
     "alias": {
       "type": "string",
@@ -49,9 +49,9 @@
       "description": "Link to released version(s) of this product.",
       "items": {
         "oneOf": [
-          {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CORE_DATASETVERSION"},
-          {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CORE_MODELVERSION"},
-          {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CORE_SOFTWAREVERSION"}
+          {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PRODUCTS_DATASETVERSION"},
+          {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PRODUCTS_MODELVERSION"},
+          {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PRODUCTS_SOFTWAREVERSION"}
         ]
       }
     },
@@ -59,13 +59,13 @@
       "type": "array",
       "description": "List of persons that were involved in the creation/publication of this product.",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/OPTIONS_CONTRIBUTIONS"
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PRODUCTOPTIONS_CONTRIBUTIONS"
       }
     },
     "conceptID": {
       "description": "A global identifier for the product.",
       "oneOf": [
-        {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/OPTIONS_GLOBALID"}
+        {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PRODUCTOPTIONS_GLOBALID"}
       ]
     }
   }
