@@ -1,0 +1,56 @@
+{
+  "$id": "https://schema.ebrains.eu/openminds/project.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "An enterprise (potentially individual but typically collaborative), planned to achieve a particular aim.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "@type",
+    "@id",
+    "alias",
+    "name",
+    "description",
+    "hasProducts"
+  ],
+  "properties": {
+    "@type": {
+      "type": "string",
+      "description": "Metadata node type (schema).",
+      "const": "https://schema.ebrains/openminds/Project"
+    },
+    "@id": {
+      "type": "string",
+      "description": "Metadata node identifier.",
+      "pattern": "openminds/products/project/([A-Za-z0-9_-]+).json"
+    },
+    "alias": {
+      "type": "string",
+      "description": "An alternate short name of an item."
+    },
+    "name": {
+      "type": "string",
+      "description": "A descriptive name of an item."
+    },
+    "description": {
+      "type": "string",
+      "description": "A description of an item."
+    },
+    "homepage": {
+      "type": "string",
+      "format": "iri",
+      "description": "The international resource identifier (IRI) to the homepage of the project."
+    },
+    "hasProducts": {
+      "type": "array",
+      "description": "Single product versions and/or whole products (datasets, models and/or software) that are collaborators in this project.",
+      "items": {
+        "anyOf": [
+          {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PRODUCTS_PRODUCT"},
+          {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PRODUCTS_DATASETVERSION"},
+          {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PRODUCTS_MODELVERSION"},
+          {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PRODUCTS_SOFTWAREVERSION"}
+        ]
+      }
+    }
+  }
+}

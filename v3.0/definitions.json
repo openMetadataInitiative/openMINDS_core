@@ -1,0 +1,149 @@
+{
+  "$id": "https://schema.ebrains.eu/openminds/v3.0/definitions.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Definitions file for maintaining all openMINDS v3.0 schema references.",
+  "type": "object",
+  "definitions": {
+    "PRODUCT_":{
+    },
+    "PRODUCTOPTIONS_":{
+    },
+    "SPECIMEN_":{
+    },
+    "SPECIMENOPTIONS_":{
+    },
+    "EXPERIMENT_":{
+    },
+    "EXPERIMENTOPTIONS_":{
+    },
+    "FILES_":{
+    },
+    "FILEOPTIONS_":{
+    }
+  }
+}
+    
+V1: 
+    
+    "CORE_ACTIVITY": {
+      "$id": "#core/activity",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/minds/core/activity.schema.json"
+    },
+    "CORE_AGECATEGORY": {
+      "$id": "#core/agecategory",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/minds/core/agecategory.schema.json"
+    },
+    "CORE_DATASET": {
+      "$id": "#core/dataset",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/minds/core/dataset.schema.json"
+    },
+    "CORE_EMBARGOSTATUS": {
+      "$id": "#core/embargostatus",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/minds/core/embargostatus.schema.json"
+    },
+    "CORE_FORMAT": {
+      "$id": "#core/format",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/minds/core/format.schema.json"
+    },
+    "CORE_LICENSETYPE": {
+      "$id": "#core/licensetype",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/minds/core/licensetype.schema.json"
+    },
+    "CORE_METHOD": {
+      "$id": "#core/method",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/minds/core/method.schema.json"
+    },
+    "CORE_MODALITY": {
+      "$id": "#core/modality",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/minds/core/modality.schema.json"
+    },
+    "CORE_PARCELLATIONATLAS": {
+      "$id": "#core/parcellationatlas",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/minds/core/parcellationatlas.schema.json"
+    },
+    "CORE_PARCELLATIONREGION": {
+      "$id": "#core/parcellationregion",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/minds/core/parcellationregion.schema.json"
+    },
+    "CORE_PERSON": {
+      "$id": "#core/person",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/minds/core/person.schema.json"
+    },
+    "CORE_PLACOMPONENT": {
+      "$id": "#core/placomponent",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/minds/core/placomponent.schema.json"
+    },
+    "CORE_PREPARATION": {
+      "$id": "#core/preparation",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/minds/core/preparation.schema.json"
+    },
+    "CORE_PUBLICATION": {
+      "$id": "#core/publication",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/minds/core/publication.schema.json"
+    },
+    "CORE_REFERENCESPACE": {
+      "$id": "#core/referencespace",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/minds/core/referencespace.schema.json"
+    },
+    "CORE_SEX": {
+      "$id": "#core/sex",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/minds/core/sex.schema.json"
+    },
+    "CORE_SOFTWAREAGENT": {
+      "$id": "#core/softwareagent",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/minds/core/softwareagent.schema.json"
+    },
+    "CORE_SPECIES": {
+      "$id": "#core/species",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/minds/core/species.schema.json"
+    },
+    "CORE_SPECIMENGROUP": {
+      "$id": "#core/specimengroup",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/minds/core/specimengroup.schema.json"
+    },
+    "CSCS_FILE": {
+      "$id": "#cscs/file",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/cscs/core/file.schema.json"
+    },
+    "DATACITE_DOI": {
+      "$id": "#datacite/doi",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/datacite/core/doi.schema.json"
+    },  
+    "EXPERIMENT_METHOD": {
+      "$id": "#experiment/method",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/minds/experiment/method.schema.json"
+    },
+    "EXPERIMENT_PROTOCOL": {
+      "$id": "#experiment/protocol",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/minds/experiment/protocol.schema.json"
+    },
+    "EXPERIMENT_SAMPLE": {
+      "$id": "#experiment/sample",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/minds/experiment/sample.schema.json"
+    },
+    "EXPERIMENT_SUBJECT": {
+      "$id": "#experiment/subject",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/minds/experiment/subject.schema.json"
+    },
+    "ETHICS_APPROVAL": {
+      "$id": "#ethics/approval",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/minds/ethics/approval.schema.json"
+    },
+    "ETHICS_AUTHORITY": {
+      "$id": "#ethics/authority",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/minds/ethics/authority.schema.json"
+    },
+    "LICENSE_INFORMATION": {
+      "$id": "#license/information",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/licenses/core/information.schema.json"
+    },
+    "ONTOLOGY_TERM": {
+      "$id": "#ontology/term",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/ontology/term.schema.json"
+    },
+    "PROV_ROLE": {
+      "$id": "#prov/role",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/prov/role.schema.json"
+    }
+  }
+}
