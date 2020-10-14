@@ -35,10 +35,10 @@
       "description": "Single research product versions and/or whole products (datasets, models and/or software) that are collaborators in this project.",
       "items": {
         "anyOf": [
-          {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PRODUCTS_RESEARCH_PRODUCT"},
-          {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PRODUCTS_DATASET_VERSION"},
-          {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PRODUCTS_MODEL_VERSION"},
-          {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PRODUCTS_SOFTWARE_VERSION"}
+          {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/RESEARCH_PRODUCT"},
+          {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/DATASET_VERSION"},
+          {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/MODEL_VERSION"},
+          {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/SOFTWARE_VERSION"}
         ]
       }
     },   
