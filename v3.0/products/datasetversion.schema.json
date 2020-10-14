@@ -59,7 +59,7 @@
     },
     "availability":{
       "type": "string",
-      "description": "Availibility of the data for the dataset."
+      "description": "Availibility of the data for the dataset.",
       "enum": [
         "embargoed",
         "free",
@@ -69,7 +69,7 @@
     },
     "hostedBy":{
       "type": "string",
-      "description": "The host of the data for the dataset."
+      "description": "The host of the data for the dataset.",
       "enum": [
         "EBRAINS",
         "zenodo",
@@ -84,7 +84,7 @@
       "type": "array",
       "description": "The overarching methodology that produced the dataset.",
       "items": {
-        "$ref": "???" (or direct list of modalities?)
+        "$ref": "???"
       }
     },
     "contributions": {
