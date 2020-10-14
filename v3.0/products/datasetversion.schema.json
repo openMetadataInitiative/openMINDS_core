@@ -116,14 +116,14 @@
     },
     "repository": {
       "type": "array",
-      "description": "Link to data repository of this dataset."
+      "description": "Link to data repository of this dataset.",
       "items": {
         "$ref": "???"
       }
     },
     "documentation": {
       "type": "array",
-      "description": "Documentation for the dataset."
+      "description": "Documentation for the dataset.",
       "oneOf": [
         {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PRODUCTOPTIONS_RESOURCE"}
       ]
