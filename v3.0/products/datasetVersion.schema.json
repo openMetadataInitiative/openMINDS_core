@@ -123,7 +123,7 @@
       "format": "date"
     },
     "repository": {
-      "description": "Link to data repository of this dataset version."
+      "description": "Link to data repository of this dataset version.",
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/FILE_REPOSITORY"
     },
     "studyTarget": {
