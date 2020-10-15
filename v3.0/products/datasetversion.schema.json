@@ -1,5 +1,5 @@
 {
-  "$id": "https://schema.ebrains.eu/openminds/datasetversion.schema.json",
+  "$id": "https://openminds.ebrains.eu/core/datasetVersion.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "description": "Version of a dataset.",
   "type": "object",
@@ -8,158 +8,146 @@
     "@type",
     "@id",
     "alias",
-    "name",
-    "version",
-    "summary",
-    "releaseDate",
     "availability",
-    "hostedBy",
-    "type",
-    "contributions",
-    "license",
-    "globalID",
-    "funding",
-    "repository",
+    "contributors",
+    "digitalIdentifier",
     "documentation",
-    "ethicsApproval"
+    "ethicsApproval",
+    "funding",
+    "license",
+    "modality",
+    "name",
+    "releaseDate",
+    "repository",
+    "studyTarget",
+    "summary",
+    "type",
+    "versionIdentifier",
+    "versionInnovation"
   ],
   "properties": {
     "@type": {
       "type": "string",
       "description": "Metadata node type (schema).",
-      "const": "https://schema.ebrains/openminds/Datasetversion"
+      "const": "https://openminds.ebrains.eu/core/datasetVersion"
     },
     "@id": {
       "type": "string",
-      "description": "Metadata node identifier.",
-      "pattern": "openminds/products/datasetversion/([A-Za-z0-9_-]+).json"
-    },
+      "description": "Metadata node identifier."
+    },    
     "alias": {
       "type": "string",
-      "description": "User-defined identifier of this dataset (max. 30 characters).",
-      "maxLength": 30      
+      "description": "User-defined identifier of this dataset version."
+    },
+    "availability": {
+      "description": "Availibility of the data for this dataset version.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTROLLED_TERM"
+    },
+    "contributors": {
+      "type": "array",
+      "description": "List of persons that were involved in the creation/publication of this version of the dataset.",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTRIBUTIONS"
+      } 
+    },
+    "digitalIdentifier": {
+      "description": "Unique digital identifier for the dataset version.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/DIGITAL_IDENTIFIER"
+    }, 
+    "documentation": {
+      "description": "Documentation related to the dataset version.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/RESOURCE"
+    }, 
+    "ethicsApproval": {
+      "description": "Ethical approval for the performance of the experiments presented in the dataset.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/ETHICS_APPROVAL"
+    },
+    "funding": {
+      "type": "array",
+      "description": "Funding information for the dataset.",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/FUNDING"
+      }
+    },  
+    "homepage": { 
+      "type": "string",
+      "description": "The uniform resource identifier (URI) to the homepgae of the dataset version.",
+      "format": "uri"
+    },
+    "isNewVersionOf": {
+      "type": "array",
+      "description": "Link to previous dataset versions to which this version is an update to.",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/DATASET_VERSION"
+      }
+    },
+    "isSupplementTo": {
+      "type": "array",
+      "description": "Link to other dataset versions to which this version is a supplement to.",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/DATASET_VERSION"
+      }
+    },
+    "isVarientFormOf": {
+      "type": "array",
+      "description": "Link to other dataset versions to which this version is an alternative to/another variant of.",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/DATASET_VERSION"
+      }
+    },
+    "license": {
+      "type": "array",
+      "description": "Link to license document that applies to this dataset version.",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/LICENSE"
+      }
+    },
+    "modality": {
+      "description": "Overarching experimental approach used to produce the data of the dataset version.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTROLLED_TERM"
     },
     "name": {
       "type": "string",
-      "description": "A descriptive name for the dataset (max. 110 characters).",
-      "maxLength": 110
+      "description": "A descriptive name for the dataset version."
     },
-    "version": {
+    "relatedPublications": {
+      "type": "array",
+      "description": "Other publications (e.g. journal article) related to the dataset version.",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/RESOURCE"
+      }
+    },
+    "releaseDate": {
       "type": "string",
-      "description": "Version identifier of this dataset."
+      "description": "Date (actual or intended) of first broadcast/publication of this dataset.",
+      "format": "date"
+    },
+    "repository": {
+      "description": "Link to data repository of this dataset version."
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/FILE_REPOSITORY"
+    },
+    "studyTarget": {
+      "description": "The study target for the dataset version.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/STUDY_TARGET"
     },
     "summary": {
       "type": "string",
       "description": "Short description that summarizes this dataset (max. 200 words; no references)."
     },
-    "releaseDate": {
-      "type": "string",
-      "format": "date",
-      "description": "Date (actual or intended) of first broadcast/publication of this dataset."
-    },
-    "availability":{
-      "type": "string",
-      "description": "Availibility of the data for the dataset.",
-      "enum": [
-        "embargoed",
-        "free",
-        "restricted access",
-        "under review"
-      ]
-    },
-    "hostedBy":{
-      "type": "string",
-      "description": "The host of the data for the dataset.",
-      "enum": [
-        "EBRAINS",
-        "zenodo",
-        "GitHub"
-      ]
-    },
     "type": {
-      "type": "???",
-      "description": "???"
-    },
-    "modality": {
       "type": "array",
-      "description": "The overarching methodology that produced the dataset.",
+      "description": "Type of data (raw, derived or simulated) the dataset version contains.",
       "items": {
-        "$ref": "???"
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTROLLED_TERM"
       }
     },
-    "contributions": {
-      "type": "array",
-      "description": "List of persons that were involved in the creation/publication of this dataset.",
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PRODUCTOPTIONS_CONTRIBUTION"
-      }
-    },
-    "license": {
-      "type": "array",
-      "description": "Link to license document that applies to this dataset.",
-      "oneOf": [
-        {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PRODUCTOPTIONS_LICENSE"}
-      ]
-    },
-    "globalID": {
-      "description": "A global identifier for the dataset version.",
-      "oneOf": [
-        {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PRODUCTOPTIONS_GLOBALID"}
-      ]
-    },
-    "funding": {
-      "type": "array",
-      "description": "Link to funding information of this dataset.",
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PRODUCTOPTIONS_FUNDING"
-      }
-    },
-    "repository": {
-      "type": "array",
-      "description": "Link to data repository of this dataset.",
-      "items": {
-        "$ref": "???"
-      }
-    },
-    "documentation": {
-      "type": "array",
-      "description": "Documentation for the dataset.",
-      "oneOf": [
-        {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PRODUCTOPTIONS_RESOURCE"}
-      ]
-    },
-    "ethicsApproval": {
-      "type": "array,
-      "description": "Link to ethics approvals that are valid for the procedures applied in this dataset.",
-      "oneOf": [
-        {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PRODUCTOPTIONS_ETHICSAPPROVAL"}
-      ]
-    },
-    "homepage": {
+    "versionIdentifier": {
       "type": "string",
-      "format": "iri",
-      "description": "The international resource identifier (IRI) to the homepage of the project."
+      "description": "Version identifier of this dataset version."
     },
-    "publication": {
-      "type": "array",
-      "description": "Link to publication(s) for the dataset."
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PRODUCTOPTIONS_RESOURCE"
-      }
-    },
-    "isComponentOf": {
-      "type": "array",
-      "description": "Related other version(s) of the dataset.",
-      "items": {
-          "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PRODUCTS_DATASETVERSION"
-      }
-    },
-    "studyTarget": {
-      "type": "array",
-      "description": "The study target related to the dataset.",
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PRODUCTOPTIONS_STUDYTARGET"
-      }
+    "versionInnovation": {
+      "type": "string",
+      "description": "Short description of the novelties/peculiarities of this dataset version."
     }
   }
 }
