@@ -142,7 +142,7 @@
     },
     "publication": {
       "type": "array",
-      "description": "Link to publication(s) for the dataset."
+      "description": "Link to publication(s) for the dataset.",
       "items": {
         "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PRODUCTOPTIONS_RESOURCE"
       }
