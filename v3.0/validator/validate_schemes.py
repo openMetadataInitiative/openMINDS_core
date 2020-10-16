@@ -6,9 +6,9 @@ import json
 
 
 def main():
+    errors = False
     for filename in Path('..').glob('**/*.schema.json'):
         with open(filename,'r') as f:
-            errors = False
             try:
                 Draft7Validator.check_schema(json.loads(f.read()))
                 print(str(filename) + ": PASSED")
