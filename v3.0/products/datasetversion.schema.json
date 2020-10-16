@@ -77,7 +77,7 @@
       ]
     },
     "type": {
-      "type": "???",
+      "type": "string",
       "description": "???"
     },
     "modality": {
