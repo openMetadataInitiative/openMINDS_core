@@ -129,7 +129,7 @@
       ]
     },
     "ethicsApproval": {
-      "type": "array,
+      "type": "array",
       "description": "Link to ethics approvals that are valid for the procedures applied in this dataset.",
       "oneOf": [
         {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PRODUCTOPTIONS_ETHICSAPPROVAL"}
