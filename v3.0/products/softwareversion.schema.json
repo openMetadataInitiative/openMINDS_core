@@ -1,0 +1,220 @@
+{
+  "$id": "https://schema.ebrains.eu/openminds/softwareversion.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "description": "",
+  "required": [
+    "@type",
+    "@id",
+    "alias",
+    "applicationCategory",
+    "availability",
+    "device",
+    "digitalIdentifier",
+    "documentation",
+    "funding",
+    "inputFormat",
+    "hostedBy",
+    "language",
+    "license",
+    "name",
+    "operatingSystem",
+    "outputFormat",
+    "programmingLanguage",
+    "releaseDate",
+    "repository",
+    "softwareFeature",
+    "softwareRequirement",
+    "summary",
+    "versionIdentifier",
+    "versionInnovations"
+  ],
+  "properties": {
+    "@type": {
+      "type": "string",
+      "description": "Metadata node type (scehma).",
+      "const": "https://openminds.ebrains.eu/core/modelVersion"
+    },
+    "@id": {
+      "type": "string",
+      "description": "Metadata node identifier."
+    },
+    "alias": {
+      "type": "string",
+      "description": ""
+    },
+    "applicationCategory": {
+      "type": "array",
+      "description": "",
+      "minItems": 1,
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTROLLED_TERM" 
+      }
+    },
+    "availability": {
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTROLLED_TERM",
+      "description": ""
+    },
+    "contributors": {
+      "type": "array",
+      "description": "",
+      "minItems": 1,
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTRIBUTION"
+      }
+    },
+    "copyright": {
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/COPYRIGHT",
+      "description": ""
+    },
+    "device": {
+      "type": "array",
+      "minItems": 1,
+      "description": "",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTROLLED_TERM"
+      }
+    },
+    "digitalIdentifier": {
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/DIGITAL_IDENTIFIER",
+      "description": ""
+    },
+    "documentation": {
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/RESOURCE",
+      "description": ""
+    },
+    "funding": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/FUNDING"
+      },
+      "description": ""
+    },
+    "inputFormat": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/MEDIA_TYPE"
+      },
+      "description": ""
+    },
+    "isNewVersionOf": {
+      "type": "array",
+      "minItems": 0,
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/MODEL_VERSION"
+      },
+      "description": ""
+    },
+    "isSupplementTo": {
+      "type": "array",
+      "minItems": 0,
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/MODEL_VERSION"
+      },
+      "description": ""
+    },
+    "isVariantFormOf": {
+      "type": "array",
+      "minItems": 0,
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/MODEL_VERSION"
+      },
+      "description": ""
+    },
+    "homepage": {
+      "type": "string",
+      "format": "uri",
+      "description": ""
+    },
+    "hostedBy": {
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTROLLED_TERM",
+      "description": ""
+    },
+    "language": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTROLLED_TERM"
+      },
+      "description": ""
+    },
+    "license": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/LICENSE"
+      },
+      "description": ""
+    },
+    "name": {
+      "type": "string",
+      "description": ""
+    },
+    "operatingSystem": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTROLLED_TERM"
+      },
+      "description": ""
+    },
+    "outputFormat": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/MEDIA_TYPE"
+      },
+      "description": ""
+    },
+    "programmingLanguage": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTROLLED_TERM"
+      },
+      "description": ""
+    },
+    "relatedPublications": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/RESOURCE"
+      },
+      "description": ""
+    },
+    "releaseDate": {
+      "type": "string",
+      "format": "date",
+      "description": ""
+    },
+    "repository": {
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/FILE_REPOSITORY",
+      "description": ""
+    },
+    "softwareFeature": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/SOFTWARE_FEATURE"
+      },
+      "description": ""
+    },
+    "softwareRequirement": {
+      "type": "string",
+      "description": ""
+    },
+    "summary": {
+      "type": "string",
+      "description": ""
+    },
+    "versionIdentifier": {
+      "type": "string",
+      "description": ""
+    },
+    "versionInnovations": {
+      "type": "string",
+      "description": ""
+    }
+  }
+}
