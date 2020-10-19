@@ -1,0 +1,32 @@
+{
+   "$id": "https://openminds.ebrains.eu/core/controlledTerm.schema.json",
+   "$schema": "http://json-schema.org/draft-07/schema#",
+   "description": "Schema to define controlled terms which can be linked to ontology terms.",
+   "type": "object",
+   "additionalProperties": false,   
+   "required": [
+     "@type",
+     "@id",
+     "name"
+   ],
+   "properties": {
+     "@type": {
+       "type": "string",
+       "description": "Metadata node type (schema).",
+       "const": "https://openminds.ebrains.eu/core/controlledTerm"
+     },
+     "@id": {
+       "type": "string",
+       "description": "Metadata node identifier."
+     },    
+     "name": {
+       "type": "string",
+       "description": "Controlled term originating from a defined terminology."
+     },
+     "relatedOntology": {
+       "type": "string",
+       "description": "Identifier (IRI) to related ontological term.",
+       "format": "iri"
+     }
+   }
+ }
