@@ -68,10 +68,10 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/FUNDING"
       }
-    },  
-    "homepage": { 
+    },
+    "homepage": {
       "type": "string",
-      "description": "The uniform resource identifier (URI) to the homepgae of the dataset version.",
+      "description": "The uniform resource identifier (URI) to the homepage of the dataset version.",
       "format": "uri"
     },
     "isNewVersionOf": {
