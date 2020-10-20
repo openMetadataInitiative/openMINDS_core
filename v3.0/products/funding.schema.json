@@ -1,5 +1,5 @@
 {
   "$id": "https://openminds.ebrains.eu/core/funding.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "description": ""
+  "description": "Funding of the connected research product version"
 }
