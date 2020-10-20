@@ -17,6 +17,8 @@
     "acknowledgement": {
       "description": "Acknowledgement to be used with this funding.",
       "type": "string"
+    },
+    "awardNumber": {
     }
   }
 }
