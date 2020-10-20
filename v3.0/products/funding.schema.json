@@ -24,6 +24,7 @@
     },
     "awardTitle": {
       "description": "Title of this awarded funding.",
+      "type": "string"
     }
   }
 }
