@@ -1,0 +1,153 @@
+{
+  "$id": "https://openminds.ebrains.eu/core/datasetVersion.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Version of a dataset.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "@type",
+    "@id",
+    "alias",
+    "availability",
+    "contributors",
+    "digitalIdentifier",
+    "documentation",
+    "ethicsApproval",
+    "funding",
+    "license",
+    "modality",
+    "name",
+    "releaseDate",
+    "repository",
+    "studyTarget",
+    "summary",
+    "type",
+    "versionIdentifier",
+    "versionInnovation"
+  ],
+  "properties": {
+    "@type": {
+      "type": "string",
+      "description": "Metadata node type (schema).",
+      "const": "https://openminds.ebrains.eu/core/datasetVersion"
+    },
+    "@id": {
+      "type": "string",
+      "description": "Metadata node identifier."
+    },    
+    "alias": {
+      "type": "string",
+      "description": "User-defined identifier of this dataset version."
+    },
+    "availability": {
+      "description": "Availibility of the data for this dataset version.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTROLLED_TERM"
+    },
+    "contributors": {
+      "type": "array",
+      "description": "List of persons that were involved in the creation/publication of this version of the dataset.",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTRIBUTIONS"
+      } 
+    },
+    "digitalIdentifier": {
+      "description": "Unique digital identifier for the dataset version.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/DIGITAL_IDENTIFIER"
+    }, 
+    "documentation": {
+      "description": "Documentation related to the dataset version.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/RESOURCE"
+    }, 
+    "ethicsApproval": {
+      "description": "Ethical approval for the performance of the experiments presented in the dataset.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/ETHICS_APPROVAL"
+    },
+    "funding": {
+      "type": "array",
+      "description": "Funding information for the dataset.",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/FUNDING"
+      }
+    },  
+    "homepage": { 
+      "type": "string",
+      "description": "The uniform resource identifier (URI) to the homepgae of the dataset version.",
+      "format": "uri"
+    },
+    "isNewVersionOf": {
+      "type": "array",
+      "description": "Link to previous dataset versions to which this version is an update to.",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/DATASET_VERSION"
+      }
+    },
+    "isSupplementTo": {
+      "type": "array",
+      "description": "Link to other dataset versions to which this version is a supplement to.",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/DATASET_VERSION"
+      }
+    },
+    "isVarientFormOf": {
+      "type": "array",
+      "description": "Link to other dataset versions to which this version is an alternative to/another variant of.",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/DATASET_VERSION"
+      }
+    },
+    "license": {
+      "type": "array",
+      "description": "Link to license document that applies to this dataset version.",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/LICENSE"
+      }
+    },
+    "modality": {
+      "description": "Overarching experimental approach used to produce the data of the dataset version.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTROLLED_TERM"
+    },
+    "name": {
+      "type": "string",
+      "description": "A descriptive name for the dataset version."
+    },
+    "relatedPublications": {
+      "type": "array",
+      "description": "Other publications (e.g. journal article) related to the dataset version.",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/RESOURCE"
+      }
+    },
+    "releaseDate": {
+      "type": "string",
+      "description": "Date (actual or intended) of first broadcast/publication of this dataset.",
+      "format": "date"
+    },
+    "repository": {
+      "description": "Link to data repository of this dataset version.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/FILE_REPOSITORY"
+    },
+    "studyTarget": {
+      "description": "The study target for the dataset version.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/STUDY_TARGET"
+    },
+    "summary": {
+      "type": "string",
+      "description": "Short description that summarizes this dataset (max. 200 words; no references)."
+    },
+    "type": {
+      "type": "array",
+      "description": "Type of data (raw, derived or simulated) the dataset version contains.",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTROLLED_TERM"
+      }
+    },
+    "versionIdentifier": {
+      "type": "string",
+      "description": "Version identifier of this dataset version."
+    },
+    "versionInnovation": {
+      "type": "string",
+      "description": "Short description of the novelties/peculiarities of this dataset version."
+    }
+  }
+}

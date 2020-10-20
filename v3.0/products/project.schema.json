@@ -1,56 +1,55 @@
 {
-  "$id": "https://schema.ebrains.eu/openminds/project.schema.json",
+  "$id": "https://openminds.ebrains.eu/core/project.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "description": "An enterprise (potentially individual but typically collaborative), planned to achieve a particular aim.",
+  "description": "Structured information about an enterprise (potentially individual but typically collaborative) planned to achieve a particular aim.",
   "type": "object",
   "additionalProperties": false,
   "required": [
     "@type",
     "@id",
     "alias",
-    "name",
     "description",
-    "hasProducts"
+    "hasResearchProducts",
+    "name"
   ],
   "properties": {
     "@type": {
       "type": "string",
       "description": "Metadata node type (schema).",
-      "const": "https://schema.ebrains/openminds/Project"
+      "const": "https://openminds.ebrains.eu/core/project"
     },
     "@id": {
       "type": "string",
-      "description": "Metadata node identifier.",
-      "pattern": "openminds/products/project/([A-Za-z0-9_-]+).json"
+      "description": "Metadata node identifier."
     },
     "alias": {
       "type": "string",
       "description": "An alternate short name of an item."
     },
-    "name": {
-      "type": "string",
-      "description": "A descriptive name of an item."
-    },
     "description": {
       "type": "string",
       "description": "A description of an item."
     },
-    "homepage": {
-      "type": "string",
-      "format": "iri",
-      "description": "The international resource identifier (IRI) to the homepage of the project."
-    },
-    "hasProducts": {
+    "hasResearchProducts": {
       "type": "array",
-      "description": "Single product versions and/or whole products (datasets, models and/or software) that are collaborators in this project.",
+      "description": "Single research product versions and/or whole products (datasets, models and/or software) that are collaborators in this project.",
       "items": {
         "anyOf": [
-          {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PRODUCTS_PRODUCT"},
-          {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PRODUCTS_DATASETVERSION"},
-          {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PRODUCTS_MODELVERSION"},
-          {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PRODUCTS_SOFTWAREVERSION"}
+          {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/RESEARCH_PRODUCT"},
+          {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/DATASET_VERSION"},
+          {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/MODEL_VERSION"},
+          {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/SOFTWARE_VERSION"}
         ]
       }
+    },   
+    "homepage": {
+      "type": "string",
+      "description": "The international resource identifier (IRI) to the homepage of the project.",
+      "format": "iri"
+    },   
+    "name": {
+      "type": "string",
+      "description": "A descriptive name of an item."
     }
   }
 }
