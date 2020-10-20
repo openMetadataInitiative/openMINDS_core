@@ -1,5 +1,5 @@
 {
   "$id": "https://openminds.ebrains.eu/core/organization.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "description": ""
+  "description": "Identify organizations that were involved in producing the research products or their versions.",
 }
