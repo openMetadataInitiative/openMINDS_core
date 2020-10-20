@@ -28,6 +28,7 @@
       "type": "string"
     },
     "parentOrganization": {
+      "description": "Parent organization of this organization.",
     }
   }
 }
