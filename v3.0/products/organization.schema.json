@@ -12,6 +12,7 @@
     },
     "@id": {
       "description": "Metadata node identifier.",
+      "type": "string"
     }
   }
 }
