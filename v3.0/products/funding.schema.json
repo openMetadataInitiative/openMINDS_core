@@ -21,6 +21,8 @@
     "awardNumber": {
       "description": "Number of this awarded funding.",
       "type": "string"
+    },
+    "awardTitle": {
     }
   }
 }
