@@ -28,6 +28,7 @@
     },
     "funderName": {
       "description": "Name of the funding organization.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/ORGANIZATION"
     }
   }
 }
