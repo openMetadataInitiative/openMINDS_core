@@ -6,6 +6,7 @@
   "additionalProperties": false,
   "properties": {
     "@type": {
+      "description": "Metadata node type (schema).",
     }
   }
 }
