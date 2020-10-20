@@ -4,5 +4,8 @@
   "description": "Identify organizations that were involved in producing the research products or their versions.",
   "type": "object",
   "additionalProperties": false,
-  "properties": {}
+  "properties": {
+    "@type": {
+    }
+  }
 }
