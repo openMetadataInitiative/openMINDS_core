@@ -23,6 +23,7 @@
       "type": "string"
     },
     "awardTitle": {
+      "description": "Title of this awarded funding.",
     }
   }
 }
