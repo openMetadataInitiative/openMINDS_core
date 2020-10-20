@@ -29,6 +29,7 @@
     },
     "parentOrganization": {
       "description": "Parent organization of this organization.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/ORGANIZATION"
     }
   }
 }
