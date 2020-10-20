@@ -4,5 +4,8 @@
   "description": "Funding of the connected research product version",
   "type": "object",
   "additionalProperties": false,
-  "properties": {}
+  "properties": {
+    "@type": {
+    }
+  }
 }
