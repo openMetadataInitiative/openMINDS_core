@@ -22,6 +22,8 @@
       "description": "The uniform resource identifier (URI) to the homepage of the dataset version.",
       "type": "string",
       "format": "uri"
+    },
+    "name": {
     }
   }
 }
