@@ -27,6 +27,7 @@
       "type": "string"
     },
     "funderName": {
+      "description": "Name of the funding organization.",
     }
   }
 }
