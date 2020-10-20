@@ -1,0 +1,72 @@
+{
+  "$id": "https://openminds.ebrains.eu/core/researchProduct.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Structured information describing a research product.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "@type",
+    "@id",
+    "alias",
+    "contributors",
+    "digitalIdentifier",
+    "hasVersions",
+    "name",
+    "summary",
+    "type"
+  ],
+  "properties": {
+    "@type": {
+      "type": "string",
+      "description": "Metadata node type (schema).",
+      "const": "https://openminds.ebrains.eu/core/researchProduct"
+    },
+    "@id": {
+      "type": "string",
+      "description": "Metadata node identifier."
+    },
+    "alias": {
+      "type": "string",
+      "description": "User-defined identifier of this product."
+    },
+    "contributors": {
+      "type": "array",
+      "description": "List of persons that were involved in the creation/publication of this product.",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTRIBUTIONS"
+      } 
+    },
+    "digitalIdentifier": {
+      "description": "Unique digital identifier related to this product.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/DIGITAL_IDENTIFIER"
+    },
+    "hasVersions": {
+      "type": "array",
+      "description": "Link to released version(s) of this product.",
+      "items": {
+        "oneOf": [
+          {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/DATASET_VERSION"},
+          {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/MODEL_VERSION"},
+          {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/SOFTWARE_VERSION"}
+        ]
+      }
+    },
+    "homepage": { 
+      "type": "string",
+      "description": "The uniform resource identifier (URI) to the homepgae of the product.",
+      "format": "uri"
+    },
+    "name": {
+      "type": "string",
+      "description": "Full name that describes this product (max. 110 characters)."
+    },
+    "summary": {
+      "type": "string",
+      "description": "Short description that summarizes this product (max. 200 words; no references)."
+    },
+    "type": {
+      "description": "The type of product attached here.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTROLLED_TERM"
+    }
+  }
+}
