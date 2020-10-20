@@ -26,6 +26,8 @@
     "name": {
       "description": "Name of this organization.",
       "type": "string"
+    },
+    "parentOrganization": {
     }
   }
 }
