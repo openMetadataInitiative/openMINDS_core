@@ -4,6 +4,8 @@
   "description": "Funding of the connected research product version",
   "type": "object",
   "additionalProperties": false,
+  "required": [
+  ],
   "properties": {
     "@type": {
       "description": "Metadata node type (schema).",
