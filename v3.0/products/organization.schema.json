@@ -20,7 +20,7 @@
       "type": "string"
     },
     "digitalIdentifier": {
-      "description": "Identifier of the organization at an organization registry.",
+      "description": "Globally unique and persistent digital identifier for the organization.",
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/DIGITAL_IDENTIFIER"
     },
     "homepage": {
