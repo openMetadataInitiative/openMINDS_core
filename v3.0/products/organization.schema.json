@@ -15,7 +15,7 @@
       "type": "string"
     },
     "digitalIdentifier": {
-      "description": "???",
+      "description": "Identifier of the organization at an organization registry.",
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/DIGITAL_IDENTIFIER"
     },
     "homepage": {
