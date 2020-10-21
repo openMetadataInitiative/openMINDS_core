@@ -13,7 +13,7 @@
     "@type": {
       "description": "Metadata node type (schema).",
       "type": "string",
-      "const": "https://openminds.ebrains.eu/core/datasetVersion"
+      "const": "https://openminds.ebrains.eu/core/organization"
     },
     "@id": {
       "description": "Metadata node identifier.",
