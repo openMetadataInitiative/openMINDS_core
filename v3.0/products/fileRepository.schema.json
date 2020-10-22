@@ -13,6 +13,8 @@
     "@id": {
       "type": "string",
       "description": "Metadata node identifier."
+    },
+    "hash": {
     }
   }
 }
