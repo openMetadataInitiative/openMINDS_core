@@ -15,6 +15,7 @@
       "description": "Metadata node identifier."
     },
     "hash": {
+      "description": ""
     }
   }
 }
