@@ -128,8 +128,12 @@
       "description": "The international resource identifier (IRI) to the homepage of this version of the software."
     },
     "hostedBy": {
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTROLLED_TERM",
-      "description": "Organisation, at which this version of the software is hosted."
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTROLLED_TERM"
+      },
+      "description": "Organisations, at which this version of the software is hosted."
     },
     "language": {
       "type": "array",
@@ -189,8 +193,12 @@
       "description": "Date of release of this version of the software."
     },
     "repository": {
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/FILE_REPOSITORY",
-      "description": "Link to repository where this version of the software can be found."
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/FILE_REPOSITORY"
+      },
+      "description": "Links to repositories where this version of the software can be found."
     },
     "softwareFeature": {
       "type": "array",
