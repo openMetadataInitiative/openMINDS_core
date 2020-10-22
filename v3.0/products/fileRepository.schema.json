@@ -27,6 +27,7 @@
       "type": "string"
     },
     "hostedBy": {
+      "description": ""
     }
   }
 }
