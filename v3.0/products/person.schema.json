@@ -25,6 +25,7 @@
       "format": "email"
     },
     "familyName": {
+      "description": "Family name of this person.",
       "type": "string"
     }
   }
