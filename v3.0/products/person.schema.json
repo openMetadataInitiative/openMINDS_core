@@ -15,7 +15,6 @@
       "const": "https://openminds.ebrains.eu/core/person"
     },
     "@id": {
-      "type": "string",
       "description": "Metadata node identifier."
     }
   }
