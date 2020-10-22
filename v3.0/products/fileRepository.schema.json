@@ -9,7 +9,8 @@
     "@id",
     "hash",
     "name",
-    "hostedBy"
+    "hostedBy",
+    "storageSize"
   ],
   "properties": {
     "@type": {
