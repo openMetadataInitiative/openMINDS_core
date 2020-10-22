@@ -12,7 +12,7 @@
     "contributors",
     "digitalIdentifier",
     "documentation",
-    "ethicsApproval",
+    "ethicsAssessment",
     "funding",
     "license",
     "modality",
@@ -58,9 +58,9 @@
       "description": "Documentation related to the dataset version.",
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/RESOURCE"
     }, 
-    "ethicsApproval": {
-      "description": "Ethical approval for the performance of the experiments presented in the dataset.",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/ETHICS_APPROVAL"
+    "ethicsAssessment": {
+      "description": "Ethical assessment that determines the compliance with European ethical rules and standards (if the obligation for an ethics approval applies).",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTROLLED_TERM"
     },
     "funding": {
       "type": "array",
@@ -75,11 +75,8 @@
       "format": "uri"
     },
     "isNewVersionOf": {
-      "type": "array",
-      "description": "Link to previous dataset versions to which this version is an update to.",
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/DATASET_VERSION"
-      }
+      "description": "Link to previous dataset version to which this version is an update to.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/DATASET_VERSION"
     },
     "isSupplementTo": {
       "type": "array",
@@ -96,15 +93,15 @@
       }
     },
     "license": {
-      "type": "array",
       "description": "Link to license document that applies to this dataset version.",
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/LICENSE"
-      }
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/LICENSE"
     },
     "modality": {
+      "type": "array",
       "description": "Overarching experimental approach used to produce the data of the dataset version.",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTROLLED_TERM"
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTROLLED_TERM"
+      }
     },
     "name": {
       "type": "string",
