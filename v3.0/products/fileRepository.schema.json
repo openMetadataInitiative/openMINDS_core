@@ -8,7 +8,8 @@
     "@type",
     "@id",
     "hash",
-    "name"
+    "name",
+    "hostedBy"
   ],
   "properties": {
     "@type": {
