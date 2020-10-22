@@ -93,7 +93,7 @@
       }
     },
     "license": {
-      "description": "Link to license document that applies to this dataset version."
+      "description": "Link to license document that applies to this dataset version.",
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/LICENSE"
     },
     "modality": {
