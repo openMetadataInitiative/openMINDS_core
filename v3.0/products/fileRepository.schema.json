@@ -36,7 +36,8 @@
       "format": "uri"
     },
     "storageSize": {
-      "description": ""
+      "description": "",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/QUANTITY"
     }
   }
 }
