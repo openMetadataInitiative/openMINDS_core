@@ -31,6 +31,8 @@
     "givenName": {
       "description": "Given name of this person.",
       "type": "string"
+    },
+    "digitalIdentifier": {
     }
   }
 }
