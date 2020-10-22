@@ -32,7 +32,8 @@
     },
     "resourceLocator": {
       "description": "",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     }
   }
 }
