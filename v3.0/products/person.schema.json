@@ -16,8 +16,8 @@
       "const": "https://openminds.ebrains.eu/core/person"
     },
     "@id": {
-      "description": "Metadata node identifier.",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/DIGITAL_IDENTIFIER"
+      "type": "string",
+      "description": "Metadata node identifier."
     },
     "email": {
       "description": "Email address of this person.",
