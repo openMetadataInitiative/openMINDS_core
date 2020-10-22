@@ -29,7 +29,8 @@
       "type": "string"
     },
     "givenName": {
-      "description": "Given name of this person."
+      "description": "Given name of this person.",
+      "type": "string"
     }
   }
 }
