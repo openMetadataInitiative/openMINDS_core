@@ -59,7 +59,7 @@
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/RESOURCE"
     }, 
     "ethicsAssessment": {
-      "description": "Ethical assessment that determined the compliance with EU ethical regulations (if ethical approval for the experiments were required).",
+      "description": "Ethical assessment that determines the compliance with European ethical rules and standards (if the obligation for an ethics approval applies).",
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTROLLED_TERM"
     },
     "funding": {
