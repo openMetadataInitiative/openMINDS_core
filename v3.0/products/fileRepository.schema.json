@@ -31,7 +31,8 @@
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTROLLED_TERM"
     },
     "resourceLocator": {
-      "description": ""
+      "description": "",
+      "type": "string"
     }
   }
 }
