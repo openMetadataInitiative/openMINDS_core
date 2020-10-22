@@ -1,7 +1,7 @@
 {
   "$id": "https://openminds.ebrains.eu/core/person.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "description": "Researcher that was involved in producing the research products or their versions.",
+  "description": "Researcher that was involved in producing the research product or their versions.",
   "type": "object",
   "additionalProperties": false,
   "required": [
