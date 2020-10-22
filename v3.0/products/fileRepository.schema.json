@@ -34,6 +34,8 @@
       "description": "",
       "type": "string",
       "format": "uri"
+    },
+    "storageSize": {
     }
   }
 }
