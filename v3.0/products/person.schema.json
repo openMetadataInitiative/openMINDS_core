@@ -33,7 +33,8 @@
       "type": "string"
     },
     "digitalIdentifier": {
-      "description": "Globally unique and persistent digital identifier for the person."
+      "description": "Globally unique and persistent digital identifier for the person.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/DIGITAL_IDENTIFIER"
     }
   }
 }
