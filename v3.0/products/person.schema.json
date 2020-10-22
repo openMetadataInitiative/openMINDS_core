@@ -4,7 +4,9 @@
   "description": "Researcher that was involved in producing the research products or their versions.",
   "type": "object",
   "additionalProperties": false,
-  "required": [],
+  "required": [
+    "@type"
+  ],
   "properties": {
     "@type": {
       "type": "string",
