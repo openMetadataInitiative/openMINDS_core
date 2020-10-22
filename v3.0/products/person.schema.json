@@ -6,7 +6,8 @@
   "additionalProperties": false,
   "required": [
     "@type",
-    "@id"
+    "@id",
+    "email"
   ],
   "properties": {
     "@type": {
