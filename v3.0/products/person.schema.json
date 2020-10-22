@@ -23,6 +23,8 @@
       "description": "Email address of this person.",
       "type": "string",
       "format": "email"
+    },
+    "familyName": {
     }
   }
 }
