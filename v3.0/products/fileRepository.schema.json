@@ -4,5 +4,8 @@
   "description": "Repository in which the files of a research product version are stored.",
   "type": "object",
   "additionalProperties": false,
-  "properties": {}
+  "properties": {
+    "@type": {
+    }
+  }
 }
