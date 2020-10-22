@@ -1,5 +1,5 @@
 {
   "$id": "https://openminds.ebrains.eu/core/fileRepository.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "description": ""
+  "description": "Repository in which the files of a research product version are stored."
 }
