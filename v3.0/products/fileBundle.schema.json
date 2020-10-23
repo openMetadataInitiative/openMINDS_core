@@ -30,6 +30,7 @@
       ]
     },
     "mediaType": {
+       "description": "Media type (mime type) of this file-bundle."
     }
   }
 }
