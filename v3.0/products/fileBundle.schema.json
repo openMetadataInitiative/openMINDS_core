@@ -41,6 +41,8 @@
       "description": "Resource locator of this repository.",
       "type": "string",
       "format": "uri"
+    },
+    "storageSize": {
     }
   }
 }
