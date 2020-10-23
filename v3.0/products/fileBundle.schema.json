@@ -43,6 +43,7 @@
       "format": "uri"
     },
     "storageSize": {
+      "description": "Size allocated of this file bundle."
     }
   }
 }
