@@ -38,6 +38,7 @@
       "type": "string"
     },
     "resourceLocator": {
+      "description": "Resource locator of this repository."
     }
   }
 }
