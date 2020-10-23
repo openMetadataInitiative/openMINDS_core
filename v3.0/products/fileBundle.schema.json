@@ -14,8 +14,8 @@
       "type": "string",
       "description": "Metadata node identifier."
     },
-    "groupedBy":{
-      "description": "",
+    "groupedBy": {
+      "description": "???",
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTROLLED_TERM"
     }
   }
