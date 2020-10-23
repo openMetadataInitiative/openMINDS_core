@@ -4,5 +4,8 @@
   "description": "Group of files of a research product.",
   "type": "object",
   "additionalProperties": false,
-  "properties": {}
+  "properties": {
+    "@type": {
+    }
+  }
 }
