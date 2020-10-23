@@ -11,6 +11,7 @@
       "const": "https://openminds.ebrains.eu/core/fileBundle"
     },
     "@id": {
+      "type": "string"
     }
   }
 }
