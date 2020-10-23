@@ -1,5 +1,6 @@
 {
   "$id": "https://openminds.ebrains.eu/core/fileBundle.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "description": "Group of files of a research product."
+  "description": "Group of files of a research product.",
+  "type": "object"
 }
