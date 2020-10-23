@@ -9,7 +9,8 @@
     "@id",
     "hash",
     "isPartOf",
-    "name"
+    "name",
+    "storageSize"
   ],
   "properties": {
     "@type": {
