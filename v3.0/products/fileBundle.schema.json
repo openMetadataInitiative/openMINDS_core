@@ -39,7 +39,8 @@
     },
     "resourceLocator": {
       "description": "Resource locator of this repository.",
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     }
   }
 }
