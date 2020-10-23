@@ -36,7 +36,7 @@
     },
     "hostedBy": {
       "description": "Hosting provider for this repository.",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTROLLED_TERM"
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/ORGANIZATION"
     },
     "resourceLocator": {
       "description": "Resource locator of this repository.",
