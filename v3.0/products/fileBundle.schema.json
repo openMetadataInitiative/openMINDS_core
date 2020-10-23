@@ -34,6 +34,7 @@
        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/MEDIA_TYPE"
     },
     "name": {
+      "description": "Name of this file bundle."
     }
   }
 }
