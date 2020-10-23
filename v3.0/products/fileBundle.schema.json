@@ -31,7 +31,7 @@
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/HASH"
     },
     "isPartOf":{
-      "description": "???",
+      "description": "Larger structure this file-bundle is part of.",
       "oneOf":[
         {"$ref":"https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/FILE_REPOSITORY"},
         {"$ref":"https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/FILE_BUNDLE"}
