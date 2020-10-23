@@ -38,7 +38,8 @@
       "type": "string"
     },
     "resourceLocator": {
-      "description": "Resource locator of this repository."
+      "description": "Resource locator of this repository.",
+      "type": "string"
     }
   }
 }
