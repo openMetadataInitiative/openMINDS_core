@@ -23,7 +23,11 @@
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/HASH"
     },
     "isPartOf":{
-      "description": "???"
+      "description": "???",
+      "oneOf":[
+        {"$ref":"https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/FILE_REPOSITORY"},
+        {"$ref":"https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/FILE_BUNDLE"}
+      ]
     }
   }
 }
