@@ -27,7 +27,7 @@
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/HASH"
     },
     "mediaType": {
-      "description": "Type of media stored in this repository.",
+      "description": "Media type (mime type) of this repository.",
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/MEDIA_TYPE"
     },
     "name": {
