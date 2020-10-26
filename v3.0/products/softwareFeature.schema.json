@@ -24,7 +24,7 @@
     },
     "name": {
       "type": "string",
-      "description": "The name of this software feature.",
+      "description": "The name of this software feature."
     },
     "description": {
       "type": "string",
