@@ -1,0 +1,40 @@
+{
+  "$id": "https://openminds.ebrains.eu/core/copyright.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",  
+  "description": "Copyright holder and year of the research product",
+  "title": "Copyright",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "@type",
+    "@id",
+    "holder",
+    "year"
+  ],
+  "properties": {
+    "@type": {
+      "type":"string",
+      "const": "https://openminds.ebrains.eu/core/copyright",
+      "description": "Metadata node type (schema)."
+    },
+    "@id": {
+      "type": "string",
+      "description": "Metadata node identifier."
+    },
+    "holder": {
+      "type": "array",
+      "description": "The person or organisation that holds the copyright.",
+      "items":{
+        "oneOf":[
+          {"$ref":"https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PERSON"},
+          {"$ref":"https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/ORGANISATION"}
+        ]
+      }
+    },
+    "year": {
+      "type": "string",
+      "pattern":"([0-9]{4}])",
+      "description": "The year during which the copyright was first asserted."
+    }
+  }
+}
