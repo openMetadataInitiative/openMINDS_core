@@ -1,0 +1,41 @@
+{
+  "$id": "https://openminds.ebrains.eu/core/person.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Researcher that was involved in producing the research product or their versions.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "@type",
+    "@id",
+    "email",
+    "givenName"
+  ],
+  "properties": {
+    "@type": {
+      "type": "string",
+      "description": "Metadata node type (schema).",
+      "const": "https://openminds.ebrains.eu/core/person"
+    },
+    "@id": {
+      "type": "string",
+      "description": "Metadata node identifier."
+    },
+    "email": {
+      "description": "Email address of this person.",
+      "type": "string",
+      "format": "email"
+    },
+    "familyName": {
+      "description": "Family name of this person.",
+      "type": "string"
+    },
+    "givenName": {
+      "description": "Given name of this person.",
+      "type": "string"
+    },
+    "digitalIdentifier": {
+      "description": "Globally unique and persistent digital identifier for this person.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/DIGITAL_IDENTIFIER"
+    }
+  }
+}
