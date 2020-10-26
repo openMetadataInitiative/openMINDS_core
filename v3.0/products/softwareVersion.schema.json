@@ -1,7 +1,7 @@
 {
   "$id": "https://schema.ebrains.eu/openminds/softwareversion.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema",
-  "description": "",
+  "description": "Structured meta data for this software version",
   "required": [
     "@type",
     "@id",
