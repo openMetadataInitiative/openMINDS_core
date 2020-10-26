@@ -23,7 +23,7 @@
     },
     "holder": {
       "type": "array",
-      "description": "The person or organisation that holds the copyrights.",
+      "description": "The person or organisation that holds the copyright.",
       "items":{
         "oneOf":[
           {"$ref":"https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PERSON"},
@@ -34,7 +34,7 @@
     "year": {
       "type": "string",
       "pattern":"([0-9]{4}])",
-      "description": "Indicates the year in which the copyrights apply."
+      "description": "The year during which the copyright was first asserted."
     }
   }
 }
