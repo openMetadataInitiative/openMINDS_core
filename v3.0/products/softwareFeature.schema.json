@@ -33,7 +33,7 @@
     "definition":{
       "type": "string",
       "format" : "iri",
-      "desription" : "Identifier (IRI) to definition of the feature." 
+      "description" : "Identifier (IRI) to definition of the feature." 
     },
     "category":{
       "description":"Category that this feature belongs to.",      
