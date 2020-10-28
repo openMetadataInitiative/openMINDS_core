@@ -5,5 +5,8 @@
   "description": "",
   "type": "object",
   "additionalProperties": false,
-  "properties": {}
+  "properties": {
+    "@type": {
+    }
+  }
 }
