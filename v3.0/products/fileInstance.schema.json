@@ -4,5 +4,6 @@
   "title": "FileInstance",
   "description": "",
   "type": "object",
-  "additionalProperties": false
+  "additionalProperties": false,
+  "properties": {}
 }
