@@ -9,7 +9,7 @@
     "@type": {
       "type": "string",
       "description": "Metadata node type (schema).",
-      "const": "https://openminds.ebrains.eu/core/fileRepository"
+      "const": "https://openminds.ebrains.eu/core/fileInstance"
     },
     "@id": {
       "type": "string",
