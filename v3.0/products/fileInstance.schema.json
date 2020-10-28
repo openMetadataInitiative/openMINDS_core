@@ -16,6 +16,7 @@
       "description": "Metadata node identifier."
     },
     "content": {
+      "description": "Content of the file."
     }
   }
 }
