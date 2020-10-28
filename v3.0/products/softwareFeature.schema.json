@@ -2,7 +2,7 @@
   "$id": "https://openminds.ebrains.eu/core/softwareFeature.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",  
   "description": "Feature included in this software",
-  "title": "Software Feature",
+  "title": "software feature",
   "type": "object",
   "additionalProperties": false,
   "required": [
