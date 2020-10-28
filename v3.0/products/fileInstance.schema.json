@@ -12,7 +12,8 @@
       "const": "https://openminds.ebrains.eu/core/fileRepository"
     },
     "@id": {
-      "type": "string"
+      "type": "string",
+      "description": "Metadata node identifier."
     }
   }
 }
