@@ -18,6 +18,8 @@
     "content": {
       "description": "Content of the file.",
       "type": "string"
+    },
+    "hash": {
     }
   }
 }
