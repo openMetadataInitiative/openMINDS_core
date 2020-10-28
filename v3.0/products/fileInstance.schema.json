@@ -22,6 +22,8 @@
     "hash": {
       "description": "Hash digest of this file.",
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/HASH"
+    },
+    "isPartOf": {
     }
   }
 }
