@@ -48,7 +48,7 @@
     "resourceLocator": {
       "description": "Resource locator of this repository.",
       "type": "string",
-      "format": "uri"
+      "format": "iri"
     },
     "storageSize": {
       "description": "Size allocated of this file bundle.",
