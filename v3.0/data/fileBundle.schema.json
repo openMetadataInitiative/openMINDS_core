@@ -23,7 +23,7 @@
       "description": "Metadata node identifier."
     },
     "groupedBy": {
-      "description": "???",
+      "description": "Concept which was used to group the file instances into this file bundle.",
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTROLLED_TERM"
     },
     "hash": {
