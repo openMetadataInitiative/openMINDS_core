@@ -1,0 +1,58 @@
+{
+  "$id": "https://openminds.ebrains.eu/core/fileBundle.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Group of files of a research product.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "@type",
+    "@id",
+    "hash",
+    "isPartOf",
+    "name",
+    "storageSize"
+  ],
+  "properties": {
+    "@type": {
+      "type": "string",
+      "description": "Metadata node type (schema).",
+      "const": "https://openminds.ebrains.eu/core/fileBundle"
+    },
+    "@id": {
+      "type": "string",
+      "description": "Metadata node identifier."
+    },
+    "groupedBy": {
+      "description": "Concept which was used to group the file instances into this file bundle.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTROLLED_TERM"
+    },
+    "hash": {
+      "description": "Hash generated for this file bundle.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/HASH"
+    },
+    "isPartOf":{
+      "description": "Larger structure this file-bundle is part of.",
+      "oneOf":[
+        {"$ref":"https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/FILE_REPOSITORY"},
+        {"$ref":"https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/FILE_BUNDLE"}
+      ]
+    },
+    "mediaType": {
+       "description": "Media type (mime type) of this file-bundle.",
+       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/MEDIA_TYPE"
+    },
+    "name": {
+      "description": "Name of this file bundle.",
+      "type": "string"
+    },
+    "resourceLocator": {
+      "description": "Resource locator of this repository.",
+      "type": "string",
+      "format": "iri"
+    },
+    "storageSize": {
+      "description": "Size allocated of this file bundle.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/QUANTITY"
+    }
+  }
+}
