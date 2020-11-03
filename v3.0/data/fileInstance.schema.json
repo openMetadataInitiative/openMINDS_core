@@ -45,7 +45,9 @@
       "type": "string"
     },
     "resourceLocator": {
-      "description": "???"
+      "description": "???",
+      "type": "string",
+      "format": "iri"
     },
     "specificRole": {
       "description": "???"
