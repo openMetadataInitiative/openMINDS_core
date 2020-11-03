@@ -5,6 +5,15 @@
   "description": "",
   "type": "object",
   "additionalProperties": false,
+  "required": [
+    "@type",
+    "@id",
+    "hash",
+    "isPartOf",
+    "mediaType",
+    "name",
+    "storageSize"
+  ]
   "properties": {
     "@type": {
       "type": "string",
