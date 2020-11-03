@@ -13,7 +13,7 @@
     "mediaType",
     "name",
     "storageSize"
-  ]
+  ],
   "properties": {
     "@type": {
       "type": "string",
