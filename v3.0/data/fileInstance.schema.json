@@ -1,0 +1,61 @@
+{
+  "$id": "https://openminds.ebrains.eu/core/fileInstance.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "FileInstance",
+  "description": "",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "@type",
+    "@id",
+    "hash",
+    "isPartOf",
+    "mediaType",
+    "name",
+    "storageSize"
+  ],
+  "properties": {
+    "@type": {
+      "type": "string",
+      "description": "Metadata node type (schema).",
+      "const": "https://openminds.ebrains.eu/core/fileInstance"
+    },
+    "@id": {
+      "type": "string",
+      "description": "Metadata node identifier."
+    },
+    "content": {
+      "description": "Content of the file.",
+      "type": "string"
+    },
+    "hash": {
+      "description": "Hash digest of this file.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/HASH"
+    },
+    "isPartOf": {
+      "description": "Larger structure this file-bundle is part of.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/FILE_BUNDLE"
+    },
+    "mediaType": {
+      "description": "Media type (mime type) of this file.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/MEDIA_TYPE"
+    },
+    "name": {
+      "description": "Name of this file.",
+      "type": "string"
+    },
+    "resourceLocator": {
+      "description": "Resource locator of this file.",
+      "type": "string",
+      "format": "iri"
+    },
+    "specificRole": {
+      "description": "???",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTROLLED_TERM"
+    },
+    "storageSize": {
+      "description": "Size allocated for this file.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/QUANTITY"
+    }
+  }
+}
