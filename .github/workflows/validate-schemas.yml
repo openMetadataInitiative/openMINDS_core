@@ -36,5 +36,4 @@ jobs:
         pytest
     - name: Validate schemas
       run: |
-        python v3.0/validator/validate_schemes.py
-        
+        python v3.0/validator/validate_schemas.py
