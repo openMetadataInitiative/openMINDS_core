@@ -1,45 +1,37 @@
 {
-  "$id": "https://openminds.ebrains.eu/core/fileBundle.schema.json",
-  "$schema": "http://json-schema.org/draft-07/schema#",
+  "_type": "https://openminds.ebrains.eu/core/FileBundle",
   "description": "Group of files of a research product.",
-  "type": "object",
-  "additionalProperties": false,
   "required": [
-    "@type",
-    "@id",
     "hash",
     "isPartOf",
     "name",
     "storageSize"
   ],
   "properties": {
-    "@type": {
-      "type": "string",
-      "description": "Metadata node type (schema).",
-      "const": "https://openminds.ebrains.eu/core/fileBundle"
-    },
-    "@id": {
-      "type": "string",
-      "description": "Metadata node identifier."
+    "contentType": {
+      "description": "Content type (mime type) of this file-bundle.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ContentType"
+      ]
     },
     "groupedBy": {
       "description": "Concept which was used to group the file instances into this file bundle.",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTROLLED_TERM"
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/FileBundleGrouping"
+      ]
     },
     "hash": {
       "description": "Hash generated for this file bundle.",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/HASH"
-    },
-    "isPartOf":{
-      "description": "Larger structure this file-bundle is part of.",
-      "oneOf":[
-        {"$ref":"https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/FILE_REPOSITORY"},
-        {"$ref":"https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/FILE_BUNDLE"}
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Hash"
       ]
     },
-    "mediaType": {
-       "description": "Media type (mime type) of this file-bundle.",
-       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/MEDIA_TYPE"
+    "isPartOf": {
+      "description": "Larger structure this file-bundle is part of.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/FileRepository",
+        "https://openminds.ebrains.eu/core/FileBundle"
+      ]
     },
     "name": {
       "description": "Name of this file bundle.",
@@ -52,7 +44,9 @@
     },
     "storageSize": {
       "description": "Size allocated of this file bundle.",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/QUANTITY"
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ]
     }
   }
 }

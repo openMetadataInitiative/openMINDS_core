@@ -1,0 +1,26 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/SubjectState",
+  "required": [
+    "ageCategory"
+  ],
+  "properties": {
+    "age": {
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ]
+    },
+    "ageCategory": {
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/AgeCategory"
+      ]
+    },
+    "disease": {
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Disease"
+      ]
+    },
+    "functionalImpairments": {
+      "type": "string"
+    }
+  }
+}

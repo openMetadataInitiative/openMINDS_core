@@ -1,0 +1,23 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/TissueSampleState",
+  "properties": {
+    "age": {
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ]
+    },
+    "tissueWeight": {
+       "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ]
+    },
+    "pathology": {
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Pathology"
+      ]
+    },
+    "quality": {
+      "type": "string"
+    }
+  }
+}

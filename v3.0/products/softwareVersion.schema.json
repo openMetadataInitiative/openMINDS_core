@@ -1,10 +1,6 @@
 {
-  "$id": "https://schema.ebrains.eu/openminds/softwareversion.schema.json",
-  "$schema": "http://json-schema.org/draft-07/schema",
-  "description": "Structured metadata for this software version",
+  "_type": "https://openminds.ebrains.eu/core/ModelVersion",
   "required": [
-    "@type",
-    "@id",
     "alias",
     "applicationCategory",
     "availability",
@@ -29,15 +25,6 @@
     "versionInnovations"
   ],
   "properties": {
-    "@type": {
-      "type": "string",
-      "description": "Metadata node type (scehma).",
-      "const": "https://openminds.ebrains.eu/core/modelVersion"
-    },
-    "@id": {
-      "type": "string",
-      "description": "Metadata node identifier."
-    },
     "alias": {
       "type": "string",
       "description": "User-defined identifier for this version of the software."
@@ -46,81 +33,89 @@
       "type": "array",
       "description": "List of categories, to which this version of the software belongs.",
       "minItems": 1,
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTROLLED_TERM" 
-      }
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/SoftwareApplicationCategory"
+      ]
     },
     "availability": {
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTROLLED_TERM",
-      "description": "The availability of this version of the software."
+      "description": "The availability of this version of the software.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ProductAvailability"
+      ]
     },
-    "contributors": {
+    "contributions": {
       "type": "array",
-      "description": "List of contributors.",
+      "description": "List of contributions.",
       "minItems": 1,
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTRIBUTION"
-      }
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Contribution"
+      ]
     },
     "copyright": {
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/COPYRIGHT",
-      "description": "Copyright of this version of the software."
+      "description": "Copyright of this version of the software.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Copyright"
+      ]
     },
     "device": {
       "type": "array",
       "minItems": 1,
       "description": "List of devices, with which this version of the software is compatible.",
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTROLLED_TERM"
-      }
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/OperatingDevice"
+      ]
     },
     "digitalIdentifier": {
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/DIGITAL_IDENTIFIER",
-      "description": "Digital identifier of the version of the software."
+      "description": "Digital identifier of the version of the software.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DigitalIdentifier"
+      ]
     },
     "documentation": {
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/RESOURCE",
-      "description": "Documentation of the version of the software."
+      "description": "Documentation of the version of the software.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DigitalIdentifier"
+      ]
     },
     "funding": {
       "type": "array",
       "minItems": 1,
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/FUNDING"
-      },
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Funding"
+      ],
       "description": "List of funding sources, which contributed to this version of the software."
     },
     "inputFormat": {
       "type": "array",
       "minItems": 1,
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/MEDIA_TYPE"
-      },
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ContentType"
+      ],
       "description": "List of formats accepted by this version of the software as input(s)."
     },
     "isNewVersionOf": {
       "type": "array",
       "minItems": 0,
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/MODEL_VERSION"
-      },
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/SoftwareVersion"
+      ],
       "description": "List of versions of softwares, to which this version of the software is a direct successor."
     },
     "isSupplementTo": {
       "type": "array",
       "minItems": 0,
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/MODEL_VERSION"
-      },
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/SoftwareVersion"
+      ],
       "description": "List of versions of softwares, to which this version of the software is supplementary to."
     },
     "isVariantFormOf": {
       "type": "array",
       "minItems": 0,
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/MODEL_VERSION"
-      },
-      "description": "List of versions of softwares, to which this version of the software is a variant of."
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/SoftwareVersion"
+      ],
+      "description": "List of versions of software, to which this version of the software is a variant of."
     },
     "homepage": {
       "type": "string",
@@ -130,25 +125,25 @@
     "hostedBy": {
       "type": "array",
       "minItems": 1,
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTROLLED_TERM"
-      },
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/RepositoryHost"
+      ],
       "description": "Organisations, at which this version of the software is hosted."
     },
     "language": {
       "type": "array",
       "minItems": 1,
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTROLLED_TERM"
-      },
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Language"
+      ],
       "description": "Languages supported by this version of the software."
     },
     "license": {
       "type": "array",
       "minItems": 1,
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/LICENSE"
-      },
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/License"
+      ],
       "description": "Licenses, by which this version of the software is distrubuted."
     },
     "name": {
@@ -158,33 +153,33 @@
     "operatingSystem": {
       "type": "array",
       "minItems": 1,
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTROLLED_TERM"
-      },
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/OperatingSystem"
+      ],
       "description": "List of operating systems supported by this version of the software."
     },
     "outputFormat": {
       "type": "array",
       "minItems": 1,
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/MEDIA_TYPE"
-      },
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ContentType"
+      ],
       "description": "List of formats accepted by this version of the software as output(s)."
     },
     "programmingLanguage": {
       "type": "array",
       "minItems": 1,
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTROLLED_TERM"
-      },
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ProgrammingLanguage"
+      ],
       "description": "Programming language used by this version of the software."
     },
     "relatedPublications": {
       "type": "array",
       "minItems": 1,
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/RESOURCE"
-      },
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DigitalIdentifier"
+      ],
       "description": "Publications related to this version of the software."
     },
     "releaseDate": {
@@ -195,17 +190,17 @@
     "repository": {
       "type": "array",
       "minItems": 1,
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/FILE_REPOSITORY"
-      },
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/FileRepository"
+      ],
       "description": "Links to repositories where this version of the software can be found."
     },
     "softwareFeature": {
       "type": "array",
       "minItems": 1,
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/SOFTWARE_FEATURE"
-      },
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/SoftwareFeature"
+      ],
       "description": "Features of this version of the software."
     },
     "softwareRequirement": {

@@ -1,0 +1,19 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/Contribution",
+  "required": [
+    "contributor",
+    "contributionType"
+  ],
+  "contributor": {
+    "_linkedTypes": [
+      "https://openminds.ebrains.eu/core/Person",
+      "https://openminds.ebrains.eu/core/Organization"
+    ]
+  },
+  "contributionType": {
+    "type": "array",
+    "_linkedTypes": [
+      "https://openminds.ebrains.eu/core/ContributionType"
+    ]
+  }
+}

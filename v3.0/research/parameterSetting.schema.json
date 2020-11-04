@@ -1,0 +1,30 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/ParameterSetting",
+  "required": [
+    "description",
+    "key",
+    "value"
+  ],
+  "properties": {
+    "description": {
+      "type": "string"
+    },
+    "key": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    },
+    "valueUnit": {
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Unit"
+      ]
+    },
+    "relevantParameterFor": {
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/BehavioralTask",
+        "https://openminds.ebrains.eu/core/Technique"
+      ]
+    }
+  }
+}

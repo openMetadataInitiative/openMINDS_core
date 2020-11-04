@@ -1,0 +1,14 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/StudyTarget",
+  "required": ["thingOfInterest", "type"],
+  "properties": {
+    "thingOfInterest": {
+      "type": "string"
+    },
+    "type": {
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/StudyTargetType"
+      ]
+    }
+  }
+}

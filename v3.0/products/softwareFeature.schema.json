@@ -1,27 +1,13 @@
 {
-  "$id": "https://openminds.ebrains.eu/core/softwareFeature.schema.json",
-  "$schema": "http://json-schema.org/draft-07/schema#",  
+  "_type": "https://openminds.ebrains.eu/core/SoftwareFeature",
   "description": "Feature included in this software",
   "title": "software feature",
-  "type": "object",
-  "additionalProperties": false,
   "required": [
-    "@type",
-    "@id",
     "definition",
     "category",
     "name"
   ],
   "properties": {
-    "@type": {
-      "type":"string",
-      "const": "https://openminds.ebrains.eu/core/softwareFeature",
-      "description": "Metadata node type (schema)."
-    },
-    "@id": {
-      "type": "string",
-      "description": "Metadata node identifier."
-    },
     "name": {
       "type": "string",
       "description": "The name of this software feature."
@@ -36,8 +22,10 @@
       "description" : "Link to external resource defining the feature." 
     },
     "category":{
-      "description":"Category that this feature belongs to.",      
-      "$ref":"https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTROLLED_TERM"
+      "description":"Category that this feature belongs to.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/SoftwareFeatureCategory"
+      ]
     }
   }
 }

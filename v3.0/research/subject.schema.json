@@ -1,0 +1,49 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/Subject",
+  "required": [
+    "biologicalSex",
+    "identifier",
+    "quantity",
+    "species",
+    "studiedStates"
+  ],
+  "properties": {
+    "biologicalSex": {
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/BiologicalSex"
+      ]
+    },
+    "identifier": {
+      "type": "string"
+    },
+    "genotype": {
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Genotype"
+      ]
+    },
+    "phenotype": {
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Phenotype"
+      ]
+    },
+    "quantity": {
+      "type": "number"
+    },
+    "species": {
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Species"
+      ]
+    },
+    "strain": {
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Species"
+      ]
+    },
+    "studiedStates": {
+      "type": "array",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/SubjectState"
+      ]
+    }
+  }
+}

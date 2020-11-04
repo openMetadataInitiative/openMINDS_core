@@ -1,0 +1,31 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/Protocol",
+  "required": [
+    "description",
+    "techniques",
+    "studyTargets"
+  ],
+  "properties": {
+    "description": {
+      "type": "string"
+    },
+    "behavioralTasks": {
+      "type": "array",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/BehavioralTask"
+      ]
+    },
+    "techniques": {
+      "type": "array",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Technique"
+      ]
+    },
+    "studyTargets": {
+      "type": "array",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/StudyTarget"
+      ]
+    }
+  }
+}

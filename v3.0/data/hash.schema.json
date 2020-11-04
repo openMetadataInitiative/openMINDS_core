@@ -1,0 +1,15 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/Hash",
+  "required": [
+    "digest",
+    "algorithm"
+  ],
+  "properties": {
+    "digest": {
+       "type": "string"
+    },
+    "algorithm": {
+       "type": "string"
+    }
+  }
+}
