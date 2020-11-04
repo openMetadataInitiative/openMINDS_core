@@ -8,7 +8,8 @@
       "type": "string"
     },
     "schemaUri": {
-      "type": "iri"
+      "type": "string",
+      "format": "iri"
     },
     "identifierPattern": {
       "type": "string"

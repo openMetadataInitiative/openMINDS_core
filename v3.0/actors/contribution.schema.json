@@ -4,16 +4,18 @@
     "contributor",
     "contributionType"
   ],
-  "contributor": {
-    "_linkedTypes": [
-      "https://openminds.ebrains.eu/core/Person",
-      "https://openminds.ebrains.eu/core/Organization"
-    ]
-  },
-  "contributionType": {
-    "type": "array",
-    "_linkedTypes": [
-      "https://openminds.ebrains.eu/core/ContributionType"
-    ]
-  }
+   "properties": {
+     "contributor": {
+       "_linkedTypes": [
+         "https://openminds.ebrains.eu/core/Person",
+         "https://openminds.ebrains.eu/core/Organization"
+       ]
+     },
+     "contributionType": {
+       "type": "array",
+       "_linkedTypes": [
+         "https://openminds.ebrains.eu/core/ContributionType"
+       ]
+     }
+   }
 }
