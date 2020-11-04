@@ -13,7 +13,7 @@
     },
     "pathology": {
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Pathology"
+        "https://openminds.ebrains.eu/controlledTerms/Pathology"
       ]
     },
     "quality": {

@@ -1,4 +1,0 @@
-{
-  "_extends": "controlledTerms/controlledTerm.schema.json",
-  "_type": "https://openminds.ebrains.eu/core/ProgrammingLanguage"
-}

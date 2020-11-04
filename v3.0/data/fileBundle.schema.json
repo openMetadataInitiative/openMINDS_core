@@ -17,7 +17,7 @@
     "groupedBy": {
       "description": "Concept which was used to group the file instances into this file bundle.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/FileBundleGrouping"
+        "https://openminds.ebrains.eu/controlledTerms/FileBundleGrouping"
       ]
     },
     "hash": {

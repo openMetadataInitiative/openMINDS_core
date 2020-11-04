@@ -10,7 +10,7 @@
   "properties": {
     "biologicalSex": {
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/BiologicalSex"
+        "https://openminds.ebrains.eu/controlledTerms/BiologicalSex"
       ]
     },
     "identifier": {
@@ -18,12 +18,12 @@
     },
     "genotype": {
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Genotype"
+        "https://openminds.ebrains.eu/controlledTerms/Genotype"
       ]
     },
     "phenotype": {
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Phenotype"
+        "https://openminds.ebrains.eu/controlledTerms/Phenotype"
       ]
     },
     "quantity": {
@@ -31,12 +31,12 @@
     },
     "species": {
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Species"
+        "https://openminds.ebrains.eu/controlledTerms/Species"
       ]
     },
     "strain": {
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Species"
+        "https://openminds.ebrains.eu/controlledTerms/Species"
       ]
     },
     "studiedStates": {

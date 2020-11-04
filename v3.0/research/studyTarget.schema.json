@@ -7,7 +7,7 @@
     },
     "type": {
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/StudyTargetType"
+        "https://openminds.ebrains.eu/controlledTerms/StudyTargetType"
       ]
     }
   }

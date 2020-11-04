@@ -44,7 +44,7 @@
     "specificRole": {
       "description": "???",
       "_linkedTypes": [
-         "https://openminds.ebrains.eu/core/SpecificRoleFileUsage"
+         "https://openminds.ebrains.eu/controlledTerms/SpecificRoleFileUsage"
       ]
     },
     "storageSize": {

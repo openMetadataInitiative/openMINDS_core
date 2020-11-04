@@ -11,12 +11,12 @@
     },
     "ageCategory": {
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/AgeCategory"
+        "https://openminds.ebrains.eu/controlledTerms/AgeCategory"
       ]
     },
     "disease": {
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Disease"
+        "https://openminds.ebrains.eu/controlledTerms/Disease"
       ]
     },
     "functionalImpairments": {

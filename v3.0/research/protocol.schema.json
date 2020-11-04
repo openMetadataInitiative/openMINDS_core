@@ -12,13 +12,13 @@
     "behavioralTasks": {
       "type": "array",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/BehavioralTask"
+        "https://openminds.ebrains.eu/controlledTerms/BehavioralTask"
       ]
     },
     "techniques": {
       "type": "array",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Technique"
+        "https://openminds.ebrains.eu/controlledTerms/Technique"
       ]
     },
     "studyTargets": {

@@ -17,13 +17,13 @@
     },
     "valueUnit": {
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Unit"
+        "https://openminds.ebrains.eu/controlledTerms/Unit"
       ]
     },
     "relevantParameterFor": {
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/BehavioralTask",
-        "https://openminds.ebrains.eu/core/Technique"
+        "https://openminds.ebrains.eu/controlledTerms/BehavioralTask",
+        "https://openminds.ebrains.eu/controlledTerms/Technique"
       ]
     }
   }

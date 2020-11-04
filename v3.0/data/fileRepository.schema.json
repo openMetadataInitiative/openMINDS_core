@@ -27,7 +27,7 @@
     "hostedBy": {
       "description": "Hosting provider for this repository.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/RepositoryHost"
+        "https://openminds.ebrains.eu/controlledTerms/RepositoryHost"
       ]
     },
     "resourceLocator": {

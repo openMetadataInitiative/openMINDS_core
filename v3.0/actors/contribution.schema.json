@@ -14,7 +14,7 @@
      "contributionType": {
        "type": "array",
        "_linkedTypes": [
-         "https://openminds.ebrains.eu/core/ContributionType"
+         "https://openminds.ebrains.eu/controlledTerms/ContributionType"
        ]
      }
    }

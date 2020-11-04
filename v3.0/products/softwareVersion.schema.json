@@ -34,13 +34,34 @@
       "description": "List of categories, to which this version of the software belongs.",
       "minItems": 1,
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/SoftwareApplicationCategory"
+        "https://openminds.ebrains.eu/controlledTerms/SoftwareApplicationCategory"
       ]
     },
     "availability": {
       "description": "The availability of this version of the software.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ProductAvailability"
+        "https://openminds.ebrains.eu/controlledTerms/ProductAvailability"
+      ]
+    },
+     "authors": {
+      "type": "array",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Person",
+        "https://openminds.ebrains.eu/core/Organization"
+      ]
+    },
+    "custodians": {
+      "type": "array",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Person",
+        "https://openminds.ebrains.eu/core/Organization"
+      ]
+    },
+    "developers": {
+      "type": "array",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Person",
+        "https://openminds.ebrains.eu/core/Organization"
       ]
     },
     "contributions": {
@@ -62,7 +83,7 @@
       "minItems": 1,
       "description": "List of devices, with which this version of the software is compatible.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/OperatingDevice"
+        "https://openminds.ebrains.eu/controlledTerms/OperatingDevice"
       ]
     },
     "digitalIdentifier": {
@@ -126,7 +147,7 @@
       "type": "array",
       "minItems": 1,
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/RepositoryHost"
+        "https://openminds.ebrains.eu/controlledTerms/RepositoryHost"
       ],
       "description": "Organisations, at which this version of the software is hosted."
     },
@@ -134,7 +155,7 @@
       "type": "array",
       "minItems": 1,
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Language"
+        "https://openminds.ebrains.eu/controlledTerms/Language"
       ],
       "description": "Languages supported by this version of the software."
     },
@@ -154,7 +175,7 @@
       "type": "array",
       "minItems": 1,
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/OperatingSystem"
+        "https://openminds.ebrains.eu/controlledTerms/OperatingSystem"
       ],
       "description": "List of operating systems supported by this version of the software."
     },
@@ -170,7 +191,7 @@
       "type": "array",
       "minItems": 1,
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ProgrammingLanguage"
+        "https://openminds.ebrains.eu/controlledTerms/ProgrammingLanguage"
       ],
       "description": "Programming language used by this version of the software."
     },
@@ -199,7 +220,7 @@
       "type": "array",
       "minItems": 1,
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/SoftwareFeature"
+        "https://openminds.ebrains.eu/controlledTerms/SoftwareFeature"
       ],
       "description": "Features of this version of the software."
     },

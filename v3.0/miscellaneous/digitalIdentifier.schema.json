@@ -8,6 +8,9 @@
     "identifier": {
       "type": "string"
     },
+    "howToCite": {
+      "type": "string"
+    },
     "identifierSchema": {
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DigitalIdentifierSchema"

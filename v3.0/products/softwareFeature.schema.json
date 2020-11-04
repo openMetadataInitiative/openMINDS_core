@@ -24,7 +24,7 @@
     "category":{
       "description":"Category that this feature belongs to.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/SoftwareFeatureCategory"
+        "https://openminds.ebrains.eu/controlledTerms/SoftwareFeatureCategory"
       ]
     }
   }

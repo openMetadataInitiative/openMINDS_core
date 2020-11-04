@@ -9,7 +9,7 @@
   "properties": {
     "organOfOrigin": {
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/OrganOfOrigin"
+        "https://openminds.ebrains.eu/controlledTerms/OrganOfOrigin"
       ]
     },
     "quantity": {
@@ -17,7 +17,7 @@
     },
     "species": {
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Species"
+        "https://openminds.ebrains.eu/controlledTerms/Species"
       ]
     },
     "studiedStates": {
@@ -28,7 +28,7 @@
     },
     "type": {
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/TissueSampleType"
+        "https://openminds.ebrains.eu/controlledTerms/TissueSampleType"
       ]
     }
   }

@@ -4,7 +4,7 @@
   "properties": {
     "unit": {
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Unit"
+        "https://openminds.ebrains.eu/controlledTerms/Unit"
       ]
     },
     "value": {
