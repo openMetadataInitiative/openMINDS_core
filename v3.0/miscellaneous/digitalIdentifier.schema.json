@@ -1,0 +1,20 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/DigitalIdentifier",
+  "required": [
+    "identifier",
+    "identifierScheme"
+  ],
+  "properties": {
+    "identifier": {
+      "type": "string"
+    },
+    "howToCite": {
+      "type": "string"
+    },
+    "identifierSchema": {
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DigitalIdentifierSchema"
+      ]
+    }
+  }
+}

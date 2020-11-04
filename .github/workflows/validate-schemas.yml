@@ -1,3 +1,6 @@
+# Adapted from https://github.com/HumanBrainProject/openMINDS/blob/871e382/.github/workflows/validate-schemas.yml
+# MIT licensed
+
 # This workflow will install Python dependencies, run tests and lint with a single version of Python
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
 
@@ -11,9 +14,7 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python 3.8
@@ -31,9 +32,18 @@ jobs:
         flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+    - name: Build schemas
+      run: |
+        python generator.py
+    - name: Validate schemas
+      run: |
+        python validate_schemas.py
     - name: Test with pytest
       run: |
         pytest
-    - name: Validate schemas
-      run: |
-        python v3.0/validator/validate_schemas.py
+    - name: Archive artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: target files
+        path: |
+          target

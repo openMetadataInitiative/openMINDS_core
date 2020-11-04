@@ -1,0 +1,35 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/TissueSample",
+  "required": [
+    "quantity",
+    "species",
+    "studiedStates",
+    "type"
+  ],
+  "properties": {
+    "organOfOrigin": {
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/OrganOfOrigin"
+      ]
+    },
+    "quantity": {
+      "type": "number"
+    },
+    "species": {
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Species"
+      ]
+    },
+    "studiedStates": {
+      "type": "array",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/TissueSampleState"
+      ]
+    },
+    "type": {
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/TissueSampleType"
+      ]
+    }
+  }
+}

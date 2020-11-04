@@ -1,27 +1,13 @@
 {
-  "$id": "https://openminds.ebrains.eu/core/project.schema.json",
-  "$schema": "http://json-schema.org/draft-07/schema#",
+  "_type": "https://openminds.ebrains.eu/core/Project",
   "description": "Structured information about an enterprise (potentially individual but typically collaborative) planned to achieve a particular aim.",
-  "type": "object",
-  "additionalProperties": false,
   "required": [
-    "@type",
-    "@id",
     "alias",
     "description",
     "hasResearchProducts",
     "name"
   ],
   "properties": {
-    "@type": {
-      "type": "string",
-      "description": "Metadata node type (schema).",
-      "const": "https://openminds.ebrains.eu/core/project"
-    },
-    "@id": {
-      "type": "string",
-      "description": "Metadata node identifier."
-    },
     "alias": {
       "type": "string",
       "description": "An alternate short name of an item."
@@ -33,20 +19,20 @@
     "hasResearchProducts": {
       "type": "array",
       "description": "Single research product versions and/or whole products (datasets, models and/or software) that are collaborators in this project.",
-      "items": {
-        "anyOf": [
-          {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/RESEARCH_PRODUCT"},
-          {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/DATASET_VERSION"},
-          {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/MODEL_VERSION"},
-          {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/SOFTWARE_VERSION"}
-        ]
-      }
-    },   
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Software",
+        "https://openminds.ebrains.eu/core/Dataset",
+        "https://openminds.ebrains.eu/core/Model",
+        "https://openminds.ebrains.eu/core/SoftwareVersion",
+        "https://openminds.ebrains.eu/core/DatasetVersion",
+        "https://openminds.ebrains.eu/core/ModelVersion"
+      ]
+    },
     "homepage": {
       "type": "string",
       "description": "The international resource identifier (IRI) to the homepage of the project.",
       "format": "iri"
-    },   
+    },
     "name": {
       "type": "string",
       "description": "A descriptive name of an item."

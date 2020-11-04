@@ -1,0 +1,18 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/DigitalIdentifierSchema",
+  "required": [
+    "type"
+  ],
+  "properties": {
+    "type": {
+      "type": "string"
+    },
+    "schemaUri": {
+      "type": "string",
+      "format": "iri"
+    },
+    "identifierPattern": {
+      "type": "string"
+    }
+  }
+}

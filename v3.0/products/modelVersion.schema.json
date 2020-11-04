@@ -1,37 +1,41 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/DatasetVersion",
-  "description": "Version of a dataset.",
+  "_type": "https://openminds.ebrains.eu/core/ModelVersion",
+  "description": "Version of a model.",
   "required": [
+    "abstractionLevel",
     "alias",
     "availability",
-    "contributions",
     "digitalIdentifier",
     "documentation",
-    "ethicsAssessment",
-    "funding",
+    "hostedBy",
     "license",
-    "modality",
+    "modelFormat",
     "name",
     "releaseDate",
     "repository",
-    "studyTarget",
+    "studyTargets",
+    "scope",
     "summary",
-    "type",
     "versionIdentifier",
-    "versionInnovation"
+    "versionInnovations"
   ],
   "properties": {
+    "abstractionLevel": {
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ModelAbstractionLevel"
+      ]
+    },
     "alias": {
       "type": "string",
       "description": "User-defined identifier of this dataset version."
     },
     "availability": {
-      "description": "Availibility of the data for this dataset version.",
+      "description": "Availability of the data for this model version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/ProductAvailability"
       ]
     },
-    "authors": {
+     "authors": {
       "type": "array",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Person",
@@ -71,12 +75,6 @@
         "https://openminds.ebrains.eu/core/DigitalIdentifier"
       ]
     },
-    "ethicsAssessment": {
-      "description": "Ethical assessment that determines the compliance with European ethical rules and standards (if the obligation for an ethics approval applies).",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/EthicsAssessment"
-      ]
-    },
     "funding": {
       "type": "array",
       "description": "Funding information for the dataset.",
@@ -84,30 +82,40 @@
         "https://openminds.ebrains.eu/core/Funding"
       ]
     },
-    "isNewVersionOf": {
-      "description": "Link to previous dataset version to which this version is an update to.",
+    "inputDataset": {
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DatasetVersion"
+      ]
+    },
+    "isNewVersionOf": {
+      "description": "Link to previous model version to which this version is an update to.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ModelVersion"
       ]
     },
     "isSupplementTo": {
       "type": "array",
-      "description": "Link to other dataset versions to which this version is a supplement to.",
+      "description": "Link to other model versions to which this version is a supplement to.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DatasetVersion"
+        "https://openminds.ebrains.eu/core/ModelVersion"
       ]
     },
     "isVariantFormOf": {
       "type": "array",
-      "description": "Link to other dataset versions to which this version is an alternative to/another variant of.",
+      "description": "Link to other model versions to which this version is an alternative to/another variant of.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DatasetVersion"
+        "https://openminds.ebrains.eu/core/ModelVersion"
       ]
     },
     "homepage": {
       "type": "string",
-      "description": "The uniform resource identifier (URI) to the homepage of the dataset version.",
+      "description": "The uniform resource identifier (URI) to the homepage of the model version.",
       "format": "uri"
+    },
+    "hostedBy": {
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/RepositoryHost"
+      ]
     },
     "license": {
       "description": "Link to license document that applies to this dataset version.",
@@ -115,51 +123,47 @@
         "https://openminds.ebrains.eu/core/License"
       ]
     },
-    "modality": {
-      "type": "array",
-      "description": "Overarching experimental approach used to produce the data of the dataset version.",
+    "modelFormat": {
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Modality"
+        "https://openminds.ebrains.eu/core/ContentType"
       ]
     },
     "name": {
       "type": "string",
-      "description": "A descriptive name for the dataset version."
+      "description": "A descriptive name for the model version."
     },
     "relatedPublications": {
       "type": "array",
-      "description": "Other publications (e.g. journal article) related to the dataset version.",
+      "description": "Other publications (e.g. journal article) related to the model version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DigitalIdentifier"
       ]
     },
     "releaseDate": {
       "type": "string",
-      "description": "Date (actual or intended) of first broadcast/publication of this dataset.",
+      "description": "Date (actual or intended) of first broadcast/publication of this model version.",
       "format": "date"
     },
     "repository": {
-      "description": "Link to data repository of this dataset version.",
+      "description": "Link to data repository of this model version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/FileRepository"
       ]
     },
     "studyTarget": {
-      "description": "The study target for the dataset version.",
+      "description": "The study target for the model version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/StudyTarget"
       ]
     },
+     "scope": {
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/ModelScope"
+      ]
+    },
     "summary": {
       "type": "string",
-      "description": "Short description that summarizes this dataset (max. 200 words; no references)."
-    },
-    "type": {
-      "type": "array",
-      "description": "Type of data (raw, derived or simulated) the dataset version contains.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/DatasetType"
-      ]
+      "description": "Short description that summarizes this model (max. 200 words; no references)."
     },
     "versionIdentifier": {
       "type": "string",

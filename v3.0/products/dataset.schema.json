@@ -1,0 +1,13 @@
+{
+  "_extends": "products/researchProduct.schema.json",
+  "_type": "https://openminds.ebrains.eu/core/Dataset",
+  "properties": {
+    "hasVersions": {
+      "type": "array",
+      "description": "Link to released version(s) of this product.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DatasetVersion"
+      ]
+    }
+  }
+}

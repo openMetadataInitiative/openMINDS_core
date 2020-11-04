@@ -1,0 +1,41 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/ProtocolExecution",
+  "required": ["hasGenerated", "hasUsed", "protocol"],
+  "properties": {
+    "hasGenerated": {
+      "type": "array",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/SubjectState",
+        "https://openminds.ebrains.eu/core/TissueSampleState",
+        "https://openminds.ebrains.eu/core/FileBundle",
+        "https://openminds.ebrains.eu/core/FileInstance"
+      ]
+    },
+    "hasUsed": {
+      "type": "array",
+       "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/SubjectState",
+        "https://openminds.ebrains.eu/core/TissueSampleState",
+        "https://openminds.ebrains.eu/core/FileBundle",
+        "https://openminds.ebrains.eu/core/FileInstance"
+      ]
+    },
+    "protocol": {
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Protocol"
+      ]
+    },
+    "parameterSettings": {
+      "type": "array",
+      "_linkedTypes": [
+         "https://openminds.ebrains.eu/core/ParameterSetting"
+      ]
+    },
+    "semanticallyAnchoredTo": {
+      "type": "array",
+      "_linkedTypes": [
+         "https://openminds.ebrains.eu/sands/AnatomicalEntity"
+      ]
+    }
+  }
+}

@@ -1,34 +1,24 @@
 {
-  "$id": "https://openminds.ebrains.eu/core/fileRepository.schema.json",
-  "$schema": "http://json-schema.org/draft-07/schema#",
+  "_type": "https://openminds.ebrains.eu/core/FileRepository",
   "description": "Repository in which the files of a research product version are stored.",
-  "type": "object",
-  "additionalProperties": false,
   "required": [
-    "@type",
-    "@id",
     "hash",
     "name",
     "hostedBy",
     "storageSize"
   ],
   "properties": {
-    "@type": {
-      "type": "string",
-      "description": "Metadata node type (schema).",
-      "const": "https://openminds.ebrains.eu/core/fileRepository"
-    },
-    "@id": {
-      "type": "string",
-      "description": "Metadata node identifier."
+    "contentType": {
+      "description": "Content type of this repository.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ContentType"
+      ]
     },
     "hash": {
       "description": "Hash generated for this file repository.",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/HASH"
-    },
-    "mediaType": {
-      "description": "Media type (mime type) of this repository.",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/MEDIA_TYPE"
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Hash"
+      ]
     },
     "name": {
       "description": "Name of this repository.",
@@ -36,7 +26,9 @@
     },
     "hostedBy": {
       "description": "Hosting provider for this repository.",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/ORGANIZATION"
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/RepositoryHost"
+      ]
     },
     "resourceLocator": {
       "description": "Resource locator of this repository.",
@@ -45,7 +37,9 @@
     },
     "storageSize": {
       "description": "Size allocated for this repository.",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/QUANTITY"
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ]
     }
   }
 }

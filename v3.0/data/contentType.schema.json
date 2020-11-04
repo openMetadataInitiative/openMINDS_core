@@ -1,0 +1,32 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/ContentType",
+  "required": [
+    "name",
+    "associatedFileExtensions",
+    "fullName"
+  ],
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "associatedFileExtension": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "fullName": {
+      "type": "string"
+    },
+    "synonyms":{
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "ianaRef":{
+      "type": "string",
+      "format": "iri"
+    }
+  }
+}

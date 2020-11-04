@@ -1,24 +1,10 @@
 {
-  "$id": "https://openminds.ebrains.eu/core/funding.schema.json",
-  "$schema": "http://json-schema.org/draft-07/schema#",
+  "_type": "https://openminds.ebrains.eu/core/Funding",
   "description": "Funding of the connected research product version",
-  "type": "object",
-  "additionalProperties": false,
   "required": [
-    "@type",
-    "@id",
-    "funderName"
+    "funder"
   ],
   "properties": {
-    "@type": {
-      "description": "Metadata node type (schema).",
-      "type": "string",
-      "const": "https://openminds.ebrains.eu/core/funding"
-    },
-    "@id": {
-      "description": "Metadata node identifier.",
-      "type": "string"
-    },
     "acknowledgement": {
       "description": "Acknowledgement to be used with this funding.",
       "type": "string"
@@ -33,7 +19,9 @@
     },
     "funder": {
       "description": "Name of the funding organization.",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/ORGANIZATION"
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Organization"
+      ]
     }
   }
 }
