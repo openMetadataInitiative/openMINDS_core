@@ -1,5 +1,5 @@
 {
-  "_extends": "products/researchProduct.schema.json",
+  "_extends": "products/researchProduct.schema.tpl.json",
   "_type": "https://openminds.ebrains.eu/core/Software",
   "properties": {
     "hasVersions": {
