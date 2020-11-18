@@ -1,21 +1,25 @@
 {
   "_type": "https://openminds.ebrains.eu/core/ContentType",
   "required": [
-    "name",
     "associatedFileExtension",
-    "fullName"
+    "category",
+    "fullName",
+    "shortName"
   ],
   "properties": {
-    "name": {
-      "type": "string"
-    },
     "associatedFileExtension": {
       "type": "array",
       "items": {
         "type": "string"
       }
     },
+    "category": {
+      "type": "string"
+    },
     "fullName": {
+      "type": "string"
+    },
+    "shortName": {
       "type": "string"
     },
     "synonyms":{
