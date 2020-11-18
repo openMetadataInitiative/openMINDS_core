@@ -2,7 +2,7 @@
   "_type": "https://openminds.ebrains.eu/core/ContentType",
   "required": [
     "name",
-    "associatedFileExtensions",
+    "associatedFileExtension",
     "fullName"
   ],
   "properties": {
