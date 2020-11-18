@@ -5,6 +5,7 @@
     "hash",
     "name",
     "hostedBy",
+    "resourceLocator",
     "storageSize"
   ],
   "properties": {
@@ -27,7 +28,7 @@
     "hostedBy": {
       "description": "Hosting provider for this repository.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/RepositoryHost"
+        "https://openminds.ebrains.eu/controlledTerms/Organization"
       ]
     },
     "resourceLocator": {
