@@ -6,10 +6,12 @@
   ],
   "properties": {
     "digest": {
-       "type": "string"
+       "type": "string",
+       "_instruction": "Enter the digest of this hash."
     },
     "algorithm": {
-       "type": "string"
+       "type": "string",
+        "_instruction": "Enter the algorithm used to generate this hash."
     }
   }
 }
