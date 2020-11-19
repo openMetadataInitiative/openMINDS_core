@@ -30,6 +30,6 @@
     "shortName": {
       "_instruction": "Enter the short name of the organization.",
       "type": "string"
-    },
+    }
   }
 }
