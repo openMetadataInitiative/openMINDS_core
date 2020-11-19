@@ -1,20 +1,25 @@
 {
   "_type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-  "required": [],
+  "required": [
+    "value"
+  ],
   "properties": {
+
+    "value": {
+      "type": "number"
+    },
+    "uncertainty": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "minItems": 2,
+      "maxItems": 2
+    },
     "unit": {
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/Unit"
       ]
-    },
-    "value": {
-      "type": "number"
-    },
-    "minValue": {
-      "type": "number"
-    },
-    "maxValue": {
-      "type": "number"
     }
   }
 }
