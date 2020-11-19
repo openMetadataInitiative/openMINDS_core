@@ -3,8 +3,7 @@
   "required": [
     "associatedFileExtension",
     "category",
-    "fullName",
-    "shortName"
+    "name"  
   ],
   "properties": {
     "associatedFileExtension": {
@@ -18,17 +17,13 @@
       "type": "string",
       "_instruction": "Enter the category the stated content type belongs to."
     },
-    "fullName": {
-      "type": "string",
-      "_instruction": "Enter the full name (actual format name) of the stated content type."
-    },
     "ianaRef":{
       "type": "string",
       "format": "iri"
     },
-    "shortName": {
+    "name": {
       "type": "string",
-      "_instruction": "Enter the short name (content type pattern) of the stated content type."
+      "_instruction": "Enter the name (iana-inspired convention) of the stated content type."
     },
     "synonyms":{
       "type": "array",
