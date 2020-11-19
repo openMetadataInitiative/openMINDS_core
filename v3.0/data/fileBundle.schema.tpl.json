@@ -1,6 +1,5 @@
 {
   "_type": "https://openminds.ebrains.eu/core/FileBundle",
-  "description": "Group of files of a research product.",
   "required": [
     "hash",
     "isPartOf",
@@ -10,41 +9,41 @@
   ],
   "properties": {
     "contentType": {
-      "description": "Content type (mime type) of this file-bundle.",
+      "_instruction": "Add the content type of this file bundle.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ContentType"
       ]
     },
     "groupedBy": {
-      "description": "Concept which was used to group the file instances into this file bundle.",
+      "_instruction": "Add the concept which was used to group file instances into this file bundle.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/FileBundleGrouping"
       ]
     },
     "hash": {
-      "description": "Hash generated for this file bundle.",
+      "_instruction": "Add the hash that was generated for this file bundle.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Hash"
       ]
     },
     "isPartOf": {
-      "description": "Larger structure this file-bundle is part of.",
+      "_instruction": "Add the file bundle or file repository this file bundle is a part of.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/FileRepository",
         "https://openminds.ebrains.eu/core/FileBundle"
       ]
     },
     "name": {
-      "description": "Name of this file bundle.",
+      "_instruction": "Enter the name of this file bundle.",
       "type": "string"
     },
     "resourceLocator": {
-      "description": "Resource locator of this repository.",
+      "_instruction": "Enter the resource locator of this file bundle.",
       "type": "string",
       "format": "iri"
     },
     "storageSize": {
-      "description": "Size allocated of this file bundle.",
+      "_instruction": "Enter the storage size this file bundle allocates.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
       ]
