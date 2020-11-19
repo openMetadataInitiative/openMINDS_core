@@ -1,7 +1,5 @@
 {
   "_type": "https://openminds.ebrains.eu/core/FileInstance",
-  "title": "FileInstance",
-  "description": "",
   "required": [
     "hash",
     "isPartOf",
@@ -12,44 +10,45 @@
   ],
   "properties": {
     "content": {
-      "description": "Content of the file.",
+      "_instruction": "Enter a short content description for this file instance.",
       "type": "string"
     },
     "contentType": {
-      "description": "Content type of this file.",
+      "_instruction": "Add the content type of this file instance.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ContentType"
       ]
     },
     "hash": {
-      "description": "Hash digest of this file.",
+      "_instruction": "Add the hash that was generated for this file instance.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Hash"
       ]
     },
     "isPartOf": {
-      "description": "Larger structure this file-bundle is part of.",
+      "type": "array",
+      "_instruction": "Add one or several file bundles in which this file instance can be grouped in.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/FileBundle"
       ]
     },
     "name": {
-      "description": "Name of this file.",
+      "_instruction": "Enter the name of this file instance.",
       "type": "string"
     },
     "resourceLocator": {
-      "description": "Resource locator of this file.",
+      "_instruction": "Enter the resource locator of this file instance.",
       "type": "string",
       "format": "iri"
     },
-    "specificRole": {
-      "description": "???",
+    "specificUsageRole": {
+      "_instruction": "Add a specific usage role for this file instance.",
       "_linkedTypes": [
-         "https://openminds.ebrains.eu/controlledTerms/SpecificRoleFileUsage"
+         "https://openminds.ebrains.eu/controlledTerms/fileUsageRole"
       ]
     },
     "storageSize": {
-      "description": "Size allocated for this file.",
+      "description": "Enter the storage size this file instance allocates.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
       ]
