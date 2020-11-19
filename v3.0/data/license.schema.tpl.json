@@ -8,17 +8,21 @@
   "properties": {
     "disclaimer": {
       "type": "string",
-      "format": "iri"
+      "format": "iri",
+      "_instruction": "Enter the internationalized resource identifier (IRI) pointing to the disclaimer information of this license."
     },
     "fullName": {
-      "type": "string"
+      "type": "string",
+      "_instruction": "Enter the full name of this license."
     },
     "legalCode": {
       "type": "string",
-      "format": "iri"
+      "format": "iri",
+      "_instruction": "Enter the internationalized resource identifier (IRI) pointing to the legal code of this license."
     },
     "shortName": {
-      "type": "string"
+      "type": "string",
+      "_instruction": "Enter the short name of this license."
     }
   }
 }
