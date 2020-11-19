@@ -6,13 +6,13 @@
   ],
   "properties": {
     "maxValue": {
-      "_instruction": "Add the maximum quantitative value of this range."
+      "_instruction": "Add the maximum quantitative value of this range.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/Unit"
       ]
     },
     "minValue": {
-      "_instruction": "Add the minimum quantitative value of this range."
+      "_instruction": "Add the minimum quantitative value of this range.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/Unit"
       ]
