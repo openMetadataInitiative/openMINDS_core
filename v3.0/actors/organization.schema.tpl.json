@@ -1,6 +1,5 @@
 {
   "_type": "https://openminds.ebrains.eu/core/Organization",
-  "description": "Identify organizations that were involved in producing the research products or their versions.",
   "required": [
     "fullName"
   ],
