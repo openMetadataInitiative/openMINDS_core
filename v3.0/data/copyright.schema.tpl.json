@@ -1,7 +1,5 @@
 {
   "_type": "https://openminds.ebrains.eu/core/Copyright",
-  "description": "Copyright holder and year of the research product",
-  "title": "copyright",
   "required": [
     "holder",
     "year"
@@ -9,7 +7,7 @@
   "properties": {
     "holder": {
       "type": "array",
-      "description": "The person or organisation that holds the copyright.",
+      "_instruction": "Add one or several persons or organisations that hold the copyright.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Person",
         "https://openminds.ebrains.eu/core/Organization"
@@ -18,7 +16,7 @@
     "year": {
       "type": "string",
       "pattern": "([0-9]{4}])",
-      "description": "The year during which the copyright was first asserted."
+      "_instruction": "Enter the year during which the copyright was first asserted."
     }
   }
 }
