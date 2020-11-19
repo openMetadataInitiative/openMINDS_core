@@ -1,24 +1,23 @@
 {
   "_type": "https://openminds.ebrains.eu/core/Funding",
-  "description": "Funding of the connected research product version",
   "required": [
     "funder"
   ],
   "properties": {
     "acknowledgement": {
-      "description": "Acknowledgement to be used with this funding.",
+      "_instruction": "Enter the acknowledgement that should be used with this funding.",
       "type": "string"
     },
     "awardNumber": {
-      "description": "Number of this awarded funding.",
+      "_instruction": "Enter the associated award number of this funding.",
       "type": "string"
     },
     "awardTitle": {
-      "description": "Title of this awarded funding.",
+      "_instruction": "Enter the award title of this funding.",
       "type": "string"
     },
     "funder": {
-      "description": "Name of the funding organization.",
+      "_instruction": "Add the organization that provided this funding.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Organization"
       ]
