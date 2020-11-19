@@ -1,6 +1,5 @@
 {
   "_type": "https://openminds.ebrains.eu/core/Person",
-  "description": "Researcher that was involved in producing the research product or their versions.",
   "required": [
     "email",
     "givenName"
