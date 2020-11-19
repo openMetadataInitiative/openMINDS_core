@@ -9,25 +9,30 @@
   "properties": {
     "associatedFileExtension": {
       "type": "array",
+      "_instruction": "Enter one or several file extensions associated with the stated content type.",
       "items": {
         "type": "string"
       }
     },
     "category": {
-      "type": "string"
+      "type": "string",
+      "_instruction": "Enter the category the stated content type belongs to."
     },
     "fullName": {
-      "type": "string"
+      "type": "string",
+      "_instruction": "Enter the full name (actual format name) of the stated content type."
     },
     "ianaRef":{
       "type": "string",
       "format": "iri"
     },
     "shortName": {
-      "type": "string"
+      "type": "string",
+      "_instruction": "Enter the short name (content type pattern) of the stated content type."
     },
     "synonyms":{
       "type": "array",
+      "_instruction": "Enter one or several synonyms of the stated content type.",
       "items": {
         "type": "string"
       }
