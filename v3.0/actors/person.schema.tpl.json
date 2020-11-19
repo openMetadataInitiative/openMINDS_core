@@ -6,25 +6,25 @@
     "givenName"
   ],
   "properties": {
+    "digitalIdentifier": {
+      "type": "array",
+      "_instruction": "Add one or several globally unique and persistent digital identifier for the stated person.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DigitalIdentifier"
+      ]
+    },
     "email": {
-      "description": "Email address of this person.",
+      "_instruction": "Enter the email address of the stated person.",
       "type": "string",
       "format": "email"
     },
     "familyName": {
-      "description": "Family name of this person.",
+      "_instruction": "Enter the family name of the stated person.",
       "type": "string"
     },
     "givenName": {
-      "description": "Given name of this person.",
+      "_instruction": "Enter the given name of the person.",
       "type": "string"
-    },
-    "digitalIdentifier": {
-      "type": "array",
-      "description": "Globally unique and persistent digital identifier for this person.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DigitalIdentifier"
-      ]
     }
   }
 }
