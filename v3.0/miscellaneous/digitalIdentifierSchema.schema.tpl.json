@@ -5,14 +5,17 @@
   ],
   "properties": {
     "type": {
-      "type": "string"
+      "type": "string",
+      "_instruction": "Enter the type of this digital identifier schema."
     },
     "IRI": {
       "type": "string",
-      "format": "iri"
+      "format": "iri",
+      "_instruction": "Enter the internationalized resource identifier (IRI) of this digital identifier schema."
     },
     "identifierPattern": {
-      "type": "string"
+      "type": "string",
+      "_instruction": "Enter the required pattern for the identifiers of this digital identifier schema."
     }
   }
 }
