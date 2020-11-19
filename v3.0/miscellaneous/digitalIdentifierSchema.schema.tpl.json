@@ -7,7 +7,7 @@
     "type": {
       "type": "string"
     },
-    "schemaUri": {
+    "IRI": {
       "type": "string",
       "format": "iri"
     },
