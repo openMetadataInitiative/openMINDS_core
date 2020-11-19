@@ -1,13 +1,14 @@
 {
   "_type": "https://openminds.ebrains.eu/core/License",
   "required": [
-    "identifier",
     "fullName",
-    "legalCode"
+    "legalCode",
+    "shortName"
   ],
   "properties": {
-    "identifier": {
-      "type": "string"
+    "disclaimer": {
+      "type": "string",
+      "format": "iri"
     },
     "fullName": {
       "type": "string"
@@ -16,9 +17,8 @@
       "type": "string",
       "format": "iri"
     },
-    "disclaimer": {
-      "type": "string",
-      "format": "iri"
+    "shortName": {
+      "type": "string"
     }
   }
 }
