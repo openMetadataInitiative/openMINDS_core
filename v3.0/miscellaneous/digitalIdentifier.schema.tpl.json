@@ -6,12 +6,15 @@
   ],
   "properties": {
     "identifier": {
-      "type": "string"
+      "type": "string",
+      "_instruction": "Enter the digital identifier of a resource."
     },
     "howToCite": {
-      "type": "string"
+      "type": "string",
+      "_instruction": "Enter the preferred citation text for the resource this digital identifier stnads for."
     },
     "identifierSchema": {
+      "_instruction": "Add the used schema of this digital identifier.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DigitalIdentifierSchema"
       ]
