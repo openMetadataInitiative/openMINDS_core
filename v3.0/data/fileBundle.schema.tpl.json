@@ -1,11 +1,9 @@
 {
   "_type": "https://openminds.ebrains.eu/core/FileBundle",
   "required": [
-    "hash",
     "isPartOf",
     "name",
-    "resourceLocator",
-    "storageSize"
+    "resourceLocator"
   ],
   "properties": {
     "format": {
