@@ -4,7 +4,7 @@
   "properties": {
     "hasVersions": {
       "type": "array",
-      "description": "Link to released version(s) of this product.",
+      "_instruction": "Add one or several versions of this computational model.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ModelVersion"
       ]
