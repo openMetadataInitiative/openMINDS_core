@@ -8,7 +8,7 @@
     "storageSize"
   ],
   "properties": {
-    "contentType": {
+    "format": {
       "_instruction": "Add the content type of this file bundle.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ContentType"
