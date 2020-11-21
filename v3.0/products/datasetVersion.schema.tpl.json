@@ -2,37 +2,33 @@
   "_type": "https://openminds.ebrains.eu/core/DatasetVersion",
   "description": "Version of a dataset.",
   "required": [
-    "alias",
-    "availability",
-    "contributions",
+    "accessibility",
+    "description",
     "digitalIdentifier",
-    "documentation",
     "ethicsAssessment",
     "funding",
     "license",
     "modality",
-    "name",
+    "fullDocumentation",
+    "fullName",
     "releaseDate",
     "repository",
+    "shortName",
     "studyTarget",
-    "summary",
     "type",
     "versionIdentifier",
     "versionInnovation"
   ],
   "properties": {
-    "alias": {
-      "type": "string",
-      "description": "User-defined identifier of this dataset version."
-    },
-    "availability": {
-      "description": "Availibility of the data for this dataset version.",
+    "accessibility": {
+      "_instruction": "Add the accessibility of the data for this dataset version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/ProductAvailability"
       ]
     },
     "authors": {
       "type": "array",
+      "_instruction": "Add one or several authors (person or organization) that contributed to the production and publication of this dataset version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Person",
         "https://openminds.ebrains.eu/core/Organization"
@@ -40,134 +36,142 @@
     },
     "custodians": {
       "type": "array",
+      "_instruction": "Add one or several custodians (person or organization) that are responsible for this dataset version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Person",
         "https://openminds.ebrains.eu/core/Organization"
       ]
+    },
+    "description": {
+      "type": "string",
+      "_instruction": "Enter a description (abstract) for this dataset (max. 200 words; no references)."
     },
     "developers": {
       "type": "array",
+      "_instruction": "Add one or several developers (person or organization) that contributed to the code implementation needed to produce or use this dataset version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Person",
         "https://openminds.ebrains.eu/core/Organization"
       ]
     },
-    "contributions": {
-      "type": "array",
-      "description": "List of contributions that were involved in the creation/publication of this version of the dataset.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Contribution"
-      ]
-    },
     "digitalIdentifier": {
-      "description": "Unique digital identifier for the dataset version.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DigitalIdentifier"
-      ]
-    },
-    "documentation": {
-      "description": "Documentation related to the dataset version.",
+      "_instruction": "Add the globally unique and persistent digital identifier of this dataset version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DigitalIdentifier"
       ]
     },
     "ethicsAssessment": {
-      "description": "Ethical assessment that determines the compliance with European ethical rules and standards (if the obligation for an ethics approval applies).",
+      "_instruction": "Add the result of the ethics assessment of this dataset version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/EthicsAssessment"
       ]
     },
+    "fullDocumentation": {
+      "_instruction": "Add the globally unique and persistent digital identifier of a full documentation of this dataset version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DigitalIdentifier"
+      ]
+    },
+    "fullName": {
+      "type": "string",
+      "_instruction": "Enter a descriptive full name (title) for this dataset version."
+    },
     "funding": {
       "type": "array",
-      "description": "Funding information for the dataset.",
+      "_instruction": "Add all funding information of this dataset version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Funding"
       ]
     },
+    "homepage": {
+      "type": "string",
+      "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this dataset version.",
+      "format": "iri"
+    },
     "isNewVersionOf": {
-      "description": "Link to previous dataset version to which this version is an update to.",
+      "_instruction": "Add the dataset version preceding this dataset version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DatasetVersion"
       ]
     },
     "isSupplementTo": {
       "type": "array",
-      "description": "Link to other dataset versions to which this version is a supplement to.",
+      "_instruction": "Add all dataset versions that supplement this dataset version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DatasetVersion"
       ]
     },
     "isVariantFormOf": {
       "type": "array",
-      "description": "Link to other dataset versions to which this version is an alternative to/another variant of.",
+      "_instruction": "Add all dataset versions that can be used alternatively to this dataset version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DatasetVersion"
       ]
     },
-    "homepage": {
-      "type": "string",
-      "description": "The uniform resource identifier (URI) to the homepage of the dataset version.",
-      "format": "uri"
-    },
     "license": {
-      "description": "Link to license document that applies to this dataset version.",
+      "_instruction": "Add the license of this dataset version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/License"
       ]
     },
     "modality": {
       "type": "array",
-      "description": "Overarching experimental approach used to produce the data of the dataset version.",
+      "_instruction": "Add all modalities in which the approaches used in this dataset version can be categorized in.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/Modality"
       ]
     },
-    "name": {
-      "type": "string",
-      "description": "A descriptive name for the dataset version."
+    "otherContributions": {
+      "type": "array",
+      "_instruction": "Add the contributions for each involved person or organization going beyond being an author, custodian or developer of this dataset version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Contribution"
+      ]
     },
     "relatedPublications": {
       "type": "array",
-      "description": "Other publications (e.g. journal article) related to the dataset version.",
+      "_instruction": "Add further publications besides the documentation (e.g. an original research article) providing the original context for the production of this dataset version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DigitalIdentifier"
       ]
     },
     "releaseDate": {
       "type": "string",
-      "description": "Date (actual or intended) of first broadcast/publication of this dataset.",
+      "_instruction": "Enter the date (actual or intended) of the first broadcast/publication of this dataset version.",
       "format": "date"
     },
     "repository": {
-      "description": "Link to data repository of this dataset version.",
+      "_instruction": "Add the file repository of this dataset version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/FileRepository"
       ]
     },
+    "shortName": {
+      "type": "string",
+      "maxLength": 30,
+      "_instruction": "Enter a short name (alias) for this dataset version (max. 30 characters, no space)."
+    },
     "studyTarget": {
-      "description": "The study target for the dataset version.",
+      "type": "array",
+      "_instruction": "Add all study targets of this dataset version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/StudyTarget"
       ]
     },
-    "summary": {
-      "type": "string",
-      "description": "Short description that summarizes this dataset (max. 200 words; no references)."
-    },
     "type": {
       "type": "array",
-      "description": "Type of data (raw, derived or simulated) the dataset version contains.",
+      "_instruction": "Add all data types (raw, derived or simulated) provided in this dataset version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/DatasetType"
       ]
     },
     "versionIdentifier": {
       "type": "string",
-      "description": "Version identifier of this dataset version."
+      "_instruction": "Enter the version identifier of this dataset version."
     },
     "versionInnovations": {
       "type": "string",
-      "description": "Short description of the novelties/peculiarities of this dataset version."
+      "_instruction": "Enter a short summary of the novelties/peculiarities of this dataset version."
     }
   }
 }
