@@ -25,7 +25,7 @@
     "accessibility": {
       "_instruction": "Add the accessibility of the data for this dataset version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/ProductAvailability"
+        "https://openminds.ebrains.eu/controlledTerms/ProductAccessibility"
       ]
     },
     "authors": {
