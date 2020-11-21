@@ -120,7 +120,7 @@
       ]
     },
     "modelFormat": {
-      "_instruction": "Add the format of this model version.",
+      "_instruction": "Add the used content type of this model version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ContentType"
       ]
