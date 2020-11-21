@@ -3,6 +3,8 @@
   "description": "Version of a dataset.",
   "required": [
     "accessibility",
+    "authors",
+    "custodians",
     "description",
     "digitalIdentifier",
     "ethicsAssessment",
