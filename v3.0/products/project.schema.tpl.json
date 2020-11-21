@@ -1,6 +1,5 @@
 {
   "_type": "https://openminds.ebrains.eu/core/Project",
-  "description": "Structured information about an enterprise (potentially individual but typically collaborative) planned to achieve a particular aim.",
   "required": [
     "description",
     "fullName",
