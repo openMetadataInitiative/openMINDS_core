@@ -1,42 +1,39 @@
 {
   "_type": "https://openminds.ebrains.eu/core/ModelVersion",
-  "description": "Version of a model.",
   "required": [
     "abstractionLevel",
-    "alias",
-    "availability",
+    "accessibility",
+    "description",
+    "developers",
     "digitalIdentifier",
     "documentation",
-    "hostedBy",
+    "fullName",
     "license",
     "modelFormat",
-    "name",
     "releaseDate",
     "repository",
-    "studyTargets",
     "scope",
-    "summary",
+    "shortName",
+    "studyTarget",
     "versionIdentifier",
     "versionInnovations"
   ],
   "properties": {
     "abstractionLevel": {
+      "_instruction": "Add the abstraction level of this model version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ModelAbstractionLevel"
       ]
     },
-    "alias": {
-      "type": "string",
-      "description": "User-defined identifier of this dataset version."
-    },
-    "availability": {
-      "description": "Availability of the data for this model version.",
+    "accessibility": {
+      "_instruction": "Add the accessibility of the data for this dataset version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/ProductAvailability"
       ]
     },
-     "authors": {
+    "authors": {
       "type": "array",
+      "_instruction": "Add one or several authors (person or organization) that contributed to the production and publication of this model version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Person",
         "https://openminds.ebrains.eu/core/Organization"
@@ -44,134 +41,140 @@
     },
     "custodians": {
       "type": "array",
+      "_instruction": "Add one or several custodians (person or organization) that are responsible for this model version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Person",
         "https://openminds.ebrains.eu/core/Organization"
       ]
+    },
+    "description": {
+      "type": "string",
+      "_instruction": "Enter a description (abstract) for this model version (max. 200 words; no references)."
     },
     "developers": {
       "type": "array",
+      "_instruction": "Add one or several developers (person or organization) that contributed to the code implementation of this model version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Person",
         "https://openminds.ebrains.eu/core/Organization"
       ]
     },
-    "contributions": {
-      "type": "array",
-      "description": "List of contributions that were involved in the creation/publication of this version of the dataset.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Contribution"
-      ]
-    },
     "digitalIdentifier": {
-      "description": "Unique digital identifier for the dataset version.",
+      "_instruction": "Add the globally unique and persistent digital identifier of this model version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DigitalIdentifier"
       ]
     },
-    "documentation": {
-      "description": "Documentation related to the dataset version.",
+    "fullDocumentation": {
+      "_instruction": "Add the globally unique and persistent digital identifier of a full documentation of this model version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DigitalIdentifier"
       ]
+    },
+    "fullName": {
+      "type": "string",
+      "_instruction": "Enter a descriptive full name (title) for this model version."
     },
     "funding": {
       "type": "array",
-      "description": "Funding information for the dataset.",
+      "_instruction": "Add all funding information of this model version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Funding"
       ]
     },
     "inputDataset": {
+      "_instruction": "Add the dataset version that was used as input for this model version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DatasetVersion"
       ]
     },
-    "isNewVersionOf": {
-      "description": "Link to previous model version to which this version is an update to.",
+    "hasAlternativeVersions": {
+      "type": "array",
+      "_instruction": "Add all model versions that can be used alternatively to this model version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ModelVersion"
+        "https://openminds.ebrains.eu/core/DatasetVersion"
       ]
     },
-    "isSupplementTo": {
+    "hasSupplementVersions": {
       "type": "array",
-      "description": "Link to other model versions to which this version is a supplement to.",
+      "_instruction": "Add all model versions that supplement this model version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ModelVersion"
-      ]
-    },
-    "isVariantFormOf": {
-      "type": "array",
-      "description": "Link to other model versions to which this version is an alternative to/another variant of.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ModelVersion"
+        "https://openminds.ebrains.eu/core/DatasetVersion"
       ]
     },
     "homepage": {
       "type": "string",
-      "description": "The uniform resource identifier (URI) to the homepage of the model version.",
-      "format": "uri"
+      "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this model version.",
+      "format": "iri"
     },
-    "hostedBy": {
+    "isNewVersionOf": {
+      "_instruction": "Add the model version preceding this model version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/RepositoryHost"
+        "https://openminds.ebrains.eu/core/DatasetVersion"
       ]
     },
     "license": {
-      "description": "Link to license document that applies to this dataset version.",
+      "_instruction": "Add the license of this model version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/License"
       ]
     },
     "modelFormat": {
+      "_instruction": "Add the format of this model version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ContentType"
       ]
     },
-    "name": {
-      "type": "string",
-      "description": "A descriptive name for the model version."
+    "otherContributions": {
+      "type": "array",
+      "_instruction": "Add the contributions for each involved person or organization going beyond being an author, custodian or developer of this model version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Contribution"
+      ]
     },
     "relatedPublications": {
       "type": "array",
-      "description": "Other publications (e.g. journal article) related to the model version.",
+      "_instruction": "Add further publications besides the documentation (e.g. an original research article) providing the original context for the production of this model version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DigitalIdentifier"
       ]
     },
     "releaseDate": {
       "type": "string",
-      "description": "Date (actual or intended) of first broadcast/publication of this model version.",
+      "_instruction": "Enter the date (actual or intended) of the first broadcast/publication of this model version.",
       "format": "date"
     },
     "repository": {
-      "description": "Link to data repository of this model version.",
+      "_instruction": "Add the file repository of this model version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/FileRepository"
       ]
     },
-    "studyTarget": {
-      "description": "The study target for the model version.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/StudyTarget"
-      ]
-    },
-     "scope": {
+    "scope": {
+      "_instruction": "Add the scope of this model version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/ModelScope"
       ]
     },
-    "summary": {
+    "shortName": {
       "type": "string",
-      "description": "Short description that summarizes this model (max. 200 words; no references)."
+      "maxLength": 30,
+      "_instruction": "Enter a short name (alias) for this model version (max. 30 characters, no space)."
+    },
+    "studyTarget": {
+      "type": "array",
+      "_instruction": "Add all study targets of this model version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/StudyTarget"
+      ]
     },
     "versionIdentifier": {
       "type": "string",
-      "description": "Version identifier of this dataset version."
+      "_instruction": "Enter the version identifier of this model version."
     },
     "versionInnovations": {
       "type": "string",
-      "description": "Short description of the novelties/peculiarities of this dataset version."
+      "_instruction": "Enter a short summary of the novelties/peculiarities of this model version."
     }
   }
 }
