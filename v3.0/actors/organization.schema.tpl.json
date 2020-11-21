@@ -6,7 +6,7 @@
   "properties": {
     "digitalIdentifier": {
       "type": "array",
-      "_instruction": "Add one or several globally unique and persistent digital identifier for the stated organization.",
+      "_instruction": "Add one or several globally unique and persistent digital identifier for this organization.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DigitalIdentifier"
       ]
@@ -16,7 +16,7 @@
       "type": "string"
     },
     "homepage": {
-      "_instruction": "Enter a internationalized resource identifier (IRI) to the homepage of the stated organization.",
+      "_instruction": "Enter a internationalized resource identifier (IRI) to the homepage of this organization.",
       "type": "string",
       "format": "iri"
     },
@@ -27,7 +27,7 @@
       ]
     },
     "shortName": {
-      "_instruction": "Enter the short name of the organization.",
+      "_instruction": "Enter the short name of this organization.",
       "type": "string"
     }
   }
