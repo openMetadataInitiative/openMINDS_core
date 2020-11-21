@@ -7,9 +7,9 @@
     "developers",
     "digitalIdentifier",
     "documentation",
+    "format",
     "fullName",
     "license",
-    "modelFormat",
     "releaseDate",
     "repository",
     "scope",
@@ -65,6 +65,12 @@
         "https://openminds.ebrains.eu/core/DigitalIdentifier"
       ]
     },
+    "format": {
+      "_instruction": "Add the used content type of this model version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ContentType"
+      ]
+    },
     "fullDocumentation": {
       "_instruction": "Add the globally unique and persistent digital identifier of a full documentation of this model version.",
       "_linkedTypes": [
@@ -117,12 +123,6 @@
       "_instruction": "Add the license of this model version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/License"
-      ]
-    },
-    "modelFormat": {
-      "_instruction": "Add the used content type of this model version.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ContentType"
       ]
     },
     "otherContributions": {
