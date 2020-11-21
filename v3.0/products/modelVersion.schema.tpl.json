@@ -26,7 +26,7 @@
       ]
     },
     "accessibility": {
-      "_instruction": "Add the accessibility of the data for this dataset version.",
+      "_instruction": "Add the accessibility of the data for this model version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/ProductAvailability"
       ]
