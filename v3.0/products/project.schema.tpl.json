@@ -2,23 +2,24 @@
   "_type": "https://openminds.ebrains.eu/core/Project",
   "description": "Structured information about an enterprise (potentially individual but typically collaborative) planned to achieve a particular aim.",
   "required": [
-    "alias",
     "description",
+    "fullName",
     "hasResearchProducts",
-    "name"
+    "shortName"
   ],
   "properties": {
-    "alias": {
-      "type": "string",
-      "description": "An alternate short name of an item."
-    },
     "description": {
       "type": "string",
-      "description": "A description of an item."
+      "_instruction": "Enter a description (abstract) for this project."
+    },
+    "fullName": {
+      "type": "string",
+      "_instruction": "Enter a descriptive full name (title) for this project."
     },
     "hasResearchProducts": {
       "type": "array",
-      "description": "Single research product versions and/or whole products (datasets, models and/or software) that are collaborators in this project.",
+      "minItems": 2,
+      "_instruction": "Add all research products or research product versions that are part of this project.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Software",
         "https://openminds.ebrains.eu/core/Dataset",
@@ -30,12 +31,21 @@
     },
     "homepage": {
       "type": "string",
-      "description": "The international resource identifier (IRI) to the homepage of the project.",
+      "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this model version.",
       "format": "iri"
     },
-    "name": {
+    "projectLeader": {
+      "type": "array",
+      "minItems": 1,
+      "_instruction": "Add one or several project leader (person or organization).",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Person",
+        "https://openminds.ebrains.eu/core/Organization"
+      ]
+    },
+    "shortName": {
       "type": "string",
-      "description": "A descriptive name of an item."
+      "_instruction": "Enter a short name (alias) for this project."
     }
   }
 }
