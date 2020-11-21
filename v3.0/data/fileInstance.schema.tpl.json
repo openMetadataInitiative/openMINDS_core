@@ -1,19 +1,16 @@
 {
   "_type": "https://openminds.ebrains.eu/core/FileInstance",
   "required": [
-    "hash",
     "isPartOf",
-    "mediaType",
     "name",
-    "resourceLocator",
-    "storageSize"
+    "resourceLocator"
   ],
   "properties": {
     "content": {
       "_instruction": "Enter a short content description for this file instance.",
       "type": "string"
     },
-    "contentType": {
+    "format": {
       "_instruction": "Add the content type of this file instance.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ContentType"
