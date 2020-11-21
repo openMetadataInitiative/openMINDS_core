@@ -1,6 +1,5 @@
 {
   "_type": "https://openminds.ebrains.eu/core/DatasetVersion",
-  "description": "Version of a dataset.",
   "required": [
     "accessibility",
     "authors",
