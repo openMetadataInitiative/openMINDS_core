@@ -22,7 +22,7 @@
     "abstractionLevel": {
       "_instruction": "Add the abstraction level of this model version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ModelAbstractionLevel"
+        "https://openminds.ebrains.eu/controlledTerms/ModelAbstractionLevel"
       ]
     },
     "accessibility": {
