@@ -108,14 +108,14 @@
       "type": "array",
       "_instruction": "Add all software versions that can be used alternatively to this software version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DatasetVersion"
+        "https://openminds.ebrains.eu/core/SoftwareVersion"
       ]
     },
     "hasSupplementVersions": {
       "type": "array",
       "_instruction": "Add all software versions that supplement this software version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DatasetVersion"
+        "https://openminds.ebrains.eu/core/SoftwareVersion"
       ]
     },
     "homepage": {
@@ -179,7 +179,7 @@
     "programmingLanguage": {
       "type": "array",
       "minItems": 1,
-      "_instruction": "Add all programming languages used for this software version."
+      "_instruction": "Add all programming languages used for this software version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/ProgrammingLanguage"
       ]
@@ -202,10 +202,15 @@
         "https://openminds.ebrains.eu/core/FileRepository"
       ]
     },
+    "shortName": {
+      "type": "string",
+      "maxLength": 30,
+      "_instruction": "Enter a short name (alias) for this software version."
+    },
     "softwareFeature": {
       "type": "array",
       "minItems": 1,
-      "_instruction": "Add all features of this software version."
+      "_instruction": "Add all features of this software version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/SoftwareFeature"
       ]
