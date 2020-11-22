@@ -47,6 +47,12 @@
         "https://openminds.ebrains.eu/core/Organization"
       ]
     },
+    "copyright": {
+      "_instruction": "Add the copyright of this software version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Copyright"
+      ]
+    },
     "custodians": {
       "type": "array",
       "_instruction": "Add one or several custodians (person or organization) that are responsible for this software version.",
@@ -55,11 +61,9 @@
         "https://openminds.ebrains.eu/core/Organization"
       ]
     },
-    "copyright": {
-      "_instruction": "Add the copyright of this software version.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Copyright"
-      ]
+    "description": {
+      "type": "string",
+      "_instruction": "Enter a description (abstract) for this software version (max. 200 words; no references)."
     },
     "developers": {
       "type": "array",
