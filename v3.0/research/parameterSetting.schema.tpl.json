@@ -3,6 +3,7 @@
   "required": [
     "description",
     "name",
+    "relevantFor",
     "value"
   ],
   "properties": {
