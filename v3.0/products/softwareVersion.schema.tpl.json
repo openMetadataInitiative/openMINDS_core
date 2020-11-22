@@ -1,50 +1,47 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/ModelVersion",
+  "_type": "https://openminds.ebrains.eu/core/SoftwareVersion",
   "required": [
-    "alias",
+    "accessibility",
     "applicationCategory",
-    "availability",
+    "description",
+    "developers",
     "device",
     "digitalIdentifier",
-    "documentation",
+    "fullDocumentation",
+    "fullName",
     "funding",
     "inputFormat",
-    "hostedBy",
     "language",
     "license",
-    "name",
     "operatingSystem",
     "outputFormat",
     "programmingLanguage",
     "releaseDate",
     "repository",
+    "shortName",
     "softwareFeature",
     "softwareRequirement",
-    "summary",
     "versionIdentifier",
     "versionInnovations"
   ],
   "properties": {
-    "alias": {
-      "type": "string",
-      "description": "User-defined identifier for this version of the software."
+    "accessibility": {
+      "_instruction": "Add the accessibility of the data for this software version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/ProductAvailability"
+      ]
     },
     "applicationCategory": {
       "type": "array",
-      "description": "List of categories, to which this version of the software belongs.",
+      "_instruction": "Add all categories to which this software version belongs.",
       "minItems": 1,
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/SoftwareApplicationCategory"
       ]
     },
-    "availability": {
-      "description": "The availability of this version of the software.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/ProductAvailability"
-      ]
-    },
-     "authors": {
+    "authors": {
       "type": "array",
+      "_instruction": "Add one or several authors (person or organization) that contributed to the production and publication of this software version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Person",
         "https://openminds.ebrains.eu/core/Organization"
@@ -52,193 +49,174 @@
     },
     "custodians": {
       "type": "array",
+      "_instruction": "Add one or several custodians (person or organization) that are responsible for this software version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Person",
         "https://openminds.ebrains.eu/core/Organization"
+      ]
+    },
+    "copyright": {
+      "_instruction": "Add the copyright of this software version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Copyright"
       ]
     },
     "developers": {
       "type": "array",
+      "_instruction": "Add one or several developers (person or organization) that contributed to the code implementation of this software version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Person",
         "https://openminds.ebrains.eu/core/Organization"
-      ]
-    },
-    "contributions": {
-      "type": "array",
-      "description": "List of contributions.",
-      "minItems": 1,
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Contribution"
-      ]
-    },
-    "copyright": {
-      "description": "Copyright of this version of the software.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Copyright"
       ]
     },
     "device": {
       "type": "array",
       "minItems": 1,
-      "description": "List of devices, with which this version of the software is compatible.",
+      "description": "Add all hardware devices compatible with this software version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/OperatingDevice"
       ]
     },
     "digitalIdentifier": {
-      "description": "Digital identifier of the version of the software.",
+      "_instruction": "Add the globally unique and persistent digital identifier of this software version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DigitalIdentifier"
       ]
     },
-    "documentation": {
-      "description": "Documentation of the version of the software.",
+    "fullDocumentation": {
+      "_instruction": "Add the globally unique and persistent digital identifier of a full documentation of this software version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DigitalIdentifier"
       ]
+    },
+    "fullName": {
+      "type": "string",
+      "_instruction": "Enter a descriptive full name (title) for this software version."
     },
     "funding": {
       "type": "array",
-      "minItems": 1,
+      "_instruction": "Add all funding information of this software version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Funding"
-      ],
-      "description": "List of funding sources, which contributed to this version of the software."
+      ]
+    },
+    "hasAlternativeVersions": {
+      "type": "array",
+      "_instruction": "Add all software versions that can be used alternatively to this software version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DatasetVersion"
+      ]
+    },
+    "hasSupplementVersions": {
+      "type": "array",
+      "_instruction": "Add all software versions that supplement this software version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DatasetVersion"
+      ]
+    },
+    "homepage": {
+      "type": "string",
+      "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this software version.",
+      "format": "iri"
     },
     "inputFormat": {
       "type": "array",
       "minItems": 1,
+      "_instruction": "Add the content types of all possible input formats for this software version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ContentType"
-      ],
-      "description": "List of formats accepted by this version of the software as input(s)."
+      ]
     },
     "isNewVersionOf": {
       "type": "array",
       "minItems": 0,
+      "_instruction": "Add the content types of all possible output formats for this software version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/SoftwareVersion"
-      ],
-      "description": "List of versions of softwares, to which this version of the software is a direct successor."
-    },
-    "isSupplementTo": {
-      "type": "array",
-      "minItems": 0,
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/SoftwareVersion"
-      ],
-      "description": "List of versions of softwares, to which this version of the software is supplementary to."
-    },
-    "isVariantFormOf": {
-      "type": "array",
-      "minItems": 0,
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/SoftwareVersion"
-      ],
-      "description": "List of versions of software, to which this version of the software is a variant of."
-    },
-    "homepage": {
-      "type": "string",
-      "format": "iri",
-      "description": "The international resource identifier (IRI) to the homepage of this version of the software."
-    },
-    "hostedBy": {
-      "type": "array",
-      "minItems": 1,
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/RepositoryHost"
-      ],
-      "description": "Organisations, at which this version of the software is hosted."
+      ]
     },
     "language": {
       "type": "array",
       "minItems": 1,
+      "_instruction": "Add all languages supported by this software version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/Language"
-      ],
-      "description": "Languages supported by this version of the software."
+      ]
     },
     "license": {
-      "type": "array",
-      "minItems": 1,
+      "_instruction": "Add the license of this software version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/License"
-      ],
-      "description": "Licenses, by which this version of the software is distrubuted."
-    },
-    "name": {
-      "type": "string",
-      "description": "Name of this version of the software"
+      ]
     },
     "operatingSystem": {
       "type": "array",
       "minItems": 1,
+      "_instruction": "Add all operating systems supported by this software version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/OperatingSystem"
-      ],
-      "description": "List of operating systems supported by this version of the software."
+      ]
+    },
+    "otherContributions": {
+      "type": "array",
+      "_instruction": "Add the contributions for each involved person or organization going beyond being an author, custodian or developer of this software version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Contribution"
+      ]
     },
     "outputFormat": {
       "type": "array",
       "minItems": 1,
+      "_instruction": "Add the content types of all possible input formats for this software version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ContentType"
-      ],
-      "description": "List of formats accepted by this version of the software as output(s)."
+      ]
     },
     "programmingLanguage": {
       "type": "array",
       "minItems": 1,
+      "_instruction": "Add all programming languages used for this software version."
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/ProgrammingLanguage"
-      ],
-      "description": "Programming language used by this version of the software."
+      ]
     },
     "relatedPublications": {
       "type": "array",
-      "minItems": 1,
+      "_instruction": "Add further publications besides the documentation (e.g. an original research article) providing the original context for the production of this software version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DigitalIdentifier"
-      ],
-      "description": "Publications related to this version of the software."
+      ]
     },
     "releaseDate": {
       "type": "string",
-      "format": "date",
-      "description": "Date of release of this version of the software."
+      "_instruction": "Enter the date (actual or intended) of the first broadcast/publication of this software version.",
+      "format": "date"
     },
     "repository": {
-      "type": "array",
-      "minItems": 1,
+      "_instruction": "Add the file repository of this software version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/FileRepository"
-      ],
-      "description": "Links to repositories where this version of the software can be found."
+      ]
     },
     "softwareFeature": {
       "type": "array",
       "minItems": 1,
+      "_instruction": "Add all features of this software version."
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/SoftwareFeature"
-      ],
-      "description": "Features of this version of the software."
+      ]
     },
     "softwareRequirement": {
       "type": "string",
-      "description": "Requirements of this version of the software."
-    },
-    "summary": {
-      "type": "string",
-      "description": "Description of this version of the software."
+      "_instruction": "Enter all requirements of this software version."
     },
     "versionIdentifier": {
       "type": "string",
-      "description": "Version identifier of this version of the software."
+      "_instruction": "Enter the version identifier of this software version."
     },
     "versionInnovations": {
       "type": "string",
-      "description": "Innovations associated with this version of the software."
+      "_instruction": "Enter a short summary of the novelties/peculiarities of this software version."
     }
   }
 }
