@@ -2,28 +2,33 @@
   "_type": "https://openminds.ebrains.eu/core/ParameterSetting",
   "required": [
     "description",
-    "key",
+    "name",
     "value"
   ],
   "properties": {
     "description": {
-      "type": "string"
+      "type": "string",
+      "_instruction": "Enter a description of this parameter setting."
     },
-    "key": {
-      "type": "string"
+    "name": {
+      "type": "string",
+      "_instruction": "Enter the name of this parameter setting."
     },
-    "value": {
-      "type": "string"
-    },
-    "valueUnit": {
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Unit"
-      ]
-    },
-    "relevantParameterFor": {
+    "relevantFor": {
+      "_instruction": "Add the technique or behavioral task where this parameter setting is used in.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/BehavioralTask",
         "https://openminds.ebrains.eu/controlledTerms/Technique"
+      ]
+    },
+    "value": {
+      "type": ["number", "string"],
+      "_instruction": "Enter the value of this parameter setting."
+    },
+    "unitOfMeasurement": {
+      "_instruction": "Add the unit of measurement used for the value of this parameter setting.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
       ]
     }
   }
