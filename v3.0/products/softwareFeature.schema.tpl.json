@@ -1,31 +1,29 @@
 {
   "_type": "https://openminds.ebrains.eu/core/SoftwareFeature",
-  "description": "Feature included in this software",
-  "title": "software feature",
   "required": [
     "definition",
     "category",
     "name"
   ],
   "properties": {
-    "name": {
-      "type": "string",
-      "description": "The name of this software feature."
-    },
-    "description": {
-      "type": "string",
-      "description": "The description of this software feature."
-    },
-    "definition":{
-      "type": "string",
-      "format" : "iri",
-      "description" : "Link to external resource defining the feature." 
-    },
     "category":{
-      "description":"Category that this feature belongs to.",
+      "_instruction":"Add the category this software feature belongs to.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/SoftwareFeatureCategory"
       ]
+    },
+    "name": {
+      "type": "string",
+      "description": "Enter the name of this software feature."
+    },
+    "definitionReference":{
+      "type": "string",
+      "format" : "iri",
+      "description" : "Enter the internationalized resource identifier (IRI) to an external resource defining this software feature." 
+    },
+    "description": {
+      "type": "string",
+      "description": "Enter a description of this software feature."
     }
   }
 }
