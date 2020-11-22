@@ -26,7 +26,7 @@
       "type": ["number", "string"],
       "_instruction": "Enter the value of this parameter setting."
     },
-    "unitOfMeasurement": {
+    "unit": {
       "_instruction": "Add the unit of measurement used for the value of this parameter setting.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
