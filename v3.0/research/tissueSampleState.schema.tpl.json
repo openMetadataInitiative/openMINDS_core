@@ -19,9 +19,9 @@
         "https://openminds.ebrains.eu/controlledTerms/Pathology"
       ]
     },
-    "quality": {
+    "condition": {
       "type": "string",
-      "_instruction": "Enter a comment on the quality of the tissue sample in this state.",
+      "_instruction": "Enter a comment on the condition of the tissue sample in this state.",
     }
   }
 }
