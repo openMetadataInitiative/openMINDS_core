@@ -8,21 +8,25 @@
   "properties": {
     "description": {
       "type": "string"
+      "_instruction": "Enter a description of this protocol."
     },
     "behavioralTasks": {
       "type": "array",
+      "_instruction": "Add all behavioral tasks that were executed as part of this protocol.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/BehavioralTask"
       ]
     },
     "techniques": {
       "type": "array",
+      "_instruction": "Add all techniques that were used in this protocol.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/Technique"
       ]
     },
     "studyTargets": {
       "type": "array",
+      "_instruction": "Add all study targets that the research was focused on in this protocol.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/StudyTarget"
       ]
