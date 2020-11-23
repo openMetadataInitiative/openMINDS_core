@@ -1,0 +1,124 @@
+{
+  "required": [
+    "accessibility",
+    "description",
+    "digitalIdentifier",
+    "fullDocumentation",
+    "fullName",
+    "funding",
+    "license",
+    "releaseDate",
+    "repository",
+    "shortName",
+    "versionIdentifier"
+  ],
+  "properties": {
+    "accessibility": {
+      "_instruction": "Add the accessibility of the data for this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/ProductAccessibility"
+      ]
+    },
+    "authors": {
+      "type": "array",
+      "_instruction": "Add one or several authors (person or organization) that contributed to the production and publication of this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Person",
+        "https://openminds.ebrains.eu/core/Organization"
+      ]
+    },
+    "custodians": {
+      "type": "array",
+      "_instruction": "Add one or several custodians (person or organization) that are responsible for this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Person",
+        "https://openminds.ebrains.eu/core/Organization"
+      ]
+    },
+    "description": {
+      "type": "string",
+      "maxLength": 1500,
+      "_instruction": "Enter a description (abstract) for this research product (max. 1500 characters including spaces; no references)."
+    },
+    "developers": {
+      "type": "array",
+      "_instruction": "Add one or several developers (person or organization) that contributed to the code implementation of this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Person",
+        "https://openminds.ebrains.eu/core/Organization"
+      ]
+    },
+    "digitalIdentifier": {
+      "_instruction": "Add the globally unique and persistent digital identifier of this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DigitalIdentifier"
+      ]
+    },
+    "fullDocumentation": {
+      "_instruction": "Add the globally unique and persistent digital identifier of a full documentation of this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DigitalIdentifier"
+      ]
+    },
+    "fullName": {
+      "type": "string",
+      "_instruction": "Enter a descriptive full name (title) for this research product version."
+    },
+    "funding": {
+      "type": "array",
+      "_instruction": "Add all funding information of this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Funding"
+      ]
+    },
+    "homepage": {
+      "type": "string",
+      "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this research product version.",
+      "format": "iri"
+    },
+    "license": {
+      "_instruction": "Add the license of this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/License"
+      ]
+    },
+    "otherContributions": {
+      "type": "array",
+      "_instruction": "Add the contributions for each involved person or organization going beyond being an author, custodian or developer of this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Contribution"
+      ]
+    },
+    "relatedPublications": {
+      "type": "array",
+      "_instruction": "Add further publications besides the documentation (e.g. an original research article) providing the original context for the production of this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DigitalIdentifier"
+      ]
+    },
+    "releaseDate": {
+      "type": "string",
+      "_instruction": "Enter the date (actual or intended) of the first broadcast/publication of this research product version.",
+      "format": "date"
+    },
+    "repository": {
+      "_instruction": "Add the file repository of this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/FileRepository"
+      ]
+    },
+    "shortName": {
+      "type": "string",
+      "maxLength": 30,
+      "_instruction": "Enter a short name (alias) for this research product version (max. 30 characters, no space)."
+    },
+    "versionIdentifier": {
+      "type": "string",
+      "_instruction": "Enter the version identifier of this research product version."
+    },
+    "versionInnovations": {
+      "type": "string",
+      "_instruction": "Enter a short summary of the novelties/peculiarities of this research product version."
+    }
+  }
+}
