@@ -19,7 +19,7 @@
     "pathology": {
       "_instruction": "Add the pathology of the subject in this state.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Disease"
+        "https://openminds.ebrains.eu/controlledTerms/Pathology"
       ]
     },
     "functionalImpairments": {
