@@ -7,7 +7,7 @@
   ],
   "properties": {
     "description": {
-      "type": "string"
+      "type": "string",
       "_instruction": "Enter a description of this protocol."
     },
     "behavioralTasks": {
