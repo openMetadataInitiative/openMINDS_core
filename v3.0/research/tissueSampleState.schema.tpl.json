@@ -2,22 +2,26 @@
   "_type": "https://openminds.ebrains.eu/core/TissueSampleState",
   "properties": {
     "age": {
+      "_instruction": "Add the age of the tissue sample in this state.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
       ]
     },
     "tissueWeight": {
-       "_linkedTypes": [
+      "_instruction": "Add the weight of the tissue sample in this state.",
+      "_linkedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
       ]
     },
     "pathology": {
+      "_instruction": "Add the pathology of the tissue sample in this state.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/Pathology"
       ]
     },
     "quality": {
-      "type": "string"
+      "type": "string",
+      "_instruction": "Enter a comment on the quality of the tissue sample in this state.",
     }
   }
 }
