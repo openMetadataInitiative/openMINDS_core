@@ -5,22 +5,26 @@
   ],
   "properties": {
     "age": {
+      "_instruction": "Add the age of the subject in this state.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
       ]
     },
     "ageCategory": {
+      "_instruction": "Add the age category of the subject in this state.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/AgeCategory"
       ]
     },
-    "disease": {
+    "pathology": {
+      "_instruction": "Add the pathology of the subject in this state.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/Disease"
       ]
     },
     "functionalImpairments": {
-      "type": "string"
+      "type": "string",
+      "_instruction": "Enter other impairments of the subject in this state."
     }
   }
 }
