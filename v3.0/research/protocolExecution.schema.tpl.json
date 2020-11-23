@@ -26,17 +26,17 @@
         "https://openminds.ebrains.eu/core/FileInstance"
       ]
     },
-    "protocol": {
-      "_instruction": "Add the protocol of this protocol execution.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Protocol"
-      ]
-    },
     "parameterSettings": {
       "type": "array",
       "_instruction": "Add all important parameter settings defining this protocol execution.",
       "_linkedTypes": [
          "https://openminds.ebrains.eu/core/ParameterSetting"
+      ]
+    },
+    "protocol": {
+      "_instruction": "Add the protocol of this protocol execution.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Protocol"
       ]
     },
     "semanticallyAnchoredTo": {
