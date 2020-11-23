@@ -2,6 +2,7 @@
   "_type": "https://openminds.ebrains.eu/core/Protocol",
   "required": [
     "description",
+    "name",
     "techniques",
     "studyTargets"
   ],
@@ -16,6 +17,10 @@
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/BehavioralTask"
       ]
+    },
+    "name": {
+      "type": "string",
+      "_instruction": "Enter a descriptive name for this protocol."
     },
     "techniques": {
       "type": "array",
