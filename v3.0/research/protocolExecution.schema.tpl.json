@@ -3,7 +3,8 @@
   "required": [
     "input", 
     "output", 
-    "protocol"],
+    "protocol"
+  ],
   "properties": {
     "input": {
       "type": "array",
