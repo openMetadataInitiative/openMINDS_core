@@ -12,7 +12,7 @@
       "type": "array",
       "items": {
         "type": "number"
-      }
+      },
       "maxItems": 2,
       "minItems": 2,
       "_instruction": "Enter the measurement uncertainty of this quantitative value.",
