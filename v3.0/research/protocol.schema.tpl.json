@@ -3,7 +3,6 @@
   "required": [
     "description",
     "name",
-    "studyTargets",
     "techniques"
   ],
   "properties": {
@@ -24,6 +23,21 @@
       "type": "string",
       "_instruction": "Enter a descriptive name for this protocol."
     },
+    "studyTargets": {
+      "minItems": 1,
+      "type": "array",
+      "uniqueItems": true,
+      "_instruction": "Add all study targets of this model version.",
+      "_linkedTypes": [
+		"https://openminds.ebrains.eu/controlledTerm/BiologicalSex",
+        "https://openminds.ebrains.eu/controlledTerm/Disease",
+		"https://openminds.ebrains.eu/controlledTerm/Genotype",
+		"https://openminds.ebrains.eu/controlledTerm/Phenotype",
+        "https://openminds.ebrains.eu/controlledTerm/Species",
+		"https://openminds.ebrains.eu/controlledTerm/TermSuggestion",
+        "https://openminds.ebrains.eu/sands/anatomicalEntity"
+      ]
+    },
     "techniques": {
       "minItems": 1,
       "type": "array",
@@ -31,15 +45,6 @@
       "_instruction": "Add all techniques that were used in this protocol.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/Technique"
-      ]
-    },
-    "studyTargets": {
-      "minItems": 1,
-      "type": "array",
-      "uniqueItems": true,
-      "_instruction": "Add all study targets that the research was focused on in this protocol.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/StudyTarget"
       ]
     }
   }

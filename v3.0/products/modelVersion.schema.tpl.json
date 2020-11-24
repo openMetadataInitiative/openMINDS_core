@@ -63,13 +63,19 @@
         "https://openminds.ebrains.eu/controlledTerms/ModelScope"
       ]
     },
-    "studyTarget": {
+    "studyTargets": {
       "minItems": 1,
       "type": "array",
       "uniqueItems": true,
       "_instruction": "Add all study targets of this model version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/StudyTarget"
+		"https://openminds.ebrains.eu/controlledTerm/BiologicalSex",
+        "https://openminds.ebrains.eu/controlledTerm/Disease",
+		"https://openminds.ebrains.eu/controlledTerm/Genotype",
+		"https://openminds.ebrains.eu/controlledTerm/Phenotype",
+        "https://openminds.ebrains.eu/controlledTerm/Species",
+		"https://openminds.ebrains.eu/controlledTerm/TermSuggestion",
+        "https://openminds.ebrains.eu/sands/anatomicalEntity"
       ]
     }
   }
