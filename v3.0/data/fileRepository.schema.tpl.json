@@ -1,8 +1,8 @@
 {
   "_type": "https://openminds.ebrains.eu/core/FileRepository",
   "required": [
-    "name",
     "hostedBy",
+    "name",
     "resourceLocator"
   ],
   "properties": {
@@ -18,26 +18,26 @@
         "https://openminds.ebrains.eu/core/Hash"
       ]
     },
-    "name": {
-      "_instruction": "Enter the name of this file repository.",
-      "type": "string"
-    },
     "hostedBy": {
       "_instruction": "Add the host of this file repository.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/Organization"
       ]
     },
-    "resourceLocator": {
-      "_instruction": "Enter the resource locator of this file repository.",
+    "name": {
       "type": "string",
-      "format": "uri"
+      "_instruction": "Enter the name of this file repository."
+    },
+    "resourceLocator": {
+      "format": "uri",
+      "type": "string",
+      "_instruction": "Enter the resource locator of this file repository."
     },
     "storageSize": {
-      "_instruction": "Enter the storage size this file repository allocates.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
-      ]
+      ],
+      "_instruction": "Enter the storage size this file repository allocates."
     }
   }
 }

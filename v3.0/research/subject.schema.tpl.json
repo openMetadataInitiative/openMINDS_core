@@ -15,8 +15,8 @@
       ]
     },
     "identifier": {
-      "_instruction": "Enter the user-defined identifier of the subject or subject group.",
-      "type": "string"
+      "type": "string",
+      "_instruction": "Enter the user-defined identifier of the subject or subject group."
     },
     "genotype": {
       "_instruction": "Add the genotype of the subject or subject group.",
@@ -47,8 +47,8 @@
       ]
     },
     "studiedStates": {
-      "type": "array",
       "minItems": 1,
+      "type": "array",
       "uniqueItems": true,
       "_instruction": "Add all states the subject or subject group was or were studied.",
       "_linkedTypes": [

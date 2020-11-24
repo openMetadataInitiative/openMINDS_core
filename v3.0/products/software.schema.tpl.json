@@ -3,8 +3,8 @@
   "_type": "https://openminds.ebrains.eu/core/Software",
   "properties": {
     "hasVersions": {
-      "type": "array",
       "minItems": 1,
+      "type": "array",
       "uniqueItems": true,
       "_instruction": "Add one or several versions of this software tool.",
       "_linkedTypes": [

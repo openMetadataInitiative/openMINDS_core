@@ -20,8 +20,8 @@
       ]
     },
     "authors": {
-      "type": "array",
       "minItems": 1,
+      "type": "array",
       "uniqueItems": true,
       "_instruction": "Add one or several authors (person or organization) that contributed to the production and publication of this research product version.",
       "_linkedTypes": [
@@ -30,8 +30,8 @@
       ]
     },
     "custodians": {
-      "type": "array",
       "minItems": 1,
+      "type": "array",
       "uniqueItems": true,
       "_instruction": "Add one or several custodians (person or organization) that are responsible for this research product version.",
       "_linkedTypes": [
@@ -40,13 +40,13 @@
       ]
     },
     "description": {
-      "type": "string",
       "maxLength": 1500,
+      "type": "string",
       "_instruction": "Enter a description (abstract) for this research product (max. 1500 characters including spaces; no references)."
     },
     "developers": {
-      "type": "array",
       "minItems": 1,
+      "type": "array",
       "uniqueItems": true,
       "_instruction": "Add one or several developers (person or organization) that contributed to the code implementation of this research product version.",
       "_linkedTypes": [
@@ -71,8 +71,8 @@
       "_instruction": "Enter a descriptive full name (title) for this research product version."
     },
     "funding": {
-      "type": "array",
       "minItems": 1,
+      "type": "array",
       "uniqueItems": true,
       "_instruction": "Add all funding information of this research product version.",
       "_linkedTypes": [
@@ -80,9 +80,9 @@
       ]
     },
     "homepage": {
+      "format": "iri",
       "type": "string",
-      "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this research product version.",
-      "format": "iri"
+      "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this research product version."
     },
     "license": {
       "_instruction": "Add the license of this research product version.",
@@ -91,8 +91,8 @@
       ]
     },
     "otherContributions": {
-      "type": "array",
       "minItems": 1,
+      "type": "array",
       "uniqueItems": true,
       "_instruction": "Add the contributions for each involved person or organization going beyond being an author, custodian or developer of this research product version.",
       "_linkedTypes": [
@@ -100,8 +100,8 @@
       ]
     },
     "relatedPublications": {
-      "type": "array",
       "minItems": 1,
+      "type": "array",
       "uniqueItems": true,
       "_instruction": "Add further publications besides the documentation (e.g. an original research article) providing the original context for the production of this research product version.",
       "_linkedTypes": [
@@ -109,9 +109,9 @@
       ]
     },
     "releaseDate": {
+      "format": "date",
       "type": "string",
-      "_instruction": "Enter the date (actual or intended) of the first broadcast/publication of this research product version.",
-      "format": "date"
+      "_instruction": "Enter the date (actual or intended) of the first broadcast/publication of this research product version."
     },
     "repository": {
       "_instruction": "Add the file repository of this research product version.",
@@ -120,8 +120,8 @@
       ]
     },
     "shortName": {
-      "type": "string",
       "maxLength": 30,
+      "type": "string",
       "_instruction": "Enter a short name (alias) for this research product version (max. 30 characters, no space)."
     },
     "versionIdentifier": {

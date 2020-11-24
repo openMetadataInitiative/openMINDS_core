@@ -5,6 +5,10 @@
     "identifierScheme"
   ],
   "properties": {
+    "howToCite": {
+      "type": "string",
+      "_instruction": "Enter the preferred citation text for the resource this digital identifier stnads for."
+    },
     "identifier": {
       "type": "string",
       "_instruction": "Enter the digital identifier of a resource."
@@ -14,10 +18,6 @@
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DigitalIdentifierSchema"
       ]
-    },
-    "howToCite": {
-      "type": "string",
-      "_instruction": "Enter the preferred citation text for the resource this digital identifier stnads for."
     }
   }
 }

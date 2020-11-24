@@ -32,19 +32,19 @@
       ]
     },
     "name": {
-      "_instruction": "Enter the name of this file bundle.",
-      "type": "string"
+      "type": "string",
+      "_instruction": "Enter the name of this file bundle."
     },
     "resourceLocator": {
-      "_instruction": "Enter the resource locator of this file bundle.",
+      "format": "iri",
       "type": "string",
-      "format": "iri"
+      "_instruction": "Enter the resource locator of this file bundle."
     },
     "storageSize": {
-      "_instruction": "Enter the storage size this file bundle allocates.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
-      ]
+      ],
+      "_instruction": "Enter the storage size this file bundle allocates."
     }
   }
 }

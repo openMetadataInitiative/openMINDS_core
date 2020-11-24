@@ -15,8 +15,8 @@
   ],
   "properties": {
     "applicationCategory": {
-      "type": "array",
       "minItems": 1,
+      "type": "array",
       "uniqueItems": true,
       "_instruction": "Add all categories to which this software version belongs.",
       "_linkedTypes": [
@@ -30,8 +30,8 @@
       ]
     },
     "device": {
-      "type": "array",
       "minItems": 1,
+      "type": "array",
       "uniqueItems": true,
       "_instruction": "Add all hardware devices compatible with this software version.",
       "_linkedTypes": [
@@ -39,8 +39,8 @@
       ]
     },
     "hasAlternativeVersions": {
-      "type": "array",
       "minItems": 1,
+      "type": "array",
       "uniqueItems": true,
       "_instruction": "Add all software versions that can be used alternatively to this software version.",
       "_linkedTypes": [
@@ -48,8 +48,8 @@
       ]
     },
     "hasSupplementVersions": {
-      "type": "array",
       "minItems": 1,
+      "type": "array",
       "uniqueItems": true,
       "_instruction": "Add all software versions that supplement this software version.",
       "_linkedTypes": [
@@ -57,8 +57,8 @@
       ]
     },
     "inputFormat": {
-      "type": "array",
       "minItems": 1,
+      "type": "array",
       "uniqueItems": true,
       "_instruction": "Add the content types of all possible input formats for this software version.",
       "_linkedTypes": [
@@ -72,8 +72,8 @@
       ]
     },
     "language": {
-      "type": "array",
       "minItems": 1,
+      "type": "array",
       "uniqueItems": true,
       "_instruction": "Add all languages supported by this software version.",
       "_linkedTypes": [
@@ -81,8 +81,8 @@
       ]
     },
     "operatingSystem": {
-      "type": "array",
       "minItems": 1,
+      "type": "array",
       "uniqueItems": true,
       "_instruction": "Add all operating systems supported by this software version.",
       "_linkedTypes": [
@@ -90,8 +90,8 @@
       ]
     },
     "outputFormat": {
-      "type": "array",
       "minItems": 1,
+      "type": "array",
       "uniqueItems": true,
       "_instruction": "Add the content types of all possible input formats for this software version.",
       "_linkedTypes": [
@@ -99,8 +99,8 @@
       ]
     },
     "programmingLanguage": {
-      "type": "array",
       "minItems": 1,
+      "type": "array",
       "uniqueItems": true,
       "_instruction": "Add all programming languages used for this software version.",
       "_linkedTypes": [
@@ -108,8 +108,8 @@
       ]
     },
     "softwareFeature": {
-      "type": "array",
       "minItems": 1,
+      "type": "array",
       "uniqueItems": true,
       "_instruction": "Add all features of this software version.",
       "_linkedTypes": [

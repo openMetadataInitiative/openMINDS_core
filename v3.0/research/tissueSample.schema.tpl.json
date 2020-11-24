@@ -24,8 +24,8 @@
       ]
     },
     "studiedStates": {
-      "type": "array",
       "minItems": 1,
+      "type": "array",
       "uniqueItems": true,
       "_instruction": "Add all states in which the tissue sample or tissue sample collection was or were studied.",
       "_linkedTypes": [

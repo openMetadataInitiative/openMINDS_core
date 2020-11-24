@@ -5,11 +5,11 @@
   ],
   "properties": {
     "age": {
-      "_instruction": "Add the age of the subject in this state.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue",
         "https://openminds.ebrains.eu/core/QuantitativeValueRange"
-      ]
+      ],
+      "_instruction": "Add the age of the subject in this state."
     },
     "ageCategory": {
       "_instruction": "Add the age category of the subject in this state.",

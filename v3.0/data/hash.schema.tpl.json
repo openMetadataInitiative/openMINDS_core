@@ -1,17 +1,17 @@
 {
   "_type": "https://openminds.ebrains.eu/core/Hash",
   "required": [
-    "digest",
-    "algorithm"
+    "algorithm",
+    "digest"
   ],
   "properties": {
-    "digest": {
-       "type": "string",
-       "_instruction": "Enter the digest of this hash."
-    },
     "algorithm": {
        "type": "string",
         "_instruction": "Enter the algorithm used to generate this hash."
+    },
+    "digest": {
+       "type": "string",
+       "_instruction": "Enter the digest of this hash."
     }
   }
 }

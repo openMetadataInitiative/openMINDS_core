@@ -13,17 +13,17 @@
       ]
     },
     "definitionReference":{
-      "type": "string",
       "format" : "iri",
-      "description" : "Enter the internationalized resource identifier (IRI) to an external resource defining this software feature." 
+      "type": "string",
+      "_instruction" : "Enter the internationalized resource identifier (IRI) to an external resource defining this software feature." 
     },
     "description": {
       "type": "string",
-      "description": "Enter a description of this software feature."
+      "_instruction": "Enter a description of this software feature."
     },
     "name": {
       "type": "string",
-      "description": "Enter the name of this software feature."
+      "_instruction": "Enter the name of this software feature."
     }
   }
 }

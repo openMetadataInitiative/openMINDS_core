@@ -7,8 +7,8 @@
   ],
   "properties": {
     "content": {
-      "_instruction": "Enter a short content description for this file instance.",
-      "type": "string"
+      "type": "string",
+      "_instruction": "Enter a short content description for this file instance."
     },
     "format": {
       "_instruction": "Add the content type of this file instance.",
@@ -23,8 +23,8 @@
       ]
     },
     "isPartOf": {
-      "type": "array",
       "minItems": 1,
+      "type": "array",
       "uniqueItems": true,
       "_instruction": "Add one or several file bundles in which this file instance can be grouped in.",
       "_linkedTypes": [
@@ -32,13 +32,13 @@
       ]
     },
     "name": {
-      "_instruction": "Enter the name of this file instance.",
-      "type": "string"
+      "type": "string",
+      "_instruction": "Enter the name of this file instance."
     },
     "resourceLocator": {
-      "_instruction": "Enter the resource locator of this file instance.",
+      "format": "iri",
       "type": "string",
-      "format": "iri"
+      "_instruction": "Enter the resource locator of this file instance."
     },
     "specificUsageRole": {
       "_instruction": "Add a specific usage role for this file instance.",
@@ -47,7 +47,7 @@
       ]
     },
     "storageSize": {
-      "description": "Enter the storage size this file instance allocates.",
+      "_instruction": "Enter the storage size this file instance allocates.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
       ]

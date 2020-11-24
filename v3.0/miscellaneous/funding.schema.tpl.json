@@ -5,16 +5,16 @@
   ],
   "properties": {
     "acknowledgement": {
-      "_instruction": "Enter the acknowledgement that should be used with this funding.",
-      "type": "string"
+      "type": "string",
+      "_instruction": "Enter the acknowledgement that should be used with this funding."
     },
     "awardNumber": {
-      "_instruction": "Enter the associated award number of this funding.",
-      "type": "string"
+      "type": "string",
+      "_instruction": "Enter the associated award number of this funding."
     },
     "awardTitle": {
-      "_instruction": "Enter the award title of this funding.",
-      "type": "string"
+      "type": "string",
+      "_instruction": "Enter the award title of this funding."
     },
     "funder": {
       "_instruction": "Add the organization that provided this funding.",

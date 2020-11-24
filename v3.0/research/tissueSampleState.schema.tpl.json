@@ -2,11 +2,11 @@
   "_type": "https://openminds.ebrains.eu/core/TissueSampleState",
   "properties": {
     "age": {
-      "_instruction": "Add the age of the tissue sample in this state.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue",
         "https://openminds.ebrains.eu/core/QuantitativeValueRange"
-      ]
+      ],
+      "_instruction": "Add the age of the tissue sample in this state."
     },
     "condition": {
       "type": "string",

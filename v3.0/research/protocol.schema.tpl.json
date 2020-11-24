@@ -3,8 +3,8 @@
   "required": [
     "description",
     "name",
-    "techniques",
-    "studyTargets"
+    "studyTargets",
+    "techniques"
   ],
   "properties": {
     "description": {
@@ -12,8 +12,8 @@
       "_instruction": "Enter a description of this protocol."
     },
     "behavioralTasks": {
-      "type": "array",
       "minItems": 1,
+      "type": "array",
       "uniqueItems": true,
       "_instruction": "Add all behavioral tasks that were executed as part of this protocol.",
       "_linkedTypes": [
@@ -25,8 +25,8 @@
       "_instruction": "Enter a descriptive name for this protocol."
     },
     "techniques": {
-      "type": "array",
       "minItems": 1,
+      "type": "array",
       "uniqueItems": true,
       "_instruction": "Add all techniques that were used in this protocol.",
       "_linkedTypes": [
@@ -34,8 +34,8 @@
       ]
     },
     "studyTargets": {
-      "type": "array",
       "minItems": 1,
+      "type": "array",
       "uniqueItems": true,
       "_instruction": "Add all study targets that the research was focused on in this protocol.",
       "_linkedTypes": [
