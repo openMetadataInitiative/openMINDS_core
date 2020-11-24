@@ -24,7 +24,7 @@
     "homepage": {
       "type": "string",
       "format": "iri",
-      "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this research product.",
+      "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this research product."
     },
     "shortName": {
       "type": "string",
