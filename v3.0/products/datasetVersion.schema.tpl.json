@@ -18,6 +18,8 @@
     },
     "hasAlternativeVersions": {
       "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
       "_instruction": "Add all dataset versions that can be used alternatively to this dataset version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DatasetVersion"
@@ -25,6 +27,8 @@
     },
     "hasSupplementVersions": {
       "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
       "_instruction": "Add all dataset versions that supplement this dataset version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DatasetVersion"
@@ -38,6 +42,8 @@
     },
     "modality": {
       "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
       "_instruction": "Add all modalities in which the approaches used in this dataset version can be categorized in.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/Modality"
@@ -45,6 +51,8 @@
     },
     "studyTarget": {
       "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
       "_instruction": "Add all study targets of this dataset version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/StudyTarget"
@@ -52,6 +60,8 @@
     },
     "type": {
       "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
       "_instruction": "Add all data types (raw, derived or simulated) provided in this dataset version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/DatasetType"

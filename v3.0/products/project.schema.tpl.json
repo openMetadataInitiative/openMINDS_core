@@ -18,6 +18,7 @@
     "hasResearchProducts": {
       "type": "array",
       "minItems": 2,
+      "uniqueItems": true,
       "_instruction": "Add all research products or research product versions that are part of this project.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Software",
@@ -36,6 +37,7 @@
     "projectLeader": {
       "type": "array",
       "minItems": 1,
+      "uniqueItems": true,
       "_instruction": "Add one or several project leader (person or organization).",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Person",

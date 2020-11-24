@@ -23,6 +23,8 @@
     },
     "hasAlternativeVersions": {
       "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
       "_instruction": "Add all model versions that can be used alternatively to this model version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ModelVersion"
@@ -30,6 +32,8 @@
     },
     "hasSupplementVersions": {
       "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
       "_instruction": "Add all model versions that supplement this model version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ModelVersion"
@@ -61,6 +65,8 @@
     },
     "studyTarget": {
       "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
       "_instruction": "Add all study targets of this model version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/StudyTarget"

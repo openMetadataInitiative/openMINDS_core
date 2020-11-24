@@ -3,7 +3,7 @@
   "properties": {
     "age": {
       "_instruction": "Add the age of the tissue sample in this state.",
-      "_linkedTypes": [
+      "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue",
         "https://openminds.ebrains.eu/core/QuantitativeValueRange"
       ]

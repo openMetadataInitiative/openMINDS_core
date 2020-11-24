@@ -35,7 +35,7 @@
     },
     "storageSize": {
       "_instruction": "Enter the storage size this file repository allocates.",
-      "_linkedTypes": [
+      "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
       ]
     }

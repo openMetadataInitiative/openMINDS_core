@@ -8,6 +8,8 @@
   "properties": {
     "associatedFileExtension": {
       "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
       "_instruction": "Enter one or several file extensions associated with the stated content type.",
       "items": {
         "type": "string"
@@ -27,6 +29,8 @@
     },
     "synonyms":{
       "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
       "_instruction": "Enter one or several synonyms of the stated content type.",
       "items": {
         "type": "string"

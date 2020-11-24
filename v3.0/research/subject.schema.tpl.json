@@ -48,7 +48,8 @@
     },
     "studiedStates": {
       "type": "array",
-      "minItem": 1,
+      "minItems": 1,
+      "uniqueItems": true,
       "_instruction": "Add all states the subject or subject group was or were studied.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/SubjectState"

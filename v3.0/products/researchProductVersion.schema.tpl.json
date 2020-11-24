@@ -21,6 +21,8 @@
     },
     "authors": {
       "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
       "_instruction": "Add one or several authors (person or organization) that contributed to the production and publication of this research product version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Person",
@@ -29,6 +31,8 @@
     },
     "custodians": {
       "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
       "_instruction": "Add one or several custodians (person or organization) that are responsible for this research product version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Person",
@@ -42,6 +46,8 @@
     },
     "developers": {
       "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
       "_instruction": "Add one or several developers (person or organization) that contributed to the code implementation of this research product version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Person",
@@ -66,6 +72,8 @@
     },
     "funding": {
       "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
       "_instruction": "Add all funding information of this research product version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Funding"
@@ -84,6 +92,8 @@
     },
     "otherContributions": {
       "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
       "_instruction": "Add the contributions for each involved person or organization going beyond being an author, custodian or developer of this research product version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Contribution"
@@ -91,6 +101,8 @@
     },
     "relatedPublications": {
       "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
       "_instruction": "Add further publications besides the documentation (e.g. an original research article) providing the original context for the production of this research product version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DigitalIdentifier"

@@ -4,6 +4,8 @@
   "properties": {
     "hasVersions": {
       "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
       "_instruction": "Add one or several versions of this dataset.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DatasetVersion"

@@ -7,14 +7,14 @@
   "properties": {
     "maxValue": {
       "_instruction": "Add the maximum quantitative value of this range.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Unit"
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
       ]
     },
     "minValue": {
       "_instruction": "Add the minimum quantitative value of this range.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Unit"
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
       ]
     }
   }
