@@ -14,23 +14,23 @@
       ]
     },
     "fullName": {
-      "_instruction": "Enter the full name of the organization.",
-      "type": "string"
+      "type": "string",
+      "_instruction": "Enter the full name of the organization."
     },
     "homepage": {
-      "_instruction": "Enter a internationalized resource identifier (IRI) to the homepage of this organization.",
+      "format": "iri",
       "type": "string",
-      "format": "iri"
+      "_instruction": "Enter a internationalized resource identifier (IRI) to the homepage of this organization."
     },
     "parentOrganization": {
-      "description": "Parent organization of this organization.",
+      "_instruction": "Add a parent organization of this organization.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Organization"
       ]
     },
     "shortName": {
-      "_instruction": "Enter the short name of this organization.",
-      "type": "string"
+      "type": "string",
+      "_instruction": "Enter the short name of this organization."
     }
   }
 }
