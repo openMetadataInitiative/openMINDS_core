@@ -1,0 +1,61 @@
+{
+  "required": [
+    "biologicalSex",
+    "species"
+  ],
+  "properties": {
+    "biologicalSex": {
+      "minItems": 1,
+      "type": "array",
+      "uniqueItems": true,
+      "_instruction": "Add the biological sex of all specimen in this set.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/BiologicalSex"
+      ]
+    },
+    "internalIdentifier": {
+      "type": "string",
+      "_instruction": "Enter the identifier of this specimen set that is used within the corresponding data."
+    },
+    "genotype": {
+      "minItems": 1,
+      "type": "array",
+      "uniqueItems": true,
+      "_instruction": "Add the genotype of all specimen in this set.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Genotype"
+      ]
+    },
+    "phenotype": {
+      "minItems": 1,
+      "type": "array",
+      "uniqueItems": true,
+      "_instruction": "Add the phenotype of all specimen in this set.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Phenotype"
+      ]
+    },
+    "quantity": {
+      "type": "integer",
+      "_instruction": "Enter the number of specimen that belong to this set."
+    },
+    "species": {
+      "minItems": 1,
+      "type": "array",
+      "uniqueItems": true,
+      "_instruction": "Add the species of all specimen in this set.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Species"
+      ]
+    },
+    "strain": {
+      "minItems": 1,
+      "type": "array",
+      "uniqueItems": true,
+      "_instruction": "Add the strain of all specimen in this set.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Strain"
+      ]
+    }
+  }
+}

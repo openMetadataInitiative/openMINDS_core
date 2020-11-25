@@ -1,17 +1,23 @@
 {
   "_extends": "research/specimenState.schema.tpl.json",
-  "_type": "https://openminds.ebrains.eu/core/SubjectState",
+  "_type": "https://openminds.ebrains.eu/core/SubjectGroupState",
   "required": [
     "ageCategory"
   ],
   "properties": {
     "ageCategory": {
+      "minItems": 1,
+      "type": "array",
+      "uniqueItems": true,
       "_instruction": "Add the age category of the subject in this state.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/AgeCategory"
       ]
     },
     "handedness": {
+      "minItems": 1,
+      "type": "array",
+      "uniqueItems": true,
       "_instruction": "Add the preferred hand of the subject in this state.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/Laterality"

@@ -1,0 +1,39 @@
+{
+  "_extends": "research/specimenSet.schema.tpl.json",
+  "_type": "https://openminds.ebrains.eu/core/TissueSampleCollection",
+  "required": [
+    "origin",
+    "studiedStates",
+    "type"
+  ],
+  "properties": {
+    "origin": {
+      "minItems": 1,
+      "type": "array",
+      "uniqueItems": true,
+      "_instruction": "Add the biogical origin (organ or cell type) of all tissue samples in this collection.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/CellType",
+        "https://openminds.ebrains.eu/controlledTerms/Organ"
+      ]
+    },
+    "studiedStates": {
+      "minItems": 1,
+      "type": "array",
+      "uniqueItems": true,
+      "_instruction": "Add all states in which this tissue sample collection was studied.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/TissueSampleCollectionState"
+      ]
+    },
+    "type": {
+      "minItems": 1,
+      "type": "array",
+      "uniqueItems": true,
+      "_instruction": "Add the type of all tissue samples in this collection.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/TissueSampleType"
+      ]
+    }
+  }
+}

@@ -1,56 +1,15 @@
 {
+  "_extends": "research/specimen.schema.tpl.json",
   "_type": "https://openminds.ebrains.eu/core/Subject",
   "required": [
-    "biologicalSex",
-    "identifier",
-    "quantity",
-    "species",
     "studiedStates"
   ],
   "properties": {
-    "biologicalSex": {
-      "_instruction": "Add the biological sex of the subject or subject group.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/BiologicalSex"
-      ]
-    },
-    "identifier": {
-      "type": "string",
-      "_instruction": "Enter the user-defined identifier of the subject or subject group."
-    },
-    "genotype": {
-      "_instruction": "Add the genotype of the subject or subject group.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Genotype"
-      ]
-    },
-    "phenotype": {
-      "_instruction": "Add the phenotype of the subject or subject group.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Phenotype"
-      ]
-    },
-    "quantity": {
-      "type": "number",
-      "_instruction": "Enter the quantity described with this subject (single subject: 1, subject group: > 1)."
-    },
-    "species": {
-      "_instruction": "Add the species of the subject or subject group.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Species"
-      ]
-    },
-    "strain": {
-      "_instruction": "Add the strain of the subject or subject group.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Strain"
-      ]
-    },
     "studiedStates": {
       "minItems": 1,
       "type": "array",
       "uniqueItems": true,
-      "_instruction": "Add all states the subject or subject group was or were studied.",
+      "_instruction": "Add all states in which this subject was studied.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/SubjectState"
       ]

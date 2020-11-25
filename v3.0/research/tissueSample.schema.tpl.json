@@ -1,39 +1,30 @@
 {
+  "_extends": "research/specimen.schema.tpl.json",
   "_type": "https://openminds.ebrains.eu/core/TissueSample",
   "required": [
-    "quantity",
-    "species",
+    "origin",
     "studiedStates",
     "type"
   ],
   "properties": {
-    "organOfOrigin": {
-      "_instruction": "Add the antomical organ the tissue sample or tissue sample collection originated from.",
+    "origin": {
+      "_instruction": "Add the biogical origin (organ or cell type) of this tissue sample.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/OrganOfOrigin"
-      ]
-    },
-    "quantity": {
-      "type": "number",
-      "_instruction": "Enter the quantity described with this tissue sample (single sample: 1, sample collection: > 1)."
-    },
-    "species": {
-      "_instruction": "Add the species of the tissue sample or tissue sample collection.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Species"
+        "https://openminds.ebrains.eu/controlledTerms/CellType",
+        "https://openminds.ebrains.eu/controlledTerms/Organ"
       ]
     },
     "studiedStates": {
       "minItems": 1,
       "type": "array",
       "uniqueItems": true,
-      "_instruction": "Add all states in which the tissue sample or tissue sample collection was or were studied.",
+      "_instruction": "Add all states in which this tissue sample was studied.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/TissueSampleState"
       ]
     },
     "type": {
-      "_instruction": "Add the type of the tissue sample or tissue sample collection.",
+      "_instruction": "Add the type of this tissue sample.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/TissueSampleType"
       ]

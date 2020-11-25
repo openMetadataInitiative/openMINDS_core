@@ -1,0 +1,43 @@
+{
+  "required": [
+    "biologicalSex",
+    "internalIdentifier",
+    "species"
+  ],
+  "properties": {
+    "biologicalSex": {
+      "_instruction": "Add the biological sex of this specimen.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/BiologicalSex"
+      ]
+    },
+    "internalIdentifier": {
+      "type": "string",
+      "_instruction": "Enter the identifier of this specimen that is used within the corresponding data."
+    },
+    "genotype": {
+      "_instruction": "Add the genotype of this specimen.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Genotype"
+      ]
+    },
+    "phenotype": {
+      "_instruction": "Add the phenotype of this specimen.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Phenotype"
+      ]
+    },
+    "species": {
+      "_instruction": "Add the species of this specimen.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Species"
+      ]
+    },
+    "strain": {
+      "_instruction": "Add the strain of this specimen.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Strain"
+      ]
+    }
+  }
+}
