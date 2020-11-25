@@ -33,7 +33,7 @@
     "doireference": {
       "type": "object",
       "description": "Link to dataset that is associated/published under this DOI.",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/v1/definitions.json#definitions/CORE_DATASET"
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS_core/v1/definitions.json#definitions/CORE_DATASET"
     }
   }
 }

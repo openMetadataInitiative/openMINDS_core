@@ -28,7 +28,7 @@
     "generatedBy": {
       "type": "object",
       "description": "Link to the authority that examined the ethical compliance of this ethics approval.",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/v1/definitions.json#definitions/ETHICS_AUTHORITY"
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS_core/v1/definitions.json#definitions/ETHICS_AUTHORITY"
     }
   }
 }

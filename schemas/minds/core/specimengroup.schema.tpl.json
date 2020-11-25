@@ -29,7 +29,7 @@
       "type": "array",
       "description": "Link to all subjects that are part of this specimen group.",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/v1/definitions.json#definitions/EXPERIMENT_SUBJECT"
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS_core/v1/definitions.json#definitions/EXPERIMENT_SUBJECT"
       }
     }
   }

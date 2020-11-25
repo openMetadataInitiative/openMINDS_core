@@ -27,7 +27,7 @@
     "ontologicalTerm": {
       "type": "object",
       "description": "Link to the ontological term of this species.",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/v1/definitions.json#definitions/ONTOLOGY_TERM"
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS_core/v1/definitions.json#definitions/ONTOLOGY_TERM"
     }
   }
 }

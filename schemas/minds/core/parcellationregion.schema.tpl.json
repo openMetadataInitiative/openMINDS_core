@@ -31,7 +31,7 @@
     "qualifiedAssociation": {
       "type": "object",
       "description": "Alternative name of this parcellation region.",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/v1/definitions.json#definitions/ONTOLOGY_TERM"
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS_core/v1/definitions.json#definitions/ONTOLOGY_TERM"
     },
     "url": {
       "type": "string",

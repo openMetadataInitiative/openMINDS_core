@@ -29,7 +29,7 @@
       "type": "array",
       "description": "Link to all methods that were conducted during this activity.",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/v1/definitions.json#definitions/EXPERIMENT_METHOD"
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS_core/v1/definitions.json#definitions/EXPERIMENT_METHOD"
       }
     },
     "description": {
@@ -40,25 +40,25 @@
       "type": "array",
       "description": "Link to all experiment preparation types on which the methods of this activity were conducted.",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/v1/definitions.json#definitions/CORE_PREPARATION"
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS_core/v1/definitions.json#definitions/CORE_PREPARATION"
       }
     },
     "protocol": {
       "type": "array",
       "description": "Link to all protocols needed to execute this activity.",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/v1/definitions.json#definitions/CORE_PLACOMPONENT"
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS_core/v1/definitions.json#definitions/CORE_PLACOMPONENT"
       }
     },
     "approval": {
       "type": "object",
       "description": "Link to the ethics approval permitting the execution of this activity within the corresponding dataset.",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/v1/definitions.json#definitions/ETHICS_APPROVAL"
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS_core/v1/definitions.json#definitions/ETHICS_APPROVAL"
     },
     "authority": {
       "type": "object",
       "description": "Link to the authority that examined the ethical compliance of this activity within the corresponding dataset.",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/v1/definitions.json#definitions/ETHICS_AUTHORITY"
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS_core/v1/definitions.json#definitions/ETHICS_AUTHORITY"
     }
   }
 }

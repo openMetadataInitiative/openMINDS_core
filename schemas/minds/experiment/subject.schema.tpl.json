@@ -29,12 +29,12 @@
     "species": {
       "type": "object",
       "description": "Links to the species of this subject.",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/v1/definitions.json#definitions/CORE_SPECIES"
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS_core/v1/definitions.json#definitions/CORE_SPECIES"
     },
     "ageCategory": {
       "type": "object",
       "description": "Links to the age category of this subject.",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/v1/definitions.json#definitions/CORE_AGECATEGORY"
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS_core/v1/definitions.json#definitions/CORE_AGECATEGORY"
     },
     "age": {
       "type": "string",
@@ -44,7 +44,7 @@
     "sex": {
       "type": "object",
       "description": "Links to the biological sex of this subject.",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/v1/definitions.json#definitions/CORE_SEX"
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS_core/v1/definitions.json#definitions/CORE_SEX"
     },
     "genotype": {
       "type": "string",
@@ -63,7 +63,7 @@
       "type": "array",
       "description": "Link to all samples that were extracted from this subject.",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/v1/definitions.json#definitions/EXPERIMENT_SAMPLE"
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS_core/v1/definitions.json#definitions/EXPERIMENT_SAMPLE"
       }
     }
   }

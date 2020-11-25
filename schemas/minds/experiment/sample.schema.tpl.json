@@ -28,28 +28,28 @@
       "type": "array",
       "description": "Link to all methods that were conducted during this activity.",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/v1/definitions.json#definitions/EXPERIMENT_METHOD"
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS_core/v1/definitions.json#definitions/EXPERIMENT_METHOD"
       }
     },
     "parcellationAtlas": {
       "type": "array",
       "description": "Link to all parcellation atlases that were used in this dataset.",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/v1/definitions.json#definitions/CORE_PARCELLATIONATLAS"
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS_core/v1/definitions.json#definitions/CORE_PARCELLATIONATLAS"
       }
     },
     "parcellationRegion": {
       "type": "array",
       "description": "Link to all parcellation regions that were studied in this dataset.",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/v1/definitions.json#definitions/CORE_PARCELLATIONREGION"
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS_core/v1/definitions.json#definitions/CORE_PARCELLATIONREGION"
       }
     },
     "file": {
       "type": "array",
       "description": "Link to all files that belong to this dataset.",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/v1/definitions.json#definitions/CSCS_FILE"
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS_core/v1/definitions.json#definitions/CSCS_FILE"
       }
     }
   }
