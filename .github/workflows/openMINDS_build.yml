@@ -39,7 +39,7 @@ jobs:
         python generator/validator/schema_validator.py
     - name: Run generation
       run: |
-          python generator/openMINDS.py
+          python generator/openMINDS.py --version ${GITHUB_REF##*/}
 #    - name: Test with pytest
 #      run: |
 #        pytest
