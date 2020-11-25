@@ -1,0 +1,34 @@
+{
+  "$id": "https://schema.hbp.eu/minds/ethics/approval.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Structured information describing an ethics approval.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "@type",
+    "@id",
+    "name",
+    "generatedBy"
+  ],
+  "properties": {
+    "@type": {
+      "type": "string",
+      "description": "Metadata node type (schema).",
+      "const": "https://schema.hbp/minds/Approval"
+    },
+    "@id": {
+      "type": "string",
+      "description": "Metadata node identifier.",
+      "pattern": "minds/ethics/approval/v1.0.0/([A-Za-z0-9_-]+).json"
+    },
+    "name": {
+      "type": "string",
+      "description": "Name of this ethics approval."
+    },
+    "generatedBy": {
+      "type": "object",
+      "description": "Link to the authority that examined the ethical compliance of this ethics approval.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/v1/definitions.json#definitions/ETHICS_AUTHORITY"
+    }
+  }
+}
