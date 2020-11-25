@@ -40,9 +40,9 @@ jobs:
     - name: Run generation
       run: |
           python generator/openMINDS.py
-    - name: Test with pytest
-      run: |
-        pytest
+#    - name: Test with pytest
+#      run: |
+#        pytest
     - name: Archive expanded version
       uses: actions/upload-artifact@v2
       with:
