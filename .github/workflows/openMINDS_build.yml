@@ -1,4 +1,4 @@
-name: openMINDS_validation
+name: openMINDS_build
 
 on:
   push:
