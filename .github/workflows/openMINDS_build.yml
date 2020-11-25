@@ -39,7 +39,7 @@ jobs:
         if [ -f openMINDScentral/requirements.txt ]; then pip install -r openMINDScentral/requirements.txt; fi
         python openMINDScentral/validator/schema_validator.py
     - name: Run generation
-        run: |
+      run: |
           python openMINDScentral/openMINDS.py
     - name: Test with pytest
       run: |
