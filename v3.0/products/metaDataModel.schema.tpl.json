@@ -1,0 +1,15 @@
+{
+  "_extends": "products/researchProduct.schema.tpl.json",
+  "_type": "https://openminds.ebrains.eu/core/MetaDataModel",
+  "properties": {
+    "hasVersions": {
+      "minItems": 1,
+      "type": "array",
+      "uniqueItems": true,
+      "_instruction": "Add one or several versions of this (meta)data model.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/MetaDataModelVersion"
+      ]
+    }
+  }
+}

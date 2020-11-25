@@ -1,0 +1,58 @@
+{
+  "_extends": "products/researchProductVersion.schema.tpl.json",
+  "_type": "https://openminds.ebrains.eu/core/MetaDataModelVersion",
+  "required": [
+    "developers",
+    "type"
+  ],
+  "properties": {
+    "hasAlternativeVersions": {
+      "minItems": 1,
+      "type": "array",
+      "uniqueItems": true,
+      "_instruction": "Add all (meta)data model versions that can be used alternatively to this (meta)data model version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DatasetVersion"
+      ]
+    },
+    "hasSupplementVersions": {
+      "minItems": 1,
+      "type": "array",
+      "uniqueItems": true,
+      "_instruction": "Add all (meta)data model versions that supplement this (meta)data model version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DatasetVersion"
+      ]
+    },
+    "isNewVersionOf": {
+      "_instruction": "Add the dataset version preceding this (meta)data model version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/MetaDataModelVersion"
+      ]
+    },
+    "serializationFormats": {
+      "minItems": 1,
+      "type": "array",
+      "uniqueItems": true,
+      "_instruction": "Add all content types in which (meta)data compliant with this (meta)data model version can be stored in.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ContentType"
+      ]
+    },
+    "specificationFormats": {
+      "minItems": 1,
+      "type": "array",
+      "uniqueItems": true,
+      "_instruction": "Add all content types in which the schemas of this (meta)data model version are stored in.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ContentType"
+      ]
+    },
+    "type": {
+      "_instruction": "Add the type of this (meta)data model version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType"
+      ]
+    }
+  }
+}
