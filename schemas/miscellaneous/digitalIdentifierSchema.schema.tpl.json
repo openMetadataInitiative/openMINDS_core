@@ -9,8 +9,8 @@
       "_instruction": "Enter the type of this digital identifier schema."
     },
     "IRI": {
-      "format": "iri",
       "type": "string",
+      "format": "iri",
       "_instruction": "Enter the internationalized resource identifier (IRI) of this digital identifier schema."
     },
     "identifierPattern": {
