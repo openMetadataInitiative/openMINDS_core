@@ -1,5 +1,4 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/SpecimenState",
   "required": [
     "age",
     "pathology"
