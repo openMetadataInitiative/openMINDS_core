@@ -2,12 +2,12 @@
   "_type": "https://openminds.ebrains.eu/core/DigitalIdentifier",
   "required": [
     "identifier",
-    "identifierScheme"
+    "identifierSchema"
   ],
   "properties": {
     "howToCite": {
       "type": "string",
-      "_instruction": "Enter the preferred citation text for the resource this digital identifier stnads for."
+      "_instruction": "Enter the preferred citation text for the resource this digital identifier stands for."
     },
     "identifier": {
       "type": "string",
