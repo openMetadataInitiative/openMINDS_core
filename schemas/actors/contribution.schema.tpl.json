@@ -13,8 +13,8 @@
        ]
      },
      "contributionType": {
-       "minItems": 1,
        "type": "array",
+       "minItems": 1,
        "uniqueItems": true,
        "_instruction": "Add one or several type of contributions made by the stated contributor.",
        "_linkedTypes": [
