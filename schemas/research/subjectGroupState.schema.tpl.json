@@ -1,13 +1,13 @@
 {
-  "_extends": "research/specimenState.schema.tpl.json",
   "_type": "https://openminds.ebrains.eu/core/SubjectGroupState",
+  "_extends": "research/specimenState.schema.tpl.json",
   "required": [
     "ageCategory"
   ],
   "properties": {
     "ageCategory": {
-      "minItems": 1,
       "type": "array",
+      "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add the age category of the subject in this state.",
       "_linkedTypes": [
@@ -15,8 +15,8 @@
       ]
     },
     "handedness": {
-      "minItems": 1,
       "type": "array",
+      "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add the preferred hand of the subject in this state.",
       "_linkedTypes": [
