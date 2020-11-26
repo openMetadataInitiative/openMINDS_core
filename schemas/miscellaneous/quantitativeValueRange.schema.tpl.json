@@ -6,16 +6,16 @@
   ],
   "properties": {
     "maxValue": {
+      "_instruction": "Add the maximum quantitative value of this range.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
-      ],
-      "_instruction": "Add the maximum quantitative value of this range."
+      ]
     },
     "minValue": {
+      "_instruction": "Add the minimum quantitative value of this range.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
-      ],
-      "_instruction": "Add the minimum quantitative value of this range."
+      ]
     }
   }
 }
