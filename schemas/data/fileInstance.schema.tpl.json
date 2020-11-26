@@ -1,9 +1,9 @@
 {
   "_type": "https://openminds.ebrains.eu/core/FileInstance",
   "required": [
+    "IRI",
     "isPartOf",
-    "name",
-    "resourceLocator"
+    "name"
   ],
   "properties": {
     "content": {
@@ -22,9 +22,14 @@
         "https://openminds.ebrains.eu/core/Hash"
       ]
     },
+    "IRI": {
+      "type": "string",
+      "format": "iri",
+      "_instruction": "Enter the internationalized resource identifier of this file instance."
+    },
     "isPartOf": {
-      "minItems": 1,
       "type": "array",
+      "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add one or several file bundles in which this file instance can be grouped in.",
       "_linkedTypes": [
@@ -35,11 +40,6 @@
       "type": "string",
       "_instruction": "Enter the name of this file instance."
     },
-    "resourceLocator": {
-      "format": "iri",
-      "type": "string",
-      "_instruction": "Enter the resource locator of this file instance."
-    },
     "specificUsageRole": {
       "_instruction": "Add a specific usage role for this file instance.",
       "_linkedTypes": [
@@ -48,7 +48,7 @@
     },
     "storageSize": {
       "_instruction": "Enter the storage size this file instance allocates.",
-      "_linkedTypes": [
+      "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
       ]
     }
