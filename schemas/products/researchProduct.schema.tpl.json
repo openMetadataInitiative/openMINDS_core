@@ -1,5 +1,4 @@
 {
-  "description": "Structured information describing a research product.",
   "required": [
     "description",
     "digitalIdentifier",
@@ -9,7 +8,8 @@
   "properties": {
     "description": {
       "type": "string",
-      "_instruction": "Enter a description (abstract) for this research product (max. 200 words; no references)."
+      "maxLength": 2000,
+      "_instruction": "Enter a description (abstract) for this research product (max. 2000 characters, incl. spaces; no references)."
     },
     "digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this research product.",
@@ -22,14 +22,14 @@
       "_instruction": "Enter a descriptive full name (title) for this research product."
     },
     "homepage": {
-      "format": "iri",
       "type": "string",
+      "format": "iri",
       "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this research product."
     },
     "shortName": {
-      "maxLength": 30,
       "type": "string",
-      "_instruction": "Enter a short name (alias) for this research product (max. 30 characters, no space)."
+      "maxLength": 30,
+      "_instruction": "Enter a short name (alias) for this research product (max. 30 characters; no space)."
     }
   }
 }
