@@ -2,8 +2,8 @@
   "_type": "https://openminds.ebrains.eu/core/FileRepository",
   "required": [
     "hostedBy",
-    "name",
-    "resourceLocator"
+    "IRI",
+    "name"
   ],
   "properties": {
     "format": {
@@ -24,20 +24,20 @@
         "https://openminds.ebrains.eu/controlledTerms/Organization"
       ]
     },
+    "IRI": {
+      "type": "string",
+      "format": "iri",
+      "_instruction": "Enter the internationalized resource identifier (IRI) of this file repository."
+    },
     "name": {
       "type": "string",
       "_instruction": "Enter the name of this file repository."
     },
-    "resourceLocator": {
-      "format": "uri",
-      "type": "string",
-      "_instruction": "Enter the resource locator of this file repository."
-    },
     "storageSize": {
+      "_instruction": "Enter the storage size this file repository allocates.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
-      ],
-      "_instruction": "Enter the storage size this file repository allocates."
+      ]
     }
   }
 }
