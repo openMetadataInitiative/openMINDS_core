@@ -11,8 +11,8 @@
       "uniqueItems": true,
       "_instruction": "Add one or several persons or organisations that hold the copyright.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Person",
-        "https://openminds.ebrains.eu/core/Organization"
+        "https://openminds.ebrains.eu/core/Organization",
+        "https://openminds.ebrains.eu/core/Person"
       ]
     },
     "year": {
