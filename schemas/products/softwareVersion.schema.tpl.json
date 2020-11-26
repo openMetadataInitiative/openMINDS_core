@@ -1,22 +1,22 @@
 {
-  "_extends": "products/researchProductVersion.schema.tpl.json",
   "_type": "https://openminds.ebrains.eu/core/SoftwareVersion",
+  "_extends": "products/researchProductVersion.schema.tpl.json",
   "required": [
     "applicationCategory",
     "developers",
     "device",
+    "hasFeature",
+    "hasRequirement",
     "inputFormat",
     "language",
     "operatingSystem",
     "outputFormat",
-    "programmingLanguage",
-    "softwareFeature",
-    "softwareRequirement"
+    "programmingLanguage"
   ],
   "properties": {
     "applicationCategory": {
-      "minItems": 1,
       "type": "array",
+      "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add all categories to which this software version belongs.",
       "_linkedTypes": [
@@ -30,8 +30,8 @@
       ]
     },
     "device": {
-      "minItems": 1,
       "type": "array",
+      "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add all hardware devices compatible with this software version.",
       "_linkedTypes": [
@@ -39,17 +39,30 @@
       ]
     },
     "hasAlternativeVersions": {
-      "minItems": 1,
       "type": "array",
+      "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add all software versions that can be used alternatively to this software version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/SoftwareVersion"
       ]
     },
-    "hasSupplementVersions": {
-      "minItems": 1,
+    "hasFeature": {
       "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all features of this software version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/SoftwareFeature"
+      ]
+    },
+    "hasRequirement": {
+      "type": "string",
+      "_instruction": "Enter all requirements of this software version."
+    },
+    "hasSupplementVersions": {
+      "type": "array",
+      "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add all software versions that supplement this software version.",
       "_linkedTypes": [
@@ -57,8 +70,8 @@
       ]
     },
     "inputFormat": {
-      "minItems": 1,
       "type": "array",
+      "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add the content types of all possible input formats for this software version.",
       "_linkedTypes": [
@@ -72,8 +85,8 @@
       ]
     },
     "language": {
-      "minItems": 1,
       "type": "array",
+      "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add all languages supported by this software version.",
       "_linkedTypes": [
@@ -81,8 +94,8 @@
       ]
     },
     "operatingSystem": {
-      "minItems": 1,
       "type": "array",
+      "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add all operating systems supported by this software version.",
       "_linkedTypes": [
@@ -90,8 +103,8 @@
       ]
     },
     "outputFormat": {
-      "minItems": 1,
       "type": "array",
+      "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add the content types of all possible input formats for this software version.",
       "_linkedTypes": [
@@ -99,26 +112,13 @@
       ]
     },
     "programmingLanguage": {
-      "minItems": 1,
       "type": "array",
+      "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add all programming languages used for this software version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/ProgrammingLanguage"
       ]
-    },
-    "softwareFeature": {
-      "minItems": 1,
-      "type": "array",
-      "uniqueItems": true,
-      "_instruction": "Add all features of this software version.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/SoftwareFeature"
-      ]
-    },
-    "softwareRequirement": {
-      "type": "string",
-      "_instruction": "Enter all requirements of this software version."
     }
   }
 }
