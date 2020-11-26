@@ -9,15 +9,15 @@
   "properties": {
     "description": {
       "type": "string",
-      "_instruction": "Enter a description (abstract) for this project."
+      "_instruction": "Enter a description of this project."
     },
     "fullName": {
       "type": "string",
       "_instruction": "Enter a descriptive full name (title) for this project."
     },
     "hasResearchProducts": {
-      "minItems": 2,
       "type": "array",
+      "minItems": 2,
       "uniqueItems": true,
       "_instruction": "Add all research products or research product versions that are part of this project.",
       "_linkedTypes": [
@@ -30,13 +30,13 @@
       ]
     },
     "homepage": {
-      "format": "iri",
       "type": "string",
+      "format": "iri",
       "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this model version."
     },
     "projectLeader": {
-      "minItems": 1,
       "type": "array",
+      "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add one or several project leader (person or organization).",
       "_linkedTypes": [
