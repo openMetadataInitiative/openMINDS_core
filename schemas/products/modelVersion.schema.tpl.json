@@ -3,7 +3,7 @@
   "_extends": "products/researchProductVersion.schema.tpl.json",
   "required": [
     "abstractionLevel",
-    "developers",
+    "developer",
     "format",
     "scope",
     "studyTarget"
