@@ -15,7 +15,7 @@
       "_instruction": "Enter the measurement uncertainty of this quantitative value.",
       "items": {
         "type": "number"
-      },
+      }
     },
     "unit": {
       "_instruction": "Add the unit of measurement of this quantitative value.",
