@@ -6,8 +6,8 @@
   ],
   "properties": {
     "digitalIdentifier": {
-      "minItems": 1,
       "type": "array",
+      "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add one or several globally unique and persistent digital identifier for this person.",
       "_linkedTypes": [
@@ -15,8 +15,8 @@
       ]
     },
     "email": {
-      "format": "email",
       "type": "string",
+      "format": "email",
       "_instruction": "Enter the email address of this person."
     },
     "familyName": {
