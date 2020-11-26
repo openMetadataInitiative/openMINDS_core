@@ -21,12 +21,12 @@
       "uniqueItems": true,
       "_instruction": "Add all research products or research product versions that are part of this project.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Software",
         "https://openminds.ebrains.eu/core/Dataset",
-        "https://openminds.ebrains.eu/core/Model",
-        "https://openminds.ebrains.eu/core/SoftwareVersion",
         "https://openminds.ebrains.eu/core/DatasetVersion",
-        "https://openminds.ebrains.eu/core/ModelVersion"
+        "https://openminds.ebrains.eu/core/Model",
+        "https://openminds.ebrains.eu/core/ModelVersion",
+        "https://openminds.ebrains.eu/core/Software",
+        "https://openminds.ebrains.eu/core/SoftwareVersion"
       ]
     },
     "homepage": {
@@ -40,8 +40,8 @@
       "uniqueItems": true,
       "_instruction": "Add one or several project leader (person or organization).",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Person",
-        "https://openminds.ebrains.eu/core/Organization"
+        "https://openminds.ebrains.eu/core/Organization",
+        "https://openminds.ebrains.eu/core/Person"
       ]
     },
     "shortName": {
