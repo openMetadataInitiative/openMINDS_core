@@ -17,8 +17,8 @@
      "contributor": {
        "_instruction": "Add the contributing person or organization.",
        "_linkedTypes": [
-         "https://openminds.ebrains.eu/core/Person",
-         "https://openminds.ebrains.eu/core/Organization"
+         "https://openminds.ebrains.eu/core/Organization",
+         "https://openminds.ebrains.eu/core/Person"
        ]
      }
    }
