@@ -1,8 +1,4 @@
 {
-  "required": [
-    "age",
-    "pathology"
-  ],
   "properties": {
     "additionalRemarks": {
       "type": "string",
