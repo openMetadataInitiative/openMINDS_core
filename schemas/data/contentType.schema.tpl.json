@@ -7,34 +7,34 @@
   ],
   "properties": {
     "associatedFileExtension": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Enter one or several file extensions associated with this content type.",
       "items": {
         "type": "string"
-      },
-      "minItems": 1,
-      "type": "array",
-      "uniqueItems": true,
-      "_instruction": "Enter one or several file extensions associated with the stated content type."
+      }
     },
     "category": {
       "type": "string",
-      "_instruction": "Enter the category the stated content type belongs to."
+      "_instruction": "Enter the category to which this content type belongs to."
     },
     "ianaRef":{
-      "format": "iri",
-      "type": "string"
+      "type": "string",
+      "format": "iri"
     },
     "name": {
       "type": "string",
-      "_instruction": "Enter the name (iana-inspired convention) of the stated content type."
+      "_instruction": "Enter the name (iana-inspired convention) of this content type."
     },
-    "synonyms":{
+    "synonym":{
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Enter one or several synonyms of this content type.",
       "items": {
         "type": "string"
-      },
-      "minItems": 1,
-      "type": "array",
-      "uniqueItems": true,
-      "_instruction": "Enter one or several synonyms of the stated content type."
+      }
     }
   }
 }
