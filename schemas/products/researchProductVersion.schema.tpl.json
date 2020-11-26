@@ -25,8 +25,8 @@
       "uniqueItems": true,
       "_instruction": "Add one or several authors (person or organization) that contributed to the production and publication of this research product version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Person",
-        "https://openminds.ebrains.eu/core/Organization"
+        "https://openminds.ebrains.eu/core/Organization",
+        "https://openminds.ebrains.eu/core/Person"
       ]
     },
     "copyright": {
@@ -36,13 +36,13 @@
       ]
     },
     "custodian": {
+      "type": "array",      
       "minItems": 1,
-      "type": "array",
       "uniqueItems": true,
       "_instruction": "Add one or several custodians (person or organization) that are responsible for this research product version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Person",
-        "https://openminds.ebrains.eu/core/Organization"
+        "https://openminds.ebrains.eu/core/Organization",
+        "https://openminds.ebrains.eu/core/Person"
       ]
     },
     "description": {
@@ -56,8 +56,8 @@
       "uniqueItems": true,
       "_instruction": "Add one or several developers (person or organization) that contributed to the code implementation of this research product version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Person",
-        "https://openminds.ebrains.eu/core/Organization"
+        "https://openminds.ebrains.eu/core/Organization",
+        "https://openminds.ebrains.eu/core/Person"
       ]
     },
     "digitalIdentifier": {
@@ -116,8 +116,8 @@
       ]
     },
     "relatedPublication": {
-      "minItems": 1,
       "type": "array",
+      "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add further publications besides the documentation (e.g. an original research article) providing the original context for the production of this research product version.",
       "_linkedTypes": [
@@ -136,8 +136,8 @@
       ]
     },
     "shortName": {
-      "maxLength": 30,
       "type": "string",
+      "maxLength": 30,
       "_instruction": "Enter a short name (alias) for this research product version (max. 30 characters, no space)."
     },
     "versionIdentifier": {
