@@ -21,7 +21,8 @@
     },
     "ianaRef":{
       "type": "string",
-      "format": "iri"
+      "format": "iri",
+      "_instruction": "Enter the iternationalized resource identifier (IRI) to the IANA.org registered media type matching this content type."
     },
     "name": {
       "type": "string",
