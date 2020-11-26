@@ -1,13 +1,13 @@
 {
-  "_extends": "research/specimen.schema.tpl.json",
   "_type": "https://openminds.ebrains.eu/core/Subject",
+  "_extends": "research/specimen.schema.tpl.json",
   "required": [
     "studiedStates"
   ],
   "properties": {
-    "studiedStates": {
-      "minItems": 1,
+    "studiedState": {
       "type": "array",
+      "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add all states in which this subject was studied.",
       "_linkedTypes": [
