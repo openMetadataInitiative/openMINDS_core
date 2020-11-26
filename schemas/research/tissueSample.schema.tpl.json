@@ -7,6 +7,16 @@
     "type"
   ],
   "properties": {
+    "laterality": {
+      "type": "array",
+      "maxItems": 2,      
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add one or both hemisphere sides from which this tissue sample originates from.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Laterality"
+      ]
+    },
     "origin": {
       "_instruction": "Add the biogical origin (organ or cell type) of this tissue sample.",
       "_linkedTypes": [
