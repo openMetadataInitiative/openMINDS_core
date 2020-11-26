@@ -38,7 +38,7 @@
         "https://openminds.ebrains.eu/core/TissueSampleCollectionState"
       ]
     },
-    "parameterSettings": {
+    "parameterSetting": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
@@ -68,7 +68,7 @@
          "https://openminds.ebrains.eu/sands/AnatomicalEntity"
       ]
     },
-    "studyTargets": {
+    "studyTarget": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
