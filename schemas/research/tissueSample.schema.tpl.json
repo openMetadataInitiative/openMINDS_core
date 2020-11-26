@@ -1,9 +1,9 @@
 {
-  "_extends": "research/specimen.schema.tpl.json",
   "_type": "https://openminds.ebrains.eu/core/TissueSample",
+  "_extends": "research/specimen.schema.tpl.json",
   "required": [
     "origin",
-    "studiedStates",
+    "studiedState",
     "type"
   ],
   "properties": {
@@ -14,9 +14,9 @@
         "https://openminds.ebrains.eu/controlledTerms/Organ"
       ]
     },
-    "studiedStates": {
-      "minItems": 1,
+    "studiedState": {
       "type": "array",
+      "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add all states in which this tissue sample was studied.",
       "_linkedTypes": [
