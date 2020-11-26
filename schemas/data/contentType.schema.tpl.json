@@ -19,10 +19,10 @@
       "type": "string",
       "_instruction": "Enter the category to which this content type belongs to."
     },
-    "ianaRef":{
+    "relatedMediaType":{
       "type": "string",
       "format": "iri",
-      "_instruction": "Enter the iternationalized resource identifier (IRI) to the IANA.org registered media type matching this content type."
+      "_instruction": "Enter the iternationalized resource identifier (IRI) to a registered media type (e.g. on IANA.org) matching this content type."
     },
     "name": {
       "type": "string",
