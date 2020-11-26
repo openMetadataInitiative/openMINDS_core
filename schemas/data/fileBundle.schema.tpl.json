@@ -1,9 +1,9 @@
 {
   "_type": "https://openminds.ebrains.eu/core/FileBundle",
   "required": [
+    "IRI",
     "isPartOf",
-    "name",
-    "resourceLocator"
+    "name"
   ],
   "properties": {
     "format": {
@@ -24,6 +24,11 @@
         "https://openminds.ebrains.eu/core/Hash"
       ]
     },
+    "IRI": {
+      "type": "string",
+      "format": "iri",
+      "_instruction": "Enter the internationalized resource identifier (IRI) of this file bundle."
+    },
     "isPartOf": {
       "_instruction": "Add the file bundle or file repository this file bundle is a part of.",
       "_linkedTypes": [
@@ -35,16 +40,11 @@
       "type": "string",
       "_instruction": "Enter the name of this file bundle."
     },
-    "resourceLocator": {
-      "format": "iri",
-      "type": "string",
-      "_instruction": "Enter the resource locator of this file bundle."
-    },
     "storageSize": {
+      "_instruction": "Enter the storage size this file bundle allocates.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
-      ],
-      "_instruction": "Enter the storage size this file bundle allocates."
+      ]
     }
   }
 }
