@@ -6,6 +6,10 @@
     "protocol"
   ],
   "properties": {
+    "description": {
+      "type": "string",
+      "_instruction": "Enter a description of this protocol execution."
+    },
     "input": {
       "type": "array",
       "minItems": 1,
