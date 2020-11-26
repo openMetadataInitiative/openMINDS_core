@@ -1,5 +1,4 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/Specimen",
   "required": [
     "biologicalSex",
     "internalIdentifier",
