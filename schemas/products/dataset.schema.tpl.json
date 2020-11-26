@@ -1,10 +1,10 @@
 {
-  "_extends": "products/researchProduct.schema.tpl.json",
   "_type": "https://openminds.ebrains.eu/core/Dataset",
+  "_extends": "products/researchProduct.schema.tpl.json",
   "properties": {
-    "hasVersions": {
-      "minItems": 1,
+    "hasVersion": {
       "type": "array",
+      "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add one or several versions of this dataset.",
       "_linkedTypes": [
