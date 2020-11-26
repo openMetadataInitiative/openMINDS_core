@@ -13,8 +13,8 @@
       ]
     },
     "definitionReference":{
-      "format" : "iri",
       "type": "string",
+      "format" : "iri",
       "_instruction" : "Enter the internationalized resource identifier (IRI) to an external resource defining this software feature." 
     },
     "description": {
