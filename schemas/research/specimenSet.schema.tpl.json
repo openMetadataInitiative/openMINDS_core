@@ -5,8 +5,8 @@
   ],
   "properties": {
     "biologicalSex": {
-      "minItems": 1,
       "type": "array",
+      "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add the biological sex of all specimen in this set.",
       "_linkedTypes": [
@@ -18,8 +18,8 @@
       "_instruction": "Enter the identifier of this specimen set that is used within the corresponding data."
     },
     "genotype": {
-      "minItems": 1,
       "type": "array",
+      "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add the genotype of all specimen in this set.",
       "_linkedTypes": [
@@ -27,8 +27,8 @@
       ]
     },
     "phenotype": {
-      "minItems": 1,
       "type": "array",
+      "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add the phenotype of all specimen in this set.",
       "_linkedTypes": [
@@ -40,8 +40,8 @@
       "_instruction": "Enter the number of specimen that belong to this set."
     },
     "species": {
-      "minItems": 1,
       "type": "array",
+      "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add the species of all specimen in this set.",
       "_linkedTypes": [
@@ -49,8 +49,8 @@
       ]
     },
     "strain": {
-      "minItems": 1,
       "type": "array",
+      "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add the strain of all specimen in this set.",
       "_linkedTypes": [
