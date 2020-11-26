@@ -1,6 +1,6 @@
 {
-  "_extends": "research/specimenState.schema.tpl.json",
   "_type": "https://openminds.ebrains.eu/core/SubjectState",
+  "_extends": "research/specimenState.schema.tpl.json",
   "required": [
     "ageCategory"
   ],
