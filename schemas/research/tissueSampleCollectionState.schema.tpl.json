@@ -1,4 +1,4 @@
 {
-  "_extends": "research/specimenState.schema.tpl.json",
-  "_type": "https://openminds.ebrains.eu/core/TissueSampleCollectionState"
+  "_type": "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
+  "_extends": "research/specimenState.schema.tpl.json"
 }
