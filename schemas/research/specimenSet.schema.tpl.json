@@ -1,4 +1,5 @@
 {
+  "_type": "https://openminds.ebrains.eu/core/SpecimenSet",
   "required": [
     "biologicalSex",
     "species"
