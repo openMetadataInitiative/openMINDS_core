@@ -40,8 +40,8 @@
       "type": "string",
       "_instruction": "Enter the name of this file instance."
     },
-    "specificUsageRole": {
-      "_instruction": "Add a specific usage role for this file instance.",
+    "specialUsageRole": {
+      "_instruction": "Add a special usage role for this file instance.",
       "_linkedTypes": [
          "https://openminds.ebrains.eu/controlledTerms/fileUsageRole"
       ]
