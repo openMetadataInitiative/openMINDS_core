@@ -1,6 +1,6 @@
 {
-  "_extends": "research/specimenSet.schema.tpl.json",
   "_type": "https://openminds.ebrains.eu/core/TissueSampleCollection",
+  "_extends": "research/specimenSet.schema.tpl.json",
   "required": [
     "origin",
     "studiedState",
