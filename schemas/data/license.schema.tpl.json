@@ -6,10 +6,10 @@
     "shortName"
   ],
   "properties": {
-    "disclaimer": {
+    "deed": {
       "format": "iri",
       "type": "string",
-      "_instruction": "Enter the internationalized resource identifier (IRI) pointing to the disclaimer information of this license."
+      "_instruction": "Enter the internationalized resource identifier (IRI) pointing to the deed of this license."
     },
     "fullName": {
       "type": "string",
