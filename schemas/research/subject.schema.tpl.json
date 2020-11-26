@@ -2,7 +2,7 @@
   "_type": "https://openminds.ebrains.eu/core/Subject",
   "_extends": "research/specimen.schema.tpl.json",
   "required": [
-    "studiedStates"
+    "studiedState"
   ],
   "properties": {
     "studiedState": {
