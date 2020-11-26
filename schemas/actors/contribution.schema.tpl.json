@@ -1,17 +1,10 @@
 {
   "_type": "https://openminds.ebrains.eu/core/Contribution",
   "required": [
-    "contributor",
-    "contributionType"
+    "contributionType",
+    "contributor"
   ],
    "properties": {
-     "contributor": {
-       "_instruction": "Add the contributing person or organization.",
-       "_linkedTypes": [
-         "https://openminds.ebrains.eu/core/Person",
-         "https://openminds.ebrains.eu/core/Organization"
-       ]
-     },
      "contributionType": {
        "type": "array",
        "minItems": 1,
@@ -19,6 +12,13 @@
        "_instruction": "Add one or several type of contributions made by the stated contributor.",
        "_linkedTypes": [
          "https://openminds.ebrains.eu/controlledTerms/ContributionType"
+       ]
+     },
+     "contributor": {
+       "_instruction": "Add the contributing person or organization.",
+       "_linkedTypes": [
+         "https://openminds.ebrains.eu/core/Person",
+         "https://openminds.ebrains.eu/core/Organization"
        ]
      }
    }
