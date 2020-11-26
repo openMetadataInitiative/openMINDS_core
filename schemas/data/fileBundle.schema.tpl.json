@@ -32,8 +32,8 @@
     "isPartOf": {
       "_instruction": "Add the file bundle or file repository this file bundle is a part of.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/FileRepository",
-        "https://openminds.ebrains.eu/core/FileBundle"
+        "https://openminds.ebrains.eu/core/FileBundle",
+        "https://openminds.ebrains.eu/core/FileRepository"
       ]
     },
     "name": {
