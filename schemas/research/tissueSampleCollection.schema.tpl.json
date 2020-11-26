@@ -3,13 +3,13 @@
   "_type": "https://openminds.ebrains.eu/core/TissueSampleCollection",
   "required": [
     "origin",
-    "studiedStates",
+    "studiedState",
     "type"
   ],
   "properties": {
     "origin": {
-      "minItems": 1,
       "type": "array",
+      "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add the biogical origin (organ or cell type) of all tissue samples in this collection.",
       "_linkedTypes": [
@@ -17,9 +17,9 @@
         "https://openminds.ebrains.eu/controlledTerms/Organ"
       ]
     },
-    "studiedStates": {
-      "minItems": 1,
+    "studiedState": {
       "type": "array",
+      "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add all states in which this tissue sample collection was studied.",
       "_linkedTypes": [
@@ -27,8 +27,8 @@
       ]
     },
     "type": {
-      "minItems": 1,
       "type": "array",
+      "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add the type of all tissue samples in this collection.",
       "_linkedTypes": [
