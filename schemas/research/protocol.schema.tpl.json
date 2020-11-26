@@ -35,7 +35,7 @@
 	"https://openminds.ebrains.eu/controlledTerm/Phenotype",
         "https://openminds.ebrains.eu/controlledTerm/Species",
 	"https://openminds.ebrains.eu/controlledTerm/TermSuggestion",
-        "https://openminds.ebrains.eu/sands/anatomicalEntity"
+        "https://openminds.ebrains.eu/sands/AnatomicalEntity"
       ]
     },
     "technique": {
