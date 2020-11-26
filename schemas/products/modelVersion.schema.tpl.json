@@ -22,8 +22,8 @@
       ]
     },
     "hasAlternativeVersions": {
-      "minItems": 1,
       "type": "array",
+      "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add all model versions that can be used alternatively to this model version.",
       "_linkedTypes": [
@@ -31,18 +31,18 @@
       ]
     },
     "hasSupplementVersions": {
-      "minItems": 1,
       "type": "array",
+      "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add all model versions that supplement this model version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ModelVersion"
       ]
     },
-    "inputDataset": {
-      "_instruction": "Add the dataset version that was used as input for this model version.",
+    "inputData": {
+      "_instruction": "Add the data that was used as input for this model version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DatasetVersion"
+        "https://openminds.ebrains.eu/core/DigitalIdentifier"
       ]
     },
     "isNewVersionOf": {
@@ -51,10 +51,10 @@
         "https://openminds.ebrains.eu/core/ModelVersion"
       ]
     },
-    "outputDataset": {
-      "_instruction": "Add the dataset version that was generated as output of this model version.",
+    "outputData": {
+      "_instruction": "Add the data that was generated as output of this model version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DatasetVersion"
+        "https://openminds.ebrains.eu/core/DigitalIdentifier"
       ]
     },
     "scope": {
@@ -64,8 +64,8 @@
       ]
     },
     "studyTargets": {
-      "minItems": 1,
       "type": "array",
+      "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add all study targets of this model version.",
       "_linkedTypes": [
