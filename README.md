@@ -14,6 +14,8 @@ The core v1.0 schemas (originally called MINDS) were only documented in the Wiki
 ## v3.0 (schema-templates)
 The core v3.0 schemas (MINDS) are JSON-schema inspired schema-templates with a few custom template-properties (prefixed with `"_"`) which allow us to simplify their readability and increase their reusability.
 
+**The different versions can be accessed by checking out their version-branch**
+
 ## How to contribute
 When contributing to this repository, please first discuss the change you wish to make via issue before making a change. 
 
