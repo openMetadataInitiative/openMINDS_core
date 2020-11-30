@@ -9,7 +9,7 @@ The major versions are developed and maintained in different version-branches. T
 For more information on openMINDS in general and the processing pipelines for the schema-templates please go to the main repository: https://github.com/HumanBrainProject/openMINDS
 
 ## schemas
-The core v3 schemas are JSON-schema inspired schema-templates with a few custom template-properties (prefixed with `"_"`) which allow us to simplify their readability and increase their reusability.
+The core v3 schemas are defined as JSON-schema inspired templates with only a few customized technical properties (prefixed with `"_"`). These simplified schema-templates are easy to read and can be robustly translated to other, well known target formats (e.g., HTML, JSON-schema, etc.). 
 
 ## tests
 In **tests** you can find JSON-LDs designed to test the validation behaviour of each schema. These test JSON-LDs are grouped according to the used core schema categories (actors, data, miscellaneous, products, and research). Each JSON-LD follows the naming convention `{schema_name}-{custom_test_name}.jsonld`. For test cases supposed to fail the validation, the suffix **`-nok`** should be attached (`{schema_name}-{custom_test_name}-nok.jsonld`). The tests are validated every time a change is introduced and therefore are ensuring the correct behavior of the schemas.
