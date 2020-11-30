@@ -4,7 +4,7 @@ The openMINDS_core repository is part of the open Metadata Initiative for Neuros
 schema-templates used for registering neuroscience research products into the EBRAINS Knowledge Graph.
 
 The major versions are developed and maintained in different version-branches. The default branch is always the latest version-branch.
-**Each version can be accessed by checking out the corresponding version-branch**
+**Each version can be accessed by checking out the corresponding version-branch.** This README describes the version-branch v3. 
 
 For more information on openMINDS in general and the processing pipelines for the schema-templates please go to the main repository: https://github.com/HumanBrainProject/openMINDS
 
