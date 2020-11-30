@@ -47,7 +47,7 @@
       "uniqueItems": true,
       "_instruction": "Add all features of this software version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/AbstractSoftwareFeature"
+        "https://openminds.ebrains.eu/controlledTerms/SoftwareFeature"
       ]
     },
     "hasRequirement": {
