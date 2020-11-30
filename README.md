@@ -17,11 +17,7 @@ The core v3.0 schemas (MINDS) are JSON-schema inspired schema-templates with a f
 **The different versions can be accessed by checking out their version-branch**
 
 ## How to contribute
-When contributing to this repository, please first discuss the change you wish to make via issue before making a change. 
-
-For providing feedback or for change requests to specific schema-templates or examples please name the corresponding file name in the issue title and describe your concern / request in a comment.
-
-You can also contribute directly by making a Pull Request (PR). Please name at least one member of the openMINDS development team to review your PR. To facilitate the review process describe shortly the purpose of your PR and what is affected by it. If your PR is accepted it will be merged by the assigned reviewer.
+Please check our [contribution document](./CONTRIBUTING.md).
 
 ## License
 This work is licensed under the MIT License.
