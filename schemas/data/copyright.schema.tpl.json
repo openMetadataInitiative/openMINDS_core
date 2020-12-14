@@ -17,7 +17,7 @@
     },
     "year": {
       "type": "string",
-      "pattern": "([0-9]{4}])",
+      "pattern": "([0-9]{4})",
       "_instruction": "Enter the year during which the copyright was first asserted."
     }
   }
