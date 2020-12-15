@@ -1,7 +1,7 @@
 {
   "_type": "https://openminds.ebrains.eu/core/Person",
   "required": [
-    "email",
+    "contactInformation",
     "givenName"
   ],
   "properties": {
@@ -14,10 +14,12 @@
         "https://openminds.ebrains.eu/core/DigitalIdentifier"
       ]
     },
-    "email": {
-      "type": "string",
-      "format": "email",
-      "_instruction": "Enter the email address of this person."
+    "contactInformation": {
+      "format": "contactInformation",
+      "_instruction": "Add the contact information of this person.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ContactInformation"
+      ]
     },
     "familyName": {
       "type": "string",
