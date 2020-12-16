@@ -1,0 +1,13 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/ContactInformation",
+  "required": [
+    "email"
+  ],
+  "properties": {
+    "email": {
+      "format": "email",
+      "type": "string",
+      "_instruction": "Enter the email address of this person."
+    }
+  }
+}
