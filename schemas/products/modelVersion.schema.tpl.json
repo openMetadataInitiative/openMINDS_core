@@ -2,19 +2,10 @@
   "_type": "https://openminds.ebrains.eu/core/ModelVersion",
   "_extends": "products/researchProductVersion.schema.tpl.json",
   "required": [
-    "abstractionLevel",
     "developer",
-    "format",
-    "scope",
-    "studyTarget"
+    "format"
   ],
   "properties": {
-    "abstractionLevel": {
-      "_instruction": "Add the abstraction level of this model version.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/ModelAbstractionLevel"
-      ]
-    },
     "format": {
       "_instruction": "Add the used content type of this model version.",
       "_linkedTypes": [
@@ -55,27 +46,6 @@
       "_instruction": "Add the data that was generated as output of this model version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DigitalIdentifier"
-      ]
-    },
-    "scope": {
-      "_instruction": "Add the scope of this model version.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/ModelScope"
-      ]
-    },
-    "studyTarget": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add all study targets of this model version.",
-      "_linkedTypes": [
-	"https://openminds.ebrains.eu/controlledTerms/BiologicalSex",
-        "https://openminds.ebrains.eu/controlledTerms/Disease",
-	"https://openminds.ebrains.eu/controlledTerms/Genotype",
-	"https://openminds.ebrains.eu/controlledTerms/Phenotype",
-        "https://openminds.ebrains.eu/controlledTerms/Species",
-	"https://openminds.ebrains.eu/controlledTerms/TermSuggestion",
-        "https://openminds.ebrains.eu/sands/AnatomicalEntity"
       ]
     }
   }
