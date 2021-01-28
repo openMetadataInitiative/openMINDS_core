@@ -1,7 +1,6 @@
 {
   "_type": "https://openminds.ebrains.eu/core/Person",
   "required": [
-    "contactInformation",
     "givenName"
   ],
   "properties": {
