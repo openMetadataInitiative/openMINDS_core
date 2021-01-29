@@ -22,3 +22,5 @@ Please check our [contribution document](./CONTRIBUTING.md).
 
 ## License
 This work is licensed under the MIT License.
+
+**Logo:** The openMINDS logo was created by U. Schlegel, based on an original sketch by C. Hagen Blixhavn and feedback by L. Zehl.
