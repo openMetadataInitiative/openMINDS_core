@@ -1,5 +1,5 @@
 <a href="https://github.com/HumanBrainProject/openMINDS_core/blob/v3/img/openMINDS_core_logo.png">
-    <img src="https://github.com/HumanBrainProject/openMINDS_core/blob/v3/img/openMINDS_core_logo.png" alt="openMINDS logo" title="openMINDS" align="right" height="70" />
+    <img src="https://github.com/HumanBrainProject/openMINDS_core/blob/v3/img/openMINDS_core_logo.png" alt="openMINDS core logo" title="openMINDS core" align="right" height="70" />
 </a>
 
 # openMINDS_core
