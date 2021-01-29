@@ -1,3 +1,7 @@
+<a href="https://github.com/HumanBrainProject/openMINDS_core/blob/v3/img/openMINDS_core_logo.png">
+    <img src="https://github.com/HumanBrainProject/openMINDS_core/blob/v3/img/openMINDS_core_logo.png" alt="openMINDS logo" title="openMINDS" align="right" height="70" />
+</a>
+
 # openMINDS_core
 
 The **openMINDS_core** repository is part of the **open** **M**etadata **I**nitiative for **N**euroscience **D**ata Structures (**openMINDS**). It contains the 
