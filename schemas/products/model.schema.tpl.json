@@ -1,7 +1,18 @@
 {
   "_type": "https://openminds.ebrains.eu/core/Model",
   "_extends": "products/researchProduct.schema.tpl.json",
+  "required": [
+    "abstractionLevel",
+    "scope",
+    "studyTarget"
+  ],
   "properties": {
+    "abstractionLevel": {
+      "_instruction": "Add the abstraction level of this model version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/ModelAbstractionLevel"
+      ]
+    },
     "hasVersion": {
       "type": "array",
       "minItems": 1,
@@ -9,6 +20,27 @@
       "_instruction": "Add one or several versions of this computational model.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ModelVersion"
+      ]
+    },
+    "scope": {
+      "_instruction": "Add the scope of this model version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/ModelScope"
+      ]
+    },
+    "studyTarget": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all study targets of this model version.",
+      "_linkedTypes": [
+	"https://openminds.ebrains.eu/controlledTerms/BiologicalSex",
+        "https://openminds.ebrains.eu/controlledTerms/Disease",
+	"https://openminds.ebrains.eu/controlledTerms/Genotype",
+	"https://openminds.ebrains.eu/controlledTerms/Phenotype",
+        "https://openminds.ebrains.eu/controlledTerms/Species",
+	"https://openminds.ebrains.eu/controlledTerms/TermSuggestion",
+        "https://openminds.ebrains.eu/sands/AnatomicalEntity"
       ]
     }
   }
