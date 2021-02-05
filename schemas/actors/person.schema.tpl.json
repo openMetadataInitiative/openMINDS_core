@@ -27,6 +27,14 @@
     "givenName": {
       "type": "string",
       "_instruction": "Enter the given name of this person."
+    },
+    "affiliation": {
+      "type": "array",
+      "uniqueItems": true,
+      "_instruction": "Add the current and, if necessary, past affiliations of this person",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Affiliation"
+      ]
     }
   }
 }

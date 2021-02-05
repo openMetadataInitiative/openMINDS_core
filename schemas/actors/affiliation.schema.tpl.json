@@ -1,0 +1,25 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/Affiliation",
+  "required": [
+    "organization",
+    "startDate"
+  ],
+   "properties": {
+     "startDate": {
+        "format": "date",
+        "type": "string",
+        "_instruction": "Enter the start date of this affiliation."
+     },
+     "endDate": {
+        "format": "date",
+        "type": "string",
+        "_instruction": "Enter the end date of this affiliation. Leave blank if the affiliation is still current."
+     },
+     "organization": {
+       "_instruction": "Add organization to which a person is or was affiliated.",
+       "_linkedTypes": [
+         "https://openminds.ebrains.eu/core/Organization"
+       ]
+     }
+   }
+}
