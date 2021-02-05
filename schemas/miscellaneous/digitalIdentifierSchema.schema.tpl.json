@@ -15,7 +15,7 @@
     },
     "identifierPattern": {
       "type": "string",
-      "_instruction": "Enter the required pattern for the identifiers of this digital identifier schema."
+      "_instruction": "Enter the required pattern (regular expression) for the identifiers of this digital identifier schema."
     }
   }
 }
