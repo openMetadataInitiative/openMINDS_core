@@ -7,6 +7,15 @@
     "type"
   ],
   "properties": {
+    "isPartOf": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all tissue sample collections of which this tissue sample is part of.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/TissueSampleCollection"
+      ]
+    },
     "laterality": {
       "type": "array",
       "maxItems": 2,      
