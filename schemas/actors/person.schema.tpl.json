@@ -30,6 +30,7 @@
     },
     "affiliation": {
       "type": "array",
+      "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add the current and, if necessary, past affiliations of this person",
       "_linkedTypes": [
