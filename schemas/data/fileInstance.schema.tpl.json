@@ -33,7 +33,8 @@
       "uniqueItems": true,
       "_instruction": "Add one or several file bundles in which this file instance can be grouped in.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/FileBundle"
+        "https://openminds.ebrains.eu/core/FileBundle",
+        "https://openminds.ebrains.eu/core/FileRepository"
       ]
     },
     "name": {
