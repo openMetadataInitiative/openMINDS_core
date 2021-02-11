@@ -2,7 +2,6 @@
   "_type": "https://openminds.ebrains.eu/core/ContentType",
   "required": [
     "associatedFileExtension",
-    "category",
     "name"  
   ],
   "properties": {
@@ -15,9 +14,9 @@
         "type": "string"
       }
     },
-    "category": {
+    "description": {
       "type": "string",
-      "_instruction": "Enter the category to which this content type belongs to."
+      "_instruction": "Enter a description of the content type specification if no public specification file can be linked. Leave blank an d use 'specification' if a public specification can be linked."
     },
     "relatedMediaType":{
       "type": "string",
@@ -27,6 +26,11 @@
     "name": {
       "type": "string",
       "_instruction": "Enter the name (iana-inspired convention) of this content type."
+    },
+    "specification":{
+      "type": "string",
+      "format": "iri",
+      "_instruction": "Enter the iternationalized resource identifier (IRI) to the official specification of this content type. Leave blank and use 'description' to provide some specification if an official specification is not available."
     },
     "synonym":{
       "type": "array",
