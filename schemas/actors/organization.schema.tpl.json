@@ -1,5 +1,8 @@
 {
   "_type": "https://openminds.ebrains.eu/core/Organization",
+  "_categories": [
+    "legalPerson"
+  ],
   "required": [
     "fullName"
   ],
