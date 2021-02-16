@@ -5,6 +5,7 @@
     "author",
     "custodian",
     "ethicsAssessment",
+    "license",
     "modality",
     "type"
   ],
@@ -37,6 +38,12 @@
       "_instruction": "Add the dataset version preceding this dataset version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DatasetVersion"
+      ]
+    },
+    "license": {
+      "_instruction": "Add the license of this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/License"
       ]
     },
     "modality": {
