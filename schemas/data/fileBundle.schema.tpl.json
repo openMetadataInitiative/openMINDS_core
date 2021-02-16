@@ -12,6 +12,10 @@
         "https://openminds.ebrains.eu/core/ContentType"
       ]
     },
+    "patternOfFilenames": {
+      "type": "string",
+      "_instruction": "Enter a regular expression (syntax: ECMA 262) which is valid for all filenames of the file instances that should be grouped into this file bundle."
+    },
     "groupedBy": {
       "_instruction": "Add the concept which was used to group file instances into this file bundle.",
       "_linkedTypes": [
