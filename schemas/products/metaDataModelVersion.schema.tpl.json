@@ -3,6 +3,7 @@
   "_extends": "products/researchProductVersion.schema.tpl.json",
   "required": [
     "developers",
+    "license",
     "type"
   ],
   "properties": {
@@ -28,6 +29,12 @@
       "_instruction": "Add the dataset version preceding this (meta)data model version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/MetaDataModelVersion"
+      ]
+    },
+    "license": {
+      "_instruction": "Add the license for this (meta)data model version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/License"
       ]
     },
     "serializationFormat": {
