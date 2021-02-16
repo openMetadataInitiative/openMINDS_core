@@ -20,7 +20,9 @@
     },
     "relatedMediaType":{
       "type": "string",
-      "format": "iri",
+      "_formats": [
+        "iri"
+      ],
       "_instruction": "Enter the iternationalized resource identifier (IRI) of the official registered media type (e.g. on IANA.org) matching this content type."
     },
     "name": {
@@ -29,7 +31,9 @@
     },
     "specification":{
       "type": "string",
-      "format": "iri",
+      "_formats": [
+        "iri"
+      ],
       "_instruction": "Enter the iternationalized resource identifier (IRI) of the official specification of this content type. Leave blank and use 'description' to provide some specification if an official specification is not available."
     },
     "synonym":{
