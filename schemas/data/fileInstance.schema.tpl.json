@@ -24,7 +24,9 @@
     },
     "IRI": {
       "type": "string",
-      "format": "iri",
+      "_formats": [
+        "iri"
+      ],
       "_instruction": "Enter the internationalized resource identifier of this file instance."
     },
     "isPartOf": {
