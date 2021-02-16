@@ -28,14 +28,8 @@
       "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add all study targets of this model version.",
-      "_linkedTypes": [
-	"https://openminds.ebrains.eu/controlledTerm/BiologicalSex",
-        "https://openminds.ebrains.eu/controlledTerm/Disease",
-	"https://openminds.ebrains.eu/controlledTerm/Genotype",
-	"https://openminds.ebrains.eu/controlledTerm/Phenotype",
-        "https://openminds.ebrains.eu/controlledTerm/Species",
-	"https://openminds.ebrains.eu/controlledTerm/TermSuggestion",
-        "https://openminds.ebrains.eu/sands/AnatomicalEntity"
+      "_linkedCategories": [
+        "studyTarget"
       ]
     },
     "technique": {
