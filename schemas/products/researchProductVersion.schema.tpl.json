@@ -24,9 +24,8 @@
       "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add one or several authors (person or organization) that contributed to the production and publication of this research product version.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Organization",
-        "https://openminds.ebrains.eu/core/Person"
+      "_linkedCategories": [
+        "legalPerson"
       ]
     },
     "copyright": {
@@ -40,9 +39,8 @@
       "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add one or several custodians (person or organization) that are responsible for this research product version.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Organization",
-        "https://openminds.ebrains.eu/core/Person"
+      "_linkedCategories": [
+        "legalPerson"
       ]
     },
     "description": {
@@ -55,9 +53,8 @@
       "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add one or several developers (person or organization) that contributed to the code implementation of this research product version.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Organization",
-        "https://openminds.ebrains.eu/core/Person"
+      "_linkedCategories": [
+        "legalPerson"
       ]
     },
     "digitalIdentifier": {
