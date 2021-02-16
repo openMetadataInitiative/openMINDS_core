@@ -6,12 +6,16 @@
   ],
    "properties": {
      "startDate": {
-        "format": "date",
+        "_formats": [
+          "date"
+        ],
         "type": "string",
         "_instruction": "Enter the start date of this affiliation."
      },
      "endDate": {
-        "format": "date",
+        "_formats": [
+          "date"
+        ],
         "type": "string",
         "_instruction": "Enter the end date of this affiliation. Leave blank if the affiliation is still current."
      },
