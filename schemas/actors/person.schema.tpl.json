@@ -1,5 +1,8 @@
 {
   "_type": "https://openminds.ebrains.eu/core/Person",
+  "_categories": [
+    "legalPerson"
+  ],
   "required": [
     "givenName"
   ],
