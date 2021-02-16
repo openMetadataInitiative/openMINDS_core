@@ -41,7 +41,7 @@
       ]
     },
     "license": {
-      "_instruction": "Add the license of this research product version.",
+      "_instruction": "Add the license for this dataset version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/License"
       ]
