@@ -14,7 +14,6 @@
       ]
     },
     "contactInformation": {
-      "format": "contactInformation",
       "_instruction": "Add the contact information of this person.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ContactInformation"
