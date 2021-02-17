@@ -12,20 +12,11 @@
         "https://openminds.ebrains.eu/core/ContentType"
       ]
     },
-    "hasAlternativeVersion": {
+    "hasComponent": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all model versions that can be used alternatively to this model version.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ModelVersion"
-      ]
-    },
-    "hasSupplementVersion": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add all model versions that supplement this model version.",
+      "_instruction": "Add all model versions that complement this model version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ModelVersion"
       ]
@@ -34,6 +25,15 @@
       "_instruction": "Add the data that was used as input for this model version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DigitalIdentifier"
+      ]
+    },
+    "isAlternativeVersionOf": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all model versions that can be used alternatively to this model version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ModelVersion"
       ]
     },
     "isNewVersionOf": {
