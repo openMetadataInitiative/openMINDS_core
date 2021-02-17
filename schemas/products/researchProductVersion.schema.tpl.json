@@ -110,7 +110,7 @@
       "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add the contributions for each involved person or organization going beyond being an author, custodian or developer of this research product version.",
-      "_linkedTypes": [
+      "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/Contribution"
       ]
     },
