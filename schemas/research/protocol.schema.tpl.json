@@ -29,12 +29,12 @@
       "uniqueItems": true,
       "_instruction": "Add all study targets of this model version.",
       "_linkedTypes": [
-	"https://openminds.ebrains.eu/controlledTerm/BiologicalSex",
-        "https://openminds.ebrains.eu/controlledTerm/Disease",
-	"https://openminds.ebrains.eu/controlledTerm/Genotype",
-	"https://openminds.ebrains.eu/controlledTerm/Phenotype",
-        "https://openminds.ebrains.eu/controlledTerm/Species",
-	"https://openminds.ebrains.eu/controlledTerm/TermSuggestion",
+	"https://openminds.ebrains.eu/controlledTerms/BiologicalSex",
+        "https://openminds.ebrains.eu/controlledTerms/Disease",
+	"https://openminds.ebrains.eu/controlledTerms/Genotype",
+	"https://openminds.ebrains.eu/controlledTerms/Phenotype",
+        "https://openminds.ebrains.eu/controlledTerms/Species",
+	"https://openminds.ebrains.eu/controlledTerms/TermSuggestion",
         "https://openminds.ebrains.eu/sands/AnatomicalEntity"
       ]
     },
