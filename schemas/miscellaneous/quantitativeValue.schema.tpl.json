@@ -17,6 +17,12 @@
         "type": "number"
       }
     },
+    "typeOfUncertainty": {
+      "_instruction": "Add the type of uncertainty used for this quantitative value.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/TypeOfUncertainty"
+      ]
+    },  
     "unit": {
       "_instruction": "Add the unit of measurement of this quantitative value.",
       "_linkedTypes": [

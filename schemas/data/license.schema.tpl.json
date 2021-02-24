@@ -8,7 +8,9 @@
   "properties": {
     "deed": {
       "type": "string",
-      "format": "iri",
+      "_formats": [
+        "iri"
+      ],
       "_instruction": "Enter the internationalized resource identifier (IRI) pointing to the deed of this license."
     },
     "fullName": {
@@ -17,7 +19,9 @@
     },
     "legalCode": {
       "type": "string",
-      "format": "iri",
+      "_formats": [
+        "iri"
+      ],
       "_instruction": "Enter the internationalized resource identifier (IRI) pointing to the legal code of this license."
     },
     "shortName": {

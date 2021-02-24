@@ -1,5 +1,8 @@
 {
   "_type": "https://openminds.ebrains.eu/core/Organization",
+  "_categories": [
+    "legalPerson"
+  ],
   "required": [
     "fullName"
   ],
@@ -25,7 +28,9 @@
     },
     "homepage": {
       "type": "string",
-      "format": "iri",
+      "_formats": [
+        "iri"
+      ],
       "_instruction": "Enter a internationalized resource identifier (IRI) to the homepage of this organization."
     },
     "shortName": {

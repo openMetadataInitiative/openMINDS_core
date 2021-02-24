@@ -6,15 +6,17 @@
   ],
   "properties": {
     "maxValue": {
-      "_instruction": "Add the maximum quantitative value of this range.",
-      "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
-      ]
+      "type": "number",
+      "_instruction": "Add the maximum value measured for this range."
     },
     "minValue": {
-      "_instruction": "Add the minimum quantitative value of this range.",
-      "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      "type": "number",
+      "_instruction": "Add the minimum value measured for this range."
+    },
+    "unit": {
+      "_instruction": "Add the unit of measurement of this quantitative value range.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
       ]
     }
   }

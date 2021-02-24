@@ -1,5 +1,8 @@
 {
   "_type": "https://openminds.ebrains.eu/core/Person",
+  "_categories": [
+    "legalPerson"
+  ],
   "required": [
     "givenName"
   ],
@@ -14,7 +17,6 @@
       ]
     },
     "contactInformation": {
-      "format": "contactInformation",
       "_instruction": "Add the contact information of this person.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ContactInformation"

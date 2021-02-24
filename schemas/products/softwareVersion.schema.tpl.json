@@ -32,11 +32,11 @@
         "https://openminds.ebrains.eu/controlledTerms/OperatingDevice"
       ]
     },
-    "hasAlternativeVersion": {
+    "hasComponent": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all software versions that can be used alternatively to this software version.",
+      "_instruction": "Add all software versions that supplement this software version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/SoftwareVersion"
       ]
@@ -54,15 +54,6 @@
       "type": "string",
       "_instruction": "Enter all requirements of this software version."
     },
-    "hasSupplementVersion": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add all software versions that supplement this software version.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/SoftwareVersion"
-      ]
-    },
     "inputFormat": {
       "type": "array",
       "minItems": 1,
@@ -70,6 +61,15 @@
       "_instruction": "Add the content types of all possible input formats for this software version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ContentType"
+      ]
+    },
+    "isAlternativeVersionOf": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all software versions that can be used alternatively to this software version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/SoftwareVersion"
       ]
     },
     "isNewVersionOf": {
