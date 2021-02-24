@@ -3,7 +3,8 @@
   "_extends": "products/researchProductVersion.schema.tpl.json",
   "required": [
     "developer",
-    "format"
+    "format",
+    "license"
   ],
   "properties": {
     "format": {
@@ -40,6 +41,15 @@
       "_instruction": "Add the model version preceding this model version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ModelVersion"
+      ]
+    },
+    "license": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add at least one license for this model version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/License"
       ]
     },
     "outputData": {

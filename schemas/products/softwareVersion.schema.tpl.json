@@ -9,6 +9,7 @@
     "hasRequirement",
     "inputFormat",
     "language",
+    "license",
     "operatingSystem",
     "outputFormat",
     "programmingLanguage"
@@ -85,6 +86,15 @@
       "_instruction": "Add all languages supported by this software version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/Language"
+      ]
+    },
+    "license": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add at least one license for this software version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/License"
       ]
     },
     "operatingSystem": {

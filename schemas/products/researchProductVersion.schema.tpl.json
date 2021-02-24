@@ -6,7 +6,6 @@
     "fullDocumentation",
     "fullName",
     "funding",
-    "license",
     "releaseDate",
     "repository",
     "shortName",
@@ -98,12 +97,6 @@
       "items": {
         "type": "string"
       }
-    },
-    "license": {
-      "_instruction": "Add the license of this research product version.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/License"
-      ]
     },
     "otherContribution": {
       "type": "array",
