@@ -7,7 +7,7 @@
   ],
   "properties": {
     "format": {
-      "_instruction": "Add the content type of this file bundle.",
+      "_instruction": "If file instances within this bundle are organized and formatted according to a formal data structure use the appropriate contentType. Leave blank otherwise.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ContentType"
       ]
