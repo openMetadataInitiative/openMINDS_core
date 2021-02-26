@@ -14,7 +14,7 @@
     "handedness": {
       "_instruction": "Add the preferred hand of the subject in this state.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Laterality"
+        "https://openminds.ebrains.eu/controlledTerms/Handedness"
       ]
     }
   }
