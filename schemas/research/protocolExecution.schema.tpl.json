@@ -43,7 +43,7 @@
       "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add all important parameter settings defining this protocol execution.",
-      "_linkedTypes": [
+      "_embeddedTypes": [
          "https://openminds.ebrains.eu/core/ParameterSetting"
       ]
     },
