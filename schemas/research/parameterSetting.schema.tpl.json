@@ -22,7 +22,7 @@
       "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add all numerical and string parameters that belong to this setting.",
-      "_linkedTypes": [
+      "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/NumericalParameter",
         "https://openminds.ebrains.eu/core/StringParameter"
       ]
