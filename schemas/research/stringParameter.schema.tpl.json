@@ -1,0 +1,17 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/StringParameter",
+  "required": [
+    "name",
+    "value"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "_instruction": "Enter a descriptive name for this string parameter."
+    },
+    "value": {
+      "type": "string",
+      "_instruction": "Enter a semantic value for this string parameter."
+    }
+  }
+}
