@@ -1,19 +1,14 @@
 {
   "_type": "https://openminds.ebrains.eu/core/ParameterSetting",
   "required": [
-    "description",
-    "name",
+    "context",
     "relevantFor",
-    "value"
+    "setting"
   ],
   "properties": {
-    "description": {
+    "context": {
       "type": "string",
-      "_instruction": "Enter a description of this parameter setting."
-    },
-    "name": {
-      "type": "string",
-      "_instruction": "Enter the name of this parameter setting."
+      "_instruction": "Enter the common context for the parameters in this setting."
     },
     "relevantFor": {
       "_instruction": "Add the technique or behavioral task where this parameter setting is used in.",
@@ -22,15 +17,15 @@
         "https://openminds.ebrains.eu/controlledTerms/Technique"
       ]
     },
-    "value": {
-      "type": ["number", "string"],
-      "_instruction": "Enter the value of this parameter setting."
-    },
-    "unit": {
-      "_instruction": "Add the unit of measurement used for the value of this parameter setting.",
+    "parameters": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all numerical and string parameters that belong to this setting.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
+        "https://openminds.ebrains.eu/core/NumericalParameter",
+        "https://openminds.ebrains.eu/core/StringParameter"
       ]
-    }
+    },
   }
 }
