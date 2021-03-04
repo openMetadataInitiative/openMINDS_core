@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/ParameterSetting",
+  "_type": "https://openminds.ebrains.eu/core/ParameterSet",
   "required": [
     "context",
     "relevantFor",
