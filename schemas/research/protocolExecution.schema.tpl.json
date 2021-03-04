@@ -38,13 +38,13 @@
         "https://openminds.ebrains.eu/core/TissueSampleState"
       ]
     },
-    "parameterSetting": {
+    "parameterSet": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add all important parameter settings defining this protocol execution.",
       "_embeddedTypes": [
-         "https://openminds.ebrains.eu/core/ParameterSetting"
+         "https://openminds.ebrains.eu/core/ParameterSet"
       ]
     },
     "preparationType": {
