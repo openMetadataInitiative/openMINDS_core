@@ -3,7 +3,7 @@
   "required": [
     "context",
     "relevantFor",
-    "parameters"
+    "parameter"
   ],
   "properties": {
     "context": {
@@ -17,7 +17,7 @@
         "https://openminds.ebrains.eu/controlledTerms/Technique"
       ]
     },
-    "parameters": {
+    "parameter": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
