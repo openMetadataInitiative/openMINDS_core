@@ -2,7 +2,7 @@
   "_type": "https://openminds.ebrains.eu/core/MetaDataModelVersion",
   "_extends": "products/researchProductVersion.schema.tpl.json",
   "required": [
-    "developers",
+    "developer",
     "license",
     "type"
   ],
