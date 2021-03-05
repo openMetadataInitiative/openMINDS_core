@@ -18,8 +18,8 @@
     },
     "funder": {
       "_instruction": "Add the organization that provided this funding.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Organization"
+      "_linkedCategories": [
+        "legalPerson"
       ]
     }
   }
