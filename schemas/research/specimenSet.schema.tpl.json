@@ -4,6 +4,10 @@
     "species"
   ],
   "properties": {
+    "additionalRemarks": {
+      "type": "string",
+      "_instruction": "Enter additional remarks about the specimen (set) in this state."
+    },
     "biologicalSex": {
       "type": "array",
       "minItems": 1,
