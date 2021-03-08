@@ -5,8 +5,8 @@
     "applicationCategory",
     "developer",
     "device",
-    "hasFeature",
-    "hasRequirement",
+    "feature",
+    "requirement",
     "inputFormat",
     "language",
     "license",
@@ -42,16 +42,16 @@
         "https://openminds.ebrains.eu/core/SoftwareVersion"
       ]
     },
-    "hasFeature": {
+    "feature": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all features of this software version.",
+      "_instruction": "Add all distinguishing characteristics of this software version (e.g. performance, portability, or functionality).",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/SoftwareFeature"
       ]
     },
-    "hasRequirement": {
+    "requirement": {
       "type": "string",
       "_instruction": "Enter all requirements of this software version."
     },
