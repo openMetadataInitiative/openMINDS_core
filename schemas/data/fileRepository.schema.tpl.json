@@ -14,7 +14,7 @@
     },
     "hash": {
       "_instruction": "Add the hash that was generated for this file repository.",
-      "_linkedTypes": [
+      "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/Hash"
       ]
     },
