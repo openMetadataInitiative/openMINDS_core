@@ -18,7 +18,7 @@
     },
     "hash": {
       "_instruction": "Add the hash that was generated for this file instance.",
-      "_linkedTypes": [
+      "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/Hash"
       ]
     },
