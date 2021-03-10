@@ -12,7 +12,6 @@
     "value": {
       "type": "array",
       "minItems": 1,
-      "uniqueItems": true,
       "_instruction": "Add at least one quantitative value for this parameter.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue",
