@@ -42,7 +42,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all important parameter settings defining this protocol execution.",
+      "_instruction": "Add all important parameters grouped in context-specific sets that were used in this protocol execution.",
       "_embeddedTypes": [
          "https://openminds.ebrains.eu/core/ParameterSet"
       ]
