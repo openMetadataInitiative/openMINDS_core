@@ -14,7 +14,7 @@
       "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add at least one quantitative value for this parameter.",
-      "_linkedTypes": [
+      "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue",
         "https://openminds.ebrains.eu/core/QuantitativeValueRange"
       ]
