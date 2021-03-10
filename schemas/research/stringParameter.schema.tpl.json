@@ -11,7 +11,7 @@
     },
     "value": {
       "type": "string",
-      "_instruction": "Enter a semantic value for this string parameter."
+      "_instruction": "Enter a text value for this string parameter."
     }
   }
 }
