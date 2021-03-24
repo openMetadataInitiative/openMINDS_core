@@ -28,13 +28,6 @@
         "https://openminds.ebrains.eu/core/Hash"
       ]
     },
-    "IRI": {
-      "type": "string",
-      "_formats": [
-        "iri"
-      ],
-      "_instruction": "Enter the internationalized resource identifier (IRI) of this file bundle."
-    },
     "isPartOf": {
       "_instruction": "Add the file bundle or file repository this file bundle is a part of.",
       "_linkedTypes": [
