@@ -79,7 +79,7 @@
       "uniqueItems": true,
       "_instruction": "Add all data types (raw, derived or simulated) provided in this dataset version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/DatasetType"
+        "https://openminds.ebrains.eu/controlledTerms/SemanticDataType"
       ]
     }
   }
