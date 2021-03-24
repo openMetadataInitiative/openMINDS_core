@@ -41,7 +41,7 @@
       "uniqueItems": true,
       "_instruction": "Add one or several bundles in which this single file can be grouped.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/FileBundle",
+        "https://openminds.ebrains.eu/core/FileBundle"
       ]
     },
     "name": {
