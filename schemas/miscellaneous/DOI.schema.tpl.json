@@ -8,7 +8,7 @@
     "identifier": {
       "type": "string",
       "pattern": "^https:\/\/doi.org\/10.[0-9]{4,9}\/[-._;()/:A-Za-z0-9]+",
-      "_instruction": "Enter the resolvable DOI (as IRI)."
+      "_instruction": "Enter the resolvable identifier (IRI) of the International Digital Object Identifier Foundation."
     }
   }
 }
