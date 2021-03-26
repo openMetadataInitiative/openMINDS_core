@@ -66,7 +66,7 @@
     "fullDocumentation": {
       "_instruction": "Add the globally unique and persistent digital identifier of a full documentation of this research product version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DigitalIdentifier"
+        "https://openminds.ebrains.eu/core/DOI"
       ]
     },
     "fullName": {
@@ -114,7 +114,8 @@
       "uniqueItems": true,
       "_instruction": "Add further publications besides the documentation (e.g. an original research article) providing the original context for the production of this research product version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DigitalIdentifier"
+        "https://openminds.ebrains.eu/core/DOI",
+        "https://openminds.ebrains.eu/core/ISBN"
       ]
     },
     "releaseDate": {
