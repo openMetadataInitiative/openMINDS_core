@@ -13,7 +13,7 @@
       "uniqueItems": true,
       "_instruction": "Add one or several globally unique and persistent digital identifier for this person.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DigitalIdentifier"
+        "https://openminds.ebrains.eu/core/ORCID"
       ]
     },
     "contactInformation": {
