@@ -1,23 +1,8 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/DigitalIdentifier",
-  "required": [
-    "identifier",
-    "identifierSchema"
-  ],
   "properties": {
     "howToCite": {
       "type": "string",
       "_instruction": "Enter the preferred citation text for the resource this digital identifier stands for."
-    },
-    "identifier": {
-      "type": "string",
-      "_instruction": "Enter the digital identifier of a resource."
-    },
-    "identifierSchema": {
-      "_instruction": "Add the used schema of this digital identifier.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DigitalIdentifierSchema"
-      ]
     }
   }
 }
