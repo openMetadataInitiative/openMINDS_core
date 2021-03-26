@@ -25,7 +25,9 @@
     "inputData": {
       "_instruction": "Add the data that was used as input for this model version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DigitalIdentifier"
+        "https://openminds.ebrains.eu/core/DOI",
+        "https://openminds.ebrains.eu/core/File",
+        "https://openminds.ebrains.eu/core/FileBundle"
       ]
     },
     "isAlternativeVersionOf": {
@@ -55,7 +57,9 @@
     "outputData": {
       "_instruction": "Add the data that was generated as output of this model version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DigitalIdentifier"
+        "https://openminds.ebrains.eu/core/DOI",
+        "https://openminds.ebrains.eu/core/File",
+        "https://openminds.ebrains.eu/core/FileBundle"
       ]
     }
   }
