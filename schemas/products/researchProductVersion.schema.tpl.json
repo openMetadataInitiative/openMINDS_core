@@ -64,9 +64,10 @@
       ]
     },
     "fullDocumentation": {
-      "_instruction": "Add the globally unique and persistent digital identifier of a full documentation of this research product version.",
+      "_instruction": "Add the file or a DOI to the full documentation of this research product version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DOI"
+        "https://openminds.ebrains.eu/core/DOI",
+        "https://openminds.ebrains.eu/core/File"
       ]
     },
     "fullName": {

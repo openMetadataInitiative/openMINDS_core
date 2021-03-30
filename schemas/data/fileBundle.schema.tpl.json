@@ -1,7 +1,6 @@
 {
   "_type": "https://openminds.ebrains.eu/core/FileBundle",
   "required": [
-    "IRI",
     "isPartOf",
     "name"
   ],
