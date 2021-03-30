@@ -1,0 +1,14 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/ISBN",
+  "_extends": "products/digitalIdentifier.schema.tpl.json",
+  "requires": [
+    "identifier"
+  ],
+  "properties": {
+    "identifier": {
+      "type": "string",
+      "pattern": "^([0-9]{3}-|)[0-9]{1}-[0-9]{3}-[0-9]{5}-[0-9]{1}$",
+      "_instruction": "Enter the International Standard Book Number of the International ISBN Agency."
+    }
+  }
+}

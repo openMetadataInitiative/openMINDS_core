@@ -1,0 +1,14 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/GRIDID",
+  "_extends": "products/digitalIdentifier.schema.tpl.json",
+  "requires": [
+    "identifier"
+  ],
+  "properties": {
+    "identifier": {
+      "type": "string",
+      "pattern": "^https:\/\/grid.ac\/institutes\/grid.[0-9]{1,}.([a-f0-9]{1,2})$",
+      "_instruction": "Enter the resolvable identifier (IRI) of the Global Research Identifier Database."
+    }
+  }
+}

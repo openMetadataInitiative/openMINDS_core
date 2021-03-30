@@ -1,0 +1,14 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/RORID",
+  "_extends": "products/digitalIdentifier.schema.tpl.json",
+  "requires": [
+    "identifier"
+  ],
+  "properties": {
+    "identifier": {
+      "type": "string",
+      "pattern": "^https:\/\/ror.org\/0([0-9]|[^ILO]|[a-z]){6}[0-9]{2}$",
+      "_instruction": "Enter the resolvable identifier (IRI) of the Research Organization Registry."
+    }
+  }
+}

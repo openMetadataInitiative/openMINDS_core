@@ -1,0 +1,14 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/SWHID",
+  "_extends": "products/digitalIdentifier.schema.tpl.json",
+  "requires": [
+    "identifier"
+  ],
+  "properties": {
+    "identifier": {
+      "type": "string",
+      "pattern": "^https:\/\/archive.softwareheritage.org\/swh:1:(cnt|dir|rel|rev|snp):[0-9a-f]{40}(;(origin|visit|anchor|path|lines)=[^ \t\r\n\f]+)*$",
+      "_instruction": "Enter the resolvable identifier (IRI) of the Software Heritage archive."
+    }
+  }
+}
