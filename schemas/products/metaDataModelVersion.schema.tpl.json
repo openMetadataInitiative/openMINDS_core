@@ -10,7 +10,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add one or several developers (person or organization) that contributed to the code implementation of this (meta)data model version.",
+      "_instruction": "If necessary, add one or several developers (person or organization) that contributed to the code implementation of this (meta)data model version. Note that these developers will overwrite the once provided in the (meta)data model product this version belongs to.",
       "_linkedCategories": [
         "legalPerson"
       ]

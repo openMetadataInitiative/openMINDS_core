@@ -3,6 +3,7 @@
   "_extends": "products/researchProduct.schema.tpl.json",
   "required": [
     "abstractionLevel",
+    "developer",
     "scope",
     "studyTarget"
   ],
@@ -11,6 +12,15 @@
       "_instruction": "Add the abstraction level of this model version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/ModelAbstractionLevel"
+      ]
+    },
+    "developer": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add one or several developers (person or organization) that contributed to the code implementation of this model.",
+      "_linkedCategories": [
+        "legalPerson"
       ]
     },
     "hasVersion": {

@@ -1,7 +1,19 @@
 {
   "_type": "https://openminds.ebrains.eu/core/Dataset",
   "_extends": "products/researchProduct.schema.tpl.json",
+  "required": [
+    "author"
+  ],
   "properties": {
+    "author": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add one or several authors (person or organization) that contributed to the production and publication of this dataset.",
+      "_linkedCategories": [
+        "legalPerson"
+      ]
+    },
     "hasVersion": {
       "type": "array",
       "minItems": 1,
