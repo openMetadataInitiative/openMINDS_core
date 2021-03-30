@@ -24,6 +24,15 @@
         "https://openminds.ebrains.eu/controlledTerms/SoftwareApplicationCategory"
       ]
     },
+    "developer": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add one or several developers (person or organization) that contributed to the code implementation of this software version.",
+      "_linkedCategories": [
+        "legalPerson"
+      ]
+    },
     "device": {
       "type": "array",
       "minItems": 1,

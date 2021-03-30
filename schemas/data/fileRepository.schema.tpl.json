@@ -35,6 +35,12 @@
       "type": "string",
       "_instruction": "Enter the name of this file repository."
     },
+    "repositoryType": {
+      "_instruction": "Add the type of this file repository.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/FileRepositoryType"
+      ]
+    },
     "storageSize": {
       "_instruction": "Enter the storage size this file repository allocates.",
       "_embeddedTypes": [
