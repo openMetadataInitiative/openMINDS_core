@@ -15,7 +15,6 @@
       "_instruction": "Add the globally unique and persistent digital identifier of this research product.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DOI",
-        "https://openminds.ebrains.eu/core/ISBN",
         "https://openminds.ebrains.eu/core/SWHID"
       ]
     },
