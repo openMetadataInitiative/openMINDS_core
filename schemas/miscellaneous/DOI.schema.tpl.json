@@ -1,6 +1,6 @@
 {
   "_type": "https://openminds.ebrains.eu/core/DOI",
-  "_extends": "products/digitalIdentifier.schema.tpl.json",
+  "_extends": "miscellaneous/digitalIdentifier.schema.tpl.json",
   "requires": [
     "identifier"
   ],
