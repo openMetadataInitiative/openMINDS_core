@@ -2,27 +2,25 @@
   "_type": "https://openminds.ebrains.eu/core/DatasetVersion",
   "_extends": "products/researchProductVersion.schema.tpl.json",
   "required": [
-    "author",
-    "custodian",
     "ethicsAssessment",
     "license",
     "modality",
     "type"
   ],
   "properties": {
+    "author": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "If necessary, add one or several authors (person or organization) that contributed to the production and publication of this dataset version. Note that these authors will overwrite the once provided in the dataset product this version belongs to.",
+      "_linkedCategories": [
+        "legalPerson"
+      ]
+    },
     "ethicsAssessment": {
       "_instruction": "Add the result of the ethics assessment of this dataset version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/EthicsAssessment"
-      ]
-    },
-    "hasComponent": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add all dataset versions that complement this dataset version.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DatasetVersion"
       ]
     },
     "inputData": {

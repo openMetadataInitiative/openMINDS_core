@@ -1,14 +1,17 @@
 {
   "_type": "https://openminds.ebrains.eu/core/Software",
   "_extends": "products/researchProduct.schema.tpl.json",
+  "required": [
+    "developer"
+  ],
   "properties": {
-    "hasComponent": {
+    "developer": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add one or several components (other software) of this software.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Software"
+      "_instruction": "Add one or several developers (person or organization) that contributed to the code implementation of this software.",
+      "_linkedCategories": [
+        "legalPerson"
       ]
     },
     "hasVersion": {

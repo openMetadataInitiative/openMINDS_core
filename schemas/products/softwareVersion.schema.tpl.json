@@ -3,7 +3,6 @@
   "_extends": "products/researchProductVersion.schema.tpl.json",
   "required": [
     "applicationCategory",
-    "developer",
     "device",
     "feature",
     "requirement",
@@ -22,6 +21,15 @@
       "_instruction": "Add all categories to which this software version belongs.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/SoftwareApplicationCategory"
+      ]
+    },
+    "developer": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "If necessary, add one or several developers (person or organization) that contributed to the code implementation of this software version. Note that these developers will overwrite the once provided in the software product this version belongs to.",
+      "_linkedCategories": [
+        "legalPerson"
       ]
     },
     "device": {

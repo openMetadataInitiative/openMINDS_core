@@ -3,6 +3,7 @@
   "_extends": "products/researchProduct.schema.tpl.json",
   "required": [
     "abstractionLevel",
+    "developer",
     "scope",
     "studyTarget"
   ],
@@ -13,15 +14,15 @@
         "https://openminds.ebrains.eu/controlledTerms/ModelAbstractionLevel"
       ]
     },
-    "hasComponent": {
+    "developer": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add one or several components (other models) of this computational model.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Model"
+      "_instruction": "Add one or several developers (person or organization) that contributed to the code implementation of this model.",
+      "_linkedCategories": [
+        "legalPerson"
       ]
-    },  
+    },
     "hasVersion": {
       "type": "array",
       "minItems": 1,
