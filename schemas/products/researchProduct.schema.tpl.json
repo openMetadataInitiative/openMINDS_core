@@ -9,10 +9,10 @@
     "description": {
       "type": "string",
       "maxLength": 2000,
-      "_instruction": "Enter a description (abstract) for this research product (max. 2000 characters, incl. spaces; no references)."
+      "_instruction": "Enter a description (abstract) for this research product (max. 2000 characters, incl. spaces; no references). Note that this description should be fitting for all attached research product versions."
     },
     "digitalIdentifier": {
-      "_instruction": "Add the globally unique and persistent digital identifier of this research product.",
+      "_instruction": "Add the globally unique and persistent digital identifier of this research product. Note that this digital identifier will be used to reference all attached research product versions.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DOI",
         "https://openminds.ebrains.eu/core/SWHID"
@@ -20,7 +20,7 @@
     },
     "fullName": {
       "type": "string",
-      "_instruction": "Enter a descriptive full name (title) for this research product."
+      "_instruction": "Enter a descriptive full name (title) for this research product.  Note that this full name should be fitting for all attached research product versions."
     },
     "homepage": {
       "type": "string",

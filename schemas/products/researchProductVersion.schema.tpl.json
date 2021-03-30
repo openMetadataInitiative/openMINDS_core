@@ -35,7 +35,7 @@
     "description": {
       "type": "string",
       "maxLength": 2000,
-      "_instruction": "Enter a description (abstract) for this research product (max. 2000 characters, incl. spaces; no references)."
+      "_instruction": "If necessary, enter a version specific description (abstract) for this research product version (max. 2000 characters, incl. spaces; no references). If left blank, the research product version will inherit the 'description' of it's corresponding research product."
     },
     "digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this research product version.",
@@ -53,7 +53,7 @@
     },
     "fullName": {
       "type": "string",
-      "_instruction": "Enter a descriptive full name (title) for this research product version."
+      "_instruction": "If necessary, enter a version specific descriptive full name (title) for this research product version. If left blank, the research product version will inherit the 'fullName' of it's corresponding research product."
     },
     "funding": {
       "type": "array",
@@ -137,7 +137,7 @@
     },
     "versionInnovation": {
       "type": "string",
-      "_instruction": "Enter a short summary of the novelties/peculiarities of this research product version."
+      "_instruction": "Enter a summary/description of the novelties/peculiarities of this research product version in comparison to other versions of it's research product. If this research product version is the first released version, you can enter the following disclaimer 'This is the first version of this research product.'"
     }
   }
 }
