@@ -1,7 +1,6 @@
 {
   "required": [
     "accessibility",
-    "digitalIdentifier",
     "fullDocumentation",
     "funding",
     "releaseDate",
