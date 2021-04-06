@@ -3,6 +3,7 @@
   "_extends": "products/researchProductVersion.schema.tpl.json",
   "required": [
     "ethicsAssessment",
+    "digitalIdentifier",
     "license",
     "modality",
     "type"
