@@ -18,6 +18,12 @@
         "legalPerson"
       ]
     },
+    "digitalIdentifier": {
+      "_instruction": "Add the globally unique and persistent digital identifier of this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DOI"
+      ]
+    },
     "ethicsAssessment": {
       "_instruction": "Add the result of the ethics assessment of this dataset version.",
       "_linkedTypes": [

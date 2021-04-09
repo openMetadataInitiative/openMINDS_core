@@ -36,13 +36,6 @@
       "maxLength": 2000,
       "_instruction": "If necessary, enter a version specific description (abstract) for this research product version (max. 2000 characters, incl. spaces; no references). If left blank, the research product version will inherit the 'description' of it's corresponding research product."
     },
-    "digitalIdentifier": {
-      "_instruction": "Add the globally unique and persistent digital identifier of this research product version.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DOI",
-        "https://openminds.ebrains.eu/core/SWHID"
-      ]
-    },
     "fullDocumentation": {
       "_instruction": "Add the file or a DOI to the full documentation of this research product version.",
       "_linkedTypes": [

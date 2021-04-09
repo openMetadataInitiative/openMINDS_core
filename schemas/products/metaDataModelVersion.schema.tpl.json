@@ -15,6 +15,13 @@
         "legalPerson"
       ]
     },
+    "digitalIdentifier": {
+      "_instruction": "Add the globally unique and persistent digital identifier of this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DOI",
+        "https://openminds.ebrains.eu/core/SWHID"
+      ]
+    },
     "isAlternativeVersionOf": {
       "type": "array",
       "minItems": 1,
