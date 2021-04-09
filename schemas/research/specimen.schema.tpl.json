@@ -15,12 +15,6 @@
       "type": "string",
       "_instruction": "Enter the identifier of this specimen that is used within the corresponding data."
     },
-    "genotype": {
-      "_instruction": "Add the genotype of this specimen.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Genotype"
-      ]
-    },
     "phenotype": {
       "_instruction": "Add the phenotype of this specimen.",
       "_linkedTypes": [
