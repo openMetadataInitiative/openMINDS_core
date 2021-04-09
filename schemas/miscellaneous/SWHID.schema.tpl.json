@@ -1,6 +1,5 @@
 {
   "_type": "https://openminds.ebrains.eu/core/SWHID",
-  "_extends": "miscellaneous/digitalIdentifier.schema.tpl.json",
   "requires": [
     "identifier"
   ],

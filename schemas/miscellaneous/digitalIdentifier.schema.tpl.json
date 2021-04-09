@@ -1,8 +1,0 @@
-{
-  "properties": {
-    "howToCite": {
-      "type": "string",
-      "_instruction": "Enter the preferred citation text for the resource this digital identifier stands for."
-    }
-  }
-}

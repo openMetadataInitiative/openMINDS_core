@@ -1,6 +1,5 @@
 {
   "_type": "https://openminds.ebrains.eu/core/ISBN",
-  "_extends": "miscellaneous/digitalIdentifier.schema.tpl.json",
   "requires": [
     "identifier"
   ],

@@ -63,6 +63,10 @@
       ],
       "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this research product version."
     },
+    "howToCite": {
+      "type": "string",
+      "_instruction": "Enter the preferred citation text for this research product version. Leave blank if citation text can be extracted from the assigned digital identifier."
+    },
     "keyword": {
       "type": "array",
       "maxItems": 5,
