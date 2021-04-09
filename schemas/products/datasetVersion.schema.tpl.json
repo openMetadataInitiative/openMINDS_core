@@ -5,7 +5,7 @@
     "ethicsAssessment",
     "digitalIdentifier",
     "license",
-    "modality",
+    "experimentalApproach",
     "type"
   ],
   "properties": {
@@ -56,13 +56,13 @@
         "https://openminds.ebrains.eu/core/License"
       ]
     },
-    "modality": {
+    "experimentalApproach": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all modalities in which the approaches used in this dataset version can be categorized in.",
+      "_instruction": "Add all experimental approaches which this dataset version has deployed.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Modality"
+        "https://openminds.ebrains.eu/controlledTerms/ExperimentalApproach"
       ]
     },
     "studiedSpecimen": {
