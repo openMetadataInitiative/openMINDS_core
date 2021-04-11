@@ -6,6 +6,15 @@
     "shortName"
   ],
   "properties": {
+    "custodian": {
+      "type": "array",      
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add one or several custodians (person or organization) that are responsible for this research product. Note that this custodian will be responsible for all attached research product versions.",
+      "_linkedCategories": [
+        "legalPerson"
+      ]
+    },
     "description": {
       "type": "string",
       "maxLength": 2000,
