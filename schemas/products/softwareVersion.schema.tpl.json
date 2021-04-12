@@ -6,11 +6,9 @@
     "device",
     "feature",
     "requirement",
-    "inputFormat",
     "language",
     "license",
     "operatingSystem",
-    "outputFormat",
     "programmingLanguage"
   ],
   "properties": {
