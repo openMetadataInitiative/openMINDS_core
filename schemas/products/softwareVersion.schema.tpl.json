@@ -5,7 +5,6 @@
     "applicationCategory",
     "device",
     "feature",
-    "requirement",
     "language",
     "license",
     "operatingSystem",
@@ -64,9 +63,14 @@
         "https://openminds.ebrains.eu/controlledTerms/SoftwareFeature"
       ]
     },
-    "requirement": {
-      "type": "string",
-      "_instruction": "Enter all requirements of this software version."
+    "requirements": {
+      "type": "array"
+      "minItems": 0
+      "uniqueItems": true,
+      "_instruction": "Enter all requirements of this software version.",
+      "items": {
+        "type": "string"
+      }
     },
     "inputFormat": {
       "type": "array",
