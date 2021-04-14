@@ -63,7 +63,7 @@
         "https://openminds.ebrains.eu/controlledTerms/SoftwareFeature"
       ]
     },
-    "requirements": {
+    "requirement": {
       "type": "array",
       "minItems": 0,
       "uniqueItems": true,
