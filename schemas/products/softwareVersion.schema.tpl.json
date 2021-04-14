@@ -65,7 +65,7 @@
     },
     "requirements": {
       "type": "array"
-      "minItems": 0
+      "minItems": 0,
       "uniqueItems": true,
       "_instruction": "Enter all requirements of this software version.",
       "items": {
