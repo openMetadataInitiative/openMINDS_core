@@ -23,11 +23,11 @@
       "type": "string",
       "_instruction": "Enter a descriptive name for this protocol."
     },
-    "studyTarget": {
+    "studyOption": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all study targets of this model version.",
+      "_instruction": "Add all study options of that this protocol offers.",
       "_linkedCategories": [
         "studyTarget"
       ]
