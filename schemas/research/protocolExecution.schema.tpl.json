@@ -24,6 +24,10 @@
         "https://openminds.ebrains.eu/core/TissueSampleState"
       ]
     },
+    "lookupLabel": {
+      "type": "string",
+      "_instruction": "Enter a lookup label for this protocol execution that may help you to more easily it find again."
+    },
     "output": {
       "type": "array",
       "minItems": 1,
