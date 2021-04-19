@@ -21,6 +21,10 @@
       "type": "string",
       "_instruction": "Enter the identifier of this specimen set that is used within the corresponding data."
     },
+    "lookupLabel": {
+      "type": "string",
+      "_instruction": "Enter a lookup label for this specimen set (subject group or tissue sample collection) that may help you to more easily it find again."
+    },
     "phenotype": {
       "type": "array",
       "minItems": 1,
