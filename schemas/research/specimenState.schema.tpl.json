@@ -13,7 +13,7 @@
     },
     "lookupLabel": {
       "type": "string",
-      "_instruction": "Enter a lookup label for this specimen state (subject state or tissue sample state) that may help you to more easily it find again."
+      "_instruction": "Enter a lookup label for this specimen (set) state that may help you to more easily find it again."
     },
     "pathology": {
       "type": "array",
