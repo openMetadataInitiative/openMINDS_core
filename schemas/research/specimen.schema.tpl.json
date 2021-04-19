@@ -17,7 +17,7 @@
     },
     "lookupLabel": {
       "type": "string",
-      "_instruction": "Enter a lookup label for this specimen (subject or tissue sample) that may help you to more easily it find again."
+      "_instruction": "Enter a lookup label for this specimen that may help you to more easily find it again."
     },
     "phenotype": {
       "_instruction": "Add the phenotype of this specimen.",
