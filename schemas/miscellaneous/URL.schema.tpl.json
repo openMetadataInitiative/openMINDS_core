@@ -1,0 +1,15 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/URL",
+  "requires": [
+    "URL"
+  ],
+  "properties": {
+    "URL": {
+      "type": "string",
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter a uniform resource locator (URL)."
+    }
+  }
+}
