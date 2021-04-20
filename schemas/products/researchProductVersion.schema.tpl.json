@@ -36,10 +36,11 @@
       "_instruction": "If necessary, enter a version specific description (abstract) for this research product version (max. 2000 characters, incl. spaces; no references). If left blank, the research product version will inherit the 'description' of it's corresponding research product."
     },
     "fullDocumentation": {
-      "_instruction": "Add the file or a DOI to the full documentation of this research product version.",
+      "_instruction": "Add the DOI, file or URL that points to a full documentation of this research product version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DOI",
-        "https://openminds.ebrains.eu/core/File"
+        "https://openminds.ebrains.eu/core/File",
+        "https://openminds.ebrains.eu/core/URL"
       ]
     },
     "fullName": {
@@ -56,11 +57,10 @@
       ]
     },
     "homepage": {
-      "type": "string",
-      "_formats": [
-        "iri"
-      ],
-      "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this research product version."
+      "_instruction": "Add the uniform resource locator (URL) to the homepage of this research product version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/URL"
+      ]
     },
     "howToCite": {
       "type": "string",
