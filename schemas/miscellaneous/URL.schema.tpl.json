@@ -7,7 +7,7 @@
     "URL": {
       "type": "string",
       "_formats": [
-        "url"
+        "iri"
       ],
       "_instruction": "Enter a uniform resource locator (URL)."
     }
