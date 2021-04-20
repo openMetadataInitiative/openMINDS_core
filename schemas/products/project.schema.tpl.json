@@ -32,7 +32,7 @@
       ]
     },
     "homepage": {
-      "_instruction": "Add the uniform resource locator (URL) to the homepage of this research product version.",
+      "_instruction": "Add the uniform resource locator (URL) to the homepage of this project.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/URL"
       ]
