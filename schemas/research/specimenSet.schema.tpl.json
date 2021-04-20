@@ -6,7 +6,7 @@
   "properties": {
     "additionalRemarks": {
       "type": "string",
-      "_instruction": "Enter additional remarks about the specimen (set) in this state."
+      "_instruction": "Enter additional remarks about the specimen set."
     },
     "biologicalSex": {
       "type": "array",
@@ -20,6 +20,10 @@
     "internalIdentifier": {
       "type": "string",
       "_instruction": "Enter the identifier of this specimen set that is used within the corresponding data."
+    },
+    "lookupLabel": {
+      "type": "string",
+      "_instruction": "Enter a lookup label for this specimen set that may help you to more easily find it again."
     },
     "phenotype": {
       "type": "array",
