@@ -1,6 +1,9 @@
 {
   "_type": "https://openminds.ebrains.eu/core/ProtocolExecution",
   "_extends": "research/activity.schema.tpl.json",
+  "required": [
+    "protocol"
+  ],
   "properties": {
     "preparationType": {
       "_instruction": "Add the initial preparation type for this protocol execution.",
@@ -9,7 +12,10 @@
       ]
     },
     "protocol": {
-      "_instruction": "Add the protocol of this protocol execution.",
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all protocols that were used in this protocol execution.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Protocol"
       ]
