@@ -53,7 +53,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all anatomical entities to which the outputs of this activity can be semantically anchored to.",
+      "_instruction": "Add all anatomical entities to which the outputs of this activity can be semantically anchored.",
       "_linkedTypes": [
          "https://openminds.ebrains.eu/sands/AnatomicalEntity"
       ]
