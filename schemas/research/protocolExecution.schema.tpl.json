@@ -5,6 +5,22 @@
     "protocol"
   ],
   "properties": {
+    "input": {
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/SubjectGroupState",
+        "https://openminds.ebrains.eu/core/SubjectState",
+        "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
+        "https://openminds.ebrains.eu/core/TissueSampleState"
+      ]
+    },
+    "output": {
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/SubjectGroupState",
+        "https://openminds.ebrains.eu/core/SubjectState",
+        "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
+        "https://openminds.ebrains.eu/core/TissueSampleState"
+      ]
+    },
     "preparationType": {
       "_instruction": "Add the initial preparation type for this protocol execution.",
       "_linkedTypes": [
