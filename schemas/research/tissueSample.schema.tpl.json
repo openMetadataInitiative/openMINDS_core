@@ -18,7 +18,7 @@
     },
     "laterality": {
       "type": "array",
-      "maxItems": 2,      
+      "maxItems": 2,
       "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add one or both hemisphere sides from which this tissue sample originates from.",
@@ -40,6 +40,15 @@
       "_instruction": "Add all states in which this tissue sample was studied.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/TissueSampleState"
+      ]
+    },
+    "anatomicalLocation": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all anatomical entities to which this tissue sample belongs.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/AnatomicalEntity"
       ]
     },
     "type": {

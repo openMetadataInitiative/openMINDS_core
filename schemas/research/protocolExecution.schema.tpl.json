@@ -1,8 +1,8 @@
 {
   "_type": "https://openminds.ebrains.eu/core/ProtocolExecution",
   "required": [
-    "input", 
-    "output", 
+    "input",
+    "output",
     "protocol"
   ],
   "properties": {
@@ -48,7 +48,7 @@
       "uniqueItems": true,
       "_instruction": "Add all important parameters grouped in context-specific sets that were used in this protocol execution.",
       "_embeddedTypes": [
-         "https://openminds.ebrains.eu/core/ParameterSet"
+        "https://openminds.ebrains.eu/core/ParameterSet"
       ]
     },
     "preparationType": {
@@ -64,15 +64,6 @@
       "_instruction": "Add all protocols that were used in this protocol execution.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Protocol"
-      ]
-    },
-    "semanticallyAnchoredTo": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add all anatomical entities to which the outputs of this protocol execution can be semantically anchored to.",
-      "_linkedTypes": [
-         "https://openminds.ebrains.eu/sands/AnatomicalEntity"
       ]
     },
     "studyTarget": {
