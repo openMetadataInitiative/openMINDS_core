@@ -49,7 +49,8 @@
       "_instruction": "Add all anatomical entities to which this tissue sample belongs.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation",
-        "https://openminds.ebrains.eu/sands/AnatomicalEntity"
+        "https://openminds.ebrains.eu/sands/CustomAnatomicalEntity",
+        "https://openminds.ebrains.eu/sands/ParcellationEntity"
       ]
     },
     "type": {
