@@ -8,6 +8,14 @@
       "type": "string",
       "_instruction": "Enter a description of this activity."
     },
+    "endedAtTime": {
+      "type": "string",
+      "_formats": [
+        "date-time",
+        "time"
+      ],
+      "_instruction": "Enter the time (e.g., '20:20:39+00:00') or datetime (e.g., '2018-11-13T20:20:39+00:00') of when the activity ended."
+    },
     "input": {
       "type": "array",
       "minItems": 1,
@@ -40,6 +48,14 @@
       "_embeddedTypes": [
          "https://openminds.ebrains.eu/core/ParameterSet"
       ]
+    },
+    "startedAtTime": {
+      "type": "string",
+      "_formats": [
+        "date-time",
+        "time"
+      ],
+      "_instruction": "Enter the time (e.g., '20:20:39+00:00') or datetime (e.g., '2018-11-13T20:20:39+00:00') of when the activity started."
     },
     "studyTarget": {
       "type": "array",
