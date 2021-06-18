@@ -2,11 +2,15 @@
   "_type": "https://openminds.ebrains.eu/core/ProtocolExecution",
   "_extends": "research/activity.schema.tpl.json",
   "required": [
+    "input",
+    "output",
     "protocol"
   ],
   "properties": {
     "input": {
       "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/File",
+        "https://openminds.ebrains.eu/core/FileBundle",
         "https://openminds.ebrains.eu/core/SubjectGroupState",
         "https://openminds.ebrains.eu/core/SubjectState",
         "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
@@ -15,6 +19,8 @@
     },
     "output": {
       "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/File",
+        "https://openminds.ebrains.eu/core/FileBundle",
         "https://openminds.ebrains.eu/core/SubjectGroupState",
         "https://openminds.ebrains.eu/core/SubjectState",
         "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
