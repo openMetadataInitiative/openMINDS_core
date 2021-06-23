@@ -1,0 +1,21 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/BehavioralTask",
+  "required": [
+    "description",
+    "fullName"
+  ],
+  "properties": {
+    "description": {
+      "type": "string",
+      "_instruction": "Enter a description of this behavioral task."
+    },
+    "fullName": {
+      "type": "string",
+      "_instruction": "Enter a descriptive full name for this behavioral task."
+    },
+    "shortName": {
+      "type": "string",
+      "_instruction": "Enter a short name (alias) for this behavioral task."
+    }
+  }
+}
