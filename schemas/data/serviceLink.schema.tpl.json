@@ -1,0 +1,29 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/ServiceLink",
+  "required": [
+    "dataLocation",
+    "openDataIn",
+    "service"
+  ],
+  "properties": {
+    "dataLocation": {
+      "_instruction": "Add the file or file bundle with the data that are linked to the specified service.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/File",
+        "https://openminds.ebrains.eu/core/FileBundle"
+      ]
+    },
+    "openDataIn": {
+      "_instruction": "Add the uniform resource locator (URL) to open the linked data in the specified service.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/URL"
+      ]
+    },
+    "service": {
+      "_instruction": "Add the service in which the specified data can be opened.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Service"
+      ]
+    }
+  }
+}
