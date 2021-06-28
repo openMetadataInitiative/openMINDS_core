@@ -3,6 +3,7 @@
   "_extends": "research/activity.schema.tpl.json",
   "required": [
     "input",
+    "isPartOf",
     "output",
     "protocol"
   ],
@@ -24,6 +25,12 @@
         "https://openminds.ebrains.eu/core/SubjectState",
         "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
         "https://openminds.ebrains.eu/core/TissueSampleState"
+      ]
+    },
+    "isPartOf": {
+      "_instruction": "Add the dataset version in which this protocol execution was conducted.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DatasetVersion"
       ]
     },
     "output": {
