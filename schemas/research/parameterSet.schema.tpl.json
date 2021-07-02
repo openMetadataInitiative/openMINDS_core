@@ -13,7 +13,7 @@
     "relevantFor": {
       "_instruction": "Add the technique or behavioral task where this set of parameters is used in.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/BehavioralTask",
+        "https://openminds.ebrains.eu/core/BehavioralTask",
         "https://openminds.ebrains.eu/controlledTerms/Technique"
       ]
     },

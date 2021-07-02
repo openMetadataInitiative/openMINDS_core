@@ -10,15 +10,6 @@
       "type": "string",
       "_instruction": "Enter a description of this protocol."
     },
-    "behavioralTask": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add all behavioral tasks that were executed as part of this protocol.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/BehavioralTask"
-      ]
-    },
     "name": {
       "type": "string",
       "_instruction": "Enter a descriptive name for this protocol."

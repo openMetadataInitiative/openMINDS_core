@@ -6,7 +6,7 @@
     "ethicsAssessment",
     "experimentalApproach",
     "license",
-    "protocol",
+    "technique",
     "type"
   ],
   "properties": {
@@ -17,6 +17,15 @@
       "_instruction": "If necessary, add one or several authors (person or organization) that contributed to the production and publication of this dataset version. Note that these authors will overwrite the once provided in the dataset product this version belongs to.",
       "_linkedCategories": [
         "legalPerson"
+      ]
+    },
+    "behavioralTask": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add one or several behavioral tasks that were performed in this dataset version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/BehavioralTask"
       ]
     },
     "digitalIdentifier": {
@@ -72,15 +81,6 @@
         "https://openminds.ebrains.eu/core/License"
       ]
     },
-    "protocol": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add one or several protocols that were used in this dataset version.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Protocol"
-      ]
-    },
     "studiedSpecimen": {
       "type": "array",
       "minItems": 1,
@@ -91,6 +91,15 @@
         "https://openminds.ebrains.eu/core/SubjectGroup",
         "https://openminds.ebrains.eu/core/TissueSample",
         "https://openminds.ebrains.eu/core/TissueSampleCollection"
+      ]
+    },
+    "technique": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add one or several techniques that were used in this dataset version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Technique"
       ]
     },
     "type": {
