@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.intan.technology",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".rhd",
+    ".rhs"
+  ],
+  "name": "application/vnd.intan.technology",
+  "relatedMediaType": null,
+  "synonym": [
+    "Intan tech rhd and rhs files",
+    "RHD RHS"
+  ]
+}

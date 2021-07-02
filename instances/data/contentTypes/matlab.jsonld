@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/text/x-matlab",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".m"
+  ],
+  "name": "text/x-matlab",
+  "relatedMediaType": null,
+  "synonym": [
+    "MATLAB"
+  ]
+}

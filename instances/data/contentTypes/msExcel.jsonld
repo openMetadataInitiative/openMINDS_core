@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.ms-excel",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".xls"
+  ],
+  "name": "application/vnd.ms-excel",
+  "relatedMediaType": "https://www.iana.org/assignments/media-types/application/vnd.ms-excel",
+  "synonym": [
+    "Microsoft Excel",
+    "XLS"
+  ]
+}

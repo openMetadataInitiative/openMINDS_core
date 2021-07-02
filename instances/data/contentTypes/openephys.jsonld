@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.openephys",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": null,
+  "name": "application/vnd.openephys",
+  "relatedMediaType": null,
+  "synonym": [
+    "Open Ephys Format"
+  ]
+}

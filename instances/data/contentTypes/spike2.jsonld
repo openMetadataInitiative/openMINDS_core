@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.spike2.sonpy.son",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".smr"
+  ],
+  "name": "application/vnd.spike2.sonpy.son",
+  "relatedMediaType": null,
+  "synonym": [
+    "CED spike2 files"
+  ]
+}

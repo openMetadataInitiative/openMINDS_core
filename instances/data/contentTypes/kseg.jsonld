@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/x-kseg",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".seg"
+  ],
+  "name": "application/x-kseg",
+  "relatedMediaType": null,
+  "synonym": [
+    "KSEG file format"
+  ]
+}

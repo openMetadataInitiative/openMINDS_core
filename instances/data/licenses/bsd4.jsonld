@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/licenses/bsd4",
+  "@type": "https://openminds.ebrains.eu/core/License",
+  "fullName": "The 4-Clause BSD License",
+  "legalCode": "https://spdx.org/licenses/BSD-4-Clause.html",
+  "shortName": "BSD-4-Clause",
+  "webpage": null
+}

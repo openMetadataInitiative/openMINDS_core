@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.g-node.nix.neo",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".nix",
+    ".h5"
+  ],
+  "name": "application/vnd.g-node.nix.neo",
+  "relatedMediaType": null,
+  "synonym": [
+    "NIX:Neo"
+  ]
+}

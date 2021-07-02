@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.neuron-simulator+python",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".py"
+  ],
+  "name": "application/vnd.neuron-simulator+python",
+  "relatedMediaType": null,
+  "synonym": [
+    "Python:NEURON"
+  ]
+}

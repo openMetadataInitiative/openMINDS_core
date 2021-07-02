@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.elan",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".eeg"
+  ],
+  "name": "application/vnd.elan",
+  "relatedMediaType": null,
+  "synonym": [
+    "Elan files"
+  ]
+}

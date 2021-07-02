@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/licenses/bsd3",
+  "@type": "https://openminds.ebrains.eu/core/License",
+  "fullName": "The 3-Clause BSD License",
+  "legalCode": "https://spdx.org/licenses/BSD-3-Clause.html",
+  "shortName": "BSD-3-Clause",
+  "webpage": [
+    "https://opensource.org/licenses/BSD-3-Clause"
+  ]
+}

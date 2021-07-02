@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.neuralynx",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".ncs",
+    ".nev",
+    ".nse",
+    ".ntt"
+  ],
+  "name": "application/vnd.neuralynx",
+  "relatedMediaType": null,
+  "synonym": [
+    "Neuralynx files"
+  ]
+}

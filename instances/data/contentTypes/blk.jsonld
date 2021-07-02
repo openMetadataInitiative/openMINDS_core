@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.blk",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".blk"
+  ],
+  "name": "application/vnd.blk",
+  "relatedMediaType": null,
+  "synonym": [
+    "BLK File"
+  ]
+}

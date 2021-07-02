@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.rawbinarysignal",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".raw"
+  ],
+  "name": "application/vnd.rawbinarysignal",
+  "relatedMediaType": null,
+  "synonym": [
+    "Raw binary interleaved compact files"
+  ]
+}

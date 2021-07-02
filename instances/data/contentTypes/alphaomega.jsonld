@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.alphaomega-eng",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".map"
+  ],
+  "name": "application/vnd.alphaomega-eng",
+  "relatedMediaType": null,
+  "synonym": [
+    "AlphaMap"
+  ]
+}

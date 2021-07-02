@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/licenses/bsd2",
+  "@type": "https://openminds.ebrains.eu/core/License",
+  "fullName": "The 2-Clause BSD License",
+  "legalCode": "https://spdx.org/licenses/BSD-2-Clause.html",
+  "shortName": "BSD-2-Clause",
+  "webpage": [
+    "https://opensource.org/licenses/BSD-2-Clause"
+  ]
+}

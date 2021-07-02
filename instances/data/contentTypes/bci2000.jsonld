@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.bci2000",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".dat"
+  ],
+  "name": "application/vnd.bci2000",
+  "relatedMediaType": null,
+  "synonym": [
+    "BCI2000 File Format"
+  ]
+}

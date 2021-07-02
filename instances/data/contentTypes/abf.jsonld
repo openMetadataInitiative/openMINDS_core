@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.moleculardevices.axon",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".abf"
+  ],
+  "name": "application/vnd.moleculardevices.axon",
+  "relatedMediaType": null,
+  "synonym": [
+    "Axon\u2122 Binary File format"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/pdf",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".pdf"
+  ],
+  "name": "application/pdf",
+  "relatedMediaType": "https://www.iana.org/assignments/media-types/application/pdf",
+  "specification": "https://www.pdfa.org/resource/iso-32000-2-pdf-2-0/",
+  "synonym": [
+    "Adobe Portable Document Format",
+    "PDF"
+  ]
+}

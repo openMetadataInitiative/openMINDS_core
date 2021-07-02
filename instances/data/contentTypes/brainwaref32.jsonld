@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.brainwaref32",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".f32"
+  ],
+  "name": "application/vnd.brainwaref32",
+  "relatedMediaType": null,
+  "synonym": [
+    "Brainware F32 files"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/licenses/apache2.0",
+  "@type": "https://openminds.ebrains.eu/core/License",
+  "fullName": "Apache License, Version 2.0",
+  "legalCode": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+  "shortName": "Apache-2.0",
+  "webpage": [
+    "https://www.apache.org/licenses/LICENSE-2.0",
+    "https://spdx.org/licenses/Apache-2.0.html",
+    "https://opensource.org/licenses/Apache-2.0"
+  ]
+}

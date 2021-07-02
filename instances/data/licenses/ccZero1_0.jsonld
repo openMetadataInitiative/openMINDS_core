@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/licenses/ccZero1.0",
+  "@type": "https://openminds.ebrains.eu/core/License",
+  "fullName": "Creative Commons Zero 1.0 Universal",
+  "legalCode": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "shortName": "CC0 1.0",
+  "webpage": [
+    "https://creativecommons.org/publicdomain/zero/1.0",
+    "https://spdx.org/licenses/CC0-1.0.html"
+  ]
+}

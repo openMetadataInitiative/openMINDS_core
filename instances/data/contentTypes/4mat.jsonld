@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/4-mat",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".mat"
+  ],
+  "name": "application/4-mat",
+  "relatedMediaType": null,
+  "synonym": [
+    "Level 4 MAT-file format",
+    "MAT"
+  ]
+}

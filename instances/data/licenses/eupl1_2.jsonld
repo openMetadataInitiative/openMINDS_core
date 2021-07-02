@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/licenses/eupl1.2",
+  "@type": "https://openminds.ebrains.eu/core/License",
+  "fullName": "European Union Public License 1.2",
+  "legalCode": "https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/eupl_v1.2_en.pdf",
+  "shortName": "EUPL-1.2",
+  "webpage": [
+    "https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12",
+    "https://spdx.org/licenses/EUPL-1.2.html",
+    "https://opensource.org/licenses/EUPL-1.2"
+  ]
+}

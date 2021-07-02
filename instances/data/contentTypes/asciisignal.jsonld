@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.neo.ascii.signal",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".txt",
+    ".asc",
+    ".csv",
+    ".tsv,"
+  ],
+  "name": "application/vnd.neo.ascii.signal",
+  "relatedMediaType": null,
+  "synonym": [
+    "Neo AnalogSignals"
+  ]
+}

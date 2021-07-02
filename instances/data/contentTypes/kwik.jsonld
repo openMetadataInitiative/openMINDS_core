@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.kwik",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".kwik"
+  ],
+  "name": "application/vnd.kwik",
+  "relatedMediaType": null,
+  "synonym": [
+    "Kwik Format"
+  ]
+}

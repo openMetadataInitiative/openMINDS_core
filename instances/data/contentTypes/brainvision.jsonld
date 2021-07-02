@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.brainvision",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".vhdr"
+  ],
+  "name": "application/vnd.brainvision",
+  "relatedMediaType": null,
+  "synonym": [
+    "BrainVision product"
+  ]
+}

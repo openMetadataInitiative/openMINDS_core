@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/licenses/ccBySa4.0",
+  "@type": "https://openminds.ebrains.eu/core/License",
+  "fullName": "Creative Commons Attribution-ShareAlike 4.0 International",
+  "legalCode": "https://creativecommons.org/licenses/by-sa/4.0/legalcode",
+  "shortName": "CC BY-SA 4.0",
+  "webpage": [
+    "https://creativecommons.org/licenses/by-sa/4.0",
+    "https://spdx.org/licenses/CC-BY-SA-4.0.html"
+  ]
+}

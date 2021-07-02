@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/image/x-panasonic-rw",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".raw"
+  ],
+  "name": "image/x-panasonic-rw",
+  "relatedMediaType": null,
+  "synonym": [
+    "Panasonic RAW file format"
+  ]
+}

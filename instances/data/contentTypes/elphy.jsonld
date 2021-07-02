@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.elphy",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".dat"
+  ],
+  "name": "application/vnd.elphy",
+  "relatedMediaType": null,
+  "synonym": [
+    "Data Files"
+  ]
+}

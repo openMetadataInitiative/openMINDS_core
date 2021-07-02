@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.neuron-simulator+hoc",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".hoc"
+  ],
+  "name": "application/vnd.neuron-simulator+hoc",
+  "relatedMediaType": null,
+  "synonym": [
+    "Hoc:NEURON"
+  ]
+}

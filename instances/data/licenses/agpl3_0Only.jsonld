@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/licenses/agpl3.0Only",
+  "@type": "https://openminds.ebrains.eu/core/License",
+  "fullName": "GNU Affero General Public License v3.0 only",
+  "legalCode": "https://www.gnu.org/licenses/agpl-3.0.txt",
+  "shortName": "AGPL-3.0-only",
+  "webpage": [
+    "https://www.gnu.org/licenses/licenses.html",
+    "https://spdx.org/licenses/AGPL-3.0-only.html",
+    "https://opensource.org/licenses/AGPL-3.0"
+  ]
+}

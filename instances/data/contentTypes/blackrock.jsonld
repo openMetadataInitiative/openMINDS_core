@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.blackrockmicrosystems.cerebus",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".nsx"
+  ],
+  "name": "application/vnd.blackrockmicrosystems.cerebus",
+  "relatedMediaType": null,
+  "synonym": [
+    "Cerebus neural signal system"
+  ]
+}

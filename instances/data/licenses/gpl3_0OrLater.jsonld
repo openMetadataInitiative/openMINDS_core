@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/licenses/gpl3.0OrLater",
+  "@type": "https://openminds.ebrains.eu/core/License",
+  "fullName": "GNU General Public License v3.0 or later",
+  "legalCode": "https://www.gnu.org/licenses/gpl-3.0-standalone.html",
+  "shortName": "GPL-3.0-or-later",
+  "webpage": [
+    "https://spdx.org/licenses/GPL-3.0-or-later.html"
+  ]
+}

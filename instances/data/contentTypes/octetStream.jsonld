@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/octet-stream",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".bin"
+  ],
+  "name": "application/octet-stream",
+  "relatedMediaType": "https://www.iana.org/assignments/media-types/application/octet-stream",
+  "synonym": [
+    "binary format",
+    "BIN"
+  ]
+}

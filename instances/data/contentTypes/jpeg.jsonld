@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/image/jpeg",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".jpg",
+    ".jpeg",
+    ".jif",
+    ".jfif",
+    ".pjp",
+    ".pjpeg"
+  ],
+  "name": "image/jpeg",
+  "relatedMediaType": null,
+  "synonym": [
+    "Joint Photographic Expert Group",
+    "JPG JPEG"
+  ]
+}

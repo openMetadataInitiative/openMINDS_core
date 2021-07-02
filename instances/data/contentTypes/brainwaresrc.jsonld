@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.brainwaresrc",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".src"
+  ],
+  "name": "application/vnd.brainwaresrc",
+  "relatedMediaType": null,
+  "synonym": [
+    "Brainware SRC files"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.igorpro",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".ibw",
+    ".pxp"
+  ],
+  "name": "application/vnd.igorpro",
+  "relatedMediaType": null,
+  "synonym": [
+    "Igor Binary Waves, Packed Experiment files"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.winwcp",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".wcp"
+  ],
+  "name": "application/vnd.winwcp",
+  "relatedMediaType": null,
+  "synonym": [
+    "WinWCP files"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".docx"
+  ],
+  "name": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "relatedMediaType": "https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "synonym": [
+    "Microsoft Word (OpenXML)",
+    "DOCX"
+  ]
+}

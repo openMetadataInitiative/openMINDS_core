@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.plexon",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".plx"
+  ],
+  "name": "application/vnd.plexon",
+  "relatedMediaType": null,
+  "synonym": [
+    "Plexon acquisition system"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/image/x-eps",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".eps"
+  ],
+  "name": "image/x-eps",
+  "relatedMediaType": null,
+  "synonym": [
+    "Encapsulated PostScript",
+    "EPS"
+  ]
+}

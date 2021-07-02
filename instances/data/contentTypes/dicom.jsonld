@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/dicom",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".dcm"
+  ],
+  "name": "application/dicom",
+  "relatedMediaType": "https://www.iana.org/assignments/media-types/application/dicom",
+  "synonym": [
+    "Digital Imaging and Communications in Medicine",
+    "DICOM"
+  ]
+}

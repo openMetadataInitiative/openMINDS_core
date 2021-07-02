@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/text/tab-separated-values",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".tsv"
+  ],
+  "name": "text/tab-separated-values",
+  "relatedMediaType": "https://www.iana.org/assignments/media-types/text/tab-separated-values",
+  "synonym": [
+    "Tab-Separated Value",
+    "TSV"
+  ]
+}

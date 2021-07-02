@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".xlsx"
+  ],
+  "name": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "relatedMediaType": "https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "synonym": [
+    "Microsoft Excel (Open XML)",
+    "XLSX"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.nest-simulator+python",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".py"
+  ],
+  "name": "application/vnd.nest-simulator+python",
+  "relatedMediaType": null,
+  "synonym": [
+    "Python:NEST"
+  ]
+}

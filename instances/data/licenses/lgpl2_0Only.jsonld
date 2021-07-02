@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/licenses/lgpl2.0Only",
+  "@type": "https://openminds.ebrains.eu/core/License",
+  "fullName": "GNU Library General Public License v2.0 only",
+  "legalCode": "https://www.gnu.org/licenses/old-licenses/lgpl-2.0-standalone.html",
+  "shortName": "LGPL-2.0-only",
+  "webpage": [
+    "https://www.gnu.org/licenses/old-licenses/lgpl-2.0.html",
+    "https://spdx.org/licenses/LGPL-2.0-only.html"
+  ]
+}

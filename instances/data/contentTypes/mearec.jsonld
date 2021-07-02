@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.mearec",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".h5"
+  ],
+  "name": "application/vnd.mearec",
+  "relatedMediaType": null,
+  "synonym": [
+    "Multi-Electrode-Arrays",
+    "MEA"
+  ]
+}

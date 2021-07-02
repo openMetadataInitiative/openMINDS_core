@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/image/tiff",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".tiff",
+    ".tif"
+  ],
+  "name": "image/tiff",
+  "relatedMediaType": "https://www.iana.org/assignments/media-types/image/tiff",
+  "synonym": [
+    "Tagged Image File (Tiled)"
+  ]
+}
