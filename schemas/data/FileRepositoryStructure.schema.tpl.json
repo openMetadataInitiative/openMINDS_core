@@ -9,7 +9,7 @@
       "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add all file path patterns that define this file repository structure.",
-      "_linkedTypes": [
+      "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/FilePathPattern"
       ]
     },
