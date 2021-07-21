@@ -6,7 +6,7 @@
   ],
   "properties": {
     "groupingType": {
-      "_instruction": "Enter a lookup label for this file repository structure."
+      "_instruction": "Enter a lookup label for this file repository structure.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/FileBundleGrouping"
       ]
