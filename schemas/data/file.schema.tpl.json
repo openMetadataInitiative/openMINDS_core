@@ -1,7 +1,7 @@
 {
   "_type": "https://openminds.ebrains.eu/core/File",
   "_categories": [
-    "protocolExecutionInput"
+    "fileOrigin"
   ],
   "required": [
     "IRI",
@@ -19,7 +19,7 @@
       "uniqueItems": true,
       "_instruction": "Add all entities that played a role in the production of this single file.",
       "_linkedCategories": [
-        "protocolExecutionInput"
+        "fileOrigin"
       ]
     },
     "fileRepository": {
