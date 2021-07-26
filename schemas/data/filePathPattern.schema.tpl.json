@@ -1,0 +1,22 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/FilePathPattern",
+  "required": [
+    "groupingType",
+    "regex"
+  ],
+  "properties": {
+    "groupingType": {
+      "_instruction": "Enter a lookup label for this file repository structure.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/FileBundleGrouping"
+      ]
+    },
+    "regex": {
+      "type": "string",
+      "_formats": [
+        "ECMA262"
+      ],
+      "_instruction": "Enter the regular expression that defines this file path pattern."
+    }
+  }
+}

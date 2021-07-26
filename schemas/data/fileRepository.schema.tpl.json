@@ -6,6 +6,15 @@
     "name"
   ],
   "properties": {
+    "contentTypePattern": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all content type patterns that would identify matching content types for files within this file repository.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/ContentTypePattern"
+      ]
+    },
     "format": {
       "_instruction": "If file instances and bundles within the repository are organized and formatted according to a formal data structure use the appropriate contentType. Leave blank otherwise.",
       "_linkedTypes": [
@@ -45,6 +54,12 @@
       "_instruction": "Enter the storage size this file repository allocates.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ]
+    },
+    "structurePattern": {
+      "_instruction": "Add a file repository structure which identifies the file path patterns used in this file repository.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/FileRepositoryStructure"
       ]
     }
   }

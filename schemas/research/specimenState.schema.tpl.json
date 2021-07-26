@@ -1,4 +1,7 @@
 {
+  "_categories": [
+    "fileOrigin"
+  ],
   "properties": {
     "additionalRemarks": {
       "type": "string",

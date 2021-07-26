@@ -1,5 +1,8 @@
 {
   "_type": "https://openminds.ebrains.eu/core/File",
+  "_categories": [
+    "fileOrigin"
+  ],
   "required": [
     "IRI",
     "isPartOf",
@@ -9,6 +12,15 @@
     "content": {
       "type": "string",
       "_instruction": "Enter a short content description for this file instance."
+    },
+    "descendedFrom": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all entities that played a role in the production of this single file.",
+      "_linkedCategories": [
+        "fileOrigin"
+      ]
     },
     "fileRepository": {
       "_instruction": "Add the over all repository to which this single file belongs.",

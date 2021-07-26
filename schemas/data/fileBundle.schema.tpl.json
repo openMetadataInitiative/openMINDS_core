@@ -1,5 +1,8 @@
 {
   "_type": "https://openminds.ebrains.eu/core/FileBundle",
+  "_categories": [
+    "fileOrigin"
+  ],
   "required": [
     "isPartOf",
     "name"
@@ -8,6 +11,15 @@
     "content": {
       "type": "string",
       "_instruction": "Enter a short content description for this file bundle."
+    },
+    "descendedFrom": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all entities that played a role in the production of this file bundle (must be true for all grouped files).",
+      "_linkedCategories": [
+        "fileOrigin"
+      ]
     },
     "format": {
       "_instruction": "If file instances within this bundle are organized and formatted according to a formal data structure use the appropriate contentType. Leave blank otherwise.",

@@ -1,5 +1,8 @@
 {
   "_type": "https://openminds.ebrains.eu/core/BehavioralTask",
+  "_categories": [
+    "fileOrigin"
+  ],
   "required": [
     "description",
     "fullName"

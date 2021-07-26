@@ -1,0 +1,21 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/FileRepositoryStructure",
+  "required": [
+    "filePathPattern"
+  ],
+  "properties": {
+    "filePathPattern": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all file path patterns that define this file repository structure.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/FilePathPattern"
+      ]
+    },
+    "lookupLabel": {
+      "type": "string",
+      "_instruction": "Enter a lookup label for this file repository structure."
+    }
+  }
+}
