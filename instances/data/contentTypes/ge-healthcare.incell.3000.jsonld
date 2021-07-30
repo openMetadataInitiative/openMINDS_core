@@ -1,0 +1,15 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.ge-healthcare.incell.3000",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".frm"
+	],
+	"name": "application/vnd.ge-healthcare.incell.3000",
+	"relatedMediaType": null,
+	"synonym": [
+		"InCell 3000"
+	]
+}

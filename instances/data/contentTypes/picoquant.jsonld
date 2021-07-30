@@ -1,0 +1,15 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.picoquant",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".bin"
+	],
+	"name": "application/vnd.picoquant",
+	"relatedMediaType": null,
+	"synonym": [
+		"PicoQuant Bin"
+	]
+}

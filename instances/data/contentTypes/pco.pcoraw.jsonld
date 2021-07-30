@@ -1,0 +1,16 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.pco.pcoraw",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".rec",
+		".pcoraw"
+	],
+	"name": "application/vnd.pco.pcoraw",
+	"relatedMediaType": null,
+	"synonym": [
+		"PCORAW"
+	]
+}

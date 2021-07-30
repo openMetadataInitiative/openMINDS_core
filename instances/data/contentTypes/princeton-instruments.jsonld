@@ -1,0 +1,15 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.princeton-instruments",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".spe"
+	],
+	"name": "application/vnd.princeton-instruments",
+	"relatedMediaType": null,
+	"synonym": [
+		"Princeton Instruments SPE"
+	]
+}

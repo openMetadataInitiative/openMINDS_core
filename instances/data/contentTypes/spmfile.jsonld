@@ -1,0 +1,15 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.spmfile",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".mat"
+	],
+	"name": "application/vnd.spmfile",
+	"relatedMediaType": null,
+	"synonym": [
+		"SPM File "
+	]
+}

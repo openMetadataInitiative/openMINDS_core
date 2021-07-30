@@ -1,0 +1,16 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.imspector",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".msr",
+		".obf"
+	],
+	"name": "application/vnd.imspector",
+	"relatedMediaType": null,
+	"synonym": [
+		"Imspector OBF"
+	]
+}

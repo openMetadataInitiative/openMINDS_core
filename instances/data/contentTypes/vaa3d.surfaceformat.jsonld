@@ -1,0 +1,15 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.vaa3d.surfaceformat",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".v3ds"
+	],
+	"name": "application/vnd.vaa3d.surfaceformat",
+	"relatedMediaType": null,
+	"synonym": [
+		"Vaa3d Surface Format"
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.rhk",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".sm3",
+		".sm2"
+	],
+	"name": "application/vnd.rhk",
+	"relatedMediaType": null,
+	"synonym": [
+		"RHK"
+	]
+}

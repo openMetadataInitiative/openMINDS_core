@@ -1,0 +1,16 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.seiko",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".xqd",
+		".xqf"
+	],
+	"name": "application/vnd.seiko",
+	"relatedMediaType": null,
+	"synonym": [
+		"Seiko"
+	]
+}

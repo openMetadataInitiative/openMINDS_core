@@ -1,0 +1,15 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.ls-dyna",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".d3plot"
+	],
+	"name": "application/vnd.ls-dyna",
+	"relatedMediaType": null,
+	"synonym": [
+		"LS-DYNA D3PLOT"
+	]
+}

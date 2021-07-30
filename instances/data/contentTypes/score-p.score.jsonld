@@ -1,0 +1,15 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.score-p.score",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".txt"
+	],
+	"name": "application/vnd.score-p.score",
+	"relatedMediaType": null,
+	"synonym": [
+		"SCORE"
+	]
+}

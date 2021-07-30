@@ -1,0 +1,15 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.pov-ray.densityfile",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".df3"
+	],
+	"name": "application/vnd.pov-ray.densityfile",
+	"relatedMediaType": null,
+	"synonym": [
+		"POV-Ray density file"
+	]
+}

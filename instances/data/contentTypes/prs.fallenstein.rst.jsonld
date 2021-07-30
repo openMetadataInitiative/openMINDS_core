@@ -1,0 +1,14 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/text/prs.fallenstein.rst",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".txt",
+		".rst"
+	],
+	"name": "text/prs.fallenstein.rst",
+	"relatedMediaType": null,
+	"synonym": null
+}

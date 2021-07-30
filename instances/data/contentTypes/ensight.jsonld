@@ -1,0 +1,16 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.ensight",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".sos",
+		".case"
+	],
+	"name": "application/vnd.ensight",
+	"relatedMediaType": null,
+	"synonym": [
+		"Engineering inSight"
+	]
+}

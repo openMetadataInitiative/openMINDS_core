@@ -1,0 +1,14 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.fmri",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".nii.gz",
+		".dtseries.nii"
+	],
+	"name": "application/vnd.fmri",
+	"relatedMediaType": null,
+	"synonym": null
+}

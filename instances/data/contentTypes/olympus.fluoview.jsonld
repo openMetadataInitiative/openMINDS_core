@@ -1,0 +1,15 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/image/tiff.olympus.fluoview",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".tiff"
+	],
+	"name": "image/tiff.olympus.fluoview",
+	"relatedMediaType": null,
+	"synonym": [
+		"Olympus FluoView TIFF"
+	]
+}

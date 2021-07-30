@@ -1,0 +1,15 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.ubm",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".pr3"
+	],
+	"name": "application/vnd.ubm",
+	"relatedMediaType": null,
+	"synonym": [
+		"UBM"
+	]
+}

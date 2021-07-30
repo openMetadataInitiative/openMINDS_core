@@ -1,0 +1,15 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.minolta",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".mrw"
+	],
+	"name": "application/vnd.minolta",
+	"relatedMediaType": null,
+	"synonym": [
+		"Minolta MRW"
+	]
+}

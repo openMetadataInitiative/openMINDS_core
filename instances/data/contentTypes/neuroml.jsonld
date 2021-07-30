@@ -1,0 +1,15 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.neuroml",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".xml"
+	],
+	"name": "application/vnd.neuroml",
+	"relatedMediaType": null,
+	"synonym": [
+		"NeuroML"
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.amnis-flowsight",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".cif"
+	],
+	"name": "application/vnd.amnis-flowsight",
+	"relatedMediaType": null,
+	"synonym": [
+		"Amnis FlowSight"
+	]
+}

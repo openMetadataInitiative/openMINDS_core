@@ -1,0 +1,16 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/x-netcdf",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".cdf",
+		".nc"
+	],
+	"name": "application/x-netcdf",
+	"relatedMediaType": null,
+	"synonym": [
+		"Network Common Data Form"
+	]
+}

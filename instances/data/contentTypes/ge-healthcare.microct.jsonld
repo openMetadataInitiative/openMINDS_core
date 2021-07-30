@@ -1,0 +1,15 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.ge-healthcare.microct",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".vff"
+	],
+	"name": "application/vnd.ge-healthcare.microct",
+	"relatedMediaType": null,
+	"synonym": [
+		"GE MicroCT"
+	]
+}

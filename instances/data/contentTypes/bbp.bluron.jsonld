@@ -1,0 +1,13 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.bbp.bluron",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".dat"
+	],
+	"name": "application/vnd.bbp.bluron",
+	"relatedMediaType": null,
+	"synonym": null
+}

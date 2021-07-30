@@ -1,0 +1,15 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.lavision.imspector",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".msr"
+	],
+	"name": "application/vnd.lavision.imspector",
+	"relatedMediaType": null,
+	"synonym": [
+		"LaVision Imspector"
+	]
+}

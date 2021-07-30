@@ -1,0 +1,15 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.lambert-instruments.flim",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".fli"
+	],
+	"name": "application/vnd.lambert-instruments.flim",
+	"relatedMediaType": null,
+	"synonym": [
+		"Lambert Instruments FLIM"
+	]
+}

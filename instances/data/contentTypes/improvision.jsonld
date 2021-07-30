@@ -1,0 +1,15 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/image/tiff.improvision",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".tiff"
+	],
+	"name": "image/tiff.improvision",
+	"relatedMediaType": null,
+	"synonym": [
+		"Improvision TIFF"
+	]
+}

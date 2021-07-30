@@ -1,0 +1,15 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.inveon",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".hdr"
+	],
+	"name": "application/vnd.inveon",
+	"relatedMediaType": null,
+	"synonym": [
+		"Inveon"
+	]
+}

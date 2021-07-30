@@ -1,0 +1,15 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/image/tiff.andor.abd",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".tiff"
+	],
+	"name": "image/tiff.andor.abd",
+	"relatedMediaType": null,
+	"synonym": [
+		"Andor Bio-Imaging Division (ABD) TIFF"
+	]
+}

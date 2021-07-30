@@ -1,0 +1,15 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/image/tiff.nikon.ez-c1",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".tiff"
+	],
+	"name": "image/tiff.nikon.ez-c1",
+	"relatedMediaType": null,
+	"synonym": [
+		"Nikon EZ-C1"
+	]
+}
