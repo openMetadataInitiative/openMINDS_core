@@ -1,14 +1,16 @@
 {
-	"@context" : {
-		"@vocab": "https://openminds.ebrains.eu/vocab/"
-	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/text/markdown",
-	"@type": "https://openminds.ebrains.eu/core/ContentType",
-	"fileExtension": [
-		".markdown",
-		".md"
-	],
-	"name": "text/markdown",
-	"relatedMediaType": null,
-	"synonym": null
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/text/markdown",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".md",
+    ".markdown"
+  ],
+  "name": "text/markdown",
+  "relatedMediaType": "https://www.iana.org/assignments/media-types/text/markdown",
+  "synonym": [
+    "Markdown"
+  ]
 }
