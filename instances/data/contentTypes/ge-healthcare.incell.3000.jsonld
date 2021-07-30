@@ -2,15 +2,14 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.axograph",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.ge-healthcare.incell.3000",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".axgx",
-		".axgd"
+		".frm"
 	],
-	"name": "application/vnd.axograph",
+	"name": "application/vnd.ge-healthcare.incell.3000",
 	"relatedMediaType": null,
 	"synonym": [
-		"AxoGraph"
+		"InCell 3000"
 	]
 }

@@ -2,15 +2,13 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.axograph",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.fmri",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".axgx",
-		".axgd"
+		".nii.gz",
+		".dtseries.nii"
 	],
-	"name": "application/vnd.axograph",
+	"name": "application/vnd.fmri",
 	"relatedMediaType": null,
-	"synonym": [
-		"AxoGraph"
-	]
+	"synonym": null
 }

@@ -2,15 +2,14 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.axograph",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.g-node.nix+hdf5",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".axgx",
-		".axgd"
+		".hdf5"
 	],
-	"name": "application/vnd.axograph",
+	"name": "application/vnd.g-node.nix+hdf5",
 	"relatedMediaType": null,
 	"synonym": [
-		"AxoGraph"
+		"Neuroscience information exchange format"
 	]
 }

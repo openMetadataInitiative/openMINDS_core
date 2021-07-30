@@ -2,15 +2,14 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.axograph",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/image/tiff.andor.abd",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".axgx",
-		".axgd"
+		".tiff"
 	],
-	"name": "application/vnd.axograph",
+	"name": "image/tiff.andor.abd",
 	"relatedMediaType": null,
 	"synonym": [
-		"AxoGraph"
+		"Andor Bio-Imaging Division (ABD) TIFF"
 	]
 }

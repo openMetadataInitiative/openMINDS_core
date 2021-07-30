@@ -2,15 +2,14 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.axograph",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.iplab",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".axgx",
-		".axgd"
+		".ipl"
 	],
-	"name": "application/vnd.axograph",
+	"name": "application/vnd.iplab",
 	"relatedMediaType": null,
 	"synonym": [
-		"AxoGraph"
+		"IPLab"
 	]
 }

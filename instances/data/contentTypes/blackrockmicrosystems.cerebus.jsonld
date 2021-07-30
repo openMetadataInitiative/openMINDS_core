@@ -2,12 +2,12 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/image/bmp",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.blackrockmicrosystems.cerebus",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".bmp"
+		".nsx"
 	],
-	"name": "image/bmp",
+	"name": "application/vnd.blackrockmicrosystems.cerebus",
 	"relatedMediaType": null,
 	"synonym": null
 }

@@ -2,15 +2,14 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.axograph",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.inveon",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".axgx",
-		".axgd"
+		".hdr"
 	],
-	"name": "application/vnd.axograph",
+	"name": "application/vnd.inveon",
 	"relatedMediaType": null,
 	"synonym": [
-		"AxoGraph"
+		"Inveon"
 	]
 }

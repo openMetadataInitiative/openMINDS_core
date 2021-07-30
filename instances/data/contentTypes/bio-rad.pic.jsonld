@@ -2,15 +2,16 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.axograph",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.bio-rad.pic",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".axgx",
-		".axgd"
+		".xml",
+		".raw",
+		".pic"
 	],
-	"name": "application/vnd.axograph",
+	"name": "application/vnd.bio-rad.pic",
 	"relatedMediaType": null,
 	"synonym": [
-		"AxoGraph"
+		"Bio-Rad PIC"
 	]
 }

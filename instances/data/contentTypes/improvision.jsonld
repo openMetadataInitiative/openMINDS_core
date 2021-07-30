@@ -2,15 +2,14 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.axograph",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/image/tiff.improvision",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".axgx",
-		".axgd"
+		".tiff"
 	],
-	"name": "application/vnd.axograph",
+	"name": "image/tiff.improvision",
 	"relatedMediaType": null,
 	"synonym": [
-		"AxoGraph"
+		"Improvision TIFF"
 	]
 }

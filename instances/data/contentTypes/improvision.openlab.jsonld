@@ -2,15 +2,15 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.axograph",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.improvision.openlab",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".axgx",
-		".axgd"
+		".raw",
+		".liff"
 	],
-	"name": "application/vnd.axograph",
+	"name": "application/vnd.improvision.openlab",
 	"relatedMediaType": null,
 	"synonym": [
-		"AxoGraph"
+		"Improvision Openlab"
 	]
 }

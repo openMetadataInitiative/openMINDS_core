@@ -2,15 +2,14 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.axograph",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.avs.ucd",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".axgx",
-		".axgd"
+		".inp"
 	],
-	"name": "application/vnd.axograph",
+	"name": "application/vnd.avs.ucd",
 	"relatedMediaType": null,
 	"synonym": [
-		"AxoGraph"
+		"Unstructured Cell Data"
 	]
 }

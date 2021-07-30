@@ -2,15 +2,14 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.axograph",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.edf",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".axgx",
-		".axgd"
+		".edf"
 	],
-	"name": "application/vnd.axograph",
+	"name": "application/vnd.edf",
 	"relatedMediaType": null,
 	"synonym": [
-		"AxoGraph"
+		"European Data Format"
 	]
 }

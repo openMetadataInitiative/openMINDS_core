@@ -2,15 +2,12 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.axograph",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/text/cfg",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".axgx",
-		".axgd"
+		".cfg"
 	],
-	"name": "application/vnd.axograph",
+	"name": "text/cfg",
 	"relatedMediaType": null,
-	"synonym": [
-		"AxoGraph"
-	]
+	"synonym": null
 }

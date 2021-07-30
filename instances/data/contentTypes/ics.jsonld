@@ -2,15 +2,15 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.axograph",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.ics",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".axgx",
-		".axgd"
+		".ids",
+		".ics"
 	],
-	"name": "application/vnd.axograph",
+	"name": "application/vnd.ics",
 	"relatedMediaType": null,
 	"synonym": [
-		"AxoGraph"
+		"Image Cytometry Standard"
 	]
 }

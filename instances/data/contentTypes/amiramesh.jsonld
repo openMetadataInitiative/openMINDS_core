@@ -2,12 +2,16 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/image/bmp",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.amiramesh",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".bmp"
+		".labels",
+		".hx",
+		".grey",
+		".amiramesh",
+		".am"
 	],
-	"name": "image/bmp",
+	"name": "application/vnd.amiramesh",
 	"relatedMediaType": null,
 	"synonym": null
 }

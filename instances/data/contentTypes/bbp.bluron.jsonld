@@ -2,15 +2,12 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.axograph",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.bbp.bluron",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".axgx",
-		".axgd"
+		".dat"
 	],
-	"name": "application/vnd.axograph",
+	"name": "application/vnd.bbp.bluron",
 	"relatedMediaType": null,
-	"synonym": [
-		"AxoGraph"
-	]
+	"synonym": null
 }

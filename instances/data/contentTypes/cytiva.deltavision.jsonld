@@ -2,12 +2,14 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/image/bmp",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.cytiva.deltavision",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".bmp"
+		".rcpnl",
+		".r3d",
+		".dv"
 	],
-	"name": "image/bmp",
+	"name": "application/vnd.cytiva.deltavision",
 	"relatedMediaType": null,
 	"synonym": null
 }

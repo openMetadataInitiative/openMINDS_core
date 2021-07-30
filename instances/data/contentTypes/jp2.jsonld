@@ -2,15 +2,16 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.axograph",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/image/jp2",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".axgx",
-		".axgd"
+		".jpc",
+		".j2c",
+		".j2k"
 	],
-	"name": "application/vnd.axograph",
+	"name": "image/jp2",
 	"relatedMediaType": null,
 	"synonym": [
-		"AxoGraph"
+		"JPEG 2000"
 	]
 }

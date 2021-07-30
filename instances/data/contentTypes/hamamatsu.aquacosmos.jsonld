@@ -2,15 +2,14 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.axograph",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.hamamatsu.aquacosmos",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".axgx",
-		".axgd"
+		".naf"
 	],
-	"name": "application/vnd.axograph",
+	"name": "application/vnd.hamamatsu.aquacosmos",
 	"relatedMediaType": null,
 	"synonym": [
-		"AxoGraph"
+		"Hamamatsu Aquacosmos NAF"
 	]
 }

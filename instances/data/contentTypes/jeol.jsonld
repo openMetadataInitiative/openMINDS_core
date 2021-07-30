@@ -2,15 +2,16 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.axograph",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.jeol",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".axgx",
-		".axgd"
+		".par",
+		".img",
+		".dat"
 	],
-	"name": "application/vnd.axograph",
+	"name": "application/vnd.jeol",
 	"relatedMediaType": null,
 	"synonym": [
-		"AxoGraph"
+		"JEOL"
 	]
 }

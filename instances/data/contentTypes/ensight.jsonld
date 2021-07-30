@@ -2,15 +2,15 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.axograph",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.ensight",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".axgx",
-		".axgd"
+		".sos",
+		".case"
 	],
-	"name": "application/vnd.axograph",
+	"name": "application/vnd.ensight",
 	"relatedMediaType": null,
 	"synonym": [
-		"AxoGraph"
+		"Engineering inSight"
 	]
 }

@@ -2,15 +2,14 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.axograph",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/image/vnd.compix.simplepcihcimage",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".axgx",
-		".axgd"
+		".cxd "
 	],
-	"name": "application/vnd.axograph",
+	"name": "image/vnd.compix.simplepcihcimage",
 	"relatedMediaType": null,
 	"synonym": [
-		"AxoGraph"
+		"SimplePCI, HCImage"
 	]
 }

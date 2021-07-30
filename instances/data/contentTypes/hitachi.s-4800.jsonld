@@ -2,15 +2,17 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.axograph",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.hitachi.s-4800",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".axgx",
-		".axgd"
+		".jpg",
+		".bmp",
+		".tif",
+		".txt"
 	],
-	"name": "application/vnd.axograph",
+	"name": "application/vnd.hitachi.s-4800",
 	"relatedMediaType": null,
 	"synonym": [
-		"AxoGraph"
+		"Hitachi S-4800"
 	]
 }

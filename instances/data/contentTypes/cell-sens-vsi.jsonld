@@ -2,15 +2,12 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.axograph",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.cell-sens-vsi",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".axgx",
-		".axgd"
+		".vsi"
 	],
-	"name": "application/vnd.axograph",
+	"name": "application/vnd.cell-sens-vsi",
 	"relatedMediaType": null,
-	"synonym": [
-		"AxoGraph"
-	]
+	"synonym": null
 }

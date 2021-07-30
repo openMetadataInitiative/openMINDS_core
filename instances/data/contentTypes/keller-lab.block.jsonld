@@ -2,15 +2,14 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.axograph",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.keller-lab.block",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".axgx",
-		".axgd"
+		".klb"
 	],
-	"name": "application/vnd.axograph",
+	"name": "application/vnd.keller-lab.block",
 	"relatedMediaType": null,
 	"synonym": [
-		"AxoGraph"
+		"Keller Lab Block"
 	]
 }

@@ -2,15 +2,14 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.axograph",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.imacon",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".axgx",
-		".axgd"
+		".fff"
 	],
-	"name": "application/vnd.axograph",
+	"name": "application/vnd.imacon",
 	"relatedMediaType": null,
 	"synonym": [
-		"AxoGraph"
+		"Imacon"
 	]
 }

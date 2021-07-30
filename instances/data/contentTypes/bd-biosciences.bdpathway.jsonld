@@ -2,15 +2,15 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.axograph",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.bd-biosciences.bdpathway",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".axgx",
-		".axgd"
+		".tiff",
+		".exp"
 	],
-	"name": "application/vnd.axograph",
+	"name": "application/vnd.bd-biosciences.bdpathway",
 	"relatedMediaType": null,
 	"synonym": [
-		"AxoGraph"
+		"BD Pathway"
 	]
 }

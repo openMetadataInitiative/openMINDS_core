@@ -2,15 +2,14 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.axograph",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.becker-hickl.spcimage",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".axgx",
-		".axgd"
+		".sdt"
 	],
-	"name": "application/vnd.axograph",
+	"name": "application/vnd.becker-hickl.spcimage",
 	"relatedMediaType": null,
 	"synonym": [
-		"AxoGraph"
+		"Becker & Hickl SPCImage"
 	]
 }

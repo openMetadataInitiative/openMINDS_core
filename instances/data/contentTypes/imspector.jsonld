@@ -2,15 +2,15 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.axograph",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.imspector",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".axgx",
-		".axgd"
+		".msr",
+		".obf"
 	],
-	"name": "application/vnd.axograph",
+	"name": "application/vnd.imspector",
 	"relatedMediaType": null,
 	"synonym": [
-		"AxoGraph"
+		"Imspector OBF"
 	]
 }

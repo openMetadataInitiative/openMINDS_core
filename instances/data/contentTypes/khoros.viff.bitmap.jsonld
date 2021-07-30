@@ -2,15 +2,14 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.axograph",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.khoros.viff.bitmap",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".axgx",
-		".axgd"
+		".xv"
 	],
-	"name": "application/vnd.axograph",
+	"name": "application/vnd.khoros.viff.bitmap",
 	"relatedMediaType": null,
 	"synonym": [
-		"AxoGraph"
+		"Khoros Visualization Image File Format Bitmap"
 	]
 }
