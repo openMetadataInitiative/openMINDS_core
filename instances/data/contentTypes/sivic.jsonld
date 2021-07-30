@@ -1,11 +1,11 @@
 {
-	"@context" : {
-		"@vocab": "https://openminds.ebrains.eu/vocab/"
-	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.sivic",
-	"@type": "https://openminds.ebrains.eu/core/ContentType",
-	"fileExtension": null
-	"name": "application/vnd.sivic",
-	"relatedMediaType": null,
-	"synonym": null
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.sivic",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": null,
+  "name": "application/vnd.sivic",
+  "relatedMediaType": null,
+  "synonym": null
 }
