@@ -2,17 +2,14 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.neuralynx",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.moleculardevices.axon",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".ntt",
-		".nse",
-		".nev",
-		".ncs"
+		".abf"
 	],
-	"name": "application/vnd.neuralynx",
+	"name": "application/vnd.moleculardevices.axon",
 	"relatedMediaType": null,
 	"synonym": [
-		"Neuralynx"
+		"Axon™ Binary File format"
 	]
 }

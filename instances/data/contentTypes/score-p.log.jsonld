@@ -2,17 +2,14 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.neuralynx",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.score-p.log",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".ntt",
-		".nse",
-		".nev",
-		".ncs"
+		".txt"
 	],
-	"name": "application/vnd.neuralynx",
+	"name": "application/vnd.score-p.log",
 	"relatedMediaType": null,
 	"synonym": [
-		"Neuralynx"
+		"LOG"
 	]
 }

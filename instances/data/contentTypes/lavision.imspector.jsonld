@@ -2,17 +2,14 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.neuralynx",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.lavision.imspector",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".ntt",
-		".nse",
-		".nev",
-		".ncs"
+		".msr"
 	],
-	"name": "application/vnd.neuralynx",
+	"name": "application/vnd.lavision.imspector",
 	"relatedMediaType": null,
 	"synonym": [
-		"Neuralynx"
+		"LaVision Imspector"
 	]
 }

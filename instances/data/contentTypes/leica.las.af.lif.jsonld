@@ -2,17 +2,14 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.neuralynx",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.leica.las.af.lif",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".ntt",
-		".nse",
-		".nev",
-		".ncs"
+		".lif"
 	],
-	"name": "application/vnd.neuralynx",
+	"name": "application/vnd.leica.las.af.lif",
 	"relatedMediaType": null,
 	"synonym": [
-		"Neuralynx"
+		"Leica LAS AF LIF (Leica Image File Format)"
 	]
 }

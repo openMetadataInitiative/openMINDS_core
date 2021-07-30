@@ -2,17 +2,14 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.neuralynx",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.kodak.bip",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".ntt",
-		".nse",
-		".nev",
-		".ncs"
+		".bip"
 	],
-	"name": "application/vnd.neuralynx",
+	"name": "application/vnd.kodak.bip",
 	"relatedMediaType": null,
 	"synonym": [
-		"Neuralynx"
+		"Kodak BIP"
 	]
 }

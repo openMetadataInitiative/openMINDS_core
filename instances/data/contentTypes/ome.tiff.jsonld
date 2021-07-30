@@ -2,17 +2,17 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.neuralynx",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.ome.tiff",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".ntt",
-		".nse",
-		".nev",
-		".ncs"
+		".ome.btf",
+		".ome.tf8",
+		"ome.tf2",
+		"ome.tiff"
 	],
-	"name": "application/vnd.neuralynx",
+	"name": "application/vnd.ome.tiff",
 	"relatedMediaType": null,
 	"synonym": [
-		"Neuralynx"
+		"OME-TIFF"
 	]
 }

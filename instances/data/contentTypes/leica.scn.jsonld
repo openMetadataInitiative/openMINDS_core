@@ -2,17 +2,14 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.neuralynx",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.leica.scn",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".ntt",
-		".nse",
-		".nev",
-		".ncs"
+		".scn"
 	],
-	"name": "application/vnd.neuralynx",
+	"name": "application/vnd.leica.scn",
 	"relatedMediaType": null,
 	"synonym": [
-		"Neuralynx"
+		"Leica SCN"
 	]
 }

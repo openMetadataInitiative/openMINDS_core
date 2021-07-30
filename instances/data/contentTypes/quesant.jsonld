@@ -2,17 +2,14 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.neuralynx",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.quesant",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".ntt",
-		".nse",
-		".nev",
-		".ncs"
+		".afm"
 	],
-	"name": "application/vnd.neuralynx",
+	"name": "application/vnd.quesant",
 	"relatedMediaType": null,
 	"synonym": [
-		"Neuralynx"
+		"Quesant"
 	]
 }

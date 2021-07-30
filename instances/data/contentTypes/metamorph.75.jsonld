@@ -2,17 +2,14 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.neuralynx",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/image/tiff.metamorph.75",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".ntt",
-		".nse",
-		".nev",
-		".ncs"
+		".tiff"
 	],
-	"name": "application/vnd.neuralynx",
+	"name": "image/tiff.metamorph.75",
 	"relatedMediaType": null,
 	"synonym": [
-		"Neuralynx"
+		"MetaMorph 7.5 TIFF"
 	]
 }

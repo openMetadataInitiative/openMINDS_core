@@ -2,13 +2,14 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/text/markdown",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.sonata",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".markdown",
-		".md"
+		".csv",
+		".h5",
+		".json"
 	],
-	"name": "text/markdown",
+	"name": "application/vnd.sonata",
 	"relatedMediaType": null,
 	"synonym": null
 }

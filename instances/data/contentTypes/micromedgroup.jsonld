@@ -2,13 +2,12 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/text/markdown",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.micromedgroup",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".markdown",
-		".md"
+		".trc"
 	],
-	"name": "text/markdown",
+	"name": "application/vnd.micromedgroup",
 	"relatedMediaType": null,
 	"synonym": null
 }

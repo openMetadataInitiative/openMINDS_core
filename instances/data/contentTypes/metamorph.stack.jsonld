@@ -2,17 +2,15 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.neuralynx",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.metamorph.stack",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".ntt",
-		".nse",
-		".nev",
-		".ncs"
+		".nd",
+		".stk"
 	],
-	"name": "application/vnd.neuralynx",
+	"name": "application/vnd.metamorph.stack",
 	"relatedMediaType": null,
 	"synonym": [
-		"Neuralynx"
+		"MetaMorph Stack"
 	]
 }

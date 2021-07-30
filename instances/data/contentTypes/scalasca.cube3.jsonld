@@ -2,13 +2,12 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/text/markdown",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.scalasca.cube3",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".markdown",
-		".md"
+		".cube"
 	],
-	"name": "text/markdown",
+	"name": "application/vnd.scalasca.cube3",
 	"relatedMediaType": null,
 	"synonym": null
 }

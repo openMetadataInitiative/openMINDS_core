@@ -2,17 +2,17 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.neuralynx",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.nrrd",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".ntt",
-		".nse",
-		".nev",
-		".ncs"
+		".txt",
+		".raw",
+		".nhdr",
+		".nrrd"
 	],
-	"name": "application/vnd.neuralynx",
+	"name": "application/vnd.nrrd",
 	"relatedMediaType": null,
 	"synonym": [
-		"Neuralynx"
+		"Nearly Raw Raster Data"
 	]
 }

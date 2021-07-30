@@ -2,17 +2,16 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.neuralynx",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.perkinelmer.columbus",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".ntt",
-		".nse",
-		".nev",
-		".ncs"
+		".tiff",
+		".csv",
+		".xml"
 	],
-	"name": "application/vnd.neuralynx",
+	"name": "application/vnd.perkinelmer.columbus",
 	"relatedMediaType": null,
 	"synonym": [
-		"Neuralynx"
+		"PerkinElmer Columbus"
 	]
 }

@@ -2,13 +2,12 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/text/markdown",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.python",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".markdown",
-		".md"
+		".py"
 	],
-	"name": "text/markdown",
+	"name": "application/vnd.python",
 	"relatedMediaType": null,
 	"synonym": null
 }

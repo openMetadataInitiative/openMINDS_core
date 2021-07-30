@@ -2,17 +2,17 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.neuralynx",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.neo.ascii.signal",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".ntt",
-		".nse",
-		".nev",
-		".ncs"
+		".tsv",
+		".csv",
+		".asc",
+		".txt"
 	],
-	"name": "application/vnd.neuralynx",
+	"name": "application/vnd.neo.ascii.signal",
 	"relatedMediaType": null,
 	"synonym": [
-		"Neuralynx"
+		"NEO AnalogSignals"
 	]
 }

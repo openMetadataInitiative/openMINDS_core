@@ -2,13 +2,12 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/text/markdown",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.perkinelmer.volocity",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".markdown",
-		".md"
+		".mvd2"
 	],
-	"name": "text/markdown",
+	"name": "application/vnd.perkinelmer.volocity",
 	"relatedMediaType": null,
 	"synonym": null
 }

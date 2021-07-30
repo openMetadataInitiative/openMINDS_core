@@ -2,17 +2,15 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.neuralynx",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.perkinelmer.operetta",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".ntt",
-		".nse",
-		".nev",
-		".ncs"
+		".xml",
+		".tiff"
 	],
-	"name": "application/vnd.neuralynx",
+	"name": "application/vnd.perkinelmer.operetta",
 	"relatedMediaType": null,
 	"synonym": [
-		"Neuralynx"
+		"PerkinElmer Operetta"
 	]
 }

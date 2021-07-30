@@ -2,17 +2,16 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.neuralynx",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/image/vnd.silicongraphicsimage",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".ntt",
-		".nse",
-		".nev",
-		".ncs"
+		".bw",
+		".rgb",
+		".rgba"
 	],
-	"name": "application/vnd.neuralynx",
+	"name": "image/vnd.silicongraphicsimage",
 	"relatedMediaType": null,
 	"synonym": [
-		"Neuralynx"
+		"Silicon Graphics Image"
 	]
 }

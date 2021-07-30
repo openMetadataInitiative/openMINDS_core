@@ -2,17 +2,15 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.neuralynx",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.nikon.nef",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".ntt",
-		".nse",
-		".nev",
-		".ncs"
+		".tiff",
+		".nef"
 	],
-	"name": "application/vnd.neuralynx",
+	"name": "application/vnd.nikon.nef",
 	"relatedMediaType": null,
 	"synonym": [
-		"Neuralynx"
+		"Nikon Electronic Format"
 	]
 }

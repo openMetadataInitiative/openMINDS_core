@@ -2,17 +2,16 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.neuralynx",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.mrtrix.imageformat",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".ntt",
-		".nse",
-		".nev",
-		".ncs"
+		".mih",
+		".mif.gz",
+		".mif"
 	],
-	"name": "application/vnd.neuralynx",
+	"name": "application/vnd.mrtrix.imageformat",
 	"relatedMediaType": null,
 	"synonym": [
-		"Neuralynx"
+		"MRTrix Image Format"
 	]
 }

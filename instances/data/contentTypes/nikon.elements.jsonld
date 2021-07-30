@@ -2,14 +2,12 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.plexon",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/image/tiff.nikon.elements",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
-	"fileExtension": [
-		".plx"
-	],
-	"name": "application/vnd.plexon",
+	"fileExtension": null
+	"name": "image/tiff.nikon.elements",
 	"relatedMediaType": null,
 	"synonym": [
-		"Plexon data file"
+		"Nikon Elements"
 	]
 }

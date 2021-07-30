@@ -2,17 +2,14 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.neuralynx",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.structuredatafile",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".ntt",
-		".nse",
-		".nev",
-		".ncs"
+		".sdf"
 	],
-	"name": "application/vnd.neuralynx",
+	"name": "application/vnd.structuredatafile",
 	"relatedMediaType": null,
 	"synonym": [
-		"Neuralynx"
+		"Structure Data File"
 	]
 }

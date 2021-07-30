@@ -1,0 +1,20 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.mrc",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".mrcs",
+		".rec",
+		".map",
+		".ali",
+		".st",
+		".mrc"
+	],
+	"name": "application/vnd.mrc",
+	"relatedMediaType": null,
+	"synonym": [
+		"MRC (Medical Research Council)"
+	]
+}

@@ -2,17 +2,14 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.neuralynx",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/image/tiff.olympus.fluoview",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".ntt",
-		".nse",
-		".nev",
-		".ncs"
+		".tiff"
 	],
-	"name": "application/vnd.neuralynx",
+	"name": "image/tiff.olympus.fluoview",
 	"relatedMediaType": null,
 	"synonym": [
-		"Neuralynx"
+		"Olympus FluoView TIFF"
 	]
 }
