@@ -1,18 +1,17 @@
+<a href="https://github.com/HumanBrainProject/openMINDS_core/blob/v3/img/openMINDS_core_logo.png">
+    <img src="https://github.com/HumanBrainProject/openMINDS_core/blob/v3/img/openMINDS_core_logo.png" alt="openMINDS core logo" title="openMINDS core" align="right" height="70" />
+</a>
+
 # openMINDS_core
 
-The openMINDS_core repository is part of the open Metadata Initiative for Neuroscience Data Structures (openMINDS). It contains the 
-schema-templates used for registering neuroscience research products into the EBRAINS Knowledge Graph.
+The **openMINDS_core** repository is part of the **open** **M**etadata **I**nitiative for **N**euroscience **D**ata Structures (**openMINDS**). It contains 
+schemas used to describe the general origin, location and content of neuroscience research products. The openMINDS_core schemas cover metadata for the basic integration of research products into the EBRAINS Knowledge Graph.
 
-For more information on openMINDS in general and the processing pipelines for the schema-templates please go to the main repository: https://github.com/HumanBrainProject/openMINDS
+The major versions are developed and maintained in different version-branches. **Each version can be accessed by checking out the corresponding version-branch.** You are currently on **version-branch v1**. Note: the default branch is always the latest version-branch in use within the EBRAINS Knowledge Graph. 
 
-## v1.0 (schema-templates)
-The core v1.0 schemas (originally called MINDS) were documented as JSON-schemas.
+**THIS VERSION IS DEPRECATED!**. openMINDS_core v1 was a first attempt to more consistently capture the schemas used in the EBRAINS Knowledge Graph. It does not store the schemas in a functional correct format, and does not follow the official structure of the openMINDS metadata model version branches. Changes in here will not lead to a new build of the central openMINDS repository.
 
-## v2.0 (schema-templates)
-The core v1.0 schemas (originally called MINDS) were only documented in the Wiki.
-
-## v3.0 (schema-templates)
-The core v3.0 schemas (MINDS) are JSON-schema inspired schema-templates with a few custom template-properties (prefixed with `"_"`) which allow us to simplify their readability and increase their reusability.
+For application and technical details for newer openMINDS versions please go to the [central openMINDS repository](https://github.com/HumanBrainProject/openMINDS) or the [openMINDS Collab](https://wiki.ebrains.eu/bin/view/Collabs/openminds/).
 
 ## How to contribute
 Please check our [contribution document](./CONTRIBUTING.md).
