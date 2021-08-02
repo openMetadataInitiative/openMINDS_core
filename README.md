@@ -9,7 +9,7 @@ schemas used to describe the general origin, location and content of neuroscienc
 
 The major versions are developed and maintained in different version-branches. **Each version can be accessed by checking out the corresponding version-branch.** You are currently on **version-branch v1**. Note: the default branch is always the latest version-branch in use within the EBRAINS Knowledge Graph. 
 
-**!!! THIS VERSION IS DEPRECATED !!!** 
+:warning: :warning: **THIS VERSION IS DEPRECATED** :warning: :warning:
 
 openMINDS_core v1 was a first attempt to more consistently capture the schemas used in the EBRAINS Knowledge Graph. It does not store the schemas in a functional correct format, and does not follow the official structure of the openMINDS metadata model version branches. Changes in here will not lead to a new build of the central openMINDS repository.
 
