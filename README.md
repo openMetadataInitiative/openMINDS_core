@@ -4,10 +4,10 @@
 
 # openMINDS_core
 
-The **openMINDS_core** repository is part of the **open** **M**etadata **I**nitiative for **N**euroscience **D**ata Structures (**openMINDS**). It contains the 
-schema-templates used to describe the general origin, location and content of neuroscience research products. The openMINDS_core schemas cover metadata for the basic integration of research products into the EBRAINS Knowledge Graph.
+The **openMINDS_core** repository is part of the **open** **M**etadata **I**nitiative for **N**euroscience **D**ata Structures (**openMINDS**). It contains 
+schemas used to describe the general origin, location and content of neuroscience research products. The openMINDS_core schemas cover metadata for the basic integration of research products into the EBRAINS Knowledge Graph.
 
-The major versions are developed and maintained in different version-branches. **Each version can be accessed by checking out the corresponding version-branch.** You are currently on **version-branch v3**. The default branch is always the latest version-branch in use within the EBRAINS Knowledge Graph. 
+The major versions are developed and maintained in different version-branches. **Each version can be accessed by checking out the corresponding version-branch.** You are currently on **version-branch v3**. Note: the default branch is always the latest version-branch in use within the EBRAINS Knowledge Graph. 
 
 For application and technical details please go to the [central openMINDS repository](https://github.com/HumanBrainProject/openMINDS) or the [openMINDS Collab](https://wiki.ebrains.eu/bin/view/Collabs/openminds/).
 
