@@ -2,7 +2,6 @@
   "required": [
     "accessibility",
     "fullDocumentation",
-    "funding",
     "releaseDate",
     "shortName",
     "versionIdentifier",
