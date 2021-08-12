@@ -50,7 +50,8 @@
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation",
         "https://openminds.ebrains.eu/sands/CustomAnatomicalEntity",
-        "https://openminds.ebrains.eu/sands/ParcellationEntity"
+        "https://openminds.ebrains.eu/sands/ParcellationEntity",
+        "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
       ]
     },
     "type": {
