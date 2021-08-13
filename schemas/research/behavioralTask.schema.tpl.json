@@ -14,7 +14,7 @@
     },
     "name": {
       "type": "string",
-      "_instruction": "Enter a descriptive full name for this behavioral task."
+      "_instruction": "Enter a descriptive name for this behavioral task."
     },
     "internalIdentifier": {
       "type": "string",
