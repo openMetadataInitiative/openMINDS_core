@@ -43,7 +43,7 @@
         "https://openminds.ebrains.eu/core/TissueSampleState"
       ]
     },
-    "preparationType": {
+    "preparationDesign": {
       "_instruction": "Add the initial preparation type for this protocol execution.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/PreparationType"
