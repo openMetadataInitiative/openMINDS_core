@@ -9,7 +9,8 @@
 	],
 	"name": "application/x-ipynb+json",
 	"relatedMediaType": null,
-	"synonym": [
-		"Jupyter Notebook"
-	]
+  "synonym": [
+    "Jupyter Notebook",
+    "IPYNB"
+  ]
 }

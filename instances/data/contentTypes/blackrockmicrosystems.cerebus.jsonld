@@ -9,5 +9,7 @@
 	],
 	"name": "application/vnd.blackrockmicrosystems.cerebus",
 	"relatedMediaType": null,
-	"synonym": null
+	"synonym": [
+    "Cerebus neural signal system"
+  ]
 }

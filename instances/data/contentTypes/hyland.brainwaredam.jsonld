@@ -9,5 +9,7 @@
 	],
 	"name": "application/vnd.hyland.brainwaredam",
 	"relatedMediaType": null,
-	"synonym": null
+	"synonym": [
+    "Brainware DAM files"
+  ]
 }

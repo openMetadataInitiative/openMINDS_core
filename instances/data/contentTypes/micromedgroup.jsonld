@@ -9,5 +9,7 @@
 	],
 	"name": "application/vnd.micromedgroup",
 	"relatedMediaType": null,
-	"synonym": null
+	  "synonym": [
+    "Micromed files"
+  ]
 }

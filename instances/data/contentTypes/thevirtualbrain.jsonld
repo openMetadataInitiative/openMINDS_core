@@ -10,5 +10,7 @@
 	],
 	"name": "application/vnd.thevirtualbrain",
 	"relatedMediaType": null,
-	"synonym": null
+	"synonym": [
+    "TVB"
+  ]
 }
