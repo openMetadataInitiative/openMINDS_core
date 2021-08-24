@@ -18,7 +18,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all stimulations used for this protocol.",
+      "_instruction": "Add all stimulations used with this protocol.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Stimulation"
       ]
