@@ -18,11 +18,20 @@
     },
     "internalIdentifier": {
       "type": "string",
-      "_instruction": "Enter the label that was used to identify the protocol within the data."
+      "_instruction": "Enter the label that was used to identify the behavioral protocol within the data."
     },    
     "lookupLabel": {
       "type": "string",
-      "_instruction": "Enter a lookup label for this protocol that may help you to more easily find it again."
+      "_instruction": "Enter a lookup label for this behavioral protocol that may help you to more easily find it again."
+    },    
+    "stimulation": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all stimulations used for this behavioral protocol.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Stimulation"
+      ]
     }
   }
 }
