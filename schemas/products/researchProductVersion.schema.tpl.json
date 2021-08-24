@@ -70,10 +70,10 @@
       "maxItems": 5,
       "minItems": 1, 
       "uniqueItems": true,
-      "_instruction": "Enter custom keywords to this research product version.",
-      "items": {
-        "type": "string"
-      }
+      "_instruction": "Add controlled or suggest new terms as keywords to this research product version.",
+      "_linkedCategories": [
+        "studyTarget"
+      ]
     },
     "otherContribution": {
       "type": "array",
