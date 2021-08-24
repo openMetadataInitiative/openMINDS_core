@@ -19,13 +19,13 @@
         "legalPerson"
       ]
     },
-    "behavioralTask": {
+    "behavioralProtocol": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add one or several behavioral tasks that were performed in this dataset version.",
+      "_instruction": "Add one or several behavioral protocols that were performed in this dataset version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/BehavioralTask"
+        "https://openminds.ebrains.eu/core/BehavioralProtocol"
       ]
     },
     "digitalIdentifier": {
