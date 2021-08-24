@@ -19,11 +19,7 @@
     "internalIdentifier": {
       "type": "string",
       "_instruction": "Enter the label that was used to identify the behavioral protocol within the data."
-    },    
-    "lookupLabel": {
-      "type": "string",
-      "_instruction": "Enter a lookup label for this behavioral protocol that may help you to more easily find it again."
-    },    
+    },     
     "stimulation": {
       "type": "array",
       "minItems": 1,
