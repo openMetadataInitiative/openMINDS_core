@@ -1,0 +1,21 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/Stimulation",
+  "required": [
+    "stimulationApproach",
+    "stimulusType"
+  ],
+  "properties": {  
+    "stimulationApproach": {
+      "_instruction": "Add the stimulation approach which this stimulation has deployed.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/StimulationApproach"
+      ]
+    },    
+    "stimulusType": {
+      "_instruction": "Add the type of stimulus that has been used for this stimulation.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/StimulusType"
+      ]
+    }
+  }
+}
