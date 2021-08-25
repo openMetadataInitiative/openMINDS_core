@@ -1,7 +1,8 @@
 {
   "_type": "https://openminds.ebrains.eu/core/Stimulation",
   "required": [
-    "stimulationApproach"
+    "stimulationApproach",
+    "stimulusType"
   ],
   "properties": {  
     "stimulationApproach": {
