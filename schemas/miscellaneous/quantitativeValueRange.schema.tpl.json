@@ -9,12 +9,18 @@
       "type": "number",
       "_instruction": "Add the maximum value measured for this range."
     },
+    "maxValueUnit": {
+      "_instruction": "Add the unit of measurement for the maximum value of this quantitative value range.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
+      ]
+    },
     "minValue": {
       "type": "number",
       "_instruction": "Add the minimum value measured for this range."
     },
-    "unit": {
-      "_instruction": "Add the unit of measurement of this quantitative value range.",
+    "minValueUnit": {
+      "_instruction": "Add the unit of measurement for the maximum value of this quantitative value range.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
       ]
