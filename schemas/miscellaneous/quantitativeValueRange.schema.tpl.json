@@ -20,7 +20,7 @@
       "_instruction": "Add the minimum value measured for this range."
     },
     "minValueUnit": {
-      "_instruction": "Add the unit of measurement for the maximum value of this quantitative value range.",
+      "_instruction": "Add the unit of measurement for the minimum value of this quantitative value range.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
       ]
