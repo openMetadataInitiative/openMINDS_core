@@ -7,7 +7,7 @@
     "experimentalApproach",
     "license",
     "technique",
-    "type"
+    "dataType"
   ],
   "properties": {
     "author": {
