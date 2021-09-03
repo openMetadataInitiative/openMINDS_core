@@ -19,6 +19,15 @@
         "https://openminds.ebrains.eu/core/FileRepository"
       ]
     },
+    "dataType": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all data types that are specifially represented in this file.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/DataType"
+      ]
+    },
     "format": {
       "_instruction": "Add the content type of this file instance.",
       "_linkedTypes": [
