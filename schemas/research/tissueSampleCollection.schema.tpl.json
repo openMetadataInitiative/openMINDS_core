@@ -19,6 +19,18 @@
         "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
       ]
     },    
+    "descendedFrom": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all specimen states used to produce or obtain this tissue sample collection.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/SubjectGroupState",
+        "https://openminds.ebrains.eu/core/SubjectState",
+        "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
+        "https://openminds.ebrains.eu/core/TissueSampleState"
+      ]
+    },    
     "laterality": {
       "type": "array",
       "maxItems": 2,      
