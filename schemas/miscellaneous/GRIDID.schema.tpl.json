@@ -1,6 +1,6 @@
 {
   "_type": "https://openminds.ebrains.eu/core/GRIDID",
-  "requires": [
+  "required": [
     "identifier"
   ],
   "properties": {
