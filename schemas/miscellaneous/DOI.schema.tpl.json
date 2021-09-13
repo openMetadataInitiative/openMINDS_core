@@ -1,6 +1,6 @@
 {
   "_type": "https://openminds.ebrains.eu/core/DOI",
-  "requires": [
+  "required": [
     "identifier"
   ],
   "properties": {

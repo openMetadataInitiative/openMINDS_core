@@ -1,6 +1,6 @@
 {
   "_type": "https://openminds.ebrains.eu/core/ISBN",
-  "requires": [
+  "required": [
     "identifier"
   ],
   "properties": {
