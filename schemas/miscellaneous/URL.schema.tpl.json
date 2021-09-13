@@ -1,6 +1,6 @@
 {
   "_type": "https://openminds.ebrains.eu/core/URL",
-  "requires": [
+  "required": [
     "URL"
   ],
   "properties": {

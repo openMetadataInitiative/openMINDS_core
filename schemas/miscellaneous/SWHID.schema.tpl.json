@@ -1,6 +1,6 @@
 {
   "_type": "https://openminds.ebrains.eu/core/SWHID",
-  "requires": [
+  "required": [
     "identifier"
   ],
   "properties": {
