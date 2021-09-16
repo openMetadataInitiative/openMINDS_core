@@ -4,6 +4,11 @@
   },
   "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.nifti.1",
   "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "dataType": [
+    {"@id": "https://openminds.ebrains.eu/instances/dataType/timeSeries"},
+    {"@id": "https://openminds.ebrains.eu/instances/dataType/rasterGraphic"},
+    {"@id": "https://openminds.ebrains.eu/instances/dataType/voxelData"}
+  ],
   "fileExtension": [
     ".nii"
   ],
