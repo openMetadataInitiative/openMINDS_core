@@ -21,6 +21,15 @@
         "https://openminds.ebrains.eu/core/DOI",
         "https://openminds.ebrains.eu/core/SWHID"
       ]
+    },    
+    "hasComponent": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all (meta)data model versions that supplement this (meta)data model version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/MetaDataVersion"
+      ]
     },
     "isAlternativeVersionOf": {
       "type": "array",
