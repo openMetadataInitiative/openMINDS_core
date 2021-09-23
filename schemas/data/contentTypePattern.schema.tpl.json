@@ -1,7 +1,8 @@
 {
   "_type": "https://openminds.ebrains.eu/core/ContentTypePattern",
   "required": [
-    "filePathPattern"
+    "contentType",
+    "regex"
   ],
   "properties": {
     "contentType": {
