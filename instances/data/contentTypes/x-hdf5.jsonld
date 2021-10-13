@@ -2,15 +2,15 @@
   "@context": {
     "@vocab": "https://openminds.ebrains.eu/vocab/"
   },
-  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.rawmcs",
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/x-hdf",
   "@type": "https://openminds.ebrains.eu/core/ContentType",
   "fileExtension": [
-    ".raw"
+    ".hdf5"
   ],
-  "name": "application/vnd.rawmcs",
+  "name": "application/x-hdf",
   "relatedMediaType": null,
   "synonym": [
-    "Raw Multi Channel System",
-    "MCS"
+    "Hierarchical Data Format version 5",
+    "HDF5"
   ]
 }

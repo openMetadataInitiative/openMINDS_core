@@ -7,8 +7,8 @@
 	"fileExtension": [
 		".ome.btf",
 		".ome.tf8",
-		"ome.tf2",
-		"ome.tiff"
+		".ome.tf2",
+		".ome.tiff"
 	],
 	"name": "application/vnd.ome.tiff",
 	"relatedMediaType": null,

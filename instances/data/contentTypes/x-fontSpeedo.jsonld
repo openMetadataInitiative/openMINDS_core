@@ -2,14 +2,14 @@
   "@context": {
     "@vocab": "https://openminds.ebrains.eu/vocab/"
   },
-  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/x-blender",
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/x-font-speedo",
   "@type": "https://openminds.ebrains.eu/core/ContentType",
   "fileExtension": [
-    ".blend"
+    ".spd"
   ],
-  "name": "application/x-blender",
+  "name": "application/x-font-speedo",
   "relatedMediaType": null,
   "synonym": [
-    "Blender scene description format"
+    "Speedo fonts"
   ]
 }

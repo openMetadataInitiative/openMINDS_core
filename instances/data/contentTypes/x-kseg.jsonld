@@ -2,14 +2,14 @@
   "@context": {
     "@vocab": "https://openminds.ebrains.eu/vocab/"
   },
-  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.nifti.2",
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/x-kseg",
   "@type": "https://openminds.ebrains.eu/core/ContentType",
   "fileExtension": [
-    ".nii"
+    ".seg"
   ],
-  "name": "application/vnd.nifti.2",
+  "name": "application/x-kseg",
   "relatedMediaType": null,
   "synonym": [
-    "NIfTI-2"
+    "KSEG file format"
   ]
 }

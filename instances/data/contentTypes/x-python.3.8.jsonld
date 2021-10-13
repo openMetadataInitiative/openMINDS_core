@@ -2,13 +2,12 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.fmri",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/text/x-python.3.8",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".nii.gz",
-		".dtseries.nii"
+		".py"
 	],
-	"name": "application/vnd.fmri",
+	"name": "application/text/x-python.3.8",
 	"relatedMediaType": null,
 	"synonym": null
 }

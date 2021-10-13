@@ -2,14 +2,14 @@
   "@context": {
     "@vocab": "https://openminds.ebrains.eu/vocab/"
   },
-  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/x-tgif",
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.nifti.2",
   "@type": "https://openminds.ebrains.eu/core/ContentType",
   "fileExtension": [
-    ".obj"
+    ".nii"
   ],
-  "name": "application/x-tgif",
+  "name": "application/vnd.nifti.2",
   "relatedMediaType": null,
   "synonym": [
-    "Tgif file format"
+    "NIfTI-2"
   ]
 }

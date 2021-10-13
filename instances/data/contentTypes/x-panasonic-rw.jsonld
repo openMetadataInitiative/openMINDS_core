@@ -2,15 +2,14 @@
   "@context": {
     "@vocab": "https://openminds.ebrains.eu/vocab/"
   },
-  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/x-hdf",
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/image/x-panasonic-rw",
   "@type": "https://openminds.ebrains.eu/core/ContentType",
   "fileExtension": [
-    ".hdf5"
+    ".raw"
   ],
-  "name": "application/x-hdf",
+  "name": "image/x-panasonic-rw",
   "relatedMediaType": null,
   "synonym": [
-    "Hierarchical Data Format version 5",
-    "HDF5"
+    "Panasonic RAW file format"
   ]
 }

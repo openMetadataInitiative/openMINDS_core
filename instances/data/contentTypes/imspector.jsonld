@@ -2,13 +2,14 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.imspector",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.abberior.imspector",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
 		".msr",
 		".obf"
 	],
-	"name": "application/vnd.imspector",
+	"specification":"https://imspectordocs.readthedocs.io/en/latest/fileformat.html#the-imspector-msr-file-format",
+	"name": "application/vnd.abberior.imspector",
 	"relatedMediaType": null,
 	"synonym": [
 		"Imspector OBF"

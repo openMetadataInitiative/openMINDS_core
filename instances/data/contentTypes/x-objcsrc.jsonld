@@ -2,14 +2,14 @@
   "@context": {
     "@vocab": "https://openminds.ebrains.eu/vocab/"
   },
-  "@id": "https://openminds.ebrains.eu/instances/contentTypes/image/x-panasonic-rw",
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/text/x-objcsrc",
   "@type": "https://openminds.ebrains.eu/core/ContentType",
   "fileExtension": [
-    ".raw"
+    ".m"
   ],
-  "name": "image/x-panasonic-rw",
+  "name": "text/x-objcsrc",
   "relatedMediaType": null,
   "synonym": [
-    "Panasonic RAW file format"
+    "Objective C source file"
   ]
 }

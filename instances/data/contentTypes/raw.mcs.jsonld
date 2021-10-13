@@ -10,6 +10,8 @@
 	"name": "application/vnd.raw.mcs",
 	"relatedMediaType": null,
 	"synonym": [
-		"RawMCS"
+		"RawMCS",
+		"Raw Multi Channel System",
+		"MCS"
 	]
 }

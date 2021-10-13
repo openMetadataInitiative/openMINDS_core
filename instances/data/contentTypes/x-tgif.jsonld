@@ -2,14 +2,14 @@
   "@context": {
     "@vocab": "https://openminds.ebrains.eu/vocab/"
   },
-  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/x-kseg",
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/x-tgif",
   "@type": "https://openminds.ebrains.eu/core/ContentType",
   "fileExtension": [
-    ".seg"
+    ".obj"
   ],
-  "name": "application/x-kseg",
+  "name": "application/x-tgif",
   "relatedMediaType": null,
   "synonym": [
-    "KSEG file format"
+    "Tgif file format"
   ]
 }
