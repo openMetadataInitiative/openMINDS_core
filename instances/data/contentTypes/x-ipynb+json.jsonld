@@ -7,10 +7,11 @@
 	"fileExtension": [
 		".ipynb"
 	],
+	"specification": "https://nbformat.readthedocs.io/en/latest/format_description.html",
 	"name": "application/x-ipynb+json",
 	"relatedMediaType": null,
-  "synonym": [
-    "Jupyter Notebook",
-    "IPYNB"
-  ]
+	"synonym": [
+		"Jupyter Notebook",
+		"IPYNB"
+	]
 }

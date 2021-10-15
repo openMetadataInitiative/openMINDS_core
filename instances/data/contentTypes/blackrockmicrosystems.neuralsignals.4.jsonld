@@ -11,7 +11,6 @@
 	"name": "application/vnd.blackrockmicrosystems.neuralsignals",
 	"relatedMediaType": null,
 	"synonym": [
-    "Cerebus neural signal system",
-	"Blackrock Neural Signal 4"
-  ]
+		"Blackrock Neural Signals 4"
+	]
 }
