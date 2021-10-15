@@ -1,0 +1,12 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/RRID",
+  "required": [
+    "identifier"
+  ],
+  "properties": {
+    "identifier": {
+      "type": "string",
+      "_instruction": "Enter the Research Resource Identifiers (RRID) for the portal of the Resource Identification Initiative."
+    }
+  }
+}
