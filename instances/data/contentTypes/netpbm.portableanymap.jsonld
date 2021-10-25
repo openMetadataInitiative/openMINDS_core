@@ -1,0 +1,17 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.netpbm.portableanymap",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".ppm",
+		".pgm",
+		".pbm"
+	],
+	"name": "application/vnd.netpbm.portableanymap",
+	"relatedMediaType": null,
+	"synonym": [
+		"Portable Anymap"
+	]
+}

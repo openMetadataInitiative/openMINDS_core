@@ -1,0 +1,13 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/image/x-targa",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".tga"
+	],
+	"name": "image/x-targa",
+	"relatedMediaType": null,
+	"synonym": null
+}

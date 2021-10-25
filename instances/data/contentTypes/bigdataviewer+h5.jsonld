@@ -1,16 +1,15 @@
 {
-	"@context": {
+	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.winwcp",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.bigdataviewer+h5",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".wcp"
+		".h5"
 	],
-	"name": "application/vnd.winwcp",
+	"name": "application/vnd.bigdataviewer+h5",
 	"relatedMediaType": null,
 	"synonym": [
-		"WinWCP files"
+		"Big Data Viewer"
 	]
 }
-

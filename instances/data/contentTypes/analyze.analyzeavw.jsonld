@@ -1,0 +1,15 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.analyze.analyzeavw",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".avw"
+	],
+	"name": "application/vnd.analyze.analyzeavw",
+	"relatedMediaType": null,
+	"synonym": [
+		"Analyze AVW"
+	]
+}

@@ -1,16 +1,15 @@
 {
-	"@context": {
+	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.winwcp",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.avs.ucd",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".wcp"
+		".inp"
 	],
-	"name": "application/vnd.winwcp",
+	"name": "application/vnd.avs.ucd",
 	"relatedMediaType": null,
 	"synonym": [
-		"WinWCP files"
+		"Unstructured Cell Data"
 	]
 }
-

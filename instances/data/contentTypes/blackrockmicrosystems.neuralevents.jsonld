@@ -1,0 +1,16 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.blackrockmicrosystems.neuralevents",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".nev"
+	],
+	"specification": "https://blackrockneurotech.com/research/wp-content/ifu/LB-0023-7.00_NEV_File_Format.pdf",
+	"name": "application/vnd.blackrockmicrosystems.neuralevents",
+	"relatedMediaType": null,
+	"synonym": [
+		"Blackrock Neural Events"
+	]
+}

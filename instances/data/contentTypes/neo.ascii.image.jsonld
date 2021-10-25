@@ -1,16 +1,15 @@
 {
-	"@context": {
+	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.winwcp",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.neo.ascii.image",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".wcp"
+		".txt"
 	],
-	"name": "application/vnd.winwcp",
+	"name": "application/vnd.neo.ascii.image",
 	"relatedMediaType": null,
 	"synonym": [
-		"WinWCP files"
+		"Ascii Image"
 	]
 }
-

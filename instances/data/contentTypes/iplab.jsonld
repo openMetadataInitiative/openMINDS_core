@@ -1,16 +1,15 @@
 {
-	"@context": {
+	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.winwcp",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.iplab",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".wcp"
+		".ipl"
 	],
-	"name": "application/vnd.winwcp",
+	"name": "application/vnd.iplab",
 	"relatedMediaType": null,
 	"synonym": [
-		"WinWCP files"
+		"IPLab"
 	]
 }
-

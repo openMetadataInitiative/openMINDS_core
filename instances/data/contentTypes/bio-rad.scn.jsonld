@@ -1,16 +1,15 @@
 {
-	"@context": {
+	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.winwcp",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.bio-rad.scn",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".wcp"
+		".scn"
 	],
-	"name": "application/vnd.winwcp",
+	"name": "application/vnd.bio-rad.scn",
 	"relatedMediaType": null,
 	"synonym": [
-		"WinWCP files"
+		"Bio-Rad SCN"
 	]
 }
-

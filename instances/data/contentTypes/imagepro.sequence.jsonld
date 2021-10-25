@@ -1,0 +1,15 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.imagepro.sequence",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".seq"
+	],
+	"name": "application/vnd.imagepro.sequence",
+	"relatedMediaType": null,
+	"synonym": [
+		"ImagePro Sequence"
+	]
+}

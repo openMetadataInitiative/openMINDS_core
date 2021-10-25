@@ -1,0 +1,13 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.alicona",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".al3d"
+	],
+	"name": "application/vnd.alicona",
+	"relatedMediaType": null,
+	"synonym": null
+}

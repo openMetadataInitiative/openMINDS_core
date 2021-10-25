@@ -1,0 +1,14 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.imagic",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".img",
+		".hed"
+	],
+	"name": "application/vnd.imagic",
+	"relatedMediaType": null,
+	"synonym": null
+}

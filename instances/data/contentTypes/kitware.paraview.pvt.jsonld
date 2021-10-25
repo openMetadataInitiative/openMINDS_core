@@ -1,0 +1,18 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.kitware.paraview.pvt",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".pvtu",
+		".pvts",
+		".pvtr",
+		".pvtp",
+		".ptvi",
+		".pvtb"
+	],
+	"name": "application/vnd.kitware.paraview.pvt",
+	"relatedMediaType": null,
+	"synonym": null
+}

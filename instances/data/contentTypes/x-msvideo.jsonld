@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/video/x-msvideo",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".avi"
+  ],
+  "name": "video/x-msvideo",
+  "relatedMediaType": null,
+  "synonym": [
+    "Audio Video Interleave",
+    "AVI"
+  ]
+}

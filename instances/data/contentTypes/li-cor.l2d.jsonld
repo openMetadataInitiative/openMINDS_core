@@ -1,0 +1,17 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.li-cor.l2d",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".scn",
+		".tiff",
+		".l2d"
+	],
+	"name": "application/vnd.li-cor.l2d",
+	"relatedMediaType": null,
+	"synonym": [
+		"Li-Cor L2D"
+	]
+}

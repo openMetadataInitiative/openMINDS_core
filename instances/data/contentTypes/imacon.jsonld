@@ -1,16 +1,15 @@
 {
-	"@context": {
+	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.winwcp",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.imacon",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".wcp"
+		".fff"
 	],
-	"name": "application/vnd.winwcp",
+	"name": "application/vnd.imacon",
 	"relatedMediaType": null,
 	"synonym": [
-		"WinWCP files"
+		"Imacon"
 	]
 }
-

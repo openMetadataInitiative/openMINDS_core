@@ -1,0 +1,17 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.perkinelmer.columbus",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".tiff",
+		".csv",
+		".xml"
+	],
+	"name": "application/vnd.perkinelmer.columbus",
+	"relatedMediaType": null,
+	"synonym": [
+		"PerkinElmer Columbus"
+	]
+}

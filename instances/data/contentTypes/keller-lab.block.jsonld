@@ -1,0 +1,15 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.keller-lab.block",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".klb"
+	],
+	"name": "application/vnd.keller-lab.block",
+	"relatedMediaType": null,
+	"synonym": [
+		"Keller Lab Block"
+	]
+}

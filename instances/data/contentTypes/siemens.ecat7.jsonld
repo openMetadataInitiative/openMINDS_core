@@ -1,0 +1,13 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.siemens.ecat7",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".v"
+	],
+	"name": "application/vnd.siemens.ecat7",
+	"relatedMediaType": null,
+	"synonym": null
+}

@@ -1,0 +1,13 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.perkinelmer.volocity",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".mvd2"
+	],
+	"name": "application/vnd.perkinelmer.volocity",
+	"relatedMediaType": null,
+	"synonym": null
+}

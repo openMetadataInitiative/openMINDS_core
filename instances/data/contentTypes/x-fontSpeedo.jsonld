@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/x-font-speedo",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".spd"
+  ],
+  "name": "application/x-font-speedo",
+  "relatedMediaType": null,
+  "synonym": [
+    "Speedo fonts"
+  ]
+}
