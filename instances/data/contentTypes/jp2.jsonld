@@ -1,16 +1,17 @@
 {
-	"@context": {
+	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.winwcp",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/image/jp2",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".wcp"
+		".jpc",
+		".j2c",
+		".j2k"
 	],
-	"name": "application/vnd.winwcp",
+	"name": "image/jp2",
 	"relatedMediaType": null,
 	"synonym": [
-		"WinWCP files"
+		"JPEG 2000"
 	]
 }
-

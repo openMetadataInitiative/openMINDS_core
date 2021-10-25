@@ -1,0 +1,14 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.yokogawa.cv7000",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".tiff",
+		".wpi"
+	],
+	"name": "application/vnd.yokogawa.cv7000",
+	"relatedMediaType": null,
+	"synonym": null
+}

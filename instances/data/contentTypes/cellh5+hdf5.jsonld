@@ -1,0 +1,13 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.cellh5+hdf5",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".ch5"
+	],
+	"name": "application/vnd.cellh5+hdf5",
+	"relatedMediaType": null,
+	"synonym": null
+}

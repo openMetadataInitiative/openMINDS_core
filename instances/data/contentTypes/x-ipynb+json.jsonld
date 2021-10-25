@@ -1,0 +1,17 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/x-ipynb+json",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".ipynb"
+	],
+	"specification": "https://nbformat.readthedocs.io/en/latest/format_description.html",
+	"name": "application/x-ipynb+json",
+	"relatedMediaType": null,
+	"synonym": [
+		"Jupyter Notebook",
+		"IPYNB"
+	]
+}

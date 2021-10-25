@@ -1,0 +1,15 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.becker-hickl.spcimage",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".sdt"
+	],
+	"name": "application/vnd.becker-hickl.spcimage",
+	"relatedMediaType": null,
+	"synonym": [
+		"Becker & Hickl SPCImage"
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/image/vnd.silicongraphicsimage",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".bw",
+		".rgb",
+		".rgba"
+	],
+	"name": "image/vnd.silicongraphicsimage",
+	"relatedMediaType": null,
+	"synonym": [
+		"Silicon Graphics Image"
+	]
+}

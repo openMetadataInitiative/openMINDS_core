@@ -1,16 +1,16 @@
 {
-	"@context": {
+	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.winwcp",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.ensight",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".wcp"
+		".sos",
+		".case"
 	],
-	"name": "application/vnd.winwcp",
+	"name": "application/vnd.ensight",
 	"relatedMediaType": null,
 	"synonym": [
-		"WinWCP files"
+		"Engineering inSight"
 	]
 }
-

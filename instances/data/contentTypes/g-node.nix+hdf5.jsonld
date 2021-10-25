@@ -1,0 +1,15 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.g-node.nix+hdf5",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".hdf5"
+	],
+	"name": "application/vnd.g-node.nix+hdf5",
+	"relatedMediaType": null,
+	"synonym": [
+		"Neuroscience information exchange format"
+	]
+}

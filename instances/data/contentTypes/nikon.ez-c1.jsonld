@@ -1,16 +1,15 @@
 {
-	"@context": {
+	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.winwcp",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/image/tiff.nikon.ez-c1",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".wcp"
+		".tiff"
 	],
-	"name": "application/vnd.winwcp",
+	"name": "image/tiff.nikon.ez-c1",
 	"relatedMediaType": null,
 	"synonym": [
-		"WinWCP files"
+		"Nikon EZ-C1"
 	]
 }
-

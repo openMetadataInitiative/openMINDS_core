@@ -1,0 +1,24 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.blackrockmicrosystems.parallelrecordings",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".ns1",
+		".ns2",
+		".ns3",
+		".ns4",
+		".ns5",
+		".ns6",
+		".ns7",
+		".ns8",
+		".ns9",
+		".nev"
+	],
+	"name": "application/vnd.blackrockmicrosystems.parallelrecordings",
+	"relatedMediaType": null,
+	"synonym": [
+		"Blackrock Parallel Recordings"
+	]
+}

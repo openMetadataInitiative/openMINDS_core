@@ -1,16 +1,16 @@
 {
-	"@context": {
+	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.winwcp",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.ics",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".wcp"
+		".ids",
+		".ics"
 	],
-	"name": "application/vnd.winwcp",
+	"name": "application/vnd.ics",
 	"relatedMediaType": null,
 	"synonym": [
-		"WinWCP files"
+		"Image Cytometry Standard"
 	]
 }
-

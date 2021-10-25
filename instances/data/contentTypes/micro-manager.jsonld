@@ -1,0 +1,17 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.micro-manager",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".xml",
+		".txt",
+		".tiff"
+	],
+	"name": "application/vnd.micro-manager",
+	"relatedMediaType": null,
+	"synonym": [
+		"Micro-Manager"
+	]
+}

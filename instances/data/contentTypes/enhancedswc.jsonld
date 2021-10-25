@@ -1,16 +1,15 @@
 {
-	"@context": {
+	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.winwcp",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.enhancedswc",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".wcp"
+		".eswc"
 	],
-	"name": "application/vnd.winwcp",
+	"name": "application/vnd.enhancedswc",
 	"relatedMediaType": null,
 	"synonym": [
-		"WinWCP files"
+		"Enhanced SWC"
 	]
 }
-

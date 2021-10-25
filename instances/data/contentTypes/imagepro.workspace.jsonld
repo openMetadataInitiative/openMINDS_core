@@ -1,0 +1,15 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.imagepro.workspace",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".ipw"
+	],
+	"name": "application/vnd.imagepro.workspace",
+	"relatedMediaType": null,
+	"synonym": [
+		"ImagePro Workspace"
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.vaa3d.apo",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".csv",
+		".apo"
+	],
+	"name": "application/vnd.vaa3d.apo",
+	"relatedMediaType": null,
+	"synonym": null
+}

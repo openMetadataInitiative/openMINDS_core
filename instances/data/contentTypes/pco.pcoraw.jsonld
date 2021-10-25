@@ -1,16 +1,16 @@
 {
-	"@context": {
+	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.winwcp",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.pco.pcoraw",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".wcp"
+		".rec",
+		".pcoraw"
 	],
-	"name": "application/vnd.winwcp",
+	"name": "application/vnd.pco.pcoraw",
 	"relatedMediaType": null,
 	"synonym": [
-		"WinWCP files"
+		"PCORAW"
 	]
 }
-

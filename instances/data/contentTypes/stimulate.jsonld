@@ -1,0 +1,14 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.stimulate",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".spr",
+		".sdt"
+	],
+	"name": "application/vnd.stimulate",
+	"relatedMediaType": null,
+	"synonym": null
+}

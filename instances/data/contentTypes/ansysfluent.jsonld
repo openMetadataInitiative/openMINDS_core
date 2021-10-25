@@ -1,16 +1,16 @@
 {
-	"@context": {
+	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.winwcp",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.ansysfluent",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".wcp"
+		".dat",
+		".cas"
 	],
-	"name": "application/vnd.winwcp",
+	"name": "application/vnd.ansysfluent",
 	"relatedMediaType": null,
 	"synonym": [
-		"WinWCP files"
+		"ANSYS Fluent"
 	]
 }
-
