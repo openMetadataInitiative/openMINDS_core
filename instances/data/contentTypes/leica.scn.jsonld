@@ -1,16 +1,15 @@
 {
-	"@context": {
+	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.winwcp",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.leica.scn",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".wcp"
+		".scn"
 	],
-	"name": "application/vnd.winwcp",
+	"name": "application/vnd.leica.scn",
 	"relatedMediaType": null,
 	"synonym": [
-		"WinWCP files"
+		"Leica SCN"
 	]
 }
-

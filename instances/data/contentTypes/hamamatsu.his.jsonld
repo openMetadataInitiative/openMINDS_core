@@ -1,16 +1,15 @@
 {
-	"@context": {
+	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.winwcp",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.hamamatsu.his",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".wcp"
+		".his"
 	],
-	"name": "application/vnd.winwcp",
+	"name": "application/vnd.hamamatsu.his",
 	"relatedMediaType": null,
 	"synonym": [
-		"WinWCP files"
+		"Hamamatsu HIS"
 	]
 }
-

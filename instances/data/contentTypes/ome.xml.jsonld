@@ -1,16 +1,16 @@
 {
-	"@context": {
+	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.winwcp",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.ome.xml",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".wcp"
+		".ome.xml",
+		".ome"
 	],
-	"name": "application/vnd.winwcp",
+	"name": "application/vnd.ome.xml",
 	"relatedMediaType": null,
 	"synonym": [
-		"WinWCP files"
+		"OME-XML"
 	]
 }
-

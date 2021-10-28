@@ -1,16 +1,15 @@
 {
-	"@context": {
+	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.winwcp",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.andor.andorsif",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".wcp"
+		".sif"
 	],
-	"name": "application/vnd.winwcp",
+	"name": "application/vnd.andor.andorsif",
 	"relatedMediaType": null,
 	"synonym": [
-		"WinWCP files"
+		"Andor SIF"
 	]
 }
-

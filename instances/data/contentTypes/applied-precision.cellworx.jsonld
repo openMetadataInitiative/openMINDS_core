@@ -1,0 +1,14 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.applied-precision.cellworx",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".pnl",
+		".htd"
+	],
+	"name": "application/vnd.applied-precision.cellworx",
+	"relatedMediaType": null,
+	"synonym": null
+}

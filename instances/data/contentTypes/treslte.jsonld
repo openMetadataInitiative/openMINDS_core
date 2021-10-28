@@ -1,16 +1,17 @@
 {
-	"@context": {
+	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.winwcp",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.treslte",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".wcp"
+		".tiff",
+		".sld",
+		".jpg"
 	],
-	"name": "application/vnd.winwcp",
+	"name": "application/vnd.treslte",
 	"relatedMediaType": null,
 	"synonym": [
-		"WinWCP files"
+		"Trestle"
 	]
 }
-

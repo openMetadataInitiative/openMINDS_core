@@ -1,16 +1,16 @@
 {
-	"@context": {
+	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.winwcp",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.metaxpress",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".wcp"
+		".tiff",
+		".htd"
 	],
-	"name": "application/vnd.winwcp",
+	"name": "application/vnd.metaxpress",
 	"relatedMediaType": null,
 	"synonym": [
-		"WinWCP files"
+		"MetaXpress"
 	]
 }
-

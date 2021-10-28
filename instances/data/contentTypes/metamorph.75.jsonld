@@ -1,16 +1,15 @@
 {
-	"@context": {
+	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.winwcp",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/image/tiff.metamorph.75",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".wcp"
+		".tiff"
 	],
-	"name": "application/vnd.winwcp",
+	"name": "image/tiff.metamorph.75",
 	"relatedMediaType": null,
 	"synonym": [
-		"WinWCP files"
+		"MetaMorph 7.5 TIFF"
 	]
 }
-

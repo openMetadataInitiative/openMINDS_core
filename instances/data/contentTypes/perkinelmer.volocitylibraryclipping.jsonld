@@ -1,0 +1,13 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.perkinelmer.volocitylibraryclipping",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".acff"
+	],
+	"name": "application/vnd.perkinelmer.volocitylibraryclipping",
+	"relatedMediaType": null,
+	"synonym": null
+}

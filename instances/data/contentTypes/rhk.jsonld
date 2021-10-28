@@ -1,16 +1,16 @@
 {
-	"@context": {
+	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.winwcp",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.rhk",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".wcp"
+		".sm3",
+		".sm2"
 	],
-	"name": "application/vnd.winwcp",
+	"name": "application/vnd.rhk",
 	"relatedMediaType": null,
 	"synonym": [
-		"WinWCP files"
+		"RHK"
 	]
 }
-

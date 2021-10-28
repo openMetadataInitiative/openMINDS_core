@@ -2,15 +2,14 @@
 	"@context": {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.winwcp",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/image/x-panasonic-rw",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".wcp"
+		".raw"
 	],
-	"name": "application/vnd.winwcp",
+	"name": "image/x-panasonic-rw",
 	"relatedMediaType": null,
 	"synonym": [
-		"WinWCP files"
+		"Panasonic RAW file format"
 	]
 }
-

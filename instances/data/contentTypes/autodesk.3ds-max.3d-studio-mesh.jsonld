@@ -1,0 +1,13 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.autodesk.3ds-max.3d-studio-mesh",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".3ds"
+	],
+	"name": "application/vnd.autodesk.3ds-max.3d-studio-mesh",
+	"relatedMediaType": null,
+	"synonym": null
+}

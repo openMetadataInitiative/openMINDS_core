@@ -1,16 +1,15 @@
 {
-	"@context": {
+	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.winwcp",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.3i.slidebook",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".wcp"
+		".sld"
 	],
-	"name": "application/vnd.winwcp",
+	"name": "application/vnd.3i.slidebook",
 	"relatedMediaType": null,
 	"synonym": [
-		"WinWCP files"
+		"SlideBook"
 	]
 }
-

@@ -1,0 +1,13 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.ant.eeprobe",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".cnt"
+	],
+	"name": "application/vnd.ant.eeprobe",
+	"relatedMediaType": null,
+	"synonym": null
+}

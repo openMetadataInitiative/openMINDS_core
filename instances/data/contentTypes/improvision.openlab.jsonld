@@ -1,0 +1,16 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.improvision.openlab",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".raw",
+		".liff"
+	],
+	"name": "application/vnd.improvision.openlab",
+	"relatedMediaType": null,
+	"synonym": [
+		"Improvision Openlab"
+	]
+}
