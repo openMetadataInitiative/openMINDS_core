@@ -1,4 +1,5 @@
 {
+  "_type": "https://openminds.ebrains.eu/core/Strain",
   "required": [
     "name",
     "geneticStrainType"
