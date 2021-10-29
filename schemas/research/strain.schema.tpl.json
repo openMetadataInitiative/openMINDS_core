@@ -70,7 +70,7 @@
     },
     "phenotype": {
       "type": "string",
-      "_instruction": "Enter a short text describing the phenotype of this strain.",
+      "_instruction": "Enter a short text describing the phenotype of this strain."
     }, 
     "RRID": {
       "_instruction": "Add the 'Research Resource Identifiers' (RRID) for this strain.",
