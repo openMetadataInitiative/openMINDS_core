@@ -25,15 +25,6 @@
       "type": "string",
       "_instruction": "Enter a lookup label for this specimen set that may help you to more easily find it again."
     },
-    "phenotype": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add the phenotype of all specimen in this set.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Phenotype"
-      ]
-    },
     "quantity": {
       "type": "integer",
       "_instruction": "Enter the number of specimen that belong to this set."
