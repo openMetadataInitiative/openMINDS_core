@@ -6,7 +6,7 @@
   "@type": "https://openminds.ebrains.eu/core/ContentType",
   "fileExtension": [
     ".html",
-	".htm"
+    ".htm"
   ],
   "name": "text/html",
   "relatedMediaType": "https://www.iana.org/assignments/media-types/text/html",
