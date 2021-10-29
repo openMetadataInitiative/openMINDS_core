@@ -9,11 +9,11 @@
       "type": "string",
       "_instruction": "Enter the identifier representing the stock number."
     },    
-    "contentType": {
+    "vendor": {
       "_instruction": "Add the vendor that has the item with this identifier in stock.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Organization"
       ]
-    },
+    }
   }
 }
