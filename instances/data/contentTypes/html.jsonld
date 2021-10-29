@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/text/html",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".html",
+    ".htm"
+  ],
+  "name": "text/html",
+  "relatedMediaType": "https://www.iana.org/assignments/media-types/text/html",
+  "synonym": [
+    "Hypertext Markup Language",
+    "HTML"
+  ]
+}
