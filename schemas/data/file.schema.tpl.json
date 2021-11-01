@@ -8,7 +8,7 @@
     "name"
   ],
   "properties": {
-    "content": {
+    "contentDescription": {
       "type": "string",
       "_instruction": "Enter a short content description for this file instance."
     },
