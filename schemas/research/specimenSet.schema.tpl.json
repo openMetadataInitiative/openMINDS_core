@@ -33,18 +33,10 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add the species of all specimen in this set.",
+      "_instruction": "Add the species and/or or the strain (a sub-type of a genetic variant of species) of all specimen in this set.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Species"
-      ]
-    },
-    "strain": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add the strain of all specimen in this set.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Strain"
+        "https://openminds.ebrains.eu/controlledTerms/Species",
+        "https://openminds.ebrains.eu/core/Strain"
       ]
     }
   }
