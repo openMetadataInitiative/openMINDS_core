@@ -14,7 +14,8 @@
       "_instruction": "Add one or several globally unique and persistent digital identifier for this organization.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/GRIDID",
-        "https://openminds.ebrains.eu/core/RORID"
+        "https://openminds.ebrains.eu/core/RORID",
+        "https://openminds.ebrains.eu/core/RRID"
       ]
     },
     "fullName": {
