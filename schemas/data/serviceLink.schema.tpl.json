@@ -11,7 +11,7 @@
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/File",
         "https://openminds.ebrains.eu/core/FileBundle",
-        "https://openminds.ebrains.eu/sands/AtlasAnnotation"
+        "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
       ]
     },
     "name": {
