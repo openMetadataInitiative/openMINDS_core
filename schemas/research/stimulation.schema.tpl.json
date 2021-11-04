@@ -5,6 +5,10 @@
     "stimulusType"
   ],
   "properties": {  
+    "description": {
+      "type": "string",
+      "_instruction": "Enter a description of this stimulation."
+    },
     "stimulationApproach": {
       "_instruction": "Add the stimulation approach which this stimulation has deployed.",
       "_linkedTypes": [
