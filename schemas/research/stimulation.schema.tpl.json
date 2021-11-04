@@ -8,6 +8,10 @@
     "description": {
       "type": "string",
       "_instruction": "Enter a description of this stimulation."
+    },    
+    "lookupLabel": {
+      "type": "string",
+      "_instruction": "Enter a lookup label for this stimulation that may help you to more easily find it again."
     },
     "stimulationApproach": {
       "_instruction": "Add the stimulation approach which this stimulation has deployed.",
