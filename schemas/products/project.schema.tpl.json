@@ -20,9 +20,8 @@
       "minItems": 2,
       "uniqueItems": true,
       "_instruction": "Add all research products or research product versions that are part of this project.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ResearchProduct",
-        "https://openminds.ebrains.eu/core/ResearchProductVersion"
+      "_linkedCategories": [
+        "researchProduct"
       ]
     },
     "homepage": {
