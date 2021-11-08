@@ -25,7 +25,10 @@
       "type": "string",
       "_instruction": "Enter a short text describing this strain."
     },
-    "diseaseModel": {
+    "diseaseModel": {      
+      "type": "array",
+      "minItems": 1, 
+      "uniqueItems": true,
       "_instruction": "If applicable, add what human disease or condition is this strain a model for.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/Disease",
