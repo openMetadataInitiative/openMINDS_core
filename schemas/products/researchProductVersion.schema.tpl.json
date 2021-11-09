@@ -1,4 +1,7 @@
-{
+{  
+  "_categories": [
+    "researchProduct"
+  ],
   "required": [
     "accessibility",
     "fullDocumentation",
