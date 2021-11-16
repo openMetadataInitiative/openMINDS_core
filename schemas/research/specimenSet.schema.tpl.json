@@ -1,6 +1,5 @@
 {
   "required": [
-    "biologicalSex",
     "species"
   ],
   "properties": {
