@@ -75,7 +75,7 @@
       "uniqueItems": true,
       "_instruction": "Add controlled or suggest new terms as keywords to this research product version.",
       "_linkedCategories": [
-        "studyTarget"
+        "keyword"
       ]
     },
     "otherContribution": {
