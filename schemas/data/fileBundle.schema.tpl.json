@@ -13,10 +13,7 @@
       "_instruction": "Enter a short content description for this file bundle."
     },
     "descendedFrom": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add all entities that played a role in the production of this file bundle (must be true for all grouped files).",
+      "_instruction": "Add the entity that played a role in the production of this file bundle.",
       "_linkedCategories": [
         "fileOrigin"
       ]
