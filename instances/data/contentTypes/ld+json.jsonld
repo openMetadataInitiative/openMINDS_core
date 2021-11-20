@@ -11,5 +11,7 @@
 	],
 	"name": "application/ld+json",
 	"relatedMediaType": "https://www.iana.org/assignments/media-types/application/ld+json",
-	"synonym": null
+	"synonym": [
+	    "JSONLD"
+	]
 }
