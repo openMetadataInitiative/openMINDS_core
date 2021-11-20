@@ -2,7 +2,7 @@
   "@context": {
     "@vocab": "https://openminds.ebrains.eu/vocab/"
   },
-  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.yaml",
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/yaml",
   "@type": "https://openminds.ebrains.eu/core/ContentType",
   "fileExtension": [
     ".yml",
