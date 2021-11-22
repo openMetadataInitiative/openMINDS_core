@@ -8,7 +8,7 @@
 		".ns7"
 	],
 	"specification": "https://blackrockneurotech.com/research/wp-content/ifu/LB-0023-7.00_NEV_File_Format.pdf",
-	"name": "application/vnd.blackrockmicrosystems.neuralsignals",
+	"name": "application/vnd.blackrockmicrosystems.neuralsignals.7",
 	"relatedMediaType": null,
 	"synonym": [
 		"Blackrock Neural Signals 7"
