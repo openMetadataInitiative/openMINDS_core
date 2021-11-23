@@ -7,8 +7,8 @@
   "fileExtension": [
     ".nii",
     ".hdr",
-		".img",
-		".nii.gz",
+    ".img",
+    ".nii.gz"
   ],
   "name": "application/vnd.nifti.2",
   "relatedMediaType": null,
