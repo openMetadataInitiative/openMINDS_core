@@ -1,0 +1,39 @@
+{
+    "_type": "https://openminds.ebrains.eu/core/Setup",
+    "required": [
+        "internalIdentifier",
+        "project"
+    ],
+    "properties": {
+        "internalIdentifier": {
+            "type": "string",
+            "_instruction": "Enter the identifier used for this setup."
+        },
+        "location": {
+            "type": "string",
+            "_instruction": "Enter the location that this setup is situated"
+        },
+        "project": {
+            "_instrcution": "Enter all the projects that this setup have ben used in",
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/core/Project"
+            ]
+        },
+        "hasVersion": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "_instruction": "Add one or several versions of this setup.",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/core/SetupVersion"
+            ]
+        },
+        "description": {
+            "type": "string",
+            "_instruction": "Enter a description of this hardware setup"
+        }
+    }
+}

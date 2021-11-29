@@ -1,0 +1,42 @@
+{
+    "_type": "https://openminds.ebrains.eu/core/SetupVersion",
+    "required": [
+        "versionIdentifier",
+        "project",
+        "hardwares"
+    ],
+    "properties": {
+        "versionIdentifier": {
+            "type": "string",
+            "_instruction": "Term or code used to identify the version of this setup."
+        },
+        "developer": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "_instruction": "Add one or several developers that contributed to this setup.",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/core/Person"
+            ]
+        },
+        "isNewVersionOf": {
+            "_instruction": "Add the hardware version preceding this setup version.",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/core/SetupVersion"
+            ]
+        },
+        "hardwares": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "_instruction": "Add one or several hardwares used in this setup.",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/core/hardwares"
+            ]
+        },
+        "description": {
+            "type": "string",
+            "_instruction": "Enter a description of this hardware setup version"
+        }
+    }
+}
