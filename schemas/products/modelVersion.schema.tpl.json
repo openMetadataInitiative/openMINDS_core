@@ -27,7 +27,7 @@
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ContentType"
       ]
-    },
+    },    
     "inputData": {
       "type": "array",
       "minItems": 1,

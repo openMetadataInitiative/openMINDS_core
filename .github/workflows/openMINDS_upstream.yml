@@ -3,7 +3,7 @@ name: openMINDS_upstream
 on:
   push:
     branches:
-      - v3
+      - v4
 
 jobs:
   build:
