@@ -1,0 +1,46 @@
+{
+    "_type": "https://openminds.ebrains.eu/core/HardwareVersion",
+    "required": [
+        "shortName",
+        "fullName",
+        "modelName"
+    ],
+    "properties": {
+        "shortName": {
+            "_instruction": "Shortened or fully abbreviated name of this hardware .",
+            "type": "string"
+        },
+        "fullName": {
+            "_instruction": "Whole, non-abbreviated name of this hardware.",
+            "type": "string"
+        },
+        "modelName": {
+            "type": "string",
+            "_instruction": "The identifier of the item (from the manufacturer)."
+        },
+        "serialNumber": {
+            "type": "string",
+            "_instruction": "specific for the model, provided by the manufacturer or institution."
+        },
+        "versionIdentifier": {
+            "type": "string",
+            "_instruction": "Term or code used to identify the version of this hardware."
+        },
+        "isNewVersionOf": {
+            "_instruction": "Add the hardware version preceding this hardware version.",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/core/HardwareVersion"
+            ]
+        },
+        "software": {
+            "_instruction": "Software version used by this device",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/core/SoftwareVersion"
+            ]
+        },
+        "description": {
+            "type": "string",
+            "_instruction": "Enter a description of this device version."
+        }
+    }
+}
