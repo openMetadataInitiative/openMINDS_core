@@ -41,7 +41,7 @@
             "uniqueItems": true,
             "_instruction": "Add all the devices used for this recording",
             "_linkedTypes": [
-                "https://openminds.ebrains.eu/core/Device",
+                "https://openminds.ebrains.eu/core/hardwareVersion",
                 "https://openminds.ebrains.eu/ephys/Pipette",
                 "https://openminds.ebrains.eu/ephys/ElectrodeArray",
                 "https://openminds.ebrains.eu/ephys/Electrode"
