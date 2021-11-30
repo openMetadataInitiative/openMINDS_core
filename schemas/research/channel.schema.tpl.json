@@ -1,0 +1,16 @@
+{
+    "_type": "https://openminds.ebrains.eu/core/Channel",
+    "required": [],
+    "properties": {
+        "internalIdentifier": {
+            "type": "string",
+            "_instruction": "Enter any internal identifier used for this channel."
+        },
+        "unitOfMeasurement": {
+            "_instruction": "Add the unit of measurement for this channel.",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
+            ]
+        }
+    }
+}

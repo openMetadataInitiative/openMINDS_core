@@ -1,0 +1,67 @@
+{
+    "_type": "https://openminds.ebrains.eu/core/Recording",
+    "required": [
+        "timeStep"
+    ],
+    "properties": {
+        "internalIdentifier": {
+            "type": "string",
+            "_instruction": "Enter any internal identifier used for this recording"
+        },
+        "channels": {
+            "_instruction": "Enter all the recording channels contained in this recording.",
+            "type": "array",
+            "minItems": 1,
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/Channel"
+            ]
+        },
+        "timeStep": {
+            "_instruction": "Time step (inverted sampling frequency) of data",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/QuantitativeValue"
+            ]
+        },
+        "order": {
+            "type": "array",
+            "maxItems": 1,
+            "minItems": 1,
+            "items": {
+                "type": "integer"
+            },
+            "_instruction": "If this recording is part of a sequence (sweeps, repetitions), enter the order(s) in that sequence contained in this recording"
+        },
+        "description": {
+            "type": "string",
+            "_instruction": "Enter a description of this recording."
+        },
+        "devices": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "_instruction": "Add all the devices used for this recording",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/core/Device",
+                "https://openminds.ebrains.eu/ephys/Pipette",
+                "https://openminds.ebrains.eu/ephys/ElectrodeArray",
+                "https://openminds.ebrains.eu/ephys/Electrode"
+            ]
+        },
+        "unitOfMeasurement": {
+            "_instruction": "Add the unit of measurement of this recording, if the unit applies to all channels. If different channels have different units, provide them in the `channels` field.",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
+            ]
+        },
+        "dataLocation": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "_instruction": "Add the locations of the files / file bundles in which the recorded data are stored",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/File",
+                "https://openminds.ebrains.eu/core/FileBundle"
+            ]
+        }
+    }
+}
