@@ -31,7 +31,7 @@
             "uniqueItems": true,
             "_instruction": "Add one or several hardwares or other setups used in this setup.",
             "_linkedTypes": [
-                "https://openminds.ebrains.eu/core/hardwares",
+                "https://openminds.ebrains.eu/core/hardwaresVersion",
                 "https://openminds.ebrains.eu/core/SetupVersion"
             ]
         },
