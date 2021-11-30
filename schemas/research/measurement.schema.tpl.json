@@ -1,0 +1,49 @@
+{
+    "_type": "https://openminds.ebrains.eu/core/Measurement",
+    "required": [
+        "value",
+        "timestamp",
+        "measurementType"
+    ],
+    "properties": {
+        "value": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "_instruction": "Add measured value",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/QuantitativeValue",
+                "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+            ]
+        },
+        "timestamp": {
+            "_formats": [
+                "date-time"
+            ],
+            "type": "string",
+            "_instruction": "Date and time at which this measurement was made."
+        },
+        "measuredQuantity": {
+            "_instruction": "Enter the quantity that is being measured.",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity"
+            ]
+        },
+        "device": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "_instruction": "Device used for this measurement",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/core/Device",
+                "https://openminds.ebrains.eu/ephys/Pipette",
+                "https://openminds.ebrains.eu/ephys/ElectrodeArray",
+                "https://openminds.ebrains.eu/ephys/Electrode"
+            ]
+        },
+        "description": {
+            "type": "string",
+            "_instruction": "Enter a description for this measurement"
+        }
+    }
+}
