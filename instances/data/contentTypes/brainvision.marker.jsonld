@@ -5,7 +5,7 @@
   "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.brainvision.marker",
   "@type": "https://openminds.ebrains.eu/core/ContentType",
   "fileExtension": [
-    ".vhdr"
+    ".vmrk"
   ],
   "name": "application/vnd.brainvision.marker",
   "relatedMediaType": null,
