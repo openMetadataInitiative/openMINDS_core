@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.brainvision.binary",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".eeg"
+  ],
+  "name": "application/vnd.brainvision.binary",
+  "relatedMediaType": null,
+  "synonym": [
+    "BrainVision Data Exchange Binary Data File",
+    "BrainVision Binary Data"
+  ]
+}
