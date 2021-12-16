@@ -6,7 +6,7 @@
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
 		".eeg",
-    ".eeg.ent"
+    		".eeg.ent"
 	],
 	"name": "application/vnd.elan.continuous-data",
 	"relatedMediaType": null,
