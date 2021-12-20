@@ -36,7 +36,8 @@
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DOI",
         "https://openminds.ebrains.eu/core/File",
-        "https://openminds.ebrains.eu/core/FileBundle"
+        "https://openminds.ebrains.eu/core/FileBundle",
+        "https://openminds.ebrains.eu/core/URL"
       ]
     },
     "isAlternativeVersionOf": {
@@ -71,7 +72,8 @@
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DOI",
         "https://openminds.ebrains.eu/core/File",
-        "https://openminds.ebrains.eu/core/FileBundle"
+        "https://openminds.ebrains.eu/core/FileBundle",
+        "https://openminds.ebrains.eu/core/URL"
       ]
     }
   }
