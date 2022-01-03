@@ -1,4 +1,4 @@
-{  
+{
   "_categories": [
     "researchProduct"
   ],
@@ -24,7 +24,7 @@
       ]
     },
     "custodian": {
-      "type": "array",      
+      "type": "array",
       "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add one or several person(s) or organization(s) that fulfills the role of a custodian. The role of the custodian is typically fulfilled by a research group leader or principal investigator, but could also be carried out by an organization. Custodians are typically the main contact in case of misconduct, obtain permission from the contributors to publish personal information, and maintain the content and quality of the data, metadata, and/or code of a research product.",
@@ -35,7 +35,16 @@
     "description": {
       "type": "string",
       "maxLength": 2000,
-      "_instruction": "If necessary, enter a version specific description (abstract) for this research product version (max. 2000 characters, incl. spaces; no references). If left blank, the research product version will inherit the 'description' of it's corresponding research product."
+      "_instruction": "If necessary, enter a version specific description (abstract) for this research product version (max. 2000 characters, incl. spaces; no references). If left blank, the research product version will inherit the 'description' of it's corresponding research product.",
+      "_fallback": [
+        {
+          "@reverse": true,
+          "@id": "hasVersion"
+        },
+        {
+          "@id": "description"
+        }
+      ]
     },
     "fullDocumentation": {
       "_instruction": "Add the DOI, file or URL that points to a full documentation of this research product version.",
@@ -43,11 +52,34 @@
         "https://openminds.ebrains.eu/core/DOI",
         "https://openminds.ebrains.eu/core/File",
         "https://openminds.ebrains.eu/core/URL"
+      ],
+      "_restrictions": [
+        {
+          "_forType": "https://openminds.ebrains.eu/core/File",
+          "_isPartOf": [
+            {
+              "@id": "repository"
+            },
+            {
+              "@reverse": true,
+              "@id": "fileRepository"
+            }
+          ]
+        }
       ]
     },
     "fullName": {
       "type": "string",
       "_instruction": "If necessary, enter a version specific descriptive full name (title) for this research product version. If left blank, the research product version will inherit the 'fullName' of it's corresponding research product."
+      "_fallback": [
+        {
+          "@reverse": true,
+          "@id": "hasVersion"
+        },
+        {
+          "@id": "fullName"
+        }
+      ]
     },
     "funding": {
       "type": "array",
@@ -71,7 +103,7 @@
     "keyword": {
       "type": "array",
       "maxItems": 5,
-      "minItems": 1, 
+      "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add controlled or suggest new terms as keywords to this research product version.",
       "_linkedCategories": [
@@ -108,6 +140,11 @@
       "_instruction": "Add the file repository of this research product version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/FileRepository"
+      ],
+      "_restrictions": [
+        {
+          "_uniqueReference": true
+        }
       ]
     },
     "shortName": {
@@ -117,7 +154,7 @@
     },
     "supportChannel": {
       "type": "array",
-      "minItems": 1, 
+      "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Enter all channels through which a user can receive support for handling this research product.",
       "items": {

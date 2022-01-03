@@ -16,42 +16,140 @@
       "_instruction": "Add the entity that played a role in the production of this file bundle.",
       "_linkedCategories": [
         "fileOrigin"
-      ]
-    },
-    "format": {
-      "_instruction": "If file instances within this bundle are organized and formatted according to a formal data structure use the appropriate contentType. Leave blank otherwise.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ContentType"
-      ]
-    },
-    "groupingType": {
-      "_instruction": "Add the type of grouping that was used to define this file bundle.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/FileBundleGrouping"
-      ]
-    },
-    "hash": {
-      "_instruction": "Add the hash that was generated for this file bundle.",
-      "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/Hash"
-      ]
-    },
-    "isPartOf": {
-      "_instruction": "Add the file bundle or file repository this file bundle is a part of.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/FileBundle",
-        "https://openminds.ebrains.eu/core/FileRepository"
-      ]
-    },
-    "name": {
-      "type": "string",
-      "_instruction": "Enter the name of this file bundle."
-    },
-    "storageSize": {
-      "_instruction": "Enter the storage size this file bundle allocates.",
-      "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
-      ]
+      ],
+      "_restrictions": [
+        {
+          "_excludeSelf": true,
+          "_isPartOf": [
+            {
+              "@id": "isPartOf"
+            },
+            {
+              "@reverse": true,
+              "@id": "repository"
+            },
+            {
+              "_or": [
+                [
+                  {
+                    "@id": "studyTarget"
+                  }
+                ],
+                [
+                  {
+                    "@id": "technique"
+                  }
+                ],
+                [
+                  {
+                    "@id": "repository"
+                  },
+                  {
+                    "@reverse": true,
+                    "@id": "fileRepository"
+                  }
+                ],
+                [
+                  {
+                    "@id": "repository"
+                  },
+                  {
+                    "@reverse": true,
+                    "@id": "fileRepository"
+                  }
+                ],
+                [
+                  {
+                    "@id": "repository"
+                  },
+                  {
+                    "@reverse": true,
+                    "@id": "isPartOf"
+                  }
+                ],
+                [
+                  {
+                    "@id": "behavioralProtocol"
+                  }
+                ],
+                [
+                  {
+                    "@id": "behavioralProtocol"
+                  }
+                ],
+                [
+                  {
+                    "@id": "studiedSpecimen"
+                  }
+                ],
+                [
+                  {
+                    "@id": "studiedSpecimen"
+                  },
+                  {
+                    "@id": "studiedState"
+                  }
+                ],
+                [
+                  {
+                    "@id": "studiedSpecimen"
+                  },
+                  {
+                    "@reverse": true,
+                    "@id": "isPartOf"
+                  }
+                ],
+                [
+                  {
+                    "@id": "studiedSpecimen"
+                  },
+                  {
+                    "@reverse": true,
+                    "@id": "isPartOf"
+                  },
+                  {
+                    "@id": "studiedState"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "format": {
+        "_instruction": "If file instances within this bundle are organized and formatted according to a formal data structure use the appropriate contentType. Leave blank otherwise.",
+        "_linkedTypes": [
+          "https://openminds.ebrains.eu/core/ContentType"
+        ]
+      },
+      "groupingType": {
+        "_instruction": "Add the type of grouping that was used to define this file bundle.",
+        "_linkedTypes": [
+          "https://openminds.ebrains.eu/controlledTerms/FileBundleGrouping"
+        ]
+      },
+      "hash": {
+        "_instruction": "Add the hash that was generated for this file bundle.",
+        "_embeddedTypes": [
+          "https://openminds.ebrains.eu/core/Hash"
+        ]
+      },
+      "isPartOf": {
+        "_instruction": "Add the file bundle or file repository this file bundle is a part of.",
+        "_linkedTypes": [
+          "https://openminds.ebrains.eu/core/FileBundle",
+          "https://openminds.ebrains.eu/core/FileRepository"
+        ]
+      },
+      "name": {
+        "type": "string",
+        "_instruction": "Enter the name of this file bundle."
+      },
+      "storageSize": {
+        "_instruction": "Enter the storage size this file bundle allocates.",
+        "_embeddedTypes": [
+          "https://openminds.ebrains.eu/core/QuantitativeValue"
+        ]
+      }
     }
   }
-}

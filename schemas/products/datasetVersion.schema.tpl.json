@@ -17,6 +17,15 @@
       "_instruction": "If necessary, add one or several authors (person or organization) that contributed to the production and publication of this dataset version. Note that these authors will overwrite the once provided in the dataset product this version belongs to.",
       "_linkedCategories": [
         "legalPerson"
+      ],
+      "_fallback": [
+        {
+          "@reverse": true,
+          "@id": "hasVersion"
+        },
+        {
+          "@id": "author"
+        }
       ]
     },
     "behavioralProtocol": {
@@ -68,12 +77,41 @@
       "_instruction": "Add all dataset versions that can be used alternatively to this dataset version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DatasetVersion"
+      ],
+      "_restrictions": [
+        {
+          "_excludeSelf": true,
+          "_isPartOf": [
+            {
+              "@reverse": true,
+              "@id": "hasVersion"
+            },
+            {
+              "@id": "hasVersion"
+            }
+          ]
+        }
       ]
     },
     "isNewVersionOf": {
       "_instruction": "Add the dataset version preceding this dataset version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DatasetVersion"
+      ],
+      "_restrictions": [
+        {
+          "_excludeSelf": true,
+          "_uniqueReference": true,
+          "_isPartOf": [
+            {
+              "@reverse": true,
+              "@id": "hasVersion"
+            },
+            {
+              "@id": "hasVersion"
+            }
+          ]
+        }
       ]
     },
     "license": {
