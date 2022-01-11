@@ -5,7 +5,7 @@
 	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.itk",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		"mhd",
+		".mhd",
 		".mha"
 	],
 	"name": "application/vnd.itk",
