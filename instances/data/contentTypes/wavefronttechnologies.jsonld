@@ -8,7 +8,7 @@
 		".obj"
 	],
 	"name": "application/vnd.wavefronttechnologies",
-	"relatedMediaType": null,
+	"relatedMediaType": "https://www.iana.org/assignments/media-types/model/obj",
 	"synonym": [
 		"Wavefront OBJ"
 	]
