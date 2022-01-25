@@ -16,6 +16,105 @@
       "_instruction": "Add the entity that played a role in the production of this file bundle.",
       "_linkedCategories": [
         "fileOrigin"
+      ],
+      "_restrictions": [
+        {
+          "_excludeSelf": true,
+          "_isPartOf": [
+            {
+              "@id": "isPartOf"
+            },
+            {
+              "@reverse": true,
+              "@id": "repository"
+            },
+            {
+              "_or": [
+                [
+                  {
+                    "@id": "studyTarget"
+                  }
+                ],
+                [
+                  {
+                    "@id": "technique"
+                  }
+                ],
+                [
+                  {
+                    "@id": "repository"
+                  },
+                  {
+                    "@reverse": true,
+                    "@id": "fileRepository"
+                  }
+                ],
+                [
+                  {
+                    "@id": "repository"
+                  },
+                  {
+                    "@reverse": true,
+                    "@id": "fileRepository"
+                  }
+                ],
+                [
+                  {
+                    "@id": "repository"
+                  },
+                  {
+                    "@reverse": true,
+                    "@id": "isPartOf"
+                  }
+                ],
+                [
+                  {
+                    "@id": "behavioralProtocol"
+                  }
+                ],
+                [
+                  {
+                    "@id": "behavioralProtocol"
+                  }
+                ],
+                [
+                  {
+                    "@id": "studiedSpecimen"
+                  }
+                ],
+                [
+                  {
+                    "@id": "studiedSpecimen"
+                  },
+                  {
+                    "@id": "studiedState"
+                  }
+                ],
+                [
+                  {
+                    "@id": "studiedSpecimen"
+                  },
+                  {
+                    "@reverse": true,
+                    "@id": "isPartOf"
+                  }
+                ],
+                [
+                  {
+                    "@id": "studiedSpecimen"
+                  },
+                  {
+                    "@reverse": true,
+                    "@id": "isPartOf"
+                  },
+                  {
+                    "@id": "studiedState"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
       ]
     },
     "format": {

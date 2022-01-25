@@ -53,6 +53,19 @@
       "_instruction": "Add one or several bundles in which this single file can be grouped.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/FileBundle"
+      ],
+      "_restrictions": [
+        {
+          "_isPartOf": [
+            {
+              "@id": "fileRepository"
+            },
+            {
+              "@reverse": true,
+              "@id": "isPartOf"
+            }
+          ]
+        }
       ]
     },
     "name": {

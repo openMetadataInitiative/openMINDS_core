@@ -27,6 +27,15 @@
       "_instruction": "If necessary, add one or several developers (person or organization) that contributed to the code implementation of this software version. Note that these developers will overwrite the once provided in the software product this version belongs to.",
       "_linkedCategories": [
         "legalPerson"
+      ],
+      "_fallback": [
+        {
+          "@reverse": true,
+          "@id": "hasVersion"
+        },
+        {
+          "@id": "developer"
+        }
       ]
     },
     "device": {
