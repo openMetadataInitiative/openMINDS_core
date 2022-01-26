@@ -20,7 +20,7 @@
     },
     "openDataIn": {
       "_instruction": "Add the uniform resource locator (URL) to open the linked data in the specified service.",
-      "_linkedTypes": [
+      "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/URL"
       ]
     },
