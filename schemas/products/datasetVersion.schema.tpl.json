@@ -7,7 +7,7 @@
     "experimentalApproach",
     "license",
     "technique",
-    "type"
+    "dataType"
   ],
   "properties": {
     "author": {
@@ -19,13 +19,13 @@
         "legalPerson"
       ]
     },
-    "behavioralTask": {
+    "behavioralProtocol": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add one or several behavioral tasks that were performed in this dataset version.",
+      "_instruction": "Add one or several behavioral protocols that were performed in this dataset version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/BehavioralTask"
+        "https://openminds.ebrains.eu/core/BehavioralProtocol"
       ]
     },
     "digitalIdentifier": {
@@ -48,7 +48,7 @@
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/ExperimentalApproach"
       ]
-    },
+    }, 
     "inputData": {
       "type": "array",
       "minItems": 1,
@@ -57,7 +57,8 @@
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DOI",
         "https://openminds.ebrains.eu/core/File",
-        "https://openminds.ebrains.eu/core/FileBundle"
+        "https://openminds.ebrains.eu/core/FileBundle",
+        "https://openminds.ebrains.eu/core/URL"
       ]
     },
     "isAlternativeVersionOf": {
@@ -81,6 +82,15 @@
         "https://openminds.ebrains.eu/core/License"
       ]
     },
+    "preparationDesign": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all preparation types of this dataset version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/PreparationType"
+      ]
+    },
     "studiedSpecimen": {
       "type": "array",
       "minItems": 1,
@@ -102,13 +112,22 @@
         "https://openminds.ebrains.eu/controlledTerms/Technique"
       ]
     },
-    "type": {
+    "dataType": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add all data types (raw, derived or simulated) provided in this dataset version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/SemanticDataType"
+      ]
+    },
+    "studyTarget": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all study targets of this dataset version.",
+      "_linkedCategories": [
+        "studyTarget"
       ]
     }
   }

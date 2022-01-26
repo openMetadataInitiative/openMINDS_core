@@ -1,0 +1,33 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/BehavioralProtocol",
+  "_categories": [
+    "fileOrigin"
+  ],
+  "required": [
+    "description",
+    "name"
+  ],
+  "properties": {
+    "description": {
+      "type": "string",
+      "_instruction": "Enter a description of this behavioral protocol."
+    },
+    "name": {
+      "type": "string",
+      "_instruction": "Enter a descriptive name for this behavioral protocol."
+    },
+    "internalIdentifier": {
+      "type": "string",
+      "_instruction": "Enter the label that was used to identify the behavioral protocol within the data."
+    },     
+    "stimulation": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all stimulations used with this behavioral protocol.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Stimulation"
+      ]
+    }
+  }
+}

@@ -2,14 +2,14 @@
   "@context": {
     "@vocab": "https://openminds.ebrains.eu/vocab/"
   },
-  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.elan",
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/text/semicolon-separated-values",
   "@type": "https://openminds.ebrains.eu/core/ContentType",
   "fileExtension": [
-    ".eeg"
+    ".csv"
   ],
-  "name": "application/vnd.elan",
+  "name": "text/semicolon-separated-values",
   "relatedMediaType": null,
   "synonym": [
-    "Elan files"
+    "semi-colon separated value"
   ]
 }

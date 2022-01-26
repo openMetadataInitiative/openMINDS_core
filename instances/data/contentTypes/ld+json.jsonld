@@ -1,0 +1,15 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/ld+json",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".jsonld"
+	],
+	"name": "application/ld+json",
+	"relatedMediaType": "https://www.iana.org/assignments/media-types/application/ld+json",
+	"synonym": [
+	    "JSON-LD"
+	]
+}

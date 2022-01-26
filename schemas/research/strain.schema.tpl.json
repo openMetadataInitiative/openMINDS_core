@@ -1,0 +1,106 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/Strain",
+  "required": [
+    "geneticStrainType",
+    "name"
+  ],
+  "properties": {
+    "backgroundStrain": {
+      "type": "array",
+      "maxItems": 2,      
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add the background strain that explains the majority of the genetic background and/or causes the majority of the prominent traits. If two strains contributed equally, state both.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Strain"
+      ]
+    },    
+    "breedingType": {
+      "_instruction": "Add the breeding type for this strain.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/BreedingType"
+      ]
+    },
+    "description": {
+      "type": "string",
+      "_instruction": "Enter a short text describing this strain."
+    },
+    "diseaseModel": {      
+      "type": "array",
+      "minItems": 1, 
+      "uniqueItems": true,
+      "_instruction": "If applicable, add what human disease(s) or condition(s) this strain is a model for.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Disease",
+        "https://openminds.ebrains.eu/controlledTerms/DiseaseModel"
+      ]
+    },
+    "geneticStrainType": {
+      "_instruction": "Add the genetic background type of this strain.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/GeneticStrainType"
+      ]
+    },  
+    "identifier": {
+      "type": "array",
+      "minItems": 1, 
+      "uniqueItems": true,
+      "_instruction": "Enter one or several identifiers for this strain excluding ontological identifers or RRIDs (e.g. from Mouse Genome Informatics (MGI) or Rat Genome Database (RGD)).",
+      "items": {
+        "type": "string"
+      }
+    },    
+    "laboratoryCode": {
+      "type": "string",
+      "pattern": "^[A-Z]([a-z]?)+$",
+      "_instruction": "Enter the laboratory code assigned by the Institute of Laboratory Animal Research (ILAR) for the investigator or organization that has created this strain."
+    },
+    "name": {
+      "type": "string",
+      "_instruction": "Enter the name of this strain."
+    },
+    "ontologyIdentifier": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Enter the identifier(s) (IRI) of the related ontological term(s) matching this strain.",
+      "items": {
+        "_formats": [
+          "iri"        
+        ],
+        "type": "string"
+      }      
+    },
+    "phenotype": {
+      "type": "string",
+      "_instruction": "Enter a short text describing the phenotype of this strain."
+    }, 
+    "RRID": {
+      "_instruction": "Add the 'Research Resource Identifiers' (RRID) for this strain.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/RRID"
+      ]
+    },    
+    "species": {
+      "_instruction": "Add the species of this strain.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Species"
+      ]
+    }, 
+    "stockNumber": {
+      "_instruction": "Add the stock number from the vendor the strain was supplied from/is in stock at.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/StockNumber"
+      ]
+    },   
+    "synonym": {
+      "type": "array",
+      "minItems": 1, 
+      "uniqueItems": true,
+      "_instruction": "Enter one or several synonyms (inlcuding abbreviations) for this strain.",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

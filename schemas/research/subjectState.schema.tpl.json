@@ -16,6 +16,15 @@
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/Handedness"
       ]
+    },    
+    "attribute": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add one or several attributes that can be ascribed to this subject state.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/SubjectAttribute"
+      ]
     }
   }
 }
