@@ -7,7 +7,7 @@
 	"fileExtension": [
 		".py"
 	],
-	"name": "application/text/x-python.3.7",
+	"name": "text/x-python.3.7",
 	"relatedMediaType": null,
 	"synonym": null
 }
