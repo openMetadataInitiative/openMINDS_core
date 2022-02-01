@@ -2,15 +2,15 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.intranatelec+txt",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.intranat+txt",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
 		".pts",
-    ".txt"
+		".txt"
 	],
 	"name": "application/vnd.intranatelec+txt",
 	"relatedMediaType": null,
 	"synonym": [
-		"IntrAnat Electrodes (electrode names and positions)"
+		"IntrAnat PTS"
 	]
 }
