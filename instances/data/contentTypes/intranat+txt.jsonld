@@ -8,7 +8,7 @@
 		".pts",
 		".txt"
 	],
-	"name": "application/vnd.intranatelec+txt",
+	"name": "application/vnd.intranat+txt",
 	"relatedMediaType": null,
 	"synonym": [
 		"IntrAnat PTS"
