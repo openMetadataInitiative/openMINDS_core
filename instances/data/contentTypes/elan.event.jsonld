@@ -2,12 +2,14 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/text/x-python.3.8",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.elan.event",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".py"
+		".pos"
 	],
-	"name": "text/x-python.3.8",
+	"name": "application/vnd.elan.event",
 	"relatedMediaType": null,
-	"synonym": null
+	"synonym": [
+		"ELAN event file"
+	]
 }

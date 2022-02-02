@@ -5,27 +5,26 @@
   ],
   "required": [
     "IRI",
-    "isPartOf",
     "name"
   ],
   "properties": {
-    "content": {
+    "contentDescription": {
       "type": "string",
       "_instruction": "Enter a short content description for this file instance."
-    },
-    "descendedFrom": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add all entities that played a role in the production of this single file.",
-      "_linkedCategories": [
-        "fileOrigin"
-      ]
     },
     "fileRepository": {
       "_instruction": "Add the over all repository to which this single file belongs.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/FileRepository"
+      ]
+    },
+    "dataType": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all data types that are specifially represented in this file.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/DataType"
       ]
     },
     "format": {

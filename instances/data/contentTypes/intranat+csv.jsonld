@@ -2,12 +2,14 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/text/x-python.3.8",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.intranat+csv",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".py"
+		".csv"
 	],
-	"name": "text/x-python.3.8",
+	"name": "application/vnd.intranat+csv",
 	"relatedMediaType": null,
-	"synonym": null
+	"synonym": [
+		"IntrAnat CSV"
+	]
 }

@@ -7,9 +7,10 @@
   "fileExtension": [
     ".csv"
   ],
-  "name": "text/tab-separated-values",
+  "name": "text/semicolon-separated-values",
   "relatedMediaType": null,
   "synonym": [
-    "Semicolon-Separated Value"
+    "semicolon-separated value",
+    "semi-colon separated value"
   ]
 }

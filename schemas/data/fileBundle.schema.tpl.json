@@ -8,15 +8,12 @@
     "name"
   ],
   "properties": {
-    "content": {
+    "contentDescription": {
       "type": "string",
       "_instruction": "Enter a short content description for this file bundle."
     },
     "descendedFrom": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add all entities that played a role in the production of this file bundle (must be true for all grouped files).",
+      "_instruction": "Add the entity that played a role in the production of this file bundle.",
       "_linkedCategories": [
         "fileOrigin"
       ]
@@ -27,12 +24,8 @@
         "https://openminds.ebrains.eu/core/ContentType"
       ]
     },
-    "patternOfFilenames": {
-      "type": "string",
-      "_instruction": "Enter a regular expression (syntax: ECMA 262) which is valid for all filenames of the file instances that should be grouped into this file bundle."
-    },
-    "groupedBy": {
-      "_instruction": "Add the concept which was used to group file instances into this file bundle.",
+    "groupingType": {
+      "_instruction": "Add the type of grouping that was used to define this file bundle.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/FileBundleGrouping"
       ]

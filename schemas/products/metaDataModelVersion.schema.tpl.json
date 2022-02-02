@@ -32,7 +32,7 @@
       ]
     },
     "isNewVersionOf": {
-      "_instruction": "Add the dataset version preceding this (meta)data model version.",
+      "_instruction": "Add the (meta)data version preceding this (meta)data model version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/MetaDataModelVersion"
       ]

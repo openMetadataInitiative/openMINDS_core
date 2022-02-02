@@ -2,14 +2,14 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.wavefronttechnologies",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.wavefronttechnologies.mtl",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".obj"
+		".mtl"
 	],
 	"name": "application/vnd.wavefronttechnologies",
-	"relatedMediaType": "https://www.iana.org/assignments/media-types/model/obj",
+	"relatedMediaType": "https://www.iana.org/assignments/media-types/model/mtl",
 	"synonym": [
-		"Wavefront OBJ"
+		"Wavefront MTL"
 	]
 }

@@ -1,7 +1,8 @@
-{
+{  
+  "_categories": [
+    "fileOrigin"
+  ],
   "required": [
-    "biologicalSex",
-    "internalIdentifier",
     "species"
   ],
   "properties": {
@@ -19,22 +20,11 @@
       "type": "string",
       "_instruction": "Enter a lookup label for this specimen that may help you to more easily find it again."
     },
-    "phenotype": {
-      "_instruction": "Add the phenotype of this specimen.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Phenotype"
-      ]
-    },
     "species": {
-      "_instruction": "Add the species of this specimen.",
+      "_instruction": "Add the species or the strain (a sub-type of a genetic variant of species) of this specimen.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Species"
-      ]
-    },
-    "strain": {
-      "_instruction": "Add the strain of this specimen.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Strain"
+        "https://openminds.ebrains.eu/controlledTerms/Species",
+        "https://openminds.ebrains.eu/core/Strain"
       ]
     }
   }
