@@ -12,10 +12,14 @@
       "type": "string",
       "_instruction": "Enter a short content description for this file bundle."
     },
-    "descendedFrom": {
-      "_instruction": "Add the entity that played a role in the production of this file bundle.",
+    "groupedBy": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all entities that played a role in the production of this file bundle.",
       "_linkedCategories": [
-        "fileOrigin"
+        "fileOrigin",
+        "studyTarget"
       ]
     },
     "format": {
