@@ -2,14 +2,14 @@
   "@context": {
     "@vocab": "https://openminds.ebrains.eu/vocab/"
   },
-  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.brainwaref32",
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.biocam+hdf",
   "@type": "https://openminds.ebrains.eu/core/ContentType",
   "fileExtension": [
-    ".f32"
+    ".h5"
   ],
-  "name": "application/vnd.brainwaref32",
+  "name": "application/vnd.biocam+hdf",
   "relatedMediaType": null,
   "synonym": [
-    "Brainwaref32"
+    "Biocam"
   ]
 }

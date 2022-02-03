@@ -2,12 +2,12 @@
   "@context": {
     "@vocab": "https://openminds.ebrains.eu/vocab/"
   },
-  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.brainwaredam",
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.neurosharetypes",
   "@type": "https://openminds.ebrains.eu/core/ContentType",
   "fileExtension": null,
-  "name": "application/vnd.brainwaredam",
+  "name": "application/vnd.neurosharetypes",
   "relatedMediaType": null,
   "synonym": [
-    "BrainwareDam"
+    "Neuroshare compatible files"
   ]
 }

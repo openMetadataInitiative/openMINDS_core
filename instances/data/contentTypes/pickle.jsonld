@@ -8,9 +8,9 @@
     ".pkl",
     ".pickle"
   ],
-  "name": "application/vnd.neo+pickle",
+  "name": "application/vnd.pickle",
   "relatedMediaType": null,
   "synonym": [
-    "Pickled  neo objects"
+    "Python pickle files
   ]
 }

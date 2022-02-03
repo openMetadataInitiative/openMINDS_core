@@ -2,14 +2,15 @@
   "@context": {
     "@vocab": "https://openminds.ebrains.eu/vocab/"
   },
-  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.biocam",
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.mearec+hdf",
   "@type": "https://openminds.ebrains.eu/core/ContentType",
   "fileExtension": [
     ".h5"
   ],
-  "name": "application/vnd.biocam+hdf",
+  "name": "application/vnd.mearec+hdf",
   "relatedMediaType": null,
   "synonym": [
-    "Biocam"
+    "Multi-Electrode-Arrays",
+    "MEA"
   ]
 }
