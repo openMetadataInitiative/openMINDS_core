@@ -7,7 +7,7 @@
   "fileExtension": [
     ".h5"
   ],
-  "name": "application/vnd.mearec",
+  "name": "application/vnd.mearec+hdf",
   "relatedMediaType": null,
   "synonym": [
     "Multi-Electrode-Arrays",

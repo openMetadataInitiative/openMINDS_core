@@ -2,15 +2,15 @@
   "@context": {
     "@vocab": "https://openminds.ebrains.eu/vocab/"
   },
-  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.neo-pickle",
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.maxwell",
   "@type": "https://openminds.ebrains.eu/core/ContentType",
   "fileExtension": [
-    ".pkl",
-    ".pickle"
+    ".h5"
   ],
-  "name": "application/vnd.neo+pickle",
+  "name": "application/vnd.maxwell+hdf",
   "relatedMediaType": null,
   "synonym": [
-    "Pickled  neo objects"
+    "MaxOne",
+    "MaxTwo"
   ]
 }
