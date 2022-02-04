@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.quicknii+xml",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".xml"
+  ],
+  "name": "application/vnd.quicknii+xml",
+  "relatedMediaType": "https://www.iana.org/assignments/media-types/application/xml",
+  "synonym": [
+    "QuickNII Extensible Markup Language",
+    "QuickNII XML"
+  ]
+}
