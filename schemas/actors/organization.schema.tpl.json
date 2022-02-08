@@ -36,7 +36,7 @@
     },
     "shortName": {
       "type": "string",
-      "_instruction": "Enter the short name of this organization."
+      "_instruction": "Enter a short name (alias) for this organization that could be used as a shortened title for visualization in cases where there is only little space for display."
     }
   }
 }
