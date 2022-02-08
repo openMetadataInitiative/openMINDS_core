@@ -41,7 +41,7 @@
     },
     "shortName": {
       "type": "string",
-      "_instruction": "Enter a short name (alias) for this project."
+      "_instruction": "Enter a short name (alias) for this project that could be used as a shortened title for visualization in cases where there is only little space for display."
     }
   }
 }
