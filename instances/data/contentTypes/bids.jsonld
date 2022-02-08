@@ -7,6 +7,7 @@
   "fileExtension": null,
   "name": "application/vnd.bids",
   "relatedMediaType": null,
+  "specification": "https://bids-specification.readthedocs.io/en/stable/",
   "synonym": [
     "BIDS"
   ]
