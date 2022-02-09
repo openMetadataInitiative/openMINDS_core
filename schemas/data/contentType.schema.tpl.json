@@ -4,6 +4,10 @@
     "name"  
   ],
   "properties": {
+    "displayLabel": {
+      "type": "string",
+      "_instruction": "Enter a display label for this content type."
+    },
     "fileExtension": {
       "type": "array",
       "minItems": 1,
