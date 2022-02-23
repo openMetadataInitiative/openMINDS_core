@@ -33,7 +33,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add the type of grouping that was used to define this file bundle. Note that the grouping types define the schema type of instances stated in 'grouped by'.",
+      "_instruction": "Add all type of grouping that was used to define this file bundle. Note that the grouping types define the schema type of instances stated in 'grouped by'.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/FileBundleGrouping"
       ]
