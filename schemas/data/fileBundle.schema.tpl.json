@@ -16,10 +16,11 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all entities that played a role in the production of this file bundle.",
+      "_instruction": "Add all entities that defined which file was grouped into this file bundle.",
       "_linkedCategories": [
         "fileOrigin",
-        "studyTarget"
+        "studyTarget",
+        "coordinateSpace"
       ]
     },
     "format": {
