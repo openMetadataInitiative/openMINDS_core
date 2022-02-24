@@ -9,8 +9,8 @@
 	],
 	"name": "application/vnd.freesurfer.annotation",
 	"relatedMediaType": null,
-  "specification": "https://surfer.nmr.mgh.harvard.edu/fswiki/LabelsClutsAnnotationFiles#Annotation",
+	"specification": "https://surfer.nmr.mgh.harvard.edu/fswiki/LabelsClutsAnnotationFiles#Annotation",
 	"synonym": [
-    "FreeSurfer Annotation File"
+        	"FreeSurfer Annotation File"
   ]
 }
