@@ -7,7 +7,7 @@
 	"fileExtension": [
 		".mtl"
 	],
-	"name": "application/vnd.wavefronttechnologies",
+	"name": "application/vnd.wavefronttechnologies.mtl",
 	"relatedMediaType": "https://www.iana.org/assignments/media-types/model/mtl",
 	"synonym": [
 		"Wavefront MTL"
