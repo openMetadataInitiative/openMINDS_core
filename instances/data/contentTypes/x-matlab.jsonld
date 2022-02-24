@@ -10,6 +10,7 @@
 	"name": "text/x-matlab",
 	"relatedMediaType": null,
 	 "synonym": [
-		"MATLAB"
+		"MATLAB Plain",
+		"MATLAB Plain Script"
 	]
 }

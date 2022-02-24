@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.mathworks.live-script+zip",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".mlx"
+  ],
+  "name": "application/vnd.mathworks.live-script+zip",
+  "relatedMediaType": null,
+  "specification": "https://de.mathworks.com/help/matlab/matlab_prog/live-script-file-format.html",
+  "synonym": [
+    "MATLAB MLX",
+    "MATLAB Live",
+    "MATLAB Live Script",
+    "MATLAB Live-Script"
+  ]
+}
