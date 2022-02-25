@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/image/vnd.ilastik.segmentations+png",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".png"
+  ],
+  "name": "image/vnd.ilastik.segmentations+png",
+  "relatedMediaType": "https://www.iana.org/assignments/media-types/image/png",
+  "synonym": null
+}
