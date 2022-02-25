@@ -2,12 +2,12 @@
 	"@context": {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/image/ilastik.prediction+tiff-stack",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/image/vnd.ilastik.prediction+tiff-stack",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
 		".tiff"
 	],
-	"name": "image/ilastik.prediction+tiff-stack",
+	"name": "image/vnd.ilastik.prediction+tiff-stack",
 	"relatedMediaType": null,
 	"synonym": null
 }
