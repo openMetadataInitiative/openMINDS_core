@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/image/vnd.ilastik.prediction+jpeg",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".jpeg"
+  ],
+  "name": "image/vnd.ilastik.prediction+jpeg",
+  "relatedMediaType": null,
+  "synonym": [
+    "Ilastik Joint Photographic Expert Group",
+    "Ilastik JPEG"
+  ]
+}
