@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/image/vnd.ilastik.prediction+tiff",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".tiff",
+    ".tif"
+  ],
+  "name": "image/vnd.ilastik.prediction+tiff",
+  "relatedMediaType": null,
+  "synonym": [
+	  "Ilastik Tagged Image File (Tiled)"
+  ]
+}
