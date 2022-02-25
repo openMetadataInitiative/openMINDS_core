@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.ilastik+csv",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".csv"
+  ],
+  "name": "application/vnd.ilastik+csv",
+  "relatedMediaType": "https://www.iana.org/assignments/media-types/text/csv",
+  "synonym": [
+    "Ilastik Comma-Separated Value",
+    "Ilastik CSV"
+  ]
+}
