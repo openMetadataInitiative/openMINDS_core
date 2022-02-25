@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/image/vnd.ilastik.segmentations+tiff",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".tiff",
+    ".tif"
+  ],
+  "name": "image/vnd.ilastik.segmentations+tiff",
+  "relatedMediaType": null,
+  "synonym": null
+}
