@@ -1,0 +1,13 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/HANDLE",
+  "required": [
+    "identifier"
+  ],
+  "properties": {
+    "identifier": {
+      "type": "string",
+      "pattern": "^http:\/\/hdl\.handle\.net\/[\.0-9A-Za-z]+\/[\.0-9A-Za-z]+",
+      "_instruction": "Enter the resolvable identifier (IRI) of the Corporation for National Research Initiatives."
+    }
+  }
+}
