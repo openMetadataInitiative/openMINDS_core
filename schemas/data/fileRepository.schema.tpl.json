@@ -11,7 +11,7 @@
       "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add all content type patterns that would identify matching content types for files within this file repository.",
-      "_embeddedTypes": [
+      "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ContentTypePattern"
       ]
     },
