@@ -24,8 +24,8 @@
         "https://openminds.ebrains.eu/core/URL"
       ]
     },
-    "preview": {
-      "_instruction": "Add a preview file (URL) that is representative for this service link.",
+    "previewImage": {
+      "_instruction": "Add a (static) preview image file (URL) that is representative for this service link and could function as an icon.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/File"
       ]
