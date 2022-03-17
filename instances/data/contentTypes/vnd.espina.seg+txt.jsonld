@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.espina.seg+txt",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".txt"
+  ],
+  "name": "application/vnd.espina.seg+txt",
+  "relatedMediaType": null,
+  "specification": null,
+  "synonym": null
+}
