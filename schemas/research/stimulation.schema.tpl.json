@@ -38,7 +38,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all the locations that the data attached to the entity is published",
+      "_instruction": "Add all data files containing the stimulus content (e.g. movies, audio files, injected current traces).",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/File",
         "https://openminds.ebrains.eu/core/FileBundle"
