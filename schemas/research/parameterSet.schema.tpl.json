@@ -11,9 +11,8 @@
       "_instruction": "Enter the common context for the parameters grouped in this set."
     },
     "relevantFor": {
-      "_instruction": "Add the technique or stimulation where this set of parameters is used in.",
+      "_instruction": "Add the technique where this set of parameters is used.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Stimulation",
         "https://openminds.ebrains.eu/controlledTerms/Technique"
       ]
     },
