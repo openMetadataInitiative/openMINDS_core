@@ -1,6 +1,6 @@
 {
   "required": [
-    "input", 
+    "input",
     "output"
   ],
   "properties": {
@@ -40,13 +40,13 @@
         "https://openminds.ebrains.eu/core/File"
       ]
     },
-    "parameterSet": {
+    "additionalParameterSet": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all important parameters grouped in context-specific sets that were used in this activity.",
+      "_instruction": "If any parameters are not covered in the standardized properties of the respective activity, it is possible to add here user-defined parameters grouped in context-specific sets.",
       "_embeddedTypes": [
-         "https://openminds.ebrains.eu/core/ParameterSet"
+        "https://openminds.ebrains.eu/core/ParameterSet"
       ]
     },
     "startedAtTime": {
