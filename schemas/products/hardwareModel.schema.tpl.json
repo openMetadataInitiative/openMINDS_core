@@ -2,19 +2,19 @@
     "_type": "https://openminds.ebrains.eu/ephys/HardwareModel",
     "required": [
         "deviceType",
-        "modelName",
-        "internalIdentifier"
+        "manufacturer",
+        "modelName"
     ],
     "properties": {
+        "internalIdentifier": {
+            "type": "string",
+            "_instruction": "Enter the identifier of this Device that is used within the corresponding data."
+        },
         "deviceType": {
             "_instruction": "Reference to a device type",
             "_linkedTypes": [
                 "https://openminds.ebrains.eu/controlledTerms/DeviceType"
             ]
-        },
-        "internalIdentifier": {
-            "type": "string",
-            "_instruction": "Enter the identifier of this Device that is used within the corresponding data."
         },
         "manufacturer": {
             "type": "string",
