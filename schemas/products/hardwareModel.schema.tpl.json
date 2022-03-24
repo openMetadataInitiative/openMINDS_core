@@ -16,7 +16,7 @@
                 "https://openminds.ebrains.eu/controlledTerms/DeviceType"
             ]
         },
-        "manufacturer": {
+        "manufacturerName": {
             "type": "string",
             "_instruction": "The manufacturer or supplier providing the item. If it is self-made please state 'custom-made'."
         },
