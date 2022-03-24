@@ -2,7 +2,7 @@
     "_type": "https://openminds.ebrains.eu/ephys/HardwareModel",
     "required": [
         "deviceType",
-        "manufacturer",
+        "manufacturerName",
         "modelName"
     ],
     "properties": {
