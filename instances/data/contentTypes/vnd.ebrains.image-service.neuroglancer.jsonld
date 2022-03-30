@@ -7,6 +7,7 @@
 	"description": "This content type defines a file repository produced by the EBRAINS image-service holding a collection of files that is conform with the Neuroglancer specifications.",
 	"name": "application/vnd.ebrains.image-service.neuroglancer",
 	"synonym": [
-		"EBRAINS image-service for Neuroglancer"
+		"EBRAINS image-service with Neuroglancer specifications",
+		"EBRAINS image-service Neuroglancer specs"
 	]
 }
