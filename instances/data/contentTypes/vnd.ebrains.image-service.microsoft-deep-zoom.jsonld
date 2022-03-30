@@ -6,6 +6,7 @@
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"description": "This content type defines a file repository produced by the EBRAINS image-service holding image files that are directly ingestable by Microsoft Deep Zoom.",
 	"name": "application/vnd.ebrains.image-service.microsoft-deep-zoom",
-	"relatedMediaType": null,
-	"synonym": null
+	"synonym": [
+		"EBRAINS image-service for Deep Zoom"
+	]
 }
