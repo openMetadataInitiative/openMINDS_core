@@ -1,0 +1,13 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.ebrains.image-service.neuroglancer.precomputed",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"description": "This content type defines a file repository produced by the EBRAINS image-service holding a collection of files that is conform with the Neuroglancer precomputed specifications.",
+	"name": "application/vnd.ebrains.image-service.neuroglancer.precomputed",
+	"synonym": [
+		"EBRAINS image-service with Neuroglancer precomputed specifications",
+		"EBRAINS image-service Neuroglancer precomputed specs"
+	]
+}
