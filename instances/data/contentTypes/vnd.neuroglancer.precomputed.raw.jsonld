@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.neuroglancer.precomputed.raw",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "name": "application/vnd.neuroglancer.precomputed.raw",
+  "specification": "https://github.com/google/neuroglancer/blob/33d5206cf16c60530e9d0d517dc8bb9b968e2e18/src/neuroglancer/datasource/precomputed/README.md",
+  "synonym": [
+    "Neuroglancer precomputed raw"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.microsoft.deepzoom.image+xml",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".dzi",
+    ".xml"
+  ],
+  "name": "application/vnd.microsoft.deepzoom.image+xml",
+  "specification": "https://docs.microsoft.com/en-us/previous-versions/windows/silverlight/dotnet-windows-silverlight/cc645077(v=vs.95)",
+  "synonym": [
+    "Deep Zoom Image",
+    "DZI"
+  ]
+}

@@ -10,6 +10,7 @@
       "_instruction": "Add the file, file bundle, or atlas annotatation with the data that are linked to the specified service.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/File",
+        "https://openminds.ebrains.eu/core/FileArchive",
         "https://openminds.ebrains.eu/core/FileBundle",
         "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
       ]
