@@ -7,12 +7,12 @@
   "properties": {
     "name": {
       "type": "string",
-      "_instruction": "Enter a descriptive name for this numerical parameter."
+      "_instruction": "Enter a descriptive name for this numerical property."
     },
     "value": {
       "type": "array",
       "minItems": 1,
-      "_instruction": "Add at least one quantitative value for this parameter.",
+      "_instruction": "Add at least one quantitative value for this property.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue",
         "https://openminds.ebrains.eu/core/QuantitativeValueRange"
