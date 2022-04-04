@@ -1,0 +1,22 @@
+{
+    "_type": "https://openminds.ebrains.eu/core/PropertyValueList",
+    "required": [
+        "propertyValuePair"
+    ],
+    "properties": {
+        "lookupLabel": {
+            "type": "string",
+            "_instruction": "Enter a lookup label for this key-value list that may help you to more easily find it again."
+        },
+        "propertyValuePair": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "_instruction": "Add all numerical and string property-value pairs that belong to this list.",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/NumericalProperty",
+                "https://openminds.ebrains.eu/core/StringProperty"
+            ]
+        }
+    }
+}

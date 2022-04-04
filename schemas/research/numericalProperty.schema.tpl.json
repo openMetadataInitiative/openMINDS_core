@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/NumericalParameter",
+  "_type": "https://openminds.ebrains.eu/core/NumericalProperty",
   "required": [
     "name",
     "value"
