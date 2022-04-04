@@ -1,29 +1,27 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/ParameterSet",
+  "_type": "https://openminds.ebrains.eu/core/CustomPropertySet",
   "required": [
     "context",
     "relevantFor",
-    "parameter"
+    "definedIn"
   ],
   "properties": {
     "context": {
       "type": "string",
-      "_instruction": "Enter the common context for the parameters grouped in this set."
+      "_instruction": "Enter the common context for this custom property set."
     },
     "relevantFor": {
-      "_instruction": "Add the technique where this set of parameters is used.",
+      "_instruction": "Add the technique for which this custom property set is relevant.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/Technique"
       ]
     },
-    "parameter": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add all numerical and string parameters that belong to this parameter set.",
-      "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/NumericalParameter",
-        "https://openminds.ebrains.eu/core/StringParameter"
+    "definedIn": {
+      "_instruction": "Add a file or configuration that specifies the custom property set of the given context.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/File",
+        "https://openminds.ebrains.eu/core/Configuration",
+        "https://openminds.ebrains.eu/core/PropertyValueList"
       ]
     }
   }
