@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/zip",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".zip",
+    ".zipx"
+  ],
+  "name": "application/zip",
+  "relatedMediaType": "https://www.iana.org/assignments/media-types/application/zip",
+  "specification": "https://pkware.cachefly.net/webdocs/casestudies/APPNOTE.TXT",
+  "synonym": [
+    "ZIP",
+    "ZIP file",
+    "zipfile"
+  ]
+}
