@@ -8,7 +8,7 @@
     ".flat"
   ],
   "name": "application/vnd.quicknii.flat",
-  "relatedMediaType": "null",
+  "relatedMediaType": null,
   "synonym": [
     "QuickNII flat file"
     ]
