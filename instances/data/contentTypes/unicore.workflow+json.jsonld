@@ -1,0 +1,13 @@
+{
+  "@context" : {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.unicore.workflow+json",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [".json"],
+  "name": "application/vnd.unicore.workflow+json",
+  "relatedMediaType": null,
+  "synonym": [
+    "UNICORE workflow description language"
+  ]
+}
