@@ -1,0 +1,79 @@
+{
+    "_type": "https://openminds.ebrains.eu/core/Device",
+    "required": [
+        "deviceType",
+        "manufacturerName",
+        "modelName"
+    ],
+    "properties": {
+        "internalIdentifier": {
+            "type": "string",
+            "_instruction": "Enter the identifier of this device that is used by the operators in reports, documentation or data annotation."
+        },
+        "deviceType": {
+            "_instruction": "Reference to a device type",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/controlledTerms/DeviceType"
+            ]
+        },
+        "manufacturerName": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "_instruction": "The manufacturer or supplier providing the item. If it is self-made please state the name of the person that manufactures it.",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/person",
+                "https://openminds.ebrains.eu/core/organization"
+            ]
+        },
+        "modelName": {
+            "type": "string",
+            "_instruction": "The full name of this particular model as stated from the manufacturer."
+        },
+        "modelIdentifier": {
+            "_instruction": "Please indicate any persistent identifier asosiated with this device",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/core/DOI",
+                "https://openminds.ebrains.eu/core/RRID"
+            ]
+        },
+        "serialNumber": {
+            "type": "string",
+            "_instruction": "specific for the model, provided by the manufacturer or institution."
+        },
+        "owner": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "_instruction": "Institution(s) or person responsible for the management of the instrument. This may include the legal owner, the operator, or an institute providing access to the instrument.",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/person",
+                "https://openminds.ebrains.eu/core/organization"
+            ]
+        },
+        "inventoryNumber": {
+            "type": "string",
+            "_instruction": "Add the institutional inventory number (if it differs from the internal identifier)."
+        },
+        "description": {
+            "type": "string",
+            "_instruction": "Enter a description of this device."
+        },
+        "software": {
+            "_instruction": "Add all software versions that can control this device.",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/core/SoftwareVersion"
+            ]
+        },
+        "fixedDveiceSettings": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "_instruction": "Add the non-changeable device parameters for this device.",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/NumericalParameter",
+                "https://openminds.ebrains.eu/core/StringParamter"
+            ]
+        }
+    }
+}
