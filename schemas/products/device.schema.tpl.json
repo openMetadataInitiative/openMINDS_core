@@ -2,7 +2,7 @@
     "_type": "https://openminds.ebrains.eu/core/Device",
     "required": [
         "deviceType",
-        "manufacturerName",
+        "manufacturer",
         "modelName"
     ],
     "properties": {
@@ -16,7 +16,7 @@
                 "https://openminds.ebrains.eu/controlledTerms/DeviceType"
             ]
         },
-        "manufacturerName": {
+        "manufacturer": {
             "type": "array",
             "minItems": 1,
             "uniqueItems": true,
@@ -65,11 +65,11 @@
                 "https://openminds.ebrains.eu/core/SoftwareVersion"
             ]
         },
-        "fixedDveiceSettings": {
+        "deviceProperties": {
             "type": "array",
             "minItems": 1,
             "uniqueItems": true,
-            "_instruction": "Add the non-changeable device parameters for this device.",
+            "_instruction": "Add the non-changeable device property for this device.",
             "_embeddedTypes": [
                 "https://openminds.ebrains.eu/core/NumericalParameter",
                 "https://openminds.ebrains.eu/core/StringParamter"
