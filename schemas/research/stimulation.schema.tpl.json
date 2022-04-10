@@ -39,7 +39,7 @@
       "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add all data files containing the stimulus content (e.g. movies, audio files, injected current traces).",
-      "_embeddedTypes": [
+      "_linkedTypes": [
         "https://openminds.ebrains.eu/core/File",
         "https://openminds.ebrains.eu/core/FileBundle"
       ]
