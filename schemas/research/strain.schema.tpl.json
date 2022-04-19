@@ -2,7 +2,8 @@
   "_type": "https://openminds.ebrains.eu/core/Strain",
   "required": [
     "geneticStrainType",
-    "name"
+    "name",
+    "species"
   ],
   "properties": {
     "backgroundStrain": {
