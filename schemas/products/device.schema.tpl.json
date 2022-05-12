@@ -21,9 +21,8 @@
             "minItems": 1,
             "uniqueItems": true,
             "_instruction": "Add the private or industrial vendor (person or organization) that manufactured this device.",
-            "_linkedTypes": [
-                "https://openminds.ebrains.eu/core/person",
-                "https://openminds.ebrains.eu/core/organization"
+            "_linkedCategories": [
+                "legalPerson"
             ]
         },
         "modelName": {
@@ -46,9 +45,8 @@
             "minItems": 1,
             "uniqueItems": true,
             "_instruction": "Add all legal owners (person or organization) of this device.",
-            "_linkedTypes": [
-                "https://openminds.ebrains.eu/core/person",
-                "https://openminds.ebrains.eu/core/organization"
+            "_linkedCategories": [
+                "legalPerson"
             ]
         },
         "inventoryNumber": {
