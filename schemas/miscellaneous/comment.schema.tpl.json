@@ -1,0 +1,34 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/Comment",
+  "required": [
+    "subject",
+    "content",
+    "commenter",
+    "timestamp"
+  ],
+  "properties": {
+    "commenter": {
+      "_instruction": "Enter the person who made this comment.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Person"
+      ]
+    },
+    "content": {
+      "type": "string",
+      "_instruction": "Enter the comment."
+    },
+    "subject": {
+      "_instruction": "Add the research product you are commenting on.",
+      "_linkedCategories": [
+        "researchProduct"
+      ]
+    },
+    "timestamp": {
+      "type": "string",
+      "_formats": [
+        "date-time"
+      ],
+      "_instruction": "Enter the datetime (e.g., '2018-11-13T20:20:39+00:00') at which the comment was made."
+    }
+  }
+}
