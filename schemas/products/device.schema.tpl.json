@@ -20,17 +20,17 @@
             "type": "array",
             "minItems": 1,
             "uniqueItems": true,
-            "_instruction": "Add the private or industrial vendor (person or organization) that manufactured this device.",
+            "_instruction": "Add the private or industrial manufacturer (person or organization) that constructed this device.",
             "_linkedCategories": [
                 "legalPerson"
             ]
         },
         "modelName": {
             "type": "string",
-            "_instruction": "Enter the full name of this particular model as stated from the manufacturer."
+            "_instruction": "Enter the full name of the particular model of this device (as it is defined by the manufacturer)."
         },
-        "modelIdentifier": {
-            "_instruction": "Add any persistent identifier assigned to this device.",
+        "digitalIdentifier": {
+            "_instruction": "Add any digital, persistent and universal unique identifier assigned to this device.",
             "_linkedTypes": [
                 "https://openminds.ebrains.eu/core/DOI",
                 "https://openminds.ebrains.eu/core/RRID"
