@@ -6,7 +6,7 @@
     "properties": {
         "lookupLabel": {
             "type": "string",
-            "_instruction": "Enter a lookup label for this key-value list that may help you to more easily find it again."
+            "_instruction": "Enter a lookup label for this property-value (also called key-value) list that may help you to more easily find it again."
         },
         "propertyValuePair": {
             "type": "array",
