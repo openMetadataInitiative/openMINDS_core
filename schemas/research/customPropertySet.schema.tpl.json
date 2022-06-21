@@ -1,0 +1,28 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/CustomPropertySet",
+  "required": [
+    "context",
+    "relevantFor",
+    "definedIn"
+  ],
+  "properties": {
+    "context": {
+      "type": "string",
+      "_instruction": "Enter the common context for this custom property set."
+    },
+    "relevantFor": {
+      "_instruction": "Add the technique for which this custom property set is relevant.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Technique"
+      ]
+    },
+    "definedIn": {
+      "_instruction": "Add a file or configuration that specifies the custom property set of the given context.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/File",
+        "https://openminds.ebrains.eu/core/Configuration",
+        "https://openminds.ebrains.eu/core/PropertyValueList"
+      ]
+    }
+  }
+}
