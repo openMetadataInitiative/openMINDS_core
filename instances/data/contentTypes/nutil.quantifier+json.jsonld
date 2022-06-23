@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.nutil.quantifier+json",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".json"
+  ],
+  "name": "application/vnd.nutil.quantifier+json",
+  "relatedMediaType": "https://www.iana.org/assignments/media-types/application/json",
+  "synonym": [
+    "Nutil Quantifier JavaScript Object Notation",
+    "Nutil Quantifier JSON"
+  ]
+}
