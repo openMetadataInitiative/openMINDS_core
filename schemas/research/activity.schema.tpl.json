@@ -46,7 +46,7 @@
       "uniqueItems": true,
       "_instruction": "If any parameters are not covered in the standardized properties of the respective activity, it is possible to add here user-defined parameters grouped in context-specific sets.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/customPropertySet"
+        "https://openminds.ebrains.eu/core/CustomPropertySet"
       ]
     },
     "startedAtTime": {
