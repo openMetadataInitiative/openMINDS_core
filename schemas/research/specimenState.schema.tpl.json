@@ -28,6 +28,13 @@
         "https://openminds.ebrains.eu/controlledTerms/DiseaseModel"
       ]
     },
+    "relativeTimeIndication": {
+      "_instruction": "If there is a temporal relation, add the relative time that has passed between this and the previous specimen state referenced under 'descended from'.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue",
+        "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+      ]
+    },
     "weight": {
       "_instruction": "Add the weight of the specimen (set) in this state.",
       "_embeddedTypes": [

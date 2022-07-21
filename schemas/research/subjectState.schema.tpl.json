@@ -11,6 +11,12 @@
         "https://openminds.ebrains.eu/controlledTerms/AgeCategory"
       ]
     },
+    "descendedFrom": {
+      "_instruction": "Add the previous subject state.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/SubjectState"
+      ]
+    },
     "handedness": {
       "_instruction": "Add the preferred hand of the subject in this state.",
       "_linkedTypes": [
