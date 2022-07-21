@@ -35,10 +35,7 @@
             "uniqueItems": true,
             "_instruction": "Device used for this measurement",
             "_linkedTypes": [
-                "https://openminds.ebrains.eu/core/Device",
-                "https://openminds.ebrains.eu/ephys/Pipette",
-                "https://openminds.ebrains.eu/ephys/ElectrodeArray",
-                "https://openminds.ebrains.eu/ephys/Electrode"
+                "https://openminds.ebrains.eu/core/Device"
             ]
         },
         "description": {
