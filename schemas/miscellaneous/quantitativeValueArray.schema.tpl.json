@@ -7,7 +7,7 @@
     "values": {
       "type": "array",
       "items": {
-      	"type": "number",
+      	"type": "number"
         },
       "minItems": 2,
       "_instruction": "Add an array of measured values."
