@@ -9,7 +9,7 @@
       "items": {
       	"type": "number",
         },
-      "minItems": 2
+      "minItems": 2,
       "_instruction": "Add an array of measured values."
     },
     "uncertainties": {
