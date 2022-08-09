@@ -1,0 +1,13 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/ISSN",
+  "required": [
+    "identifier"
+  ],
+  "properties": {
+    "identifier": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{3}[0-9X]$",
+      "_instruction": "Enter the International Standard Serial Number of the ISSN International Centre."
+    }
+  }
+}
