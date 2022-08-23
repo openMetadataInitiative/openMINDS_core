@@ -1,14 +1,15 @@
 {
     "_type": "https://openminds.ebrains.eu/core/Recording",
     "required": [
-        "timeStep"
+        "timeStep",
+        "channel"
     ],
     "properties": {
         "internalIdentifier": {
             "type": "string",
             "_instruction": "Enter any internal identifier used for this recording"
         },
-        "channels": {
+        "channel": {
             "_instruction": "Enter all the recording channels contained in this recording.",
             "type": "array",
             "minItems": 1,
@@ -47,13 +48,7 @@
                 "https://openminds.ebrains.eu/ephys/Electrode"
             ]
         },
-        "unitOfMeasurement": {
-            "_instruction": "Add the unit of measurement of this recording, if the unit applies to all channels. If different channels have different units, provide them in the `channels` field.",
-            "_linkedTypes": [
-                "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
-            ]
-        },
-        "dataLocation": {
+        "definedIn": {
             "type": "array",
             "minItems": 1,
             "uniqueItems": true,
