@@ -1,6 +1,9 @@
 {
     "_type": "https://openminds.ebrains.eu/core/Channel",
-    "required": [],
+    "required": [
+        "unitOfMeasurement",
+        "internalIdentifier"
+    ],
     "properties": {
         "internalIdentifier": {
             "type": "string",
