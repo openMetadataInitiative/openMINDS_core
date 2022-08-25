@@ -4,11 +4,11 @@
     "stimulationApproach",
     "stimulusType"
   ],
-  "properties": {  
+  "properties": {
     "description": {
       "type": "string",
       "_instruction": "Enter a description of this stimulation."
-    },    
+    },
     "lookupLabel": {
       "type": "string",
       "_instruction": "Enter a lookup label for this stimulation that may help you to more easily find it again."
@@ -18,20 +18,20 @@
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/StimulationApproach"
       ]
-    },    
+    },
     "stimulusType": {
       "_instruction": "Add the type of stimulus that has been used for this stimulation.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/StimulusType"
       ]
     },
-    "parameterSet": {
+    "customPropertySet": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add all important parameters grouped in context-specific sets that were used in this stimulus",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/ParameterSet"
+        "https://openminds.ebrains.eu/core/CustomPropertySet"
       ]
     },
     "dataLocation": {
