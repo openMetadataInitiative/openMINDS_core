@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/licenses/DondersInstitute-DUA-RU-DI-HD-1-0",
+  "@type": "https://openminds.ebrains.eu/core/License",
+  "fullName": "Donder’s Institute DUA Version RU-DI-HD-1.0",
+  "legalCode": "https://data.donders.ru.nl/doc/dua/RU-DI-HD-1.0.html",
+  "shortName": "RU-DI-HD-1.0",
+  "webpage": null
+}
