@@ -40,6 +40,29 @@ Non-backwards compatible changes are only accepted for version branches that do 
 
 For all contributions, make sure that you describe well what you plan to do / have done to speed up the evaluation / review process of your issue / pull request. The assigned member of the openMINDS development team will get back to you as soon as possible to discuss or give the blessing to your contribution. Note that, all contributing community members are welcome to provide comments on active issues and pull requests. 
 
+**Guidelines for suggesting new content types:** The library of openMINDS content types contains official and unofficial media types (also known as 'MIME-types', or file formats). The goal of the openMINDS content types is to unambiguously define software-specific input and output formats so as to be able to automatically link data to appropriate software. Sometimes this means defining a subtype of an official media type, because specific content is expected for a software tool. For example, the generic JSON media type (application/json) does not specify what data it has to contain to qualify as an input format for a specific piece of software.
+
+In order to register software specific content types in openMINDS, we use the following naming convention (which is more-or-less in line with [RFC6838](https://www.rfc-editor.org/rfc/rfc6838)):
+
+    application/vnd.{ app_name }.{ sub_type }[.{ optional_sub_sub_type }]
+    
+This is what Microsoft used, for example, for the media type for “.docx”:
+
+    application/vnd.openxmlformats-officedocument.wordprocessingml.document
+
+Where the format uses a standardised container format, such as XML, JSON, HDF5, we add +{ container_format }, e.g.
+
+    application/vnd.nwb.nwbn+hdf
+
+for the NWB:N format, which uses HDF5 as its container (which means that a generic HDF-5 reader will be able to read such a file). You can also follow the same principle if you want to highlight the base media type of the specific content type. 
+
+Where a standard media type does exist, but there are standard sub-types that don’t have their own specific media type (e.g. TIFF), we suggest extending the existing content type, e.g.
+
+    image/tiff.multichannel
+    image/tiff.multipage
+    
+For new suggestions of content types, just raise an issue or make a pull request on this GitHub. To accelerate the review process, make sure to provide information of the software this content type should be registered for, provide the purpose of the data in this content type, and add a short description of the content type specifications or (if available) add a link to where the content type specificiations are documented.
+
 [BACK TO TOP](#top)
 
 ## Code of conduct <a name="code-of-conduct"/>
