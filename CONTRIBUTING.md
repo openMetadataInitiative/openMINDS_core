@@ -60,6 +60,8 @@ Where a standard media type does exist, but there are standard sub-types which d
 
     image/tiff.multichannel
     image/tiff.multipage
+    
+For new suggestions of content types, just raise an issue or make a pull request on this GitHub. To accelerate the review process, make sure to provide information of the software this content type should be registered for, provide the purpose of the data in this content type, and add a short description of the content type specifications or (if available) add a link to where the content type specificiations are documented.
 
 [BACK TO TOP](#top)
 
