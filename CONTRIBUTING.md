@@ -56,7 +56,7 @@ Where the format uses a standardised container format, such as XML, JSON, HDF5, 
 
 for the NWB:N format, which uses HDF5 as its container (which means that a generic HDF-5 reader will be able to read such a file). You can also follow the same principle if you want to highlight the base media type of the specific content type. 
 
-Where a standard media type does exist, but there are standard sub-types which don’t have their own specific media type (e.g. TIFF), we suggest extending the existing content type, e.g.
+Where a standard media type does exist, but there are standard sub-types that don’t have their own specific media type (e.g. TIFF), we suggest extending the existing content type, e.g.
 
     image/tiff.multichannel
     image/tiff.multipage
