@@ -1,0 +1,16 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.voluba.v1.linearTransform+json",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".json"
+	],
+	"name": "application/vnd.voluba.v1.linearTransform+json",
+	"relatedMediaType": "https://www.iana.org/assignments/media-types/application/json",
+	"synonym": [
+		"Voluba v1 Linear Transformation"
+	],
+    "specification": "https://raw.githubusercontent.com/FZJ-INM1-BDA/voluba/fa8e58dbe91a577dd0e6f6a8bf82c06b7e3e72e3/.openminds/voluba.v1.linearTransform.json"
+}
