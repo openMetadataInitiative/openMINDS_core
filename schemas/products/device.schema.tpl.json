@@ -1,4 +1,7 @@
 {
+    "_categories": [
+      "setupComponent"
+    ],
     "required": [
         "manufacturer",
         "name"
