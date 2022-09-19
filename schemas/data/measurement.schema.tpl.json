@@ -2,7 +2,6 @@
     "_type": "https://openminds.ebrains.eu/core/Measurement",
     "required": [
         "value",
-        "timestamp",
         "measuredQuantity"
     ],
     "properties": {
@@ -29,18 +28,15 @@
                 "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity"
             ]
         },
-        "device": {
-            "type": "array",
-            "minItems": 1,
-            "uniqueItems": true,
-            "_instruction": "Device used for this measurement",
-            "_linkedTypes": [
-                "https://openminds.ebrains.eu/core/Device"
+        "measuredWith": {
+            "_instruction": "Add the device used for this measurement.",
+            "_linkedCategories": [
+                "deviceUsage"
             ]
         },
-        "description": {
+        "additionalRemarks": {
             "type": "string",
-            "_instruction": "Enter a description for this measurement"
+            "_instruction": "Enter any additional remarks concerning this measurement."
         }
     }
 }
