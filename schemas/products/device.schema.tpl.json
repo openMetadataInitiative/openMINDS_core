@@ -1,20 +1,23 @@
 {
-    "_type": "https://openminds.ebrains.eu/core/Device",
     "required": [
-        "deviceType",
         "manufacturer",
-        "modelName"
+        "name"
     ],
     "properties": {
-        "internalIdentifier": {
+        "description": {
             "type": "string",
-            "_instruction": "Enter the identifier of this device that is used by the operators in reports, documentation or data annotation."
+            "_instruction": "Enter a description of this device."
         },
-        "deviceType": {
-            "_instruction": "Add the generic type of this device.",
+        "digitalIdentifier": {
+            "_instruction": "Add any digital, persistent and universal unique identifier assigned to this individual device.",
             "_linkedTypes": [
-                "https://openminds.ebrains.eu/controlledTerms/DeviceType"
+                "https://openminds.ebrains.eu/core/DOI",
+                "https://openminds.ebrains.eu/core/RRID"
             ]
+        },
+        "lookupLabel": {
+            "type": "string",
+            "_instruction": "Enter a lookup label for this device that may help you to more easily find it again."
         },
         "manufacturer": {
             "type": "array",
@@ -25,20 +28,9 @@
                 "legalPerson"
             ]
         },
-        "modelName": {
+        "name": {
             "type": "string",
-            "_instruction": "Enter the full name of the particular model of this device (as it is defined by the manufacturer)."
-        },
-        "digitalIdentifier": {
-            "_instruction": "Add any digital, persistent and universal unique identifier assigned to this device.",
-            "_linkedTypes": [
-                "https://openminds.ebrains.eu/core/DOI",
-                "https://openminds.ebrains.eu/core/RRID"
-            ]
-        },
-        "serialNumber": {
-            "type": "string",
-            "_instruction": "Enter the serial number of this device."
+            "_instruction": "Enter the name of this device, preferably including the model name as defined by the manufacturer."
         },
         "owner": {
             "type": "array",
@@ -49,28 +41,14 @@
                 "legalPerson"
             ]
         },
-        "inventoryNumber": {
+        "serialNumber": {
             "type": "string",
-            "_instruction": "Enter the institutional inventory number (if it differs from the internal identifier)."
+            "_instruction": "Enter the serial number of this device."
         },
-        "description": {
-            "type": "string",
-            "_instruction": "Enter a description of this device."
-        },
-        "software": {
-            "_instruction": "Add all software versions that can control this device.",
+        "deviceType": {
+            "_instruction": "Add the type of this device.",
             "_linkedTypes": [
-                "https://openminds.ebrains.eu/core/SoftwareVersion"
-            ]
-        },
-        "deviceProperty": {
-            "type": "array",
-            "minItems": 1,
-            "uniqueItems": true,
-            "_instruction": "Add all non-changeable device properties for this device.",
-            "_embeddedTypes": [
-                "https://openminds.ebrains.eu/core/NumericalParameter",
-                "https://openminds.ebrains.eu/core/StringParamter"
+                "https://openminds.ebrains.eu/controlledTerms/DeviceType"
             ]
         }
     }
