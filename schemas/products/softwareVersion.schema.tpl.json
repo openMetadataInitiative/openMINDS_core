@@ -1,6 +1,9 @@
 {
   "_type": "https://openminds.ebrains.eu/core/SoftwareVersion",
   "_extends": "products/researchProductVersion.schema.tpl.json",
+  "_categories": [
+    "setupComponent"
+  ],
   "required": [
     "applicationCategory",
     "device",
