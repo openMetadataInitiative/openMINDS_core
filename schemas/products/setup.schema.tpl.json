@@ -1,39 +1,52 @@
 {
     "_type": "https://openminds.ebrains.eu/core/Setup",
+    "_categories": [
+        "setupComponent"
+    ],
     "required": [
-        "internalIdentifier",
-        "project"
+        "name",
+        "components",
+        "description"
     ],
     "properties": {
-        "internalIdentifier": {
+        "name": {
             "type": "string",
-            "_instruction": "Enter the identifier used for this setup."
+            "_instruction": "Enter the name of this setup."
         },
         "location": {
             "type": "string",
-            "_instruction": "Enter the location that this setup is situated"
+            "_instruction": "Enter where this setup is located. This may include room number, building, institution and/or city."
         },
-        "project": {
-            "_instrcution": "Enter all the projects that this setup have ben used in",
+        "setupType": {
             "type": "array",
             "minItems": 1,
             "uniqueItems": true,
+            "_instruction": "Add all relevant setup types.",
             "_linkedTypes": [
-                "https://openminds.ebrains.eu/core/Project"
-            ]
-        },
-        "hasVersion": {
-            "type": "array",
-            "minItems": 1,
-            "uniqueItems": true,
-            "_instruction": "Add one or several versions of this setup.",
-            "_linkedTypes": [
-                "https://openminds.ebrains.eu/core/SetupVersion"
+                "https://openminds.ebrains.eu/controlledTerms/SetupType"
             ]
         },
         "description": {
             "type": "string",
-            "_instruction": "Enter a description of this hardware setup"
+            "_instruction": "Enter a description of this setup."
+        },
+        "manufacturer": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "_instruction": "Add the private or industrial manufacturer (person or organization) that constructed this setup.",
+            "_linkedCategories": [
+                "legalPerson"
+            ]
+        },
+        "components": {
+            "type": "array",
+            "minItems": 2,
+            "uniqueItems": true,
+            "_instruction": "Add all components or other setups used in this setup, including at least one device.",
+            "_linkedCategories": [
+                "setupComponent"
+            ]
         }
     }
 }
