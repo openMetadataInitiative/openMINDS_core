@@ -35,7 +35,10 @@
       ]
     },
     "stimulatedWith": {
-      "_instruction": "Add the device used for this stimulation.",
+      "_instruction": "Add the devices used for this stimulation.",
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
       "_linkedCategories": [
         "deviceUsage"
       ]
