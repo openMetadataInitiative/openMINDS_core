@@ -2,10 +2,11 @@
   "@context": {
     "@vocab": "https://openminds.ebrains.eu/vocab/"
   },
-  "@id": [
-	"https://openminds.ebrains.eu/instances/contentTypes/application/vnd.nwb.nwbn+hdf",
-	"https://openminds.ebrains.eu/instances/contentTypes/application.vnd.nwb.nwbn+hdf"
+  "http://schema.org/identifier":[
+	"https://openminds.ebrains.eu/instances/contentTypes/application.vnd.nwb.nwbn+hdf",
+	"https://kg.ebrains.eu/api/instances/f409c833-f07a-4788-b6f0-2cfcf7505879"
 	],
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.nwb.nwbn+hdf",
   "@type": "https://openminds.ebrains.eu/core/ContentType",
   "fileExtension": [
     ".nwb",
