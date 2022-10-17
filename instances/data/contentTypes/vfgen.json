@@ -1,0 +1,15 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.vfgen",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".vf"
+	],
+	"name": "application/vnd.vfgen",
+	"relatedMediaType": null,
+	"synonym": [
+		"Vector Field File"
+	]
+}

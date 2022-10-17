@@ -1,0 +1,15 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.nfsim",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".rnf"
+	],
+	"name": "application/vnd.nfsim",
+	"relatedMediaType": null,
+	"synonym": [
+		"Run NF"
+	]
+}

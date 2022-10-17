@@ -1,0 +1,15 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.sbtab",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".sbtab"
+	],
+	"name": "application/vnd.sbtab",
+	"relatedMediaType": null,
+	"synonym": [
+		"Sbtab"
+	]
+}

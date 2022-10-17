@@ -1,0 +1,15 @@
+{
+	"@context" : {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/sbml+xml",
+	"@type": "https://openminds.ebrains.eu/core/ContentType",
+	"fileExtension": [
+		".sbml"
+	],
+	"name": "application/sbml+xml",
+	"relatedMediaType": "https://www.iana.org/assignments/media-types/application/sbml+xml",
+	"synonym": [
+		"System Biology Markup Language"
+	]
+}
