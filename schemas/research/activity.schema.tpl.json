@@ -4,6 +4,15 @@
     "output"
   ],
   "properties": {
+    "customPropertySet": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "If any parameters are not covered in the standardized properties of the respective activity, it is possible to add here user-defined parameters grouped in context-specific sets.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/CustomPropertySet"
+      ]
+    },
     "description": {
       "type": "string",
       "_instruction": "Enter a description of this activity."
@@ -40,13 +49,14 @@
         "https://openminds.ebrains.eu/core/File"
       ]
     },
-    "customPropertySet": {
+    "performedBy": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "If any parameters are not covered in the standardized properties of the respective activity, it is possible to add here user-defined parameters grouped in context-specific sets.",
-      "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/CustomPropertySet"
+      "_instruction": "Add all agents (persons or software agent) that performed this activity.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Person",
+        "https://openminds.ebrains.eu/computation/SoftwareAgent"
       ]
     },
     "startedAtTime": {
