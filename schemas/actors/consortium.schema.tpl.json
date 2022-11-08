@@ -1,0 +1,42 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/Consortium",
+  "_categories": [
+    "legalPerson"
+  ],
+  "required": [
+    "fullName",
+    "members"
+  ],
+  "properties": {
+    "contactInformation": {
+      "_instruction": "Add the contact information for this consortium.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ContactInformation"
+      ]
+    },
+    "fullName": {
+      "type": "string",
+      "_instruction": "Enter the full name of the consortium."
+    },
+    "homepage": {
+      "_instruction": "Add the uniform resource locator (URL) to the homepage of this consortium.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/URL"
+      ]
+    },
+    "members": {
+      "type": "array",
+      "minItems": 2,
+      "uniqueItems": true,
+      "_instruction": "Add all members of this consortium.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Person",
+        "https://openminds.ebrains.eu/core/Organization"
+      ]
+    },
+    "shortName": {
+      "type": "string",
+      "_instruction": "Enter the short name of this consortium."
+    }
+  }
+}
