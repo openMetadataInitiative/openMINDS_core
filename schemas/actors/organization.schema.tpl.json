@@ -23,7 +23,10 @@
       "_instruction": "Enter the full name of the organization."
     },
     "hasParent": {
-      "_instruction": "Add a parent organization to this organization.",
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all parent organizations of this organization.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Organization"
       ]
