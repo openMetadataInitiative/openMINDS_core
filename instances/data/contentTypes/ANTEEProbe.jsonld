@@ -2,12 +2,12 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.eeglab",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.ANTEEProbe",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
-		".set"
+		".cnt"
 	],
-	"name": "application/vnd.eeglab",
+	"name": "application/vnd.ANTEEProbe",
 	"relatedMediaType": null,
 	"synonym": null
 }
