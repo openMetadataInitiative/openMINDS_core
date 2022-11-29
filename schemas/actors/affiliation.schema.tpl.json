@@ -18,10 +18,11 @@
         "type": "string",
         "_instruction": "Enter the end date of this affiliation. Leave blank if the affiliation is still current."
      },
-     "organization": {
-       "_instruction": "Add organization to which a person is or was affiliated.",
+     "memberOf": {
+       "_instruction": "Add the organization or consortium to which a person is or was affiliated.",
        "_linkedTypes": [
-         "https://openminds.ebrains.eu/core/Organization"
+         "https://openminds.ebrains.eu/core/Organization",
+         "https://openminds.ebrains.eu/core/Consortium"
        ]
      }
    }
