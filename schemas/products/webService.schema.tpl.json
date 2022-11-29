@@ -1,0 +1,27 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/WebService",
+  "_extends": "products/researchProduct.schema.tpl.json",
+  "required": [
+    "developer"
+  ],
+  "properties": {
+    "developer": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add one or several developers (person or organization) that contributed to the implementation of this web service.",
+      "_linkedCategories": [
+        "legalPerson"
+      ]
+    },
+    "hasVersion": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add one or several versions of this web service.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/computation/WebServiceVersion"
+      ]
+    }
+  }
+}

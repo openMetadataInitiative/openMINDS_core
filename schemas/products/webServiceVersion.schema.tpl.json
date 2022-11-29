@@ -1,0 +1,57 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/WebServiceVersion",
+  "_extends": "products/researchProductVersion.schema.tpl.json",
+  "properties": {
+    "developer": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "If necessary, add one or several developers (person or organization) that contributed to the implementation of this version of the web service. Note that these developers will overwrite the ones provided in the web service entry this version belongs to.",
+      "_linkedCategories": [
+        "legalPerson"
+      ]
+    },
+    "hasComponent": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add software versions that are used in this version of the web service.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/SoftwareVersion"
+      ]
+    },
+    "inputFormat": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add the content types of all possible input formats for this web service version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ContentType"
+      ]
+    },
+    "isAlternativeVersionOf": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all web service versions that can be used alternatively to this one.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/computation/WebServiceVersion"
+      ]
+    },
+    "isNewVersionOf": {
+      "_instruction": "Add the web service version preceding this one.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/computation/WebServiceVersion"
+      ]
+    },
+    "outputFormat": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add the content types of all possible output formats for this web service version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ContentType"
+      ]
+    }
+  }
+}
