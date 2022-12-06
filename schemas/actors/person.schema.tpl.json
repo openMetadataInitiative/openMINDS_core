@@ -7,6 +7,15 @@
     "givenName"
   ],
   "properties": {
+    "account": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add one or several account information for this person.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Account"
+      ]
+    },
     "digitalIdentifier": {
       "type": "array",
       "minItems": 1,
