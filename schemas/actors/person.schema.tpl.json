@@ -13,7 +13,7 @@
       "uniqueItems": true,
       "_instruction": "Add one or several account information for this person.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Account"
+        "https://openminds.ebrains.eu/core/AccountInformation"
       ]
     },
     "digitalIdentifier": {
