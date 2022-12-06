@@ -1,0 +1,19 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/Account",
+  "required": [
+    "service",
+    "userName"
+  ],
+   "properties": {
+     "service": {
+       "_instruction": "Add the web service (version) of this account.",
+       "_linkedTypes": [
+         "https://openminds.ebrains.eu/core/WebService"
+       ]
+     },
+     "userName": {
+       "type": "string",
+       "_instruction": "Enter the user name for this account.",
+     }
+   }
+}
