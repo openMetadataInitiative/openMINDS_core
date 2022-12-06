@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/Account",
+  "_type": "https://openminds.ebrains.eu/core/AccountInformation",
   "required": [
     "service",
     "userName"
@@ -13,7 +13,7 @@
      },
      "userName": {
        "type": "string",
-       "_instruction": "Enter the user name for this account.",
+       "_instruction": "Enter the user name for this account."
      }
    }
 }
