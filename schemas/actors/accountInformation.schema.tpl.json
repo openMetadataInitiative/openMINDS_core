@@ -6,7 +6,7 @@
   ],
    "properties": {
      "service": {
-       "_instruction": "Add the web service (version) of this account.",
+       "_instruction": "Add the web service of this account.",
        "_linkedTypes": [
          "https://openminds.ebrains.eu/core/WebService"
        ]
