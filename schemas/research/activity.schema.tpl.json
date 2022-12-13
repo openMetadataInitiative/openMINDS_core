@@ -54,9 +54,8 @@
       "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add all agents (persons or software agent) that performed this activity.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Person",
-        "https://openminds.ebrains.eu/computation/SoftwareAgent"
+      "_linkedCategories": [
+        "agent"
       ]
     },
     "startedAtTime": {
