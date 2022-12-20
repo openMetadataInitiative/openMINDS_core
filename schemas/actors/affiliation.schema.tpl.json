@@ -3,26 +3,27 @@
   "required": [
     "organization"
   ],
-   "properties": {
-     "startDate": {
-        "_formats": [
-          "date"
-        ],
-        "type": "string",
-        "_instruction": "Enter the start date of this affiliation."
-     },
-     "endDate": {
-        "_formats": [
-          "date"
-        ],
-        "type": "string",
-        "_instruction": "Enter the end date of this affiliation. Leave blank if the affiliation is still current."
-     },
-     "organization": {
-       "_instruction": "Add organization to which a person is or was affiliated.",
-       "_linkedTypes": [
-         "https://openminds.ebrains.eu/core/Organization"
-       ]
-     }
-   }
+  "properties": {
+    "startDate": {
+      "type": "string",
+      "_formats": [
+        "date"
+      ],
+      "_instruction": "Enter the start date of this affiliation."
+    },
+    "endDate": {
+      "type": "string",
+      "_formats": [
+        "date"
+      ],
+      "_instruction": "Enter the end date of this affiliation. Leave blank if the affiliation is still current."
+    },
+    "memberOf": {
+      "_instruction": "Add the organization or consortium to which a person or organization is or was affiliated.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Organization",
+        "https://openminds.ebrains.eu/core/Consortium"
+      ]
+    }
+  }
 }
