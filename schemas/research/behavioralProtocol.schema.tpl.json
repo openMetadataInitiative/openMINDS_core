@@ -28,13 +28,22 @@
       "type": "string",
       "_instruction": "Enter the label that was used to identify the behavioral protocol within the data."
     },     
-    "stimulation": {
+    "stimulationApproach": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all stimulations used with this behavioral protocol.",
+      "_instruction": "Add all stimulation approaches used within this behavioral protocol.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Stimulation"
+        "https://openminds.ebrains.eu/core/StimulationApproach"
+      ]
+    },
+    "stimulusType": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all stimulation types used within this behavioral protocol.",
+      "_linkedCategories": [
+        "stimulusType"
       ]
     }
   }
