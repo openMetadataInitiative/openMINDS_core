@@ -13,23 +13,25 @@
     "name": {
       "type": "string",
       "_instruction": "Enter a descriptive name for this protocol."
-    },    
-    "stimulation": {
+    },
+    "stimulusType": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all stimulations used with this protocol.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Stimulation"
+      "_instruction": "Add all stimulus types used with this protocol.",
+      "_linkedCategories": [
+        "stimulusType"
       ]
     },
     "technique": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all techniques that were used in this protocol.",
+      "_instruction": "Add all techniques (including stimulation approaches and/or techniques) that were used in this protocol.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Technique"
+        "https://openminds.ebrains.eu/controlledTerms/Technique",
+        "https://openminds.ebrains.eu/controlledTerms/StimulationTechnique",
+        "https://openminds.ebrains.eu/controlledTerms/StimulationApproach"
       ]
     }
   }
