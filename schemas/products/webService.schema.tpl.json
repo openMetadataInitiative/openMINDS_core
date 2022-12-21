@@ -20,7 +20,7 @@
       "uniqueItems": true,
       "_instruction": "Add one or several versions of this web service.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/computation/WebServiceVersion"
+        "https://openminds.ebrains.eu/core/WebServiceVersion"
       ]
     }
   }
