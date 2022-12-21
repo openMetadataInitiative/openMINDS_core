@@ -35,13 +35,13 @@
       "uniqueItems": true,
       "_instruction": "Add all web service versions that can be used alternatively to this one.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/computation/WebServiceVersion"
+        "https://openminds.ebrains.eu/core/WebServiceVersion"
       ]
     },
     "isNewVersionOf": {
       "_instruction": "Add the web service version preceding this one.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/computation/WebServiceVersion"
+        "https://openminds.ebrains.eu/core/WebServiceVersion"
       ]
     },
     "outputFormat": {
