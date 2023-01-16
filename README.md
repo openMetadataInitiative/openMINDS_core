@@ -1,9 +1,10 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/HumanBrainProject/openMINDS_core/blob/v3/img/dark_openMINDS-core-logo.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/HumanBrainProject/openMINDS_core/blob/v3/img/light_openMINDS-core-logo.png">
-  <img alt="openMINDS core logo" src="https://github.com/HumanBrainProject/openMINDS_core/blob/v3/img/light_openMINDS-core-logo.png"  title="openMINDS core" align="right" height="70">
-</picture>
-
+<a href="/img/light_openMINDS-core-logo.png">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="/img/dark_openMINDS-core-logo.png">
+    <source media="(prefers-color-scheme: light)" srcset="/img/light_openMINDS-core-logo.png">
+    <img alt="openMINDS core logo" src="/img/light_openMINDS-core-logo.png" title="openMINDS core" align="right" height="70">
+  </picture>
+</a>
 
 # openMINDS_core
 
