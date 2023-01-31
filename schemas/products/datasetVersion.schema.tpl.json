@@ -93,6 +93,15 @@
         "https://openminds.ebrains.eu/controlledTerms/PreparationType"
       ]
     },
+    "protocol": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add one or several data acquisition or processing protocols that were performed in this dataset version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Protocol"
+      ]
+    },
     "studiedSpecimen": {
       "type": "array",
       "minItems": 1,
