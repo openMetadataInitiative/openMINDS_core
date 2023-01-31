@@ -27,10 +27,11 @@
       ]
     },
     "origin": {
-      "_instruction": "Add the biogical origin (organ or cell type) of this tissue sample.",
+      "_instruction": "Add the biogical origin of this tissue sample.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/CellType",
-        "https://openminds.ebrains.eu/controlledTerms/Organ"
+        "https://openminds.ebrains.eu/controlledTerms/Organ",
+        "https://openminds.ebrains.eu/controlledTerms/BodySubstance"
       ]
     },
     "studiedState": {
