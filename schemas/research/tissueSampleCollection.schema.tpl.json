@@ -14,6 +14,8 @@
       "_instruction": "Add all anatomical entities to which this tissue sample belongs.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation",
+        "https://openminds.ebrains.eu/controlledTerms/OrganismSubstance",
+        "https://openminds.ebrains.eu/controlledTerms/Organ",
         "https://openminds.ebrains.eu/sands/CustomAnatomicalEntity",
         "https://openminds.ebrains.eu/sands/ParcellationEntity",
         "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
@@ -33,10 +35,11 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add the biogical origin (organ or cell type) of all tissue samples in this collection.",
+      "_instruction": "Add the biogical origin of all tissue samples in this collection.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/CellType",
-        "https://openminds.ebrains.eu/controlledTerms/Organ"
+        "https://openminds.ebrains.eu/controlledTerms/Organ",
+        "https://openminds.ebrains.eu/controlledTerms/OrganismSubstance"
       ]
     },
     "studiedState": {
