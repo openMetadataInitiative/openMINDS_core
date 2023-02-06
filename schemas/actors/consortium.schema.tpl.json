@@ -4,8 +4,7 @@
     "legalPerson"
   ],
   "required": [
-    "fullName",
-    "members"
+    "fullName"
   ],
   "properties": {
     "contactInformation": {
