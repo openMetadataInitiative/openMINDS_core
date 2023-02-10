@@ -1,23 +1,23 @@
 {
-    "_type": "https://openminds.ebrains.eu/core/Configuration",
-    "required": [
-        "configuration",
-        "definitionFormat"
-    ],
-    "properties": {
-        "lookupLabel": {
-            "type": "string",
-            "_instruction": "Enter a lookup label for this configuration that may help you to more easily find it again."
-        },
-        "configuration": {
-            "type": "string",
-            "_instruction": "Enter the configuration in a simple text based format (e.g., JSON, or YAML)."
-        },
-        "definitionFormat": {
-            "_instruction": "Add the content type of the defined configuration.",
-            "_linkedTypes": [
-                "https://openminds.ebrains.eu/core/ContentType"
-            ]
-        }
+  "_type": "https://openminds.ebrains.eu/core/Configuration",
+  "required": [ 
+    "configuration",
+    "format"
+  ],
+  "properties": {
+    "configuration": {
+      "type": "string",
+      "_instruction": "Enter the configuration in a simple text based format (e.g., JSON or YAML)."
+    },    
+    "format": {
+      "_instruction": "Add the content type of this configuration.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ContentType"
+      ]
+    },
+    "lookupLabel": {
+      "type": "string",
+      "_instruction": "Enter a lookup label for this configuration that may help you to find this instance more easily."
     }
+  }
 }
