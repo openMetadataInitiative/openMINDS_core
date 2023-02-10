@@ -18,7 +18,7 @@
       ]
     },
     "copyright": {
-      "_instruction": "Add the copyright information of this research product version.",
+      "_instruction": "Enter the copyright information of this research product version.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/Copyright"
       ]
@@ -27,18 +27,17 @@
       "type": "array",      
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add one or several person(s) or organization(s) that fulfills the role of a custodian. The role of the custodian is typically fulfilled by a research group leader or principal investigator, but could also be carried out by an organization. Custodians are typically the main contact in case of misconduct, obtain permission from the contributors to publish personal information, and maintain the content and quality of the data, metadata, and/or code of a research product.",
+      "_instruction": "Add all parties that fulfill the role of a custodian for the research product version (e.g., a research group leader or principle investigator). Custodians are typically the main contact in case of misconduct, obtain permission from the contributors to publish personal information, and maintain the content and quality of the data, metadata, and/or code of the research product version.",
       "_linkedCategories": [
         "legalPerson"
       ]
     },
     "description": {
       "type": "string",
-      "maxLength": 2000,
-      "_instruction": "If necessary, enter a version specific description (abstract) for this research product version (max. 2000 characters, incl. spaces; no references). If left blank, the research product version will inherit the 'description' of it's corresponding research product."
+      "_instruction": "Enter a description (or abstract) of this research product version. Note that this version specific description will overwrite the description for the overarching dataset."
     },
     "fullDocumentation": {
-      "_instruction": "Add the DOI, file or URL that points to a full documentation of this research product version.",
+      "_instruction": "Add the publication or file that acts as the full documentation of this research product version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DOI",
         "https://openminds.ebrains.eu/core/File",
@@ -47,7 +46,7 @@
     },
     "fullName": {
       "type": "string",
-      "_instruction": "If necessary, enter a version specific descriptive full name (title) for this research product version. If left blank, the research product version will inherit the 'fullName' of it's corresponding research product."
+      "_instruction": "Enter a descriptive full name (or title) for this research product version. Note that this version specific full name will overwrite the full name for the overarching dataset."
     },
     "funding": {
       "type": "array",
@@ -69,11 +68,11 @@
       "_instruction": "Enter the preferred citation text for this research product version. Leave blank if citation text can be extracted from the assigned digital identifier."
     },
     "keyword": {
-      "type": "array",
-      "maxItems": 5,
+      "type": "array",      
       "minItems": 1, 
+      "maxItems": 5,
       "uniqueItems": true,
-      "_instruction": "Add controlled or suggest new terms as keywords to this research product version.",
+      "_instruction": "Add up to five relevant keywords to this research product version either by adding controlled terms or by suggesting new terms.",
       "_linkedCategories": [
         "keyword"
       ]
@@ -82,7 +81,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add the contributions for each involved person or organization going beyond being an author, custodian or developer of this research product version.",
+      "_instruction": "Add any other contributions to this research product version that are not covered under 'author'/'developer' or 'custodian'.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/Contribution"
       ]
@@ -91,19 +90,19 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add further publications besides the documentation (e.g. an original research article) providing the original context for the production of this research product version.",
+      "_instruction": "Add all further publications besides the full documentation that provide the original context for the production of this research product version (e.g., an original research article).",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DOI",
-        "https://openminds.ebrains.eu/core/ISBN",
-        "https://openminds.ebrains.eu/core/HANDLE"
+        "https://openminds.ebrains.eu/core/DOI",        
+        "https://openminds.ebrains.eu/core/HANDLE",
+        "https://openminds.ebrains.eu/core/ISBN"
       ]
     },
     "releaseDate": {
+      "type": "string",
       "_formats": [
         "date"
       ],
-      "type": "string",
-      "_instruction": "Enter the date (actual or intended) of the first broadcast/publication of this research product version."
+      "_instruction": "Enter the date (actual or intended) on which this research product version was first release, formatted as '2023-02-07'."
     },
     "repository": {
       "_instruction": "Add the file repository of this research product version.",
@@ -113,20 +112,19 @@
     },
     "shortName": {
       "type": "string",
-      "maxLength": 30,
-      "_instruction": "Enter a short name (alias) for this research product version that could be used as a shortened title for visualization in cases where there is only little space for display."
+      "_instruction": "Enter a short name (or alias) for this research product version that could be used as a shortened display title (e.g., for web services with too little space to display the full name)."
     },
     "supportChannel": {
       "type": "array",
       "minItems": 1, 
       "uniqueItems": true,
-      "_instruction": "Enter all channels through which a user can receive support for handling this research product.",
+      "_instruction": "Enter all channels through which a user can receive support for handling this research product version.",
       "items": {
+        "type": "string",
         "_formats": [
           "email",
           "iri"
-        ],
-        "type": "string"
+        ]
       }
     },
     "versionIdentifier": {
@@ -135,7 +133,7 @@
     },
     "versionInnovation": {
       "type": "string",
-      "_instruction": "Enter a summary/description of the novelties/peculiarities of this research product version in comparison to other versions of it's research product. If this research product version is the first released version, you can enter the following disclaimer 'This is the first version of this research product.'"
+      "_instruction": "Enter a short description (or summary) of the novelties/peculiarities of this research product version in comparison to its preceding versions. If this research product version is the first version, you can enter the following disclaimer 'This is the first version of this research product'."
     }
   }
 }
