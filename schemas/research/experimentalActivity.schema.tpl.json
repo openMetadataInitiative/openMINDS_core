@@ -1,5 +1,4 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/ExperimentalActivity",
   "_extends": "research/activity.schema.tpl.json",
   "required": [
     "isPartOf",
@@ -13,7 +12,7 @@
       ]
     },
     "preparationDesign": {
-      "_instruction": "Add the initial preparation type for this experimental activity.",
+      "_instruction": "Add the initial preparation type for this activity.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/PreparationType"
       ]
@@ -22,7 +21,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all protocols that were used in this experimental activity.",
+      "_instruction": "Add all protocols used during this experimental activity.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Protocol"
       ]
