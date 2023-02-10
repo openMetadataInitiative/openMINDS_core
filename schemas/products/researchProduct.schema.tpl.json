@@ -3,9 +3,9 @@
     "researchProduct"
   ],
   "required": [
-    "description",
-    "hasVersion",
+    "description",    
     "fullName",
+    "hasVersion",
     "shortName"
   ],
   "properties": {
@@ -13,22 +13,21 @@
       "type": "array",      
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add one or several person(s) or organization(s) that fulfills the role of a custodian. The role of the custodian is typically fulfilled by a research group leader or principal investigator, but could also be carried out by an organization. Custodians are typically the main contact in case of misconduct, obtain permission from the contributors to publish personal information, and maintain the content and quality of the data, metadata, and/or code of a research product. Unless specified differently, this custodian will be responsible for all attached research product versions.",
+      "_instruction": "Add all parties that fulfill the role of a custodian for this research product (e.g., a research group leader or principle investigator). Custodians are typically the main contact in case of misconduct, obtain permission from the contributors to publish personal information, and maintain the content and quality of the data, metadata, and/or code of the research product. Unless specified differently, this custodian will be responsible for all attached research product versions.",
       "_linkedCategories": [
         "legalPerson"
       ]
     },
     "description": {
       "type": "string",
-      "maxLength": 2000,
-      "_instruction": "Enter a description (abstract) for this research product (max. 2000 characters, incl. spaces; no references). Note that this description should be fitting for all attached research product versions."
+      "_instruction": "Enter a description (or abstract) of this research product. Note that this should be a suitable description for all attached research product versions."
     },
     "fullName": {
       "type": "string",
-      "_instruction": "Enter a descriptive full name (title) for this research product.  Note that this full name should be fitting for all attached research product versions."
+      "_instruction": "Enter a descriptive full name (or title) for this research product. Note that this should be a suitable full name for all attached research product versions."
     },
     "homepage": {
-      "_instruction": "Add the uniform resource locator (URL) to the homepage of this research product.",
+      "_instruction": "Add the uniform resource locator (URL) for the homepage of this research product.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/URL"
       ]
@@ -39,8 +38,7 @@
     },
     "shortName": {
       "type": "string",
-      "maxLength": 30,
-      "_instruction": "Enter a short name (alias) for this research product that could be used as a shortened title for visualization in cases where there is only little space for display."
+      "_instruction": "Enter a short name (or alias) for this research product that could be used as a shortened display title (e.g., for web services with too little space to display the full name)."
     }
   }
 }
