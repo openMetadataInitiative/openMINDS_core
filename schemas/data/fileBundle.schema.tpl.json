@@ -12,10 +12,15 @@
       "type": "string",
       "_instruction": "Enter a short content description for this file bundle."
     },
-    "descendedFrom": {
-      "_instruction": "Add the entity that played a role in the production of this file bundle.",
+    "groupedBy": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all entities that defined which file was grouped into this file bundle. Note that the schema types of instances stated here, need to match the once stated under 'grouping type'.",
       "_linkedCategories": [
-        "fileOrigin"
+        "fileOrigin",
+        "studyTarget",
+        "coordinateSpace"
       ]
     },
     "format": {
@@ -25,7 +30,10 @@
       ]
     },
     "groupingType": {
-      "_instruction": "Add the type of grouping that was used to define this file bundle.",
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all type of grouping that was used to define this file bundle. Note that the grouping types define the schema type of instances stated in 'grouped by'.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/FileBundleGrouping"
       ]

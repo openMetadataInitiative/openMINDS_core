@@ -6,6 +6,9 @@
   ],
   "properties": {
     "groupingType": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
       "_instruction": "Add the type of grouping that is defined by the given file path pattern.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/FileBundleGrouping"
@@ -16,7 +19,7 @@
       "_formats": [
         "ECMA262"
       ],
-      "_instruction": "Enter the regular expression that defines this file path pattern."
+      "_instruction": "Enter the regular expression that defines this file path pattern. Note that the number of groups within the regular expression needs to match the number of stated grouping types."
     }
   }
 }
