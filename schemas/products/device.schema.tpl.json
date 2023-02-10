@@ -1,58 +1,58 @@
 {
-    "_categories": [
-      "setupComponent"
-    ],
-    "required": [
-        "manufacturer",
-        "name"
-    ],
-    "properties": {
-        "description": {
-            "type": "string",
-            "_instruction": "Enter a description of this device."
-        },
-        "digitalIdentifier": {
-            "_instruction": "Add any digital, persistent and universal unique identifier assigned to this individual device.",
-            "_linkedTypes": [
-                "https://openminds.ebrains.eu/core/DOI",
-                "https://openminds.ebrains.eu/core/RRID"
-            ]
-        },
-        "lookupLabel": {
-            "type": "string",
-            "_instruction": "Enter a lookup label for this device that may help you to more easily find it again."
-        },
-        "manufacturer": {
-            "type": "array",
-            "minItems": 1,
-            "uniqueItems": true,
-            "_instruction": "Add the private or industrial manufacturer (person or organization) that constructed this device.",
-            "_linkedCategories": [
-                "legalPerson"
-            ]
-        },
-        "name": {
-            "type": "string",
-            "_instruction": "Enter the name of this device, preferably including the model name as defined by the manufacturer."
-        },
-        "owner": {
-            "type": "array",
-            "minItems": 1,
-            "uniqueItems": true,
-            "_instruction": "Add all legal owners (person or organization) of this device.",
-            "_linkedCategories": [
-                "legalPerson"
-            ]
-        },
-        "serialNumber": {
-            "type": "string",
-            "_instruction": "Enter the serial number of this device."
-        },
-        "deviceType": {
-            "_instruction": "Add the type of this device.",
-            "_linkedTypes": [
-                "https://openminds.ebrains.eu/controlledTerms/DeviceType"
-            ]
-        }
+  "_categories": [
+    "setupComponent"
+  ],
+  "required": [
+    "manufacturer",
+    "name"
+  ],
+  "properties": {
+    "description": {
+      "type": "string",
+      "_instruction": "Enter a short text describing this device."
+    },    
+    "deviceType": {
+      "_instruction": "Add the type of this device.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/DeviceType"
+      ]
+    },
+    "digitalIdentifier": {
+      "_instruction": "Add the globally unique and persistent digital identifier of this device.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DOI",
+        "https://openminds.ebrains.eu/core/RRID"
+      ]
+    },
+    "lookupLabel": {
+      "type": "string",
+      "_instruction": "Enter a lookup label for this device that may help you to find this instance more easily."
+    },
+    "manufacturer": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add the manufacturer (private or industrial) that constructed this device.",
+      "_linkedCategories": [
+        "legalPerson"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "_instruction": "Enter a descriptive name for this device, preferably including the model name as defined by the manufacturer."
+    },
+    "owner": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all parties that legally own this device.",
+      "_linkedCategories": [
+        "legalPerson"
+      ]
+    },
+    "serialNumber": {
+      "type": "string",
+      "_instruction": "Enter the serial number of this device."
     }
+  }
 }
