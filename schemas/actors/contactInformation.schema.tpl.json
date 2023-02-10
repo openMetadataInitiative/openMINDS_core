@@ -5,11 +5,11 @@
   ],
   "properties": {
     "email": {
+      "type": "string",
       "_formats": [
         "email"
       ],
-      "type": "string",
-      "_instruction": "Enter the email address of this person."
+      "_instruction": "Enter the email address of the party (e.g., of the person)."
     }
   }
 }
