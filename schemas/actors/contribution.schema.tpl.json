@@ -1,23 +1,23 @@
 {
   "_type": "https://openminds.ebrains.eu/core/Contribution",
   "required": [
-    "contributionType",
-    "contributor"
+    "contributor",
+    "type"
   ],
    "properties": {
-     "contributionType": {
+     "contributor": {
+       "_instruction": "Add all types of contribution made by the stated 'contributor'.",
+       "_linkedCategories": [
+         "legalPerson"
+       ]
+     },     
+     "type": {
        "type": "array",
        "minItems": 1,
        "uniqueItems": true,
-       "_instruction": "Add one or several type of contributions made by the stated contributor.",
+       "_instruction": "Add the party that performed the contribution.",
        "_linkedTypes": [
          "https://openminds.ebrains.eu/controlledTerms/ContributionType"
-       ]
-     },
-     "contributor": {
-       "_instruction": "Add the contributing person or organization.",
-       "_linkedCategories": [
-         "legalPerson"
        ]
      }
    }
