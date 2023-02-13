@@ -6,21 +6,21 @@
   ],
   "properties": {
     "contentType": {
-      "_instruction": "Enter the content type that can be defined by the given regular expression for file names/extentions.",
+      "_instruction": "Add the content type that can be defined by the regular expression for this content type pattern (e.g., for file extensions).",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ContentType"
       ]
     },
     "lookupLabel": {
       "type": "string",
-      "_instruction": "Enter a lookup label for this content type pattern."
+      "_instruction": "Enter a lookup label for this content type pattern that may help you to find this instance more easily."
     },
     "regex": {
       "type": "string",
       "_formats": [
         "ECMA262"
       ],
-      "_instruction": "Enter a regular expression for the file names/extensions that defines the give content type."
+      "_instruction": "Enter the regular expression for the file names and/or extensions that defines this content type pattern."
     }
   }
 }
