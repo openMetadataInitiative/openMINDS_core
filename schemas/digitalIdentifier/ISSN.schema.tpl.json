@@ -7,7 +7,7 @@
     "identifier": {
       "type": "string",
       "pattern": "^[0-9]{4}-[0-9]{3}[0-9X]$",
-      "_instruction": "Enter the International Standard Serial Number of the ISSN International Centre."
+      "_instruction": "Enter the serial number for serial publications 'International Standard Serial Number' (ISSN) following the defined pattern (e.g., 1234-5678 or 1234-567X)."
     }
   }
 }
