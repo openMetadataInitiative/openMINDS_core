@@ -9,7 +9,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add one or several developers (person or organization) that contributed to the code implementation of this software.",
+      "_instruction": "Add all parties that developed this (meta)data model.",
       "_linkedCategories": [
         "legalPerson"
       ]
@@ -25,7 +25,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add one or several versions of this (meta)data model.",
+      "_instruction": "Add all versions of this (meta)data model.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/MetaDataModelVersion"
       ]
