@@ -15,17 +15,17 @@
       "_formats": [
         "iri"
       ],
-      "_instruction": "Enter the internationalized resource identifier (IRI) pointing to the legal code of this license."
+      "_instruction": "Enter the internationalized resource identifier (IRI) to the legal code of this license."
     },
     "shortName": {
       "type": "string",
-      "_instruction": "Enter a short name (alias) for this license that could be used as a shortened title for visualization in cases where there is only little space for display."
+      "_instruction": "Enter a short name (or alias) for this license that could be used as a shortened display title (e.g., for web services with too little space to display the full name)."
     },
     "webpage": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Enter one or several webpages related to this license (e.g. homepage).",
+      "_instruction": "Enter the internationalized resource identifiers (IRIs) to webpages related to this license (e.g., a homepage).",
       "items": {
         "type": "string",
         "_formats": [
