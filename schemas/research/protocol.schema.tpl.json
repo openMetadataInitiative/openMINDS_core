@@ -7,7 +7,7 @@
   ],
   "properties": {
     "describedIn": {
-      "_instruction": "Add a publication or file in which this behavioral protocol is (originally) described in detail.",
+      "_instruction": "Add the publication or file in which this protocol is (originally) described in detail.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DOI",
         "https://openminds.ebrains.eu/core/File",
