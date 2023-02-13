@@ -1,12 +1,12 @@
 {
   "_type": "https://openminds.ebrains.eu/core/FileArchive",
   "required": [
-    "IRI",
-    "format"
+    "format",
+    "IRI"
   ],
   "properties": {
     "format": {
-      "_instruction": "Add the content type of this file archive instance.",
+      "_instruction": "Add the content type of this file archive.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ContentType"
       ]
@@ -16,13 +16,13 @@
       "_formats": [
         "iri"
       ],
-      "_instruction": "Enter the internationalized resource identifier of this file archive."
+      "_instruction": "Enter the internationalized resource identifier (IRI) to this file archive."
     },
     "sourceData": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add one or several files that were ingested and modified to create this file archive.",
+      "_instruction": "Add the data that were ingested and modified to create this file archive.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/File"
       ]
