@@ -17,11 +17,12 @@
       "type": "string",
       "_instruction": "Enter the full name of this consortium."
     },
-    "homepage": {
-      "_instruction": "Add the uniform resource locator (URL) to the homepage of this consortium.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/URL"
-      ]
+    "homepage": {      
+      "type": "string",
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifiers (IRIs) to the homepage of this consortium."
     },
     "shortName": {
       "type": "string",
