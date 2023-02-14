@@ -26,11 +26,12 @@
       "type": "string",
       "_instruction": "Enter a descriptive full name (or title) for this research product. Note that this should be a suitable full name for all attached research product versions."
     },
-    "homepage": {
-      "_instruction": "Add the uniform resource locator (URL) to the homepage of this research product.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/URL"
-      ]
+    "homepage": {      
+      "type": "string",
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifiers (IRIs) to the homepage of this research product."
     },
     "howToCite": {
       "type": "string",
