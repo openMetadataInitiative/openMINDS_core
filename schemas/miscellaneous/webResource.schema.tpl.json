@@ -1,0 +1,25 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/WebResource",
+  "required": [
+    "IRI"
+  ],
+  "properties": {     
+    "contentDescription": {
+      "type": "string",
+      "_instruction": "Enter a short content description for this web resource."
+    },     
+    "format": {
+      "_instruction": "Add the expected content type of the document at this web resource.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ContentType"
+      ]
+    },
+    "IRI": {
+      "type": "string",
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifier (IRI) to this web resource."
+    }
+  }
+}
