@@ -1,0 +1,31 @@
+{
+  "_categories": [
+    "deviceUsage"
+  ],
+  "required": [
+    "device"
+  ],
+  "properties": { 
+    "metadataLocation": {    
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all files or file bundles containing additional information about the usage of this device.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/File",
+        "https://openminds.ebrains.eu/core/FileBundle"
+      ]
+    }, 
+    "lookupLabel": {
+      "type": "string",
+      "_instruction": "Enter a lookup label for this device usage that may help you to find this instance more easily."
+    }, 
+    "usedSpecimen": {
+      "_instruction": "Add the state of the tissue sample or subject that this device was used on.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/SubjectState",
+        "https://openminds.ebrains.eu/core/TissueSampleState"
+      ]
+    }
+  }
+}
