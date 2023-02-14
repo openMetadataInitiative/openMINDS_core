@@ -7,7 +7,7 @@
   "properties": {
     "maxValue": {
       "type": "number",
-      "_instruction": "Add the maximum value measured for this range."
+      "_instruction": "Enter the maximum value for this quantitative value range."
     },
     "maxValueUnit": {
       "_instruction": "Add the unit of measurement for the maximum value of this quantitative value range.",
@@ -17,7 +17,7 @@
     },
     "minValue": {
       "type": "number",
-      "_instruction": "Add the minimum value measured for this range."
+      "_instruction": "Enter the minimum value for this quantitative value range."
     },
     "minValueUnit": {
       "_instruction": "Add the unit of measurement for the minimum value of this quantitative value range.",
