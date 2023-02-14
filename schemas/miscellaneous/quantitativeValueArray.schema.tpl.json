@@ -4,41 +4,41 @@
     "values"
   ],
   "properties": {
-    "values": {
-      "type": "array",
-      "items": {
-      	"type": "number"
-        },
-      "minItems": 2,
-      "_instruction": "Add an array of measured values."
-    },
     "negativeUncertainties": {
       "type": "array",
+      "minItems": 2,
+      "_instruction": "Enter an array of negative uncertainties for this quantitative value array. Note that it must have the same length as the array of quantitative values stated under 'values'.",
       "items": {
       	"type": "number"
-        },
-      "minItems": 2,
-      "_instruction": "Add an array of negative uncertainties for the measured values. Note that it must have the same length as the array of measured values."
+      }
     },
     "positiveUncertainties": {
-      "type": "array",
+      "type": "array",      
+      "minItems": 2,
+      "_instruction": "Enter an array of positive uncertainties for this quantitative value array. Note that it must have the same length as the array of quantitative values stated under 'values'.",
       "items": {
       	"type": "number"
-        },
-      "minItems": 2,
-      "_instruction": "Add an array of positive uncertainties for the measured values. Note that it must have the same length as the array of measured values."
+      }
     },
     "typeOfUncertainty": {
-      "_instruction": "Add the type of uncertainty used to estimate the negative and positive uncertainties of the measured values.",
+      "_instruction": "Add the type of uncertainty used to determine the uncertainity for this quantitative value array.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/TypeOfUncertainty"
       ]
     },  
     "unit": {
-      "_instruction": "Add the unit of measurement for value array and respective uncertainties.",
+      "_instruction": "Add the unit of measurement of this quantitative value array and its uncertainty.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
       ]
+    },    
+    "values": {
+      "type": "array",      
+      "minItems": 2,
+      "_instruction": "Enter the array of quantitative values.",
+      "items": {
+      	"type": "number"
+      }
     }
   }
 }
