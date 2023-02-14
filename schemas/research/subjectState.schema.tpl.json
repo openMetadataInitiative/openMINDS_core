@@ -10,6 +10,15 @@
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/AgeCategory"
       ]
+    },    
+    "attribute": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all attributes that can be ascribed to this subject state.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/SubjectAttribute"
+      ]
     },
     "descendedFrom": {
       "_instruction": "Add the previous subject state.",
@@ -18,18 +27,9 @@
       ]
     },
     "handedness": {
-      "_instruction": "Add the preferred hand of the subject in this state.",
+      "_instruction": "Add the preferred handedness of the subject in this state.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/Handedness"
-      ]
-    },    
-    "attribute": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add one or several attributes that can be ascribed to this subject state.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/SubjectAttribute"
       ]
     }
   }
