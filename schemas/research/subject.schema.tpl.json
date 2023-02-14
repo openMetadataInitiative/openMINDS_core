@@ -9,7 +9,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all subject groups of which this subject is a member.",
+      "_instruction": "Add all subject groups of which this subject is part of.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/SubjectGroup"
       ]
