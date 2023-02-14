@@ -57,11 +57,12 @@
         "https://openminds.ebrains.eu/core/Funding"
       ]
     },
-    "homepage": {
-      "_instruction": "Add the uniform resource locator (URL) to the homepage of this research product version.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/URL"
-      ]
+    "homepage": {      
+      "type": "string",
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifiers (IRIs) to the homepage of this research product version."
     },
     "howToCite": {
       "type": "string",
