@@ -4,7 +4,12 @@
   "required": [
     "studiedState"
   ],
-  "properties": {
+  "properties": {    
+    "numberOfSubjects": {
+      "type": "integer",
+      "minimum": 2,
+      "_instruction": "Enter the number of subjects that belong to this subject group."
+    },
     "studiedState": {
       "type": "array",
       "minItems": 1,
