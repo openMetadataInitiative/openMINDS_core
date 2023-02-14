@@ -14,14 +14,14 @@
     },
     "internalIdentifier": {
       "type": "string",
-      "_instruction": "Enter the identifier of this specimen that is used within the corresponding data."
+      "_instruction": "Enter the identifier (or label) of this specimen that is used within the corresponding data files to identify this specimen."
     },
     "lookupLabel": {
       "type": "string",
-      "_instruction": "Enter a lookup label for this specimen that may help you to more easily find it again."
+      "_instruction": "Enter a lookup label for this specimen that may help you to find this instance more easily."
     },
     "species": {
-      "_instruction": "Add the species or the strain (a sub-type of a genetic variant of species) of this specimen.",
+      "_instruction": "Add the species or strain (a sub-type of a genetic variant of species) of this specimen.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/Species",
         "https://openminds.ebrains.eu/core/Strain"
