@@ -9,7 +9,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add one or several developers (person or organization) that contributed to the implementation of this web service.",
+      "_instruction": "Add all parties that developed this web service.",
       "_linkedCategories": [
         "legalPerson"
       ]
@@ -18,7 +18,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add one or several versions of this web service.",
+      "_instruction": "Add all versions of this web service.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/WebServiceVersion"
       ]
