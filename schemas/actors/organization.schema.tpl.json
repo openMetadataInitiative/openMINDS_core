@@ -40,11 +40,12 @@
         "https://openminds.ebrains.eu/core/Organization"
       ]
     },
-    "homepage": {
-      "_instruction": "Add the uniform resource locator (URL) to the homepage of this organization.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/URL"
-      ]
+    "homepage": {      
+      "type": "string",
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifiers (IRIs) to the homepage of this organization."
     },
     "shortName": {
       "type": "string",
