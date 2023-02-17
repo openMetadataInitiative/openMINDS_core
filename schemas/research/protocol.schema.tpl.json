@@ -36,10 +36,8 @@
       "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add all techniques (including stimulation approaches and/or techniques) that were used in this protocol.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Technique",
-        "https://openminds.ebrains.eu/controlledTerms/StimulationTechnique",
-        "https://openminds.ebrains.eu/controlledTerms/StimulationApproach"
+      "_linkedCategories": [
+        "technique"
       ]
     }
   }
