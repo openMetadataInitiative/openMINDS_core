@@ -18,7 +18,9 @@
         "https://openminds.ebrains.eu/core/SubjectGroupState",
         "https://openminds.ebrains.eu/core/SubjectState",
         "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
-        "https://openminds.ebrains.eu/core/TissueSampleState"
+        "https://openminds.ebrains.eu/core/TissueSampleState",
+        "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
       ]
     },
     "output": {
