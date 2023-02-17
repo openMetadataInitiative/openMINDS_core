@@ -20,8 +20,8 @@
     },
     "relevantFor": {
       "_instruction": "Add the technique for which this custom property set is relevant.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Technique"
+      "_linkedCategories": [
+        "technique"
       ]
     }
   }
