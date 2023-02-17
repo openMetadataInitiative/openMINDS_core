@@ -35,7 +35,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all techniques (including stimulation approaches and/or techniques) that were used in this protocol.",
+      "_instruction": "Add all techniques that were used in this protocol.",
       "_linkedCategories": [
         "technique"
       ]
