@@ -6,7 +6,7 @@
   ],
   "properties": {
     "contentType": {
-      "_instruction": "Add the content type that can be defined by the regular expression for this content type pattern (e.g., for file extensions).",
+      "_instruction": "Add the content type that can be defined by the regular expression of this content type pattern (e.g., for file extensions).",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ContentType"
       ]
@@ -20,7 +20,7 @@
       "_formats": [
         "ECMA262"
       ],
-      "_instruction": "Enter the regular expression for the file names and/or extensions that defines this content type pattern."
+      "_instruction": "Enter the regular expression for common elements within the file names (including their file path and/or extension) of the files formatted using the stated 'contentType'."
     }
   }
 }
