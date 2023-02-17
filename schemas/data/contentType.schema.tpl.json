@@ -32,7 +32,7 @@
     },
     "name": {
       "type": "string",
-      "_instruction": "Enter the name of this content type following a IANA-inspired convention."
+      "_instruction": "Enter the name of this content type following a IANA.org inspired convention."
     },    
     "relatedMediaType":{
       "type": "string",
