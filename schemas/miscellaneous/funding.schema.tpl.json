@@ -17,7 +17,7 @@
       "_instruction": "Enter the award title of this funding."
     },
     "funder": {
-      "_instruction": "Add the organization that provided this funding.",
+      "_instruction": "Add the party that provided this funding.",
       "_linkedCategories": [
         "legalPerson"
       ]
