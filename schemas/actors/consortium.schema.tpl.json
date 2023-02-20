@@ -8,24 +8,25 @@
   ],
   "properties": {
     "contactInformation": {
-      "_instruction": "Add the contact information for this consortium.",
+      "_instruction": "Add the contact information of this consortium.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ContactInformation"
       ]
     },
     "fullName": {
       "type": "string",
-      "_instruction": "Enter the full name of the consortium."
+      "_instruction": "Enter the full name of this consortium."
     },
-    "homepage": {
-      "_instruction": "Add the uniform resource locator (URL) to the homepage of this consortium.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/URL"
-      ]
+    "homepage": {      
+      "type": "string",
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this consortium."
     },
     "shortName": {
       "type": "string",
-      "_instruction": "Enter the short name of this consortium."
+      "_instruction": "Enter a short name (or alias) for this consortium that could be used as a shortened display title (e.g., for web services with too little space to display the full name)."
     }
   }
 }
