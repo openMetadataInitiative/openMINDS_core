@@ -3,31 +3,31 @@
   "required": [
     "value"
   ],
-  "properties": {
-    "value": {
-      "type": "number",
-      "_instruction": "Enter the measurement value of this quantitative value."
-    },
-    "uncertainty": {
-      "type": "array",
-      "maxItems": 2,
-      "minItems": 2,
-      "_instruction": "Enter the measurement uncertainty of this quantitative value.",
-      "items": {
-        "type": "number"
-      }
-    },
+  "properties": {    
     "typeOfUncertainty": {
-      "_instruction": "Add the type of uncertainty used for this quantitative value.",
+      "_instruction": "Add the type of uncertainty used to determine the uncertainity for this quantitative value.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/TypeOfUncertainty"
       ]
-    },  
+    },     
+    "uncertainty": {
+      "type": "array",      
+      "minItems": 2,
+      "maxItems": 2,
+      "_instruction": "Enter the uncertainty of this quantitative value.",
+      "items": {
+        "type": "number"
+      }
+    }, 
     "unit": {
-      "_instruction": "Add the unit of measurement of this quantitative value.",
+      "_instruction": "Add the unit of measurement of this quantitative value and its uncertainty.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
       ]
+    },
+    "value": {
+      "type": "number",
+      "_instruction": "Enter the value of this quantitative value."
     }
   }
 }
