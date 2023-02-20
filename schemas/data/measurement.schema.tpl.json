@@ -1,42 +1,42 @@
 {
-    "_type": "https://openminds.ebrains.eu/core/Measurement",
-    "required": [
-        "value",
-        "measuredQuantity"
-    ],
-    "properties": {
-        "value": {
-            "type": "array",
-            "minItems": 1,
-            "uniqueItems": true,
-            "_instruction": "Add one or more values measured at the same time and of the same measured quantity.",
-            "_embeddedTypes": [
-                "https://openminds.ebrains.eu/core/QuantitativeValue",
-                "https://openminds.ebrains.eu/core/QuantitativeValueRange"
-            ]
-        },
-        "timestamp": {
-            "_formats": [
-                "date-time"
-            ],
-            "type": "string",
-            "_instruction": "Enter the date and time when this measurement was made."
-        },
-        "measuredQuantity": {
-            "_instruction": "Enter the quantity that is being measured.",
-            "_linkedTypes": [
-                "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity"
-            ]
-        },
-        "measuredWith": {
-            "_instruction": "Add the device used for this measurement.",
-            "_linkedCategories": [
-                "deviceUsage"
-            ]
-        },
-        "additionalRemarks": {
-            "type": "string",
-            "_instruction": "Enter any additional remarks concerning this measurement."
-        }
+  "_type": "https://openminds.ebrains.eu/core/Measurement",
+  "required": [
+    "measuredQuantity",
+    "value"
+  ],
+  "properties": {    
+    "additionalRemarks": {
+      "type": "string",
+      "_instruction": "Enter any additional remarks concerning this measurement."
+    },    
+    "measuredQuantity": {
+      "_instruction": "Add the quantity that was measured during this measurement.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity"
+      ]
+    },
+    "measuredWith": {
+      "_instruction": "Add the device that was used during this measurement.",
+      "_linkedCategories": [
+        "deviceUsage"
+      ]
+    },
+    "timestamp": {
+      "type": "string",
+      "_formats": [
+        "date-time"
+      ],
+      "_instruction": "Enter the date and time on which this measurement was made, formatted as '2023-02-07T16:00:00+00:00'."
+    },    
+    "value": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Enter all values that were measured at the same time and are of the same measured quantity.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue",
+        "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+      ]
     }
+  }
 }
