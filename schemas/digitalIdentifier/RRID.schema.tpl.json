@@ -1,0 +1,13 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/RRID",
+  "required": [
+    "identifier"
+  ],
+  "properties": {
+    "identifier": {
+      "type": "string",
+      "pattern": "https://scicrunch.org/resolver/RRID:([A-Za-z]+)[_:]([A-Za-z0-9_:-]+)",
+      "_instruction": "Enter the resource identifier provided by the Resource Identification Initiative ('Research Resource IDentifier'; RRID) as an internationalized resource identifier (IRI) following the defined pattern (i.e., 'https://scicrunch.org/resolver/' + RRID)."
+    }
+  }
+}
