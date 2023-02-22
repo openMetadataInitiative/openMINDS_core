@@ -3,20 +3,7 @@
   "required": [
     "name"  
   ],
-  "properties": {
-    "displayLabel": {
-      "type": "string",
-      "_instruction": "Enter a display label for this content type."
-    },
-    "fileExtension": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Enter one or several file extensions associated with this content type.",
-      "items": {
-        "type": "string"
-      }
-    },
+  "properties": {    
     "dataType": {
       "type": "array",
       "minItems": 1,
@@ -25,34 +12,47 @@
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/DataType"
       ]
-    },
+    },   
     "description": {
       "type": "string",
-      "_instruction": "Enter a description of the content type specification. May be left blank if a public specification can be linked in 'specification'."
+      "_instruction": "Enter a description of the content type specification. Leave blank if an official and public specification is linked under 'specification' for this content type."
     },
+    "displayLabel": {
+      "type": "string",
+      "_instruction": "Enter a display label for this content type."
+    },
+    "fileExtension": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Enter all file extensions associated with this content type.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "name": {
+      "type": "string",
+      "_instruction": "Enter the name of this content type following a IANA.org inspired convention."
+    },    
     "relatedMediaType":{
       "type": "string",
       "_formats": [
         "iri"
       ],
-      "_instruction": "Enter the iternationalized resource identifier (IRI) of the official registered media type (e.g. on IANA.org) matching this content type."
-    },
-    "name": {
-      "type": "string",
-      "_instruction": "Enter the name (iana-inspired convention) of this content type."
+      "_instruction": "Enter the internationalized resource identifier (IRI) to the official registered media type (e.g., provided on IANA.org) matching this content type."
     },
     "specification":{
       "type": "string",
       "_formats": [
         "iri"
       ],
-      "_instruction": "Enter the iternationalized resource identifier (IRI) of the official specification of this content type. Leave blank and use 'description' to provide some specification if an official specification is not available."
+      "_instruction": "Enter the internationalized resource identifier (IRI) to the offical specification of this content type. If no offical and public specification is available, leave blank and enter the specification under 'description'."
     },
     "synonym":{
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Enter one or several synonyms of this content type.",
+      "_instruction": "Enter any synonyms of this content type.",
       "items": {
         "type": "string"
       }
