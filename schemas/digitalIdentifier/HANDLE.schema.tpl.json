@@ -1,0 +1,13 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/HANDLE",
+  "required": [
+    "identifier"
+  ],
+  "properties": {
+    "identifier": {
+      "type": "string",
+      "pattern": "^http:\/\/hdl.handle.net\/[.0-9A-Za-z]+\/[.0-9A-Za-z]+",
+      "_instruction": "Enter the identifier for a superset of DOIs provided by the Corporation for National Research Initiatives (HANDLE) as an internationalized resource identifier (IRI) following the defined pattern (i.e., 'http://hdl.handle.net/' + HANDLE)."
+    }
+  }
+}
