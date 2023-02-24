@@ -1,26 +1,26 @@
 {
   "_type": "https://openminds.ebrains.eu/core/Comment",
   "required": [
-    "subject",
-    "content",
+    "about",
+    "comment",
     "commenter",
     "timestamp"
   ],
-  "properties": {
-    "commenter": {
-      "_instruction": "Enter the person who made this comment.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Person"
-      ]
-    },
-    "content": {
-      "type": "string",
-      "_instruction": "Enter the comment."
-    },
-    "subject": {
-      "_instruction": "Add the research product you are commenting on.",
+  "properties": {    
+    "about": {
+      "_instruction": "Add the research product (version) that this comment is about.",
       "_linkedCategories": [
         "researchProduct"
+      ]
+    },    
+    "comment": {
+      "type": "string",
+      "_instruction": "Enter the comment about the research product (version) stated under 'about'."
+    },
+    "commenter": {
+      "_instruction": "Add the person that created this comment.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Person"
       ]
     },
     "timestamp": {
@@ -28,7 +28,7 @@
       "_formats": [
         "date-time"
       ],
-      "_instruction": "Enter the datetime (e.g., '2018-11-13T20:20:39+00:00') at which the comment was made."
+      "_instruction": "Enter the date and time on which this comment was made, formatted as '2023-02-07T16:00:00+00:00'."
     }
   }
 }
