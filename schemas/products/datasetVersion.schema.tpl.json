@@ -1,20 +1,20 @@
 {
   "_type": "https://openminds.ebrains.eu/core/DatasetVersion",
   "_extends": "products/researchProductVersion.schema.tpl.json",
-  "required": [
+  "required": [    
+    "dataType",
     "digitalIdentifier",
     "ethicsAssessment",
     "experimentalApproach",
     "license",
-    "technique",
-    "dataType"
+    "technique"
   ],
   "properties": {
     "author": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "If necessary, add one or several authors (person or organization) that contributed to the production and publication of this dataset version. Note that these authors will overwrite the once provided in the dataset product this version belongs to.",
+      "_instruction": "Add all parties that contributed to this dataset version as authors. Note that these authors will overwrite the author list provided for the overarching dataset.",
       "_linkedCategories": [
         "legalPerson"
       ]
@@ -23,9 +23,18 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add one or several behavioral protocols that were performed in this dataset version.",
+      "_instruction": "Add all behavioral protocols that were performed in this dataset version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/BehavioralProtocol"
+      ]
+    },    
+    "dataType": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all semantic data types (raw, derived and/or simulated) provided in this dataset version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/SemanticDataType"
       ]
     },
     "digitalIdentifier": {
@@ -58,7 +67,7 @@
         "https://openminds.ebrains.eu/core/DOI",
         "https://openminds.ebrains.eu/core/File",
         "https://openminds.ebrains.eu/core/FileBundle",
-        "https://openminds.ebrains.eu/core/URL",
+        "https://openminds.ebrains.eu/core/WebResource",
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
         "https://openminds.ebrains.eu/sands/CommonCoordinateSpace"
       ]
@@ -79,7 +88,7 @@
       ]
     },
     "license": {
-      "_instruction": "Add the license for this dataset version.",
+      "_instruction": "Add the license of this dataset version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/License"
       ]
@@ -88,7 +97,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all preparation types of this dataset version.",
+      "_instruction": "Add all preparation types used in this dataset version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/PreparationType"
       ]
@@ -97,7 +106,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add one or several data acquisition or processing protocols that were performed in this dataset version.",
+      "_instruction": "Add all protocols that were performed in this dataset version (e.g., for data acquisition or processing).",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Protocol"
       ]
@@ -106,30 +115,12 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add one or several specimen (subjects and/or tissue samples) or specimen sets (subject groups and/or tissue sample collections) that were studied in this dataset.",
+      "_instruction": "Add all specimens or sets of specimen that were studied in this dataset.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Subject",
         "https://openminds.ebrains.eu/core/SubjectGroup",
         "https://openminds.ebrains.eu/core/TissueSample",
         "https://openminds.ebrains.eu/core/TissueSampleCollection"
-      ]
-    },
-    "technique": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add one or several techniques that were used in this dataset version.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Technique"
-      ]
-    },
-    "dataType": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add all data types (raw, derived or simulated) provided in this dataset version.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/SemanticDataType"
       ]
     },
     "studyTarget": {
@@ -139,6 +130,15 @@
       "_instruction": "Add all study targets of this dataset version.",
       "_linkedCategories": [
         "studyTarget"
+      ]
+    },    
+    "technique": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all techniques that were used in this dataset version.",
+      "_linkedCategories": [
+        "technique"
       ]
     }
   }
