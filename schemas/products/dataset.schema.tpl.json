@@ -9,7 +9,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add one or several authors (person or organization) that contributed to the production and publication of this dataset.",
+      "_instruction": "Add all parties that contributed to this dataset as authors.",
       "_linkedCategories": [
         "legalPerson"
       ]
@@ -24,7 +24,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add one or several versions of this dataset.",
+      "_instruction": "Add all versions of this dataset.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DatasetVersion"
       ]
