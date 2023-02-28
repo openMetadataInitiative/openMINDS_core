@@ -11,7 +11,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all anatomical entities that describe the visible anatomy of this tissue sample collection.",    
+      "_instruction": "Add all anatomical entities that describe the anatomical location of this tissue sample collection.",    
       "_linkedCategories": [
         "anatomicalLocation"
       ]
