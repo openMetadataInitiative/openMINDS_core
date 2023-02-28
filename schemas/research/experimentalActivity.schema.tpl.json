@@ -6,7 +6,7 @@
   ],
   "properties": {
     "isPartOf": {
-      "_instruction": "Add the dataset version in which this experimental activity was conducted.",
+      "_instruction": "Add the dataset version in which this activity was conducted.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DatasetVersion"
       ]
@@ -21,7 +21,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all protocols used during this experimental activity.",
+      "_instruction": "Add all protocols used during this activity.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Protocol"
       ]
