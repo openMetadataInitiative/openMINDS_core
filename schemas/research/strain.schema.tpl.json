@@ -7,9 +7,9 @@
   ],
   "properties": {
     "backgroundStrain": {
-      "type": "array",
-      "maxItems": 2,      
+      "type": "array",      
       "minItems": 1,
+      "maxItems": 2,      
       "uniqueItems": true,
       "_instruction": "Add the background strain that explains the majority of the genetic background and/or causes the majority of the prominent traits. If two strains contributed equally, state both.",
       "_linkedTypes": [
@@ -30,7 +30,7 @@
       "type": "array",
       "minItems": 1, 
       "uniqueItems": true,
-      "_instruction": "If applicable, add what human disease(s) or condition(s) this strain is a model for.",
+      "_instruction": "Add all (human) diseases and/or conditions that this strain is a model for.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/Disease",
         "https://openminds.ebrains.eu/controlledTerms/DiseaseModel"
@@ -46,7 +46,7 @@
       "type": "array",
       "minItems": 1, 
       "uniqueItems": true,
-      "_instruction": "Enter one or several identifiers for this strain excluding ontological identifers or RRIDs (e.g. from Mouse Genome Informatics (MGI) or Rat Genome Database (RGD)).",
+      "_instruction": "Enter all identifiers for this strain, excluding its ontological identifers or RRID (e.g., identifiers from the Mouse Genome Informatics (MGI) database or Rat Genome Database (RGD)).",
       "items": {
         "type": "string"
       }
@@ -54,7 +54,7 @@
     "laboratoryCode": {
       "type": "string",
       "pattern": "^[A-Z]([a-z]?)+$",
-      "_instruction": "Enter the laboratory code assigned by the Institute of Laboratory Animal Research (ILAR) for the investigator or organization that has created this strain."
+      "_instruction": "Enter the laboratory code assigned by the Institute of Laboratory Animal Research (ILAR) for the investigator or organization that has created this strain following the defined pattern (e.g., Aaa)."
     },
     "name": {
       "type": "string",
@@ -64,20 +64,20 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Enter the identifier(s) (IRI) of the related ontological term(s) matching this strain.",
-      "items": {
+      "_instruction": "Enter the internationalized resource identifiers (IRIs) to the related ontological terms matching this strain.",
+      "items": {        
+        "type": "string",
         "_formats": [
           "iri"        
-        ],
-        "type": "string"
+        ]
       }      
     },
     "phenotype": {
       "type": "string",
-      "_instruction": "Enter a short text describing the phenotype of this strain."
+      "_instruction": "Enter a short description for the phenotype of this strain."
     }, 
     "RRID": {
-      "_instruction": "Add the 'Research Resource Identifiers' (RRID) for this strain.",
+      "_instruction": "Add the 'Research Resource Identifier' (RRID) of this strain.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/RRID"
       ]
@@ -98,7 +98,7 @@
       "type": "array",
       "minItems": 1, 
       "uniqueItems": true,
-      "_instruction": "Enter one or several synonyms (inlcuding abbreviations) for this strain.",
+      "_instruction": "Enter any synonyms (inlcuding abbreviations) of this strain.",
       "items": {
         "type": "string"
       }
