@@ -7,28 +7,29 @@
   ],
   "properties": {
     "dataLocation": {
-      "_instruction": "Add the file, file bundle, atlas annotatation, or other entity with the data that are linked to the specified service.",
+      "_instruction": "Add the location of the data that are linked to this specific service (e.g., stored as file (bundles) or registered as other entities such as atlas annotations).",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/File",
         "https://openminds.ebrains.eu/core/FileArchive",
         "https://openminds.ebrains.eu/core/FileBundle",
-        "https://openminds.ebrains.eu/core/ModelVersion",
-        "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-        "https://openminds.ebrains.eu/publications/LivePaperResourceItem"
+        "https://openminds.ebrains.eu/core/ModelVersion",        
+        "https://openminds.ebrains.eu/publications/LivePaperResourceItem",
+        "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
       ]
     },
-    "name": {
+    "displayLabel": {
       "type": "string",
-      "_instruction": "Enter a name that should be used as preferred display label for this service link."
+      "_instruction": "Enter a display label for this service link."
     },
-    "openDataIn": {
-      "_instruction": "Add the uniform resource locator (URL) to open the linked data in the specified service.",
-      "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/URL"
-      ]
+    "openDataIn": {      
+      "type": "string",
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifier (IRI) to the linked data in the specified service."
     },
     "previewImage": {
-      "_instruction": "Add a (static) preview image file (URL) that is representative for this service link and could function as an icon.",
+      "_instruction": "Add an image file to this service link that acts as a preview of its content or could function as an icon.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/File"
       ]
