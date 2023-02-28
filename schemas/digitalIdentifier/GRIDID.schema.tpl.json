@@ -7,7 +7,7 @@
     "identifier": {
       "type": "string",
       "pattern": "^https:\/\/grid.ac\/institutes\/grid.[0-9]{1,}.([a-f0-9]{1,2})$",
-      "_instruction": "Enter the identifier for research organizations provided by the International Digital Object Identifier Foundation ('Gloabl Research Identifier Database IDentifier'; GRIDID) as an internationalized resource identifier (IRI) following the defined pattern (i.e., 'https://grid.ac/institutes/' + GRIDID)."
+      "_instruction": "Enter the identifier for research organizations provided by the International Digital Object Identifier Foundation ('Global Research Identifier Database IDentifier'; GRIDID) as an internationalized resource identifier (IRI) following the defined pattern (i.e., 'https://grid.ac/institutes/' + GRIDID)."
     }
   }
 }
