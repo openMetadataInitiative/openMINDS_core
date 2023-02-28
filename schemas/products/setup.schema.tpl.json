@@ -1,52 +1,52 @@
 {
-    "_type": "https://openminds.ebrains.eu/core/Setup",
-    "_categories": [
+  "_type": "https://openminds.ebrains.eu/core/Setup",
+  "_categories": [
+    "setupComponent"
+  ],
+  "required": [
+    "components",    
+    "description",
+    "name"
+  ],
+  "properties": {    
+    "components": {
+      "type": "array",
+      "minItems": 2,
+      "uniqueItems": true,
+      "_instruction": "Add all components, including other setups, that are part in this setup. Note that a setup should not be only composed of software.",
+      "_linkedCategories": [
         "setupComponent"
-    ],
-    "required": [
-        "name",
-        "components",
-        "description"
-    ],
-    "properties": {
-        "name": {
-            "type": "string",
-            "_instruction": "Enter the name of this setup."
-        },
-        "location": {
-            "type": "string",
-            "_instruction": "Enter where this setup is located. This may include room number, building, institution and/or city."
-        },
-        "setupType": {
-            "type": "array",
-            "minItems": 1,
-            "uniqueItems": true,
-            "_instruction": "Add all relevant setup types.",
-            "_linkedTypes": [
-                "https://openminds.ebrains.eu/controlledTerms/SetupType"
-            ]
-        },
-        "description": {
-            "type": "string",
-            "_instruction": "Enter a description of this setup."
-        },
-        "manufacturer": {
-            "type": "array",
-            "minItems": 1,
-            "uniqueItems": true,
-            "_instruction": "Add the private or industrial manufacturer (person or organization) that constructed this setup.",
-            "_linkedCategories": [
-                "legalPerson"
-            ]
-        },
-        "components": {
-            "type": "array",
-            "minItems": 2,
-            "uniqueItems": true,
-            "_instruction": "Add all components or other setups used in this setup, including at least one device.",
-            "_linkedCategories": [
-                "setupComponent"
-            ]
-        }
+      ]
+    },    
+    "description": {
+      "type": "string",
+      "_instruction": "Enter a short text describing this setup."
+    },    
+    "location": {
+      "type": "string",
+      "_instruction": "Enter the geographic location of this setup. This may include room number, building, institution and/or city."
+    },    
+    "manufacturer": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add the manufacturer (private or industrial) that constructed this setup.",
+      "_linkedCategories": [
+        "legalPerson"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "_instruction": "Enter a descriptive name for this setup."
+    },
+    "type": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all types that describe this setup.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/SetupType"
+      ]
     }
+  }
 }
