@@ -11,29 +11,29 @@
     "contentDescription": {
       "type": "string",
       "_instruction": "Enter a short content description for this file bundle."
+    },    
+    "format": {
+      "_instruction": "If the files within this bundle are organised and formatted according to a formal data structure, add the content type of this file bundle. Leave blank if no formal data structure has been applied to the files within this bundle.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ContentType"
+      ]
     },
     "groupedBy": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all entities that defined which file was grouped into this file bundle. Note that the schema types of instances stated here, need to match the once stated under 'grouping type'.",
+      "_instruction": "Add all entities that defined which files were grouped into this file bundle. Note that the schema types of the instances stated here, need to match the ones stated under 'groupingType'.",
       "_linkedCategories": [
+        "coordinateSpace",
         "fileOrigin",
-        "studyTarget",
-        "coordinateSpace"
-      ]
-    },
-    "format": {
-      "_instruction": "If file instances within this bundle are organized and formatted according to a formal data structure use the appropriate contentType. Leave blank otherwise.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ContentType"
+        "studyTarget"
       ]
     },
     "groupingType": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all type of grouping that was used to define this file bundle. Note that the grouping types define the schema type of instances stated in 'grouped by'.",
+      "_instruction": "Add all grouping types that were used to define this file bundle. Note that the grouping types define the possible schema type of the instances stated under 'groupedBy'.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/FileBundleGrouping"
       ]
@@ -45,7 +45,7 @@
       ]
     },
     "isPartOf": {
-      "_instruction": "Add the file bundle or file repository this file bundle is a part of.",
+      "_instruction": "Add the file bundle or file repository this file bundle is part of.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/FileBundle",
         "https://openminds.ebrains.eu/core/FileRepository"
@@ -56,7 +56,7 @@
       "_instruction": "Enter the name of this file bundle."
     },
     "storageSize": {
-      "_instruction": "Enter the storage size this file bundle allocates.",
+      "_instruction": "Enter the storage size of this file bundle.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
       ]
