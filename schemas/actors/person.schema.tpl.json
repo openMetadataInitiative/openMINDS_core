@@ -1,35 +1,44 @@
 {
   "_type": "https://openminds.ebrains.eu/core/Person",
   "_categories": [
-    "legalPerson",
-    "agent"
+    "agent",
+    "legalPerson"
   ],
   "required": [
     "givenName"
   ],
-  "properties": {
+  "properties": {    
+    "affiliation": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Enter all current and, if desired, past affiliations of this person.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/Affiliation"
+      ]
+    },
     "associatedAccount": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add information about web service accounts held by this person.",
+      "_instruction": "Add the information about web service accounts held by this person.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/AccountInformation"
+      ]
+    },    
+    "contactInformation": {
+      "_instruction": "Add the contact information of this person.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ContactInformation"
       ]
     },
     "digitalIdentifier": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add one or several globally unique and persistent digital identifier for this person.",
+      "_instruction": "Add all globally unique and persistent digital identifier of this person.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ORCID"
-      ]
-    },
-    "contactInformation": {
-      "_instruction": "Add the contact information of this person.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ContactInformation"
       ]
     },
     "familyName": {
@@ -39,15 +48,6 @@
     "givenName": {
       "type": "string",
       "_instruction": "Enter the given name of this person."
-    },
-    "affiliation": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add the current and, if necessary, past affiliations of this person.",
-      "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/Affiliation"
-      ]
     }
   }
 }
