@@ -2,8 +2,8 @@
   "_type": "https://openminds.ebrains.eu/core/ModelVersion",
   "_extends": "products/researchProductVersion.schema.tpl.json",
   "required": [
-    "license",
-    "format"
+    "format",
+    "license"
   ],
   "properties": {
     "developer": {
