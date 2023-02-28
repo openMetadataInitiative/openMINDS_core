@@ -4,26 +4,26 @@
     "organization"
   ],
   "properties": {
-    "startDate": {
-      "type": "string",
-      "_formats": [
-        "date"
-      ],
-      "_instruction": "Enter the start date of this affiliation."
-    },
     "endDate": {
       "type": "string",
       "_formats": [
         "date"
       ],
-      "_instruction": "Enter the end date of this affiliation. Leave blank if the affiliation is still current."
+      "_instruction": "Enter the end date of this affiliation, formatted as 'YYYY-MM-DD'. Leave blank if this affiliation is still current."
     },
     "memberOf": {
-      "_instruction": "Add the organization or consortium to which a person or organization is or was affiliated.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Organization",
-        "https://openminds.ebrains.eu/core/Consortium"
+      "_instruction": "Add the organization or consortium another party was or still is a member of.",
+      "_linkedTypes": [        
+        "https://openminds.ebrains.eu/core/Consortium",
+        "https://openminds.ebrains.eu/core/Organization"
       ]
+    },    
+    "startDate": {
+      "type": "string",
+      "_formats": [
+        "date"
+      ],
+      "_instruction": "Enter the start date of this affiliation, formatted as 'YYYY-MM-DD'."
     }
   }
 }
