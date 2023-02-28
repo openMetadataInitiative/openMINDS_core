@@ -13,7 +13,7 @@
       "type": "array",
       "minItems": 2,
       "uniqueItems": true,
-      "_instruction": "Add all components, including other setups, that are part in this setup. The setup must be composed of at least one device.",
+      "_instruction": "Add all components, including other setups, that are part in this setup. Note that a setup should not be only composed of software.",
       "_linkedCategories": [
         "setupComponent"
       ]
