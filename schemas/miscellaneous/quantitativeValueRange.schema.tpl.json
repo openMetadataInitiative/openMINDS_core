@@ -7,20 +7,20 @@
   "properties": {
     "maxValue": {
       "type": "number",
-      "_instruction": "Add the maximum value measured for this range."
+      "_instruction": "Enter the maximum value."
     },
     "maxValueUnit": {
-      "_instruction": "Add the unit of measurement for the maximum value of this quantitative value range.",
+      "_instruction": "Add the unit of measurement for the maximum value.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
       ]
     },
     "minValue": {
       "type": "number",
-      "_instruction": "Add the minimum value measured for this range."
+      "_instruction": "Enter the minimum value."
     },
     "minValueUnit": {
-      "_instruction": "Add the unit of measurement for the minimum value of this quantitative value range.",
+      "_instruction": "Add the unit of measurement for the minimum value.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
       ]
