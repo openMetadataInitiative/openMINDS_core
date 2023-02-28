@@ -6,7 +6,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "If necessary, add one or several developers (person or organization) that contributed to the implementation of this version of the web service. Note that these developers will overwrite the ones provided in the web service entry this version belongs to.",
+      "_instruction": "Add all parties that developed this web service version. Note that these developers will overwrite the developer list provided for the overarching web service.",
       "_linkedCategories": [
         "legalPerson"
       ]
@@ -15,7 +15,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add software versions that are used in this version of the web service.",
+      "_instruction": "Add all software versions that are components of this web service version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/SoftwareVersion"
       ]
@@ -24,7 +24,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add the content types of all possible input formats for this web service version.",
+      "_instruction": "Add all content types that can be used as input by this web service version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ContentType"
       ]
@@ -33,13 +33,13 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all web service versions that can be used alternatively to this one.",
+      "_instruction": "Add all web service versions that can be used alternatively to this web service version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/WebServiceVersion"
       ]
     },
     "isNewVersionOf": {
-      "_instruction": "Add the web service version preceding this one.",
+      "_instruction": "Add the web service version preceding this web service version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/WebServiceVersion"
       ]
@@ -48,7 +48,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add the content types of all possible output formats for this web service version.",
+      "_instruction": "Add all content types that can be generated as output by this web service version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ContentType"
       ]
