@@ -1,0 +1,14 @@
+{
+  "@context" : {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.voluba.v1.landmarkPairs+json",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".json"
+  ],
+  "name": "application/vnd.voluba.v1.landmarkPairs+json",
+  "synonym": [
+    "VoluBA (v1) Landmark Pairs"
+  ]
+}
