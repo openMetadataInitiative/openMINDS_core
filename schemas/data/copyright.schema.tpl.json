@@ -15,9 +15,14 @@
       ]
     },
     "year": {
-      "type": "string",
-      "pattern": "([0-9]{4})",
-      "_instruction": "Enter the year during which the copyright was first asserted follwoing the defined pattern (e.g., 2023)."
+      "type": "array",
+      "items": {
+      	"type": "string",
+        "pattern": "([0-9]{4})"
+      },
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Enter the year during which the copyright was first asserted and, optionally, later years during which updated versions were published."
     }
   }
 }
