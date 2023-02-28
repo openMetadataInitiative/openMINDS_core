@@ -29,7 +29,7 @@
       "_instruction": "Enter the internationalized resource identifier (IRI) to the linked data in the specified service."
     },
     "previewImage": {
-      "_instruction": "Add an image (static or moving) to this service link that acts as a preview of its content or could function as an icon.",
+      "_instruction": "Add an image file to this service link that acts as a preview of its content or could function as an icon.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/File"
       ]
