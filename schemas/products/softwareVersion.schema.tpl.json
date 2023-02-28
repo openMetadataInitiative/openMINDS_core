@@ -62,7 +62,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all content types that can be used as input for this software version.",
+      "_instruction": "Add all content types that can be used as input by this software version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ContentType"
       ]
@@ -113,7 +113,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all content types that can be generated as output for this software version.",
+      "_instruction": "Add all content types that can be generated as output by this software version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ContentType"
       ]
