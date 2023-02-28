@@ -70,11 +70,11 @@
         "https://openminds.ebrains.eu/core/WebResource"
       ]
     },    
-    "usedFormat": {
+    "format": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all used content types of this computational model version.",
+      "_instruction": "Add all content types of the files composing this computational model version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ContentType"
       ]
