@@ -7,7 +7,7 @@
   ],
   "properties": {
     "format": {
-      "_instruction": "If the files and file bundles within this repository are organised and formatted according to a formal data structure, add the content type of this file repository. Leave blank if no formal data structure has been applied to the files and file bundles within this repository.",
+      "_instruction": "If the files and file bundles within this repository are organised and formatted according to a formal data structure, add the content type of this formal data structure. Leave blank if no formal data structure has been applied.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ContentType"
       ]
@@ -35,7 +35,7 @@
       "type": "string",
       "_instruction": "Enter the name of this file repository."
     },    
-    "pattern": {
+    "contentTypePattern": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
