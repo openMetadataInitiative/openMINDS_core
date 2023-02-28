@@ -7,7 +7,7 @@
     "identifier": {
       "type": "string",
       "pattern": "^https:\/\/orcid.org\/[0-9]{4}-[0-9]{4}-[0-9]{4}-([0-9]{3}[A-Z]|[0-9]{4})$",
-      "_instruction": "Enter the resolvable identifier (IRI) of the Open Researcher and Contributor ID, Inc."
+      "_instruction": "Enter the identifier for researchers provided by Open Researcher and Contributor ID, Inc. (ORCID, Inc.) as an internationalized resource identifier (IRI) following the defined pattern (i.e., 'https://orcid.org/' + ORCID)."
     }
   }
 }
