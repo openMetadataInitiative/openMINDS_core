@@ -9,7 +9,7 @@
       "_formats": [
         "date"
       ],
-      "_instruction": "Enter the end date of this affiliation, formatted as '2023-02-07'. Leave blank if this affiliation is still current."
+      "_instruction": "Enter the end date of this affiliation, formatted as 'YYYY-MM-DD'. Leave blank if this affiliation is still current."
     },
     "memberOf": {
       "_instruction": "Add the organization or consortium another party was or still is a member of.",
@@ -23,7 +23,7 @@
       "_formats": [
         "date"
       ],
-      "_instruction": "Enter the start date of this affiliation, formatted as '2023-02-07'."
+      "_instruction": "Enter the start date of this affiliation, formatted as 'YYYY-MM-DD'."
     }
   }
 }
