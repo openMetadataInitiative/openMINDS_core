@@ -7,7 +7,7 @@
     "identifier": {
       "type": "string",
       "pattern": "^([0-9]{3}-|)[0-9]{1}-[0-9]{3}-[0-9]{5}-[0-9]{1}$",
-      "_instruction": "Enter the International Standard Book Number of the International ISBN Agency."
+      "_instruction": "Enter the numeric commercial book identifier 'International Standard Book Number' (ISBN) following the defined pattern (e.g., 123-4-567-89012-3 (13-digit ISBN) or 4-567-89012-3 (10-digit ISBN))."
     }
   }
 }
