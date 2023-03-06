@@ -9,15 +9,20 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add one or several persons or organisations that hold the copyright.",
+      "_instruction": "Add all parties that hold this copyright.",
       "_linkedCategories": [
          "legalPerson"
       ]
     },
     "year": {
-      "type": "string",
-      "pattern": "([0-9]{4})",
-      "_instruction": "Enter the year during which the copyright was first asserted."
+      "type": "array",
+      "items": {
+      	"type": "string",
+        "pattern": "([0-9]{4})"
+      },
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Enter the year during which the copyright was first asserted and, optionally, later years during which updated versions were published."
     }
   }
 }
