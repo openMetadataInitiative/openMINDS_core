@@ -1,0 +1,22 @@
+{
+  "_type": "https://openminds.ebrains.eu/core/ResearchProductGroup",
+  "required": [
+    "context",
+    "researchProduct"
+  ],
+  "properties": {
+    "context": {
+      "type": "string",
+      "_instruction": "Enter the common context for this research product group."
+    },
+    "researchProduct": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all research products (research product versions) that should be grouped under the given 'context'.",
+      "_linkedCategories": [
+        "researchProduct"
+      ]
+    }
+  }
+}
