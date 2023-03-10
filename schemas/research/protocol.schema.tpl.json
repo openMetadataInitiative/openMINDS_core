@@ -11,7 +11,7 @@
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DOI",
         "https://openminds.ebrains.eu/core/File",
-        "https://openminds.ebrains.eu/core/URL"
+        "https://openminds.ebrains.eu/core/WebResource"
       ]
     },
     "description": {
