@@ -1,7 +1,7 @@
 {
   "_type": "https://openminds.ebrains.eu/core/Affiliation",
   "required": [
-    "organization"
+    "memberOf"
   ],
   "properties": {
     "endDate": {
