@@ -3,7 +3,7 @@
     "setupComponent"
   ],
   "required": [
-    "manufacturer",
+    "deviceType",
     "name"
   ],
   "properties": {
