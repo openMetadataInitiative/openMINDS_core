@@ -48,6 +48,10 @@
     "givenName": {
       "type": "string",
       "_instruction": "Enter the given name of this person."
+    },
+    "birthName": {
+      "type": "string",
+      "_instruction": "Enter the family name of this person given upon birth if it deviates from the current family name."
     }
   }
 }
