@@ -3,7 +3,7 @@
   "required": [
     "description",
     "fullName",
-    "hasResearchProducts",
+    "hasPart",
     "shortName"
   ],
   "properties": {    
@@ -24,7 +24,7 @@
       "type": "string",
       "_instruction": "Enter a descriptive full name (or title) for this project."
     },
-    "hasResearchProducts": {
+    "hasPart": {
       "type": "array",
       "minItems": 2,
       "uniqueItems": true,

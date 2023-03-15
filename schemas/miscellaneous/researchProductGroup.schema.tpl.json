@@ -2,14 +2,14 @@
   "_type": "https://openminds.ebrains.eu/core/ResearchProductGroup",
   "required": [
     "context",
-    "researchProduct"
+    "hasPart"
   ],
   "properties": {
     "context": {
       "type": "string",
       "_instruction": "Enter the common context for this research product group."
     },
-    "researchProduct": {
+    "hasPart": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
