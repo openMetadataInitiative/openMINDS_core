@@ -4,16 +4,16 @@
     "setupComponent"
   ],
   "required": [
-    "components",    
+    "hasPart",
     "description",
     "name"
   ],
   "properties": {    
-    "components": {
+    "hasPart": {
       "type": "array",
       "minItems": 2,
       "uniqueItems": true,
-      "_instruction": "Add all components, including other setups, that are part in this setup. Note that a setup should not be only composed of software.",
+      "_instruction": "Add all components, including other setups, that are part of this setup. Note that a setup should not be only composed of software.",
       "_linkedCategories": [
         "setupComponent"
       ]
