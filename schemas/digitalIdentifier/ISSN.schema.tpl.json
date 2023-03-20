@@ -1,5 +1,8 @@
 {
   "_type": "https://openminds.ebrains.eu/core/ISSN",
+  "_categories": [
+    "publicationReference"
+  ],
   "required": [
     "identifier"
   ],

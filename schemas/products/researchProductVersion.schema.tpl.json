@@ -91,11 +91,8 @@
       "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add all further publications besides the full documentation that provide the original context for the production of this research product version (e.g., an original research article that used or produced the data of this research product version).",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DOI",        
-        "https://openminds.ebrains.eu/core/HANDLE",
-        "https://openminds.ebrains.eu/core/ISBN",
-        "https://openminds.ebrains.eu/core/ISSN"
+      "_linkedCategories": [
+        "publicationReference"
       ]
     },
     "releaseDate": {
