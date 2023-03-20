@@ -8,6 +8,6 @@
 		".py"
 	],
 	"name": "application/vnd.sciunit.test",
-	"relatedMediaType": "text/x-python.3",
+	"relatedMediaType": null,
 	"synonym": null
 }
