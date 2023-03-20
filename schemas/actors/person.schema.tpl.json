@@ -17,23 +17,14 @@
         "https://openminds.ebrains.eu/core/Affiliation"
       ]
     },
-    "alternateFamilyName": {
+    "alternateName": {
       "type": "array",
       "items": {
         "type": "string"
       },
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Enter any other known family name of this person."
-    },
-    "alternateGivenName": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      },
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Enter any other known given name of this person."
+      "_instruction": "Enter any other known full name of this person."
     },
     "associatedAccount": {
       "type": "array",
