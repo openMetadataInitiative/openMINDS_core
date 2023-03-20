@@ -58,6 +58,15 @@
         "https://openminds.ebrains.eu/controlledTerms/SoftwareFeature"
       ]
     },
+    "hasPart": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all software versions that supplement this software version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/SoftwareVersion"
+      ]
+    },
     "inputFormat": {
       "type": "array",
       "minItems": 1,
