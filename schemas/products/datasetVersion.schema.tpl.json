@@ -88,9 +88,10 @@
       ]
     },
     "license": {
-      "_instruction": "Add the license of this dataset version.",
+      "_instruction": "Add the license or an online available data usage agreement for this dataset version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/License"
+        "https://openminds.ebrains.eu/core/License",
+        "https://openminds.ebrains.eu/core/WebResource"
       ]
     },
     "preparationDesign": {
