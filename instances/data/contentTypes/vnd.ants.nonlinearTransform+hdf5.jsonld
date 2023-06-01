@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.ants.nonlinearTransform+hdf5",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".h5",
+    ".hdf5"
+  ],
+  "name": "application/vnd.ants.nonlinearTransform+hdf5",
+  "relatedMediaType": null,
+  "synonym": [
+    "ANTs Nonlinear Transformation"
+  ]
+}
