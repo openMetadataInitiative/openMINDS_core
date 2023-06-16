@@ -9,7 +9,10 @@
   ],
   "properties": {
     "describedIn": {
-      "_instruction": "Add the publication or file in which this behavioral protocol is (originally) described in detail.",
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all sources in which this behavioral protocol is described in detail.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DOI",
         "https://openminds.ebrains.eu/core/File",
