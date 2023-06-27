@@ -12,4 +12,4 @@ jobs:
     - name: Trigger central repository
       run: |
         curl -XPOST -u "${{secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/HumanBrainProject/openMINDS/actions/workflows/build.yml/dispatches --data '{"ref": "main"}'
-        curl -XPOST -u "${{secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/openMetadataInitiative/openMINDS_pipeline/actions/workflows/build.yml/dispatches --data '{"ref": "main", "inputs": {"branch": "$GITHUB_REF"}'
+        curl -XPOST -u "${{secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/openMetadataInitiative/openMINDS_pipeline/actions/workflows/build.yml/dispatches --data '{"ref": "main", "inputs": {"branch": "${{GITHUB_REF}}"}'
