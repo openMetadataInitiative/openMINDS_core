@@ -2,14 +2,14 @@
   "@context": {
     "@vocab": "https://openminds.ebrains.eu/vocab/"
   },
-  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.nutil+csv",
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.nutil.results+csv",
   "@type": "https://openminds.ebrains.eu/core/ContentType",
   "fileExtension": [
     ".csv"
   ],
-  "name": "application/vnd.nutil+csv",
+  "name": "application/vnd.nutil.results+csv",
   "relatedMediaType": null,
   "synonym": [
-    "Nutil CSV"
+    "Nutil Results CSV"
   ]
 }
