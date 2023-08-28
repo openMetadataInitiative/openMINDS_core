@@ -2,7 +2,7 @@
     "@context": {
       "@vocab": "https://openminds.ebrains.eu/vocab/"
     },
-    "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.visualign.flat",
+    "@id": "https://openminds.ebrains.eu/instances/contentTypes/application_vnd.visualign.flat",
     "@type": "https://openminds.ebrains.eu/core/ContentType",
     "fileExtension": [
       ".flat"
@@ -12,5 +12,4 @@
     "synonym": [
       "VisuAlign flat file"
       ]
-  }
-  
+  }  
