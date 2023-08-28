@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application_vnd.visualign.flat",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".flat"
+  ],
+  "name": "application/vnd.visualign.flat",
+  "relatedMediaType": null,
+  "synonym": [
+    "VisuAlign flat file"
+  ]
+}
