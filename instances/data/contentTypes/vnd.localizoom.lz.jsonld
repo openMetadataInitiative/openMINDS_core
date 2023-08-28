@@ -1,0 +1,15 @@
+{
+    "@context": {
+      "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/contentTypes/application_vnd.localizoom.lz",
+    "@type": "https://openminds.ebrains.eu/core/ContentType",
+    "fileExtension": [
+      ".lz"
+    ],
+    "name": "application/vnd.localizoom.lz",
+    "relatedMediaType": "null",
+    "synonym": [
+      "LZ file"
+    ]
+}
