@@ -2,13 +2,13 @@
 	"@context" : {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.nest",
+	"@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.nest-simulator.recording",
 	"@type": "https://openminds.ebrains.eu/core/ContentType",
 	"fileExtension": [
 		".gdf",
 		".dat"
 	],
-	"name": "application/vnd.nest",
+	"name": "application/vnd.nest-simulator.recording",
 	"relatedMediaType": null,
 	"synonym": null
 }

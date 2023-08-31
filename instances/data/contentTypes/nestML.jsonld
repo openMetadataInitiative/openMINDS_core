@@ -2,14 +2,14 @@
   "@context": {
     "@vocab": "https://openminds.ebrains.eu/vocab/"
   },
-  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.nest-simulator.model+python",
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.nestml",
   "@type": "https://openminds.ebrains.eu/core/ContentType",
   "fileExtension": [
-    ".py"
+    ".nestml"
   ],
-  "name": "application/vnd.nest-simulator.model+python",
+  "name": "application/vnd.nestml",
   "relatedMediaType": null,
   "synonym": [
-    "Python:NEST"
+    "NESTML"
   ]
 }
