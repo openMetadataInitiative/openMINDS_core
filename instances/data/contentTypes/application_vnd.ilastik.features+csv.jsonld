@@ -2,15 +2,15 @@
   "@context": {
     "@vocab": "https://openminds.ebrains.eu/vocab/"
   },
-  "@id": "https://openminds.ebrains.eu/instances/contentTypes/applicationvnd.ilastik+csv",
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application_vnd.ilastik.features+csv",
   "@type": "https://openminds.ebrains.eu/core/ContentType",
   "fileExtension": [
     ".csv"
   ],
-  "name": "application/vnd.ilastik+csv",
+  "name": "application/vnd.ilastik.features+csv",
   "relatedMediaType": "https://www.iana.org/assignments/media-types/text/csv",
   "synonym": [
-    "Ilastik Comma-Separated Value",
+    "Ilastik features CSV",
     "Ilastik CSV"
   ]
 }
