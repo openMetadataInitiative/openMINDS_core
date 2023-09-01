@@ -5,7 +5,7 @@
   "@id": "https://openminds.ebrains.eu/instances/contentTypes/application_vnd.bids.electrodes+tsv",
   "@type": "https://openminds.ebrains.eu/core/ContentType",
   "description": "TSV file that gives the location, size and other properties of (iEEG) electrodes.",
-	"displayLabel": "BIDS electrodes format"
+  "displayLabel": "BIDS electrodes format",
   "fileExtension": [
     ".tsv"
   ],
