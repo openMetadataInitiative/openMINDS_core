@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application_vnd.ilastik.object-features+csv",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "description": "The ilastik object-features CSV file is a table with a line for every detected object and a column for every feature (e.g.: size, position) measured on that object.",
+  "displayLabel": "ilastik object features CSV",
+  "fileExtension": [
+    ".csv"
+  ],
+  "name": "application/vnd.ilastik.object-features+csv",
+  "relatedMediaType": "text/csv",
+  "synonym": [
+    "ilastik object features CSV"
+  ]
+}
