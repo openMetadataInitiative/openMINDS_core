@@ -1,0 +1,18 @@
+
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application_vnd.ilastik.object-features+hdf5",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "description": null,
+  "displayLabel": "ilastik object features HDF5",
+  "fileExtension": [
+    ".hdf5"
+  ],
+  "name": "application/vnd.ilastik.object-features+hdf5",
+  "relatedMediaType": "application/x-hdf",
+  "synonym": [
+    "ilastik object features HDF5"
+  ]
+}
