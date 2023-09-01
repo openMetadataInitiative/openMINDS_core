@@ -10,7 +10,7 @@
     ".hdf5"
   ],
   "name": "application/vnd.ilastik.object-features+hdf5",
-  "relatedMediaType": "application/x-hdf",
+  "relatedMediaType": null,
   "synonym": [
     "ilastik object features HDF5"
   ]
