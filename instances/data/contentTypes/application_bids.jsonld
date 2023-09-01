@@ -5,7 +5,7 @@
   "@id": "https://openminds.ebrains.eu/instances/contentTypes/application_vnd.bids",
   "@type": "https://openminds.ebrains.eu/core/ContentType",
   "description": "Repository format for the Brain Imaging Data Structure (BIDS).",
-  "displayLabel": "BIDS"
+  "displayLabel": "BIDS",
   "fileExtension": null,
   "name": "application/vnd.bids",
   "relatedMediaType": null,
