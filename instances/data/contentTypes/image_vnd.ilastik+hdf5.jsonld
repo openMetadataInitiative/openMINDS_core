@@ -6,7 +6,10 @@
   "@type": "https://openminds.ebrains.eu/core/ContentType",
   "description": null,
   "displayLabel": "ilastik HDF5 image",
-  "fileExtension": null,
+  "fileExtension": [
+    ".hdf5",
+    ".h5"
+  ],
   "name": "image/vnd.ilastik+hdf5",
   "relatedMediaType": null,
   "synonym": [
