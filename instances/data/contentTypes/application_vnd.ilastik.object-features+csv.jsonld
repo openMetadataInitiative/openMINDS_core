@@ -10,7 +10,7 @@
     ".csv"
   ],
   "name": "application/vnd.ilastik.object-features+csv",
-  "relatedMediaType": "text/csv",
+  "relatedMediaType": "https://www.iana.org/assignments/media-types/text/csv",
   "synonym": [
     "ilastik object features CSV"
   ]
