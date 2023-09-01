@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/image_vnd.ilastik.pixelclassification+hdf5",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "description": null,
+  "displayLabel": "ilastik pixel classification image (HDF5)",
+  "fileExtension": [
+    ".hdf5",
+    ".h5"
+  ],
+  "name": "image/vnd.ilastik.pixelclassification+hdf5",
+  "relatedMediaType": null,
+  "synonym": [
+    "ilastik pixel classification image (HDF5)"
+  ]
+}
