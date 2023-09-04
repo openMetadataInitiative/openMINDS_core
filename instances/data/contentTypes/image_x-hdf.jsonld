@@ -2,17 +2,17 @@
   "@context": {
     "@vocab": "https://openminds.ebrains.eu/vocab/"
   },
-  "@id": "https://openminds.ebrains.eu/instances/contentTypes/image_vnd.ilastik+hdf5",
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/image_x-hdf",
   "@type": "https://openminds.ebrains.eu/core/ContentType",
   "description": null,
-  "displayLabel": "ilastik HDF5 image",
+  "displayLabel": "HDF5 image",
   "fileExtension": [
     ".hdf5",
     ".h5"
   ],
-  "name": "image/vnd.ilastik+hdf5",
+  "name": "image/x-hdf",
   "relatedMediaType": null,
   "synonym": [
-    "ilastik HDF5 image"
+    "HDF5 image"
   ]
 }
