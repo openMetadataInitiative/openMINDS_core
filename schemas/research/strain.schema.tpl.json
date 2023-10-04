@@ -98,7 +98,7 @@
       "type": "array",
       "minItems": 1, 
       "uniqueItems": true,
-      "_instruction": "Enter any synonyms (inlcuding abbreviations) of this strain.",
+      "_instruction": "Enter any synonyms (including abbreviations) of this strain.",
       "items": {
         "type": "string"
       }

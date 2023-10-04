@@ -5,7 +5,7 @@
   "properties": {
     "additionalRemarks": {
       "type": "string",
-      "_instruction": "Enter any additional remarks concering the specimen (set) in this state."
+      "_instruction": "Enter any additional remarks concerning the specimen (set) in this state."
     },
     "age": {
       "_instruction": "Enter the age of the specimen (set) in this state.",

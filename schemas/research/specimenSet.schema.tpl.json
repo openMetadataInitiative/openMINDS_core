@@ -8,7 +8,7 @@
   "properties": {
     "additionalRemarks": {
       "type": "string",
-      "_instruction": "Enter any additional remarks concering this specimen set."
+      "_instruction": "Enter any additional remarks concerning this specimen set."
     },
     "biologicalSex": {
       "type": "array",
