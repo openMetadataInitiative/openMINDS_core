@@ -13,6 +13,8 @@ The **openMINDS_core** repository hosts one of the metadata models of the **open
 To generally learn more about the openMINDS metadata framework please go to :arrow_right: [**ReadTheDocs**](https://openminds-documentation.readthedocs.io).  
 For browsing through the metadata schemas you can also directly jump to the :arrow_right: [**openMINDS core Specifications**](https://openminds-documentation.readthedocs.io/en/latest/specifications/core.html).
 
+The openMINDS metadata framework also offers libraries for serviceable, well-defined metadata instances for [**content types**](https://openminds-documentation.readthedocs.io/en/latest/libraries/contentTypes.html) and [**licenses**](https://openminds-documentation.readthedocs.io/en/latest/libraries/licenses.html).
+
 ## How to contribute
 The openMINDS metadata framework is an open-source project and contributions from the community are highly appreciated. You can contribute by providing feedback and suggestions through the issue tracker as well as by making pull request for fixing issues and introducing new features.
 
