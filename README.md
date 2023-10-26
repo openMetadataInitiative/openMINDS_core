@@ -16,7 +16,7 @@ For browsing through the metadata schemas you can also directly jump to the :arr
 ## How to contribute
 The openMINDS metadata framework is an open-source project and contributions from the community are highly appreciated. You can contribute by providing feedback and suggestions through the issue tracker as well as by making pull request for fixing issues and introducing new features.
 
-If you want to contribute please follow our  :arrow_right: [**contribution guidelines**](https://openminds-documentation.readthedocs.io/en/latest/shared/how_to_contribute.html).
+If you want to contribute please follow our :arrow_right: [**guidelines**](https://openminds-documentation.readthedocs.io/en/latest/shared/how_to_contribute.html).
 
 ## License
 This work is licensed under the MIT License.
