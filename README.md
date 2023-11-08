@@ -1,24 +1,30 @@
-<a href="/img/light_openMINDS-core-logo.png">
+<a href="/img/openMINDS_core_logo_light.png">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="/img/dark_openMINDS-core-logo.png">
-    <source media="(prefers-color-scheme: light)" srcset="/img/light_openMINDS-core-logo.png">
-    <img alt="openMINDS core logo" src="/img/light_openMINDS-core-logo.png" title="openMINDS core" align="right" height="70">
+    <source media="(prefers-color-scheme: dark)" srcset="/img/openMINDS_core_logo_dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="/img/openMINDS_core_logo_light.png">
+    <img alt="openMINDS core logo: created by U. Schlegel, L. Zehl, C. Hagen Blixhavn" src="/img/openMINDS_core_logo_light.png" title="openMINDS core" align="right" height="70">
   </picture>
 </a>
 
 # openMINDS_core
 
+[![MIT License][license-shield]][license-url]
+
 The **openMINDS_core** repository hosts one of the metadata models of the **openMINDS metadata framework**. It defines modular metadata schemas for describing the general origin, location and content of neuroscience research products.
 
-To generally learn more about the openMINDS metadata framework please go to :arrow_right: [**ReadTheDocs**](https://openminds-documentation.readthedocs.io).  
-For browsing through the metadata schemas you can also directly jump to the :arrow_right: [**openMINDS core specifications**](https://openminds-documentation.readthedocs.io/en/latest/specifications/core.html).
+To generally learn more about the openMINDS metadata framework please go to :arrow_right: [**ReadTheDocs**][docu-url].  
+Or explore directly the metadata schemas of the openMINDS_core metadata model under :arrow_right: [**Specifications**][docu-core-url].
 
 ## How to contribute
-The openMINDS metadata framework is an open-source project and contributions from the community are highly appreciated. You can contribute by providing feedback and suggestions through the issue tracker as well as by making pull request for fixing issues and introducing new features.
 
-If you want to contribute please follow our  :arrow_right: [**contribution guidelines**](https://openminds-documentation.readthedocs.io/en/latest/shared/how_to_contribute.html).
+The openMINDS metadata framework is an open-source project and contributions from the community are highly appreciated.  
+If you want to contribute please follow our :arrow_right: [**contribution guidelines**][contribution-url].
 
-## License
-This work is licensed under the MIT License.
 
-**Logo:** The openMINDS logo was created by U. Schlegel, based on an original sketch by C. Hagen Blixhavn and feedback by L. Zehl.
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contribution-url]: https://openminds-documentation.readthedocs.io/en/latest/shared/how_to_contribute.html
+[docu-url]: https://openminds-documentation.readthedocs.io
+[docu-core-url]: https://openminds-documentation.readthedocs.io/en/v2.0/specifications/core.html
+[license-shield]: https://img.shields.io/badge/License-MIT-yellow.svg
+[license-url]: https://opensource.org/licenses/MIT
