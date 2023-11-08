@@ -2,7 +2,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="/img/openMINDS_core_logo_dark.png">
     <source media="(prefers-color-scheme: light)" srcset="/img/openMINDS_core_logo_light.png">
-    <img alt="openMINDS core logo: created by U. Schlegel, L. Zehl, C. Hagen Blixhavn" src="/img/openMINDS_core_logo_light.png" title="openMINDS core" align="right" height="70">
+    <img alt="openMINDS_core metadata model" src="/img/openMINDS_core_logo_light.png" title="Logo created by U. Schlegel, L. Zehl, C. Hagen Blixhavn" align="right" height="70">
   </picture>
 </a>
 
