@@ -8,7 +8,9 @@
 
 # openMINDS_core
 
-[![MIT License][license-shield]][license-url]
+![GitHub][license-url]
+![GitHub contributors][contributors-url]
+
 
 The **openMINDS_core** repository hosts one of the metadata models of the **openMINDS metadata framework**. It defines modular metadata schemas for describing the general origin, location and content of neuroscience research products.
 
@@ -24,7 +26,7 @@ If you want to contribute please follow our :arrow_right: [**contribution guidel
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contribution-url]: https://openminds-documentation.readthedocs.io/en/latest/shared/how_to_contribute.html
+[contributors-url]: https://img.shields.io/github/contributors/openMetadataInitiative/openMINDS_core
 [docu-url]: https://openminds-documentation.readthedocs.io
 [docu-core-url]: https://openminds-documentation.readthedocs.io/en/v2.0/specifications/core.html
-[license-shield]: https://img.shields.io/badge/License-MIT-yellow.svg
-[license-url]: https://opensource.org/licenses/MIT
+[license-url]: https://img.shields.io/github/license/openMetadataInitiative/openMINDS_core
