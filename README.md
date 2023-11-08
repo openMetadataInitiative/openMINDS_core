@@ -17,7 +17,7 @@ Or explore directly the metadata schemas of the openMINDS_core metadata model un
 
 ## How to contribute
 
-The openMINDS metadata framework is an open-source project and contributions from the community are highly appreciated.  
+The openMINDS metadata framework is an open-source project and community contributions are highly appreciated.  
 If you want to contribute please follow our :arrow_right: [**contribution guidelines**][contribution-url].
 
 
