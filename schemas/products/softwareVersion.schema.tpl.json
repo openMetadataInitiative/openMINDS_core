@@ -144,6 +144,17 @@
       "items": {
         "type": "string"
       }
-    }
+    },
+    "supportedConstruct":{
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all constructs (e.g., brain atlas version or model version) that are supported by this software version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ModelVersion",
+        "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+      ]
+    }   
   }
 }
