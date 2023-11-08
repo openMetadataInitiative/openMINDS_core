@@ -6,7 +6,8 @@
   </picture>
 </a>
 
-# openMINDS_core :warning: :warning: **DEPRECATED VERSION** :warning: :warning:
+# openMINDS_core  
+# :warning: **DEPRECATED VERSION** :warning:
 
 ![GitHub][license-url]
 ![GitHub contributors][contributors-url]
