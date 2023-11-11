@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.espina.seg+ms-excel",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "fileExtension": [
+    ".xls"
+  ],
+  "name": "application/vnd.espina.seg+ms-excel",
+  "relatedMediaType": null,
+  "specification": null,
+  "synonym": null
+}
