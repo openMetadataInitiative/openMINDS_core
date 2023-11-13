@@ -13,7 +13,7 @@
 
 The **openMINDS_core** repository hosts one of the metadata models of the **openMINDS metadata framework**. It defines modular metadata schemas for describing the general origin, location and content of neuroscience research products.
 
-To generally learn more about the openMINDS metadata framework please go our :arrow_right: [**documentation**][docu-url].  
+To generally learn more about the openMINDS metadata framework please go to :arrow_right: [**ReadTheDocs**][docu-url].  
 Or explore directly the metadata schemas of the openMINDS_core metadata model under :arrow_right: [**schema specifications**][docu-core-url].
 
 ## How to contribute
