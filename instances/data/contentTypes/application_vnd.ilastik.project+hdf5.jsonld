@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application_vnd.ilastik.project+hdf5",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "description": "The ilastik project file is an hdf5 file with an .ilp extension. It holds the current state of the ilastik application such as what workflow is being used, which images are open and what features to compute on those images.",
+  "displayLabel": "ilastik project file",
+  "fileExtension": [
+    ".ilp"
+  ],
+  "name": "application/vnd.ilastik.project+hdf5",
+  "relatedMediaType": null,
+  "synonym": [
+    "ilastik project",
+    "ilastik project file",
+    "ILP"
+  ]
+}

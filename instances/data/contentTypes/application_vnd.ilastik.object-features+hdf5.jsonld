@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application_vnd.ilastik.object-features+hdf5",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "description": "The ilastik object features HDF5 file has two data entries: table and images. The images entry contains one image cutout for each object and one mask for each object, marking the pixels occupied by that object. The table entry is saved as a numpy structured array and holds the selected feature values for each object.",
+  "displayLabel": "ilastik object features HDF5",
+  "fileExtension": [
+    ".hdf5",
+    ".h5"
+  ],
+  "name": "application/vnd.ilastik.object-features+hdf5",
+  "relatedMediaType": null,
+  "synonym": [
+    "ilastik object features HDF5"
+  ]
+}
