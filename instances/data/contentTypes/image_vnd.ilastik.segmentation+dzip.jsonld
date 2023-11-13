@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/image_vnd.ilastik.segmentation+dzip",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "description": "The ilastik segmentation DZIP file is a uint8 RGB image where each pixel is either red (255,0,0) if that pixel belongs to an object, or black (0,0,0) if that pixel does not belong to an object.",
+  "displayLabel": "ilastik segmentation image (DZIP)",
+  "fileExtension": [
+    ".dzip"
+  ],
+  "name": "image/vnd.ilastik.segmentation+dzip",
+  "relatedMediaType": null,
+  "synonym": [
+    "ilastik segmentation image (DZIP)"
+  ]
+}

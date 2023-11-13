@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/image_x-hdf",
+  "@type": "https://openminds.ebrains.eu/core/ContentType",
+  "description": null,
+  "displayLabel": "HDF5 image",
+  "fileExtension": [
+    ".hdf5",
+    ".h5"
+  ],
+  "name": "image/x-hdf",
+  "relatedMediaType": null,
+  "synonym": [
+    "HDF5 image"
+  ]
+}
