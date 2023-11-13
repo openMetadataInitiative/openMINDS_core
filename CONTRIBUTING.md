@@ -5,4 +5,4 @@ If you want to contribute please follow our :arrow_right: [**contribution guidel
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contribution-url]: https://openminds-documentation.readthedocs.io/en/latest/shared/how_to_contribute.html
+[contribution-url]: https://openminds-documentation.readthedocs.io/en/latest/shared/contribution_guidelines.html
