@@ -2,14 +2,15 @@
   "@context": {
     "@vocab": "https://openminds.ebrains.eu/vocab/"
   },
-  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.spike2.sonpy.son",
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.axona",
   "@type": "https://openminds.ebrains.eu/core/ContentType",
   "fileExtension": [
-    ".smr"
+    ".bin",
+    ".set"
   ],
-  "name": "application/vnd.spike2.sonpy.son",
+  "name": "application/vnd.axona",
   "relatedMediaType": null,
   "synonym": [
-    "CED spike2 files"
+    "Axona"
   ]
 }

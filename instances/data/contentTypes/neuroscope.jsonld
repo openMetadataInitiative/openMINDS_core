@@ -4,7 +4,12 @@
   },
   "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.neuroscope",
   "@type": "https://openminds.ebrains.eu/core/ContentType",
-  "fileExtension": null,
+  "fileExtension": [
+    ".clu",
+    ".res",
+    ".ext.evt",
+    ".evt.ext"
+  ],
   "name": "application/vnd.neuroscope",
   "relatedMediaType": null,
   "synonym": [

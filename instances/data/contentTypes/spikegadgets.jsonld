@@ -2,15 +2,14 @@
   "@context": {
     "@vocab": "https://openminds.ebrains.eu/vocab/"
   },
-  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.pickle",
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.spikegadgets",
   "@type": "https://openminds.ebrains.eu/core/ContentType",
   "fileExtension": [
-    ".pkl",
-    ".pickle"
+    ".rec"
   ],
-  "name": "application/vnd.pickle",
+  "name": "application/vnd.spikegadgets",
   "relatedMediaType": null,
   "synonym": [
-    "Python pickle files"
+    "SpikeGadget system"
   ]
 }

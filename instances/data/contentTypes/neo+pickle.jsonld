@@ -2,15 +2,15 @@
   "@context": {
     "@vocab": "https://openminds.ebrains.eu/vocab/"
   },
-  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.pickle",
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.neo+pickle",
   "@type": "https://openminds.ebrains.eu/core/ContentType",
   "fileExtension": [
     ".pkl",
     ".pickle"
   ],
-  "name": "application/vnd.pickle",
+  "name": "application/vnd.neo+pickle",
   "relatedMediaType": null,
   "synonym": [
-    "Python pickle files"
+    "Pickled Neo files"
   ]
 }

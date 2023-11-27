@@ -2,15 +2,15 @@
   "@context": {
     "@vocab": "https://openminds.ebrains.eu/vocab/"
   },
-  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.pickle",
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.mearec+hdf",
   "@type": "https://openminds.ebrains.eu/core/ContentType",
   "fileExtension": [
-    ".pkl",
-    ".pickle"
+    ".h5"
   ],
-  "name": "application/vnd.pickle",
+  "name": "application/vnd.mearec+hdf",
   "relatedMediaType": null,
   "synonym": [
-    "Python pickle files"
+    "Multi-Electrode-Arrays",
+    "MEA"
   ]
 }
