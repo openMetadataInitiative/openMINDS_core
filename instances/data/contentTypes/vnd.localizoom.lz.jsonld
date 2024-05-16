@@ -8,7 +8,7 @@
       ".lz"
     ],
     "name": "application/vnd.localizoom.lz",
-    "relatedMediaType": "null",
+    "relatedMediaType": null,
     "synonym": [
       "LZ file"
     ]
