@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/ORCID",
+  "_type": "/core/ORCID",
   "required": [
     "identifier"
   ],

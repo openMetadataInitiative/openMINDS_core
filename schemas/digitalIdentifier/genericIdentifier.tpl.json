@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/GenericIdentifier",
+  "_type": "/core/GenericIdentifier",
   "required": [
     "emitter",
     "identifier"
@@ -7,7 +7,7 @@
   "properties": {
     "emitter": {
       "_instruction": "Add the organization that governs and/or emits the identifier.",
-      "_linkedTypes": ["https://openminds.ebrains.eu/core/Organization"]
+      "_linkedTypes": ["/core/Organization"]
     },
     "identifier": {
       "type": "string",

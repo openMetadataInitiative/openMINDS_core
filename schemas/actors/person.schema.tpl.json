@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/Person",
+  "_type": "/core/Person",
   "_categories": [
     "agent",
     "legalPerson"
@@ -14,7 +14,7 @@
       "uniqueItems": true,
       "_instruction": "Enter all current and, if desired, past affiliations of this person.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/Affiliation"
+        "/core/Affiliation"
       ]
     },
     "alternateName": {
@@ -32,13 +32,13 @@
       "uniqueItems": true,
       "_instruction": "Add the information about web service accounts held by this person.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/AccountInformation"
+        "/core/AccountInformation"
       ]
     },    
     "contactInformation": {
       "_instruction": "Add the contact information of this person.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ContactInformation"
+        "/core/ContactInformation"
       ]
     },
     "digitalIdentifier": {
@@ -47,7 +47,7 @@
       "uniqueItems": true,
       "_instruction": "Add all globally unique and persistent digital identifier of this person.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ORCID"
+        "/core/ORCID"
       ]
     },
     "familyName": {

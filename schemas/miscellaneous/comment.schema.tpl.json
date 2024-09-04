@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/Comment",
+  "_type": "/core/Comment",
   "required": [
     "about",
     "comment",
@@ -20,7 +20,7 @@
     "commenter": {
       "_instruction": "Add the person that created this comment.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Person"
+        "/core/Person"
       ]
     },
     "timestamp": {

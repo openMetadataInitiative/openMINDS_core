@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/IdentifiersDotOrgID",
+  "_type": "/core/IdentifiersDotOrgID",
   "required": [
     "identifier"
   ],

@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/SoftwareVersion",
+  "_type": "/core/SoftwareVersion",
   "_extends": "products/researchProductVersion.schema.tpl.json",
   "_categories": [
     "setupComponent"
@@ -20,7 +20,7 @@
       "uniqueItems": true,
       "_instruction": "Add all categories to which this software version belongs.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/SoftwareApplicationCategory"
+        "/controlledTerms/SoftwareApplicationCategory"
       ]
     },
     "developer": {
@@ -38,15 +38,15 @@
       "uniqueItems": true,
       "_instruction": "Add all operating devices compatible with this software version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/OperatingDevice"
+        "/controlledTerms/OperatingDevice"
       ]
     },
     "digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this research product version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DOI",
-        "https://openminds.ebrains.eu/core/SWHID",
-        "https://openminds.ebrains.eu/core/RRID"
+        "/core/DOI",
+        "/core/SWHID",
+        "/core/RRID"
       ]
     },
     "feature": {
@@ -55,7 +55,7 @@
       "uniqueItems": true,
       "_instruction": "Add all distinguishing characteristics of this software version (e.g., performance, portability or functionality).",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/SoftwareFeature"
+        "/controlledTerms/SoftwareFeature"
       ]
     },
     "hasPart": {
@@ -64,7 +64,7 @@
       "uniqueItems": true,
       "_instruction": "Add all software versions that supplement this software version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/SoftwareVersion"
+        "/core/SoftwareVersion"
       ]
     },
     "inputFormat": {
@@ -73,7 +73,7 @@
       "uniqueItems": true,
       "_instruction": "Add all content types that can be used as input by this software version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ContentType"
+        "/core/ContentType"
       ]
     },
     "isAlternativeVersionOf": {
@@ -82,13 +82,13 @@
       "uniqueItems": true,
       "_instruction": "Add all software versions that can be used alternatively to this software version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/SoftwareVersion"
+        "/core/SoftwareVersion"
       ]
     },
     "isNewVersionOf": {
       "_instruction": "Add the software version preceding this software version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/SoftwareVersion"
+        "/core/SoftwareVersion"
       ]
     },
     "language": {
@@ -97,7 +97,7 @@
       "uniqueItems": true,
       "_instruction": "Add all languages supported by this software version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Language"
+        "/controlledTerms/Language"
       ]
     },
     "license": {
@@ -106,7 +106,7 @@
       "uniqueItems": true,
       "_instruction": "Add all licenses of this software version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/License"
+        "/core/License"
       ]
     },
     "operatingSystem": {
@@ -115,7 +115,7 @@
       "uniqueItems": true,
       "_instruction": "Add all operating systems supported by this software version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/OperatingSystem"
+        "/controlledTerms/OperatingSystem"
       ]
     },
     "outputFormat": {
@@ -124,7 +124,7 @@
       "uniqueItems": true,
       "_instruction": "Add all content types that can be generated as output by this software version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ContentType"
+        "/core/ContentType"
       ]
     },
     "programmingLanguage": {
@@ -133,7 +133,7 @@
       "uniqueItems": true,
       "_instruction": "Add all programming languages used to develop this software version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/ProgrammingLanguage"
+        "/controlledTerms/ProgrammingLanguage"
       ]
     },    
     "requirement": {

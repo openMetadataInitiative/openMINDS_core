@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/Hash",
+  "_type": "/core/Hash",
   "required": [
     "algorithm",
     "digest"

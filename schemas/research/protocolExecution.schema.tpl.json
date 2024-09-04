@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/ProtocolExecution",
+  "_type": "/core/ProtocolExecution",
   "_extends": "research/experimentalActivity.schema.tpl.json",
   "properties": {
     "behavioralProtocol": {
@@ -8,29 +8,29 @@
       "uniqueItems": true,
       "_instruction": "Add all behavioral protocols that were performed during this protocol execution.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/BehavioralProtocol"
+        "/core/BehavioralProtocol"
       ]
     },
     "input": {
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/File",
-        "https://openminds.ebrains.eu/core/FileBundle",
-        "https://openminds.ebrains.eu/core/SubjectGroupState",
-        "https://openminds.ebrains.eu/core/SubjectState",
-        "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
-        "https://openminds.ebrains.eu/core/TissueSampleState",
-        "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+        "/core/File",
+        "/core/FileBundle",
+        "/core/SubjectGroupState",
+        "/core/SubjectState",
+        "/core/TissueSampleCollectionState",
+        "/core/TissueSampleState",
+        "/sands/BrainAtlasVersion",
+        "/sands/CommonCoordinateSpaceVersion"
       ]
     },
     "output": {
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/File",
-        "https://openminds.ebrains.eu/core/FileBundle",
-        "https://openminds.ebrains.eu/core/SubjectGroupState",
-        "https://openminds.ebrains.eu/core/SubjectState",
-        "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
-        "https://openminds.ebrains.eu/core/TissueSampleState"
+        "/core/File",
+        "/core/FileBundle",
+        "/core/SubjectGroupState",
+        "/core/SubjectState",
+        "/core/TissueSampleCollectionState",
+        "/core/TissueSampleState"
       ]
     }
   }

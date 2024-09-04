@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/Copyright",
+  "_type": "/core/Copyright",
   "required": [
     "holder",
     "year"

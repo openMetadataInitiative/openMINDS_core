@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/FileRepository",
+  "_type": "/core/FileRepository",
   "required": [
     "hostedBy",
     "IRI",
@@ -9,19 +9,19 @@
     "format": {
       "_instruction": "If the files and file bundles within this repository are organised and formatted according to a formal data structure, add the content type of this formal data structure. Leave blank if no formal data structure has been applied.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ContentType"
+        "/core/ContentType"
       ]
     },
     "hash": {
       "_instruction": "Add the hash that was generated for this file repository.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/Hash"
+        "/core/Hash"
       ]
     },
     "hostedBy": {
       "_instruction": "Add the host organization of this file repository.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Organization"
+        "/core/Organization"
       ]
     },
     "IRI": {
@@ -41,25 +41,25 @@
       "uniqueItems": true,
       "_instruction": "Add all content type patterns that identify matching content types for files within this file repository.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ContentTypePattern"
+        "/core/ContentTypePattern"
       ]
     },
     "storageSize": {
       "_instruction": "Enter the storage size of this file repository.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "/core/QuantitativeValue"
       ]
     },
     "structurePattern": {
       "_instruction": "Add the file repository structure that identifies the file path patterns used in this file repository.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/FileRepositoryStructure"
+        "/core/FileRepositoryStructure"
       ]
     },    
     "type": {
       "_instruction": "Add the type of this file repository.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/FileRepositoryType"
+        "/controlledTerms/FileRepositoryType"
       ]
     }
   }

@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/Measurement",
+  "_type": "/core/Measurement",
   "required": [
     "measuredQuantity",
     "value"
@@ -12,7 +12,7 @@
     "measuredQuantity": {
       "_instruction": "Add the quantity that was measured during this measurement.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/MeasuredQuantity"
+        "/controlledTerms/MeasuredQuantity"
       ]
     },
     "measuredWith": {
@@ -34,8 +34,8 @@
       "uniqueItems": true,
       "_instruction": "Enter all values that were measured at the same time and are of the same measured quantity.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue",
-        "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+        "/core/QuantitativeValue",
+        "/core/QuantitativeValueRange"
       ]
     }
   }

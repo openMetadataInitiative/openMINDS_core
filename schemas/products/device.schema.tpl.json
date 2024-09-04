@@ -14,14 +14,14 @@
     "deviceType": {
       "_instruction": "Add the type of this device.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/DeviceType"
+        "/controlledTerms/DeviceType"
       ]
     },
     "digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this device.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DOI",
-        "https://openminds.ebrains.eu/core/RRID"
+        "/core/DOI",
+        "/core/RRID"
       ]
     },
     "lookupLabel": {

@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/FileBundle",
+  "_type": "/core/FileBundle",
   "_categories": [
     "fileOrigin"
   ],
@@ -15,7 +15,7 @@
     "format": {
       "_instruction": "If the files within this bundle are organised and formatted according to a formal data structure, add the content type of this file bundle. Leave blank if no formal data structure has been applied to the files within this bundle.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ContentType"
+        "/core/ContentType"
       ]
     },
     "groupedBy": {
@@ -35,20 +35,20 @@
       "uniqueItems": true,
       "_instruction": "Add all grouping types that were used to define this file bundle. Note that the grouping types define the possible schema type of the instances stated under 'groupedBy'.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/FileBundleGrouping"
+        "/controlledTerms/FileBundleGrouping"
       ]
     },
     "hash": {
       "_instruction": "Add the hash that was generated for this file bundle.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/Hash"
+        "/core/Hash"
       ]
     },
     "isPartOf": {
       "_instruction": "Add the file bundle or file repository this file bundle is part of.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/FileBundle",
-        "https://openminds.ebrains.eu/core/FileRepository"
+        "/core/FileBundle",
+        "/core/FileRepository"
       ]
     },
     "name": {
@@ -58,7 +58,7 @@
     "storageSize": {
       "_instruction": "Enter the storage size of this file bundle.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "/core/QuantitativeValue"
       ]
     }
   }
