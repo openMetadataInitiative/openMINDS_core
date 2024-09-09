@@ -1,5 +1,5 @@
 {
-  "_type": "/core/Consortium",
+  "_type": "Consortium",
   "_categories": [
     "legalPerson"
   ],
@@ -10,7 +10,7 @@
     "contactInformation": {
       "_instruction": "Add the contact information of this consortium.",
       "_linkedTypes": [
-        "/core/ContactInformation"
+        "ContactInformation"
       ]
     },
     "fullName": {

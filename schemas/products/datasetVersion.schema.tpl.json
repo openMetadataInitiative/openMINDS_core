@@ -1,5 +1,5 @@
 {
-  "_type": "/core/DatasetVersion",
+  "_type": "DatasetVersion",
   "_extends": "products/researchProductVersion.schema.tpl.json",
   "required": [
     "dataType",
@@ -25,7 +25,7 @@
       "uniqueItems": true,
       "_instruction": "Add all behavioral protocols that were performed in this dataset version.",
       "_linkedTypes": [
-        "/core/BehavioralProtocol"
+        "BehavioralProtocol"
       ]
     },
     "dataType": {
@@ -34,20 +34,20 @@
       "uniqueItems": true,
       "_instruction": "Add all semantic data types (raw, derived and/or simulated) provided in this dataset version.",
       "_linkedTypes": [
-        "/controlledTerms/SemanticDataType"
+        "SemanticDataType"
       ]
     },
     "digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this research product version.",
       "_linkedTypes": [
-        "/core/DOI",
-        "/core/IdentifiersDotOrgID"
+        "DOI",
+        "IdentifiersDotOrgID"
       ]
     },
     "ethicsAssessment": {
       "_instruction": "Add the result of the ethics assessment of this dataset version.",
       "_linkedTypes": [
-        "/controlledTerms/EthicsAssessment"
+        "EthicsAssessment"
       ]
     },
     "experimentalApproach": {
@@ -56,7 +56,7 @@
       "uniqueItems": true,
       "_instruction": "Add all experimental approaches which this dataset version has deployed.",
       "_linkedTypes": [
-        "/controlledTerms/ExperimentalApproach"
+        "ExperimentalApproach"
       ]
     },
     "inputData": {
@@ -65,14 +65,14 @@
       "uniqueItems": true,
       "_instruction": "Add the data that was used as input for this dataset version.",
       "_linkedTypes": [
-        "/core/DOI",
-        "/core/File",
-        "/core/FileBundle",
-        "/core/WebResource",
-        "/sands/BrainAtlas",
-        "/sands/BrainAtlasVersion",
-        "/sands/CommonCoordinateSpace",
-        "/sands/CommonCoordinateSpaceVersion"
+        "DOI",
+        "File",
+        "FileBundle",
+        "WebResource",
+        "BrainAtlas",
+        "BrainAtlasVersion",
+        "CommonCoordinateSpace",
+        "CommonCoordinateSpaceVersion"
       ]
     },
     "isAlternativeVersionOf": {
@@ -81,20 +81,20 @@
       "uniqueItems": true,
       "_instruction": "Add all dataset versions that can be used alternatively to this dataset version.",
       "_linkedTypes": [
-        "/core/DatasetVersion"
+        "DatasetVersion"
       ]
     },
     "isNewVersionOf": {
       "_instruction": "Add the dataset version preceding this dataset version.",
       "_linkedTypes": [
-        "/core/DatasetVersion"
+        "DatasetVersion"
       ]
     },
     "license": {
       "_instruction": "Add the license or an online available data usage agreement for this dataset version.",
       "_linkedTypes": [
-        "/core/License",
-        "/core/WebResource"
+        "License",
+        "WebResource"
       ]
     },
     "preparationDesign": {
@@ -103,7 +103,7 @@
       "uniqueItems": true,
       "_instruction": "Add all preparation types used in this dataset version.",
       "_linkedTypes": [
-        "/controlledTerms/PreparationType"
+        "PreparationType"
       ]
     },
     "protocol": {
@@ -112,7 +112,7 @@
       "uniqueItems": true,
       "_instruction": "Add all protocols that were performed in this dataset version (e.g., for data acquisition or processing).",
       "_linkedTypes": [
-        "/core/Protocol"
+        "Protocol"
       ]
     },
     "studiedSpecimen": {
@@ -121,10 +121,10 @@
       "uniqueItems": true,
       "_instruction": "Add all specimens or sets of specimen that were studied in this dataset.",
       "_linkedTypes": [
-        "/core/Subject",
-        "/core/SubjectGroup",
-        "/core/TissueSample",
-        "/core/TissueSampleCollection"
+        "Subject",
+        "SubjectGroup",
+        "TissueSample",
+        "TissueSampleCollection"
       ]
     },
     "studyTarget": {

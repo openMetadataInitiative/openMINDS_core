@@ -1,5 +1,5 @@
 {
-  "_type": "/core/WebResource",
+  "_type": "WebResource",
   "required": [
     "IRI"
   ],
@@ -11,7 +11,7 @@
     "format": {
       "_instruction": "Add the expected content type of the document at this web resource.",
       "_linkedTypes": [
-        "/core/ContentType"
+        "ContentType"
       ]
     },
     "IRI": {

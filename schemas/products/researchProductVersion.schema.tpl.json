@@ -14,13 +14,13 @@
     "accessibility": {
       "_instruction": "Add the accessibility of the data for this research product version.",
       "_linkedTypes": [
-        "/controlledTerms/ProductAccessibility"
+        "ProductAccessibility"
       ]
     },
     "copyright": {
       "_instruction": "Enter the copyright information of this research product version.",
       "_embeddedTypes": [
-        "/core/Copyright"
+        "Copyright"
       ]
     },
     "custodian": {
@@ -39,10 +39,10 @@
     "fullDocumentation": {
       "_instruction": "Add the publication or file that acts as the full documentation of this research product version.",
       "_linkedTypes": [
-        "/core/DOI",
-        "/core/File",
-        "/core/ISBN",
-        "/core/WebResource"
+        "DOI",
+        "File",
+        "ISBN",
+        "WebResource"
       ]
     },
     "fullName": {
@@ -55,7 +55,7 @@
       "uniqueItems": true,
       "_instruction": "Add all funding information of this research product version.",
       "_linkedTypes": [
-        "/core/Funding"
+        "Funding"
       ]
     },
     "homepage": {      
@@ -84,7 +84,7 @@
       "uniqueItems": true,
       "_instruction": "Add any other contributions to this research product version that are not covered under 'author'/'developer' or 'custodian'.",
       "_embeddedTypes": [
-        "/core/Contribution"
+        "Contribution"
       ]
     },
     "relatedPublication": {
@@ -106,7 +106,7 @@
     "repository": {
       "_instruction": "Add the file repository of this research product version.",
       "_linkedTypes": [
-        "/core/FileRepository"
+        "FileRepository"
       ]
     },
     "shortName": {

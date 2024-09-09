@@ -1,5 +1,5 @@
 {
-  "_type": "/core/NumericalProperty",
+  "_type": "NumericalProperty",
   "required": [
     "name",
     "value"
@@ -14,8 +14,8 @@
       "minItems": 1,
       "_instruction": "Enter all quantitative values that are described by this numerical property.",
       "_embeddedTypes": [
-        "/core/QuantitativeValue",
-        "/core/QuantitativeValueRange"
+        "QuantitativeValue",
+        "QuantitativeValueRange"
       ]
     }
   }

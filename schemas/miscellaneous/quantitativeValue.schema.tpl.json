@@ -1,5 +1,5 @@
 {
-  "_type": "/core/QuantitativeValue",
+  "_type": "QuantitativeValue",
   "required": [
     "value"
   ],
@@ -7,7 +7,7 @@
     "typeOfUncertainty": {
       "_instruction": "Add the type of uncertainty used to determine the uncertainty for this quantitative value.",
       "_linkedTypes": [
-        "/controlledTerms/TypeOfUncertainty"
+        "TypeOfUncertainty"
       ]
     },     
     "uncertainty": {
@@ -22,7 +22,7 @@
     "unit": {
       "_instruction": "Add the unit of measurement of this quantitative value and its uncertainty.",
       "_linkedTypes": [
-        "/controlledTerms/UnitOfMeasurement"
+        "UnitOfMeasurement"
       ]
     },
     "value": {

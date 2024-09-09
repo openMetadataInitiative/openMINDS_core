@@ -1,5 +1,5 @@
 {
-  "_type": "/core/StockNumber",
+  "_type": "StockNumber",
   "required": [
     "identifier",
     "vendor"
@@ -12,7 +12,7 @@
     "vendor": {
       "_instruction": "Add the vendor that has the item with this identifier in stock.",
       "_linkedTypes": [
-        "/core/Organization"
+        "Organization"
       ]
     }
   }

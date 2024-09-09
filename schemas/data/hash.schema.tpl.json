@@ -1,5 +1,5 @@
 {
-  "_type": "/core/Hash",
+  "_type": "Hash",
   "required": [
     "algorithm",
     "digest"

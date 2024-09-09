@@ -1,5 +1,5 @@
 {
-  "_type": "/core/Project",
+  "_type": "Project",
   "required": [
     "description",
     "fullName",

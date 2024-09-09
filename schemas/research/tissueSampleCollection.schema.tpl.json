@@ -1,5 +1,5 @@
 {
-  "_type": "/core/TissueSampleCollection",
+  "_type": "TissueSampleCollection",
   "_extends": "research/specimenSet.schema.tpl.json",
   "required": [
     "origin",
@@ -23,7 +23,7 @@
       "uniqueItems": true,
       "_instruction": "Add one or both sides of the body, bilateral organ or bilateral organ part that this tissue sample collection originates from.",
       "_linkedTypes": [
-        "/controlledTerms/Laterality"
+        "Laterality"
       ]
     },    
     "numberOfTissueSamples": {
@@ -37,9 +37,9 @@
       "uniqueItems": true,
       "_instruction": "Add the biogical origin of all tissue samples in this collection.",
       "_linkedTypes": [
-        "/controlledTerms/CellType",
-        "/controlledTerms/Organ",
-        "/controlledTerms/OrganismSubstance"
+        "CellType",
+        "Organ",
+        "OrganismSubstance"
       ]
     },
     "studiedState": {
@@ -48,7 +48,7 @@
       "uniqueItems": true,
       "_instruction": "Add all states in which this tissue sample collection was studied.",
       "_linkedTypes": [
-        "/core/TissueSampleCollectionState"
+        "TissueSampleCollectionState"
       ]
     },
     "type": {
@@ -57,7 +57,7 @@
       "uniqueItems": true,
       "_instruction": "Add the type of all tissue samples in this collection.",
       "_linkedTypes": [
-        "/controlledTerms/TissueSampleType"
+        "TissueSampleType"
       ]
     }
   }

@@ -1,5 +1,5 @@
 {
-  "_type": "/core/RORID",
+  "_type": "RORID",
   "required": [
     "identifier"
   ],

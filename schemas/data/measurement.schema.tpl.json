@@ -1,5 +1,5 @@
 {
-  "_type": "/core/Measurement",
+  "_type": "Measurement",
   "required": [
     "measuredQuantity",
     "value"
@@ -12,7 +12,7 @@
     "measuredQuantity": {
       "_instruction": "Add the quantity that was measured during this measurement.",
       "_linkedTypes": [
-        "/controlledTerms/MeasuredQuantity"
+        "MeasuredQuantity"
       ]
     },
     "measuredWith": {
@@ -34,8 +34,8 @@
       "uniqueItems": true,
       "_instruction": "Enter all values that were measured at the same time and are of the same measured quantity.",
       "_embeddedTypes": [
-        "/core/QuantitativeValue",
-        "/core/QuantitativeValueRange"
+        "QuantitativeValue",
+        "QuantitativeValueRange"
       ]
     }
   }

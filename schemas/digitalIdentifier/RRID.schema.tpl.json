@@ -1,5 +1,5 @@
 {
-  "_type": "/core/RRID",
+  "_type": "RRID",
   "required": [
     "identifier"
   ],

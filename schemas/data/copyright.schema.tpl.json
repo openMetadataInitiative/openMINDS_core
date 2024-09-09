@@ -1,5 +1,5 @@
 {
-  "_type": "/core/Copyright",
+  "_type": "Copyright",
   "required": [
     "holder",
     "year"

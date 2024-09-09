@@ -1,5 +1,5 @@
 {
-  "_type": "/core/GenericIdentifier",
+  "_type": "GenericIdentifier",
   "required": [
     "emitter",
     "identifier"
@@ -7,7 +7,9 @@
   "properties": {
     "emitter": {
       "_instruction": "Add the organization that governs and/or emits the identifier.",
-      "_linkedTypes": ["/core/Organization"]
+      "_linkedTypes": [
+        "Organization"
+      ]
     },
     "identifier": {
       "type": "string",

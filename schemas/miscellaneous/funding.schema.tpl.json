@@ -1,5 +1,5 @@
 {
-  "_type": "/core/Funding",
+  "_type": "Funding",
   "required": [
     "funder"
   ],

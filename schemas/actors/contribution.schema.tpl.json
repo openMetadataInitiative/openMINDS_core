@@ -1,5 +1,5 @@
 {
-  "_type": "/core/Contribution",
+  "_type": "Contribution",
   "required": [
     "contributor",
     "type"
@@ -17,7 +17,7 @@
        "uniqueItems": true,
        "_instruction": "Add the party that performed the contribution.",
        "_linkedTypes": [
-         "/controlledTerms/ContributionType"
+         "ContributionType"
        ]
      }
    }

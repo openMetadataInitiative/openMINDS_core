@@ -1,5 +1,5 @@
 {
-  "_type": "/core/ServiceLink",
+  "_type": "ServiceLink",
   "required": [
     "dataLocation",
     "openDataIn",
@@ -9,12 +9,12 @@
     "dataLocation": {
       "_instruction": "Add the location of the data that are linked to this specific service (e.g., stored as file (bundles) or registered as other entities such as atlas annotations).",
       "_linkedTypes": [
-        "/core/File",
-        "/core/FileArchive",
-        "/core/FileBundle",
-        "/core/ModelVersion",        
-        "/publications/LivePaperResourceItem",
-        "/sands/ParcellationEntityVersion"
+        "File",
+        "FileArchive",
+        "FileBundle",
+        "ModelVersion",
+        "LivePaperResourceItem",
+        "ParcellationEntityVersion"
       ]
     },
     "displayLabel": {
@@ -31,13 +31,13 @@
     "previewImage": {
       "_instruction": "Add an image file to this service link that acts as a preview of its content or could function as an icon.",
       "_linkedTypes": [
-        "/core/File"
+        "File"
       ]
     },
     "service": {
       "_instruction": "Add the service in which the specified data can be opened.",
       "_linkedTypes": [
-        "/controlledTerms/Service"
+        "Service"
       ]
     }
   }

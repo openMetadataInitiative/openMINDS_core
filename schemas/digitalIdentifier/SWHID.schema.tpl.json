@@ -1,5 +1,5 @@
 {
-  "_type": "/core/SWHID",
+  "_type": "SWHID",
   "required": [
     "identifier"
   ],

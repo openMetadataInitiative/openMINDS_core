@@ -1,5 +1,5 @@
 {
-  "_type": "/core/Strain",
+  "_type": "Strain",
   "required": [
     "geneticStrainType",
     "name",
@@ -22,13 +22,13 @@
       "uniqueItems": true,
       "_instruction": "Add the background strain that explains the majority of the genetic background and/or causes the majority of the prominent traits. If two strains contributed equally, state both.",
       "_linkedTypes": [
-        "/core/Strain"
+        "Strain"
       ]
     },    
     "breedingType": {
       "_instruction": "Add the breeding type for this strain.",
       "_linkedTypes": [
-        "/controlledTerms/BreedingType"
+        "BreedingType"
       ]
     },
     "description": {
@@ -38,7 +38,7 @@
     "digitalIdentifier": {
       "_instruction": "Add the 'Research Resource Identifier' (RRID) of this strain.",
       "_linkedTypes": [
-        "/core/RRID"
+        "RRID"
       ]
     },
     "diseaseModel": {
@@ -47,14 +47,14 @@
       "uniqueItems": true,
       "_instruction": "Add all (human) diseases and/or conditions that this strain is a model for.",
       "_linkedTypes": [
-        "/controlledTerms/Disease",
-        "/controlledTerms/DiseaseModel"
+        "Disease",
+        "DiseaseModel"
       ]
     },
     "geneticStrainType": {
       "_instruction": "Add the genetic background type of this strain.",
       "_linkedTypes": [
-        "/controlledTerms/GeneticStrainType"
+        "GeneticStrainType"
       ]
     },
     "laboratoryCode": {
@@ -85,13 +85,13 @@
     "species": {
       "_instruction": "Add the species of this strain.",
       "_linkedTypes": [
-        "/controlledTerms/Species"
+        "Species"
       ]
     }, 
     "stockNumber": {
       "_instruction": "Add the stock number from the vendor the strain was supplied from/is in stock at.",
       "_embeddedTypes": [
-        "/core/StockNumber"
+        "StockNumber"
       ]
     },   
     "synonym": {

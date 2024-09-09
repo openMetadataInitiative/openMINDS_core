@@ -1,5 +1,5 @@
 {
-  "_type": "/core/GRIDID",
+  "_type": "GRIDID",
   "required": [
     "identifier"
   ],

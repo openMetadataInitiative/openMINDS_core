@@ -1,5 +1,5 @@
 {
-  "_type": "/core/FileArchive",
+  "_type": "FileArchive",
   "required": [
     "format",
     "IRI"
@@ -8,7 +8,7 @@
     "format": {
       "_instruction": "Add the content type of this file archive.",
       "_linkedTypes": [
-        "/core/ContentType"
+        "ContentType"
       ]
     },
     "IRI": {
@@ -24,7 +24,7 @@
       "uniqueItems": true,
       "_instruction": "Add the data that were ingested and modified to create this file archive.",
       "_linkedTypes": [
-        "/core/File"
+        "File"
       ]
     }
   }

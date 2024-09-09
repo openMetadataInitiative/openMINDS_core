@@ -1,5 +1,5 @@
 {
-  "_type": "/core/Configuration",
+  "_type": "Configuration",
   "required": [ 
     "configuration",
     "format"
@@ -12,7 +12,7 @@
     "format": {
       "_instruction": "Add the content type of this configuration.",
       "_linkedTypes": [
-        "/core/ContentType"
+        "ContentType"
       ]
     },
     "lookupLabel": {

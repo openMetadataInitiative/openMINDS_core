@@ -1,5 +1,5 @@
 {
-  "_type": "/core/ProtocolExecution",
+  "_type": "ProtocolExecution",
   "_extends": "research/experimentalActivity.schema.tpl.json",
   "properties": {
     "behavioralProtocol": {
@@ -8,29 +8,29 @@
       "uniqueItems": true,
       "_instruction": "Add all behavioral protocols that were performed during this protocol execution.",
       "_linkedTypes": [
-        "/core/BehavioralProtocol"
+        "BehavioralProtocol"
       ]
     },
     "input": {
       "_linkedTypes": [
-        "/core/File",
-        "/core/FileBundle",
-        "/core/SubjectGroupState",
-        "/core/SubjectState",
-        "/core/TissueSampleCollectionState",
-        "/core/TissueSampleState",
-        "/sands/BrainAtlasVersion",
-        "/sands/CommonCoordinateSpaceVersion"
+        "File",
+        "FileBundle",
+        "SubjectGroupState",
+        "SubjectState",
+        "TissueSampleCollectionState",
+        "TissueSampleState",
+        "BrainAtlasVersion",
+        "CommonCoordinateSpaceVersion"
       ]
     },
     "output": {
       "_linkedTypes": [
-        "/core/File",
-        "/core/FileBundle",
-        "/core/SubjectGroupState",
-        "/core/SubjectState",
-        "/core/TissueSampleCollectionState",
-        "/core/TissueSampleState"
+        "File",
+        "FileBundle",
+        "SubjectGroupState",
+        "SubjectState",
+        "TissueSampleCollectionState",
+        "TissueSampleState"
       ]
     }
   }

@@ -1,5 +1,5 @@
 {
-    "_type": "/core/PropertyValueList",
+    "_type": "PropertyValueList",
     "required": [
         "propertyValuePair"
     ],
@@ -14,8 +14,8 @@
             "uniqueItems": true,
             "_instruction": "Enter all numerical and string property-value pairs that belong to this property-value list.",
             "_embeddedTypes": [
-                "/core/NumericalProperty",
-                "/core/StringProperty"
+                "NumericalProperty",
+                "StringProperty"
             ]
         }
     }

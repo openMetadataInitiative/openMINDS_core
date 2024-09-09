@@ -1,5 +1,5 @@
 {
-  "_type": "/core/BehavioralProtocol",
+  "_type": "BehavioralProtocol",
   "_categories": [
     "fileOrigin"
   ],
@@ -14,9 +14,9 @@
       "uniqueItems": true,
       "_instruction": "Add all sources in which this behavioral protocol is described in detail.",
       "_linkedTypes": [
-        "/core/DOI",
-        "/core/File",
-        "/core/WebResource"
+        "DOI",
+        "File",
+        "WebResource"
       ]
     },
     "description": {
@@ -37,8 +37,8 @@
       "uniqueItems": true,
       "_instruction": "Add all stimulation approaches and/or techniques used within this behavioral protocol.",
       "_linkedTypes": [        
-        "/controlledTerms/StimulationApproach",
-        "/controlledTerms/StimulationTechnique"
+        "StimulationApproach",
+        "StimulationTechnique"
       ]
     },
     "stimulusType": {

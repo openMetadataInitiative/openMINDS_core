@@ -1,5 +1,5 @@
 {
-  "_type": "/core/ContactInformation",
+  "_type": "ContactInformation",
   "required": [
     "email"
   ],

@@ -1,5 +1,5 @@
 {
-  "_type": "/core/Setup",
+  "_type": "Setup",
   "_categories": [
     "setupComponent"
   ],
@@ -45,7 +45,7 @@
       "uniqueItems": true,
       "_instruction": "Add all types that describe this setup.",
       "_linkedTypes": [
-        "/controlledTerms/SetupType"
+        "SetupType"
       ]
     }
   }
