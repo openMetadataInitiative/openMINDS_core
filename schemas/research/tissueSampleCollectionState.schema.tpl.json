@@ -1,5 +1,5 @@
 {
-  "_type": "TissueSampleCollectionState",
+  "_type": "core:TissueSampleCollectionState",
   "_extends": "research/specimenState.schema.tpl.json",
   "properties": {    
     "attribute": {
@@ -8,7 +8,7 @@
       "uniqueItems": true,
       "_instruction": "Add all attributes that can be ascribed to this tissue sample collection state.",
       "_linkedTypes": [
-        "TissueSampleAttribute"
+        "controlledTerms:TissueSampleAttribute"
       ]
     },
     "descendedFrom": {
@@ -17,10 +17,10 @@
       "uniqueItems": true,
       "_instruction": "Add all specimen states used to produce or obtain this tissue sample collection state.",
       "_linkedTypes": [
-        "SubjectGroupState",
-        "SubjectState",
-        "TissueSampleCollectionState",
-        "TissueSampleState"
+        "core:SubjectGroupState",
+        "core:SubjectState",
+        "core:TissueSampleCollectionState",
+        "core:TissueSampleState"
       ]
     }
   }

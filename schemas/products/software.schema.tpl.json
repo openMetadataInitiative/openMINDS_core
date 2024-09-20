@@ -1,5 +1,5 @@
 {
-  "_type": "Software",
+  "_type": "core:Software",
   "_extends": "products/researchProduct.schema.tpl.json",
   "required": [
     "developer"
@@ -17,9 +17,9 @@
     "digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this research product. Note that this digital identifier will be used to reference all attached research product versions.",
       "_linkedTypes": [
-        "DOI",
-        "RRID",
-        "SWHID"
+        "core:DOI",
+        "core:RRID",
+        "core:SWHID"
       ]
     },
     "hasVersion": {
@@ -28,7 +28,7 @@
       "uniqueItems": true,
       "_instruction": "Add all versions of this software tool.",
       "_linkedTypes": [
-        "SoftwareVersion"
+        "core:SoftwareVersion"
       ]
     }
   }

@@ -1,5 +1,5 @@
 {
-  "_type": "Model",
+  "_type": "core:Model",
   "_extends": "products/researchProduct.schema.tpl.json",
   "required": [
     "abstractionLevel",
@@ -11,7 +11,7 @@
     "abstractionLevel": {
       "_instruction": "Add the abstraction level of this computational model.",
       "_linkedTypes": [
-        "ModelAbstractionLevel"
+        "controlledTerms:ModelAbstractionLevel"
       ]
     },
     "developer": {
@@ -26,8 +26,8 @@
     "digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this research product. Note that this digital identifier will be used to reference all attached research product versions.",
       "_linkedTypes": [
-        "DOI",
-        "SWHID"
+        "core:DOI",
+        "core:SWHID"
       ]
     },
     "hasVersion": {
@@ -36,13 +36,13 @@
       "uniqueItems": true,
       "_instruction": "Add all versions of this computational model.",
       "_linkedTypes": [
-        "ModelVersion"
+        "core:ModelVersion"
       ]
     },
     "scope": {
       "_instruction": "Add the scope of this computational model.",
       "_linkedTypes": [
-        "ModelScope"
+        "controlledTerms:ModelScope"
       ]
     },
     "studyTarget": {

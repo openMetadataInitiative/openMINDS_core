@@ -10,8 +10,8 @@
     "age": {
       "_instruction": "Enter the age of the specimen (set) in this state.",
       "_embeddedTypes": [
-        "QuantitativeValue",
-        "QuantitativeValueRange"
+        "core:QuantitativeValue",
+        "core:QuantitativeValueRange"
       ]
     },
     "internalIdentifier": {
@@ -28,22 +28,22 @@
       "uniqueItems": true,
       "_instruction": "Add all (human) diseases and/or conditions that the specimen (set) in this state has and/or is a model for.",
       "_linkedTypes": [
-        "Disease",
-        "DiseaseModel"
+        "controlledTerms:Disease",
+        "controlledTerms:DiseaseModel"
       ]
     },
     "relativeTimeIndication": {
       "_instruction": "If there is a temporal relation between the states of a specimen (set), enter the relative time that has passed between this and the preceding specimen (set) state referenced under 'descendedFrom'.",
       "_embeddedTypes": [
-        "QuantitativeValue",
-        "QuantitativeValueRange"
+        "core:QuantitativeValue",
+        "core:QuantitativeValueRange"
       ]
     },
     "weight": {
       "_instruction": "Enter the weight of the specimen (set) in this state.",
       "_embeddedTypes": [
-        "QuantitativeValue",
-        "QuantitativeValueRange"
+        "core:QuantitativeValue",
+        "core:QuantitativeValueRange"
       ]
     }
   }

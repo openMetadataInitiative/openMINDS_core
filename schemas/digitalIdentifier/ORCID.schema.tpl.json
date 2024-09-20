@@ -1,5 +1,5 @@
 {
-  "_type": "ORCID",
+  "_type": "core:ORCID",
   "required": [
     "identifier"
   ],

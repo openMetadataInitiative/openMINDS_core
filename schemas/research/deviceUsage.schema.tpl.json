@@ -12,8 +12,8 @@
       "uniqueItems": true,
       "_instruction": "Add all files or file bundles containing additional information about the usage of this device.",
       "_linkedTypes": [
-        "File",
-        "FileBundle"
+        "core:File",
+        "core:FileBundle"
       ]
     }, 
     "lookupLabel": {
@@ -23,8 +23,8 @@
     "usedSpecimen": {
       "_instruction": "Add the state of the tissue sample or subject that this device was used on.",
       "_linkedTypes": [
-        "SubjectState",
-        "TissueSampleState"
+        "core:SubjectState",
+        "core:TissueSampleState"
       ]
     }
   }

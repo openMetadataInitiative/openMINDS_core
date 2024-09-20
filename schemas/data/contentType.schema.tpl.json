@@ -1,5 +1,5 @@
 {
-  "_type": "ContentType",
+  "_type": "core:ContentType",
   "required": [
     "name"  
   ],
@@ -10,7 +10,7 @@
       "uniqueItems": true,
       "_instruction": "Add all data types that may be represented via this content type.",
       "_linkedTypes": [
-        "DataType"
+        "controlledTerms:DataType"
       ]
     },   
     "description": {

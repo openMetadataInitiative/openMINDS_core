@@ -1,5 +1,5 @@
 {
-  "_type": "ResearchProductGroup",
+  "_type": "core:ResearchProductGroup",
   "required": [
     "context",
     "hasPart"

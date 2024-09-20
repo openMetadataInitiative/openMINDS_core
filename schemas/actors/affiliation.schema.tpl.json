@@ -1,5 +1,5 @@
 {
-  "_type": "Affiliation",
+  "_type": "core:Affiliation",
   "required": [
     "memberOf"
   ],
@@ -14,8 +14,8 @@
     "memberOf": {
       "_instruction": "Add the organization or consortium another party was or still is a member of.",
       "_linkedTypes": [        
-        "Consortium",
-        "Organization"
+        "core:Consortium",
+        "core:Organization"
       ]
     },    
     "startDate": {

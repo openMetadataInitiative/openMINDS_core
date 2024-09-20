@@ -1,5 +1,5 @@
 {
-  "_type": "Protocol",
+  "_type": "core:Protocol",
   "required": [
     "description",
     "name",
@@ -9,9 +9,9 @@
     "describedIn": {
       "_instruction": "Add a publication or file in which this protocol is (originally) described in detail.",
       "_linkedTypes": [
-        "DOI",
-        "File",
-        "WebResource"
+        "core:DOI",
+        "core:File",
+        "core:WebResource"
       ]
     },
     "description": {

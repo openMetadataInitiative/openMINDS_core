@@ -1,5 +1,5 @@
 {
-  "_type": "SubjectState",
+  "_type": "core:SubjectState",
   "_extends": "research/specimenState.schema.tpl.json",
   "required": [
     "ageCategory"
@@ -8,7 +8,7 @@
     "ageCategory": {
       "_instruction": "Add the age category of the subject in this state.",
       "_linkedTypes": [
-        "AgeCategory"
+        "controlledTerms:AgeCategory"
       ]
     },    
     "attribute": {
@@ -17,19 +17,19 @@
       "uniqueItems": true,
       "_instruction": "Add all attributes that can be ascribed to this subject state.",
       "_linkedTypes": [
-        "SubjectAttribute"
+        "controlledTerms:SubjectAttribute"
       ]
     },
     "descendedFrom": {
       "_instruction": "Add the previous subject state.",
       "_linkedTypes": [
-        "SubjectState"
+        "core:SubjectState"
       ]
     },
     "handedness": {
       "_instruction": "Add the preferred handedness of the subject in this state.",
       "_linkedTypes": [
-        "Handedness"
+        "controlledTerms:Handedness"
       ]
     }
   }

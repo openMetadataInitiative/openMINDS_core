@@ -1,5 +1,5 @@
 {
-  "_type": "ContentTypePattern",
+  "_type": "core:ContentTypePattern",
   "required": [
     "contentType",
     "regex"
@@ -8,7 +8,7 @@
     "contentType": {
       "_instruction": "Add the content type that can be defined by the regular expression of this content type pattern (e.g., for file extensions).",
       "_linkedTypes": [
-        "ContentType"
+        "core:ContentType"
       ]
     },
     "lookupLabel": {

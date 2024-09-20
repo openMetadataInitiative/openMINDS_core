@@ -1,5 +1,5 @@
 {
-  "_type": "GRIDID",
+  "_type": "core:GRIDID",
   "required": [
     "identifier"
   ],

@@ -1,5 +1,5 @@
 {
-  "_type": "ISBN",
+  "_type": "core:ISBN",
   "_categories": [
     "publicationReference"
   ],

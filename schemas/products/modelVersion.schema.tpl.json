@@ -1,5 +1,5 @@
 {
-  "_type": "ModelVersion",
+  "_type": "core:ModelVersion",
   "_extends": "products/researchProductVersion.schema.tpl.json",
   "required": [
     "format",
@@ -18,8 +18,8 @@
     "digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this research product version.",
       "_linkedTypes": [
-        "DOI",
-        "SWHID"
+        "core:DOI",
+        "core:SWHID"
       ]
     },
     "format": {
@@ -28,7 +28,7 @@
       "uniqueItems": true,
       "_instruction": "Add the content type of this computational model version, or the content types of the files composing the model version.",
       "_linkedTypes": [
-        "ContentType"
+        "core:ContentType"
       ]
     },
     "inputData": {
@@ -37,10 +37,10 @@
       "uniqueItems": true,
       "_instruction": "Add the data that was used as input for this computational model version.",
       "_linkedTypes": [
-        "DOI",
-        "File",
-        "FileBundle",
-        "WebResource"
+        "core:DOI",
+        "core:File",
+        "core:FileBundle",
+        "core:WebResource"
       ]
     },
     "isAlternativeVersionOf": {
@@ -49,13 +49,13 @@
       "uniqueItems": true,
       "_instruction": "Add all computational model versions that can be used alternatively to this computational model version.",
       "_linkedTypes": [
-        "ModelVersion"
+        "core:ModelVersion"
       ]
     },
     "isNewVersionOf": {
       "_instruction": "Add the computational model version preceding this computational model version.",
       "_linkedTypes": [
-        "ModelVersion"
+        "core:ModelVersion"
       ]
     },
     "license": {
@@ -64,7 +64,7 @@
       "uniqueItems": true,
       "_instruction": "Add all licenses of this computational model version.",
       "_linkedTypes": [
-        "License"
+        "core:License"
       ]
     },
     "outputData": {
@@ -73,10 +73,10 @@
       "uniqueItems": true,
       "_instruction": "Add the data that was generated as output by this computational model version.",
       "_linkedTypes": [
-        "DOI",
-        "File",
-        "FileBundle",
-        "WebResource"
+        "core:DOI",
+        "core:File",
+        "core:FileBundle",
+        "core:WebResource"
       ]
     }
   }

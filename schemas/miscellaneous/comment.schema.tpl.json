@@ -1,5 +1,5 @@
 {
-  "_type": "Comment",
+  "_type": "core:Comment",
   "required": [
     "about",
     "comment",
@@ -20,7 +20,7 @@
     "commenter": {
       "_instruction": "Add the person that created this comment.",
       "_linkedTypes": [
-        "Person"
+        "core:Person"
       ]
     },
     "timestamp": {

@@ -1,5 +1,5 @@
 {
-  "_type": "QuantitativeValueArray",
+  "_type": "core:QuantitativeValueArray",
   "required": [
     "values"
   ],
@@ -23,15 +23,15 @@
     "typeOfUncertainty": {
       "_instruction": "Add the type of estimation for the uncertainties.",
       "_linkedTypes": [
-        "TypeOfUncertainty"
+        "controlledTerms:TypeOfUncertainty"
       ]
-    },
+    },  
     "unit": {
       "_instruction": "Add the unit of measurement of the values and their uncertainties.",
       "_linkedTypes": [
-        "UnitOfMeasurement"
+        "controlledTerms:UnitOfMeasurement"
       ]
-    },
+    },    
     "values": {
       "type": "array",      
       "minItems": 2,

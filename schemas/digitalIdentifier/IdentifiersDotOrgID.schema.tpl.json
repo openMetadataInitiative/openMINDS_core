@@ -1,5 +1,5 @@
 {
-  "_type": "IdentifiersDotOrgID",
+  "_type": "core:IdentifiersDotOrgID",
   "required": [
     "identifier"
   ],

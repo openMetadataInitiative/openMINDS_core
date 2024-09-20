@@ -1,5 +1,5 @@
 {
-  "_type": "License",
+  "_type": "core:License",
   "required": [
     "fullName",
     "legalCode",

@@ -14,14 +14,14 @@
     "deviceType": {
       "_instruction": "Add the type of this device.",
       "_linkedTypes": [
-        "DeviceType"
+        "controlledTerms:DeviceType"
       ]
     },
     "digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this device.",
       "_linkedTypes": [
-        "DOI",
-        "RRID"
+        "core:DOI",
+        "core:RRID"
       ]
     },
     "lookupLabel": {

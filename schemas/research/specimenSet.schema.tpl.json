@@ -16,7 +16,7 @@
       "uniqueItems": true,
       "_instruction": "Add the biological sex of all specimen in this set.",
       "_linkedTypes": [
-        "BiologicalSex"
+        "controlledTerms:BiologicalSex"
       ]
     },
     "internalIdentifier": {
@@ -33,8 +33,8 @@
       "uniqueItems": true,
       "_instruction": "Add the species and/or strain (a sub-type of a genetic variant of species) of all specimen in this set.",
       "_linkedTypes": [
-        "Species",
-        "Strain"
+        "controlledTerms:Species",
+        "core:Strain"
       ]
     }
   }

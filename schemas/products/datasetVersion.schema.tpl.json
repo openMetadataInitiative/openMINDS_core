@@ -1,7 +1,7 @@
 {
-  "_type": "DatasetVersion",
+  "_type": "core:DatasetVersion",
   "_extends": "products/researchProductVersion.schema.tpl.json",
-  "required": [
+  "required": [    
     "dataType",
     "digitalIdentifier",
     "ethicsAssessment",
@@ -25,29 +25,29 @@
       "uniqueItems": true,
       "_instruction": "Add all behavioral protocols that were performed in this dataset version.",
       "_linkedTypes": [
-        "BehavioralProtocol"
+        "core:BehavioralProtocol"
       ]
-    },
+    },    
     "dataType": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add all semantic data types (raw, derived and/or simulated) provided in this dataset version.",
       "_linkedTypes": [
-        "SemanticDataType"
+        "controlledTerms:SemanticDataType"
       ]
     },
     "digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this research product version.",
       "_linkedTypes": [
-        "DOI",
-        "IdentifiersDotOrgID"
+        "core:DOI",
+        "core:IdentifiersDotOrgID"
       ]
     },
     "ethicsAssessment": {
       "_instruction": "Add the result of the ethics assessment of this dataset version.",
       "_linkedTypes": [
-        "EthicsAssessment"
+        "controlledTerms:EthicsAssessment"
       ]
     },
     "experimentalApproach": {
@@ -56,23 +56,23 @@
       "uniqueItems": true,
       "_instruction": "Add all experimental approaches which this dataset version has deployed.",
       "_linkedTypes": [
-        "ExperimentalApproach"
+        "controlledTerms:ExperimentalApproach"
       ]
-    },
+    }, 
     "inputData": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add the data that was used as input for this dataset version.",
       "_linkedTypes": [
-        "DOI",
-        "File",
-        "FileBundle",
-        "WebResource",
-        "BrainAtlas",
-        "BrainAtlasVersion",
-        "CommonCoordinateSpace",
-        "CommonCoordinateSpaceVersion"
+        "core:DOI",
+        "core:File",
+        "core:FileBundle",
+        "core:WebResource",
+        "https://openminds.ebrains.eu/sands/BrainAtlas",
+        "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
       ]
     },
     "isAlternativeVersionOf": {
@@ -81,20 +81,20 @@
       "uniqueItems": true,
       "_instruction": "Add all dataset versions that can be used alternatively to this dataset version.",
       "_linkedTypes": [
-        "DatasetVersion"
+        "core:DatasetVersion"
       ]
     },
     "isNewVersionOf": {
       "_instruction": "Add the dataset version preceding this dataset version.",
       "_linkedTypes": [
-        "DatasetVersion"
+        "core:DatasetVersion"
       ]
     },
     "license": {
       "_instruction": "Add the license or an online available data usage agreement for this dataset version.",
       "_linkedTypes": [
-        "License",
-        "WebResource"
+        "core:License",
+        "core:WebResource"
       ]
     },
     "preparationDesign": {
@@ -103,7 +103,7 @@
       "uniqueItems": true,
       "_instruction": "Add all preparation types used in this dataset version.",
       "_linkedTypes": [
-        "PreparationType"
+        "controlledTerms:PreparationType"
       ]
     },
     "protocol": {
@@ -112,7 +112,7 @@
       "uniqueItems": true,
       "_instruction": "Add all protocols that were performed in this dataset version (e.g., for data acquisition or processing).",
       "_linkedTypes": [
-        "Protocol"
+        "core:Protocol"
       ]
     },
     "studiedSpecimen": {
@@ -121,10 +121,10 @@
       "uniqueItems": true,
       "_instruction": "Add all specimens or sets of specimen that were studied in this dataset.",
       "_linkedTypes": [
-        "Subject",
-        "SubjectGroup",
-        "TissueSample",
-        "TissueSampleCollection"
+        "core:Subject",
+        "core:SubjectGroup",
+        "core:TissueSample",
+        "core:TissueSampleCollection"
       ]
     },
     "studyTarget": {

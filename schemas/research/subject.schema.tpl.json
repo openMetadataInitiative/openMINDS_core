@@ -1,5 +1,5 @@
 {
-  "_type": "Subject",
+  "_type": "core:Subject",
   "_extends": "research/specimen.schema.tpl.json",
   "required": [
     "studiedState"
@@ -11,7 +11,7 @@
       "uniqueItems": true,
       "_instruction": "Add all subject groups of which this subject is a member.",
       "_linkedTypes": [
-        "SubjectGroup"
+        "core:SubjectGroup"
       ]
     },
     "studiedState": {
@@ -20,7 +20,7 @@
       "uniqueItems": true,
       "_instruction": "Add all states in which this subject was studied.",
       "_linkedTypes": [
-        "SubjectState"
+        "core:SubjectState"
       ]
     }
   }

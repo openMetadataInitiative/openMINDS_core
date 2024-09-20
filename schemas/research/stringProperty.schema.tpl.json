@@ -1,5 +1,5 @@
 {
-  "_type": "StringProperty",
+  "_type": "core:StringProperty",
   "required": [
     "name",
     "value"
