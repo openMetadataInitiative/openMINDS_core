@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/ISBN",
+  "_type": "core:ISBN",
   "_categories": [
     "publicationReference"
   ],

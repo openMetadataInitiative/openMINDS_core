@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/QuantitativeValueArray",
+  "_type": "core:QuantitativeValueArray",
   "required": [
     "values"
   ],
@@ -23,13 +23,13 @@
     "typeOfUncertainty": {
       "_instruction": "Add the type of estimation for the uncertainties.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/TypeOfUncertainty"
+        "controlledTerms:TypeOfUncertainty"
       ]
     },  
     "unit": {
       "_instruction": "Add the unit of measurement of the values and their uncertainties.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
+        "controlledTerms:UnitOfMeasurement"
       ]
     },    
     "values": {

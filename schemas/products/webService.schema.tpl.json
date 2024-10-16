@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/WebService",
+  "_type": "core:WebService",
   "_extends": "products/researchProduct.schema.tpl.json",
   "required": [
     "developer"
@@ -20,7 +20,7 @@
       "uniqueItems": true,
       "_instruction": "Add all versions of this web service.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/WebServiceVersion"
+        "core:WebServiceVersion"
       ]
     }
   }

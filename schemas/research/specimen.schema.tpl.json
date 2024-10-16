@@ -9,7 +9,7 @@
     "biologicalSex": {
       "_instruction": "Add the biological sex of this specimen.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/BiologicalSex"
+        "controlledTerms:BiologicalSex"
       ]
     },
     "internalIdentifier": {
@@ -23,8 +23,8 @@
     "species": {
       "_instruction": "Add the species or strain (a sub-type of a genetic variant of species) of this specimen.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Species",
-        "https://openminds.ebrains.eu/core/Strain"
+        "controlledTerms:Species",
+        "core:Strain"
       ]
     }
   }

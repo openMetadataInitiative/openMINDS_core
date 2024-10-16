@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/QuantitativeValueRange",
+  "_type": "core:QuantitativeValueRange",
   "required": [
     "maxValue",
     "minValue"
@@ -12,7 +12,7 @@
     "maxValueUnit": {
       "_instruction": "Add the unit of measurement for the maximum value.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
+        "controlledTerms:UnitOfMeasurement"
       ]
     },
     "minValue": {
@@ -22,7 +22,7 @@
     "minValueUnit": {
       "_instruction": "Add the unit of measurement for the minimum value.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
+        "controlledTerms:UnitOfMeasurement"
       ]
     }
   }

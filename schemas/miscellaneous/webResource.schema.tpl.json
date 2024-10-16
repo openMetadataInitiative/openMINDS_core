@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/WebResource",
+  "_type": "core:WebResource",
   "required": [
     "IRI"
   ],
@@ -11,7 +11,7 @@
     "format": {
       "_instruction": "Add the expected content type of the document at this web resource.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ContentType"
+        "core:ContentType"
       ]
     },
     "IRI": {

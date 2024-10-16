@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/AccountInformation",
+  "_type": "core:AccountInformation",
   "required": [
     "service",
     "userName"
@@ -8,7 +8,7 @@
      "service": {
        "_instruction": "Add the web service of this account.",
        "_linkedTypes": [
-         "https://openminds.ebrains.eu/core/WebService"
+         "core:WebService"
        ]
      },
      "userName": {

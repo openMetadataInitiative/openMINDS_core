@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/BehavioralProtocol",
+  "_type": "core:BehavioralProtocol",
   "_categories": [
     "fileOrigin"
   ],
@@ -14,9 +14,9 @@
       "uniqueItems": true,
       "_instruction": "Add all sources in which this behavioral protocol is described in detail.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DOI",
-        "https://openminds.ebrains.eu/core/File",
-        "https://openminds.ebrains.eu/core/WebResource"
+        "core:DOI",
+        "core:File",
+        "core:WebResource"
       ]
     },
     "description": {
@@ -37,8 +37,8 @@
       "uniqueItems": true,
       "_instruction": "Add all stimulation approaches and/or techniques used within this behavioral protocol.",
       "_linkedTypes": [        
-        "https://openminds.ebrains.eu/controlledTerms/StimulationApproach",
-        "https://openminds.ebrains.eu/controlledTerms/StimulationTechnique"
+        "controlledTerms:StimulationApproach",
+        "controlledTerms:StimulationTechnique"
       ]
     },
     "stimulusType": {

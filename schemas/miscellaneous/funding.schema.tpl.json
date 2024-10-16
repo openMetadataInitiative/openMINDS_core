@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/Funding",
+  "_type": "core:Funding",
   "required": [
     "funder"
   ],

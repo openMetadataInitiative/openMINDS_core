@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/Configuration",
+  "_type": "core:Configuration",
   "required": [ 
     "configuration",
     "format"
@@ -12,7 +12,7 @@
     "format": {
       "_instruction": "Add the content type of this configuration.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ContentType"
+        "core:ContentType"
       ]
     },
     "lookupLabel": {

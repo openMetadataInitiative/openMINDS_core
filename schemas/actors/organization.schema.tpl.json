@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/Organization",
+  "_type": "core:Organization",
   "_categories": [
     "legalPerson"
   ],
@@ -13,7 +13,7 @@
       "uniqueItems": true,
       "_instruction": "Enter all current and, if necessary, past affiliations of this organization.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/Affiliation"
+        "core:Affiliation"
       ]
     },
     "digitalIdentifier": {
@@ -22,9 +22,9 @@
       "uniqueItems": true,
       "_instruction": "Add all globally unique and persistent digital identifier of this organization.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/GRIDID",
-        "https://openminds.ebrains.eu/core/RORID",
-        "https://openminds.ebrains.eu/core/RRID"
+        "core:GRIDID",
+        "core:RORID",
+        "core:RRID"
       ]
     },
     "fullName": {
@@ -37,7 +37,7 @@
       "uniqueItems": true,
       "_instruction": "Add all parent organizations of this organization.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Organization"
+        "core:Organization"
       ]
     },
     "homepage": {      

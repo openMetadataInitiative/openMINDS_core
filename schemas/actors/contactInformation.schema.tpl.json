@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/ContactInformation",
+  "_type": "core:ContactInformation",
   "required": [
     "email"
   ],

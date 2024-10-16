@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/Software",
+  "_type": "core:Software",
   "_extends": "products/researchProduct.schema.tpl.json",
   "required": [
     "developer"
@@ -17,9 +17,9 @@
     "digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this research product. Note that this digital identifier will be used to reference all attached research product versions.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DOI",
-        "https://openminds.ebrains.eu/core/RRID",
-        "https://openminds.ebrains.eu/core/SWHID"
+        "core:DOI",
+        "core:RRID",
+        "core:SWHID"
       ]
     },
     "hasVersion": {
@@ -28,7 +28,7 @@
       "uniqueItems": true,
       "_instruction": "Add all versions of this software tool.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/SoftwareVersion"
+        "core:SoftwareVersion"
       ]
     }
   }

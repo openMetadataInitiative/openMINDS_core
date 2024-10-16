@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/NumericalProperty",
+  "_type": "core:NumericalProperty",
   "required": [
     "name",
     "value"
@@ -14,8 +14,8 @@
       "minItems": 1,
       "_instruction": "Enter all quantitative values that are described by this numerical property.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue",
-        "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+        "core:QuantitativeValue",
+        "core:QuantitativeValueRange"
       ]
     }
   }

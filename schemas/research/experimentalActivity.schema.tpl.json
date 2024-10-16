@@ -8,13 +8,13 @@
     "isPartOf": {
       "_instruction": "Add the dataset version in which this activity was conducted.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DatasetVersion"
+        "core:DatasetVersion"
       ]
     },
     "preparationDesign": {
       "_instruction": "Add the initial preparation type for this activity.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/PreparationType"
+        "controlledTerms:PreparationType"
       ]
     },
     "protocol": {
@@ -23,7 +23,7 @@
       "uniqueItems": true,
       "_instruction": "Add all protocols used during this activity.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Protocol"
+        "core:Protocol"
       ]
     }
   }

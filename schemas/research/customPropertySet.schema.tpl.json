@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/CustomPropertySet",
+  "_type": "core:CustomPropertySet",
   "required": [
     "context",
     "dataLocation",    
@@ -13,9 +13,9 @@
     "dataLocation": {
       "_instruction": "Add the location of the data that define the custom property set for the given context (e.g., stored as file or other entities such as property-value lists).",
       "_linkedTypes": [        
-        "https://openminds.ebrains.eu/core/Configuration",
-        "https://openminds.ebrains.eu/core/File",
-        "https://openminds.ebrains.eu/core/PropertyValueList"
+        "core:Configuration",
+        "core:File",
+        "core:PropertyValueList"
       ]
     },
     "relevantFor": {

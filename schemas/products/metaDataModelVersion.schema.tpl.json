@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/MetaDataModelVersion",
+  "_type": "core:MetaDataModelVersion",
   "_extends": "products/researchProductVersion.schema.tpl.json",
   "required": [
     "license",
@@ -18,8 +18,8 @@
     "digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this research product version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DOI",
-        "https://openminds.ebrains.eu/core/SWHID"
+        "core:DOI",
+        "core:SWHID"
       ]
     },
     "isAlternativeVersionOf": {
@@ -28,19 +28,19 @@
       "uniqueItems": true,
       "_instruction": "Add all (meta)data model versions that can be used alternatively to this (meta)data model version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/MetaDataModelVersion"
+        "core:MetaDataModelVersion"
       ]
     },
     "isNewVersionOf": {
       "_instruction": "Add the (meta)data version preceding this (meta)data model version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/MetaDataModelVersion"
+        "core:MetaDataModelVersion"
       ]
     },
     "license": {
       "_instruction": "Add the license of this (meta)data model version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/License"
+        "core:License"
       ]
     },
     "serializationFormat": {
@@ -49,7 +49,7 @@
       "uniqueItems": true,
       "_instruction": "Add all content types in which (meta)data compliant with this (meta)data model version can be stored in.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ContentType"
+        "core:ContentType"
       ]
     },
     "specificationFormat": {
@@ -58,13 +58,13 @@
       "uniqueItems": true,
       "_instruction": "Add all content types in which the schemas of this (meta)data model version are stored in.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ContentType"
+        "core:ContentType"
       ]
     },
     "type": {
       "_instruction": "Add the type of this (meta)data model version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/MetaDataModelType"
+        "controlledTerms:MetaDataModelType"
       ]
     }
   }

@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/WebServiceVersion",
+  "_type": "core:WebServiceVersion",
   "_extends": "products/researchProductVersion.schema.tpl.json",
   "properties": {
     "developer": {
@@ -17,7 +17,7 @@
       "uniqueItems": true,
       "_instruction": "Add all software versions that are components of this web service version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/SoftwareVersion"
+        "core:SoftwareVersion"
       ]
     },
     "inputFormat": {
@@ -26,7 +26,7 @@
       "uniqueItems": true,
       "_instruction": "Add all content types that can be used as input by this web service version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ContentType"
+        "core:ContentType"
       ]
     },
     "isAlternativeVersionOf": {
@@ -35,13 +35,13 @@
       "uniqueItems": true,
       "_instruction": "Add all web service versions that can be used alternatively to this web service version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/WebServiceVersion"
+        "core:WebServiceVersion"
       ]
     },
     "isNewVersionOf": {
       "_instruction": "Add the web service version preceding this web service version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/WebServiceVersion"
+        "core:WebServiceVersion"
       ]
     },
     "outputFormat": {
@@ -50,7 +50,7 @@
       "uniqueItems": true,
       "_instruction": "Add all content types that can be generated as output by this web service version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ContentType"
+        "core:ContentType"
       ]
     }
   }

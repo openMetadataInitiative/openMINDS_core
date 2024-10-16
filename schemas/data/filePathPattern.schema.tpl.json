@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/FilePathPattern",
+  "_type": "core:FilePathPattern",
   "required": [
     "groupingType",
     "regex"
@@ -11,7 +11,7 @@
       "uniqueItems": true,
       "_instruction": "Add all grouping types that are defined by this file path pattern.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/FileBundleGrouping"
+        "controlledTerms:FileBundleGrouping"
       ]
     },
     "regex": {

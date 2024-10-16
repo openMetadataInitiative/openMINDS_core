@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/ResearchProductGroup",
+  "_type": "core:ResearchProductGroup",
   "required": [
     "context",
     "hasPart"

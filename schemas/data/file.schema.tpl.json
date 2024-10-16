@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/File",
+  "_type": "core:File",
   "_categories": [
     "fileOrigin"
   ],
@@ -18,19 +18,19 @@
       "uniqueItems": true,
       "_instruction": "Add all data types that are specifically represented in this file instance.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/DataType"
+        "controlledTerms:DataType"
       ]
     },
     "fileRepository": {
       "_instruction": "Add the overarching repository to which this file instance belongs.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/FileRepository"
+        "core:FileRepository"
       ]
     },
     "format": {
       "_instruction": "Add the content type of this file instance.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ContentType"
+        "core:ContentType"
       ]
     },
     "hash": {
@@ -39,7 +39,7 @@
       "uniqueItems": true,
       "_instruction": "Add all hashes that were generated for this file instance.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/Hash"
+        "core:Hash"
       ]
     },
     "IRI": {
@@ -55,7 +55,7 @@
       "uniqueItems": true,
       "_instruction": "Add all file bundles in which this file instance is grouped into.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/FileBundle"
+        "core:FileBundle"
       ]
     },
     "name": {
@@ -65,13 +65,13 @@
     "specialUsageRole": {
       "_instruction": "Add the special usage role of this file instance.",
       "_linkedTypes": [
-         "https://openminds.ebrains.eu/controlledTerms/FileUsageRole"
+         "controlledTerms:FileUsageRole"
       ]
     },
     "storageSize": {
       "_instruction": "Enter the storage size of this file instance.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ]
     }
   }

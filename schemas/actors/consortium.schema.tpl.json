@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/Consortium",
+  "_type": "core:Consortium",
   "_categories": [
     "legalPerson"
   ],
@@ -10,7 +10,7 @@
     "contactInformation": {
       "_instruction": "Add the contact information of this consortium.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ContactInformation"
+        "core:ContactInformation"
       ]
     },
     "fullName": {

@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/TissueSample",
+  "_type": "core:TissueSample",
   "_extends": "research/specimen.schema.tpl.json",
   "required": [
     "origin",
@@ -22,7 +22,7 @@
       "uniqueItems": true,
       "_instruction": "Add all tissue sample collections this tissue sample is part of.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/TissueSampleCollection"
+        "core:TissueSampleCollection"
       ]
     },
     "laterality": {
@@ -32,15 +32,15 @@
       "uniqueItems": true,
       "_instruction": "Add one or both sides of the body, bilateral organ or bilateral organ part that this tissue sample originates from.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Laterality"
+        "controlledTerms:Laterality"
       ]
     },
     "origin": {
       "_instruction": "Add the biogical origin of this tissue sample.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/CellType",
-        "https://openminds.ebrains.eu/controlledTerms/Organ",
-        "https://openminds.ebrains.eu/controlledTerms/OrganismSubstance"
+        "controlledTerms:CellType",
+        "controlledTerms:Organ",
+        "controlledTerms:OrganismSubstance"
       ]
     },
     "studiedState": {
@@ -49,13 +49,13 @@
       "uniqueItems": true,
       "_instruction": "Add all states in which this tissue sample was studied.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/TissueSampleState"
+        "core:TissueSampleState"
       ]
     },
     "type": {
       "_instruction": "Add the type of this tissue sample.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/TissueSampleType"
+        "controlledTerms:TissueSampleType"
       ]
     }
   }

@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/TissueSampleState",
+  "_type": "core:TissueSampleState",
   "_extends": "research/specimenState.schema.tpl.json",
   "properties": {    
     "attribute": {
@@ -8,7 +8,7 @@
       "uniqueItems": true,
       "_instruction": "Add all attributes that can be ascribed to this tissue sample state.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/TissueSampleAttribute"
+        "controlledTerms:TissueSampleAttribute"
       ]
     },
     "descendedFrom": {
@@ -17,10 +17,10 @@
       "uniqueItems": true,
       "_instruction": "Add all specimen states used to produce or obtain this tissue sample state.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/SubjectGroupState",
-        "https://openminds.ebrains.eu/core/SubjectState",
-        "https://openminds.ebrains.eu/core/TissueSampleCollectionState",
-        "https://openminds.ebrains.eu/core/TissueSampleState"
+        "core:SubjectGroupState",
+        "core:SubjectState",
+        "core:TissueSampleCollectionState",
+        "core:TissueSampleState"
       ]
     }
   }

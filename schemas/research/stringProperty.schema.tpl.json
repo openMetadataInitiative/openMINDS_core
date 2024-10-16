@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/StringProperty",
+  "_type": "core:StringProperty",
   "required": [
     "name",
     "value"

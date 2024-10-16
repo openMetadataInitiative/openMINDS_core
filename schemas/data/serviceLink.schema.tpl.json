@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/core/ServiceLink",
+  "_type": "core:ServiceLink",
   "required": [
     "dataLocation",
     "openDataIn",
@@ -9,11 +9,11 @@
     "dataLocation": {
       "_instruction": "Add the location of the data that are linked to this specific service (e.g., stored as file (bundles) or registered as other entities such as atlas annotations).",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/File",
-        "https://openminds.ebrains.eu/core/FileArchive",
-        "https://openminds.ebrains.eu/core/FileBundle",
-        "https://openminds.ebrains.eu/core/ModelVersion",        
-        "https://openminds.ebrains.eu/publications/LivePaperResourceItem",
+        "core:File",
+        "core:FileArchive",
+        "core:FileBundle",
+        "core:ModelVersion",        
+        "publications:LivePaperResourceItem",
         "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
       ]
     },
@@ -31,13 +31,13 @@
     "previewImage": {
       "_instruction": "Add an image file to this service link that acts as a preview of its content or could function as an icon.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/File"
+        "core:File"
       ]
     },
     "service": {
       "_instruction": "Add the service in which the specified data can be opened.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Service"
+        "controlledTerms:Service"
       ]
     }
   }
