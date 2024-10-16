@@ -64,7 +64,10 @@
       "uniqueItems": true,
       "_instruction": "Add all software versions that supplement this software version.",
       "_linkedTypes": [
-        "core:SoftwareVersion"
+        "core:ModelVersion",
+        "core:SoftwareVersion",
+        "sands:BrainAtlasVersion",
+        "sands:CommonCoordinateSpaceVersion"
       ]
     },
     "inputFormat": {
