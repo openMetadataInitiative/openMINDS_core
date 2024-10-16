@@ -64,7 +64,10 @@
       "uniqueItems": true,
       "_instruction": "Add all software versions that supplement this software version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/SoftwareVersion"
+        "https://openminds.ebrains.eu/core/ModelVersion",
+        "https://openminds.ebrains.eu/core/SoftwareVersion",
+        "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
       ]
     },
     "inputFormat": {
