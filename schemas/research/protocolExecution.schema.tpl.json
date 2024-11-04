@@ -19,8 +19,8 @@
         "core:SubjectState",
         "core:TissueSampleCollectionState",
         "core:TissueSampleState",
-        "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+        "sands:BrainAtlasVersion",
+        "sands:CommonCoordinateSpaceVersion"
       ]
     },
     "output": {
