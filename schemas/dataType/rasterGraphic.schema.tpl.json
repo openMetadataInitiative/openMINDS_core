@@ -1,0 +1,30 @@
+{
+  "_type": "core:RasterGraphic",
+  "properties": {       
+    "dimension": {
+      "type": "integer",
+      "maximum": 2,
+      "minimum": 2,
+      "_instruction": "Enter the dimensions of this raster graphic as [x, y]."
+    },      
+    "isPartOf": {     
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all images in which this image is used or shown in a greater context.",
+      "_linkedTypes": [
+        "core:RasterGraphic",
+        "core:Volume"
+      ]
+    },   
+    "resolution": {     
+      "type": "array",
+      "maxItems": 2,
+      "minItems": 2,
+      "_instruction": "Enter the size of a single pixel as [x, y] of this raster graphic.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    }
+  }
+}
