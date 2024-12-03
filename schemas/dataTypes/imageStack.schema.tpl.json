@@ -1,0 +1,52 @@
+{
+  "_type": "core:ImageStack",
+  "_extends": "dataTypes/rasterBasedImage.schema.tpl.json",
+  "properties": {     
+    "dataLocation": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add the location of the file in which this image stack is stored or add the location of all raster-based images that this image stack is composed of.",
+      "_linkedTypes": [
+        "core:File",
+        "core:Image",
+        "core:Volume"
+      ]
+    },      
+    "dimension": {
+      "type": "integer",
+      "maximum": 3,
+      "minimum": 3,
+      "_instruction": "Enter the dimensions of this raster graphic as [x, y, z]."
+    },    
+    "imageSpacing": {     
+      "_instruction": "Enter the distance between the images along a shared axis with negative values indicating an overlap of images.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    },      
+    "isPartOf": {     
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all volumes in which this image stack is used or shown in a greater context.",
+      "_linkedTypes": [
+        "core:Volume"
+      ]
+    },    
+    "numberOfImages": {
+      "type": "integer",
+      "minimum": 2,
+      "_instruction": "Enter the number of images that this image stack is composed of."
+    },    
+    "resolution": {     
+      "type": "array",
+      "maxItems": 3,
+      "minItems": 3,
+      "_instruction": "Enter the size of a single voxel as [x, y, z] of this image stack.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    }
+  }
+}
