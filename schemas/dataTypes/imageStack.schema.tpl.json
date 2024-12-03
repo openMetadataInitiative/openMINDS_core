@@ -17,10 +17,13 @@
       ]
     },      
     "dimension": {
-      "type": "integer",
-      "maximum": 3,
-      "minimum": 3,
-      "_instruction": "Enter the dimensions of this raster graphic as [x, y, z]."
+      "type": "array",
+      "maxItems": 3,
+      "minItems": 3,
+      "_instruction": "Enter the dimensions of this raster graphic as [x, y, z].",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
     },    
     "imageSpacing": {     
       "_instruction": "Enter the distance between the images along a shared axis with negative values indicating an overlap of images.",
