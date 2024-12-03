@@ -1,4 +1,5 @@
 {  
+  "_extends": "dataTypes/image.schema.tpl.json",
   "required": [
     "dataLocation",
     "dimension"
