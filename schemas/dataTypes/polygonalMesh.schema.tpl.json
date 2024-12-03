@@ -35,10 +35,12 @@
     },        
     "vertexCount": {
       "type": "integer",
+      "minimum": 3,
       "_instruction": "Enter the number of vertices of this polygonal mesh."
     },    
     "faceCount": {
       "type": "integer",
+      "minimum": 1,
       "_instruction": "Enter the number of faces of this polygonal mesh."
     },    
     "faceDimension": {
