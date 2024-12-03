@@ -28,10 +28,13 @@
       ]
     },       
     "dimension": {
-      "type": "integer",
-      "maximum": 3,
-      "minimum": 2,
-      "_instruction": "Enter the dimensions of this raster-based image for two-dimensional spaces as [x, y] or for three-dimensional space as [x, y, z]."
+      "type": "array",
+      "maxItems": 3,
+      "minItems": 2,
+      "_instruction": "Enter the dimensions of this raster-based image for two-dimensional spaces as [x, y] or for three-dimensional space as [x, y, z].",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
     },     
     "resolution": {     
       "type": "array",
