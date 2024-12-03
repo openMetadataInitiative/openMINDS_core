@@ -1,0 +1,30 @@
+{
+  "_type": "core:Volume",
+  "_extends": "dataTypes/rasterBasedImage.schema.tpl.json",
+  "properties": {       
+    "dimension": {
+      "type": "integer",
+      "maximum": 3,
+      "minimum": 3,
+      "_instruction": "Enter the dimensions of this raster graphic as [x, y, z]."
+    },      
+    "isPartOf": {     
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all volumes in which this volume is used or shown in a greater context.",
+      "_linkedTypes": [
+        "core:Volume"
+      ]
+    },   
+    "resolution": {     
+      "type": "array",
+      "maxItems": 3,
+      "minItems": 3,
+      "_instruction": "Enter the size of a single voxel as [x, y, z] of this raster graphic.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    }
+  }
+}
