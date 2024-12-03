@@ -12,7 +12,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all images in which this image is used or shown in a greater context.",
+      "_instruction": "Add all raster-based images in which this image is used or shown in a greater context.",
       "_linkedTypes": [
         "core:RasterGraphic",
         "core:Volume"
