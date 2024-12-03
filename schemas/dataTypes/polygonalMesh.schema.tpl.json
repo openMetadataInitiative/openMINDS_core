@@ -1,0 +1,54 @@
+{  
+  "_type": "core:polygonalMesh",  
+  "_extends": "dataTypes/vectorBasedImage.schema.tpl.json",  
+  "required": [
+    "resolution",
+    "vertexCount",
+    "faceCount",
+    "faceDimension"
+  ],
+  "properties": {       
+    "dimension": {
+      "type": "array",
+      "maxItems": 3,
+      "minItems": 3,
+      "_instruction": "Enter the dimensions of this polygonal mesh as [x, y, z].",    
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    },      
+    "isPartOf": {     
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all vector-based images in which this polygonal mesh is used or shown in a greater context.",
+      "_linkedTypes": [
+        "core:PolygonalMesh",
+        "core:Volume"
+      ]
+    },   
+    "resolution": {     
+      "_instruction": "Enter the density of vertices of this polygonal mesh.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    },        
+    "vertexCount": {
+      "type": "integer",
+      "_instruction": "Enter the number of vertices of this polygonal mesh."
+    },    
+    "faceCount": {
+      "type": "integer",
+      "_instruction": "Enter the number of faces of this polygonal mesh."
+    },    
+    "faceDimension": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Enter all possible face dimensions of this polygonal mesh based on the number vertices forming each face.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    }, 
+  }
+}
