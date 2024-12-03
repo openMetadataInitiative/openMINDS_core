@@ -36,7 +36,7 @@
       "type": "array",
       "maxItems": 3,
       "minItems": 2,
-      "_instruction": "Enter the size of a single pixel as [x, y] or voxel as [x, y, z] of this image.",
+      "_instruction": "Enter the size of a single pixel as [x, y] or voxel as [x, y, z] of this raster-based image.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]
