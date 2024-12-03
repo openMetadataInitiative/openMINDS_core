@@ -1,6 +1,6 @@
 {
-  "_extends": "dataTypes/rasterBasedImage.schema.tpl.json",
   "_type": "core:RasterGraphic",
+  "_extends": "dataTypes/rasterBasedImage.schema.tpl.json",
   "properties": {       
     "dimension": {
       "type": "integer",
