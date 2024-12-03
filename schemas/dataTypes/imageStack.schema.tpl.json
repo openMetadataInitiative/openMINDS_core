@@ -1,6 +1,9 @@
 {
   "_type": "core:ImageStack",
   "_extends": "dataTypes/rasterBasedImage.schema.tpl.json",
+  "required": [
+    "numberOfImages"
+  ],
   "properties": {     
     "dataLocation": {
       "type": "array",
