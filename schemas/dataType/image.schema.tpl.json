@@ -1,0 +1,37 @@
+{  
+  "_categories": [
+    "image"
+  ],
+  "required": [
+    "coordinateSpace"
+  ],
+  "properties": {
+    "additionalRemarks": {
+      "type": "string",
+      "_instruction": "Enter any additional remarks concerning this image."
+    },
+    "compressionType": {
+      "_instruction": "Add the method that was used to compress this image.",
+      "_linkedTypes": [
+        "controlledTerms:ImageCompressionType"
+      ]
+    },    
+    "compressionRatio": {
+      "_instruction": "Enter the percentage that was used to reduce the size of this image compared to the original file size.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    },
+    "coordinateSpace": {
+      "_instruction": "Add the coordinate space in which this image exists in.",
+      "_linkedTypes": [
+        "sands:CommonCoordinateSpaceVersion",
+        "sands:CustomCoordinateSpace"
+      ]
+    }, 
+    "lookupLabel": {
+      "type": "string",
+      "_instruction": "Enter a lookup label for this image that may help you to find this instance more easily."
+    }
+  }
+}
