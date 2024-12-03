@@ -1,0 +1,45 @@
+{  
+  "required": [
+    "dataLocation",
+    "dimension",
+    "resolution"
+  ],
+  "properties": {
+    "device": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all devices used to capture this raster-based image.",
+      "_linkedCategories": [
+        "deviceUsage"
+      ]
+    },     
+    "colorDepth": {
+      "_instruction": "Enter the number of bits used to represent the color of a single pixel or voxel in this image.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    },
+    "dataLocation": {
+      "_instruction": "Add the location of the file in which this raster-based image is stored.",
+      "_linkedTypes": [
+        "core:File"
+      ]
+    },       
+    "dimension": {
+      "type": "integer",
+      "maximum": 3,
+      "minimum": 2,
+      "_instruction": "Enter the dimensions of this raster-based image for two-dimensional spaces as [x, y] or for three-dimensional space as [x, y, z]."
+    },     
+    "resolution": {     
+      "type": "array",
+      "maxItems": 3,
+      "minItems": 2,
+      "_instruction": "Enter the size of a single pixel as [x, y] or voxel as [x, y, z] of this image.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    }
+  }
+}
