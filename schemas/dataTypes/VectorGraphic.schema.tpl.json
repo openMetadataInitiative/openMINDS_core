@@ -1,0 +1,12 @@
+{  
+  "_type": "core:VectorGraphic",
+  "_extends": "dataTypes/vectorBasedImage.schema.tpl.json",
+  "properties": {  
+    "dimension": {
+      "type": "integer",
+      "maximum": 2,
+      "minimum": 2,
+      "_instruction": "Enter the dimensions of this vector-based image as [x, y]."
+    }
+  }
+}
