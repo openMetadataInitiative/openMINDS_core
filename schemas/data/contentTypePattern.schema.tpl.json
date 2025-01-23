@@ -6,7 +6,7 @@
   ],
   "properties": {
     "contentType": {
-      "_instruction": "Enter the content type that can be defined by the given regular expression for file names/extentions.",
+      "_instruction": "Enter the content type that can be defined by the given regular expression for file names/extensions.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/ContentType"
       ]
