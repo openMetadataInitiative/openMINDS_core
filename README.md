@@ -15,7 +15,7 @@
 
 The **openMINDS_core** repository hosts one of the metadata models of the **openMINDS metadata framework**. It defines modular metadata schemas for describing the general origin, location and content of neuroscience research products.
 
-:warning: This openMINDS_core v1 was a first attempt to more consistently capture schemas for the metadata collected in the EBRAINS Knowledge Graph (v2). Schemas are written in non-functional pseudo-language, and are not yet implemented using the openMINDS syntax. The schemas of this version were never fully integrated into the openMINDS metadata framework.
+:warning: This openMINDS_core v1 was a first attempt to capture schemas more consistently for the metadata collected in the EBRAINS Knowledge Graph (v2). Schemas are written in non-functional pseudo-language, and are not yet implemented using the openMINDS syntax. The schemas of this version were never fully integrated into the openMINDS metadata framework.
 
 To generally learn more about the openMINDS metadata framework please go to :arrow_right: [**ReadTheDocs**][docu-url].  
 
