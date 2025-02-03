@@ -22,6 +22,10 @@
         "core:SWHID"
       ]
     },
+    "entryPoint": {
+      "type": "string",
+      "_instruction": "Add the entry point for this model version (for example, the path of the main script file within the repository)."
+    },
     "format": {
       "type": "array",
       "minItems": 1,
