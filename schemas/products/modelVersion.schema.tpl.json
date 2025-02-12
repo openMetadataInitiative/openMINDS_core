@@ -6,6 +6,15 @@
     "license"
   ],
   "properties": {
+    "configuration": {
+      "_instruction": "Add the configuration information for this model version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Configuration",
+        "https://openminds.ebrains.eu/core/File",
+        "https://openminds.ebrains.eu/core/PropertyValueList",
+        "https://openminds.ebrains.eu/core/WebResource"
+      ]
+    },
     "developer": {
       "type": "array",
       "minItems": 1,
