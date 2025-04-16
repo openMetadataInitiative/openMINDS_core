@@ -7,3 +7,6 @@ on:
 jobs:
   validate-schema:
     uses: openMetadataInitiative/openMINDS_actions/.github/workflows/schema_validator.yml@main
+    with:
+      branch: ${{ inputs.branch }}
+      repository: ${{ inputs.repository }}
