@@ -1,0 +1,9 @@
+name: Schema Validator
+
+on:
+  - pull_request
+  - workflow_dispatch
+
+jobs:
+  validate-schema:
+    uses: openMetadataInitiative/openMINDS_actions/.github/workflows/schema_validator.yml@main
