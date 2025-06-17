@@ -21,15 +21,6 @@
         "core:RRID",
         "core:SWHID"
       ]
-    },
-    "hasVersion": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add all versions of this software tool.",
-      "_linkedTypes": [
-        "core:SoftwareVersion"
-      ]
     }
   }
 }
