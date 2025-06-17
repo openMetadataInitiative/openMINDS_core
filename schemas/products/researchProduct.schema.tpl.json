@@ -4,8 +4,7 @@
   ],
   "required": [
     "description",    
-    "fullName",
-    "hasVersion",
+    "fullName"
     "shortName"
   ],
   "properties": {
