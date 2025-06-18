@@ -1,0 +1,12 @@
+{
+  "_type": "core:Test",
+  "required": [
+    "test"
+  ],
+  "properties": {
+    "test": {
+      "type": "string",
+      "_instruction": "Test."
+    }
+  }
+}
