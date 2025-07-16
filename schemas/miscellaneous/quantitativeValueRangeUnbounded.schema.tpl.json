@@ -1,0 +1,25 @@
+{
+  "_type": "core:QuantitativeValueRangeUnbounded",
+  "required": [
+    "borderValue",
+    "relationalOperator"
+  ],
+  "properties": {
+    "borderValue": {
+      "type": "number",
+      "_instruction": "Enter the numeric value that defines the boundary of the unbounded range."
+    },
+    "relationalOperator": {
+      "_instruction": "Add the relational operator that applies to the boundary value (e.g., ≥, ≤).",
+      "_linkedTypes": [
+        "controlledTerms:RelationalOperator"
+      ]
+    },
+    "unit": {
+      "_instruction": "Add the unit of measurement that applies to the value range.",
+      "_linkedTypes": [
+        "controlledTerms:UnitOfMeasurement"
+      ]
+    }
+  }
+}
