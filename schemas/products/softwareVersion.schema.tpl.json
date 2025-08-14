@@ -23,15 +23,6 @@
         "controlledTerms:SoftwareApplicationCategory"
       ]
     },
-    "developer": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add all parties that developed this software version. Note that these developers will overwrite the developer list provided for the overarching software.",
-      "_linkedCategories": [
-        "legalPerson"
-      ]
-    },
     "device": {
       "type": "array",
       "minItems": 1,

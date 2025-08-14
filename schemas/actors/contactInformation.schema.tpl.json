@@ -4,6 +4,12 @@
     "email"
   ],
   "properties": {
+    "address": {
+      "_instruction": "Enter the physical address of the party (e.g., of the person).",
+      "_linkedTypes": [
+        "core:Location"
+      ]
+    },
     "email": {
       "type": "string",
       "_formats": [

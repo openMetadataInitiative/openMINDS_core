@@ -2,15 +2,6 @@
   "_type": "core:WebServiceVersion",
   "_extends": "products/researchProductVersion.schema.tpl.json",
   "properties": {
-    "developer": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add all parties that developed this web service version. Note that these developers will overwrite the developer list provided for the overarching web service.",
-      "_linkedCategories": [
-        "legalPerson"
-      ]
-    },
     "hasPart": {
       "type": "array",
       "minItems": 1,

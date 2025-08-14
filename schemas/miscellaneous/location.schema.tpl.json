@@ -1,0 +1,22 @@
+{
+  "_type": "core:Location",
+  "required": [
+    "country"
+  ],
+  "properties": {
+    "administrativeDivision": {
+      "type": "string",
+      "_instruction": "Enter the administrative division of this location."
+    },
+    "city": {
+      "type": "string",
+      "_instruction": "Enter the city of this location."
+    },
+    "country": {
+      "_instruction": "Enter the country of this location.",
+      "_linkedTypes": [
+        "controlledTerms:Country"
+      ]
+    }
+  }
+}

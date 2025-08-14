@@ -1,5 +1,5 @@
 {
-  "_type": "core:Affiliation",
+  "_type": "core:Membership",
   "required": [
     "memberOf"
   ],

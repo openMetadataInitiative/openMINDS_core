@@ -4,17 +4,29 @@
     "legalPerson"
   ],
   "required": [
-    "fullName"
+    "address",
+    "fullName",
+    "type"
   ],
   "properties": {
-    "affiliation": {
+    "address": {
+      "_instruction": "Enter the physical address of this organization.",
+      "_embeddedTypes": [
+        "core:Jurisdiction"
+      ]
+    },
+    "acronym": {
+      "type": "string",
+      "_instruction": "Enter the acronym of this organization."
+    },
+    "alternateName": {
       "type": "array",
+      "items": {
+        "type": "string"
+      },
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Enter all current and, if necessary, past affiliations of this organization.",
-      "_embeddedTypes": [
-        "core:Affiliation"
-      ]
+      "_instruction": "Enter any other known full name of this organization."
     },
     "digitalIdentifier": {
       "type": "array",
@@ -23,6 +35,8 @@
       "_instruction": "Add all globally unique and persistent digital identifier of this organization.",
       "_linkedTypes": [
         "core:GRIDID",
+        "core:ISNI",
+        "core:LEI",
         "core:RORID",
         "core:RRID"
       ]
@@ -47,9 +61,25 @@
       ],
       "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this organization."
     },
+    "memberOf": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Enter all current and, if necessary, past memberships of this organization.",
+      "_embeddedTypes": [
+        "core:Membership"
+      ]
+    },
     "shortName": {
       "type": "string",
       "_instruction": "Enter a short name (or alias) for this organization that could be used as a shortened display title (e.g., for web services with too little space to display the full name)."
+    },
+    "type": {
+      "type": "string",
+      "_instruction": "Enter the type of this organization (e.g., company, non-profit organization, government).",
+      "_embeddedTypes": [
+        "controlledTerms:LegalEntityType"
+      ]
     }
   }
 }
