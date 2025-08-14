@@ -12,7 +12,6 @@
        ]
      },
      "role": {
-       "type": "string",
        "_instruction": "Add the role of the contributor that performed the contribution.",
        "_linkedTypes": [
          "controlledTerms:ContributionType"
