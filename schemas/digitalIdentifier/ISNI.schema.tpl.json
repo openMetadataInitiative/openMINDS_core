@@ -1,0 +1,13 @@
+{
+  "_type": "core:ISNI",
+  "required": [
+    "identifier"
+  ],
+  "properties": {
+    "identifier": {
+      "type": "string",
+      "pattern": "^https?://(www.)?isni.org/(isni/)?\\d{15}[\\dX]$)",
+      "_instruction": "Enter the identifier for legal entities provided by the International Standard Name Identifier Assignment Agency ('International Standard Name Identifier'; ISNI) as an internationalized resource identifier (IRI) following the defined pattern (i.e., 'https://isni.org/' + ISNI)."
+    }
+  }
+}

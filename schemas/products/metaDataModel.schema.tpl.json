@@ -1,19 +1,7 @@
 {
   "_type": "core:MetaDataModel",
   "_extends": "products/researchProduct.schema.tpl.json",
-  "required": [
-    "developer"
-  ],
   "properties": {
-    "developer": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add all parties that developed this (meta)data model.",
-      "_linkedCategories": [
-        "legalPerson"
-      ]
-    },
     "digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this research product. Note that this digital identifier will be used to reference all attached research product versions.",
       "_linkedTypes": [

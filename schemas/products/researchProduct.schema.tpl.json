@@ -3,11 +3,21 @@
     "researchProduct"
   ],
   "required": [
-    "description",    
+    "contribution",
+    "description",
     "fullName",
     "shortName"
   ],
   "properties": {
+    "contribution": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all the contributions made to this research product.",
+      "_embeddedTypes": [
+        "core:Contribution"
+      ]
+    },
     "custodian": {
       "type": "array",      
       "minItems": 1,
