@@ -3,7 +3,6 @@
   "_extends": "products/researchProduct.schema.tpl.json",
   "required": [
     "abstractionLevel",
-    "developer",
     "scope",
     "studyTarget"
   ],
@@ -12,15 +11,6 @@
       "_instruction": "Add the abstraction level of this computational model.",
       "_linkedTypes": [
         "controlledTerms:ModelAbstractionLevel"
-      ]
-    },
-    "developer": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add all parties that developed this computational model.",
-      "_linkedCategories": [
-        "legalPerson"
       ]
     },
     "digitalIdentifier": {

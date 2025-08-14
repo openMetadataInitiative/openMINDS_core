@@ -1,0 +1,13 @@
+{
+  "_type": "core:LEI",
+  "required": [
+    "identifier"
+  ],
+  "properties": {
+    "identifier": {
+      "type": "string",
+      "pattern": "^https://lei.global/LEI/[A-Z0-9]{18}\\d{2}$",
+      "_instruction": "Enter the identifier for legal entities provided by a local operating unit delegated by the Global Legal Entity Identifier Foundation ('Legal Entity Identifier'; LEI) as an internationalized resource identifier (IRI) following the defined pattern (i.e., 'https://lei.global/LEI/' + LEI)."
+    }
+  }
+}

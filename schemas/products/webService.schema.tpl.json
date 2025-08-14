@@ -1,19 +1,7 @@
 {
   "_type": "core:WebService",
   "_extends": "products/researchProduct.schema.tpl.json",
-  "required": [
-    "developer"
-  ],
   "properties": {
-    "developer": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add all parties that developed this web service.",
-      "_linkedCategories": [
-        "legalPerson"
-      ]
-    },
     "hasVersion": {
       "type": "array",
       "minItems": 1,
