@@ -12,7 +12,7 @@
     "address": {
       "_instruction": "Enter the physical address of this organization.",
       "_embeddedTypes": [
-        "core:Jurisdiction"
+        "core:Location"
       ]
     },
     "acronym": {
