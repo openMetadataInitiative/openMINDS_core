@@ -23,6 +23,19 @@
         "controlledTerms:SoftwareApplicationCategory"
       ]
     },
+    "dependency": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all dependencies of this software version.",
+      "_embeddedTypes": [
+        "core:InterfaceDependency"
+      ],
+      "_linkedTypes": [
+        "core:Interface",
+        "core:SoftwareVersion"
+      ]
+    },
     "developer": {
       "type": "array",
       "minItems": 1,
@@ -68,6 +81,15 @@
         "core:SoftwareVersion",
         "sands:BrainAtlasVersion",
         "sands:CommonCoordinateSpaceVersion"
+      ]
+    },
+    "implements": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all interfaces that are implemented by this software version.",
+      "_linkedTypes": [
+        "core:Interface"
       ]
     },
     "inputFormat": {
@@ -138,12 +160,12 @@
       "_linkedTypes": [
         "controlledTerms:ProgrammingLanguage"
       ]
-    },    
+    },
     "requirement": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Enter all requirements of this software version.",
+      "_instruction": "Enter any requirements of this software version that are not listed under the 'dependency' property.",
       "items": {
         "type": "string"
       }
