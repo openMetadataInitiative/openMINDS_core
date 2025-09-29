@@ -1,0 +1,73 @@
+{
+  "_type": "core:Interface",
+  "required": [
+    "communicationProtocol",
+    "definition",
+    "name",
+    "type",
+    "versionIdentifier"
+  ],
+  "properties": {
+    "communicationProtocol": {
+      "_instruction": "Enter the communication protocol used by this interface.",
+      "_linkedTypes": [
+        "controlledTerms:CommunicationProtocol"
+      ]
+    },
+    "custodian": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all parties that fulfill the role of a custodian for the definition of this interface.",
+      "_linkedCategories": [
+        "legalPerson"
+      ]
+    },
+    "definition": {
+      "_instruction": "Enter a web resource that defines this interface, e.g., an OpenAPI.json document.",
+      "_linkedTypes": [
+        "core.WebResource"
+      ]
+    },
+    "description": {
+      "type": "string",
+      "_instruction": "Enter a description of this interface."
+    },
+    "developer": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all parties that developed this interface definition.",
+      "_linkedCategories": [
+        "legalPerson"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "_instruction": "Enter the name of this interface."
+    },
+    "type": {
+      "_instruction": "Enter the type of this interface.",
+      "_linkedTypes": [
+        "controlledTerms:InterfaceType"
+      ]
+    },
+    "userDocumentation": {
+      "_instruction": "Add the publication or file that acts as the full documentation of this interface.",
+      "_linkedTypes": [
+        "core:DOI",
+        "core:File",
+        "core:ISBN",
+        "core:WebResource"
+      ]
+    },
+    "versionIdentifier": {
+      "type": "string",
+      "_instruction": "Enter the version identifier of this interface version."
+    },
+    "versionInnovation": {
+      "type": "string",
+      "_instruction": "Enter a short description (or summary) of the novelties/peculiarities of this interface version in comparison to its preceding versions."
+    }
+  }
+}

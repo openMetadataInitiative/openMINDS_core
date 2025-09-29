@@ -1,0 +1,118 @@
+{
+  "_type": "core:Service",
+  "required": [
+    "fullDocumentation",
+    "fullName",
+    "shortName",
+    "type"
+  ],
+  "properties": {
+    "custodian": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all parties that fulfill the role of a custodian for the service, typically an organization.",
+      "_linkedCategories": [
+        "legalPerson"
+      ]
+    },
+    "deploymentProtocol": {
+      "_instruction": "Add the protocol or workflow recipe that should be used to deploy this service.",
+      "_linkedTypes": [
+        "core:Protocol",
+        "computation:WorkflowRecipe"
+      ]
+    },
+    "description": {
+      "type": "string",
+      "_instruction": "Enter a description (or abstract) of this service."
+    },
+    "feature": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add the main features of this service.",
+      "_linkedTypes": [
+        "controlledTerms:SoftwareFeature"
+      ]
+    },
+    "fullDocumentation": {
+      "_instruction": "Add the publication or file that acts as the full documentation of this service.",
+      "_linkedTypes": [
+        "core:DOI",
+        "core:File",
+        "core:ISBN",
+        "core:WebResource"
+      ]
+    },
+    "fullName": {
+      "type": "string",
+      "_instruction": "Enter a descriptive full name (or title) for this service."
+    },
+    "funding": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all funding information of this service.",
+      "_linkedTypes": [
+        "core:Funding"
+      ]
+    },
+    "howToCite": {
+      "type": "string",
+      "_instruction": "Enter the preferred citation text for this service."
+    },
+    "keyword": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all relevant keywords to this service, either by adding controlled terms or by suggesting new terms.",
+      "_linkedCategories": [
+        "keyword"
+      ]
+    },
+    "relatedPublication": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all further publications besides the full documentation that provide the original context for the production of this service (e.g., an original research article describing the service).",
+      "_linkedCategories": [
+        "publicationReference"
+      ]
+    },
+    "scope": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add the scope of this service, i.e., what analysis methods does it perform, what kinds of experimental data is it intended for.",
+      "_linkedTypes": [
+        "controlledTerms:AnalysisTechnique",
+        "controlledTerms:ExperimentalApproach",
+        "controlledTerms:Technique"
+      ]
+    },
+    "shortName": {
+      "type": "string",
+      "_instruction": "Enter a short name (or alias) for this service that could be used as a shortened display title."
+    },
+    "supportChannel": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Enter all channels through which a user can receive support for using this service.",
+      "items": {
+        "type": "string",
+        "_formats": [
+          "email",
+          "iri"
+        ]
+      }
+    },
+    "type": {
+      "_instruction": "Add the service type.",
+      "_linkedTypes": [
+        "controlledTerms:ServiceType"
+      ]
+    }
+  }
+}
