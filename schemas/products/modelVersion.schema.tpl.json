@@ -56,7 +56,7 @@
         "core:WebResource"
       ]
     },
-    "isSuccessorOf": {
+    "isPrecededBy": {
       "_instruction": "Add the model version preceding this model version.",
       "_linkedTypes": [
         "core:ModelVersion"
@@ -72,7 +72,7 @@
       ]
     },
     "isVersionOf": {
-      "_instruction": "Add the model of this model version.",
+      "_instruction": "Add the version-independent information about this model.",
       "_linkedTypes": [
         "core:Model"
       ]
