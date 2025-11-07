@@ -79,7 +79,7 @@
         "core:ContentType"
       ]
     },
-    "isSuccessorOf": {
+    "isPrecededBy": {
       "_instruction": "Add the software version preceding this software version.",
       "_linkedTypes": [
         "core:SoftwareVersion"
@@ -95,7 +95,7 @@
       ]
     },
     "isVersionOf": {
-      "_instruction": "Add the software of this software version.",
+      "_instruction": "Add the version-independent information about this software.",
       "_linkedTypes": [
         "core:Software"
       ]
