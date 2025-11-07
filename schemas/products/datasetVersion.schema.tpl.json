@@ -75,6 +75,21 @@
         "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
       ]
     },
+    "isPrecededBy": {
+      "_instruction": "Add the dataset version preceding this dataset version.",
+      "_linkedTypes": [
+        "core:DatasetVersion"
+      ]
+    },
+    "isVariantOf": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all dataset versions that can be used alternatively to this dataset version.",
+      "_linkedTypes": [
+        "core:DatasetVersion"
+      ]
+    },
     "isVersionOf": {
       "_instruction": "Add the dataset of this dataset version.",
       "_linkedTypes": [
@@ -88,12 +103,7 @@
         "core:WebResource"
       ]
     },
-    "precedingVersion": {
-      "_instruction": "Add the dataset version preceding this dataset version.",
-      "_linkedTypes": [
-        "core:DatasetVersion"
-      ]
-    },
+
     "preparationDesign": {
       "type": "array",
       "minItems": 1,
@@ -140,15 +150,6 @@
       "_instruction": "Add all techniques that were used in this dataset version.",
       "_linkedCategories": [
         "technique"
-      ]
-    },
-    "variantVersion": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add all dataset versions that can be used alternatively to this dataset version.",
-      "_linkedTypes": [
-        "core:DatasetVersion"
       ]
     }
   }
