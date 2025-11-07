@@ -5,6 +5,7 @@
   "required": [
     "accessibility",
     "fullDocumentation",
+    "isVersionOf",
     "releaseDate",
     "shortName",
     "versionIdentifier",
