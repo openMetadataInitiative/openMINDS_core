@@ -29,7 +29,13 @@
         "core:ContentType"
       ]
     },
-    "isAlternativeVersionOf": {
+    "isPrecededBy": {
+      "_instruction": "Add the web service version preceding this web service version.",
+      "_linkedTypes": [
+        "core:WebServiceVersion"
+      ]
+    },
+    "isVariantOf": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
@@ -38,10 +44,10 @@
         "core:WebServiceVersion"
       ]
     },
-    "isNewVersionOf": {
-      "_instruction": "Add the web service version preceding this web service version.",
+    "isVersionOf": {
+      "_instruction": "Add the version-independent information about this web service.",
       "_linkedTypes": [
-        "core:WebServiceVersion"
+        "core:WebService"
       ]
     },
     "outputFormat": {

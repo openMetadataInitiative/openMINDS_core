@@ -5,7 +5,6 @@
   "required": [
     "description",    
     "fullName",
-    "hasVersion",
     "shortName"
   ],
   "properties": {
