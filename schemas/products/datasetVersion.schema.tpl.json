@@ -91,7 +91,7 @@
       ]
     },
     "isVersionOf": {
-      "_instruction": "Add the dataset of this dataset version.",
+      "_instruction": "Add the version-independent information about this dataset.",
       "_linkedTypes": [
         "core:Dataset"
       ]
