@@ -29,7 +29,7 @@
         "core:ContentType"
       ]
     },
-    "isSuccessorOf": {
+    "isPrecededBy": {
       "_instruction": "Add the web service version preceding this web service version.",
       "_linkedTypes": [
         "core:WebServiceVersion"
@@ -45,7 +45,7 @@
       ]
     },
     "isVersionOf": {
-      "_instruction": "Add the web service of this web service version.",
+      "_instruction": "Add the version-independent information about this web service.",
       "_linkedTypes": [
         "core:WebService"
       ]
