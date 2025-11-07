@@ -38,7 +38,7 @@
       ]
     },
     "isVersionOf": {
-      "_instruction": "Add the (meta)data model of this (meta)data model version.",
+      "_instruction": "Add the version-independent information about this (meta)data model.",
       "_linkedTypes": [
         "core:MetaDataModel"
       ]
