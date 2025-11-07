@@ -22,7 +22,7 @@
         "core:SWHID"
       ]
     },
-    "isSuccessorOf": {
+    "isPrecededBy": {
       "_instruction": "Add the (meta)data model version preceding this (meta)data model version.",
       "_linkedTypes": [
         "core:MetaDataModelVersion"
