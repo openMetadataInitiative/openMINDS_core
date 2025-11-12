@@ -69,10 +69,10 @@
         "core:File",
         "core:FileBundle",
         "core:WebResource",
-        "https://openminds.ebrains.eu/sands/BrainAtlas",
-        "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+        "sands:BrainAtlas",
+        "sands:BrainAtlasVersion",
+        "sands:CommonCoordinateSpace",
+        "sands:CommonCoordinateSpaceVersion"
       ]
     },
     "isAlternativeVersionOf": {
