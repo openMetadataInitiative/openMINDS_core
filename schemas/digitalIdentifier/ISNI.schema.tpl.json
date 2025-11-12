@@ -1,5 +1,8 @@
 {
   "_type": "core:ISNI",
+  "_category": [
+    "organizationIdentifier"
+  ],
   "required": [
     "identifier"
   ],

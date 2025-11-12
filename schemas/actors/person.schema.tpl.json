@@ -1,6 +1,7 @@
 {
   "_type": "core:Person",
   "_categories": [
+    "actor",
     "agent",
     "legalPerson"
   ],

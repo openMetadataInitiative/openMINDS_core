@@ -1,6 +1,7 @@
 {
   "_type": "core:Organization",
   "_categories": [
+    "actor",
     "legalPerson"
   ],
   "required": [
@@ -33,17 +34,19 @@
       "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add all globally unique and persistent digital identifier of this organization.",
-      "_linkedTypes": [
-        "core:GRIDID",
-        "core:ISNI",
-        "core:LEI",
-        "core:RORID",
-        "core:RRID"
+      "_linkedCategories": [
+        "organizationIdentifier"
       ]
     },
     "fullName": {
       "type": "string",
       "_instruction": "Enter the full name of this organization."
+    },
+    "location": {
+      "_instruction": "Enter the location of this organization.",
+      "_linkedTypes": [
+        "core:Location"
+      ]
     },
     "hasParent": {
       "type": "array",
@@ -61,13 +64,10 @@
       ],
       "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this organization."
     },
-    "memberOf": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Enter all current and, if necessary, past memberships of this organization.",
-      "_embeddedTypes": [
-        "core:Membership"
+    "jurisdiction": {
+      "_instruction": "Enter the jurisdiction where this organization is based.",
+      "_linkedCategories": [
+        "jurisdiction"
       ]
     },
     "shortName": {

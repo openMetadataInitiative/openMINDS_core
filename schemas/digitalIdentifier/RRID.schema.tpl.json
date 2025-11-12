@@ -1,5 +1,8 @@
 {
   "_type": "core:RRID",
+  "_category": [
+    "organizationIdentifier"
+  ],
   "required": [
     "identifier"
   ],
