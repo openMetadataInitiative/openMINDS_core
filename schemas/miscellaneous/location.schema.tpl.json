@@ -4,18 +4,20 @@
     "country"
   ],
   "properties": {
-    "administrativeDivision": {
+    "address": {
       "type": "string",
-      "_instruction": "Enter the administrative division of this location."
-    },
-    "city": {
-      "type": "string",
-      "_instruction": "Enter the city of this location."
+      "_instruction": "Enter the address of the location, in the format [Street address], City, [Region/State], [Postal code]. The minimum requested information is City."
     },
     "country": {
-      "_instruction": "Enter the country of this location.",
+      "_instruction": "Enter the country in which the location is found.",
       "_linkedTypes": [
-        "controlledTerms:Country"
+        "controlledTerms:SovereignState"
+      ]
+    },
+    "geoCoordinates": {
+      "_instruction": "Enter the geographic coordinates of the location.",
+      "_embeddedTypes": [
+        "core:GeoCoordinates"
       ]
     }
   }

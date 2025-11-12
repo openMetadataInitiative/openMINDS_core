@@ -1,7 +1,7 @@
 {
   "_type": "core:Consortium",
   "_categories": [
-    "legalPerson"
+    "actor"
   ],
   "required": [
     "fullName"

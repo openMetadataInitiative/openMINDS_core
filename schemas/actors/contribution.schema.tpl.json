@@ -2,17 +2,20 @@
   "_type": "core:Contribution",
   "required": [
     "contributor",
-    "role"
+    "type"
   ],
    "properties": {
      "contributor": {
-       "_instruction": "Add all types of contribution made by the stated 'contributor'.",
+       "type": "array",
+       "minItems": 1,
+       "uniqueItems": true,
+       "_instruction": "Add all the contributors who performed this contribution.",
        "_linkedCategories": [
          "legalPerson"
        ]
      },
-     "role": {
-       "_instruction": "Add the role of the contributor that performed the contribution.",
+     "type": {
+       "_instruction": "Enter the type of contribution.",
        "_linkedTypes": [
          "controlledTerms:ContributionType"
        ]
