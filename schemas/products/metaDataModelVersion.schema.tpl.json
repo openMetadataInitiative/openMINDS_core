@@ -2,7 +2,6 @@
   "_type": "core:MetaDataModelVersion",
   "_extends": "products/researchProductVersion.schema.tpl.json",
   "required": [
-    "license",
     "type"
   ],
   "properties": {
@@ -43,12 +42,6 @@
         "core:MetaDataModel"
       ]
     },
-    "license": {
-      "_instruction": "Add the license of this (meta)data model version.",
-      "_linkedTypes": [
-        "core:License"
-      ]
-    },
     "serializationFormat": {
       "type": "array",
       "minItems": 1,
@@ -72,6 +65,9 @@
       "_linkedTypes": [
         "controlledTerms:MetaDataModelType"
       ]
+    },
+    "usageCondition": {
+      "_instruction": "Add all licenses, copyright or available data usage agreements applicable to this (meta)data model version."
     }
   }
 }

@@ -14,6 +14,14 @@
          "legalPerson"
       ]
     },
+    "notice": {
+      "type": "string",
+      "_instruction": "Enter the statutorily prescribed notice of the claim to ownership."
+    },
+    "rightReservationClause": {
+      "type": "string",
+      "_instruction": "Enter any rights reservation clause, such as 'All rights reserved' or similar declarations regarding retained rights."
+    },
     "year": {
       "type": "array",
       "items": {
@@ -22,7 +30,7 @@
       },
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Enter the year during which the copyright was first asserted and, optionally, later years during which updated versions were published."
+      "_instruction": "Enter the year when the copyright was first asserted, and optionally, any subsequent years when updated versions were released."
     }
   }
 }

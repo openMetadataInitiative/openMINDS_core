@@ -2,8 +2,7 @@
   "_type": "core:ModelVersion",
   "_extends": "products/researchProductVersion.schema.tpl.json",
   "required": [
-    "format",
-    "license"
+    "format"
   ],
   "properties": {
     "configuration": {
@@ -77,15 +76,6 @@
         "core:Model"
       ]
     },
-    "license": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add all licenses of this computational model version.",
-      "_linkedTypes": [
-        "core:License"
-      ]
-    },
     "outputData": {
       "type": "array",
       "minItems": 1,
@@ -97,6 +87,9 @@
         "core:FileBundle",
         "core:WebResource"
       ]
+    },
+    "usageCondition": {
+      "_instruction": "Add all licenses, copyright or available data usage agreements applicable to this computational model version."
     }
   }
 }
