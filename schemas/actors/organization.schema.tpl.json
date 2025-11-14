@@ -10,12 +10,6 @@
     "type"
   ],
   "properties": {
-    "address": {
-      "_instruction": "Enter the physical address of this organization.",
-      "_embeddedTypes": [
-        "core:Location"
-      ]
-    },
     "acronym": {
       "type": "string",
       "_instruction": "Enter the acronym of this organization."
@@ -27,10 +21,10 @@
       },
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Enter any other known full name of this organization."
+      "_instruction": "Enter any other known name or acronym of this organization."
     },
     "countryOfFormation": {
-      "_instruction": "Enter the country where this organization was created.",
+      "_instruction": "Add the country where the organization was formed.",
       "_linkedTypes": [
         "controlledTerms:SovereignState"
       ]
@@ -49,8 +43,8 @@
       "_instruction": "Enter the full name of this organization."
     },
     "location": {
-      "_instruction": "Enter the location of the headquarters of this organization.",
-      "_linkedTypes": [
+      "_instruction": "Add the headquarters location of this organization.",
+      "_embeddedTypes": [
         "core:Location"
       ]
     },
@@ -71,7 +65,7 @@
       "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this organization."
     },
     "jurisdiction": {
-      "_instruction": "Enter the jurisdiction where this organization is based.",
+      "_instruction": "Add the jurisdiction under which the organization operates.",
       "_linkedCategories": [
         "jurisdiction"
       ]
@@ -82,9 +76,9 @@
     },
     "type": {
       "type": "string",
-      "_instruction": "Enter the type of this organization (e.g., company, non-profit organization, government).",
+      "_instruction": "Add the type of this organization (e.g., company, non-profit organization, government).",
       "_embeddedTypes": [
-        "controlledTerms:LegalEntityType"
+        "controlledTerms:OrganizationType"
       ]
     }
   }
