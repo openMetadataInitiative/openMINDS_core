@@ -9,13 +9,13 @@
        "type": "array",
        "minItems": 1,
        "uniqueItems": true,
-       "_instruction": "Add all the contributors who performed this contribution.",
+       "_instruction": "Add all contributors who performed this contribution.",
        "_linkedCategories": [
          "legalPerson"
        ]
      },
      "type": {
-       "_instruction": "Enter the type of contribution.",
+       "_instruction": "Add the type of contribution.",
        "_linkedTypes": [
          "controlledTerms:ContributionType"
        ]
