@@ -8,15 +8,6 @@
         "core:DOI",
         "core:IdentifiersDotOrgID"
       ]
-    },
-    "hasVersion": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add all versions of this dataset.",
-      "_linkedTypes": [
-        "core:DatasetVersion"
-      ]
     }
   }
 }

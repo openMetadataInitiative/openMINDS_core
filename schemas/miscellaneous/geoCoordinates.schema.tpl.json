@@ -1,0 +1,21 @@
+{
+  "_type": "core:GeoCoordinates",
+  "required": [
+    "latitude",
+    "longitude"
+  ],
+  "properties": {
+    "elevation": {
+      "type": "number",
+      "_instruction": "Enter the elevation of the location in metres, following the definitions of the WGS84 system."
+    },
+    "latitude": {
+      "type": "number",
+      "_instruction": "Enter the latitude of the location in decimal degrees, following the definitions of the WGS84 system."
+    },
+    "longitude": {
+      "type": "number",
+      "_instruction": "Enter the longitude of the location in decimal degrees, following the definitions of the WGS84 system."
+    }
+  }
+}

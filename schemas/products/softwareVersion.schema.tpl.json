@@ -70,7 +70,13 @@
         "core:ContentType"
       ]
     },
-    "isAlternativeVersionOf": {
+    "isPrecededBy": {
+      "_instruction": "Add the software version preceding this software version.",
+      "_linkedTypes": [
+        "core:SoftwareVersion"
+      ]
+    },
+    "isVariantOf": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
@@ -79,10 +85,10 @@
         "core:SoftwareVersion"
       ]
     },
-    "isNewVersionOf": {
-      "_instruction": "Add the software version preceding this software version.",
+    "isVersionOf": {
+      "_instruction": "Add the version-independent information about this software.",
       "_linkedTypes": [
-        "core:SoftwareVersion"
+        "core:Software"
       ]
     },
     "language": {
