@@ -19,7 +19,7 @@
     "funder": {
       "_instruction": "Add the party that provided this funding.",
       "_linkedCategories": [
-        "legalPerson"
+        "actor"
       ]
     }
   }
