@@ -6,7 +6,7 @@
   ],
   "required": [
     "countryOfFormation",
-    "fullName",
+    "name",
     "type"
   ],
   "properties": {
