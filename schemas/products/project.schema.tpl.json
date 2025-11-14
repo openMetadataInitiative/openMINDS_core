@@ -13,7 +13,7 @@
       "uniqueItems": true,
       "_instruction": "Add all parties that coordinate this project.",
       "_linkedCategories": [
-        "legalPerson"
+        "actor"
       ]
     },
     "description": {
