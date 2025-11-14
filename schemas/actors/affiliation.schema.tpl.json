@@ -6,7 +6,7 @@
   ],
   "properties": {
     "person": {
-      "_instruction": "Add the person who is affiliated with the organizations",
+      "_instruction": "Add the individual to whom this affiliation belongs.",
       "_linkedTypes": [
         "core:Person"
       ]
@@ -15,7 +15,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all the organizations that the person is affiliated with",
+      "_instruction": "Add all organizations (in display order) with which the specified individual is affiliated.",
       "_linkedTypes": [
         "core:Organization"
       ]
