@@ -14,7 +14,7 @@
       },
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Enter the email address of the party (e.g., of the person)."
+      "_instruction": "Enter all relevant contact email addresses."
     }
   }
 }
