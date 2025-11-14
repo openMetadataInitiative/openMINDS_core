@@ -38,10 +38,6 @@
         "organizationIdentifier"
       ]
     },
-    "fullName": {
-      "type": "string",
-      "_instruction": "Enter the full name of this organization."
-    },
     "location": {
       "_instruction": "Add the headquarters location of this organization.",
       "_embeddedTypes": [
@@ -70,9 +66,9 @@
         "jurisdiction"
       ]
     },
-    "shortName": {
+    "name": {
       "type": "string",
-      "_instruction": "Enter a short name (or alias) for this organization that could be used as a shortened display title (e.g., for web services with too little space to display the full name)."
+      "_instruction": "Enter the organization’s preferred name for use in international contexts."
     },
     "type": {
       "type": "string",
