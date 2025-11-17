@@ -14,13 +14,9 @@
          "legalPerson"
       ]
     },
-    "notice": {
-      "type": "string",
-      "_instruction": "Enter the statutorily prescribed notice of the claim to ownership."
-    },
     "rightReservationClause": {
       "type": "string",
-      "_instruction": "Enter any rights reservation clause, such as 'All rights reserved' or similar declarations regarding retained rights."
+      "_instruction": "Enter a statement describing the usage rights, such as 'All rights reserved.'."
     },
     "year": {
       "type": "array",
@@ -30,7 +26,7 @@
       },
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Enter the year when the copyright was first asserted, and optionally, any subsequent years when updated versions were released."
+      "_instruction": "Enter the year when the copyright was first asserted, and optionally any subsequent years when the copyright holder and/or the rights-reservation clause was updated."
     }
   }
 }
