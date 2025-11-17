@@ -14,7 +14,7 @@
          "legalPerson"
       ]
     },
-    "rightReservationClause": {
+    "rightsReservationClause": {
       "type": "string",
       "_instruction": "Enter a statement describing the usage rights, such as 'All rights reserved.'."
     },
