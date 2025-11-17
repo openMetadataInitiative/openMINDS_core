@@ -34,13 +34,13 @@
         "jurisdiction"
       ]
     },
-    "modificationRights": {
+    "modificationClause": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add all the types of modifications that are allowed under this usage agreement.",
       "_linkedTypes": [
-        "controlledTerms:ModificationRights"
+        "controlledTerms:ModificationClause"
       ]
     },
     "shortName": {
