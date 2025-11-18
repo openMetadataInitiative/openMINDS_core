@@ -23,7 +23,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Enter the organization issuing this usage agreement.",
+      "_instruction": "Add all natural persons and legal entities responsible for creating and establishing this usage agreement.",
       "_linkedCategories": [
         "legalPerson"
       ]
