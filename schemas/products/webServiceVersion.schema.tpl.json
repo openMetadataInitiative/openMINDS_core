@@ -49,9 +49,6 @@
       "_linkedTypes": [
         "core:ContentType"
       ]
-    },
-    "usageCondition": {
-      "_instruction": "Add all licenses, copyright or available data usage agreements applicable to this web service version."
     }
   }
 }

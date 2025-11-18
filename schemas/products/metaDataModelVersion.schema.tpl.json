@@ -65,9 +65,6 @@
       "_linkedTypes": [
         "controlledTerms:MetaDataModelType"
       ]
-    },
-    "usageCondition": {
-      "_instruction": "Add all licenses, copyright or available data usage agreements applicable to this (meta)data model version."
     }
   }
 }

@@ -134,9 +134,6 @@
       "items": {
         "type": "string"
       }
-    },
-    "usageCondition": {
-      "_instruction": "Add all licenses, copyright or available data usage agreements applicable to this software version."
     }
   }
 }
