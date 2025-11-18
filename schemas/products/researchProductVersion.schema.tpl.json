@@ -74,6 +74,15 @@
         "keyword"
       ]
     },
+    "otherContribution": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add any other contributions to this research product version that are not covered under 'author'/'developer' or 'custodian'.",
+      "_embeddedTypes": [
+        "core:Contribution"
+      ]
+    },
     "relatedPublication": {
       "type": "array",
       "minItems": 1,
