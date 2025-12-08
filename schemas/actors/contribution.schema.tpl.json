@@ -11,7 +11,7 @@
        "uniqueItems": true,
        "_instruction": "Add all contributors who performed this contribution.",
        "_linkedCategories": [
-         "legalPerson"
+         "actor"
        ]
      },
      "type": {
