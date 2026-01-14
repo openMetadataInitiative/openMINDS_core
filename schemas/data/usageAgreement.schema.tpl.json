@@ -52,9 +52,8 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all licenses, copyright or usage agreements that served as references in the creation of this usage agreement.",
+      "_instruction": "Add all licenses or usage agreements that served as references in the creation of this usage agreement.",
       "_linkedTypes": [
-        "core:Copyright",
         "core:License",
         "core:UsageAgreement"
       ]
