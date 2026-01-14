@@ -132,7 +132,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all licenses or available data usage agreements applicable to this product version. Inherited by all product versions unless overridden at the version level.",
+      "_instruction": "Add all licenses and available data usage agreements applicable to this product version. Inherited by all product versions unless overridden at the version level.",
       "_linkedTypes": [
         "core:License",
         "core:UsageAgreement"
