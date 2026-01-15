@@ -24,7 +24,7 @@
       "uniqueItems": true,
       "_instruction": "Add all entities that defined which files were grouped into this file bundle. Note that the schema types of the instances stated here, need to match the ones stated under 'groupingType'.",
       "_linkedCategories": [
-        "coordinateSpace",
+        "coordinateFramework",
         "fileOrigin",
         "studyTarget"
       ]
