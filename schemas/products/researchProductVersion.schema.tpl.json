@@ -15,7 +15,7 @@
     "accessibility": {
       "_instruction": "Add the accessibility of the data for this research product version.",
       "_linkedTypes": [
-        "controlledTerms:ProductAccessibility"
+        "core:Accessibility"
       ]
     },
     "copyright": {

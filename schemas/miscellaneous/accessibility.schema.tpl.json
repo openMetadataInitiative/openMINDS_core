@@ -1,0 +1,41 @@
+{
+  "_type": "core:Accessibility",
+  "required": [
+    "mode",
+    "process",
+    "publicationStatus",
+    "type"
+  ],
+  "properties": {
+    "mode": {
+      "_instruction": "Add the mode through which the research product can be accessed.",
+      "_linkedTypes": [
+        "controlledTerms:AccessMode"
+      ]
+    },
+    "payment": {
+      "_instruction": "Add the payment model associated with accessing the research product.",
+      "_linkedTypes": [
+        "controlledTerms:PaymentModel"
+      ]
+    },
+    "process": {
+      "_instruction": "Add the process required to gain access to the research product.",
+      "_linkedTypes": [
+        "controlledTerms:AccessProcessType"
+      ]
+    },
+    "publicationStatus": {
+      "_instruction": "Add the publication status of the research product.",
+      "_linkedTypes": [
+        "controlledTerms:PublicationStatus"
+      ]
+    },
+    "type": {
+      "_instruction": "Add the type of access granted to the research product.",
+      "_linkedTypes": [
+        "controlledTerms:AccessType"
+      ]
+    }
+  }
+}
