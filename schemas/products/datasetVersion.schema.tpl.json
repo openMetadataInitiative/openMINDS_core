@@ -69,13 +69,19 @@
         "core:File",
         "core:FileBundle",
         "core:WebResource",
-        "https://openminds.ebrains.eu/sands/BrainAtlas",
-        "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+        "https://openminds.ebrains.eu/sands/AnatomicalAtlas",
+        "https://openminds.ebrains.eu/sands/AnatomicalAtlasVersion",
+        "https://openminds.ebrains.eu/sands/CommonCoordinateFramework",
+        "https://openminds.ebrains.eu/sands/CommonCoordinateFrameworkVersion"
       ]
     },
-    "isAlternativeVersionOf": {
+    "isPrecededBy": {
+      "_instruction": "Add the dataset version preceding this dataset version.",
+      "_linkedTypes": [
+        "core:DatasetVersion"
+      ]
+    },
+    "isVariantOf": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
@@ -84,10 +90,10 @@
         "core:DatasetVersion"
       ]
     },
-    "isNewVersionOf": {
-      "_instruction": "Add the dataset version preceding this dataset version.",
+    "isVersionOf": {
+      "_instruction": "Add the version-independent information about this dataset.",
       "_linkedTypes": [
-        "core:DatasetVersion"
+        "core:Dataset"
       ]
     },
     "license": {
@@ -97,6 +103,7 @@
         "core:WebResource"
       ]
     },
+
     "preparationDesign": {
       "type": "array",
       "minItems": 1,
