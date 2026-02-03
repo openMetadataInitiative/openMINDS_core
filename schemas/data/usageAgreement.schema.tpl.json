@@ -28,13 +28,6 @@
         "jurisdiction"
       ]
     },
-    "mainContact": {
-      "type": "string",
-      "_formats": [
-        "email"
-      ],
-      "_instruction": "Enter the email address of the party authoring this usage agreement."
-    },
     "modificationClause": {
       "type": "array",
       "minItems": 1,
@@ -57,6 +50,19 @@
         "core:License",
         "core:UsageAgreement"
       ]
+    },
+    "supportChannel": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Enter all channels through which users can obtain support and initiate negotiations regarding this usage agreement with the authoring party.",
+      "items": {
+        "type": "string",
+        "_formats": [
+          "email",
+          "iri"
+        ]
+      }
     },
     "template": {
       "_instruction": "Add the web resource that supplies the template for this usage agreement.",
