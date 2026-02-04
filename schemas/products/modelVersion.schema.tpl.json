@@ -2,8 +2,7 @@
   "_type": "core:ModelVersion",
   "_extends": "products/researchProductVersion.schema.tpl.json",
   "required": [
-    "format",
-    "license"
+    "format"
   ],
   "properties": {
     "configuration": {
@@ -75,15 +74,6 @@
       "_instruction": "Add the version-independent information about this model.",
       "_linkedTypes": [
         "core:Model"
-      ]
-    },
-    "license": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add all licenses of this computational model version.",
-      "_linkedTypes": [
-        "core:License"
       ]
     },
     "outputData": {
