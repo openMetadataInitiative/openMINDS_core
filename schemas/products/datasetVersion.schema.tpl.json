@@ -4,7 +4,7 @@
   "required": [    
     "dataType",
     "digitalIdentifier",
-    "ethicsAssessment",
+    "ethicsJurisdiction",
     "experimentalApproach",
     "technique"
   ],
@@ -43,10 +43,10 @@
         "core:IdentifiersDotOrgID"
       ]
     },
-    "ethicsAssessment": {
-      "_instruction": "Add the result of the ethics assessment of this dataset version.",
-      "_linkedTypes": [
-        "controlledTerms:EthicsAssessment"
+    "ethicsJurisdiction": {
+      "_instruction": "Add the jurisdiction under which the ethics assessment of this dataset version was conducted.",
+      "_linkedCategories": [
+        "jurisdiction"
       ]
     },
     "experimentalApproach": {
