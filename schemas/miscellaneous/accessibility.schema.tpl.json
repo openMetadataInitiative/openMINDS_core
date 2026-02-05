@@ -10,13 +10,13 @@
     "mode": {
       "_instruction": "Add the mode through which the research product can be accessed.",
       "_linkedTypes": [
-        "controlledTerms:AccessModeType"
+        "controlledTerms:AccessMode"
       ]
     },
     "payment": {
       "_instruction": "Add the payment model associated with accessing the research product.",
       "_linkedTypes": [
-        "controlledTerms:PaymentModel"
+        "controlledTerms:PaymentModelType"
       ]
     },
     "process": {
