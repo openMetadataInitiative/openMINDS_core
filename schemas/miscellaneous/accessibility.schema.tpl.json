@@ -1,40 +1,41 @@
 {
   "_type": "core:Accessibility",
   "required": [
-    "mode",
+    "channel",
+    "eligibility",
+    "form",
     "process",
-    "publicationStatus",
-    "type"
+    "paymentModel"
   ],
   "properties": {
-    "mode": {
-      "_instruction": "Add the mode through which the research product can be accessed.",
+    "channel": {
+      "_instruction": "Add the relevant access channel indicating where access takes place (physical, virtual, or hybrid).",
       "_linkedTypes": [
-        "controlledTerms:AccessMode"
+        "controlledTerms:AccessChannel"
       ]
     },
-    "payment": {
-      "_instruction": "Add the payment model associated with accessing the research product.",
+    "eligibility": {
+      "_instruction": "Add the relevant access eligibility type indicating who is allowed to access (open, controlled, or restricted).",
       "_linkedTypes": [
-        "controlledTerms:PaymentModelType"
+        "controlledTerms:AccessEligibilityType"
+      ]
+    },
+    "form": {
+      "_instruction": "Add the relevant access form indicating whether the user interacts directly or through mediation.",
+      "_linkedTypes": [
+        "controlledTerms:AccessForm"
       ]
     },
     "process": {
-      "_instruction": "Add the process required to gain access to the research product.",
+      "_instruction": "Add the relevant access process type indicating how access is granted (immediate, registered, authenticated, provider-approved, or committee-approved).",
       "_linkedTypes": [
         "controlledTerms:AccessProcessType"
       ]
     },
-    "publicationStatus": {
-      "_instruction": "Add the publication status of the research product.",
+    "paymentModel": {
+      "_instruction": "Add all relevant payment model types indicating how access costs are determined. If no payment is requires, select zero-cost payment model.",
       "_linkedTypes": [
-        "controlledTerms:PublicationStatus"
-      ]
-    },
-    "type": {
-      "_instruction": "Add the type of access granted to the research product.",
-      "_linkedTypes": [
-        "controlledTerms:AccessType"
+        "controlledTerms:PaymentModelType"
       ]
     }
   }
