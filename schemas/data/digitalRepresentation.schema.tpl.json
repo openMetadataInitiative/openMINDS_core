@@ -1,5 +1,5 @@
 {
-  "_type": "neuroimaging:DigitalRepresentation",
+  "_type": "core:DigitalRepresentation",
   "required": [
     "dataLocation",
     "coordinateSpace"
