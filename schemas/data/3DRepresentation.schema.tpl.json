@@ -1,0 +1,32 @@
+{
+  "_extends": "digitalRepresentation.schema.tpl.json",
+  "_type": "core:3DRepresentation",
+  "required": [
+    "voxelSize",
+    "dimension"
+    ],
+  "properties": {
+    "dimension": {
+      "_instruction": "Enter the dimension of this volume.",
+      "items": {
+        "type": "integer"
+      },
+      "maxItems": 3,
+      "minItems": 3,
+      "type": "array"
+    },
+    "numberOfSlices": {
+      "_instruction": "Enter number of slices in this volume.",
+      "type": "integer"
+    },
+    "voxelSize": {
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ],
+      "_instruction": "Enter the physical voxel size for this image (in x,y,z order).",
+      "maxItems": 3,
+      "minItems": 3,
+      "type": "array"
+    }
+  }
+}
