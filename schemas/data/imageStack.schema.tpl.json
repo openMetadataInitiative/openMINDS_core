@@ -1,0 +1,20 @@
+{
+  "_extends": "rasterImage.schema.tpl.json",
+  "_type": "core:ImageStack",
+  "required": [
+    "sliceThickness"
+  ],
+  "properties": {
+    "numberOfImages": {
+      "_instruction": "Enter the total number of images in this stack (at least two).",
+      "minimum": 2,
+      "type": "integer"
+    },
+    "sliceThickness": {
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ],
+      "_instruction": "Enter the thickness of each image slice in the stack."
+    }
+  }
+}
