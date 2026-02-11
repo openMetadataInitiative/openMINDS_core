@@ -27,7 +27,7 @@
       ]
     },
     "process": {
-      "_instruction": "Add the relevant access process type indicating how access is granted (immediate, registered, authenticated, provider-approved, or committee-approved).",
+      "_instruction": "Add the relevant access process type indicating how access is granted (immediate, registered, authenticated, or authorized).",
       "_linkedTypes": [
         "controlledTerms:AccessProcessType"
       ]
