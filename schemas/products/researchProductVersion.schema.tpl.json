@@ -15,7 +15,7 @@
     "accessibility": {
       "_instruction": "Add the accessibility of the data for this research product version.",
       "_linkedTypes": [
-        "controlledTerms:ProductAccessibility"
+        "core:Accessibility"
       ]
     },
     "custodian": {
@@ -86,6 +86,12 @@
       "_instruction": "Add any other contributions to this research product version that are not covered under 'author'/'developer' or 'custodian'.",
       "_embeddedTypes": [
         "core:Contribution"
+      ]
+    },
+    "publicationStatus": {
+      "_instruction": "Add the relevant publication status indicating the current lifecycle state of the resource (published, embargoed, disposed, retracted, etc.).",
+      "_linkedTypes": [
+        "core:PublicationStatus"
       ]
     },
     "relatedPublication": {
