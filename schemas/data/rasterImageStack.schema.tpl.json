@@ -3,6 +3,8 @@
   "required": [
     "coordinateFramework",
     "dataLocation",
+    "dimension",
+    "pixelSize",
     "z-stepSize"
   ],
   "properties": {
