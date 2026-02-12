@@ -9,7 +9,6 @@
     "device",
     "feature",
     "language",
-    "license",
     "operatingSystem",
     "programmingLanguage"
   ],
@@ -57,8 +56,8 @@
       "_linkedTypes": [
         "core:ModelVersion",
         "core:SoftwareVersion",
-        "sands:BrainAtlasVersion",
-        "sands:CommonCoordinateSpaceVersion"
+        "sands:AnatomicalAtlasVersion",
+        "sands:CommonCoordinateFrameworkVersion"
       ]
     },
     "inputFormat": {
@@ -100,15 +99,6 @@
         "controlledTerms:Language"
       ]
     },
-    "license": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add all licenses of this software version.",
-      "_linkedTypes": [
-        "core:License"
-      ]
-    },
     "operatingSystem": {
       "type": "array",
       "minItems": 1,
@@ -135,7 +125,7 @@
       "_linkedTypes": [
         "controlledTerms:ProgrammingLanguage"
       ]
-    },    
+    },
     "requirement": {
       "type": "array",
       "minItems": 1,

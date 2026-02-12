@@ -4,9 +4,8 @@
   "required": [    
     "dataType",
     "digitalIdentifier",
-    "ethicsAssessment",
+    "ethicsJurisdiction",
     "experimentalApproach",
-    "license",
     "technique"
   ],
   "properties": {
@@ -18,7 +17,7 @@
       "_linkedTypes": [
         "core:BehavioralProtocol"
       ]
-    },    
+    },
     "dataType": {
       "type": "array",
       "minItems": 1,
@@ -35,10 +34,10 @@
         "core:IdentifiersDotOrgID"
       ]
     },
-    "ethicsAssessment": {
-      "_instruction": "Add the result of the ethics assessment of this dataset version.",
-      "_linkedTypes": [
-        "controlledTerms:EthicsAssessment"
+    "ethicsJurisdiction": {
+      "_instruction": "Add the jurisdiction under which the ethics assessment of this dataset version was conducted.",
+      "_linkedCategories": [
+        "jurisdiction"
       ]
     },
     "experimentalApproach": {
@@ -49,7 +48,7 @@
       "_linkedTypes": [
         "controlledTerms:ExperimentalApproach"
       ]
-    }, 
+    },
     "inputData": {
       "type": "array",
       "minItems": 1,
@@ -60,10 +59,10 @@
         "core:File",
         "core:FileBundle",
         "core:WebResource",
-        "sands:BrainAtlas",
-        "sands:BrainAtlasVersion",
-        "sands:CommonCoordinateSpace",
-        "sands:CommonCoordinateSpaceVersion"
+        "sands:AnatomicalAtlas",
+        "sands:AnatomicalAtlasVersion",
+        "sands:CommonCoordinateFramework",
+        "sands:CommonCoordinateFrameworkVersion"
       ]
     },
     "isPrecededBy": {
@@ -87,14 +86,6 @@
         "core:Dataset"
       ]
     },
-    "license": {
-      "_instruction": "Add the license or an online available data usage agreement for this dataset version.",
-      "_linkedTypes": [
-        "core:License",
-        "core:WebResource"
-      ]
-    },
-
     "preparationDesign": {
       "type": "array",
       "minItems": 1,
@@ -133,7 +124,7 @@
       "_linkedCategories": [
         "studyTarget"
       ]
-    },    
+    },
     "technique": {
       "type": "array",
       "minItems": 1,

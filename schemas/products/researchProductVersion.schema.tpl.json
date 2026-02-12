@@ -16,13 +16,7 @@
     "accessibility": {
       "_instruction": "Add the accessibility of the data for this research product version.",
       "_linkedTypes": [
-        "controlledTerms:ProductAccessibility"
-      ]
-    },
-    "copyright": {
-      "_instruction": "Enter the copyright information of this research product version.",
-      "_embeddedTypes": [
-        "core:Copyright"
+        "core:Accessibility"
       ]
     },
     "contribution": {
@@ -69,7 +63,7 @@
         "core:Funding"
       ]
     },
-    "homepage": {      
+    "homepage": {
       "type": "string",
       "_formats": [
         "iri"
@@ -81,8 +75,8 @@
       "_instruction": "Enter the preferred citation text for this research product version. Leave blank if citation text can be extracted from the assigned digital identifier."
     },
     "keyword": {
-      "type": "array",      
-      "minItems": 1, 
+      "type": "array",
+      "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add all relevant keywords to this research product version either by adding controlled terms or by suggesting new terms.",
       "_linkedCategories": [
@@ -117,7 +111,7 @@
     },
     "supportChannel": {
       "type": "array",
-      "minItems": 1, 
+      "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Enter all channels through which a user can receive support for handling this research product version.",
       "items": {
@@ -127,6 +121,16 @@
           "iri"
         ]
       }
+    },
+    "usageCondition": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all licenses and available data usage agreements applicable to this product version. Inherited by all product versions unless overridden at the version level.",
+      "_linkedTypes": [
+        "core:License",
+        "core:UsageAgreement"
+      ]
     },
     "versionIdentifier": {
       "type": "string",
