@@ -1,8 +1,10 @@
 {
   "_type": "core:RasterImageSequence",
   "required": [
-    "coordinateSpace",
+    "coordinateFramework",
     "dataLocation",
+    "dimension",
+    "pixelSize",
     "temporalSamplingFrequency"
   ],
   "properties": {
@@ -16,7 +18,7 @@
         "deviceUsage"
       ]
     },
-    "coordinateSpace": {
+    "coordinateFramework": {
       "_instruction": "Add the coordinate space in which this digital representation exists.",
       "_linkedTypes": [
         "sands:CommonCoordinateFrameworkVersion",
