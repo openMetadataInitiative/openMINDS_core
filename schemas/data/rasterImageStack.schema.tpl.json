@@ -48,8 +48,8 @@
       "_instruction": "Enter a lookup label for this digital representation that may help you to find this instance more easily.",
       "type": "string"
     },
-    "numberOfImages": {
-      "_instruction": "Enter the total number of images in this stack (at least two).",
+    "numberOfImagePlanes": {
+      "_instruction": "Enter the total number of consecutive image planes (optical sections) in this stack (at least two).",
       "minimum": 2,
       "type": "integer"
     },
