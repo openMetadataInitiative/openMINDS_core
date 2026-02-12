@@ -57,7 +57,7 @@
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ],
-      "_instruction": "Enter the physical pixel size for this image (in x,y order).",
+      "_instruction": "Enter the common physical pixel size for the consecutive image planes (optical sections) (in x,y order).",
       "maxItems": 2,
       "minItems": 2,
       "type": "array"
