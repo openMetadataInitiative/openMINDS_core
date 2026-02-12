@@ -1,4 +1,4 @@
 {
-  "_extends": "rasterImage.schema.tpl.json",
+  "_extends": "data/rasterImage.schema.tpl.json",
   "_type": "core:Image"
 }
