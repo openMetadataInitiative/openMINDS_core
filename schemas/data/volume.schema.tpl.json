@@ -1,4 +1,4 @@
 {
-  "_extends": "3DRepresentation.schema.tpl.json",
+  "_extends": "data/3DRepresentation.schema.tpl.json",
   "_type": "core:Volume"
 }
