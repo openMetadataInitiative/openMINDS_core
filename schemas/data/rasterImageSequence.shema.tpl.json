@@ -34,7 +34,7 @@
       "type": "string"
     },
     "dimension": {
-      "_instruction": "Enter the dimension of this image in pixels.",
+      "_instruction": "Enter the common dimension of the consecutive images (frames) in pixels.",
       "items": {
         "type": "integer"
       },
