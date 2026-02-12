@@ -31,10 +31,6 @@
         "core:File"
       ]
     },
-    "description": {
-      "_instruction": "Add the location of the file or file bundle in which the digital representation is stored.",
-      "type": "string"
-    },
     "dimension": {
       "_instruction": "Enter the common dimension of the consecutive image planes (optical sections) in pixels.",
       "items": {
@@ -44,8 +40,8 @@
       "minItems": 2,
       "type": "array"
     },
-    "lookupLabel": {
-      "_instruction": "Enter a lookup label for this digital representation that may help you to find this instance more easily.",
+    "name": {
+      "_instruction": "Enter a descriptive name of this digital representation preferably matching the filename.",
       "type": "string"
     },
     "numberOfImages": {
