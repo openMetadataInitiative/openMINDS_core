@@ -47,7 +47,7 @@
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ],
-      "_instruction": "Enter the rate at which consecutive images (frames) are captured in a sequence, usually measured in frames per second (fps) or Hertz (Hz)."
+      "_instruction": "Enter the rate at which consecutive images (frames) are captured in a sequence, preferably measured in Hertz (Hz)."
     }
   }
 }
