@@ -19,12 +19,6 @@
         "core:Accessibility"
       ]
     },
-    "copyright": {
-      "_instruction": "Enter the copyright information of this research product version.",
-      "_embeddedTypes": [
-        "core:Copyright"
-      ]
-    },
     "contribution": {
       "type": "array",
       "minItems": 1,
@@ -41,6 +35,12 @@
       "_instruction": "Add all affiliations for the individual contributors to this research product version. If provided, these values override the inherited values from the version-independent product.",
       "_embeddedTypes": [
         "core:Affiliation"
+      ]
+    },
+    "copyright": {
+      "_instruction": "Enter the copyright information of this research product version.",
+      "_embeddedTypes": [
+        "core:Copyright"
       ]
     },
     "description": {
