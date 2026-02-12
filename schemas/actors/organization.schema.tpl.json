@@ -71,7 +71,7 @@
       "_instruction": "Enter the organization’s preferred name for use in international contexts."
     },
     "type": {
-      "_instruction": "Add the type of this organization (e.g., company, non-profit organization, government).",
+      "_instruction": "Add the type of this organization (legal entity or organizational unit).",
       "_embeddedTypes": [
         "controlledTerms:OrganizationType"
       ]
