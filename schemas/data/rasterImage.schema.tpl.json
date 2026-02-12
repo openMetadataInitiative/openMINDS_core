@@ -17,7 +17,7 @@
         "deviceUsage"
       ]
     },
-    "coordinateSpace": {
+    "coordinateFramework": {
       "_instruction": "Add the coordinate space in which this digital representation exists.",
       "_linkedTypes": [
         "sands:CommonCoordinateSpace",
