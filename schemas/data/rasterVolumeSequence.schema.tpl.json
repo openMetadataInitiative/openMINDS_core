@@ -3,7 +3,9 @@
   "required": [
     "coordinateSpace",
     "dataLocation",
-    "temporalSamplingFrequency"
+    "dimension",
+    "temporalSamplingFrequency",
+    "voxelSize"
   ],
   "properties": {
     "additionalRemarks": {
