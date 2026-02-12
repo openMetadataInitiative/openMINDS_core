@@ -3,7 +3,7 @@
   "required": [
     "coordinateSpace",
     "dataLocation",
-    "sliceThickness"
+    "z-stepSize"
   ],
   "properties": {
     "additionalRemarks": {
@@ -42,11 +42,11 @@
       "minimum": 2,
       "type": "integer"
     },
-    "sliceThickness": {
+    "z-stepSize": {
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ],
-      "_instruction": "Enter the thickness of each image slice in the stack."
+      "_instruction": "Enter the physical axial distance between consecutive image planes (optical sections) within this image stack."
     }
   }
 }
