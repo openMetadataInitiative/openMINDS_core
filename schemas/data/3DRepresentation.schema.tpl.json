@@ -1,5 +1,5 @@
 {
-  "_extends": "digitalRepresentation.schema.tpl.json",
+  "_extends": "data/digitalRepresentation.schema.tpl.json",
   "_type": "core:3DRepresentation",
   "required": [
     "voxelSize",
