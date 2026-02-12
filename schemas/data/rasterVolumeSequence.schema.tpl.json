@@ -53,8 +53,8 @@
       "minimum": 2,
       "type": "integer"
     },
-    "numberOfSlices": {
-      "_instruction": "Enter number of slices in this volume.",
+    "numberOfPlanes": {
+      "_instruction": "Enter number of planes in this volume.",
       "type": "integer"
     },
     "temporalSamplingFrequency": {
