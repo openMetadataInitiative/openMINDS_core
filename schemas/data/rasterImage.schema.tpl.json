@@ -1,7 +1,7 @@
 {
   "_type": "core:RasterImage",
   "required": [
-    "coordinateSpace",
+    "coordinateFramework",
     "dataLocation",
     "dimension",
     "pixelSize"
