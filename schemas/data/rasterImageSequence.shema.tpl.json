@@ -21,7 +21,6 @@
       "_linkedTypes": [
         "sands:CommonCoordinateSpace",
         "sands:CustomCoordinateSpace"
-
       ]
     },
     "dataLocation": {
@@ -34,6 +33,15 @@
       "_instruction": "Add the location of the file or file bundle in which the digital representation is stored.",
       "type": "string"
     },
+    "dimension": {
+      "_instruction": "Enter the dimension of this image in pixels.",
+      "items": {
+        "type": "integer"
+      },
+      "maxItems": 2,
+      "minItems": 2,
+      "type": "array"
+    },
     "lookupLabel": {
       "_instruction": "Enter a lookup label for this digital representation that may help you to find this instance more easily.",
       "type": "string"
@@ -42,6 +50,15 @@
       "_instruction": "Enter the total number of images in this sequence (at least two).",
       "minimum": 2,
       "type": "integer"
+    },
+    "pixelSize": {
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ],
+      "_instruction": "Enter the physical pixel size for this image (in x,y order).",
+      "maxItems": 2,
+      "minItems": 2,
+      "type": "array"
     },
     "temporalSamplingFrequency": {
       "_embeddedTypes": [
