@@ -3,7 +3,7 @@
   "required": [
     "coordinateSpace",
     "dataLocation",
-    "frequency"
+    "temporalSamplingFrequency"
   ],
   "properties": {
     "additionalRemarks": {
