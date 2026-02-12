@@ -42,11 +42,11 @@
       "minItems": 3,
       "type": "array"
     },
-    "frequency": {
+    "temporalSamplingFrequency": {
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ],
-      "_instruction": "Enter the temporal resolution of this sequence."
+      "_instruction": "Enter the rate at which consecutive images (frames) are captured in a sequence, preferably measured in Hertz (Hz)."
     },
     "lookupLabel": {
       "_instruction": "Enter a lookup label for this digital representation that may help you to find this instance more easily.",
