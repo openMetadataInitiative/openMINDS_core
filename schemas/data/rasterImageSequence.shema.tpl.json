@@ -1,0 +1,69 @@
+{
+  "_type": "core:RasterImageSequence",
+  "required": [
+    "coordinateFramework",
+    "dataLocation",
+    "dimension",
+    "pixelSize",
+    "temporalSamplingFrequency"
+  ],
+  "properties": {
+    "additionalRemarks": {
+      "_instruction": "Enter any additional remarks concerning this digital representation.",
+      "type": "string"
+    },
+    "capturedWith": {
+      "_instruction": "Add the device used to capture this digital representation.",
+      "_linkedCategories": [
+        "deviceUsage"
+      ]
+    },
+    "coordinateFramework": {
+      "_instruction": "Add the coordinate space in which this digital representation exists.",
+      "_linkedTypes": [
+        "sands:CommonCoordinateFrameworkVersion",
+        "sands:CustomCoordinateFramework"
+      ]
+    },
+    "dataLocation": {
+      "_instruction": "Add the location of the file or file bundle in which the digital representation is stored.",
+      "_linkedTypes": [
+        "core:File"
+      ]
+    },
+    "dimension": {
+      "_instruction": "Enter the common dimension of the consecutive images (frames) in pixels.",
+      "items": {
+        "type": "integer"
+      },
+      "maxItems": 2,
+      "minItems": 2,
+      "type": "array"
+    },
+    "name": {
+      "_instruction": "Enter a descriptive name of this digital representation preferably matching the filename.",
+      "type": "string"
+    },
+    "numberOfImages": {
+      "_instruction": "Enter the total number of images in this sequence (at least two).",
+      "minimum": 2,
+      "type": "integer"
+    },
+    "pixelSize": {
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ],
+      "_instruction": "Enter the common physical pixel size for the consecutive images (frames) (in x,y order).",
+      "maxItems": 2,
+      "minItems": 2,
+      "type": "array"
+    },
+    "temporalSamplingFrequency": {
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ],
+      "_instruction": "Enter the rate at which consecutive images (frames) are captured in a sequence, preferably measured in Hertz (Hz)."
+    }
+  }
+}
+
