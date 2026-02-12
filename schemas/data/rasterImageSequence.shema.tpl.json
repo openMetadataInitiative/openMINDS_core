@@ -43,11 +43,11 @@
       "minimum": 2,
       "type": "integer"
     },
-    "frequency": {
+    "temporalSamplingFrequency": {
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ],
-      "_instruction": "Enter the temporal resolution of this sequence."
+      "_instruction": "Enter the rate at which consecutive images (frames) are captured in a sequence, usually measured in frames per second (fps) or Hertz (Hz)."
     }
   }
 }
