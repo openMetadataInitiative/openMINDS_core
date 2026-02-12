@@ -48,13 +48,13 @@
       "_instruction": "Enter a lookup label for this digital representation that may help you to find this instance more easily.",
       "type": "string"
     },
+    "numberOfPlanes": {
+      "_instruction": "Enter number of planes in this volume.",
+      "type": "integer"
+    },
     "numberOfVolumes": {
       "_instruction": "Enter the total number of volumes in this volume sequence (at least two).",
       "minimum": 2,
-      "type": "integer"
-    },
-    "numberOfPlanes": {
-      "_instruction": "Enter number of planes in this volume.",
       "type": "integer"
     },
     "temporalSamplingFrequency": {
