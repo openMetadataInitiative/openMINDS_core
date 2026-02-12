@@ -25,6 +25,12 @@
         "core:Copyright"
       ]
     },
+    "copyright": {
+      "_instruction": "Enter the copyright information of this research product version.",
+      "_embeddedTypes": [
+        "core:Copyright"
+      ]
+    },
     "contribution": {
       "type": "array",
       "minItems": 1,
@@ -87,6 +93,12 @@
       "_instruction": "Add all relevant keywords to this research product version either by adding controlled terms or by suggesting new terms.",
       "_linkedCategories": [
         "keyword"
+      ]
+    },
+    "publicationStatus": {
+      "_instruction": "Add the relevant publication status indicating the current lifecycle state of the resource (published, embargoed, disposed, retracted, etc.).",
+      "_linkedTypes": [
+        "core:PublicationStatus"
       ]
     },
     "relatedPublication": {
