@@ -36,7 +36,7 @@
       "type": "string"
     },
     "dimension": {
-      "_instruction": "Enter the dimension of this image in pixels.",
+      "_instruction": "Enter the common dimension of the consecutive image planes (optical sections) in pixels.",
       "items": {
         "type": "integer"
       },
