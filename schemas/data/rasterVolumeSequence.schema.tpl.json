@@ -1,7 +1,7 @@
 {
   "_type": "core:RasterVolumeSequence",
   "required": [
-    "coordinateSpace",
+    "coordinateFramework",
     "dataLocation",
     "dimension",
     "temporalSamplingFrequency",
@@ -18,11 +18,11 @@
         "deviceUsage"
       ]
     },
-    "coordinateSpace": {
+    "coordinateFramework": {
       "_instruction": "Add the coordinate space in which this digital representation exists.",
       "_linkedTypes": [
-        "sands:CommonCoordinateSpace",
-        "sands:CustomCoordinateSpace"
+        "sands:CommonCoordinateFrameworkVersion",
+        "sands:CustomCoordinateFramework"
       ]
     },
     "dataLocation": {
