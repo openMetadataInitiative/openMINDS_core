@@ -1,7 +1,7 @@
 {
   "_type": "core:RasterImageStack",
   "required": [
-    "coordinateSpace",
+    "coordinateFramework",
     "dataLocation",
     "z-stepSize"
   ],
