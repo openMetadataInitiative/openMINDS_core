@@ -1,0 +1,74 @@
+{
+  "_type": "core:RasterVolumeSequence",
+  "required": [
+    "coordinateSpace",
+    "dataLocation",
+    "frequency"
+  ],
+  "properties": {
+    "additionalRemarks": {
+      "_instruction": "Enter any additional remarks concerning this digital representation.",
+      "type": "string"
+    },
+    "capturedWith": {
+      "_instruction": "Add the device used to capture this digital representation.",
+      "_linkedCategories": [
+        "deviceUsage"
+      ]
+    },
+    "coordinateSpace": {
+      "_instruction": "Add the coordinate space in which this digital representation exists.",
+      "_linkedTypes": [
+        "sands:CommonCoordinateSpace",
+        "sands:CustomCoordinateSpace"
+      ]
+    },
+    "dataLocation": {
+      "_instruction": "Add the location of the file or file bundle in which the digital representation is stored.",
+      "_linkedTypes": [
+        "core:File"
+      ]
+    },
+    "description": {
+      "_instruction": "Add the location of the file or file bundle in which the digital representation is stored.",
+      "type": "string"
+    },
+    "dimension": {
+      "_instruction": "Enter the dimension of this volume.",
+      "items": {
+        "type": "integer"
+      },
+      "maxItems": 3,
+      "minItems": 3,
+      "type": "array"
+    },
+    "frequency": {
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ],
+      "_instruction": "Enter the temporal resolution of this sequence."
+    },
+    "lookupLabel": {
+      "_instruction": "Enter a lookup label for this digital representation that may help you to find this instance more easily.",
+      "type": "string"
+    },
+    "numberOfVolumes": {
+      "_instruction": "Enter the total number of volumes in this volume sequence (at least two).",
+      "minimum": 2,
+      "type": "integer"
+    },
+    "numberOfSlices": {
+      "_instruction": "Enter number of slices in this volume.",
+      "type": "integer"
+    },
+    "voxelSize": {
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ],
+      "_instruction": "Enter the physical voxel size for this image (in x,y,z order).",
+      "maxItems": 3,
+      "minItems": 3,
+      "type": "array"
+    }
+  }
+}
