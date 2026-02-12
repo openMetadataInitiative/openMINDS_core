@@ -17,10 +17,6 @@
         "deviceUsage"
       ]
     },
-    "colorDepth": {
-      "type": "integer",
-      "_instruction": "Enter the number of bits used to represent the color of one pixel (bit per pixel)."
-    },
     "coordinateSpace": {
       "_instruction": "Add the coordinate space in which this digital representation exists.",
       "_linkedTypes": [
