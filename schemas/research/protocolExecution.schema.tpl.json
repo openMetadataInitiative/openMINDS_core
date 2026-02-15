@@ -20,7 +20,7 @@
         "core:TissueSampleCollectionState",
         "core:TissueSampleState",
         "sands:AnatomicalAtlasVersion",
-        "sands:CommonCoordinateSpaceVersion"
+        "sands:CommonCoordinateFrameworkVersion"
       ]
     },
     "output": {
