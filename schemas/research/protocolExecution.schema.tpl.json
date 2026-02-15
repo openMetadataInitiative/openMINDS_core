@@ -19,7 +19,7 @@
         "core:SubjectState",
         "core:TissueSampleCollectionState",
         "core:TissueSampleState",
-        "sands:BrainAtlasVersion",
+        "sands:AnatomicalAtlasVersion",
         "sands:CommonCoordinateSpaceVersion"
       ]
     },
