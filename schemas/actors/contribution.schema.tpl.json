@@ -9,7 +9,7 @@
        "type": "array",
        "minItems": 1,
        "uniqueItems": true,
-       "_instruction": "Add all contributors who performed this contribution.",
+       "_instruction": "Add all contributors who made this contribution, in the desired display order.",
        "_linkedCategories": [
          "actor"
        ]
