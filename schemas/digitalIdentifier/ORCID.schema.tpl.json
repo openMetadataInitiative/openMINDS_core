@@ -1,5 +1,8 @@
 {
   "_type": "core:ORCID",
+  "_categories": [
+    "personIdentifier"
+  ],
   "required": [
     "identifier"
   ],
