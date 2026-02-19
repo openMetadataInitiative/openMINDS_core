@@ -9,24 +9,24 @@
   ],
   "properties": {
     "additionalRemarks": {
-      "_instruction": "Enter any additional remarks concerning this digital representation.",
+      "_instruction": "Enter any additional remarks concerning this raster image stack.",
       "type": "string"
     },
     "capturedWith": {
-      "_instruction": "Add the device used to capture this digital representation.",
+      "_instruction": "Add the device used to capture this raster image stack.",
       "_linkedCategories": [
         "deviceUsage"
       ]
     },
     "coordinateFramework": {
-      "_instruction": "Add the coordinate space in which this digital representation exists.",
+      "_instruction": "Add the coordinate space in which this raster image stack exists.",
       "_linkedTypes": [
         "sands:CommonCoordinateFrameworkVersion",
         "sands:CustomCoordinateFramework"
       ]
     },
     "dataLocation": {
-      "_instruction": "Add the location of the file or file bundle in which the digital representation is stored.",
+      "_instruction": "Add the location of the file or file bundle in which the raster image stack is stored.",
       "_linkedTypes": [
         "core:File"
       ]
@@ -41,7 +41,7 @@
       "type": "array"
     },
     "name": {
-      "_instruction": "Enter a descriptive name of this digital representation preferably matching the filename.",
+      "_instruction": "Enter a descriptive name of this raster image stack preferably matching the filename.",
       "type": "string"
     },
     "numberOfImages": {
@@ -62,7 +62,7 @@
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ],
-      "_instruction": "Enter the physical axial distance between consecutive image planes (optical sections) within this image stack."
+      "_instruction": "Enter the physical axial distance between consecutive image planes (optical sections) within this raster image stack."
     }
   }
 }
