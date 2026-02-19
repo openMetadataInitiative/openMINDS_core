@@ -8,17 +8,17 @@
   ],
   "properties": {
     "additionalRemarks": {
-      "_instruction": "Enter any additional remarks concerning this digital representation.",
+      "_instruction": "Enter any additional remarks concerning this raster image.",
       "type": "string"
     },
     "capturedWith": {
-      "_instruction": "Add the device used to capture this digital representation.",
+      "_instruction": "Add the device used to capture this raster image.",
       "_linkedCategories": [
         "deviceUsage"
       ]
     },
     "coordinateFramework": {
-      "_instruction": "Add the coordinate space in which this digital representation exists.",
+      "_instruction": "Add the coordinate space in which this raster image exists.",
       "_linkedTypes": [
         "sands:CommonCoordinateFrameworkVersion",
         "sands:CustomCoordinateFramework"
@@ -26,13 +26,13 @@
       ]
     },
     "dataLocation": {
-      "_instruction": "Add the location of the file or file bundle in which the digital representation is stored.",
+      "_instruction": "Add the location of the file or file bundle in which the raster image is stored.",
       "_linkedTypes": [
         "core:File"
       ]
     },
     "dimension": {
-      "_instruction": "Enter the dimension of this image in pixels.",
+      "_instruction": "Enter the dimension of this raster image in pixels.",
       "items": {
         "type": "integer"
       },
@@ -41,14 +41,14 @@
       "type": "array"
     },
     "name": {
-      "_instruction": "Enter a descriptive name of this digital representation preferably matching the filename.",
+      "_instruction": "Enter a descriptive name of this raster image preferably matching the filename.",
       "type": "string"
     },
     "pixelSize": {
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ],
-      "_instruction": "Enter the physical pixel size for this image (in x,y order).",
+      "_instruction": "Enter the physical pixel size for this raster image (in x,y order).",
       "maxItems": 2,
       "minItems": 2,
       "type": "array"
