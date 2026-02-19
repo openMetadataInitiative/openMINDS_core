@@ -9,30 +9,30 @@
   ],
   "properties": {
     "additionalRemarks": {
-      "_instruction": "Enter any additional remarks concerning this digital representation.",
+      "_instruction": "Enter any additional remarks concerning this raster volume sequence.",
       "type": "string"
     },
     "capturedWith": {
-      "_instruction": "Add the device used to capture this digital representation.",
+      "_instruction": "Add the device used to capture this raster volume sequence.",
       "_linkedCategories": [
         "deviceUsage"
       ]
     },
     "coordinateFramework": {
-      "_instruction": "Add the coordinate space in which this digital representation exists.",
+      "_instruction": "Add the coordinate space in which this raster volume sequence exists.",
       "_linkedTypes": [
         "sands:CommonCoordinateFrameworkVersion",
         "sands:CustomCoordinateFramework"
       ]
     },
     "dataLocation": {
-      "_instruction": "Add the location of the file or file bundle in which the digital representation is stored.",
+      "_instruction": "Add the location of the file or file bundle in which the raster volume sequence is stored.",
       "_linkedTypes": [
         "core:File"
       ]
     },
     "dimension": {
-      "_instruction": "Enter the dimension of this volume.",
+      "_instruction": "Enter the dimension of volumes.",
       "items": {
         "type": "integer"
       },
@@ -41,15 +41,15 @@
       "type": "array"
     },
     "name": {
-      "_instruction": "Enter a descriptive name of this digital representation preferably matching the filename.",
+      "_instruction": "Enter a descriptive name of this raster volume sequence preferably matching the filename.",
       "type": "string"
     },
     "numberOfPlanes": {
-      "_instruction": "Enter number of planes in this volume.",
+      "_instruction": "Enter the number of planes in this raster volume sequence.",
       "type": "integer"
     },
     "numberOfVolumes": {
-      "_instruction": "Enter the total number of volumes in this volume sequence (at least two).",
+      "_instruction": "Enter the total number of volumes in this sequence (at least two).",
       "minimum": 2,
       "type": "integer"
     },
@@ -57,13 +57,13 @@
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ],
-      "_instruction": "Enter the rate at which consecutive images (frames) are captured in a sequence, preferably measured in Hertz (Hz)."
+      "_instruction": "Enter the rate at which consecutive volume are captured in a sequence, preferably measured in Hertz (Hz)."
     },
     "voxelSize": {
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ],
-      "_instruction": "Enter the physical voxel size for this image (in x,y,z order).",
+      "_instruction": "Enter the physical voxel size for this raster volume sequence (in x,y,z order).",
       "maxItems": 3,
       "minItems": 3,
       "type": "array"
