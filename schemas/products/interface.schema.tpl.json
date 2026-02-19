@@ -1,0 +1,22 @@
+{
+  "_type": "core:Interface",
+  "_extends": "products/researchProduct.schema.tpl.json",
+  "required": [
+    "communicationProtocol",
+    "interfaceType"
+  ],
+  "properties": {
+    "communicationProtocol": {
+      "_instruction": "Enter the communication protocol used by this interface.",
+      "_linkedTypes": [
+        "controlledTerms:CommunicationProtocol"
+      ]
+    },
+    "interfaceType": {
+      "_instruction": "Enter the type of this interface.",
+      "_linkedTypes": [
+        "controlledTerms:CommunicationInterfaceType"
+      ]
+    }
+  }
+}
