@@ -1,0 +1,45 @@
+{
+  "_type": "core:Accessibility",
+  "required": [
+    "channel",
+    "eligibility",
+    "form",
+    "process",
+    "paymentModel"
+  ],
+  "properties": {
+    "channel": {
+      "_instruction": "Add the relevant access channel indicating where access takes place (physical, virtual, or hybrid).",
+      "_linkedTypes": [
+        "controlledTerms:AccessChannel"
+      ]
+    },
+    "eligibility": {
+      "_instruction": "Add the relevant access eligibility type indicating who is allowed to access (open, controlled, or restricted).",
+      "_linkedTypes": [
+        "controlledTerms:AccessEligibilityType"
+      ]
+    },
+    "form": {
+      "_instruction": "Add the relevant access form indicating whether the user interacts directly or through mediation.",
+      "_linkedTypes": [
+        "controlledTerms:AccessForm"
+      ]
+    },
+    "process": {
+      "_instruction": "Add the relevant access process type indicating how access is granted (immediate, registered, authenticated, or authorized).",
+      "_linkedTypes": [
+        "controlledTerms:AccessProcessType"
+      ]
+    },
+    "paymentModel": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all relevant payment model types indicating how access costs are determined. If no payment is requires, select zero-cost payment model.",
+      "_linkedTypes": [
+        "controlledTerms:PaymentModelType"
+      ]
+    }
+  }
+}
