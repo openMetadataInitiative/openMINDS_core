@@ -60,11 +60,8 @@
       "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add the scope of this service, i.e., what analysis methods does it perform, what kinds of experimental data is it intended for.",
-      "_linkedTypes": [
-        "controlledTerms:AnalysisTechnique",
-        "controlledTerms:DataType",
-        "controlledTerms:ExperimentalApproach",
-        "controlledTerms:Technique"
+      "_linkedCategories": [
+        "toolScope"
       ]
     },
     "shortName": {
@@ -83,12 +80,6 @@
           "iri"
         ]
       }
-    },
-    "type": {
-      "_instruction": "Add the service type.",
-      "_linkedTypes": [
-        "controlledTerms:ServiceType"
-      ]
     }
   }
 }
