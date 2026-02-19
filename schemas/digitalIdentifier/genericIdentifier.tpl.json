@@ -1,5 +1,12 @@
 {
   "_type": "core:GenericIdentifier",
+  "_categories": [
+    "datasetIdentifier",
+    "personIdentifier",
+    "publicationReference",
+    "organizationIdentifier",
+    "toolIdentifier"
+  ],
   "required": [
     "emitter",
     "identifier"

@@ -37,7 +37,7 @@
     "service": {
       "_instruction": "Add the service in which the specified data can be opened.",
       "_linkedTypes": [
-        "controlledTerms:Service"
+        "core:Service"
       ]
     }
   }

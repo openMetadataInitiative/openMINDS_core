@@ -43,6 +43,12 @@
     "shortName": {
       "type": "string",
       "_instruction": "Enter a short name (or alias) for this project that could be used as a shortened display title (e.g., for web services with too little space to display the full name)."
+    },
+    "type": {
+      "_instruction": "Add the type of this project (e.g., research project, grant-funded project).",
+      "_linkedTypes": [
+        "controlledTerms:ProjectType"
+      ]
     }
   }
 }
