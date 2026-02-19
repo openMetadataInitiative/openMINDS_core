@@ -4,6 +4,9 @@
   "_categories": [
     "setupComponent"
   ],
+  "required": [
+    "scope"
+  ],
   "properties": {
     "dependency": {
       "type": "array",
@@ -111,12 +114,8 @@
       "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add terms that describe what this software version does.",
-      "_linkedTypes": [
-        "controlledTerms:DataType",
-        "controlledTerms:ExperimentalApproach",
-        "controlledTerms:SoftwareApplicationCategory",
-        "controlledTerms:SoftwareFeature",
-        "controlledTerms:Technique"
+      "_linkedCategories": [
+        "toolScope"
       ]
     }
   }
