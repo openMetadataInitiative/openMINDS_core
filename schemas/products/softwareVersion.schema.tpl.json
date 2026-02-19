@@ -33,10 +33,8 @@
     },
     "digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this research product version.",
-      "_linkedTypes": [
-        "core:DOI",
-        "core:SWHID",
-        "core:RRID"
+      "_linkedCategories": [
+        "toolIdentifier"
       ]
     },
     "feature": {

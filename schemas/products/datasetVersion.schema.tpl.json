@@ -29,9 +29,8 @@
     },
     "digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this research product version.",
-      "_linkedTypes": [
-        "core:DOI",
-        "core:IdentifiersDotOrgID"
+      "_linkedCategories": [
+        "datasetIdentifier"
       ]
     },
     "ethicsJurisdiction": {

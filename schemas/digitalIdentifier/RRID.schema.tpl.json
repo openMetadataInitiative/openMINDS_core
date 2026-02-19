@@ -1,7 +1,9 @@
 {
   "_type": "core:RRID",
   "_category": [
-    "organizationIdentifier"
+    "datasetIdentifier",
+    "organizationIdentifier",
+    "toolIdentifier"
   ],
   "required": [
     "identifier"

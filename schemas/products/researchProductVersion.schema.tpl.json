@@ -48,7 +48,7 @@
       "_instruction": "Enter a description (or abstract) of this research product version. If provided, this value overrides the inherited value from the version-independent product."
     },
     "fullDocumentation": {
-      "_instruction": "Add the publication or file that acts as the full documentation of this research product version.",
+      "_instruction": "Add the publication or file that acts as the full documentation of this research product version. If provided, this value overrides the inherited value from the version-independent product.",
       "_linkedTypes": [
         "core:DOI",
         "core:File",
