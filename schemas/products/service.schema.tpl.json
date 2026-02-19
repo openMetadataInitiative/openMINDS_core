@@ -3,8 +3,8 @@
   "required": [
     "fullDocumentation",
     "fullName",
-    "shortName",
-    "type"
+    "scope",
+    "shortName"
   ],
   "properties": {
     "contribution": {
