@@ -15,7 +15,7 @@
     "interfaceType": {
       "_instruction": "Enter the type of this interface.",
       "_linkedTypes": [
-        "controlledTerms:InterfaceType"
+        "controlledTerms:CommunicationInterfaceType"
       ]
     }
   }
