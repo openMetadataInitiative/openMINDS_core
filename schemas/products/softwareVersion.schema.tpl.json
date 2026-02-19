@@ -12,7 +12,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all dependencies of this software version.",
+      "_instruction": "Add all operating devices compatible with this software version.",
       "_embeddedTypes": [
         "core:Dependency"
       ]
