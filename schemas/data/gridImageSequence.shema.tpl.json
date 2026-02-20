@@ -1,5 +1,5 @@
 {
-  "_type": "core:gridImageSequence",
+  "_type": "core:GridImageSequence",
   "required": [
     "coordinateFramework",
     "dataLocation",
