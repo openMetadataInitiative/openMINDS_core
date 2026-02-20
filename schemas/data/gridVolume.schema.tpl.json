@@ -1,5 +1,5 @@
 {
-  "_type": "core:RasterVolume",
+  "_type": "core:GridVolume",
   "required": [
     "coordinateFramework",
     "dataLocation",
@@ -8,30 +8,30 @@
   ],
   "properties": {
     "additionalRemarks": {
-      "_instruction": "Enter any additional remarks concerning this raster volume.",
+      "_instruction": "Enter any additional remarks concerning this grid volume.",
       "type": "string"
     },
     "capturedWith": {
-      "_instruction": "Add the device used to capture this raster volume.",
+      "_instruction": "Add the device used to capture this grid volume.",
       "_linkedCategories": [
         "deviceUsage"
       ]
     },
     "coordinateFramework": {
-      "_instruction": "Add the coordinate space in which this raster volume exists.",
+      "_instruction": "Add the coordinate space in which this grid volume exists.",
       "_linkedTypes": [
         "sands:CommonCoordinateFrameworkVersion",
         "sands:CustomCoordinateFramework"
       ]
     },
     "dataLocation": {
-      "_instruction": "Add the location of the file or file bundle in which the raster volume is stored.",
+      "_instruction": "Add the location of the file or file bundle in which the grid volume is stored.",
       "_linkedTypes": [
         "core:File"
       ]
     },
     "dimension": {
-      "_instruction": "Enter the dimension of this raster volume.",
+      "_instruction": "Enter the dimension of this grid volume.",
       "items": {
         "type": "integer"
       },
@@ -40,18 +40,18 @@
       "type": "array"
     },
     "name": {
-      "_instruction": "Enter a descriptive name of this raster volume preferably matching the filename.",
+      "_instruction": "Enter a descriptive name of this grid volume preferably matching the filename.",
       "type": "string"
     },
     "numberOfPlanes": {
-      "_instruction": "Enter number of planes in this raster volume.",
+      "_instruction": "Enter number of planes in this grid volume.",
       "type": "integer"
     },
     "voxelSize": {
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ],
-      "_instruction": "Enter the physical voxel size for this raster volume (in x,y,z order).",
+      "_instruction": "Enter the physical voxel size for this grid volume (in x,y,z order).",
       "maxItems": 3,
       "minItems": 3,
       "type": "array"
