@@ -70,8 +70,8 @@
         "core:WebResource",
         "sands:BrainAtlas",
         "sands:BrainAtlasVersion",
-        "sands:CommonCoordinateSpace",
-        "sands:CommonCoordinateSpaceVersion"
+        "sands:CommonCoordinateFramework",
+        "sands:CommonCoordinateFrameworkVersion"
       ]
     },
     "isPrecededBy": {
