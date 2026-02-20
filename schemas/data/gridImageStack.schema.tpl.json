@@ -28,7 +28,8 @@
     "dataLocation": {
       "_instruction": "Add the location of the file or file bundle in which the grid image stack is stored.",
       "_linkedTypes": [
-        "core:File"
+        "core:File", 
+        "core:FileBundle"
       ]
     },
     "dimension": {
