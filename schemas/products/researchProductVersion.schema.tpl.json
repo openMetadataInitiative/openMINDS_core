@@ -5,6 +5,7 @@
   "required": [
     "accessibility",
     "fullDocumentation",
+    "isVersionOf",
     "releaseDate",
     "shortName",
     "versionIdentifier",
@@ -14,17 +15,11 @@
     "accessibility": {
       "_instruction": "Add the accessibility of the data for this research product version.",
       "_linkedTypes": [
-        "controlledTerms:ProductAccessibility"
-      ]
-    },
-    "copyright": {
-      "_instruction": "Enter the copyright information of this research product version.",
-      "_embeddedTypes": [
-        "core:Copyright"
+        "core:Accessibility"
       ]
     },
     "custodian": {
-      "type": "array",      
+      "type": "array",
       "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add all parties that fulfill the role of a custodian for the research product version (e.g., a research group leader or principle investigator). Custodians are typically the main contact in case of misconduct, obtain permission from the contributors to publish personal information, and maintain the content and quality of the data, metadata, and/or code of the research product version.",
@@ -58,7 +53,7 @@
         "core:Funding"
       ]
     },
-    "homepage": {      
+    "homepage": {
       "type": "string",
       "_formats": [
         "iri"
@@ -70,12 +65,18 @@
       "_instruction": "Enter the preferred citation text for this research product version. Leave blank if citation text can be extracted from the assigned digital identifier."
     },
     "keyword": {
-      "type": "array",      
-      "minItems": 1, 
+      "type": "array",
+      "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add all relevant keywords to this research product version either by adding controlled terms or by suggesting new terms.",
       "_linkedCategories": [
         "keyword"
+      ]
+    },
+    "copyright": {
+      "_instruction": "Enter the copyright information of this research product version.",
+      "_embeddedTypes": [
+        "core:Copyright"
       ]
     },
     "otherContribution": {
@@ -85,6 +86,12 @@
       "_instruction": "Add any other contributions to this research product version that are not covered under 'author'/'developer' or 'custodian'.",
       "_embeddedTypes": [
         "core:Contribution"
+      ]
+    },
+    "publicationStatus": {
+      "_instruction": "Add the relevant publication status indicating the current lifecycle state of the resource (published, embargoed, disposed, retracted, etc.).",
+      "_linkedTypes": [
+        "core:PublicationStatus"
       ]
     },
     "relatedPublication": {
@@ -115,7 +122,7 @@
     },
     "supportChannel": {
       "type": "array",
-      "minItems": 1, 
+      "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Enter all channels through which a user can receive support for handling this research product version.",
       "items": {
@@ -125,6 +132,16 @@
           "iri"
         ]
       }
+    },
+    "usageCondition": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all licenses and available data usage agreements applicable to this product version. Inherited by all product versions unless overridden at the version level.",
+      "_linkedTypes": [
+        "core:License",
+        "core:UsageAgreement"
+      ]
     },
     "versionIdentifier": {
       "type": "string",

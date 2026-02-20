@@ -14,6 +14,10 @@
          "legalPerson"
       ]
     },
+    "customUsageClause": {
+      "type": "string",
+      "_instruction": "Enter a statement describing the usage rights, such as 'All rights reserved.'."
+    },
     "year": {
       "type": "array",
       "items": {
@@ -22,7 +26,7 @@
       },
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Enter the year during which the copyright was first asserted and, optionally, later years during which updated versions were published."
+      "_instruction": "Enter the year when the copyright was first asserted, and optionally any subsequent years when the copyright holder and/or the rights-reservation clause was updated."
     }
   }
 }

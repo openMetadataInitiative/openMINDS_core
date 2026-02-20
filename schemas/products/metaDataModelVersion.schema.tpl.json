@@ -2,7 +2,6 @@
   "_type": "core:MetaDataModelVersion",
   "_extends": "products/researchProductVersion.schema.tpl.json",
   "required": [
-    "license",
     "type"
   ],
   "properties": {
@@ -22,7 +21,13 @@
         "core:SWHID"
       ]
     },
-    "isAlternativeVersionOf": {
+    "isPrecededBy": {
+      "_instruction": "Add the (meta)data model version preceding this (meta)data model version.",
+      "_linkedTypes": [
+        "core:MetaDataModelVersion"
+      ]
+    },
+    "isVariantOf": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
@@ -31,16 +36,10 @@
         "core:MetaDataModelVersion"
       ]
     },
-    "isNewVersionOf": {
-      "_instruction": "Add the (meta)data version preceding this (meta)data model version.",
+    "isVersionOf": {
+      "_instruction": "Add the version-independent information about this (meta)data model.",
       "_linkedTypes": [
-        "core:MetaDataModelVersion"
-      ]
-    },
-    "license": {
-      "_instruction": "Add the license of this (meta)data model version.",
-      "_linkedTypes": [
-        "core:License"
+        "core:MetaDataModel"
       ]
     },
     "serializationFormat": {

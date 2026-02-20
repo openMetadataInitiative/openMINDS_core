@@ -1,0 +1,27 @@
+{
+  "_type": "core:Dependency",
+  "required": [
+    "fulfilledBy"
+  ],
+  "properties": {
+    "fulfilledBy": {
+      "_instruction": "Enter the resource that fulfils this dependency.",
+      "_linkedTypes": [
+        "core:Configuration",
+        "core:File",
+        "core:InterfaceVersion",
+        "core:SoftwareVersion",
+        "core:WebResource"
+      ]
+    },
+    "failureImpact": {
+      "_instruction": "Add the impacts that failure of this dependency would have.",
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_linkedTypes": [
+        "controlledTerms:DependencyImpact"
+      ]
+    }
+  }
+}
