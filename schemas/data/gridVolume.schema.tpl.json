@@ -1,0 +1,62 @@
+{
+  "_type": "core:GridVolume",
+  "required": [
+    "coordinateFramework",
+    "dataLocation",
+    "dimension",
+    "voxelSize"
+  ],
+  "properties": {
+    "additionalRemarks": {
+      "_instruction": "Enter any additional remarks concerning this grid volume.",
+      "type": "string"
+    },
+    "capturedWith": {
+      "_instruction": "Add the device used to capture this grid volume.",
+      "_linkedCategories": [
+        "deviceUsage"
+      ]
+    },
+    "coordinateFramework": {
+      "_instruction": "Add the coordinate space in which this grid volume exists.",
+      "_linkedTypes": [
+        "sands:CommonCoordinateFrameworkVersion",
+        "sands:CustomCoordinateFramework"
+      ]
+    },
+    "dataLocation": {
+      "_instruction": "Add a reference to the file to which this grid volume information applies. If the information applies uniformly to a grid volume file series, a reference to the corresponding file bundle may be provided instead.",
+      "_linkedTypes": [
+        "core:File", 
+        "core:FileBundle"
+      ]
+    },
+    "dimension": {
+      "_instruction": "Enter the dimension of this grid volume.",
+      "items": {
+        "type": "integer"
+      },
+      "maxItems": 3,
+      "minItems": 3,
+      "type": "array"
+    },
+    "name": {
+      "_instruction": "Enter a descriptive name of this grid volume preferably matching the filename.",
+      "type": "string"
+    },
+    "numberOfPlanes": {
+      "_instruction": "Enter number of planes in this grid volume.",
+      "type": "integer"
+    },
+    "voxelSize": {
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ],
+      "_instruction": "Enter the physical voxel size for this grid volume (in x,y,z order).",
+      "maxItems": 3,
+      "minItems": 3,
+      "type": "array"
+    }
+  }
+}
+

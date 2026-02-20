@@ -68,10 +68,10 @@
         "core:File",
         "core:FileBundle",
         "core:WebResource",
-        "https://openminds.ebrains.eu/sands/AnatomicalAtlas",
-        "https://openminds.ebrains.eu/sands/AnatomicalAtlasVersion",
-        "https://openminds.ebrains.eu/sands/CommonCoordinateFramework",
-        "https://openminds.ebrains.eu/sands/CommonCoordinateFrameworkVersion"
+        "sands:BrainAtlas",
+        "sands:BrainAtlasVersion",
+        "sands:CommonCoordinateFramework",
+        "sands:CommonCoordinateFrameworkVersion"
       ]
     },
     "isPrecededBy": {

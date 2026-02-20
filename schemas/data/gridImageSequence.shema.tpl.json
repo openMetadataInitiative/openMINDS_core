@@ -1,0 +1,70 @@
+{
+  "_type": "core:GridImageSequence",
+  "required": [
+    "coordinateFramework",
+    "dataLocation",
+    "dimension",
+    "pixelSize",
+    "temporalSamplingFrequency"
+  ],
+  "properties": {
+    "additionalRemarks": {
+      "_instruction": "Enter any additional remarks concerning this grid image sequence.",
+      "type": "string"
+    },
+    "capturedWith": {
+      "_instruction": "Add the device used to capture this grid image sequence.",
+      "_linkedCategories": [
+        "deviceUsage"
+      ]
+    },
+    "coordinateFramework": {
+      "_instruction": "Add the coordinate space in which this grid image sequence exists.",
+      "_linkedTypes": [
+        "sands:CommonCoordinateFrameworkVersion",
+        "sands:CustomCoordinateFramework"
+      ]
+    },
+    "dataLocation": {
+      "_instruction": "Add a reference to the file to which this grid image sequence information applies. If the information applies uniformly to a grid image sequence file series, a reference to the corresponding file bundle may be provided instead.",
+      "_linkedTypes": [
+        "core:File", 
+        "core:FileBundle"
+      ]
+    },
+    "dimension": {
+      "_instruction": "Enter the common dimension of the consecutive grid images (frames) in pixels.",
+      "items": {
+        "type": "integer"
+      },
+      "maxItems": 2,
+      "minItems": 2,
+      "type": "array"
+    },
+    "name": {
+      "_instruction": "Enter a descriptive name of this grid image sequence preferably matching the filename.",
+      "type": "string"
+    },
+    "numberOfImages": {
+      "_instruction": "Enter the total number of grid images in this sequence (at least two).",
+      "minimum": 2,
+      "type": "integer"
+    },
+    "pixelSize": {
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ],
+      "_instruction": "Enter the common physical pixel size for the consecutive grid images (frames) (in x,y order).",
+      "maxItems": 2,
+      "minItems": 2,
+      "type": "array"
+    },
+    "temporalSamplingFrequency": {
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ],
+      "_instruction": "Enter the rate at which consecutive grid images (frames) are captured in a sequence, preferably measured in Hertz (Hz)."
+    }
+  }
+}
+

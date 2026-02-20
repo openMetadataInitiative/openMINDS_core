@@ -1,0 +1,74 @@
+{
+  "_type": "core:GridVolumeSequence",
+  "required": [
+    "coordinateFramework",
+    "dataLocation",
+    "dimension",
+    "temporalSamplingFrequency",
+    "voxelSize"
+  ],
+  "properties": {
+    "additionalRemarks": {
+      "_instruction": "Enter any additional remarks concerning this grid volume sequence.",
+      "type": "string"
+    },
+    "capturedWith": {
+      "_instruction": "Add the device used to capture this grid volume sequence.",
+      "_linkedCategories": [
+        "deviceUsage"
+      ]
+    },
+    "coordinateFramework": {
+      "_instruction": "Add the coordinate space in which this grid volume sequence exists.",
+      "_linkedTypes": [
+        "sands:CommonCoordinateFrameworkVersion",
+        "sands:CustomCoordinateFramework"
+      ]
+    },
+    "dataLocation": {
+      "_instruction": "Add a reference to the file to which this grid volume sequence information applies. If the information applies uniformly to a grid volume sequence file series, a reference to the corresponding file bundle may be provided instead.",
+      "_linkedTypes": [
+        "core:File", 
+        "core:FileBundle"
+      ]
+    },
+    "dimension": {
+      "_instruction": "Enter the dimension of grid volumes.",
+      "items": {
+        "type": "integer"
+      },
+      "maxItems": 3,
+      "minItems": 3,
+      "type": "array"
+    },
+    "name": {
+      "_instruction": "Enter a descriptive name of this grid volume sequence preferably matching the filename.",
+      "type": "string"
+    },
+    "numberOfPlanes": {
+      "_instruction": "Enter the number of planes in this grid volume sequence.",
+      "type": "integer"
+    },
+    "numberOfVolumes": {
+      "_instruction": "Enter the total number of grid volumes in this sequence (at least two).",
+      "minimum": 2,
+      "type": "integer"
+    },
+    "temporalSamplingFrequency": {
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ],
+      "_instruction": "Enter the rate at which consecutive grid volume are captured in a sequence, preferably measured in Hertz (Hz)."
+    },
+    "voxelSize": {
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ],
+      "_instruction": "Enter the physical voxel size for this grid volume sequence (in x,y,z order).",
+      "maxItems": 3,
+      "minItems": 3,
+      "type": "array"
+    }
+  }
+}
+

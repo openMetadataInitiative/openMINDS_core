@@ -1,0 +1,58 @@
+{
+  "_type": "core:GridImage",
+  "required": [
+    "coordinateFramework",
+    "dataLocation",
+    "dimension",
+    "pixelSize"
+  ],
+  "properties": {
+    "additionalRemarks": {
+      "_instruction": "Enter any additional remarks concerning this grid image.",
+      "type": "string"
+    },
+    "capturedWith": {
+      "_instruction": "Add the device used to capture this grid image.",
+      "_linkedCategories": [
+        "deviceUsage"
+      ]
+    },
+    "coordinateFramework": {
+      "_instruction": "Add the coordinate space in which this grid image exists.",
+      "_linkedTypes": [
+        "sands:CommonCoordinateFrameworkVersion",
+        "sands:CustomCoordinateFramework"
+      ]
+    },
+    "dataLocation": {
+      "_instruction": "Add a reference to the file to which this grid image information applies. If the information applies uniformly to a grid image file series, a reference to the corresponding file bundle may be provided instead.",
+      "_linkedTypes": [
+        "core:File", 
+        "core:FileBundle"
+      ]
+    },
+    "dimension": {
+      "_instruction": "Enter the dimension of this grid image in pixels.",
+      "items": {
+        "type": "integer"
+      },
+      "maxItems": 2,
+      "minItems": 2,
+      "type": "array"
+    },
+    "name": {
+      "_instruction": "Enter a descriptive name of this grid image preferably matching the filename.",
+      "type": "string"
+    },
+    "pixelSize": {
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ],
+      "_instruction": "Enter the physical pixel size for this grid image (in x,y order).",
+      "maxItems": 2,
+      "minItems": 2,
+      "type": "array"
+    }
+  }
+}
+
