@@ -25,7 +25,7 @@
       ]
     },
     "dataLocation": {
-      "_instruction": "Add the location of the file or file bundle in which the grid image is stored.",
+      "_instruction": "Add a reference to the file to which this grid image information applies. If the information applies uniformly to a grid image file series, a reference to the corresponding file bundle may be provided instead.",
       "_linkedTypes": [
         "core:File", 
         "core:FileBundle"
