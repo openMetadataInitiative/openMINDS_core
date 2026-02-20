@@ -68,8 +68,8 @@
         "core:File",
         "core:FileBundle",
         "core:WebResource",
-        "sands:BrainAtlas",
-        "sands:BrainAtlasVersion",
+        "sands:AnatomicalAtlas",
+        "sands:AnatomicalAtlasVersion",
         "sands:CommonCoordinateFramework",
         "sands:CommonCoordinateFrameworkVersion"
       ]
