@@ -6,9 +6,9 @@
   ],
    "properties": {
      "service": {
-       "_instruction": "Add the web service of this account.",
+       "_instruction": "Add the service associated with this account.",
        "_linkedTypes": [
-         "core:WebService"
+         "core:Service"
        ]
      },
      "userName": {
