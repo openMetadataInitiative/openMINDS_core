@@ -1,0 +1,63 @@
+{
+  "_type": "core:LocalFile",
+  "_categories": [
+    "fileOrigin"
+  ],
+  "required": [
+    "name",
+    "path"
+  ],
+  "properties": {
+    "contentDescription": {
+      "type": "string",
+      "_instruction": "Enter a short content description for this local file instance."
+    },
+    "copyOf": {
+      "_instruction": "Add the file of which this is a copy.",
+      "_linkedTypes": [
+        "core:File"
+      ]
+    },
+    "dataType": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all data types that are specifically represented in this local file instance.",
+      "_linkedTypes": [
+        "controlledTerms:DataType"
+      ]
+    },
+    "format": {
+      "_instruction": "Add the content type of this local file instance.",
+      "_linkedTypes": [
+        "core:ContentType"
+      ]
+    },
+    "hash": {
+      "_instruction": "Add the hash that was generated for this local file instance.",
+      "_embeddedTypes": [
+        "core:Hash"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "_instruction": "Enter the name of this local file instance."
+    },
+    "path": {
+      "type": "string",
+      "_instruction": "Enter the file system path (absolute path or relative to the working directory) to this local file instance."
+    },
+    "specialUsageRole": {
+      "_instruction": "Add the special usage role of this local file instance.",
+      "_linkedTypes": [
+        "controlledTerms:FileUsageRole"
+      ]
+    },
+    "storageSize": {
+      "_instruction": "Enter the storage size of this local file instance.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    }
+  }
+}
