@@ -1,6 +1,7 @@
 {
   "_type": "core:ISBN",
   "_categories": [
+    "documentation",
     "publicationReference"
   ],
   "required": [

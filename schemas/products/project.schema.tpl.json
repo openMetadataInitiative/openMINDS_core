@@ -4,7 +4,8 @@
     "description",
     "fullName",
     "hasPart",
-    "shortName"
+    "shortName",
+    "type"
   ],
   "properties": {
     "contribution": {

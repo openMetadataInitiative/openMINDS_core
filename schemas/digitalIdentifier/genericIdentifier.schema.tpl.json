@@ -8,16 +8,23 @@
     "toolIdentifier"
   ],
   "required": [
+    "emitter",
     "identifier"
   ],
   "properties": {
+    "emitter": {
+      "_instruction": "Add the organization that governs and/or emits the identifier.",
+      "_linkedTypes": [
+        "core:Organization"
+      ]
+    },
     "identifier": {
       "type": "string",
-      "_instruction": "Enter the unique identifier, preferably as an IRI (e.g., https://orcid.org/0000-0001-2345-6789, https://doi.org/10.1234/example)."
+      "_instruction": "Enter a persistent, unique identifier emitted by an organization."
     },
-    "pattern": {
+    "type": {
       "type": "string",
-      "_instruction": "Enter the regular expression that defines the format of the identifier."
+      "_instruction": "Enter the type of identifier, e.g. 'PubMed ID'."
     }
   }
 }

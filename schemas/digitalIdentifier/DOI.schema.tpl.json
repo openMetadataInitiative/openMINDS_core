@@ -2,6 +2,7 @@
   "_type": "core:DOI",
   "_categories": [
     "datasetIdentifier",
+    "documentation",
     "publicationReference",
     "toolIdentifier"
   ],

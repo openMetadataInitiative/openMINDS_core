@@ -9,15 +9,6 @@
     "technique"
   ],
   "properties": {
-    "behavioralProtocol": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add all behavioral protocols that were performed in this dataset version.",
-      "_linkedTypes": [
-        "core:BehavioralProtocol"
-      ]
-    },
     "dataType": {
       "type": "array",
       "minItems": 1,
@@ -85,7 +76,7 @@
         "core:Dataset"
       ]
     },
-    "preparationDesign": {
+    "preparationType": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
@@ -98,8 +89,9 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all protocols that were performed in this dataset version (e.g., for data acquisition or processing).",
+      "_instruction": "Add all protocols that were performed in this dataset version.",
       "_linkedTypes": [
+        "core:BehavioralProtocol",
         "core:Protocol"
       ]
     },
@@ -107,12 +99,16 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all specimens or sets of specimen that were studied in this dataset.",
+      "_instruction": "Add all specimens, sets of specimen or states that were studied in this dataset.",
       "_linkedTypes": [
         "core:Subject",
+        "core:SubjectState",
         "core:SubjectGroup",
+        "core:SubjectGroupState",
         "core:TissueSample",
-        "core:TissueSampleCollection"
+        "core:TissueSampleState",
+        "core:TissueSampleCollection",
+        "core:TissueSampleCollectionState"
       ]
     },
     "studyTarget": {
