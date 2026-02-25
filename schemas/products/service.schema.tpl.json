@@ -2,7 +2,7 @@
   "_type": "core:Service",
   "required": [
     "contribution",
-    "documentation",
+    "description",
     "fullName",
     "scope",
     "shortName"
