@@ -1,7 +1,8 @@
 {
   "_type": "core:Service",
   "required": [
-    "fullDocumentation",
+    "contribution",
+    "description",
     "fullName",
     "scope",
     "shortName"
@@ -20,13 +21,10 @@
       "type": "string",
       "_instruction": "Enter a description (or abstract) of this service."
     },
-    "fullDocumentation": {
-      "_instruction": "Add the publication or file that acts as the full documentation of this service.",
-      "_linkedTypes": [
-        "core:DOI",
-        "core:File",
-        "core:ISBN",
-        "core:WebResource"
+    "documentation": {
+      "_instruction": "Add the publication or file that acts as the documentation of this service.",
+      "_linkedCategories": [
+        "documentationResource"
       ]
     },
     "fullName": {

@@ -1,7 +1,10 @@
 {
   "_type": "core:DOI",
   "_categories": [
-    "publicationReference"
+    "datasetIdentifier",
+    "documentationResource",
+    "publicationReference",
+    "toolIdentifier"
   ],
   "required": [
     "identifier"

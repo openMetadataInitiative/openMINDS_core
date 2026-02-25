@@ -1,29 +1,24 @@
 {
   "_type": "core:Affiliation",
   "required": [
-    "memberOf"
+    "person",
+    "organization"
   ],
   "properties": {
-    "endDate": {
-      "type": "string",
-      "_formats": [
-        "date"
-      ],
-      "_instruction": "Enter the end date of this affiliation, formatted as 'YYYY-MM-DD'. Leave blank if this affiliation is still current."
+    "person": {
+      "_instruction": "Add the individual to whom this affiliation belongs.",
+      "_linkedTypes": [
+        "core:Person"
+      ]
     },
-    "memberOf": {
-      "_instruction": "Add the organization or consortium another party was or still is a member of.",
-      "_linkedTypes": [        
-        "core:Consortium",
+    "organization": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all organizations (in display order) with which the specified individual is affiliated.",
+      "_linkedTypes": [
         "core:Organization"
       ]
-    },    
-    "startDate": {
-      "type": "string",
-      "_formats": [
-        "date"
-      ],
-      "_instruction": "Enter the start date of this affiliation, formatted as 'YYYY-MM-DD'."
     }
   }
 }

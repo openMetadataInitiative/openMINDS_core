@@ -5,11 +5,16 @@
   ],
   "properties": {
     "email": {
-      "type": "string",
-      "_formats": [
-        "email"
-      ],
-      "_instruction": "Enter the email address of the party (e.g., of the person)."
+      "type": "array",
+      "items": {
+        "type": "string",
+        "_formats": [
+          "email"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Enter all relevant contact email addresses."
     }
   }
 }

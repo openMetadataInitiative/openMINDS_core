@@ -1,22 +1,14 @@
 {
   "_type": "core:Person",
   "_categories": [
+    "actor",
     "agent",
     "legalPerson"
   ],
   "required": [
-    "givenName"
+    "preferredName"
   ],
-  "properties": {    
-    "affiliation": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Enter all current and, if desired, past affiliations of this person.",
-      "_embeddedTypes": [
-        "core:Affiliation"
-      ]
-    },
+  "properties": {
     "alternateName": {
       "type": "array",
       "items": {
@@ -46,17 +38,21 @@
       "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add all globally unique and persistent digital identifier of this person.",
-      "_linkedTypes": [
-        "core:ORCID"
+      "_linkedCategories": [
+        "personIdentifier"
       ]
     },
     "familyName": {
       "type": "string",
-      "_instruction": "Enter the family name of this person."
+      "_instruction": "Enter the family name, surname, or equivalent of this person."
     },
     "givenName": {
       "type": "string",
-      "_instruction": "Enter the given name of this person."
+      "_instruction": "Enter the given name(s) of this person, or a name chosen in place of the given name. At least one of the names should be spelled out in full; initials may be used for the others."
+    },
+    "preferredName": {
+      "type": "string",
+      "_instruction": "Enter the person’s preferred way to write their name in a professional context. It is recommended to place given before family name separated by space."
     }
   }
 }

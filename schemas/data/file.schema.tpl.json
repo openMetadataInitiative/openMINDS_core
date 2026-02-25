@@ -1,6 +1,7 @@
 {
   "_type": "core:File",
   "_categories": [
+    "documentationResource",
     "fileOrigin"
   ],
   "required": [

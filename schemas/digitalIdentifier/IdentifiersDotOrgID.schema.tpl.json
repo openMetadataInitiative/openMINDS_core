@@ -1,5 +1,8 @@
 {
   "_type": "core:IdentifiersDotOrgID",
+  "_categories": [
+    "datasetIdentifier"
+  ],
   "required": [
     "identifier"
   ],

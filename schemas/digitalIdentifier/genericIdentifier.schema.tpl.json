@@ -1,5 +1,12 @@
 {
   "_type": "core:GenericIdentifier",
+  "_categories": [
+    "datasetIdentifier",
+    "personIdentifier",
+    "publicationReference",
+    "organizationIdentifier",
+    "toolIdentifier"
+  ],
   "required": [
     "emitter",
     "identifier"
@@ -7,7 +14,9 @@
   "properties": {
     "emitter": {
       "_instruction": "Add the organization that governs and/or emits the identifier.",
-      "_linkedTypes": ["core:Organization"]
+      "_linkedTypes": [
+        "core:Organization"
+      ]
     },
     "identifier": {
       "type": "string",
