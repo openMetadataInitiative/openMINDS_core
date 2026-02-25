@@ -5,9 +5,11 @@
   "required": [
     "accessibility",
     "contribution",
+    "description",
     "documentation",
     "isVersionOf",
     "releaseDate",
+    "fullName",
     "shortName",
     "versionIdentifier",
     "versionSpecification"
