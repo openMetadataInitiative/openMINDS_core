@@ -23,7 +23,7 @@
     "documentation": {
       "_instruction": "Add the publication or file that acts as the documentation of this service.",
       "_linkedCategories": [
-        "documentation"
+        "documentationResource"
       ]
     },
     "fullName": {
