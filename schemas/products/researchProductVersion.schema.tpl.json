@@ -10,7 +10,7 @@
     "releaseDate",
     "shortName",
     "versionIdentifier",
-    "versionInnovation"
+    "versionSpecification"
   ],
   "properties": {
     "accessibility": {
@@ -145,7 +145,7 @@
       "type": "string",
       "_instruction": "Enter the version identifier of this research product version. If provided, this value overrides the inherited value from the version-independent product."
     },
-    "versionInnovation": {
+    "versionSpecification": {
       "type": "string",
       "_instruction": "Enter a short description (or summary) of the novelties/peculiarities of this research product version in comparison to its preceding versions. If this research product version is the first version, you can enter the following disclaimer 'This is the first version of this research product'. If provided, this value overrides the inherited value from the version-independent product."
     }
