@@ -18,7 +18,7 @@
       "minItems": 2,
       "type": "array",
       "uniqueItems": true,
-      "_instruction": "Add the memberships of this consortium.",
+      "_instruction": "Add all membership records (one per member) for this consortium.",
       "_embeddedTypes": [
         "core:Membership"
       ]
