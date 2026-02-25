@@ -7,9 +7,9 @@
     "contribution",
     "description",
     "documentation",
+    "fullName",
     "isVersionOf",
     "releaseDate",
-    "fullName",
     "shortName",
     "versionIdentifier",
     "versionSpecification"
