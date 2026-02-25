@@ -50,7 +50,7 @@
     "documentation": {
       "_instruction": "Add the publication or file that acts as the documentation of this research product version. If provided, this value overrides the inherited value from the version-independent product.",
       "_linkedCategories": [
-        "documentation"
+        "documentationResource"
       ]
     },
     "fullName": {

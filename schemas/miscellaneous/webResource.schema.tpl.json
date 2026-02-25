@@ -1,7 +1,7 @@
 {
   "_type": "core:WebResource",
   "_categories": [
-    "documentation"
+    "documentationResource"
   ],
   "required": [
     "IRI"

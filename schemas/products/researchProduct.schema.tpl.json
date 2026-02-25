@@ -34,7 +34,7 @@
     "documentation": {
       "_instruction": "Add the publication or file that acts as the documentation of this research product. Inherited by all product versions unless overridden at the version level.",
       "_linkedCategories": [
-        "documentation"
+        "documentationResource"
       ]
     },
     "fullName": {
