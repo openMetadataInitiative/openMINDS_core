@@ -4,8 +4,8 @@
     "actor"
   ],
   "required": [
-    "hasMember",
-    "fullName"
+    "fullName",
+    "memberships"
   ],
   "properties": {
     "contactInformation": {
