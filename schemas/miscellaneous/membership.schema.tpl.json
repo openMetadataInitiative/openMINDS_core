@@ -1,0 +1,28 @@
+{
+  "_type": "core:Membership",
+  "required": [
+    "member"
+  ],
+  "properties": {
+    "endDate": {
+      "_formats": [
+        "date"
+      ],
+      "_instruction": "Enter the end date of this membership, formatted as 'YYYY-MM-DD'.",
+      "type": "string"
+    },
+    "member": {
+      "_instruction": "Add the actor associated with this membership.",
+      "_linkedCategories": [
+        "actor"
+      ]
+    },
+    "startDate": {
+      "_formats": [
+        "date"
+      ],
+      "_instruction": "Enter the start date of this membership, formatted as 'YYYY-MM-DD'.",
+      "type": "string"
+    }
+  }
+}

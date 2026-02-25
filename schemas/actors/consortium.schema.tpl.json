@@ -4,6 +4,7 @@
     "actor"
   ],
   "required": [
+    "hasMember",
     "fullName"
   ],
   "properties": {
@@ -11,6 +12,15 @@
       "_instruction": "Add the contact information of this consortium.",
       "_linkedTypes": [
         "core:ContactInformation"
+      ]
+    },
+    "hasMember": {
+      "minItems": 2,
+      "type": "array",
+      "uniqueItems": true,
+      "_instruction": "Add the memberships of this consortium.",
+      "_embeddedTypes": [
+        "core:Membership"
       ]
     },
     "fullName": {
