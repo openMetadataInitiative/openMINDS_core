@@ -25,7 +25,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all individual, organisational, or consortial contributions to this research product version. If provided, these values override the inherited values from the version-independent product.",
+      "_instruction": "Add all individual, organisational, or consortial contributions to this research product version. These values override the inherited values from the version-independent product.",
       "_embeddedTypes": [
         "core:Contribution"
       ]
@@ -47,17 +47,17 @@
     },
     "description": {
       "type": "string",
-      "_instruction": "Enter a description (or abstract) of this research product version. If provided, this value overrides the inherited value from the version-independent product."
+      "_instruction": "Enter a description (or abstract) of this research product version. This value overrides the inherited value from the version-independent product."
     },
     "documentation": {
-      "_instruction": "Add the publication or file that acts as the documentation of this research product version. If provided, this value overrides the inherited value from the version-independent product.",
+      "_instruction": "Add the publication or file that acts as the documentation of this research product version. This value overrides the inherited value from the version-independent product.",
       "_linkedCategories": [
         "documentationResource"
       ]
     },
     "fullName": {
       "type": "string",
-      "_instruction": "Enter a descriptive full name (or title) for this research product version. If provided, this value overrides the inherited value from the version-independent product."
+      "_instruction": "Enter a descriptive full name (or title) for this research product version. This value overrides the inherited value from the version-independent product."
     },
     "funding": {
       "type": "array",
@@ -73,7 +73,7 @@
       "_formats": [
         "iri"
       ],
-      "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this research product version. If provided, this value overrides the inherited value from the version-independent product."
+      "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this research product version. This value overrides the inherited value from the version-independent product."
     },
     "howToCite": {
       "type": "string",
@@ -83,7 +83,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all relevant keywords to this research product version either by adding controlled terms or by suggesting new terms. If provided, this value overrides the inherited value from the version-independent product.",
+      "_instruction": "Add all relevant keywords to this research product version either by adding controlled terms or by suggesting new terms. This value overrides the inherited value from the version-independent product.",
       "_linkedCategories": [
         "keyword"
       ]
@@ -98,7 +98,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all further publications besides the documentation that provide the original context for the production of this research product version (e.g., an original research article that used or produced the data of this research product version). If provided, this value overrides the inherited value from the version-independent product.",
+      "_instruction": "Add all further publications besides the documentation that provide the original context for the production of this research product version (e.g., an original research article that used or produced the data of this research product version). This value overrides the inherited value from the version-independent product.",
       "_linkedCategories": [
         "publicationReference"
       ]
@@ -118,13 +118,13 @@
     },
     "shortName": {
       "type": "string",
-      "_instruction": "Enter a short name (or alias) for this research product version that could be used as a shortened display title (e.g., for web services with too little space to display the full name). If provided, this value overrides the inherited value from the version-independent product."
+      "_instruction": "Enter a short name (or alias) for this research product version that could be used as a shortened display title (e.g., for web services with too little space to display the full name). This value overrides the inherited value from the version-independent product."
     },
     "supportChannel": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Enter all channels through which a user can receive support for handling this research product version. If provided, this value overrides the inherited value from the version-independent product.",
+      "_instruction": "Enter all channels through which a user can receive support for handling this research product version. This value overrides the inherited value from the version-independent product.",
       "items": {
         "type": "string",
         "_formats": [
