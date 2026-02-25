@@ -1,6 +1,7 @@
 {
   "_type": "core:Service",
   "required": [
+    "contribution",
     "documentation",
     "fullName",
     "scope",
