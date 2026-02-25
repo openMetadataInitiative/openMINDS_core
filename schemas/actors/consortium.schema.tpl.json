@@ -14,7 +14,7 @@
         "core:ContactInformation"
       ]
     },
-    "hasMember": {
+    "memberships": {
       "minItems": 2,
       "type": "array",
       "uniqueItems": true,
