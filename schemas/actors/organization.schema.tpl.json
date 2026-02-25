@@ -66,6 +66,15 @@
         "jurisdiction"
       ]
     },
+    "memberships": {
+      "minItems": 1,
+      "type": "array",
+      "uniqueItems": true,
+      "_instruction": "Add all membership records (one per member) for this organization. Who is considered a qualified member is typically defined in the organization’s membership agreements.",
+      "_embeddedTypes": [
+        "core:Membership"
+      ]
+    },
     "name": {
       "type": "string",
       "_instruction": "Enter the organization’s preferred name for use in international contexts."
