@@ -14,15 +14,6 @@
         "core:ContactInformation"
       ]
     },
-    "memberships": {
-      "minItems": 2,
-      "type": "array",
-      "uniqueItems": true,
-      "_instruction": "Add all membership records (one per member) for this consortium.",
-      "_embeddedTypes": [
-        "core:Membership"
-      ]
-    },
     "fullName": {
       "type": "string",
       "_instruction": "Enter the full name of this consortium."
@@ -33,6 +24,15 @@
         "iri"
       ],
       "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this consortium."
+    },
+    "memberships": {
+      "minItems": 2,
+      "type": "array",
+      "uniqueItems": true,
+      "_instruction": "Add all membership records (one per member) for this consortium.",
+      "_embeddedTypes": [
+        "core:Membership"
+      ]
     },
     "shortName": {
       "type": "string",
