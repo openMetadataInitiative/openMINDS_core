@@ -4,7 +4,16 @@
   "required": [
     "studiedState"
   ],
-  "properties": {    
+  "properties": {
+    "attributeStatistic": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all known statistics for the attributes of this subject group.",
+      "_embeddedTypes": [
+        "core:SubjectGroupStatistic"
+      ]
+    },
     "numberOfSubjects": {
       "type": "integer",
       "minimum": 2,

@@ -1,0 +1,26 @@
+{
+  "_type": "core:TissueSampleCollectionStateStatistic",
+  "required": [
+    "attribute",
+    "count"
+  ],
+  "properties": {
+    "attribute": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all attributes (including age) common for the specified tissue sample count within the tissue sample collection state.",
+      "_linkedTypes": [
+        "controlledTerms:Disease",
+        "controlledTerms:DiseaseModel",
+        "controlledTerms:TissueSampleAttribute",
+        "core:SpecimenAge",
+        "core:SpecimenWeight"
+      ]
+    },
+    "count": {
+      "type": "integer",
+      "_instruction": "Enter the tissue sample count within the tissue sample collection to which the defined state attribute(s) apply.",
+    }
+  }
+}

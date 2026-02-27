@@ -2,13 +2,13 @@
   "_type": "core:TissueSampleCollectionState",
   "_extends": "research/specimenState.schema.tpl.json",
   "properties": {    
-    "attribute": {
+    "attributeStatistic": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all attributes that can be ascribed to this tissue sample collection state.",
-      "_linkedTypes": [
-        "controlledTerms:TissueSampleAttribute"
+      "_instruction": "Add all known statistics for the attributes of this tissue sample collection state.",
+      "_embeddedTypes": [
+        "core:TissueSampleCollectionStateStatistic"
       ]
     },
     "descendedFrom": {

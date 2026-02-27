@@ -1,0 +1,27 @@
+{
+  "_type": "core:SubjectGroupStateStatistic",
+  "required": [
+    "attribute",
+    "count"
+  ],
+  "properties": {
+    "attribute": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all attributes (including age) common for the specified subject count within the subject group state.",
+      "_linkedTypes": [
+        "controlledTerms:AgeCategory",
+        "controlledTerms:Disease",
+        "controlledTerms:DiseaseModel",
+        "controlledTerms:SubjectAttribute",
+        "core:SpecimenAge",
+        "core:SpecimenWeight"
+      ]
+    },
+    "count": {
+      "type": "integer",
+      "_instruction": "Enter the subject count within the subject group to which the defined state attribute(s) apply.",
+    }
+  }
+}
