@@ -6,7 +6,17 @@
     "additionalRemarks": {
       "type": "string",
       "_instruction": "Enter any additional remarks concerning the specimen (set) in this state."
-    }
+    },
+    "associatedProtocol": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all technical and/or behavioral protocols associated with this specimen state.",
+      "_linkedTypes": [
+        "core:Protocol",
+        "core:BehavioralProtocol"
+      ]
+    },
     "internalIdentifier": {
       "type": "string",
       "_instruction": "Enter the identifier (or label) of this specimen (set) state that is used within the corresponding data files to identify this specimen (set) state."

@@ -2,9 +2,9 @@
   "_type": "core:TissueSampleCollection",
   "_extends": "research/specimenSet.schema.tpl.json",
   "required": [
-    "origin",
-    "studiedState",
-    "type"
+    "attributeStatistic",
+    "numberOfTissueSamples",
+    "studiedState"
   ],
   "properties": {
     "attributeStatistic": {

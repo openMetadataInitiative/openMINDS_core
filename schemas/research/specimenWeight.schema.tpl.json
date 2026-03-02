@@ -1,8 +1,8 @@
 {
   "_type": "core:SpecimenWeight",
   "required": [
-    "age",
-    "reference"
+    "weight",
+    "type"
   ],
   "properties": {
     "weight": {

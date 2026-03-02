@@ -2,6 +2,8 @@
   "_type": "core:SubjectGroup",
   "_extends": "research/specimenSet.schema.tpl.json",
   "required": [
+    "attributeStatistic",
+    "numberOfSubjects",
     "studiedState"
   ],
   "properties": {

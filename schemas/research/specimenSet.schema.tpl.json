@@ -2,9 +2,6 @@
   "_categories": [
     "fileOrigin"
   ],
-  "required": [
-    "species"
-  ],
   "properties": {
     "additionalRemarks": {
       "type": "string",

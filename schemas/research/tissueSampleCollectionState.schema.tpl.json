@@ -1,6 +1,9 @@
 {
   "_type": "core:TissueSampleCollectionState",
   "_extends": "research/specimenState.schema.tpl.json",
+  "required": [
+    "attributeStatistic"
+  ],
   "properties": {    
     "attributeStatistic": {
       "type": "array",
