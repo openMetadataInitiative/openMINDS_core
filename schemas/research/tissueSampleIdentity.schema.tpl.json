@@ -1,0 +1,42 @@
+{
+  "_type": "core:TissueSampleIdentity",
+  "required": [
+    "origin",
+    "type"
+  ],
+  "properties": {
+    "anatomicalLocation": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all relevant anatomical entities that represent or are present in the tissue sample(s).",
+      "_linkedCategories": [
+        "anatomicalLocation"
+      ]
+    },
+    "laterality": {
+      "type": "array",
+      "maxItems": 2,
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add the body or organ side covered by the tissue sample(s) when applicable.",
+      "_linkedTypes": [
+        "controlledTerms:Laterality"
+      ]
+    },
+    "origin": {
+      "_instruction": "Add the anatomical origin of the tissue sample(s).",
+      "_linkedTypes": [
+        "controlledTerms:CellType",
+        "controlledTerms:Organ",
+        "controlledTerms:OrganismSubstance"
+      ]
+    },
+    "type": {
+      "_instruction": "Add the type of the tissue sample(s).",
+      "_linkedTypes": [
+        "controlledTerms:TissueSampleType"
+      ]
+    }
+  }
+}

@@ -11,7 +11,8 @@
       "uniqueItems": true,
       "_instruction": "Add all attributes common for the specified tissue sample count within the tissue sample collection.",
       "_linkedTypes": [
-        "controlledTerms:SpecimenAttribute"
+        "controlledTerms:SpecimenAttribute",
+        "core:TissueSampleIdentity"
       ]
     },
     "count": {
