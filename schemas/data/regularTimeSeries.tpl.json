@@ -1,0 +1,57 @@
+{
+  "_type": "core:RegularTimeSeries",
+  "required": [
+    "channel",
+    "dataLocation",    
+    "recordedWith",   
+    "samplingFrequency"
+  ],
+  "properties": {
+    "additionalRemarks": {
+      "type": "string",
+      "_instruction": "Enter any additional remarks concerning this recording."
+    },
+    "channel": {
+      "type": "array",
+      "minItems": 1,      
+      "uniqueItems": true,
+      "_instruction": "Enter all channels used for this recording.",
+      "_embeddedTypes": [
+        "ephys:Channel"
+      ]
+    },
+    "dataLocation": {
+      "_instruction": "Add the location of the file or file bundle in which the recorded data is stored.",
+      "_linkedTypes": [
+        "core:File",
+        "core:FileBundle"
+      ]
+    },
+    "internalIdentifier": {
+      "type": "string",
+      "_instruction": "Enter the identifier (or label) of this recording that is used within the corresponding data files to identify this recording."
+    },
+    "name": {
+      "type": "string",
+      "_instruction": "Enter a descriptive name for this recording."
+    },
+    "previousRecording": {      
+      "_instruction": "If this recording is part of a sequence of recordings (e.g., multiple repetitions or sweeps), add the recording preceding this recording.",
+      "_linkedTypes": [
+        "ephys:Recording"
+      ]
+    },
+    "recordedWith": {
+      "_instruction": "Add the device used to generate this recording.",
+      "_linkedCategories": [
+        "deviceUsage"
+      ]
+    },
+    "samplingFrequency": {
+      "_instruction": "Enter the sampling frequency of this recording.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    }
+  }
+}
