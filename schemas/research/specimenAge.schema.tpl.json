@@ -1,5 +1,5 @@
 {
-  "_type": "core:Age",
+  "_type": "core:SpecimenAge",
   "required": [
     "age",
     "reference"

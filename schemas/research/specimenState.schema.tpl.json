@@ -7,6 +7,12 @@
       "type": "string",
       "_instruction": "Enter any additional remarks concerning the specimen (set) in this state."
     },
+    "age": {
+      "_instruction": "Enter the age and age reference of the specimen (set) in this state.",
+      "_embeddedTypes": [
+        "core:SpecimenAge"
+      ]
+    },
     "associatedProtocol": {
       "type": "array",
       "minItems": 1,
@@ -24,12 +30,28 @@
     "lookupLabel": {
       "type": "string",
       "_instruction": "Enter a lookup label for this specimen (set) state that may help you to find this instance more easily."
-    }
+    },
+    "pathology": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all (human) diseases and/or conditions that the specimen (set) in this state has and/or is a model for.",
+      "_linkedTypes": [
+        "controlledTerms:Disease",
+        "controlledTerms:DiseaseModel"
+      ]
+    },
     "relativeTimeIndication": {
       "_instruction": "If there is a temporal relation between the states of a specimen (set), enter the relative time that has passed between this and the preceding specimen (set) state referenced under 'descendedFrom'.",
       "_embeddedTypes": [
         "core:QuantitativeValue",
         "core:QuantitativeValueRange"
+      ]
+    },
+    "weight": {
+      "_instruction": "Enter the weight and weight type of the specimen (set) in this state.",
+      "_embeddedTypes": [
+        "core:SpecimenWeight"
       ]
     }
   }

@@ -2,22 +2,40 @@
   "_type": "core:SubjectGroupState",
   "_extends": "research/specimenState.schema.tpl.json",
   "required": [
-    "attributeStatistic"
+    "ageCategory"
   ],
   "properties": {
-    "attributeStatistic": {
+    "ageCategory": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all known statistics for the attributes of this subject group state.",
-      "_embeddedTypes": [
-        "core:SubjectGroupStateStatistic"
+      "_instruction": "Add the age category of the subject in this state.",
+      "_linkedTypes": [
+        "controlledTerms:AgeCategory"
+      ]
+    },    
+    "attribute": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all attributes that can be ascribed to this subject group state.",
+      "_linkedTypes": [
+        "controlledTerms:SubjectAttribute"
       ]
     },
     "descendedFrom": {
       "_instruction": "Add the previous subject group state.",
       "_linkedTypes": [
         "core:SubjectGroupState"
+      ]
+    },
+    "handedness": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all preferred types of handedness of the subject group in this state.",
+      "_linkedTypes": [
+        "controlledTerms:Handedness"
       ]
     }
   }
