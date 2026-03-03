@@ -1,0 +1,22 @@
+{
+  "_type": "core:SpecimenAge",
+  "required": [
+    "age",
+    "reference"
+  ],
+  "properties": {
+    "age": {
+      "_instruction": "Enter the age value.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue",
+        "core:QuantitativeValueRange"
+      ]
+    },
+    "reference": {
+      "_instruction": "Enter the age reference for the specified age value.",
+      "_linkedTypes": [
+        "controlledTerms:AgeReference"
+      ]
+    }
+  }
+}

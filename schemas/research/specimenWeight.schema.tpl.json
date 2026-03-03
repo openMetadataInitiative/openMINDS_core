@@ -1,0 +1,22 @@
+{
+  "_type": "core:SpecimenWeight",
+  "required": [
+    "type",
+    "weight"
+  ],
+  "properties": {
+    "type": {
+      "_instruction": "Enter the weight type for the specified weight value.",
+      "_linkedTypes": [
+        "controlledTerms:WeightType"
+      ]
+    },
+    "weight": {
+      "_instruction": "Enter the weight value.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue",
+        "core:QuantitativeValueRange"
+      ]
+    }
+  }
+}

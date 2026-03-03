@@ -15,7 +15,16 @@
       "_linkedCategories": [
         "anatomicalLocation"
       ]
-    },      
+    },     
+    "isPartOf": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all tissue sample collections of which this tissue sample collection is a subcollection.",
+      "_linkedTypes": [
+        "core:TissueSampleCollection"
+      ]
+    },
     "laterality": {
       "type": "array",      
       "minItems": 1,
