@@ -11,12 +11,6 @@
       "_instruction": "Enter any additional remarks concerning this grid image.",
       "type": "string"
     },
-    "capturedWith": {
-      "_instruction": "Add the device used to capture this grid image.",
-      "_linkedCategories": [
-        "deviceUsage"
-      ]
-    },
     "coordinateFramework": {
       "_instruction": "Add the coordinate space in which this grid image exists.",
       "_linkedTypes": [

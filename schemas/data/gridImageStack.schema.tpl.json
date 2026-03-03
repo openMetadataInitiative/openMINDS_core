@@ -12,12 +12,6 @@
       "_instruction": "Enter any additional remarks concerning this grid image stack.",
       "type": "string"
     },
-    "capturedWith": {
-      "_instruction": "Add the device used to capture this grid image stack.",
-      "_linkedCategories": [
-        "deviceUsage"
-      ]
-    },
     "coordinateFramework": {
       "_instruction": "Add the coordinate space in which this grid image stack exists.",
       "_linkedTypes": [
