@@ -1,8 +1,8 @@
 {
   "_type": "core:SpecimenWeight",
   "required": [
-    "weight",
-    "type"
+    "type",
+    "weight"
   ],
   "properties": {
     "weight": {
