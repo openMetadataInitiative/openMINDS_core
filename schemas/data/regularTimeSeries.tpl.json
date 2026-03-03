@@ -3,7 +3,6 @@
   "required": [
     "channel",
     "dataLocation",    
-    "recordedWith",   
     "samplingFrequency"
   ],
   "properties": {
@@ -39,12 +38,6 @@
       "_instruction": "If this recording is part of a sequence of recordings (e.g., multiple repetitions or sweeps), add the recording preceding this recording.",
       "_linkedTypes": [
         "ephys:Recording"
-      ]
-    },
-    "recordedWith": {
-      "_instruction": "Add the device used to generate this recording.",
-      "_linkedCategories": [
-        "deviceUsage"
       ]
     },
     "samplingFrequency": {
