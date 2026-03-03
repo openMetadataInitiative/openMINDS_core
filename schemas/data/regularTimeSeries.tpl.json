@@ -8,15 +8,15 @@
   "properties": {
     "additionalRemarks": {
       "type": "string",
-      "_instruction": "Enter any additional remarks concerning this recording."
+      "_instruction": "Enter any additional remarks concerning this regular time series."
     },
     "channel": {
       "type": "array",
       "minItems": 1,      
       "uniqueItems": true,
-      "_instruction": "Enter all channels used for this recording.",
+      "_instruction": "Enter all channels used for this regular time series.",
       "_embeddedTypes": [
-        "ephys:Channel"
+        "core:Channel"
       ]
     },
     "dataLocation": {
@@ -28,20 +28,20 @@
     },
     "internalIdentifier": {
       "type": "string",
-      "_instruction": "Enter the identifier (or label) of this recording that is used within the corresponding data files to identify this recording."
+      "_instruction": "Enter the identifier (or label) of this regular time series that is used within the corresponding data files to identify this regular time series."
     },
     "name": {
       "type": "string",
-      "_instruction": "Enter a descriptive name for this recording."
+      "_instruction": "Enter a descriptive name for this regular time series."
     },
-    "previousRecording": {      
-      "_instruction": "If this recording is part of a sequence of recordings (e.g., multiple repetitions or sweeps), add the recording preceding this recording.",
+    "previousRegularTimeSeries": {      
+      "_instruction": "If this regular time series is part of a sequence of regular time seriess (e.g., multiple repetitions or sweeps), add the regular time series preceding this regular time series.",
       "_linkedTypes": [
-        "ephys:Recording"
+        "core:RegularTimeSeries"
       ]
     },
     "samplingFrequency": {
-      "_instruction": "Enter the sampling frequency of this recording.",
+      "_instruction": "Enter the sampling frequency of this regular time series.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]
