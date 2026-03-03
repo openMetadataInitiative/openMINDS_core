@@ -12,12 +12,6 @@
       "_instruction": "Enter any additional remarks concerning this grid volume sequence.",
       "type": "string"
     },
-    "capturedWith": {
-      "_instruction": "Add the device used to capture this grid volume sequence.",
-      "_linkedCategories": [
-        "deviceUsage"
-      ]
-    },
     "coordinateFramework": {
       "_instruction": "Add the coordinate space in which this grid volume sequence exists.",
       "_linkedTypes": [
