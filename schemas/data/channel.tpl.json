@@ -7,7 +7,7 @@
   "properties": {
     "internalIdentifier": {
       "type": "string",
-      "_instruction": "Enter the identifier (or label) of this channel that is used within the corresponding data files to identify this channel."
+      "_instruction": "Enter the identifier (or label) used within the corresponding data files to uniquely identify this channel."
     },
     "unit": {
       "_instruction": "Add the unit of measurement for this channel.",
