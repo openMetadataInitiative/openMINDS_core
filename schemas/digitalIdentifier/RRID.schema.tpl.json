@@ -1,6 +1,6 @@
 {
   "_type": "core:RRID",
-  "_category": [
+  "_categories": [
     "datasetIdentifier",
     "organizationIdentifier",
     "toolIdentifier"
