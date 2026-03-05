@@ -28,7 +28,7 @@
     },
     "digitalIdentifier": {
       "type": "string",
-      "_instruction": "Add the digital identifier for this hardware product."
+      "_instruction": "Add the digital identifier for this hardware product.",
       "_linkedTypes": [
         "core:DOI",
         "core:GenericIdentifier",
