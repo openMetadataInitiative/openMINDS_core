@@ -3,6 +3,7 @@
   "required": [
     "contribution",
     "name",
+    "scope",
     "type"
   ],
   "properties": {
@@ -34,9 +35,27 @@
         "core:RRID"
       ]
     },
+    "keyword": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all relevant keywords to this hardware product, either by adding controlled terms or by suggesting new terms.",
+      "_linkedCategories": [
+        "keyword"
+      ]
+    },
     "name": {
       "type": "string",
       "_instruction": "Enter the model name for this hardware product defined by the manufacturer. In case of versioned models, the version identifier should be included in the name."
+    },
+    "scope": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add terms that describe what this hardware product does.",
+      "_linkedCategories": [
+        "toolScope"
+      ]
     },
     "specification": {
       "_instruction": "Add the specification(s) of this hardware product as property value list.",
