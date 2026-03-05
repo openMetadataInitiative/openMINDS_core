@@ -1,6 +1,6 @@
 {
   "_type": "core:LEI",
-  "_category": [
+  "_categories": [
     "organizationIdentifier"
   ],
   "required": [
