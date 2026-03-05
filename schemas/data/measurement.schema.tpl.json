@@ -15,12 +15,6 @@
         "controlledTerms:MeasuredQuantity"
       ]
     },
-    "measuredWith": {
-      "_instruction": "Add the device that was used during this measurement.",
-      "_linkedCategories": [
-        "deviceUsage"
-      ]
-    },
     "timestamp": {
       "type": "string",
       "_formats": [
