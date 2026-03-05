@@ -23,7 +23,7 @@
     },
     "internalIdentifier": {
       "type": "string",
-      "_instruction": "Enter the internal identifier for this device."
+      "_instruction": "Enter the identifier (or label) of this device that is used by the owner to identify or reference this device."
     },
     "name": {
       "type": "string",
