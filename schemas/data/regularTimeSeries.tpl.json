@@ -1,0 +1,50 @@
+{
+  "_type": "core:RegularTimeSeries",
+  "required": [
+    "channel",
+    "dataLocation",    
+    "samplingFrequency"
+  ],
+  "properties": {
+    "additionalRemarks": {
+      "type": "string",
+      "_instruction": "Enter any additional remarks concerning this regular time series."
+    },
+    "channel": {
+      "type": "array",
+      "minItems": 1,      
+      "uniqueItems": true,
+      "_instruction": "Enter all channels used for this regular time series.",
+      "_embeddedTypes": [
+        "core:Channel"
+      ]
+    },
+    "dataLocation": {
+      "_instruction": "Add the location of the file or file bundle in which the recorded data is stored.",
+      "_linkedTypes": [
+        "core:File",
+        "core:FileBundle"
+      ]
+    },
+    "internalIdentifier": {
+      "type": "string",
+      "_instruction": "Enter the identifier (or label) of this regular time series that is used within the corresponding data files to identify this regular time series."
+    },
+    "name": {
+      "type": "string",
+      "_instruction": "Enter a descriptive name for this regular time series."
+    },
+    "previousRegularTimeSeries": {      
+      "_instruction": "If this regular time series is part of a sequence of regular time seriess (e.g., multiple repetitions or sweeps), add the regular time series preceding this regular time series.",
+      "_linkedTypes": [
+        "core:RegularTimeSeries"
+      ]
+    },
+    "samplingFrequency": {
+      "_instruction": "Enter the sampling frequency of this regular time series.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    }
+  }
+}

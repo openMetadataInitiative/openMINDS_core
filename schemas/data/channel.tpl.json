@@ -1,0 +1,19 @@
+{
+  "_type": "core:Channel",
+  "required": [
+    "internalIdentifier",
+    "unit"
+  ],
+  "properties": {
+    "internalIdentifier": {
+      "type": "string",
+      "_instruction": "Enter the identifier (or label) used within the corresponding data files to uniquely identify this channel."
+    },
+    "unit": {
+      "_instruction": "Add the unit of measurement for this channel.",
+      "_linkedTypes": [
+        "controlledTerms:UnitOfMeasurement"
+      ]
+    }
+  }
+}
