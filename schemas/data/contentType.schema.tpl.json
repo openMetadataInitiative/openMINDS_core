@@ -3,7 +3,7 @@
   "required": [
     "name"  
   ],
-  "properties": {    
+  "properties": {
     "dataType": {
       "type": "array",
       "minItems": 1,
@@ -13,6 +13,18 @@
         "controlledTerms:DataType"
       ]
     },   
+    "definingSource":{
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Enter the internationalized resource identifiers (IRIs) of sources that define or document this content type, preferably authoritative registries (e.g., IANA), or reference documentation (e.g., mimetype.io) if no registry entry exists.",
+      "items": {
+        "type": "string",
+        "_formats": [
+          "iri"
+        ]
+      }
+    },
     "description": {
       "type": "string",
       "_instruction": "Enter a description of the content type specification. Leave blank if an official and public specification is linked under 'specification' for this content type."
@@ -30,17 +42,19 @@
         "type": "string"
       }
     },
+    "isBasedOn": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all content types this content type is based on.",
+      "_linkedTypes": [
+        "core:ContentType"
+      ]
+    },
     "name": {
       "type": "string",
       "_instruction": "Enter the name of this content type following a IANA.org inspired convention."
     },    
-    "relatedMediaType":{
-      "type": "string",
-      "_formats": [
-        "iri"
-      ],
-      "_instruction": "Enter the internationalized resource identifier (IRI) to the official registered media type (e.g., provided on IANA.org) matching this content type."
-    },
     "specification":{
       "type": "string",
       "_formats": [
