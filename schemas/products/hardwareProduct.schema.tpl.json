@@ -1,0 +1,83 @@
+{
+  "_type": "core:HardwareProduct",
+  "required": [
+    "contribution",
+    "name",
+    "scope",
+    "type"
+  ],
+  "properties": {
+    "contribution": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all relevant contributions (e.g., manufacturing, testing) for this hardware product.",
+      "_linkedCategories": [
+        "legalPerson"
+      ]
+    },
+    "copyright": {
+      "_instruction": "Enter the copyright information of this hardware product.",
+      "_embeddedTypes": [
+        "core:Copyright"
+      ]
+    },
+    "description": {
+      "type": "string",
+      "_instruction": "Enter a short text describing this hardware product."
+    },
+    "digitalIdentifier": {
+      "type": "string",
+      "_instruction": "Add the digital identifier for this hardware product.",
+      "_linkedTypes": [
+        "core:DOI",
+        "core:GenericIdentifier",
+        "core:RRID"
+      ]
+    },
+    "keyword": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all relevant keywords to this hardware product, either by adding controlled terms or by suggesting new terms.",
+      "_linkedCategories": [
+        "keyword"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "_instruction": "Enter the model name for this hardware product defined by the manufacturer. In case of versioned models, the version identifier should be included in the name."
+    },
+    "scope": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add terms that describe what this hardware product does.",
+      "_linkedCategories": [
+        "toolScope"
+      ]
+    },
+    "specification": {
+      "_instruction": "Add the specification(s) of this hardware product as property value list.",
+      "_linkedTypes": [
+        "core:PropertyValueList"
+      ]
+    },
+    "type": {
+      "_instruction": "Add the type of this hardware product.",
+      "_linkedTypes": [
+        "controlledTerms:DeviceType"
+      ]
+    },
+    "usageCondition": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all licenses and available usage agreements applicable to this hardware product.",
+      "_linkedTypes": [
+        "core:License",
+        "core:UsageAgreement"
+      ]
+    }
+  }
+}

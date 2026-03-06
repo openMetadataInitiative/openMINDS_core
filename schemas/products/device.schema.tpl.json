@@ -3,56 +3,42 @@
     "setupComponent"
   ],
   "required": [
-    "deviceType",
-    "name"
+    "contribution",
+    "name",
+    "type"
   ],
   "properties": {
     "description": {
       "type": "string",
-      "_instruction": "Enter a short text describing this device."
-    },    
-    "deviceType": {
-      "_instruction": "Add the type of this device.",
-      "_linkedTypes": [
-        "controlledTerms:DeviceType"
-      ]
+      "_instruction": "Enter a short description of the device. Describe the device itself for a custom-built device or note device-specific peculiarities or deviations from the standard product for a manufacturer-defined device."
     },
-    "digitalIdentifier": {
-      "_instruction": "Add the globally unique and persistent digital identifier of this device.",
-      "_linkedTypes": [
-        "core:DOI",
-        "core:RRID"
-      ]
-    },
-    "lookupLabel": {
-      "type": "string",
-      "_instruction": "Enter a lookup label for this device that may help you to find this instance more easily."
-    },
-    "manufacturer": {
+    "contribution": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add the manufacturer (private or industrial) that constructed this device.",
+      "_instruction": "Add all relevant contributions (e.g., ownership, maintenance) for this device.",
       "_linkedCategories": [
         "legalPerson"
       ]
+    },
+    "internalIdentifier": {
+      "type": "string",
+      "_instruction": "Enter the identifier (or label) of this device that is used by the owner to identify or reference this device."
     },
     "name": {
       "type": "string",
-      "_instruction": "Enter a descriptive name for this device, preferably including the model name as defined by the manufacturer."
-    },
-    "owner": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add all parties that legally own this device.",
-      "_linkedCategories": [
-        "legalPerson"
-      ]
+      "_instruction": "Enter a descriptive name for this device, preferably defined by the owner."
     },
     "serialNumber": {
       "type": "string",
       "_instruction": "Enter the serial number of this device."
+    },
+    "type": {
+      "_instruction": "Add the device classification reference. Identify a device type for a custom-built device, or a hardware product for a device corresponding to a manufacturer-defined product model.",
+      "_linkedTypes": [
+        "controlledTerms:DeviceType",
+        "core:HardwareProduct"
+      ]
     }
   }
 }
