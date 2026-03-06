@@ -17,7 +17,7 @@
       ]
     },
     "copyright": {
-      "_instruction": "Enter the copyright information of this hardware product version.",
+      "_instruction": "Enter the copyright information of this hardware product.",
       "_embeddedTypes": [
         "core:Copyright"
       ]
