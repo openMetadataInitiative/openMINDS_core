@@ -13,7 +13,7 @@
     "coordinateFramework": {
       "_instruction": "Add the coordinate space in which this grid volume exists.",
       "_linkedCategories": [
-        "coordinateFramework"
+        "specificCoordinateFramework"
       ]
     },
     "dataLocation": {
