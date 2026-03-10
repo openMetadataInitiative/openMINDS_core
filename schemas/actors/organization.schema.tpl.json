@@ -81,7 +81,7 @@
     },
     "type": {
       "_instruction": "Add the type of this organization (legal entity or organizational unit).",
-      "_embeddedTypes": [
+      "_linkedTypes": [
         "controlledTerms:OrganizationType"
       ]
     }
