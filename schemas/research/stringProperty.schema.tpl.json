@@ -5,6 +5,13 @@
     "value"
   ],
   "properties": {
+    "externalDefinitionOfName": {
+      "type": "string",
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifier (IRI) to an external definition of the property name."
+    },
     "name": {
       "type": "string",
       "_instruction": "Enter a descriptive name for this property."
