@@ -15,6 +15,12 @@
         "controlledTerms:MeasuredQuantity"
       ]
     },
+    "obtainedWith": {      
+      "_instruction": "Add the used device for obtaining this measurement.",
+      "_linkedCategories": [
+        "deviceUsage"
+      ]
+    },
     "timestamp": {
       "type": "string",
       "_formats": [

@@ -1,7 +1,6 @@
 {
   "_type": "core:GridImageSequence",
   "required": [
-    "coordinateFramework",
     "dataLocation",
     "dimension",
     "pixelSize",
@@ -14,9 +13,8 @@
     },
     "coordinateFramework": {
       "_instruction": "Add the coordinate space in which this grid image sequence exists.",
-      "_linkedTypes": [
-        "sands:CommonCoordinateFrameworkVersion",
-        "sands:CustomCoordinateFramework"
+      "_linkedCategories": [
+        "coordinateFramework"
       ]
     },
     "dataLocation": {
@@ -43,6 +41,12 @@
       "_instruction": "Enter the total number of grid images in this sequence (at least two).",
       "minimum": 2,
       "type": "integer"
+    },
+    "obtainedWith": {      
+      "_instruction": "Add the used device for obtaining this grid image sequence.",
+      "_linkedCategories": [
+        "deviceUsage"
+      ]
     },
     "pixelSize": {
       "_embeddedTypes": [

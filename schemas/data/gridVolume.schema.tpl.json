@@ -1,7 +1,6 @@
 {
   "_type": "core:GridVolume",
   "required": [
-    "coordinateFramework",
     "dataLocation",
     "dimension",
     "voxelSize"
@@ -13,9 +12,8 @@
     },
     "coordinateFramework": {
       "_instruction": "Add the coordinate space in which this grid volume exists.",
-      "_linkedTypes": [
-        "sands:CommonCoordinateFrameworkVersion",
-        "sands:CustomCoordinateFramework"
+      "_linkedCategories": [
+        "coordinateFramework"
       ]
     },
     "dataLocation": {
@@ -41,6 +39,12 @@
     "numberOfPlanes": {
       "_instruction": "Enter number of planes in this grid volume.",
       "type": "integer"
+    },
+    "obtainedWith": {      
+      "_instruction": "Add the used device for obtaining this grid volume.",
+      "_linkedCategories": [
+        "deviceUsage"
+      ]
     },
     "voxelSize": {
       "_embeddedTypes": [

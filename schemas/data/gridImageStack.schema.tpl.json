@@ -1,7 +1,6 @@
 {
   "_type": "core:GridImageStack",
   "required": [
-    "coordinateFramework",
     "dataLocation",
     "dimension",
     "pixelSize",
@@ -14,9 +13,8 @@
     },
     "coordinateFramework": {
       "_instruction": "Add the coordinate space in which this grid image stack exists.",
-      "_linkedTypes": [
-        "sands:CommonCoordinateFrameworkVersion",
-        "sands:CustomCoordinateFramework"
+      "_linkedCategories": [
+        "coordinateFramework"
       ]
     },
     "dataLocation": {
@@ -43,6 +41,12 @@
       "_instruction": "Enter the total number of consecutive grid image planes (optical sections) in this stack (at least two).",
       "minimum": 2,
       "type": "integer"
+    },
+    "obtainedWith": {      
+      "_instruction": "Add the used device for obtaining this grid image stack.",
+      "_linkedCategories": [
+        "deviceUsage"
+      ]
     },
     "pixelSize": {
       "_embeddedTypes": [
