@@ -1,7 +1,6 @@
 {
   "_type": "core:GridImage",
   "required": [
-    "coordinateFramework",
     "dataLocation",
     "dimension",
     "pixelSize"
@@ -13,9 +12,8 @@
     },
     "coordinateFramework": {
       "_instruction": "Add the coordinate space in which this grid image exists.",
-      "_linkedTypes": [
-        "sands:CommonCoordinateFrameworkVersion",
-        "sands:CustomCoordinateFramework"
+      "_linkedCategories": [
+        "specificCoordinateFramework"
       ]
     },
     "dataLocation": {
@@ -37,6 +35,12 @@
     "name": {
       "_instruction": "Enter a descriptive name of this grid image preferably matching the filename.",
       "type": "string"
+    },
+    "obtainedWith": {      
+      "_instruction": "Add the used device for obtaining this grid image.",
+      "_linkedCategories": [
+        "deviceUsage"
+      ]
     },
     "pixelSize": {
       "_embeddedTypes": [

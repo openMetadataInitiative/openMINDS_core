@@ -34,6 +34,12 @@
       "type": "string",
       "_instruction": "Enter a descriptive name for this regular time series."
     },
+    "obtainedWith": {      
+      "_instruction": "Add the used device for obtaining this regular time series.",
+      "_linkedCategories": [
+        "deviceUsage"
+      ]
+    },
     "previousRegularTimeSeries": {      
       "_instruction": "If this regular time series is part of a sequence of regular time seriess (e.g., multiple repetitions or sweeps), add the regular time series preceding this regular time series.",
       "_linkedTypes": [
