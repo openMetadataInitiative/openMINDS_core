@@ -35,9 +35,14 @@
       ]
     },
     "service": {
-      "_instruction": "Add the service in which the specified data can be opened.",
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all services in which the specified data can be opened by linking to each service’s interface (group of versions), specific interface version, or web resource.",
       "_linkedTypes": [
-        "controlledTerms:Service"
+        "core:Interface",
+        "core:InterfaceVersion",
+        "core:WebResource"
       ]
     }
   }
