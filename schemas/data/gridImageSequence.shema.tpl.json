@@ -14,7 +14,7 @@
     "coordinateFramework": {
       "_instruction": "Add the coordinate space in which this grid image sequence exists.",
       "_linkedCategories": [
-        "coordinateFramework"
+        "specificCoordinateFramework"
       ]
     },
     "dataLocation": {
