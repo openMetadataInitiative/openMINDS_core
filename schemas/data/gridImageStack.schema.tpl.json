@@ -4,7 +4,7 @@
     "dataLocation",
     "dimension",
     "pixelSize",
-    "z-stepSize"
+    "zStepSize"
   ],
   "properties": {
     "additionalRemarks": {
@@ -57,7 +57,7 @@
       "minItems": 2,
       "type": "array"
     },
-    "z-stepSize": {
+    "zStepSize": {
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ],
@@ -65,4 +65,3 @@
     }
   }
 }
-
