@@ -14,9 +14,9 @@
         "controlledTerms:AccessChannel"
       ]
     },
-    "description": {
+    "application": {
       "type": "string",
-      "_instruction": "Enter a description, including any relevant context, conditions, or practical details that complement the information captured in the structured properties."
+      "_instruction": "Enter guidance on when this access type should be selected. Describe the applicable access conditions, eligibility criteria, or usage scenario that distinguishes it from the other access types."
     },
     "eligibility": {
       "_instruction": "Add the relevant access eligibility type indicating who is allowed to access (open, controlled, or restricted).",
