@@ -58,7 +58,7 @@
       ]
     },
     "specification": {
-      "_instruction": "Add the specification(s) of this hardware product as property value list.",
+      "_instruction": "Add the specification(s) of this hardware product as a property-value list.",
       "_linkedTypes": [
         "core:PropertyValueList"
       ]

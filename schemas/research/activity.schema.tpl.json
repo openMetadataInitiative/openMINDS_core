@@ -23,7 +23,7 @@
         "date-time",
         "time"
       ],
-      "_instruction": "Enter the date and/or time on when this activity ended, formatted as either '2023-02-07T16:00:00+00:00' (date-time) or '16:00:00+00:00' (time)."
+      "_instruction": "Enter the date and/or time at which this activity ended, formatted as either '2023-02-07T16:00:00+00:00' (date-time) or '16:00:00+00:00' (time)."
     },
     "input": {
       "type": "array",
@@ -64,7 +64,7 @@
         "date-time",
         "time"
       ],
-      "_instruction": "Enter the date and/or time on when this activity started, formatted as either '2023-02-07T16:00:00+00:00' (date-time) or '16:00:00+00:00' (time)."
+      "_instruction": "Enter the date and/or time at which this activity started, formatted as either '2023-02-07T16:00:00+00:00' (date-time) or '16:00:00+00:00' (time)."
     },
     "studyTarget": {
       "type": "array",

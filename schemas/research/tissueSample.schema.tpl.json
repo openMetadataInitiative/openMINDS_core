@@ -36,7 +36,7 @@
       ]
     },
     "origin": {
-      "_instruction": "Add the biogical origin of this tissue sample.",
+      "_instruction": "Add the biological origin of this tissue sample.",
       "_linkedTypes": [
         "controlledTerms:CellType",
         "controlledTerms:Organ",
