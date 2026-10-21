@@ -108,7 +108,7 @@
       "_formats": [
         "date"
       ],
-      "_instruction": "Enter the date (actual or intended) on which this research product version was first release, formatted as 'YYYY-MM-DD'."
+      "_instruction": "Enter the date (actual or intended) on which this research product version was first released, formatted as 'YYYY-MM-DD'."
     },
     "repository": {
       "_instruction": "Add the file repository of this research product version.",

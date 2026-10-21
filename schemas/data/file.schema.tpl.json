@@ -54,7 +54,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all file bundles in which this file instance is grouped into.",
+      "_instruction": "Add all file bundles in which this file instance is grouped.",
       "_linkedTypes": [
         "core:FileBundle"
       ]

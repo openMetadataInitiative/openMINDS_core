@@ -37,7 +37,7 @@
       "type": "string"
     },
     "numberOfPlanes": {
-      "_instruction": "Enter number of planes in this grid volume.",
+      "_instruction": "Enter the number of planes in this grid volume.",
       "type": "integer"
     },
     "obtainedWith": {      

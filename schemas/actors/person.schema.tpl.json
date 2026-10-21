@@ -37,7 +37,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all globally unique and persistent digital identifier of this person.",
+      "_instruction": "Add all globally unique and persistent digital identifiers of this person.",
       "_linkedCategories": [
         "personIdentifier"
       ]
@@ -52,7 +52,7 @@
     },
     "preferredName": {
       "type": "string",
-      "_instruction": "Enter the person’s preferred way to write their name in a professional context. It is recommended to place given before family name separated by space."
+      "_instruction": "Enter the person’s preferred way to write their name in a professional context. It is recommended to place the given name before the family name, separated by a space."
     }
   }
 }
