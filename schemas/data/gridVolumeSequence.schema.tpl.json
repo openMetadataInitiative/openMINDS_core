@@ -25,7 +25,7 @@
       ]
     },
     "dimension": {
-      "_instruction": "Enter the dimension of grid volumes.",
+      "_instruction": "Enter the dimension of the grid volumes in this sequence.",
       "items": {
         "type": "integer"
       },
@@ -56,7 +56,7 @@
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ],
-      "_instruction": "Enter the rate at which consecutive grid volume are captured in a sequence, preferably measured in Hertz (Hz)."
+      "_instruction": "Enter the rate at which consecutive grid volumes are captured in a sequence, preferably measured in Hertz (Hz)."
     },
     "voxelSize": {
       "_embeddedTypes": [
