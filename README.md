@@ -11,7 +11,7 @@
 [![GitHub][license-shield]][license-url]
 [![GitHub contributors][contributors-shield]][contributors-url]
 
-The **openMINDS_core** repository hosts one of the schema modules of the **openMINDS metadata framework**. It defines modular metadata schemas for describing the general origin, location and content of neuroscience research products.
+The **openMINDS_core** repository hosts one of the schema modules of the **openMINDS metadata framework** that build the overall openMINDS metadata model. It defines modular metadata schemas for describing the general origin, location and content of neuroscience research products.
 
 To generally learn more about the openMINDS metadata framework please go to :arrow_right: [**ReadTheDocs**][docu-url].  
 There you can also explore directly the :arrow_right: [**openMINDS_core schema specifications**][docu-core-url].
