@@ -9,7 +9,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add the age category of the subject in this state.",
+      "_instruction": "Add the age category of the subject group in this state.",
       "_linkedTypes": [
         "controlledTerms:AgeCategory"
       ]

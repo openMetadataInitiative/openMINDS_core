@@ -7,7 +7,7 @@
     "negativeUncertainties": {
       "type": "array",
       "minItems": 2,
-      "_instruction": "Enter the negative uncertainties for all values. Note that the length of the arrays have to match.",
+      "_instruction": "Enter the negative uncertainties for all values. Note that the lengths of the arrays have to match.",
       "items": {
       	"type": "number"
       }
@@ -15,7 +15,7 @@
     "positiveUncertainties": {
       "type": "array",      
       "minItems": 2,
-      "_instruction": "Enter the positive uncertainties for all values. Note that the length of the arrays have to match.",
+      "_instruction": "Enter the positive uncertainties for all values. Note that the lengths of the arrays have to match.",
       "items": {
       	"type": "number"
       }

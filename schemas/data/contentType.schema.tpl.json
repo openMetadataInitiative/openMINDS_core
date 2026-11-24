@@ -53,7 +53,7 @@
     },
     "name": {
       "type": "string",
-      "_instruction": "Enter the name of this content type following a IANA.org inspired convention."
+      "_instruction": "Enter the name of this content type following an IANA.org-inspired convention."
     },    
     "specification":{
       "type": "string",

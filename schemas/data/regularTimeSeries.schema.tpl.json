@@ -41,7 +41,7 @@
       ]
     },
     "previousRegularTimeSeries": {      
-      "_instruction": "If this regular time series is part of a sequence of regular time seriess (e.g., multiple repetitions or sweeps), add the regular time series preceding this regular time series.",
+      "_instruction": "If this regular time series is part of a sequence of regular time series (e.g., multiple repetitions or sweeps), add the regular time series preceding this regular time series.",
       "_linkedTypes": [
         "core:RegularTimeSeries"
       ]

@@ -57,7 +57,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add the scope of this service, i.e., what analysis methods does it perform, what kinds of experimental data is it intended for.",
+      "_instruction": "Add the scope of this service, i.e., what analysis methods it performs and what kinds of experimental data it is intended for.",
       "_linkedCategories": [
         "toolScope"
       ]

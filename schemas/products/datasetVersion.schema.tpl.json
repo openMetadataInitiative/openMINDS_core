@@ -99,7 +99,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all specimens, sets of specimen or states that were studied in this dataset.",
+      "_instruction": "Add all specimens, sets of specimens or states that were studied in this dataset.",
       "_linkedTypes": [
         "core:Subject",
         "core:SubjectState",
